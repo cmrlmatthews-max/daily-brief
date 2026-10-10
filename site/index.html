@@ -60,35 +60,36 @@
   .page { max-width: 1180px; margin: 0 auto; padding: 0; }
 
   /* ---------- Masthead ---------- */
+  /* The two ears and the masthead image share one row. The image sets the row height; the ears fill it. */
   .mast-grid {
-    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 500px) minmax(0, 1fr);
+    display: grid; grid-template-columns: minmax(190px, 1fr) minmax(0, 620px) minmax(190px, 1fr);
     gap: 0 18px; align-items: stretch;
   }
-  .mast { margin: 0; min-width: 0; }
+  .mast { margin: 0; min-width: 0; align-self: center; }
   .mast img {
-    display: block; width: 100%; max-width: 500px; height: auto; margin: 0 auto;
+    display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto;
     mix-blend-mode: multiply;
   }
+  /* --fit scales every font size in an ear (set by the fill script). Padding stays in px. */
   .ear {
-    border: 1px solid var(--rule); padding: 8px 12px 9px; font-size: 14px; line-height: 1.25;
-    min-width: 0; max-width: 232px; width: 100%; text-align: left;
+    --fit: 1; position: relative; border: 1px solid var(--rule); min-width: 0; width: 100%;
+    min-height: var(--ear-min, 0px); font-size: calc(14px * var(--fit)); line-height: 1.25; text-align: left;
   }
-  .ear-scores { justify-self: start; }
-  .ear-edition { justify-self: end; }
+  .ear-in { position: absolute; inset: 0; padding: 9px 12px; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+  .ear-body { display: flex; flex-direction: column; min-width: 0; }
   .ear-title {
-    display: block; text-align: center; font: 500 11px/1 var(--f-label); letter-spacing: .28em;
-    text-transform: uppercase; padding-bottom: 6px; margin-bottom: 6px; border-bottom: 1px solid var(--rule-soft);
+    display: block; text-align: center; font: 500 .79em/1 var(--f-label); letter-spacing: .28em; padding-left: .28em;
+    text-transform: uppercase; padding-bottom: .55em; margin-bottom: calc(.4em + var(--pad, 0px)); border-bottom: 1px solid var(--rule-soft);
   }
-  .ear-scores .tm { display: block; padding: 3px 0; }
+  .ear-scores .tm { display: block; padding: calc(.2em + var(--pad, 0px)) 0; }
   .ear-scores .tm + .tm { border-top: 1px dotted var(--rule-soft); }
-  .ear-scores b { font: 600 12.5px/1.2 var(--f-label); letter-spacing: .08em; text-transform: uppercase; }
-  .ear-scores .res { font-family: var(--f-head); font-weight: 700; font-size: 13px; }
-  .ear-scores .opp { color: var(--ink-soft); }
-  .ear-scores .next { display: block; color: var(--ink-soft); font-style: italic; font-size: 12.5px; }
-  .ear-edition { display: flex; flex-direction: column; justify-content: center; text-align: center; gap: 6px; }
-  .ear-edition .ear-title { width: 100%; }
-  .ear-edition .ed { font-family: var(--f-head); font-weight: 900; font-style: italic; font-size: 21px; line-height: 1.05; }
-  .ear-edition .dt { font-size: 14px; color: var(--ink-soft); }
+  .ear-scores b { font: 600 .9em/1.2 var(--f-label); letter-spacing: .08em; text-transform: uppercase; }
+  .ear-scores .res { font-family: var(--f-head); font-weight: 700; font-size: .93em; }
+  .ear-scores .opp { color: var(--ink-soft); white-space: nowrap; }
+  .ear-scores .next { display: block; color: var(--ink-soft); font-style: italic; font-size: .9em; }
+  .ear-edition .ear-body { text-align: center; gap: calc(.3em + var(--pad, 0px)); padding: var(--pad, 0px) 0; }
+  .ear-edition .ed { font-family: var(--f-head); font-weight: 900; font-style: italic; font-size: 1.55em; line-height: 1.05; overflow-wrap: break-word; }
+  .ear-edition .dt { font-size: 1em; color: var(--ink-soft); }
 
   .dateline {
     display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; padding: 5px 2px 4px;
@@ -117,9 +118,9 @@
     to   { transform: scale(1.14) translate(var(--tx, -1.5%), var(--ty, -1%)); }
   }
   @media (prefers-reduced-motion: reduce) { .frame img { animation: none; will-change: auto; } }
-  .frame.r32 { aspect-ratio: 3 / 2; margin: 4px 3px 10px; }
-  .frame.thumb { float: right; width: 72px; height: 72px; margin: 4px 3px 6px 14px; }
-  .sec .frame.thumb { width: 68px; height: 68px; }
+  .frame.r32 { aspect-ratio: var(--ar, 1.5); margin: 4px 3px calc(10px + var(--gap, 0px) * .5); }
+  .frame.thumb { float: right; width: calc(72px * var(--fit, 1)); height: calc(72px * var(--fit, 1)); margin: 4px 3px 6px 14px; }
+  .sec .frame.thumb { width: calc(68px * var(--fit, 1)); height: calc(68px * var(--fit, 1)); }
   /* Embedded video fills the 3:2 box: a 16:9 player is widened so it covers it. */
   .frame iframe {
     position: absolute; top: 0; left: 50%; width: 118.6%; height: 100%; border: 0;
@@ -136,19 +137,30 @@
   }
   .lead-photo { margin: 0; min-width: 0; }
   .lead-photo .frame.r32 { margin: 0 3px 0; }
-  .cap { margin: 8px 2px 0; font-size: 13px; font-style: italic; color: var(--ink-soft); text-align: center; line-height: 1.25; }
-  .cap b { font: 500 11px/1 var(--f-label); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .cap { margin: calc(8px + var(--gap, 0px) * .5) 2px 0; font-size: calc(13px * var(--fit, 1)); font-style: italic; color: var(--ink-soft); text-align: center; line-height: 1.25; }
+  .cap b { font: 500 .85em/1 var(--f-label); font-style: normal; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
 
   /* ---------- Common text ---------- */
-  .hd { margin: 0; font-family: var(--f-head); font-weight: 700; line-height: 1.14; font-size: 18px; overflow-wrap: anywhere; text-align: left; }
-  .note { margin: 4px 0 0; font-size: 16.5px; line-height: 1.34; text-align: justify; hyphens: auto; }
-  .src { display: block; margin-top: 4px; font: 500 11.5px/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  /* The fill script sets --fit (font scale), --lh (extra line height), --ls (letter spacing) and --gap
+     (extra spacing, px) on a column. Without it every var falls back to the base design. */
+  .hd {
+    margin: 0; font-family: var(--f-head); font-weight: 700; font-size: calc(18px * var(--fit, 1));
+    line-height: calc(1.14 + var(--lh, 0) * .5); letter-spacing: var(--ls, normal); overflow-wrap: anywhere; text-align: left;
+  }
+  .note {
+    margin: calc(4px + var(--gap, 0px) * .5) 0 0; font-size: calc(16.5px * var(--fit, 1));
+    line-height: calc(1.34 + var(--lh, 0)); letter-spacing: var(--ls, normal); text-align: justify; hyphens: auto;
+  }
+  .src { display: block; margin-top: calc(4px + var(--gap, 0px) * .5); font: 500 calc(11.5px * var(--fit, 1))/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
   .src::before { content: "— "; }
-  .kicker { display: block; font: 600 11.5px/1.2 var(--f-label); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
-  .item { display: flow-root; padding: 0 0 12px; margin: 0 0 12px; border-bottom: 1px solid var(--rule-soft); }
+  .kicker { display: block; font: 600 calc(11.5px * var(--fit, 1))/1.2 var(--f-label); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 3px; }
+  .item {
+    display: flow-root; padding: 0 0 calc(12px + var(--gap, 0px) * .5); margin: 0 0 calc(12px + var(--gap, 0px) * .5);
+    border-bottom: 1px solid var(--rule-soft);
+  }
   .item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
-  .item.feature .hd { font-weight: 900; font-size: 24px; line-height: 1.07; }
-  .item.feature .note { font-size: 17px; }
+  .item.feature .hd { font-weight: 900; font-size: calc(24px * var(--fit, 1)); line-height: calc(1.07 + var(--lh, 0) * .5); }
+  .item.feature .note { font-size: calc(17px * var(--fit, 1)); }
 
   /* ---------- Top story ---------- */
   .lead-block { padding: 16px 0 22px; border-bottom: 3px double var(--rule); }
@@ -160,26 +172,29 @@
     grid-template-areas: "text center front"; gap: 0 30px; align-items: start; margin-top: 16px;
   }
   .lead-grid.no-front { grid-template-columns: minmax(0, .95fr) minmax(0, 1.6fr); grid-template-areas: "text center"; }
-  .lead-center { grid-area: center; min-width: 0; text-align: center; container-type: inline-size; }
-  .lead-text { grid-area: text; min-width: 0; }
-  .front-col { grid-area: front; min-width: 0; }
+  .lead-center { grid-area: center; min-width: 0; text-align: center; container-type: inline-size; display: flow-root; }
+  .lead-text { grid-area: text; min-width: 0; display: flow-root; --fs: calc(17px * var(--fit, 1)); --lhr: calc(1.38 + var(--lh, 0)); }
+  .front-col { grid-area: front; min-width: 0; display: flow-root; }
   .lead-head {
     margin: 0; font-family: var(--f-display); font-weight: 700; text-transform: uppercase; text-align: center;
     font-size: clamp(40px, 5.4vw, 78px); font-size: clamp(40px, 15cqw, 84px);
-    line-height: .98; letter-spacing: .005em; overflow-wrap: anywhere; text-wrap: balance;
+    line-height: .98; letter-spacing: .005em; overflow-wrap: normal; text-wrap: balance;
   }
-  .decks { margin: 14px 0 16px; }
+  .decks { margin: calc(14px + var(--gap, 0px) * .5) 0 calc(16px + var(--gap, 0px) * .5); }
   .deck {
-    margin: 0; font: 500 17px/1.2 var(--f-label); letter-spacing: .05em; text-transform: uppercase; text-wrap: balance;
+    margin: 0; font: 500 calc(17px * var(--fit, 1))/calc(1.2 + var(--lh, 0) * .5) var(--f-label); letter-spacing: calc(.05em + var(--ls, 0em)); text-transform: uppercase; text-wrap: balance;
   }
   .deck + .deck::before { content: ""; display: block; width: 44px; height: 1px; background: var(--rule); margin: 7px auto; }
-  .lead-head + .lead-photo { margin-top: 16px; }
-  .lead-note { margin: 0; font-size: 17px; line-height: 1.38; text-align: justify; hyphens: auto; }
-  /* Drop cap: an engraved square initial with a double border, an inner rule, and corner studs. */
+  .lead-head + .lead-photo { margin-top: calc(16px + var(--gap, 0px) * .5); }
+  .lead-note { margin: 0; font-size: var(--fs); line-height: var(--lhr); letter-spacing: var(--ls, normal); text-align: justify; hyphens: auto; }
+  /* Drop cap: an engraved initial with a double border, an inner rule, and corner studs.
+     Its margin box is exactly 4 text lines tall (height + bottom margin), so the text wraps tight around it. */
   .dropcap {
-    float: left; position: relative; width: 62px; height: 62px; margin: 6px 12px 4px 4px;
+    --h: calc(var(--fs) * var(--lhr) * 4);
+    float: left; position: relative; box-sizing: border-box; height: calc(var(--h) - 6px); width: calc(var(--h) * .74);
+    margin: 0 16px 6px 5px; letter-spacing: 0; text-indent: 0;
     display: flex; align-items: center; justify-content: center;
-    font: 900 40px/1 var(--f-head); color: var(--ink); text-shadow: 1px 1px 0 var(--rule-soft);
+    font: 900 calc(var(--h) * .6)/1 var(--f-head); color: var(--ink); text-shadow: 1px 1px 0 var(--rule-soft);
     border: 4px double var(--ink);
     background: repeating-linear-gradient(135deg, rgba(28, 25, 20, .10) 0 1px, transparent 1px 3px), var(--paper-hi);
   }
@@ -192,20 +207,22 @@
       radial-gradient(circle, var(--ink) 0 2.2px, transparent 2.8px) left bottom / 9px 9px no-repeat,
       radial-gradient(circle, var(--ink) 0 2.2px, transparent 2.8px) right bottom / 9px 9px no-repeat;
   }
-  .fleuron { color: var(--accent); margin-left: .3em; font-size: 14px; }
-  .more { display: inline-block; margin-top: 12px; font: 500 12.5px/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .fleuron { color: var(--accent); margin-left: .3em; font-size: .85em; }
+  .more { display: inline-block; margin-top: calc(12px + var(--gap, 0px) * .5); font: 500 calc(12.5px * var(--fit, 1))/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
   .more:hover { text-decoration: underline; text-underline-offset: 3px; }
-  .lead-text .src { margin-top: 8px; clear: both; }
+  .lead-text .src { margin-top: calc(8px + var(--gap, 0px) * .5); clear: both; }
+  .lead-text .more { display: block; width: max-content; }
   .front-label {
-    display: block; font: 500 12px/1 var(--f-label); letter-spacing: .22em; text-transform: uppercase;
+    display: block; font: 500 calc(12px * var(--fit, 1))/1 var(--f-label); letter-spacing: .22em; text-transform: uppercase;
     padding: 0 0 7px; margin: 0 0 12px; border-bottom: 3px double var(--rule);
   }
-  .front-col .item .hd { font-size: 18px; }
-  .front-col .item .note { font-size: 15.5px; }
+  .front-col .item .hd { font-size: calc(18px * var(--fit, 1)); }
+  .front-col .item .note { font-size: calc(15.5px * var(--fit, 1)); }
 
   /* ---------- Section columns ---------- */
   .cols { display: grid; grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); gap: 0 26px; padding-top: 16px; }
   .sec { min-width: 0; }
+  .items { display: flow-root; }
   .sec + .sec { border-left: 1px solid var(--rule-soft); padding-left: 26px; }
   .sec-head {
     display: flex; align-items: center; justify-content: space-between; gap: 8px;
@@ -221,9 +238,10 @@
   .world .sec-head .ttl { flex: none; }
   .world .sec-head .orn { color: var(--accent); font-weight: 400; font-size: 20px; }
   .world-grid { display: grid; grid-template-columns: repeat(var(--wn, 4), minmax(0, 1fr)); gap: 0 24px; }
+  .wcell { min-width: 0; }
+  .wcell + .wcell { border-left: 1px solid var(--rule-soft); padding-left: 24px; }
   .world-grid .item { border-bottom: 0; margin: 0; padding: 0; }
-  .world-grid .item + .item { border-left: 1px solid var(--rule-soft); padding-left: 24px; }
-  .world-grid .item .hd { font-weight: 900; font-size: 18px; }
+  .world-grid .item .hd { font-weight: 900; font-size: calc(18px * var(--fit, 1)); }
 
   /* ---------- Index ---------- */
   .index {
@@ -250,11 +268,11 @@
   .classified input::placeholder { color: var(--ink-soft); opacity: 1; }
   .empty { text-align: center; font-style: italic; color: var(--ink-soft); padding: 50px 0; font-size: 18px; }
 
-  /* ---------- Tablet: 600 to 999px ---------- */
+  /* ---------- Tablet: under 1000px ---------- */
   @media (max-width: 999px) {
     .mast-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
     .mast { grid-column: 1 / -1; order: -1; }
-    .ear { max-width: none; }
+    .mast img { max-width: 620px; }
     .ear-scores, .ear-edition { justify-self: stretch; }
     .lead-grid, .lead-grid.no-front {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -262,29 +280,35 @@
     }
     .lead-grid.no-front { grid-template-areas: "center center" "text text"; }
     .lead-head { font-size: clamp(40px, 9vw, 84px); font-size: clamp(40px, 11cqw, 84px); }
-    .lead-photo { max-width: 620px; margin-left: auto; margin-right: auto; }
+    .lead-center { --ar: 2; }
+    .sec-head { font-size: 17px; letter-spacing: .06em; gap: 4px; }
+    .sec-head .orn-img { height: 16px; width: auto; }
+    .cols { gap: 0 20px; }
+    .sec + .sec { padding-left: 20px; }
+    .world-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 24px; }
+    .wcell + .wcell { border-left: 0; padding-left: 0; }
+    .wcell:nth-child(even) { border-left: 1px solid var(--rule-soft); padding-left: 24px; }
+  }
+  @media (max-width: 719px) {
+    .sec-head { font-size: 22px; letter-spacing: .1em; }
     .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 24px; }
     .sec + .sec { border-left: 0; padding-left: 0; }
     .cols .sec:nth-child(even) { border-left: 1px solid var(--rule-soft); padding-left: 24px; }
     .cols .sec:last-child:nth-child(odd) { grid-column: 1 / -1; }
-    .world-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 24px; }
-    .world-grid .item + .item { border-left: 0; padding-left: 0; }
-    .world-grid .item:nth-child(even) { border-left: 1px solid var(--rule-soft); padding-left: 24px; }
   }
 
   /* ---------- Phone: under 600px ---------- */
   @media (max-width: 599px) {
     body { padding: 10px 16px 36px; font-size: 16.5px; }
     .mast-grid { display: flex; flex-direction: column; gap: 0; }
-    .ear {
-      max-width: none; margin-top: 7px; padding: 4px 8px; font-size: 12.5px; text-align: center;
-    }
+    .ear { margin-top: 7px; font-size: 12.5px; text-align: center; min-height: 0; }
+    .ear-in { position: static; padding: 4px 8px; display: block; }
+    .ear-body { display: block; padding: 0; }
     .ear-title { display: none; }
     .ear-scores .tm { display: inline; padding: 0; border: 0 !important; }
     .ear-scores .tm:not(:last-child)::after { content: " · "; color: var(--accent); }
     .ear-scores b { font-size: 11.5px; }
     .ear-scores .opp, .ear-scores .next { display: none; }
-    .ear-edition { display: block; }
     .ear-edition .ed, .ear-edition .dt { display: inline; font-size: 12.5px; }
     .ear-edition .ed::after { content: " · "; color: var(--accent); font-style: normal; }
     .dateline { margin-top: 12px; font-size: 10.5px; letter-spacing: .14em; }
@@ -300,10 +324,12 @@
     .cols .sec, .cols .sec:nth-child(even) { border-left: 0; padding-left: 0; margin-bottom: 22px; }
     .cols .sec:last-child { margin-bottom: 0; }
     .world-grid { display: block; }
-    .world-grid .item, .world-grid .item + .item, .world-grid .item:nth-child(even) {
+    .wcell, .wcell + .wcell, .wcell:nth-child(even) {
       border-left: 0; padding: 0 0 12px; margin: 0 0 12px; border-bottom: 1px solid var(--rule-soft);
     }
-    .world-grid .item:last-child { border-bottom: 0; margin: 0; padding: 0; }
+    .wcell:last-child { border-bottom: 0; margin: 0; padding: 0; }
+    .lead-center { --ar: 1.5; }
+    .sec-head .orn-img { height: 21px; }
     .item.feature .hd { font-size: 22px; }
     .sec-head { font-size: 20px; }
     .index { font-size: 14px; line-height: 1.9; }
@@ -314,12 +340,12 @@
 <body>
 <div class="page" id="page">
   <header class="mast-grid">
-    <aside class="ear ear-scores" id="ear-scores" hidden aria-label="Team scores"></aside>
+    <aside class="ear ear-scores" id="ear-scores" hidden aria-label="Team scores"><div class="ear-in"><div class="ear-body"></div></div></aside>
     <h1 class="mast" id="masthead">
       <span class="sr-only">CMRLM — The Daily Brief</span>
       <img src="img/masthead.png" width="485" height="185" alt="CMRLM — The Daily Brief">
     </h1>
-    <aside class="ear ear-edition" id="ear-edition" hidden aria-label="Edition"></aside>
+    <aside class="ear ear-edition" id="ear-edition" hidden aria-label="Edition"><div class="ear-in"><div class="ear-body"></div></div></aside>
   </header>
   <div class="dateline" id="dateline" hidden></div>
   <main id="content"></main>
@@ -330,6 +356,11 @@
 (function () {
   "use strict";
   var content = document.getElementById("content");
+  var mastImg = document.querySelector("#masthead img");
+  if (mastImg) {
+    mastImg.addEventListener("load", function () { Fit.schedule(); });
+    mastImg.addEventListener("error", function () { Fit.schedule(); });
+  }
   var LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
   var CALM = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   var VIDEO_ID = /^[A-Za-z0-9_-]{11}$/;
@@ -373,15 +404,25 @@
     if (href) { openLink(box, href); box.tabIndex = -1; box.setAttribute("aria-hidden", "true"); }
     var img = document.createElement("img");
     img.alt = "";
-    img.loading = opts.eager ? "eager" : "lazy";
+    img.loading = "eager";   // the fill script needs the real layout, so nothing waits for a scroll
     img.decoding = "async";
     img.referrerPolicy = "no-referrer";
     img.setAttribute("referrerpolicy", "no-referrer");
-    img.addEventListener("error", function () {
+    var dead = false;
+    // A picture that fails, loads blank, or has not arrived in 8 s is removed, never left as an empty frame.
+    function drop() {
+      if (dead) return;
+      dead = true;
       var victim = gone || box;
       if (victim.parentNode) victim.parentNode.removeChild(victim);
       if (opts.onGone) opts.onGone();
+      Fit.schedule();
+    }
+    img.addEventListener("error", drop);
+    img.addEventListener("load", function () {
+      if (img.naturalWidth < 8 || img.naturalHeight < 8) drop(); else Fit.schedule();
     });
+    setTimeout(function () { if (!dead && !(img.complete && img.naturalWidth >= 8)) drop(); }, 8000);
     live(img);
     img.src = src;
     box.appendChild(img);
@@ -435,9 +476,10 @@
 
   function renderScores(scores) {
     var ear = document.getElementById("ear-scores");
-    ear.appendChild(el("span", "ear-title", "Score"));
+    var body = ear.querySelector(".ear-body");
+    body.appendChild(el("span", "ear-title", "Score"));
     if (!Array.isArray(scores) || !scores.length) {
-      ear.appendChild(el("div", "tm", "No scores today."));
+      body.appendChild(el("div", "tm", "No scores today."));
       ear.hidden = false;
       return;
     }
@@ -463,16 +505,16 @@
       }
       row.appendChild(sc2);
       if (s.next) row.appendChild(el("span", "next", "Next: " + s.next));
-      ear.appendChild(row);
+      body.appendChild(row);
     });
     ear.hidden = false;
   }
 
   function renderEdition(b) {
     var ear = document.getElementById("ear-edition");
-    ear.appendChild(el("span", "ear-title", "Edition"));
-    ear.appendChild(el("span", "ed", b.edition || "Atlanta Edition"));
-    if (b.date_label) ear.appendChild(el("span", "dt", b.date_label));
+    var body = ear.querySelector(".ear-body");
+    body.appendChild(el("span", "ed", b.edition || "Atlanta Edition"));
+    if (b.date_label) body.appendChild(el("span", "dt", b.date_label));
     ear.hidden = false;
   }
 
@@ -605,7 +647,11 @@
     w.appendChild(head);
     var grid = el("div", "world-grid");
     grid.style.setProperty("--wn", String(Math.min(sec.items.length, 4)));
-    sec.items.forEach(function (it) { grid.appendChild(story(it, { photo: "r32", kicker: "source" })); });
+    sec.items.forEach(function (it) {
+      var cell = el("div", "wcell");
+      cell.appendChild(story(it, { photo: "r32", kicker: "source" }));
+      grid.appendChild(cell);
+    });
     w.appendChild(grid);
     return w;
   }
@@ -688,7 +734,232 @@
     }
     renderIndex(entries);
     renderFoot(b, when);
+    Fit.run();
+    Fit.schedule(300);
   }
+
+
+  // ---------- Fill engine ----------
+  // After the page is built, fonts load, a picture arrives or fails, or the window resizes, this script
+  // evens out the blocks so no column ends short. It only changes CSS custom properties:
+  //   --fit scales the type, --lh adds line height, --ls adds letter spacing, --gap adds spacing in px,
+  //   --ar changes a photo's aspect ratio. The base design lives in the CSS. Under 600px nothing is applied.
+  var Fit = (function () {
+    var MIN_W = 600, ITER = 11, TOL = 0.5, timer = null, busy = false;
+    var VARS = ["--fit", "--lh", "--ls", "--gap", "--ar", "--pad", "--ear-min"];
+
+    function setv(e, k, v) { e.style.setProperty(k, v); }
+    function clearVars(e) { VARS.forEach(function (k) { e.style.removeProperty(k); }); }
+    function all(sel) { return Array.prototype.slice.call(content.querySelectorAll(sel)); }
+    function rect(e) { return e.getBoundingClientRect(); }
+
+    // Largest v in [lo, hi] for which ok(v) holds. Assumes ok(lo). The winner is left applied.
+    function maxFit(apply, ok, lo, hi) {
+      apply(hi);
+      if (ok()) return hi;
+      apply(lo);
+      for (var i = 0; i < ITER; i++) {
+        var mid = (lo + hi) / 2;
+        apply(mid);
+        if (ok()) lo = mid; else hi = mid;
+      }
+      apply(lo);
+      return lo;
+    }
+    // Smallest v in [lo, hi] for which ok(v) holds. Assumes ok(hi); if even hi fails, hi stays applied.
+    function minFit(apply, ok, lo, hi) {
+      apply(lo);
+      if (ok()) return lo;
+      apply(hi);
+      if (!ok()) return hi;
+      for (var i = 0; i < ITER; i++) {
+        var mid = (lo + hi) / 2;
+        apply(mid);
+        if (ok()) hi = mid; else lo = mid;
+      }
+      apply(hi);
+      return hi;
+    }
+
+    // ---- Lead headline: never wider than its column, at most 4 lines (6 when there is no photo). ----
+    function fitHead() {
+      var h = content.querySelector(".lead-head");
+      if (!h) return;
+      h.style.removeProperty("font-size");
+      h.style.removeProperty("overflow-wrap");
+      var box = h.parentNode, w = box.clientWidth;
+      if (!w) return;
+      var phone = window.innerWidth < MIN_W;
+      var lines = box.querySelector(".lead-photo .frame") ? 4 : 6;
+      var hi = phone ? (parseFloat(getComputedStyle(h).fontSize) || 40) : Math.min(120, w * 0.23), lo = 22;
+      function ok() {
+        if (h.scrollWidth > h.clientWidth) return false;
+        var lh = parseFloat(getComputedStyle(h).lineHeight) || parseFloat(h.style.fontSize) || 20;
+        return rect(h).height <= lh * lines + 1;
+      }
+      function apply(v) { h.style.fontSize = v.toFixed(2) + "px"; }
+      apply(lo);
+      if (!ok()) { h.style.overflowWrap = "anywhere"; return; }   // last resort: break the longest word
+      maxFit(apply, ok, lo, hi);
+    }
+
+    // ---- Ears: scale the type so the content fills the box height. ----
+    function fitEars() {
+      var ears = ["ear-scores", "ear-edition"].map(function (id) { return document.getElementById(id); })
+        .filter(function (e) { return e && !e.hidden; });
+      if (!ears.length) return;
+      var CHROME = 20;   // 2px border + 18px padding
+      var tablet = window.innerWidth < 1000;
+      function body(e) { return e.querySelector(".ear-body"); }
+      function bh(e) { return rect(body(e)).height; }
+      var box = Math.max.apply(null, ears.map(function (e) { return rect(e).height; }));
+      var need = Math.max.apply(null, ears.map(function (e) { setv(e, "--fit", tablet ? 1 : 0.8); return bh(e); }));
+      if (need + CHROME > box + TOL) {
+        box = need + CHROME;
+        ears.forEach(function (e) { setv(e, "--ear-min", box + "px"); });
+      }
+      var inner = box - CHROME;
+      ears.forEach(function (e) {
+        var b = body(e);
+        function ok() { return bh(e) <= inner + TOL && b.scrollWidth <= b.clientWidth + 1; }
+        maxFit(function (v) { setv(e, "--fit", v.toFixed(4)); }, ok, 0.8, 2.2);
+        spread(e, "--pad", function () { return inner - bh(e); }, bh, 40);
+      });
+    }
+
+    // Close a remaining gap by adding px spacing through a custom property. Works out the slope first.
+    function spread(e, prop, gapFn, measure, cap) {
+      var r = gapFn();
+      if (r <= TOL) return;
+      setv(e, prop, "0px");
+      var m0 = measure(e);
+      setv(e, prop, "20px");
+      var slope = (measure(e) - m0) / 20;
+      if (slope < 0.05) { setv(e, prop, "0px"); return; }
+      setv(e, prop, Math.min(cap, Math.max(0, r / slope)).toFixed(2) + "px");
+    }
+
+    // ---- Columns ----
+    // A column is { el, end, photo, order }. Its height is measured from its top to the bottom of its last block.
+    function extent(c) { return rect(c.end()).bottom - rect(c.el).top; }
+    function hasPhoto(c) { return !!c.el.querySelector(".frame.r32"); }
+    var DEFAULT_ORDER = ["fit", "lh", "ls", "ar"], CENTER_ORDER = ["ar", "fit", "lh", "ls"];
+
+    function lever(c, name, T) {
+      var ok = function () { return extent(c) <= T + TOL; };
+      if (name === "fit") maxFit(function (v) { setv(c.el, "--fit", v.toFixed(4)); }, ok, 1, 1.6);
+      else if (name === "lh") maxFit(function (v) { setv(c.el, "--lh", v.toFixed(4)); }, ok, 0, 0.26);
+      else if (name === "ls") maxFit(function (v) { setv(c.el, "--ls", v.toFixed(5) + "em"); }, ok, 0, 0.02);
+      else if (name === "ar" && hasPhoto(c)) {
+        maxFit(function (t) { setv(c.el, "--ar", (c.ar0 + t * (1.1 - c.ar0)).toFixed(4)); }, ok, 0, 1);
+      }
+    }
+
+    // Grow a short column up to T: type, then line height, letter spacing, photo, and finally spacing.
+    function grow(c, T) {
+      var order = c.order;
+      for (var i = 0; i < order.length; i++) {
+        if (T - extent(c) <= 1) return;
+        lever(c, order[i], T);
+      }
+      if (T - extent(c) > TOL) spread(c.el, "--gap", function () { return T - extent(c); }, function () { return extent(c); }, 140);
+    }
+
+    // Shrink a column that is taller than T: shorten the photo, then scale the type down.
+    function shrink(c, T, minScale) {
+      var ok = function () { return extent(c) <= T + TOL; };
+      if (ok()) return;
+      if (hasPhoto(c)) minFit(function (t) { setv(c.el, "--ar", (c.ar0 + t * (3 - c.ar0)).toFixed(4)); }, ok, 0, 1);
+      if (ok()) return;
+      maxFit(function (v) { setv(c.el, "--fit", v.toFixed(4)); }, ok, minScale || 0.6, 1);
+    }
+
+    function makeCol(el, endSel, order) {
+      var c = { el: el, order: order || DEFAULT_ORDER };
+      c.end = function () { return endSel ? (el.querySelector(endSel) || el.lastElementChild || el) : (el.lastElementChild || el); };
+      var v = parseFloat(getComputedStyle(el).getPropertyValue("--ar"));
+      c.ar0 = v > 0 ? v : 1.5;
+      return c;
+    }
+
+    // Cluster elements into visual rows (same offsetTop), so tablet layouts equalize row by row.
+    function rows(els) {
+      var map = {}, keys = [];
+      els.forEach(function (e) {
+        var k = String(e.offsetTop);
+        if (!map[k]) { map[k] = []; keys.push(k); }
+        map[k].push(e);
+      });
+      return keys.map(function (k) { return map[k]; });
+    }
+
+    function equalize(cols) {
+      if (cols.length < 2) return;
+      var nat = cols.map(extent);
+      // A column with a photo may not set an absurd height: cap it near 1.2x the tallest of the others
+      // by flattening its photo (then by shrinking its type). Shorter columns then grow up to the new height.
+      cols.forEach(function (c, i) {
+        if (!hasPhoto(c)) return;
+        var others = Math.max.apply(null, nat.filter(function (_, j) { return j !== i; }));
+        if (nat[i] > others * 1.2) { shrink(c, others * 1.2, 0.85); nat[i] = extent(c); }
+      });
+      var T = Math.max.apply(null, nat);
+      cols.forEach(function (c, i) {
+        if (nat[i] > T + TOL) shrink(c, T);
+        else if (T - nat[i] > TOL) grow(c, T);
+      });
+    }
+
+    function run() {
+      timer = null;
+      if (busy || !content.firstElementChild) return;
+      busy = true;
+      try {
+        var ears = [document.getElementById("ear-scores"), document.getElementById("ear-edition")];
+        ears.forEach(function (e) { if (e) clearVars(e); });
+        all(".lead-text, .lead-center, .front-col, .sec, .wcell").forEach(clearVars);
+        fitHead();
+        if (window.innerWidth < MIN_W) return;
+
+        fitEars();
+
+        // Top story: text, centre and front-page stories end on one baseline.
+        var t = content.querySelector(".lead-text"), m = content.querySelector(".lead-center"), f = content.querySelector(".front-col");
+        var top = [];
+        if (t) top.push(makeCol(t, null, DEFAULT_ORDER));
+        if (m) top.push(makeCol(m, null, CENTER_ORDER));
+        if (f) top.push(makeCol(f, ".front-list", DEFAULT_ORDER));
+        var topEls = top.map(function (c) { return c.el; });
+        rows(topEls).forEach(function (r) {
+          equalize(top.filter(function (c) { return r.indexOf(c.el) >= 0; }));
+        });
+
+        // Section columns, then the World band.
+        rows(all(".cols .sec")).forEach(function (r) {
+          equalize(r.map(function (e) { return makeCol(e, ".items"); }));
+        });
+        rows(all(".wcell")).forEach(function (r) {
+          equalize(r.map(function (e) { return makeCol(e, ".item"); }));
+        });
+      } finally {
+        busy = false;
+      }
+    }
+
+    function schedule(ms) {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(run, ms == null ? 120 : ms);
+    }
+
+    window.addEventListener("resize", function () { schedule(120); });
+    window.addEventListener("orientationchange", function () { schedule(250); });
+    window.addEventListener("load", function () { schedule(0); });
+    if (document.fonts) {
+      if (document.fonts.ready) document.fonts.ready.then(function () { schedule(0); });
+      if (document.fonts.addEventListener) document.fonts.addEventListener("loadingdone", function () { schedule(60); });
+    }
+    return { schedule: schedule, run: run };
+  })();
 
   // DEMO SWITCH: null on the live site. A preview copy sets this to sample data.
   var DEMO_DATA = null;

@@ -221,6 +221,35 @@ def test_decks_copied_stripped_and_limited():
     assert len(lead["decks"][2]) <= 100
 
 
+def test_lead_note_allows_long_summary_and_is_capped():
+    note = " ".join(["word"] * 140) + "."
+    choice = {"lead": {"id": "id2", "headline": "H", "note": note}, "front": [], "sections": []}
+    lead = brief.build_output(choice, items_fixture(), ORDER)["lead"]
+    assert lead["note"] == note                      # 140 words survive untouched
+    choice["lead"]["note"] = "w" * 5000
+    assert len(brief.build_output(choice, items_fixture(), ORDER)["lead"]["note"]) <= brief.LEAD_NOTE_CHARS
+
+
+def test_lead_prompt_and_schema_ask_for_long_grounded_note():
+    desc = brief.publish_tool(ORDER)["input_schema"]["properties"]["lead"]["properties"]["note"]["description"]
+    assert "120 to 150 words" in desc and "4 to 6 sentences" in desc
+    assert "120 and 150 words" in brief.SYSTEM_PROMPT and "Do not invent any fact" in brief.SYSTEM_PROMPT
+    assert "at most 25 words" in brief.SYSTEM_PROMPT       # front and section notes stay short
+
+
+def test_fixture_lead_note_is_about_130_words():
+    resp = json.loads((ROOT / "fixtures" / "sample_response.json").read_text())
+    assert 120 <= len(resp["lead"]["note"].split()) <= 150
+
+
+def test_page_keeps_safety_switches_and_fill_engine():
+    html = (ROOT / "site" / "index.html").read_text()
+    assert "var DEMO_DATA = null;" in html
+    assert "Today’s paper has not been printed yet." in html
+    assert "innerHTML" not in html and "document.write" not in html
+    assert "MIN_W = 600" in html and "document.fonts" in html and "8000" in html
+
+
 def test_decks_missing_or_bad_become_empty():
     for bad in (None, "a string", {"a": 1}, []):
         choice = {"lead": {"id": "id2", "headline": "H", "note": "n", "decks": bad}, "front": [], "sections": []}

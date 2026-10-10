@@ -2,7 +2,7 @@
   "lead": {
     "id": "f4dce0c7ac",
     "headline": "Haiku 5.5 Arrives On The Claude API",
-    "note": "Claude Haiku 5.5 is now generally available on the API, with improved tool use and lower latency. That could cut the cost and delay of tools like this brief.",
+    "note": "Claude Haiku 5.5 is now generally available on the Claude API. The release is described as bringing improved tool use and lower latency. For developers, tool use is the part of a model that lets it call outside functions and return structured results, so an improvement there matters most to anyone building automated workflows. Lower latency means the model answers faster, which can shorten the wait in apps that call it many times in a row. General availability means the model is open to all API customers rather than limited to a preview group. The announcement appears in the Claude Platform release notes. Readers who build small tools on the API may want to review those notes and see whether the changes apply to their own projects.",
     "decks": [
       "Claude Haiku 5.5 is generally available on the API",
       "Improved tool use and lower latency promised",
