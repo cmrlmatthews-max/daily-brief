@@ -1,49 +1,55 @@
 {
-  "top": [
-    {
-      "id": "f4dce0c7ac",
-      "note": "A faster, cheaper Claude model is now on the API, which could lower the cost of tools like this one."
-    },
-    {
-      "id": "4c25c6ef5d",
-      "note": "Practical pattern for getting reliable structured output, directly relevant to your own Claude projects."
-    },
+  "lead": {
+    "id": "f4dce0c7ac",
+    "headline": "Haiku 5.5 Arrives On The Claude API",
+    "note": "Claude Haiku 5.5 is now generally available on the API, with improved tool use and lower latency. That could cut the cost and delay of tools like this brief.",
+    "decks": [
+      "Claude Haiku 5.5 is generally available on the API",
+      "Improved tool use and lower latency promised",
+      "Cheaper, faster tools for builders"
+    ]
+  },
+  "front": [
     {
       "id": "ea31651e1e",
-      "note": "A large Beltline-adjacent project moving to zoning review next month, worth tracking locally."
+      "note": "A mixed-use tower is proposed beside the Beltline's Eastside Trail and heads to zoning review next month."
     },
     {
-      "id": "da667850d7",
-      "note": "A new typed agent toolkit is climbing GitHub fast and may suit your own tool building."
-    },
-    {
-      "id": "417ceeeb9c",
-      "note": "Concrete example of applying an LLM to Revit standards checking, close to your BIM work."
-    },
-    {
-      "id": "49baf11a08",
-      "note": "A possible injury to Houston's starting center ahead of the season opener."
+      "id": "3a92ae823b",
+      "note": "The UN says road closures have delayed aid convoys, and food shortages are worsening in several regions."
     },
     {
       "id": "does-not-exist-123",
       "note": "This id is not in the item list and must be dropped by the script."
+    },
+    {
+      "id": "4c25c6ef5d",
+      "note": "A practical pattern for reliable structured output with forced tool calls."
     }
   ],
   "sections": [
     {
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "items": [
         {
           "id": "e04654da9a",
-          "note": "PDF page ranges can cut token use when working with long specs and drawings sets."
+          "note": "PDF page ranges can cut token use when working with long specs and drawing sets."
         },
         {
           "id": "e9667e445f",
           "note": "Anthropic is expanding in Asia-Pacific with a third regional office."
         },
         {
-          "id": "also-not-real",
-          "note": "Unknown id, dropped."
+          "id": "b7f79fe9bd",
+          "note": "An MCP server for Revit queries lines up with BIM tooling interests."
+        },
+        {
+          "id": "96cf9e13f7",
+          "note": "A look at where small language models are being used in practice."
+        },
+        {
+          "id": "da667850d7",
+          "note": "A new typed agent toolkit is climbing GitHub quickly."
         }
       ]
     },
@@ -51,27 +57,34 @@
       "topic": "Sports",
       "items": [
         {
+          "id": "49baf11a08",
+          "note": "Houston's starting center is questionable with an ankle sprain ahead of the opener."
+        },
+        {
           "id": "dd29cd594b",
-          "note": "San Francisco loses a linebacker for at least four games."
+          "note": "San Francisco places a linebacker on injured reserve for at least four games."
         },
         {
           "id": "e4e7fb3359",
           "note": "Houston keeps a rotation guard through a two-year extension."
+        },
+        {
+          "id": "46abc02c79",
+          "note": "The 49ers beat the Cardinals 27-17 behind a late defensive stand."
+        },
+        {
+          "id": "5127fda34f",
+          "note": "Atlanta finalizes its coaching staff for next season."
         }
       ]
     },
     {
-      "topic": "GitHub",
+      "topic": "Architecture",
       "items": [
         {
-          "id": "b7f79fe9bd",
-          "note": "An MCP server for Revit queries lines up with your BIM tooling interests."
-        }
-      ]
-    },
-    {
-      "topic": "Atlanta architecture",
-      "items": [
+          "id": "dece1f99b0",
+          "note": "A video on automating door schedules with Dynamo."
+        },
         {
           "id": "62b203c717",
           "note": "Another Midtown office-to-residential conversion gets approved."
@@ -79,15 +92,31 @@
         {
           "id": "9fc6ac2a5c",
           "note": "A timber library that doubles as flood defense is an interesting precedent."
+        },
+        {
+          "id": "417ceeeb9c",
+          "note": "An example of applying an LLM to Revit naming standards checks."
         }
       ]
     },
     {
-      "topic": "AI in architecture",
+      "topic": "World",
       "items": [
         {
-          "id": "dece1f99b0",
-          "note": "A video on automating door schedules with Dynamo, relevant to door hardware work."
+          "id": "e259ce5899",
+          "note": "Flood waters are receding in northern Italy, and residents are returning to damaged homes."
+        },
+        {
+          "id": "bfc62f7810",
+          "note": "Satellite data show the smallest September Arctic sea ice extent on record."
+        },
+        {
+          "id": "2fcc6b5030",
+          "note": "Three major central banks left interest rates unchanged this week."
+        },
+        {
+          "id": "d01deb922a",
+          "note": "Archaeologists found a Roman bathhouse with mosaic floors beneath a city car park."
         }
       ]
     }

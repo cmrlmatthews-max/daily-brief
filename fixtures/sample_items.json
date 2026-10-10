@@ -2,66 +2,63 @@
   "items": [
     {
       "id": "f4dce0c7ac",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Claude Platform release notes",
       "title": "Claude Haiku 5.5 now available on the API",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-haiku-5-5",
       "published": "2026-10-09T16:00:00+00:00",
-      "summary": "Claude Haiku 5.5 is generally available on the Claude API with improved tool use and lower latency."
+      "summary": "Claude Haiku 5.5 is generally available on the Claude API with improved tool use and lower latency.",
+      "image": "https://picsum.photos/seed/haiku/800/450"
     },
     {
       "id": "e04654da9a",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Claude Platform release notes",
       "title": "Files API adds PDF page-range support",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#files-pdf-pages",
       "published": "2026-10-08T15:00:00+00:00",
-      "summary": "Requests can now reference specific page ranges of uploaded PDFs, cutting token use on long documents."
+      "summary": "Requests can now reference specific page ranges of uploaded PDFs, cutting token use on long documents.",
+      "image": null
     },
     {
       "id": "e9667e445f",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Anthropic news",
       "title": "Anthropic opens a new office in Seoul",
       "url": "https://www.anthropic.com/news/seoul-office",
       "published": null,
-      "summary": "Anthropic announces its third Asia-Pacific office and plans to hire locally."
+      "summary": "Anthropic announces its third Asia-Pacific office and plans to hire locally.",
+      "image": "https://picsum.photos/seed/seoul/800/450"
     },
     {
       "id": "4c25c6ef5d",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Simon Willison",
       "title": "Notes on building a daily digest with tool-forced output",
       "url": "https://simonwillison.net/2026/Oct/9/forced-tool-digest/",
       "published": "2026-10-09T21:30:00+00:00",
-      "summary": "Forcing a single tool call is a reliable way to get structured JSON from a model without parsing prose."
-    },
-    {
-      "id": "acad05ec4b",
-      "topic": "Claude and AI",
-      "source": "Simon Willison",
-      "title": "Quote of the day on prompt injection",
-      "url": "https://simonwillison.net/2026/Oct/8/quote-prompt-injection/",
-      "published": "2026-10-08T12:00:00+00:00",
-      "summary": "A short quote about why untrusted text must never be treated as instructions."
+      "summary": "Forcing a single tool call is a reliable way to get structured JSON from a model without parsing prose.",
+      "image": null
     },
     {
       "id": "8c899a0254",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Hacker News front page",
       "title": "Show HN: A local-first notes app with on-device embeddings",
       "url": "https://example.com/show-hn-local-notes",
       "published": "2026-10-10T08:10:00+00:00",
-      "summary": "Comments discuss on-device embedding models and sync strategies."
+      "summary": "Comments discuss on-device embedding models and sync strategies.",
+      "image": null
     },
     {
       "id": "96cf9e13f7",
-      "topic": "Claude and AI",
+      "topic": "Tech & AI",
       "source": "Hacker News front page",
       "title": "The long tail of small language models",
       "url": "https://example.com/small-language-models",
       "published": "2026-10-10T05:40:00+00:00",
-      "summary": "An essay on where small models beat large ones in cost and latency."
+      "summary": "An essay on where small models beat large ones in cost and latency.",
+      "image": null
     },
     {
       "id": "e4e7fb3359",
@@ -70,7 +67,8 @@
       "title": "Rockets sign veteran guard to two-year extension",
       "url": "https://www.espn.com/nba/story/_/id/rockets-guard-extension",
       "published": "2026-10-09T18:20:00+00:00",
-      "summary": "Houston locked up a key backcourt rotation piece before the season opener."
+      "summary": "Houston locked up a key backcourt rotation piece before the season opener.",
+      "image": null
     },
     {
       "id": "49baf11a08",
@@ -79,7 +77,8 @@
       "title": "Rockets' starting center questionable with ankle sprain",
       "url": "https://www.espn.com/nba/story/_/id/rockets-center-ankle",
       "published": "2026-10-10T01:00:00+00:00",
-      "summary": "He left practice early Thursday and is listed day to day."
+      "summary": "He left practice early Thursday and is listed day to day.",
+      "image": "https://picsum.photos/seed/center/800/450"
     },
     {
       "id": "5127fda34f",
@@ -88,7 +87,8 @@
       "title": "Braves finalize coaching staff for next season",
       "url": "https://www.espn.com/mlb/story/_/id/braves-coaching-staff",
       "published": "2026-10-09T14:00:00+00:00",
-      "summary": "Atlanta named a new hitting coach and retained the rest of the staff."
+      "summary": "Atlanta named a new hitting coach and retained the rest of the staff.",
+      "image": null
     },
     {
       "id": "46abc02c79",
@@ -97,7 +97,8 @@
       "title": "49ers beat Cardinals 27-17 behind late defensive stand",
       "url": "https://www.espn.com/nfl/story/_/id/49ers-cardinals-recap",
       "published": "2026-10-06T03:00:00+00:00",
-      "summary": "San Francisco improved to 4-2 with two fourth-quarter takeaways."
+      "summary": "San Francisco improved to 4-2 with two fourth-quarter takeaways.",
+      "image": null
     },
     {
       "id": "dd29cd594b",
@@ -106,79 +107,178 @@
       "title": "49ers place linebacker on injured reserve",
       "url": "https://www.espn.com/nfl/story/_/id/49ers-linebacker-ir",
       "published": "2026-10-09T20:00:00+00:00",
-      "summary": "He will miss at least four games with a hamstring injury."
+      "summary": "He will miss at least four games with a hamstring injury.",
+      "image": "https://picsum.photos/seed/niners/800/450"
     },
     {
       "id": "da667850d7",
-      "topic": "GitHub",
+      "topic": "Tech & AI",
       "source": "GitHub new popular repos",
       "title": "example-org/agent-kit",
       "url": "https://github.com/example-org/agent-kit",
       "published": "2026-10-07T10:00:00+00:00",
-      "summary": "A small toolkit for building tool-using agents with typed schemas. (★ 4210, Python)"
+      "summary": "A small toolkit for building tool-using agents with typed schemas. (★ 4210, Python)",
+      "image": "https://opengraph.githubassets.com/1/example-org/agent-kit"
     },
     {
       "id": "b7f79fe9bd",
-      "topic": "GitHub",
+      "topic": "Tech & AI",
       "source": "GitHub new popular repos",
       "title": "someone/revit-mcp",
       "url": "https://github.com/someone/revit-mcp",
       "published": "2026-10-05T10:00:00+00:00",
-      "summary": "MCP server exposing Revit model queries to LLM clients. (★ 1380, C#)"
+      "summary": "MCP server exposing Revit model queries to LLM clients. (★ 1380, C#)",
+      "image": null
     },
     {
       "id": "0479d56b32",
-      "topic": "GitHub",
+      "topic": "Tech & AI",
       "source": "GitHub trending (daily)",
       "title": "acme/pocket-sql",
       "url": "https://github.com/acme/pocket-sql",
       "published": null,
-      "summary": "SQLite in the browser with a friendly query UI."
+      "summary": "SQLite in the browser with a friendly query UI.",
+      "image": null
     },
     {
       "id": "ea31651e1e",
-      "topic": "Atlanta architecture",
+      "topic": "Architecture",
       "source": "Urbanize Atlanta",
       "title": "Mixed-use tower proposed beside the Beltline's Eastside Trail",
       "url": "https://atlanta.urbanize.city/post/eastside-trail-tower",
       "published": "2026-10-09T13:00:00+00:00",
-      "summary": "A 28-story project with ground-floor retail and 340 apartments goes to the zoning board in November."
+      "summary": "A 28-story project with ground-floor retail and 340 apartments goes to the zoning board in November.",
+      "image": "https://picsum.photos/seed/beltline/800/450"
     },
     {
       "id": "62b203c717",
-      "topic": "Atlanta architecture",
+      "topic": "Architecture",
       "source": "Urbanize Atlanta",
       "title": "Midtown office conversion to residential wins approval",
       "url": "https://atlanta.urbanize.city/post/midtown-office-conversion",
       "published": "2026-10-08T17:30:00+00:00",
-      "summary": "The 1980s office building will become 210 apartments with a new facade."
+      "summary": "The 1980s office building will become 210 apartments with a new facade.",
+      "image": "https://picsum.photos/seed/midtown/800/450"
     },
     {
       "id": "9fc6ac2a5c",
-      "topic": "Atlanta architecture",
+      "topic": "Architecture",
       "source": "ArchDaily",
       "title": "A timber library that doubles as a flood barrier",
       "url": "https://www.archdaily.com/1000001/timber-library-flood-barrier",
       "published": "2026-10-09T09:00:00+00:00",
-      "summary": "Mass timber and a raised plinth let the building serve as public space and flood defense."
+      "summary": "Mass timber and a raised plinth let the building serve as public space and flood defense.",
+      "image": "https://picsum.photos/seed/timber/800/450"
     },
     {
       "id": "417ceeeb9c",
-      "topic": "AI in architecture",
+      "topic": "Architecture",
       "source": "BIM Pure blog",
       "title": "Using LLMs to check Revit model naming standards",
       "url": "https://www.bimpure.com/blog/llm-revit-naming-standards",
       "published": "2026-10-08T11:00:00+00:00",
-      "summary": "A walkthrough of exporting parameters and having a model flag inconsistent naming."
+      "summary": "A walkthrough of exporting parameters and having a model flag inconsistent naming.",
+      "image": null
     },
     {
       "id": "dece1f99b0",
-      "topic": "AI in architecture",
+      "topic": "Architecture",
       "source": "BIM Pure YouTube",
       "title": "Dynamo automation for door schedules (video)",
       "url": "https://www.youtube.com/watch?v=abc123DEF45",
       "published": "2026-10-07T15:00:00+00:00",
-      "summary": "Step-by-step video on generating door schedules with Dynamo."
+      "summary": "Step-by-step video on generating door schedules with Dynamo.",
+      "image": "https://i.ytimg.com/vi/abc123DEF45/hqdefault.jpg"
+    },
+    {
+      "id": "d386ec1529",
+      "topic": "Tech & AI",
+      "source": "Hacker News front page",
+      "title": "Show HN: A tiny database that runs entirely in the browser",
+      "url": "https://example.com/browser-db",
+      "published": "2026-10-10T03:00:00+00:00",
+      "summary": "A SQLite-compatible store compiled to WebAssembly with persistent storage and no server.",
+      "image": null
+    },
+    {
+      "id": "5819cc66f6",
+      "topic": "Sports",
+      "source": "Atlanta Braves",
+      "title": "Braves outfielder named to the All-MLB second team",
+      "url": "https://www.espn.com/mlb/story/_/id/braves-all-mlb",
+      "published": "2026-10-09T22:00:00+00:00",
+      "summary": "The Braves center fielder was recognized after a strong second half.",
+      "image": null
+    },
+    {
+      "id": "227b45dc3a",
+      "topic": "Architecture",
+      "source": "ArchDaily",
+      "title": "A courtyard school that turns circulation into a playground",
+      "url": "https://www.archdaily.com/1000002/courtyard-school",
+      "published": "2026-10-08T08:00:00+00:00",
+      "summary": "Open stairs and ramps wrap a planted courtyard in a primary school in Lisbon.",
+      "image": "https://picsum.photos/seed/school/800/450"
+    },
+    {
+      "id": "3a92ae823b",
+      "topic": "World",
+      "source": "BBC World",
+      "title": "UN warns of worsening food shortages as aid convoys are delayed",
+      "url": "https://www.bbc.com/news/world-fixture-1",
+      "published": "2026-10-10T06:30:00+00:00",
+      "summary": "Agencies say road closures have held back deliveries to several regions.",
+      "image": "https://picsum.photos/seed/convoy/800/450"
+    },
+    {
+      "id": "e259ce5899",
+      "topic": "World",
+      "source": "BBC World",
+      "title": "Flood waters recede in northern Italy after days of heavy rain",
+      "url": "https://www.bbc.com/news/world-fixture-2",
+      "published": "2026-10-10T05:10:00+00:00",
+      "summary": "Officials say thousands of residents are returning to damaged homes.",
+      "image": "https://picsum.photos/seed/flood/800/450"
+    },
+    {
+      "id": "2fcc6b5030",
+      "topic": "World",
+      "source": "BBC World",
+      "title": "Central banks hold rates as inflation figures cool",
+      "url": "https://www.bbc.com/news/world-fixture-3",
+      "published": "2026-10-09T17:45:00+00:00",
+      "summary": "Three major central banks left interest rates unchanged this week.",
+      "image": null
+    },
+    {
+      "id": "bfc62f7810",
+      "topic": "World",
+      "source": "NPR World",
+      "title": "Scientists report record-low Arctic sea ice for the month",
+      "url": "https://www.npr.org/fixture/arctic-ice",
+      "published": "2026-10-09T14:00:00+00:00",
+      "summary": "Satellite data show the smallest September extent in the observational record.",
+      "image": "https://picsum.photos/seed/arctic/800/450"
+    },
+    {
+      "id": "53b331a370",
+      "topic": "World",
+      "source": "NPR World",
+      "title": "Nations agree to a framework for shared river monitoring",
+      "url": "https://www.npr.org/fixture/river-monitoring",
+      "published": "2026-10-09T12:30:00+00:00",
+      "summary": "Delegates signed a technical agreement on sharing water-flow data across borders.",
+      "image": null
+    },
+    {
+      "id": "d01deb922a",
+      "topic": "World",
+      "source": "NPR World",
+      "title": "Archaeologists uncover a Roman bathhouse beneath a city car park",
+      "url": "https://www.npr.org/fixture/roman-bathhouse",
+      "published": "2026-10-08T19:00:00+00:00",
+      "summary": "Excavators found mosaic floors and a heating system in remarkably good condition.",
+      "image": "https://picsum.photos/seed/roman/800/450"
     }
   ],
   "scores": [
