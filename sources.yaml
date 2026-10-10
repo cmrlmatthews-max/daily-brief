@@ -15,6 +15,7 @@ summary_chars: 300         # each item summary is cut to this length
 # Page title block.
 masthead: "CMRLM"
 tagline: "The Daily Brief"
+edition: "Atlanta Edition"
 
 # Items whose title matches any of these (case-insensitive regex) are dropped before Claude sees them.
 exclude_title_patterns:
@@ -93,21 +94,28 @@ topics:
 
   - name: World
     sources:
-      - name: BBC World
-        type: rss
-        url: https://feeds.bbci.co.uk/news/world/rss.xml
       - name: NPR World
         type: rss
         url: https://feeds.npr.org/1004/rss.xml
-      # Fill in the URLs below, then remove the leading "# ".
+      - name: NPR News
+        type: rss
+        url: https://feeds.npr.org/1001/rss.xml
+      - name: BBC World
+        type: rss
+        url: https://feeds.bbci.co.uk/news/world/rss.xml
+      # AP and Reuters have no public feeds. These Google News searches are UNVERIFIED.
+      # Test one with "python brief.py --fetch-only" before you remove the leading "# ".
+      # Google News gives no usable images, so no_image is set.
       # - name: AP News
       #   type: rss
-      #   url: FILL_IN_AP_FEED_URL
+      #   url: "https://news.google.com/rss/search?q=when:1d+site:apnews.com&hl=en-US&gl=US&ceid=US:en"
       #   title_suffix_strip: " - AP News"
+      #   no_image: true
       # - name: Reuters
       #   type: rss
-      #   url: FILL_IN_REUTERS_FEED_URL
+      #   url: "https://news.google.com/rss/search?q=when:1d+site:reuters.com&hl=en-US&gl=US&ceid=US:en"
       #   title_suffix_strip: " - Reuters"
+      #   no_image: true
 
 # Team scores. Fetched straight from ESPN, no AI involved.
 scores:

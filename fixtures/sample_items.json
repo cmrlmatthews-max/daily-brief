@@ -41,16 +41,6 @@
       "image": null
     },
     {
-      "id": "acad05ec4b",
-      "topic": "Tech & AI",
-      "source": "Simon Willison",
-      "title": "Quote of the day on prompt injection",
-      "url": "https://simonwillison.net/2026/Oct/8/quote-prompt-injection/",
-      "published": "2026-10-08T12:00:00+00:00",
-      "summary": "A short quote about why untrusted text must never be treated as instructions.",
-      "image": null
-    },
-    {
       "id": "8c899a0254",
       "topic": "Tech & AI",
       "source": "Hacker News front page",
@@ -289,26 +279,6 @@
       "published": "2026-10-08T19:00:00+00:00",
       "summary": "Excavators found mosaic floors and a heating system in remarkably good condition.",
       "image": "https://picsum.photos/seed/roman/800/450"
-    },
-    {
-      "id": "6ecc0b5845",
-      "topic": "World",
-      "source": "BBC World",
-      "title": "Election commission publishes final results in coastal province",
-      "url": "https://www.bbc.com/news/world-fixture-4",
-      "published": "2026-10-08T10:00:00+00:00",
-      "summary": "The commission said turnout was 61 percent, and observers reported no major irregularities.",
-      "image": null
-    },
-    {
-      "id": "d7330de7d8",
-      "topic": "Tech & AI",
-      "source": "Simon Willison",
-      "title": "Running small models locally with a one-line launcher",
-      "url": "https://simonwillison.net/2026/Oct/7/local-launcher/",
-      "published": "2026-10-07T09:00:00+00:00",
-      "summary": "A short note on a launcher script that downloads and runs quantized models.",
-      "image": null
     }
   ],
   "scores": [

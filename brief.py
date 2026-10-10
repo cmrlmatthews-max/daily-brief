@@ -51,7 +51,10 @@ Rules:
 - World items must be straight news, never opinion or analysis pieces.
 - Notes must be neutral and factual for World and for anything political. No adjectives that take a side.
 - "lead": the single most important story today. Strongly prefer an item with has_image=true,
-  because the lead is shown with a large picture. Note: 2 sentences, at most 45 words.
+  because the lead is shown with a large picture.
+  "headline": a SHORT punchy newspaper headline rewritten from the item title. At most 8 words.
+  Use only facts from the title and summary. Do not invent any.
+  "note": 2 to 3 sentences, at most 60 words.
 - "front": 2 to 4 other front-page stories, from any section. Note: 1 sentence, at most 25 words.
 - "sections": one entry for EVERY topic listed in the message that has items left after "lead" and "front".
   Give 3 to 5 items per topic. No repeats of the lead or front items.
@@ -74,7 +77,17 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
         "input_schema": {
             "type": "object",
             "properties": {
-                "lead": {**_NOTE_ITEM, "description": "The single most important story today. Prefer has_image=true."},
+                "lead": {
+                    "type": "object",
+                    "description": "The single most important story today. Strongly prefer has_image=true.",
+                    "properties": {
+                        "id": {"type": "string"},
+                        "headline": {"type": "string",
+                                     "description": "Short punchy newspaper headline, at most 8 words, no invented facts."},
+                        "note": {"type": "string", "description": "2 to 3 sentences, at most 60 words."},
+                    },
+                    "required": ["id", "headline", "note"],
+                },
                 "front": {"type": "array", "minItems": 2, "maxItems": 4, "items": _NOTE_ITEM,
                           "description": "Other front-page stories, from any section."},
                 "sections": {
@@ -160,7 +173,7 @@ def _fix_image_url(url: str) -> str:
     """Size tweaks for known hosts: YouTube hqdefault, BBC 800px."""
     url = re.sub(r"/default\.jpg(?=$|\?)", "/hqdefault.jpg", url)
     if re.match(r"https://[^/]*\b(?:bbci\.co\.uk|bbc\.co\.uk)/", url):
-        url = re.sub(r"/standard/(?:\d{2,3})/", "/standard/800/", url)
+        url = re.sub(r"/(standard|news)/\d{2,4}/", r"/\1/800/", url)
     return url
 
 
@@ -458,8 +471,7 @@ def drop_seen_yesterday(items: list[dict], site_url: str) -> list[dict]:
                          headers={"User-Agent": USER_AGENT})
         r.raise_for_status()
         old = r.json()
-        urls = {i["url"].rstrip("/") for i in old.get("top", [])}   # old schema
-        urls.update(i["url"].rstrip("/") for i in old.get("front", []))
+        urls = {i["url"].rstrip("/") for i in old.get("front", [])}
         if old.get("lead"):
             urls.add(old["lead"]["url"].rstrip("/"))
         for sec in old.get("sections", []):
@@ -601,8 +613,12 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
             out.append(make(by_id[iid], e.get("note")))
         return out[:limit] if limit else out
 
-    lead_list = pick([choice.get("lead")], 1)
+    raw_lead = choice.get("lead")
+    lead_list = pick([raw_lead], 1)
     lead = lead_list[0] if lead_list else None
+    if lead:
+        lead["note"] = clean_text(str(raw_lead.get("note") or ""), 450)
+        lead["headline"] = clean_text(str(raw_lead.get("headline") or ""), 120) or lead["title"]
     front = pick(choice.get("front"), 4)
 
     # Group by each item's own topic so a section only holds its own sources, then order them.
@@ -626,13 +642,16 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
 
 
 def swap_lead_if_imageless(out: dict) -> bool:
-    """If the lead has no image and a front story has one, swap them. Returns True if swapped."""
+    """If the lead has no image and a front story has one, swap them. Returns True if swapped.
+    The new lead uses its own title as headline. The old lead loses its headline."""
     lead = out.get("lead")
     if not lead or lead.get("image"):
         return False
     for idx, f in enumerate(out.get("front") or []):
         if f.get("image"):
-            out["lead"], out["front"][idx] = f, lead
+            demoted = {k: v for k, v in lead.items() if k != "headline"}
+            out["lead"] = {**f, "headline": f["title"]}
+            out["front"][idx] = demoted
             return True
     return False
 
@@ -700,9 +719,10 @@ def main() -> int:
         lead, front = out_items["lead"], out_items["front"]
         print("lead had no image; swapped with a front story that has one")
 
-    brief = {"generated_at": now.isoformat(timespec="seconds"), "date_label": today,
-             "masthead": cfg.get("masthead", "CMRLM"), "tagline": cfg.get("tagline", "The Daily Brief"),
-             "model": cfg["model"], "lead": lead, "front": front, "sections": sections,
+    brief = {"masthead": cfg.get("masthead", "CMRLM"), "tagline": cfg.get("tagline", "The Daily Brief"),
+             "edition": cfg.get("edition", "Atlanta Edition"), "date_label": today,
+             "generated_at": now.isoformat(timespec="seconds"), "model": cfg["model"],
+             "lead": lead, "front": front, "sections": sections,
              "scores": scores, "source_errors": errors, "usage": usage}
     out = ROOT / "site/brief.json"
     out.parent.mkdir(exist_ok=True)

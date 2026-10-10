@@ -1,7 +1,8 @@
 {
   "lead": {
     "id": "f4dce0c7ac",
-    "note": "Claude Haiku 5.5 is now generally available on the API, with better tool use and lower latency. That could cut the cost and delay of tools like this brief."
+    "headline": "Haiku 5.5 Arrives On The Claude API",
+    "note": "Claude Haiku 5.5 is now generally available on the API, with improved tool use and lower latency. That could cut the cost and delay of tools like this brief."
   },
   "front": [
     {

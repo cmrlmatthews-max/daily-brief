@@ -13,6 +13,18 @@ Live at https://cmrlmatthews-max.github.io/daily-brief/
 5. Team scores come straight from ESPN. No AI is involved.
 6. The script writes `site/brief.json`. The page `site/index.html` shows it.
 
+## The page
+
+The page is a vintage newspaper called CMRLM. It has one lead story, a few front-page stories, and four sections in this order: Tech & AI, Sports, Architecture, World. Team scores sit in a box at the left of the masthead.
+
+## Images
+
+Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. A picture that fails to load is removed, and the story shows as text.
+
+## Themes
+
+The page is dark by default. The button at the top right switches between Night and Day. The choice is saved in the browser.
+
 If a run fails, the old page stays live.
 
 ## Set up
@@ -23,7 +35,7 @@ If a run fails, the old page stays live.
 
 ## Edit sources
 
-Open `sources.yaml`. Add, remove, or disable sources. Each source has a `name`, a `type`, and a `url`. Types are `rss`, `html_anthropic`, `github_search`, and `espn_news`. Set `enabled: false` to switch one off. Change `reader_profile` to change what Claude cares about.
+Open `sources.yaml`. Add, remove, or disable sources. Each source has a `name`, a `type`, and a `url`. Types are `rss`, `html_anthropic`, `github_search`, and `espn_news`. Set `enabled: false` to switch one off. Set `no_image: true` to never show an image for a source. Set `title_suffix_strip` to cut trailing text such as `" - AP News"` from titles. `exclude_title_patterns` drops opinion pieces from every source. Change `reader_profile` to change what Claude cares about.
 
 ## Run locally
 
@@ -42,6 +54,12 @@ Fetch feeds only, and write `out/items.json`:
 
 ```
 python brief.py --fetch-only
+```
+
+Run the tests:
+
+```
+python -m pytest -q
 ```
 
 Then serve the page:
