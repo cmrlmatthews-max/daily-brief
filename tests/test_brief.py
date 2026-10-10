@@ -385,3 +385,14 @@ def test_youtube_atom_feed():
 <media:content url="https://www.youtube.com/v/abc" type="application/x-shockwave-flash"/></media:group></entry></feed>"""
     e = feedparser.parse(xml).entries[0]
     assert brief.entry_image(e, e.link) == "https://i3.ytimg.com/vi/abc/hqdefault.jpg"
+
+
+def test_tracking_pixels_are_skipped():
+    import brief
+    npr = "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-5996938"
+    real = "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2667/photo.jpg"
+    assert brief.clean_image(npr) is None
+    assert brief.clean_image(real) == real
+    assert brief.clean_image("https://example.com/img/spacer.gif") is None
+    entry = {"content": [{"value": f'<img src="{npr}"/><p>x</p><img src="{real}"/>'}]}
+    assert brief.entry_image(entry, "https://www.npr.org/2026/10/10/story") == real

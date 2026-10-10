@@ -185,6 +185,8 @@ def make_item(topic: str, source: str, title: str, url: str, published: str | No
 IMG_EXT = re.compile(r"\.(?:jpe?g|png|webp|gif|avif)(?:[?#].*)?$", re.I)
 GITHUB_REPO = re.compile(r"^https?://(?:www\.)?github\.com/([\w.-]+/[\w.-]+?)(?:\.git)?/?(?:[?#].*)?$", re.I)
 TRACKER_HOSTS = ("feeds.feedburner.com", "feedburner.com", "doubleclick.net")
+# Tracking images in feeds (for example NPR's npr-rss-pixel.png). These are not photos.
+TRACKER_PATH = re.compile(r"(?:/tracking/|[-_/.]pixel[-_./?]|/beacon|spacer\.gif|/1x1[._-])", re.I)
 
 
 def clean_image(url: Any, base: str | None = None) -> str | None:
@@ -198,6 +200,8 @@ def clean_image(url: Any, base: str | None = None) -> str | None:
         return None
     if url.lower().startswith("http://"):
         url = "https://" + url[7:]
+    if TRACKER_PATH.search(url) or any(h in url.lower() for h in TRACKER_HOSTS):
+        return None
     return url
 
 
