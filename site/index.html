@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Daily Brief</title>
+<title>CMRLM — The Daily Brief</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Brief">
+<meta name="apple-mobile-web-app-title" content="CMRLM">
 <meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="icon.png">
@@ -18,6 +18,7 @@
     --accent: #8a4b2a;
     --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Georgia, serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --img-filter: none;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -26,6 +27,7 @@
       --muted: #9a958a;
       --rule: #34312a;
       --accent: #d89a72;
+      --img-filter: brightness(.88);
     }
   }
   * { box-sizing: border-box; }
@@ -36,46 +38,72 @@
     color: var(--text);
     font-family: var(--serif);
     font-size: 17px;
-    line-height: 1.5;
+    line-height: 1.45;
   }
-  main {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 40px 16px 56px;
+  a { color: inherit; text-decoration: none; }
+  a.title:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 48px; }
+  .sans, .dateline, .label, .sec-head, .scores, footer, input { font-family: var(--sans); }
+
+  /* Masthead */
+  .mast { text-align: center; padding: 0 0 14px; border-bottom: 5px double var(--text); margin: 0 0 24px; }
+  .masthead {
+    margin: 0; font-weight: 600; line-height: 1; letter-spacing: .22em; padding-left: .22em;
+    font-size: clamp(44px, 9vw, 88px);
   }
-  .tagline, .date, .label, .sec-head, .scores, footer, input {
-    font-family: var(--sans);
+  .dateline {
+    margin: 12px 0 0; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
   }
-  .tagline { font-size: 13px; color: var(--muted); margin: 0 0 28px; }
-  .date { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
-  h1 { font-size: 34px; line-height: 1.15; font-weight: 600; margin: 0 0 28px; letter-spacing: -.01em; }
-  a { color: var(--text); text-decoration-color: var(--rule); text-underline-offset: 3px; text-decoration-thickness: 1px; }
-  a:hover { text-decoration-color: var(--accent); }
-  ol.top { list-style: none; counter-reset: n; padding: 0; margin: 0 0 32px; }
-  ol.top li { counter-increment: n; position: relative; padding: 0 0 18px 32px; }
-  ol.top li::before {
-    content: counter(n);
-    position: absolute; left: 0; top: 2px;
-    font-family: var(--sans); font-size: 13px; color: var(--accent);
-  }
-  .title { font-size: 19px; line-height: 1.3; font-weight: 600; overflow-wrap: anywhere; }
-  .note { color: var(--muted); margin: 3px 0 0; font-size: 16px; }
-  .label { display: block; margin-top: 4px; font-size: 11px; color: var(--muted); letter-spacing: .02em; }
-  .scores {
-    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
-    padding: 12px 0; margin: 0 0 32px; font-size: 13px; color: var(--muted);
-    display: grid; gap: 6px;
-  }
-  .scores b { color: var(--text); font-weight: 600; }
-  .scores a { color: inherit; }
-  section { margin: 0 0 28px; }
+
+  /* Pictures: fixed aspect-ratio boxes so the layout never jumps */
+  .pic { display: block; overflow: hidden; background: var(--rule); }
+  .pic img { display: block; width: 100%; height: 100%; object-fit: cover; filter: var(--img-filter); }
+  .pic.r169 { aspect-ratio: 16 / 9; margin: 0 0 14px; }
+  .pic.r32 { aspect-ratio: 3 / 2; margin: 0 0 10px; }
+  .pic.thumb { float: right; width: 64px; height: 64px; margin: 3px 0 6px 12px; }
+
+  .title { display: block; font-weight: 600; line-height: 1.22; overflow-wrap: anywhere; font-size: 17px; }
+  .note { margin: 5px 0 0; font-size: 15px; line-height: 1.4; color: var(--muted); }
+  .label { display: block; margin-top: 6px; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .item, .story { display: flow-root; }
+
+  /* Front page: lead + stacked front stories */
+  .front { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 0 28px; padding: 0 0 26px; margin: 0 0 24px; border-bottom: 1px solid var(--text); }
+  .front.no-side { grid-template-columns: minmax(0, 1fr); }
+  .lead .title { font-size: 34px; line-height: 1.12; letter-spacing: -.01em; margin: 0; }
+  .lead .note { font-size: 17px; color: var(--text); opacity: .82; margin-top: 10px; }
+  .side { border-left: 1px solid var(--rule); padding-left: 28px; display: flex; flex-direction: column; }
+  .story { padding: 16px 0; border-top: 1px solid var(--rule); }
+  .story:first-child { padding-top: 0; border-top: 0; }
+  .story:last-child { padding-bottom: 0; }
+  .story .title { font-size: 21px; }
+  .side .story .pic.r32 { width: 62%; }
+
+  /* Three section columns */
+  .cols { display: grid; grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); gap: 0 28px; margin: 0 0 24px; }
+  .sec + .sec { border-left: 1px solid var(--rule); padding-left: 28px; }
   .sec-head {
-    font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600;
-    color: var(--muted); margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+    margin: 0 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--text);
+    font-size: 11px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700;
   }
-  .item { margin: 0 0 16px; }
-  .item .title { font-size: 17px; font-weight: 600; }
-  form { margin: 40px 0 0; }
+  .item { padding: 0 0 14px; margin: 0 0 14px; border-bottom: 1px solid var(--rule); }
+  .item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  .item.first .title { font-size: 20px; }
+  .item.first .note { font-size: 15.5px; }
+
+  .scores { margin: 0 0 16px; padding: 4px 0 12px; border-bottom: 1px solid var(--rule); font-size: 12.5px; color: var(--muted); }
+  .scores .team { padding: 6px 0 0; }
+  .scores b { color: var(--text); font-weight: 600; }
+  .scores .game { display: block; line-height: 1.35; }
+
+  /* World strip */
+  .world { border-top: 1px solid var(--text); padding-top: 16px; margin: 0 0 8px; }
+  .world .strip { display: grid; grid-template-columns: repeat(var(--wn, 4), minmax(0, 1fr)); gap: 0 28px; }
+  .world .item { border-bottom: 0; margin: 0; padding: 0; }
+  .world .item + .item { border-left: 1px solid var(--rule); padding-left: 28px; }
+
+  /* Reshape box and footer */
+  form { margin: 36px auto 0; max-width: 520px; }
   input {
     width: 100%; padding: 12px 14px; font-size: 15px;
     background: transparent; color: var(--text);
@@ -83,17 +111,51 @@
   }
   input:disabled { opacity: .7; cursor: not-allowed; }
   input::placeholder { color: var(--muted); }
-  footer { margin-top: 28px; font-size: 12px; color: var(--muted); }
+  footer { margin-top: 22px; text-align: center; font-size: 12px; color: var(--muted); }
   footer .skipped { margin-left: 6px; cursor: help; text-decoration: underline dotted; }
-  .empty { color: var(--muted); font-style: italic; }
+  .empty { color: var(--muted); font-style: italic; text-align: center; padding: 40px 0; }
+
+  /* Tablet */
+  @media (max-width: 899px) {
+    .front { grid-template-columns: minmax(0, 1fr); }
+    .side { border-left: 0; padding-left: 0; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--rule);
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; }
+    .story, .story:first-child, .story:last-child { padding: 0 0 18px; border-top: 0; }
+    .side .story .pic.r32 { width: 100%; }
+    .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 28px; }
+    .sec + .sec { border-left: 0; padding-left: 0; }
+    .sec:nth-child(even) { border-left: 1px solid var(--rule); padding-left: 28px; }
+    .world .strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 28px; }
+    .world .item + .item { border-left: 0; padding-left: 0; }
+    .world .item:nth-child(even) { border-left: 1px solid var(--rule); padding-left: 28px; }
+  }
+
+  /* Phone */
+  @media (max-width: 599px) {
+    main { padding-top: 20px; }
+    .lead .title { font-size: 28px; }
+    .front { padding-bottom: 8px; }
+    .side { display: block; margin-top: 16px; padding-top: 16px; }
+    .story, .story:first-child, .story:last-child { padding: 14px 0; border-top: 1px solid var(--rule); }
+    .story:first-child { border-top: 0; padding-top: 0; }
+    .cols { display: block; margin: 0; }
+    .sec { margin: 0 0 24px; }
+    .sec:nth-child(even) { border-left: 0; padding-left: 0; }
+    .world .strip { display: block; }
+    .world .item { padding: 0 0 14px !important; margin: 0 0 14px !important; border-left: 0 !important; border-bottom: 1px solid var(--rule); }
+    .world .item:last-child { border-bottom: 0; }
+    /* only the first story in a group keeps its big picture; the rest become thumbnails */
+    .mt .pic.r32 { float: right; width: 64px !important; height: 64px; aspect-ratio: auto; margin: 3px 0 6px 12px; }
+  }
   [hidden] { display: none; }
 </style>
 </head>
 <body>
 <main id="app">
-  <p class="tagline">Shaped however you ask.</p>
-  <p class="date" id="date">&nbsp;</p>
-  <h1>Worth your attention today</h1>
+  <header class="mast">
+    <h1 class="masthead" id="masthead">CMRLM</h1>
+    <p class="dateline" id="dateline">The Daily Brief</p>
+  </header>
   <div id="content"></div>
   <form onsubmit="return false"><input type="text" disabled placeholder="Reshape this page — coming soon" aria-label="Reshape this page (coming soon)"></form>
   <footer id="footer"></footer>
@@ -102,6 +164,8 @@
 (function () {
   "use strict";
   var content = document.getElementById("content");
+  // Relative image paths are allowed only when testing on this machine.
+  var LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -114,23 +178,49 @@
     return typeof u === "string" && /^https?:\/\//i.test(u) ? u : null;
   }
 
-  function link(item, cls) {
+  function safeImage(u) {
+    if (typeof u !== "string") return null;
+    if (/^https?:\/\//i.test(u)) return u;
+    if (LOCAL && /^[A-Za-z0-9_-][A-Za-z0-9_\-.\/]*$/.test(u)) return u;
+    return null;
+  }
+
+  function openLink(a, href) {
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+  }
+
+  function headline(item) {
     var href = safeUrl(item.url);
-    var node;
-    if (href) {
-      node = el("a", cls, item.title || "Untitled");
-      node.href = href;
-      node.target = "_blank";
-      node.rel = "noopener";
-    } else {
-      node = el("span", cls, item.title || "Untitled");
-    }
+    var node = el(href ? "a" : "span", "title", item.title || "Untitled");
+    if (href) openLink(node, href);
     return node;
   }
 
-  function entry(item, tag, cls) {
-    var box = el(tag, cls);
-    box.appendChild(link(item, "title"));
+  // Decorative picture in a fixed-ratio box. If it fails to load, the whole box is removed.
+  function picture(item, shape) {
+    var src = safeImage(item.image);
+    if (!src) return null;
+    var href = safeUrl(item.url);
+    var box = el(href ? "a" : "div", "pic " + shape);
+    if (href) { openLink(box, href); box.tabIndex = -1; box.setAttribute("aria-hidden", "true"); }
+    var img = document.createElement("img");
+    img.alt = "";
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", function () { if (box.parentNode) box.parentNode.removeChild(box); });
+    img.src = src;
+    box.appendChild(img);
+    return box;
+  }
+
+  function story(item, cls, shape, extra) {
+    var box = el("article", cls + (extra ? " " + extra : ""));
+    var pic = picture(item, shape);
+    if (pic) box.appendChild(pic);
+    box.appendChild(headline(item));
     if (item.note) box.appendChild(el("p", "note", item.note));
     if (item.source) box.appendChild(el("span", "label", item.source));
     return box;
@@ -140,43 +230,90 @@
     if (!Array.isArray(scores) || !scores.length) return null;
     var wrap = el("div", "scores");
     scores.forEach(function (s) {
-      var row = el("div");
+      var row = el("div", "team");
       var name = el("b", null, s.team || "");
       var href = safeUrl(s.url);
       if (href) {
         var a = el("a");
-        a.href = href; a.target = "_blank"; a.rel = "noopener";
+        openLink(a, href);
         a.appendChild(name);
         row.appendChild(a);
       } else {
         row.appendChild(name);
       }
-      var parts = [];
-      if (s.last) parts.push(s.last + (s.last_date ? " (" + s.last_date + ")" : ""));
-      if (s.next) parts.push("next " + s.next);
-      row.appendChild(document.createTextNode(" — " + (parts.join(" · ") || "no games listed")));
+      if (s.last) row.appendChild(el("span", "game", "Last: " + s.last + (s.last_date ? " (" + s.last_date + ")" : "")));
+      if (s.next) row.appendChild(el("span", "game", "Next: " + s.next));
+      if (!s.last && !s.next) row.appendChild(el("span", "game", "No games listed"));
       wrap.appendChild(row);
     });
     return wrap;
   }
 
-  function render(b) {
-    document.getElementById("date").textContent = b.date_label || "";
-    var top = Array.isArray(b.top) ? b.top : [];
-    if (top.length) {
-      var ol = el("ol", "top");
-      top.forEach(function (it) { ol.appendChild(entry(it, "li")); });
-      content.appendChild(ol);
-    }
-    var sc = renderScores(b.scores);
-    if (sc) content.appendChild(sc);
-    (Array.isArray(b.sections) ? b.sections : []).forEach(function (sec) {
-      if (!sec || !Array.isArray(sec.items) || !sec.items.length) return;
-      var s = el("section");
-      s.appendChild(el("h2", "sec-head", sec.topic || ""));
-      sec.items.forEach(function (it) { s.appendChild(entry(it, "div", "item")); });
-      content.appendChild(s);
+  function renderSection(sec, scores) {
+    var s = el("section", "sec");
+    s.appendChild(el("h2", "sec-head", sec.topic || ""));
+    if (scores) s.appendChild(scores);
+    (sec.items || []).forEach(function (it, i) {
+      s.appendChild(i === 0 ? story(it, "item first", "r32") : story(it, "item", "thumb"));
     });
+    return s;
+  }
+
+  function render(b) {
+    if (b.masthead) document.getElementById("masthead").textContent = b.masthead;
+    var line = [b.tagline || "The Daily Brief", b.date_label].filter(Boolean).join(" · ");
+    document.getElementById("dateline").textContent = line;
+
+    var lead = b.lead && typeof b.lead === "object" ? b.lead : null;
+    var front = Array.isArray(b.front) ? b.front.slice() : [];
+    if (!lead && front.length) lead = front.shift();   // no lead today: first front story leads
+
+    if (lead) {
+      var fr = el("div", "front" + (front.length ? "" : " no-side"));
+      var l = el("article", "lead");
+      var pic = picture(lead, "r169");
+      if (pic) l.appendChild(pic);
+      l.appendChild(headline(lead));
+      if (lead.note) l.appendChild(el("p", "note", lead.note));
+      if (lead.source) l.appendChild(el("span", "label", lead.source));
+      fr.appendChild(l);
+      if (front.length) {
+        var side = el("div", "side");
+        front.forEach(function (it, i) { side.appendChild(story(it, "story", "r32", i ? "mt" : "")); });
+        fr.appendChild(side);
+      }
+      content.appendChild(fr);
+    }
+
+    var sections = (Array.isArray(b.sections) ? b.sections : []).filter(function (s) {
+      return s && typeof s === "object" && Array.isArray(s.items);
+    });
+    var hasScores = Array.isArray(b.scores) && b.scores.length;
+    if (hasScores && !sections.some(function (s) { return s.topic === "Sports"; })) {
+      sections.push({ topic: "Sports", items: [] });
+    }
+    var cols = sections.filter(function (s) { return s.topic !== "World" && (s.items.length || (s.topic === "Sports" && hasScores)); });
+    var world = sections.filter(function (s) { return s.topic === "World" && s.items.length; })[0];
+
+    if (cols.length) {
+      var grid = el("div", "cols");
+      grid.style.setProperty("--n", String(Math.min(cols.length, 3)));
+      cols.forEach(function (sec) {
+        grid.appendChild(renderSection(sec, sec.topic === "Sports" ? renderScores(b.scores) : null));
+      });
+      content.appendChild(grid);
+    }
+
+    if (world) {
+      var w = el("section", "world");
+      w.appendChild(el("h2", "sec-head", world.topic));
+      var strip = el("div", "strip");
+      var shown = world.items.slice(0, 4);
+      strip.style.setProperty("--wn", String(shown.length));
+      shown.forEach(function (it, i) { strip.appendChild(story(it, "item", "r32", i ? "mt" : "")); });
+      w.appendChild(strip);
+      content.appendChild(w);
+    }
 
     var f = document.getElementById("footer");
     var when = b.generated_at ? new Date(b.generated_at) : null;
@@ -184,6 +321,7 @@
     f.appendChild(document.createTextNode("Generated " + stamp + (b.model ? " · " + b.model : "")));
     var errs = Array.isArray(b.source_errors) ? b.source_errors : [];
     if (errs.length) {
+      f.appendChild(document.createTextNode(" · "));
       var sk = el("span", "skipped", errs.length + (errs.length === 1 ? " source skipped" : " sources skipped"));
       sk.title = errs.map(function (e) { return e.source; }).join("\n");
       f.appendChild(sk);
