@@ -44,8 +44,10 @@ Rules:
 - Never invent facts. Use only what is in the item title and summary.
 - Refer to items by their id only. Never write URLs.
 - Each note is one plain sentence, at most 25 words, saying why the item matters to this reader.
-- "top": 5 to 7 items across all topics. "sections": 2 to 4 items per topic, no repeats of top items.
-  Leave out any topic with nothing worthwhile."""
+- "top": 5 to 7 items across all topics.
+- "sections": one entry for EVERY topic listed in the message that has items left after "top".
+  Give 2 to 4 items per topic (1 is fine if that is all there is). No repeats of top items.
+  Use the topic name exactly as listed. Do not leave "sections" empty."""
 
 PUBLISH_TOOL: dict[str, Any] = {
     "name": "publish_brief",
@@ -65,6 +67,7 @@ PUBLISH_TOOL: dict[str, Any] = {
             },
             "sections": {
                 "type": "array",
+                "minItems": 1,
                 "items": {
                     "type": "object",
                     "properties": {
@@ -369,7 +372,9 @@ def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
 
     key = os.environ["ANTHROPIC_API_KEY"]
     slim = [{k: i[k] for k in ("id", "topic", "source", "title", "summary", "published")} for i in items]
+    topics = sorted({i["topic"] for i in items})
     user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
+            f"Topics (make a section for each): {', '.join(topics)}\n\n"
             f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
             "Call publish_brief with your picks.")
     client = anthropic.Anthropic(api_key=key)
@@ -407,6 +412,22 @@ def build_output(choice: dict, items: list[dict]) -> tuple[list[dict], list[dict
         picked = pick(sec.get("items")) if isinstance(sec, dict) else []
         if picked:
             sections.append({"topic": str(sec.get("topic", "More")), "items": picked})
+
+    # Fallback: any topic the model skipped gets its newest unused items, with no note.
+    covered = {s["topic"] for s in sections}
+    topic_order = list(dict.fromkeys(i["topic"] for i in items))
+    for topic in topic_order:
+        if topic in covered:
+            continue
+        rest = [i for i in items if i["topic"] == topic and i["id"] not in used]
+        rest.sort(key=lambda i: i.get("published") or "", reverse=True)
+        fill = []
+        for it in rest[:3]:
+            used.add(it["id"])
+            fill.append({"title": it["title"], "url": it["url"], "source": it["source"],
+                         "topic": topic, "note": ""})
+        if fill:
+            sections.append({"topic": topic, "items": fill})
     return top, sections
 
 
