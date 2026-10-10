@@ -31,6 +31,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Private tabs (Plans and Mail). All optional. Without BRIEF_PASSPHRASE nothing private is fetched.
+          BRIEF_PASSPHRASE: ${{ secrets.BRIEF_PASSPHRASE }}
+          GCAL_ICS_URL: ${{ secrets.GCAL_ICS_URL }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

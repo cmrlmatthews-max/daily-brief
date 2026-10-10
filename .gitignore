@@ -2,3 +2,4 @@ out/
 __pycache__/
 .env
 site/brief.json
+site/private.enc

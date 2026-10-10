@@ -25,6 +25,26 @@ Nothing on the page is left empty. After the page is built, after fonts load, af
 
 Each item has a `video` field. It holds the 11-character YouTube id when the link is a YouTube watch link, otherwise `null`. When a section's feature story has a video id, the page plays it muted and looping in the photo frame, using youtube-nocookie. With reduced motion on, the thumbnail is shown instead.
 
+## Tabs: Front Page, Today, Mail
+
+A tab bar sits under the dateline. Front Page is the default. `#today` and `#mail` in the address open those tabs, and the page remembers the last tab on each device. The fit script only measures the visible tab and runs again when you return to Front Page.
+
+The weather box at the top of the right-hand column is public. The browser asks Open-Meteo for Atlanta (city level, set by `WX_PLACE` in `site/index.html`). If that fails, the box is simply left out.
+
+Today (calendar) and Mail (Gmail) are private, but the site is public. So `brief.py` builds them on the server, seals them with AES-256-GCM (key from your passphrase, PBKDF2-SHA256, 600,000 rounds, fresh salt and IV each run), and writes only `site/private.enc`. That file is gitignored and is never committed. The page opens it in your browser with the passphrase, in memory. Calendar and mail text never appear in the repo, in `brief.json`, or in the Actions logs. The logs show counts only, and error type names, never messages.
+
+Use a long passphrase. The sealed file is public, so its strength is the only lock. "Remember on this device" keeps the passphrase in this browser's local storage; the Lock button erases it.
+
+Add these repo secrets (names only). All are optional:
+
+- `BRIEF_PASSPHRASE`: turns the private tabs on. Without it nothing private is fetched or written.
+- `GCAL_ICS_URL`: the calendar's secret iCal address. Without it Today says the calendar is not connected.
+- `GMAIL_CLIENT_ID`, `GMAIL_CLIENT_SECRET`, `GMAIL_REFRESH_TOKEN`: a Google OAuth client and a refresh token with the read-only `gmail.readonly` scope. Without them Mail says Gmail is not connected.
+
+Mail uses one more Claude call. It sees sender, subject, and snippet only (never full bodies), and it is told the text is untrusted. It returns ids, categories, and one-line summaries. The script builds every Gmail link itself from the thread id.
+
+`python brief.py --dry-run` builds a demo `site/private.enc` from `fixtures/sample_private.json` (fake data, no network) with the passphrase `demo passphrase`, unless `BRIEF_PASSPHRASE` is set.
+
 ## Images
 
 Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. The feature photos of Tech & AI and Architecture also get a halftone dot screen. A picture that fails to load is removed, and the story shows as text.
