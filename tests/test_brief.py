@@ -210,13 +210,72 @@ def test_no_swap_when_nothing_has_image():
     assert out["lead"]["title"] == "Title 1"
 
 
+def test_decks_copied_stripped_and_limited():
+    long = "x" * 150
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n",
+                       "decks": ["  First deck  ", "", "   ", "Second", long, "Fourth dropped", 7]},
+              "front": [], "sections": []}
+    lead = brief.build_output(choice, items_fixture(), ORDER)["lead"]
+    assert lead["decks"][:2] == ["First deck", "Second"]
+    assert len(lead["decks"]) == 3
+    assert len(lead["decks"][2]) <= 100
+
+
+def test_decks_missing_or_bad_become_empty():
+    for bad in (None, "a string", {"a": 1}, []):
+        choice = {"lead": {"id": "id2", "headline": "H", "note": "n", "decks": bad}, "front": [], "sections": []}
+        assert brief.build_output(choice, items_fixture(), ORDER)["lead"]["decks"] == []
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n"}, "front": [], "sections": []}
+    assert brief.build_output(choice, items_fixture(), ORDER)["lead"]["decks"] == []
+
+
+def test_decks_empty_after_swap():
+    choice = {"lead": {"id": "id1", "headline": "Custom", "note": "n", "decks": ["One", "Two"]},
+              "front": [{"id": "id4", "note": "f"}], "sections": []}
+    out = brief.build_output(choice, items_fixture(), ORDER)
+    assert out["lead"]["decks"] == ["One", "Two"]
+    assert brief.swap_lead_if_imageless(out) is True
+    assert out["lead"]["decks"] == []
+    assert "decks" not in out["front"][0]
+
+
+def test_youtube_id_extraction():
+    yid = brief.youtube_id
+    assert yid("https://www.youtube.com/watch?v=abc123DEF45") == "abc123DEF45"
+    assert yid("https://youtube.com/watch?v=abc123DEF45&t=5s") == "abc123DEF45"
+    assert yid("https://www.youtube.com/watch?feature=x&v=a-c_23DEF45") == "a-c_23DEF45"
+    assert yid("https://youtu.be/abc123DEF45") == "abc123DEF45"
+    assert yid("https://youtu.be/abc123DEF45?si=zzz") == "abc123DEF45"
+    for bad in ("https://www.youtube.com/watch?v=short", "https://www.youtube.com/watch?v=abc123DEF45XX",
+                "https://www.youtube.com/watch?v=abc123DE<45", "https://youtu.be/bad id", "https://youtu.be/",
+                "https://www.youtube.com/watch", "https://www.youtube.com/playlist?list=abc123DEF45",
+                "https://evil.test/watch?v=abc123DEF45", "https://notyoutube.com/watch?v=abc123DEF45",
+                "javascript:alert(1)", "", None):
+        assert yid(bad) is None, bad
+
+
+def test_item_video_field_set_only_for_youtube():
+    items = items_fixture()
+    items[1]["url"] = "https://youtu.be/abc123DEF45"
+    items[3]["url"] = "https://www.youtube.com/watch?v=tooshort"
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n", "decks": ["a", "b"]},
+              "front": [{"id": "id4", "note": "f"}], "sections": []}
+    out = brief.build_output(choice, items, ORDER)
+    assert out["lead"]["video"] == "abc123DEF45"        # YouTube items keep their thumbnail image too
+    assert out["lead"]["image"] == "https://x/2.jpg"
+    assert out["front"][0]["video"] is None
+    assert all(i["video"] is None for s in out["sections"] for i in s["items"])
+
+
 # ---------- tool schema and config ----------
 
 def test_tool_schema_shape():
     t = brief.publish_tool(ORDER)
     props = t["input_schema"]["properties"]
     assert set(t["input_schema"]["required"]) == {"lead", "front", "sections"}
-    assert set(props["lead"]["required"]) == {"id", "headline", "note"}
+    assert set(props["lead"]["required"]) == {"id", "headline", "note", "decks"}
+    decks = props["lead"]["properties"]["decks"]
+    assert decks["type"] == "array" and decks["minItems"] == 2 and decks["maxItems"] == 3
     assert props["front"]["minItems"] == 2 and props["front"]["maxItems"] == 4
     sec = props["sections"]
     assert sec["minItems"] == 1
@@ -252,10 +311,15 @@ def test_dry_run_writes_new_schema(tmp_path):
     assert list(b)[:6] == ["masthead", "tagline", "edition", "date_label", "generated_at", "model"]
     assert "top" not in b
     assert b["lead"]["headline"] and len(b["front"]) == 3
+    assert 2 <= len(b["lead"]["decks"]) <= 3
     assert [s["topic"] for s in b["sections"]] == ORDER
     every = [b["lead"]] + b["front"] + [i for s in b["sections"] for i in s["items"]]
-    assert all(set(i) >= {"title", "url", "source", "topic", "note", "image"} for i in every)
+    assert all(set(i) >= {"title", "url", "source", "topic", "note", "image", "video"} for i in every)
     assert "does-not-exist-123" not in json.dumps(b)
+    arch = next(s for s in b["sections"] if s["topic"] == "Architecture")
+    first_img = next(i for i in arch["items"] if i["image"])
+    assert first_img["source"] == "BIM Pure YouTube" and first_img["video"] == "abc123DEF45"
+    assert sum(1 for i in every if i["video"]) == 1
 
 
 # ---------- real feedparser parsing ----------

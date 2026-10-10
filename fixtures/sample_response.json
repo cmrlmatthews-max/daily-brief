@@ -2,7 +2,12 @@
   "lead": {
     "id": "f4dce0c7ac",
     "headline": "Haiku 5.5 Arrives On The Claude API",
-    "note": "Claude Haiku 5.5 is now generally available on the API, with improved tool use and lower latency. That could cut the cost and delay of tools like this brief."
+    "note": "Claude Haiku 5.5 is now generally available on the API, with improved tool use and lower latency. That could cut the cost and delay of tools like this brief.",
+    "decks": [
+      "Claude Haiku 5.5 is generally available on the API",
+      "Improved tool use and lower latency promised",
+      "Cheaper, faster tools for builders"
+    ]
   },
   "front": [
     {
@@ -77,6 +82,10 @@
       "topic": "Architecture",
       "items": [
         {
+          "id": "dece1f99b0",
+          "note": "A video on automating door schedules with Dynamo."
+        },
+        {
           "id": "62b203c717",
           "note": "Another Midtown office-to-residential conversion gets approved."
         },
@@ -87,10 +96,6 @@
         {
           "id": "417ceeeb9c",
           "note": "An example of applying an LLM to Revit naming standards checks."
-        },
-        {
-          "id": "dece1f99b0",
-          "note": "A video on automating door schedules with Dynamo."
         }
       ]
     },

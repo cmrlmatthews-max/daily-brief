@@ -15,15 +15,15 @@ Live at https://cmrlmatthews-max.github.io/daily-brief/
 
 ## The page
 
-The page is a vintage newspaper called CMRLM. It has one lead story, a few front-page stories, and four sections in this order: Tech & AI, Sports, Architecture, World. Team scores sit in a box at the left of the masthead.
+The page is a vintage newspaper called CMRLM, in one light theme: aged newsprint, near-black ink, and a muted red-brown accent. The masthead is the image `site/img/masthead.png`. Team scores sit in a box at its left and the edition in a box at its right. It has one top story, a few front-page stories, and four sections in this order: Tech & AI, Sports, Architecture, World.
+
+The top story has a giant headline and 2 to 3 short `decks` under it. Claude writes the decks from the item title and summary only. If the lead is swapped for a story with a picture, the decks are left empty and the page copes.
+
+Each item has a `video` field. It holds the 11-character YouTube id when the link is a YouTube watch link, otherwise `null`. When a section's feature story has a video id, the page plays it muted and looping in the photo frame, using youtube-nocookie. With reduced motion on, the thumbnail is shown instead.
 
 ## Images
 
-Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. A picture that fails to load is removed, and the story shows as text.
-
-## Themes
-
-The page is dark by default. The button at the top right switches between Night and Day. The choice is saved in the browser.
+Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. The feature photos of Tech & AI and Architecture also get a halftone dot screen. A picture that fails to load is removed, and the story shows as text.
 
 If a run fails, the old page stays live.
 

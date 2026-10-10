@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import parse_qs, urljoin, urlsplit
 from zoneinfo import ZoneInfo
 
 import feedparser
@@ -55,6 +55,8 @@ Rules:
   "headline": a SHORT punchy newspaper headline rewritten from the item title. At most 8 words.
   Use only facts from the title and summary. Do not invent any.
   "note": 2 to 3 sentences, at most 60 words.
+  "decks": 2 or 3 short deck lines, like the summary lines printed under an old newspaper headline.
+  Each at most 12 words. Write them only from the item title and summary. Do not invent any facts.
 - "front": 2 to 4 other front-page stories, from any section. Note: 1 sentence, at most 25 words.
 - "sections": one entry for EVERY topic listed in the message that has items left after "lead" and "front".
   Give 3 to 5 items per topic. No repeats of the lead or front items.
@@ -85,8 +87,11 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
                         "headline": {"type": "string",
                                      "description": "Short punchy newspaper headline, at most 8 words, no invented facts."},
                         "note": {"type": "string", "description": "2 to 3 sentences, at most 60 words."},
+                        "decks": {"type": "array", "minItems": 2, "maxItems": 3, "items": {"type": "string"},
+                                  "description": "Short deck lines under the headline. Each at most 12 words, "
+                                                 "only from the item title and summary, no invented facts."},
                     },
-                    "required": ["id", "headline", "note"],
+                    "required": ["id", "headline", "note", "decks"],
                 },
                 "front": {"type": "array", "minItems": 2, "maxItems": 4, "items": _NOTE_ITEM,
                           "description": "Other front-page stories, from any section."},
@@ -117,6 +122,28 @@ def clean_text(raw: str | None, limit: int | None = None) -> str:
     if limit and len(text) > limit:
         text = text[: limit - 1].rstrip() + "…"
     return text
+
+
+YOUTUBE_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+
+def youtube_id(url: str | None) -> str | None:
+    """The 11-character video id of a YouTube watch URL (youtube.com/watch?v=ID or youtu.be/ID), else None."""
+    if not url:
+        return None
+    try:
+        u = urlsplit(url)
+    except ValueError:
+        return None
+    if u.scheme.lower() not in ("http", "https"):
+        return None
+    host = (u.hostname or "").lower()
+    vid = None
+    if host in ("youtube.com", "www.youtube.com", "m.youtube.com") and u.path.rstrip("/") == "/watch":
+        vid = (parse_qs(u.query).get("v") or [None])[0]
+    elif host in ("youtu.be", "www.youtu.be"):
+        vid = u.path.lstrip("/").split("/")[0] or None
+    return vid if vid and YOUTUBE_ID.match(vid) else None
 
 
 def item_id(url: str) -> str:
@@ -601,7 +628,8 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
 
     def make(it: dict, note: Any) -> dict:
         return {"title": it["title"], "url": it["url"], "source": it["source"],
-                "topic": it["topic"], "note": clean_text(str(note or ""), 300), "image": it.get("image")}
+                "topic": it["topic"], "note": clean_text(str(note or ""), 300), "image": it.get("image"),
+                "video": youtube_id(it["url"])}
 
     def pick(entries: Any, limit: int | None = None) -> list[dict]:
         out = []
@@ -619,6 +647,10 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
     if lead:
         lead["note"] = clean_text(str(raw_lead.get("note") or ""), 450)
         lead["headline"] = clean_text(str(raw_lead.get("headline") or ""), 120) or lead["title"]
+        raw_decks = raw_lead.get("decks")
+        decks = [clean_text(str(d), 100) for d in raw_decks if isinstance(d, str)] \
+            if isinstance(raw_decks, list) else []
+        lead["decks"] = [d for d in decks if d][:3]
     front = pick(choice.get("front"), 4)
 
     # Group by each item's own topic so a section only holds its own sources, then order them.
@@ -643,14 +675,15 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
 
 def swap_lead_if_imageless(out: dict) -> bool:
     """If the lead has no image and a front story has one, swap them. Returns True if swapped.
-    The new lead uses its own title as headline. The old lead loses its headline."""
+    The new lead uses its own title as headline and has no decks.
+    The old lead loses its headline and decks."""
     lead = out.get("lead")
     if not lead or lead.get("image"):
         return False
     for idx, f in enumerate(out.get("front") or []):
         if f.get("image"):
-            demoted = {k: v for k, v in lead.items() if k != "headline"}
-            out["lead"] = {**f, "headline": f["title"]}
+            demoted = {k: v for k, v in lead.items() if k not in ("headline", "decks")}
+            out["lead"] = {**f, "headline": f["title"], "decks": []}
             out["front"][idx] = demoted
             return True
     return False
