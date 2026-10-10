@@ -335,6 +335,141 @@
     .index { font-size: 14px; line-height: 1.9; }
     .idx-label { display: block; margin: 0 0 2px; }
   }
+
+  /* ---------- Tabs ---------- */
+  .tabs { display: flex; justify-content: center; margin: 16px 0 0; border-bottom: 3px double var(--rule); }
+  .tab {
+    -webkit-appearance: none; appearance: none; background: none; border: 0; border-radius: 0; margin: 0; cursor: pointer;
+    border-top: 3px solid transparent; padding: 9px 24px 7px calc(24px + .3em);
+    font: 500 13px/1.1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; color: var(--ink-soft);
+  }
+  .tab + .tab { border-left: 1px solid var(--rule-soft); }
+  .tab:hover { color: var(--ink); }
+  .tab[aria-selected="true"] { color: var(--ink); background: var(--paper-hi); border-top-color: var(--accent); font-weight: 600; }
+  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
+
+  /* ---------- Private sheets (Today and Mail) ---------- */
+  .sheet { max-width: 940px; margin: 0 auto; padding: 22px 0 6px; }
+  .sheet-title {
+    margin: 14px 0 0; text-align: center; font: 700 clamp(34px, 6vw, 58px)/1 var(--f-display); text-transform: uppercase;
+    letter-spacing: .01em; text-wrap: balance;
+  }
+  .sheet-title:focus { outline: none; }
+  .band {
+    display: flex; align-items: center; gap: 12px; margin: 22px 0 0;
+    font: 500 12px/1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; color: var(--accent);
+  }
+  .band::before, .band::after { content: ""; flex: 1; border-top: 1px solid var(--rule-soft); }
+  .times { list-style: none; margin: 14px 0 0; padding: 0; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule); }
+  .band + .times { margin-top: 10px; }
+  .times li { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 0 22px; padding: 12px 2px; border-bottom: 1px dotted var(--rule-soft); }
+  .times li:last-child { border-bottom: 0; }
+  .t-time {
+    font: 500 17px/1.25 var(--f-label); letter-spacing: .08em; text-transform: uppercase; color: var(--accent);
+    text-align: right; padding-right: 22px; border-right: 1px solid var(--rule-soft); overflow-wrap: anywhere;
+  }
+  .t-title { display: block; font: 700 21px/1.2 var(--f-head); overflow-wrap: anywhere; }
+  .t-loc { display: block; margin-top: 2px; font: italic 15px/1.3 var(--f-body); color: var(--ink-soft); overflow-wrap: anywhere; }
+  .times.all li { grid-template-columns: minmax(0, 1fr); text-align: center; }
+  .times.all .t-title { font-size: 20px; }
+  .tomorrow { margin: 16px 0 0; text-align: center; font-size: 17px; font-style: italic; color: var(--ink-soft); overflow-wrap: anywhere; }
+  .tomorrow b { font: 600 13px/1 var(--f-label); font-style: normal; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+  .tomorrow .tt { font-style: normal; font-weight: 700; color: var(--ink); }
+  .sheet-note { margin: 18px 0 0; text-align: center; font-size: 14px; font-style: italic; color: var(--ink-soft); overflow-wrap: anywhere; }
+  .sheet-foot {
+    display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; margin: 22px 0 0; padding: 9px 2px 0;
+    border-top: 1px solid var(--rule-soft); font-size: 14px; color: var(--ink-soft);
+  }
+  .lockbtn {
+    -webkit-appearance: none; appearance: none; background: none; border: 1px solid var(--rule); border-radius: 0; cursor: pointer;
+    padding: 4px 12px 3px calc(12px + .2em); font: 500 11px/1.2 var(--f-label); letter-spacing: .2em; text-transform: uppercase; color: var(--ink);
+  }
+  .lockbtn:hover { background: var(--paper-hi); }
+  .lockbtn:focus-visible, .lock .go:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .mail-cols { column-count: 3; column-gap: 26px; margin-top: 22px; }
+  .cat {
+    break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid; display: block; width: 100%;
+    margin: 4px 0 26px; padding: 10px 14px 6px; border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px;
+    background: rgba(246, 239, 221, .35);
+  }
+  .cat-head {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 0; padding: 0 0 6px;
+    font: 600 17px/1.15 var(--f-label); letter-spacing: .14em; text-transform: uppercase; border-bottom: 3px double var(--rule);
+  }
+  .cat-head .n { color: var(--accent); font-size: 15px; letter-spacing: .05em; }
+  .cat-over { margin: 8px 0 4px; font-style: italic; font-size: 15px; line-height: 1.3; color: var(--ink-soft); }
+  .m-item { display: block; position: relative; padding: 9px 0 9px 15px; border-top: 1px dotted var(--rule-soft); overflow-wrap: anywhere; }
+  .cat-over + .m-item, .cat-head + .m-item { margin-top: 6px; }
+  .m-item:hover .m-from { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .m-dot { position: absolute; left: 0; top: 11px; color: var(--accent); font-size: 11px; line-height: 1.6; }
+  .m-from { font: 700 16px/1.25 var(--f-head); }
+  .m-subj { font-size: 16px; line-height: 1.25; }
+  .m-line { display: block; margin-top: 2px; font-style: italic; font-size: 15px; line-height: 1.3; color: var(--ink-soft); }
+
+  .lock {
+    max-width: 460px; margin: 40px auto 22px; padding: 20px 22px 22px; text-align: center;
+    border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 4px; background: rgba(246, 239, 221, .4);
+  }
+  .lock h2 { margin: 0 0 8px; font: 700 28px/1.05 var(--f-display); text-transform: uppercase; letter-spacing: .02em; }
+  .lock p { margin: 0 0 14px; font-style: italic; color: var(--ink-soft); line-height: 1.35; }
+  .lock label.pw { display: block; margin-bottom: 6px; font: 500 11px/1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; }
+  .lock input[type="password"] {
+    width: 100%; padding: 8px 10px; font: italic 17px var(--f-body); color: var(--ink); background: var(--paper-hi);
+    border: 1px solid var(--rule); border-radius: 0; text-align: center;
+  }
+  .lock input[type="password"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .lock .rem { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 12px 0; font: 500 12px/1.2 var(--f-label); letter-spacing: .14em; text-transform: uppercase; cursor: pointer; }
+  .lock .rem input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
+  .lock .go {
+    -webkit-appearance: none; appearance: none; border: 1px solid var(--ink); border-radius: 0; background: var(--ink); color: var(--paper-hi);
+    padding: 10px 26px 9px calc(26px + .3em); font: 500 13px/1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; cursor: pointer;
+  }
+  .lock .go:disabled { opacity: .6; cursor: wait; }
+  .lock-err { min-height: 1.4em; margin: 12px 0 0 !important; color: var(--accent) !important; font-style: italic; }
+
+  /* ---------- Weather box (front page, top of the right-hand column) ---------- */
+  .wx {
+    margin: 4px 4px calc(18px + var(--gap, 0px) * .5); padding: calc(9px * var(--fit, 1)) calc(11px * var(--fit, 1)) calc(8px * var(--fit, 1));
+    border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px;
+    background: rgba(246, 239, 221, .45); font-size: calc(14px * var(--fit, 1)); line-height: 1.25; color: var(--ink);
+  }
+  .wx-title {
+    display: block; text-align: center; font: 500 .86em/1 var(--f-label); letter-spacing: .24em; padding: 0 0 .55em .24em;
+    text-transform: uppercase; border-bottom: 3px double var(--rule);
+  }
+  .wx-now { display: flex; align-items: center; justify-content: center; gap: .6em; padding: .55em 0 .35em; }
+  .wx-temp { font: 900 2.5em/1 var(--f-head); letter-spacing: -.01em; }
+  .wx-sky { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+  .wx-glyph { font-family: "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", "Noto Sans Symbols 2", "Noto Sans Symbols", sans-serif; color: var(--accent); }
+  .wx-sky .wx-glyph { font-size: 1.7em; line-height: 1; }
+  .wx-cond { font-style: italic; font-size: 1.04em; line-height: 1.15; }
+  .wx-kv { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.1em; margin: 0; padding: .1em 0 .4em; }
+  .wx-kv > div { display: flex; justify-content: space-between; gap: .5em; padding: .22em 0; border-bottom: 1px dotted var(--rule-soft); }
+  .wx-kv dt { font: 500 .8em/1.5 var(--f-label); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  .wx-kv dd { margin: 0; font-weight: 700; white-space: nowrap; }
+  .wx-kv .wide { grid-column: 1 / -1; }
+  .wx-hours { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin: .35em 0 0; padding: .45em 0 0; border-top: 1px solid var(--rule); }
+  .wx-h { display: flex; flex-direction: column; align-items: center; gap: .08em; min-width: 0; text-align: center; }
+  .wx-h + .wx-h { border-left: 1px dotted var(--rule-soft); }
+  .wx-h .hr { font: 500 .78em/1.2 var(--f-label); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .wx-h .wx-glyph { font-size: 1.25em; line-height: 1.15; }
+  .wx-h .tp { font-weight: 700; font-size: .98em; }
+  .wx-h .rn { font-size: .8em; font-style: italic; color: var(--ink-soft); }
+
+  @media (max-width: 999px) {
+    .mail-cols { column-count: 2; }
+  }
+  @media (max-width: 599px) {
+    .tabs { margin-top: 12px; }
+    .tab { flex: 1 1 0; padding: 9px 4px 7px calc(4px + .2em); font-size: 12px; letter-spacing: .2em; text-align: center; }
+    .sheet { padding-top: 16px; }
+    .mail-cols { column-count: 1; }
+    .times li { grid-template-columns: 6.2em minmax(0, 1fr); gap: 0 12px; }
+    .t-time { font-size: 14px; padding-right: 12px; letter-spacing: .04em; }
+    .t-title { font-size: 19px; }
+    .lock { margin-top: 24px; padding: 16px 16px 18px; }
+  }
 </style>
 </head>
 <body>
@@ -348,14 +483,26 @@
     <aside class="ear ear-edition" id="ear-edition" hidden aria-label="Edition"><div class="ear-in"><div class="ear-body"></div></div></aside>
   </header>
   <div class="dateline" id="dateline" hidden></div>
-  <main id="content"></main>
-  <nav class="index" id="index" aria-label="Index" hidden></nav>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Sections of the paper">
+    <button type="button" class="tab" role="tab" id="tab-front" data-tab="front" aria-controls="panel-front" aria-selected="true">Front Page</button>
+    <button type="button" class="tab" role="tab" id="tab-today" data-tab="today" aria-controls="panel-today" aria-selected="false" tabindex="-1">Today</button>
+    <button type="button" class="tab" role="tab" id="tab-mail" data-tab="mail" aria-controls="panel-mail" aria-selected="false" tabindex="-1">Mail</button>
+  </div>
+  <main>
+    <div id="panel-front" class="panel" role="tabpanel" aria-labelledby="tab-front">
+      <div id="content"></div>
+      <nav class="index" id="index" aria-label="Index" hidden></nav>
+    </div>
+    <div id="panel-today" class="panel" role="tabpanel" aria-labelledby="tab-today" hidden></div>
+    <div id="panel-mail" class="panel" role="tabpanel" aria-labelledby="tab-mail" hidden></div>
+  </main>
 </div>
 <footer class="foot" id="foot"></footer>
 <script>
 (function () {
   "use strict";
   var content = document.getElementById("content");
+  var frontPanel = document.getElementById("panel-front");
   var mastImg = document.querySelector("#masthead img");
   if (mastImg) {
     mastImg.addEventListener("load", function () { Fit.schedule(); });
@@ -734,6 +881,7 @@
     }
     renderIndex(entries);
     renderFoot(b, when);
+    placeWeather();   // if the weather arrived first
     Fit.run();
     Fit.schedule(300);
   }
@@ -912,7 +1060,7 @@
 
     function run() {
       timer = null;
-      if (busy || !content.firstElementChild) return;
+      if (busy || !content.firstElementChild || frontPanel.hidden) return;   // measure only the visible panel
       busy = true;
       try {
         var ears = [document.getElementById("ear-scores"), document.getElementById("ear-edition")];
@@ -960,6 +1108,492 @@
     }
     return { schedule: schedule, run: run };
   })();
+
+  // ---------- Weather (public, fetched in the browser) ----------
+  // City-level Atlanta on purpose: a public page must never hold a precise location. Change it here.
+  var WX_PLACE = { name: "Atlanta", lat: 33.749, lon: -84.388 };
+  var WX_URL = "https://api.open-meteo.com/v1/forecast?latitude=" + WX_PLACE.lat + "&longitude=" + WX_PLACE.lon +
+    "&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m" +
+    "&hourly=temperature_2m,precipitation_probability,weather_code" +
+    "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset" +
+    "&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=2";
+  // WMO weather codes: [plain words, text glyph]. Glyphs are forced to text style (U+FE0E) so they stay engraved, not emoji.
+  var SUN = "☀", PART = "⛅", CLOUD = "☁", FOG = "≋", RAIN = "☂", STORM = "⛈", SNOW = "❄";
+  var WMO = {
+    0: ["Clear sky", SUN], 1: ["Mainly clear", SUN], 2: ["Partly cloudy", PART], 3: ["Overcast", CLOUD],
+    45: ["Fog", FOG], 48: ["Freezing fog", FOG],
+    51: ["Light drizzle", RAIN], 53: ["Drizzle", RAIN], 55: ["Heavy drizzle", RAIN], 56: ["Freezing drizzle", RAIN], 57: ["Freezing drizzle", RAIN],
+    61: ["Light rain", RAIN], 63: ["Rain", RAIN], 65: ["Heavy rain", RAIN], 66: ["Freezing rain", RAIN], 67: ["Freezing rain", RAIN],
+    71: ["Light snow", SNOW], 73: ["Snow", SNOW], 75: ["Heavy snow", SNOW], 77: ["Snow grains", SNOW],
+    80: ["Light showers", RAIN], 81: ["Showers", RAIN], 82: ["Heavy showers", RAIN], 85: ["Snow showers", SNOW], 86: ["Heavy snow showers", SNOW],
+    95: ["Thunderstorm", STORM], 96: ["Thunderstorm with hail", STORM], 99: ["Thunderstorm with hail", STORM]
+  };
+  var wx = { data: null, failed: false };
+
+  function wxNum(v, lo, hi) { return typeof v === "number" && isFinite(v) && v >= lo && v <= hi ? v : null; }
+  function wxCode(v) {
+    var c = typeof v === "number" && isFinite(v) && v === Math.floor(v) ? v : null;
+    var w = c !== null && WMO.hasOwnProperty(c) ? WMO[c] : ["Variable skies", CLOUD];
+    return { words: w[0], glyph: w[1] + (w[1] === FOG ? "" : "︎") };
+  }
+  function wxTime12(s) {   // "2026-10-10T07:23" -> "7:23 AM". Open-Meteo already gives Atlanta local time.
+    var m = /^\d{4}-\d{2}-\d{2}T(\d{2}):(\d{2})/.exec(typeof s === "string" ? s : "");
+    if (!m) return null;
+    var h = +m[1];
+    if (h > 23 || +m[2] > 59) return null;
+    return (h % 12 || 12) + ":" + m[2] + (h < 12 ? " AM" : " PM");
+  }
+  function wxHour12(s) {
+    var m = /^\d{4}-\d{2}-\d{2}T(\d{2}):/.exec(s);
+    var h = m ? +m[1] : -1;
+    return h < 0 || h > 23 ? null : (h % 12 || 12) + " " + (h < 12 ? "AM" : "PM");
+  }
+  function wxNowLocal() {   // "YYYY-MM-DDTHH:MM" in Atlanta, used only when the response has no current.time
+    var p = {};
+    new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", hourCycle: "h23", year: "numeric", month: "2-digit",
+      day: "2-digit", hour: "2-digit", minute: "2-digit" }).formatToParts(new Date()).forEach(function (x) { p[x.type] = x.value; });
+    return p.year + "-" + p.month + "-" + p.day + "T" + p.hour + ":" + p.minute;
+  }
+  // Check every number before it reaches the page. Anything odd throws, and the box is not shown.
+  function wxParse(j) {
+    var c = j && j.current, d = j && j.daily, h = j && j.hourly;
+    if (!c || !d || !h) throw new Error("shape");
+    var out = {
+      temp: wxNum(c.temperature_2m, -60, 140), feels: wxNum(c.apparent_temperature, -80, 160), wind: wxNum(c.wind_speed_10m, 0, 250),
+      sky: wxCode(c.weather_code),
+      hi: wxNum(d.temperature_2m_max && d.temperature_2m_max[0], -60, 140), lo: wxNum(d.temperature_2m_min && d.temperature_2m_min[0], -60, 140),
+      rain: wxNum(d.precipitation_probability_max && d.precipitation_probability_max[0], 0, 100),
+      rise: wxTime12(d.sunrise && d.sunrise[0]), set: wxTime12(d.sunset && d.sunset[0]), hours: []
+    };
+    if ([out.temp, out.feels, out.wind, out.hi, out.lo].some(function (v) { return v === null; }) || !out.rise || !out.set) throw new Error("values");
+    if (!Array.isArray(h.time) || !Array.isArray(h.temperature_2m)) throw new Error("hourly");
+    var nowStr = typeof c.time === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(c.time) ? c.time : wxNowLocal();
+    var cutoff = nowStr.slice(0, 13) + ":00";   // only hours after the current one
+    for (var i = 0; i < h.time.length && out.hours.length < 6; i++) {
+      var t = h.time[i];
+      if (typeof t !== "string" || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(t) || t <= cutoff) continue;
+      var tp = wxNum(h.temperature_2m[i], -60, 140), label = wxHour12(t);
+      if (tp === null || !label) throw new Error("hour");
+      out.hours.push({ hr: label, temp: tp, sky: wxCode(h.weather_code && h.weather_code[i]),
+        rain: wxNum(h.precipitation_probability && h.precipitation_probability[i], 0, 100) });
+    }
+    if (out.hours.length < 6) throw new Error("hours");
+    return out;
+  }
+  function deg(v) { return Math.round(v) + "°"; }
+  function renderWeather(w) {
+    var box = el("aside", "wx");
+    box.setAttribute("aria-label", "Weather for " + WX_PLACE.name);
+    box.appendChild(el("span", "wx-title", "Weather — " + WX_PLACE.name));
+    var now = el("div", "wx-now");
+    now.appendChild(el("span", "wx-temp", deg(w.temp)));
+    var sky = el("div", "wx-sky");
+    var g = el("span", "wx-glyph", w.sky.glyph);
+    g.setAttribute("aria-hidden", "true");
+    sky.appendChild(g);
+    sky.appendChild(el("span", "wx-cond", w.sky.words));
+    now.appendChild(sky);
+    box.appendChild(now);
+    var kv = el("dl", "wx-kv");
+    [["Feels like", deg(w.feels)], ["Wind", Math.round(w.wind) + " mph"], ["High", deg(w.hi)], ["Low", deg(w.lo)],
+     w.rain === null ? null : ["Chance of rain", "up to " + Math.round(w.rain) + "%", "wide"],
+     ["Sunrise", w.rise], ["Sunset", w.set]].forEach(function (r) {
+      if (!r) return;
+      var row = el("div", r[2] || "");
+      row.appendChild(el("dt", null, r[0]));
+      row.appendChild(el("dd", null, r[1]));
+      kv.appendChild(row);
+    });
+    box.appendChild(kv);
+    var hours = el("div", "wx-hours");
+    hours.setAttribute("role", "list");
+    w.hours.forEach(function (x) {
+      var c = el("div", "wx-h");
+      c.setAttribute("role", "listitem");
+      c.setAttribute("aria-label", x.hr + ", " + deg(x.temp) + ", " + x.sky.words + (x.rain === null ? "" : ", " + Math.round(x.rain) + " percent chance of rain"));
+      c.appendChild(el("span", "hr", x.hr));
+      var gg = el("span", "wx-glyph", x.sky.glyph);
+      gg.setAttribute("aria-hidden", "true");
+      c.appendChild(gg);
+      c.appendChild(el("span", "tp", deg(x.temp)));
+      c.appendChild(el("span", "rn", x.rain === null ? "–" : Math.round(x.rain) + "%"));
+      hours.appendChild(c);
+    });
+    box.appendChild(hours);
+    return box;
+  }
+  // Put the box at the top of the "Also on the Front Page" column. Returns true if it was added just now.
+  function placeWeather() {
+    var col = content.querySelector(".front-col");
+    if (!col || wx.failed || !wx.data || col.querySelector(".wx")) return false;
+    col.insertBefore(renderWeather(wx.data), col.firstChild);
+    return true;
+  }
+  function removeWeather() {
+    Array.prototype.slice.call(document.querySelectorAll(".wx")).forEach(function (n) { n.parentNode.removeChild(n); });
+  }
+  function loadWeather() {
+    var ctl = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 8000);
+    fetch(WX_URL, ctl ? { signal: ctl.signal } : {})
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(wxParse)
+      .then(function (w) {
+        clearTimeout(timer);
+        wx.data = w;
+        if (placeWeather()) { Fit.run(); Fit.schedule(200); }   // fit again now the box is on the page
+      })
+      .catch(function () { clearTimeout(timer); wx.failed = true; wx.data = null; removeWeather(); Fit.schedule(60); });
+  }
+
+  // ---------- Private tabs: Today and Mail ----------
+  // private.enc is public but sealed (AES-256-GCM, PBKDF2-SHA256). It is opened here with the passphrase, in memory only.
+  var PASS_KEY = "cmrlm-pass", TAB_KEY = "cmrlm-tab";
+  var TABS = ["front", "today", "mail"];
+  var NY = "America/New_York";
+  var MAIL_PREFIX = "https://mail.google.com/";
+  var store = {
+    get: function (k) { try { return window.localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { window.localStorage.setItem(k, v); } catch (e) {} },
+    del: function (k) { try { window.localStorage.removeItem(k); } catch (e) {} }
+  };
+  var priv = { state: "loading", blob: null, data: null };   // loading | nofile | error | locked | open
+  var panels = { today: document.getElementById("panel-today"), mail: document.getElementById("panel-mail") };
+  var tabButtons = {}, tabPanels = { front: frontPanel, today: panels.today, mail: panels.mail };
+  TABS.forEach(function (t) { tabButtons[t] = document.getElementById("tab-" + t); });
+
+  function b64bytes(s) {
+    if (typeof s !== "string" || !/^[A-Za-z0-9+\/]*={0,2}$/.test(s)) throw badFile();
+    var bin = atob(s), out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  function badFile() { var e = new Error("bad file"); e.bad = true; return e; }
+
+  function decryptBlob(blob, pass) {
+    if (!window.crypto || !crypto.subtle) { var e = new Error("no crypto"); e.bad = true; return Promise.reject(e); }
+    try {
+      if (!blob || blob.v !== 1 || blob.kdf !== "PBKDF2-SHA256" || !(blob.iter >= 100000 && blob.iter <= 5000000)) throw badFile();
+      var salt = b64bytes(blob.salt), iv = b64bytes(blob.iv), ct = b64bytes(blob.ct);
+      if (iv.length !== 12 || ct.length < 16) throw badFile();
+    } catch (e) { return Promise.reject(e); }
+    var secret = new TextEncoder().encode(String(pass).trim().normalize("NFC"));
+    return crypto.subtle.importKey("raw", secret, "PBKDF2", false, ["deriveKey"])
+      .then(function (base) {
+        return crypto.subtle.deriveKey({ name: "PBKDF2", salt: salt, iterations: blob.iter, hash: "SHA-256" }, base,
+          { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+      })
+      .then(function (key) { return crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, ct); })
+      .then(function (plain) { return JSON.parse(new TextDecoder().decode(plain)); });
+  }
+
+  // ----- formatting -----
+  function fmtTime(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: NY }).replace(/[  ]/g, " ");
+  }
+  function fmtRange(a, b) {
+    var s = fmtTime(a), e = fmtTime(b);
+    if (!s) return "";
+    var sd = new Date(a), ed = new Date(b);
+    var sameDay = !isNaN(ed) && sd.toLocaleDateString("en-US", { timeZone: NY }) === ed.toLocaleDateString("en-US", { timeZone: NY });
+    if (!e || !sameDay || +ed <= +sd) return s;
+    var ms = /^(.*) (AM|PM)$/.exec(s), me = /^(.*) (AM|PM)$/.exec(e);
+    if (ms && me && ms[2] === me[2]) return ms[1] + "–" + e;
+    return s + "–" + e;
+  }
+  function ymd(s) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(typeof s === "string" ? s : ""); return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) : NaN; }
+  function fmtDay(ms) { return new Date(ms).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" }); }
+  function str(v, n) { return typeof v === "string" ? v.slice(0, n) : ""; }
+  function arr(v) { return Array.isArray(v) ? v : []; }
+
+  function sheetHead(label, title) {
+    var frag = document.createDocumentFragment();
+    var banner = el("div", "banner");
+    banner.appendChild(el("span", "banner-label", label));
+    frag.appendChild(banner);
+    var h = el("h2", "sheet-title", title);
+    h.tabIndex = -1;
+    frag.appendChild(h);
+    return frag;
+  }
+  function sheetFoot(d) {
+    var foot = el("div", "sheet-foot");
+    var when = d.generated_at ? new Date(d.generated_at) : null;
+    if (when && !isNaN(when)) {
+      foot.appendChild(el("span", null, "Compiled " + when.toLocaleString([], { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })));
+    }
+    var b = el("button", "lockbtn", "Lock");
+    b.type = "button";
+    b.addEventListener("click", lockUp);
+    foot.appendChild(b);
+    return foot;
+  }
+  function notes(d) {
+    var list = arr(d.errors).filter(function (x) { return typeof x === "string" && x; }).slice(0, 4);
+    return list.length ? el("p", "sheet-note", "Printer’s notes: " + list.join("; ") + ".") : null;
+  }
+
+  function renderToday(host, d) {
+    var p = d.plans;
+    if (!p || typeof p !== "object") {
+      host.appendChild(el("p", "empty", "Calendar is not connected."));
+      return;
+    }
+    var sheet = el("div", "sheet");
+    sheet.appendChild(sheetHead(str(p.date_label, 40) || "Today", "Today’s Engagements"));
+    var events = arr(p.events).filter(function (e) { return e && typeof e === "object"; });
+    var allDay = events.filter(function (e) { return e.all_day === true; });
+    var timed = events.filter(function (e) { return e.all_day !== true; });
+    function title(e) { return str(e.title, 160) || "(No title)"; }
+    if (!events.length) {
+      sheet.appendChild(el("p", "empty", "No engagements on the calendar today."));
+    }
+    if (allDay.length) {
+      sheet.appendChild(el("div", "band", "All Day"));
+      var ul = el("ul", "times all");
+      allDay.forEach(function (e) {
+        var li = el("li");
+        var box = el("div");
+        box.appendChild(el("span", "t-title", title(e)));
+        var last = ymd(e.end) - 86400000;
+        if (last > ymd(e.start)) box.appendChild(el("span", "t-loc", "Through " + fmtDay(last)));
+        if (str(e.location, 160)) box.appendChild(el("span", "t-loc", str(e.location, 160)));
+        li.appendChild(box);
+        ul.appendChild(li);
+      });
+      sheet.appendChild(ul);
+    }
+    if (timed.length) {
+      if (allDay.length) sheet.appendChild(el("div", "band", "Schedule"));
+      var tl = el("ul", "times");
+      timed.forEach(function (e) {
+        var li = el("li");
+        li.appendChild(el("span", "t-time", fmtRange(e.start, e.end)));
+        var box = el("div");
+        box.appendChild(el("span", "t-title", title(e)));
+        if (str(e.location, 160)) box.appendChild(el("span", "t-loc", str(e.location, 160)));   // text only, never a link
+        li.appendChild(box);
+        tl.appendChild(li);
+      });
+      sheet.appendChild(tl);
+    }
+    var tf = p.tomorrow_first;
+    var line = el("p", "tomorrow");
+    line.appendChild(el("b", null, "Tomorrow, first up: "));
+    if (tf && typeof tf === "object" && fmtTime(tf.start)) {
+      line.appendChild(el("span", "tt", fmtTime(tf.start)));
+      line.appendChild(document.createTextNode(" — " + (str(tf.title, 160) || "(No title)")));
+    } else {
+      line.appendChild(document.createTextNode("nothing timed."));
+    }
+    sheet.appendChild(line);
+    var n = notes(d);
+    if (n) sheet.appendChild(n);
+    sheet.appendChild(sheetFoot(d));
+    host.appendChild(sheet);
+  }
+
+  function renderMail(host, d) {
+    var m = d.mail;
+    if (!m || typeof m !== "object") {
+      host.appendChild(el("p", "empty", "Gmail is not connected."));
+      return;
+    }
+    var cats = arr(m.categories).filter(function (c) { return c && typeof c === "object" && arr(c.items).length; });
+    var total = typeof m.total === "number" && m.total >= 0 ? Math.floor(m.total) : 0;
+    var sheet = el("div", "sheet");
+    sheet.appendChild(sheetHead(total + (total === 1 ? " message" : " messages") + " since yesterday", "The Morning Post"));
+    if (!cats.length) {
+      sheet.appendChild(el("p", "empty", "No new mail since yesterday."));
+    } else {
+      var cols = el("div", "mail-cols");
+      cats.forEach(function (c) {
+        var box = el("section", "cat");
+        var head = el("h3", "cat-head");
+        head.appendChild(el("span", null, str(c.name, 40)));
+        head.appendChild(el("span", "n", String(arr(c.items).length)));
+        box.appendChild(head);
+        if (str(c.overview, 240)) box.appendChild(el("p", "cat-over", str(c.overview, 240)));
+        arr(c.items).forEach(function (it) {
+          if (!it || typeof it !== "object") return;
+          var href = typeof it.link === "string" && it.link.indexOf(MAIL_PREFIX) === 0 ? it.link : null;   // only Gmail links
+          var row = el(href ? "a" : "div", "m-item");
+          if (href) openLink(row, href);
+          if (it.unread === true) {
+            var dot = el("span", "m-dot", "●");
+            dot.setAttribute("aria-hidden", "true");
+            row.appendChild(dot);
+            row.appendChild(el("span", "sr-only", "Unread. "));
+          }
+          row.appendChild(el("b", "m-from", str(it.from_name, 80) || "Unknown sender"));
+          row.appendChild(el("span", "m-subj", " — " + str(it.subject, 160)));
+          if (str(it.line, 200)) row.appendChild(el("span", "m-line", str(it.line, 200)));
+          box.appendChild(row);
+        });
+        cols.appendChild(box);
+      });
+      sheet.appendChild(cols);
+    }
+    var n = notes(d);
+    if (n) sheet.appendChild(n);
+    sheet.appendChild(sheetFoot(d));
+    host.appendChild(sheet);
+  }
+
+  // ----- lock card -----
+  var cards = [];
+  function lockCard(which) {
+    var form = el("form", "lock");
+    form.setAttribute("novalidate", "novalidate");
+    var heading = which === "mail" ? "The Morning Post" : "Today’s Engagements";
+    form.appendChild(el("h2", null, heading));
+    form.appendChild(el("p", null, "This page is private. Enter the passphrase to read today’s plans and mail. They are sealed on the server and opened only in this browser."));
+    var label = el("label", "pw", "Passphrase");
+    var id = "pass-" + which;
+    label.setAttribute("for", id);
+    var input = document.createElement("input");
+    input.type = "password"; input.id = id; input.name = "passphrase";
+    input.setAttribute("autocomplete", "current-password");
+    input.setAttribute("autocapitalize", "off");
+    input.setAttribute("autocorrect", "off");
+    input.spellcheck = false;
+    form.appendChild(label);
+    form.appendChild(input);
+    var rem = el("label", "rem");
+    var box = document.createElement("input");
+    box.type = "checkbox"; box.id = "remember-" + which;
+    rem.appendChild(box);
+    rem.appendChild(document.createTextNode("Remember on this device"));
+    form.appendChild(rem);
+    var go = el("button", "go", "Unlock");
+    go.type = "submit";
+    form.appendChild(go);
+    var err = el("p", "lock-err");
+    err.setAttribute("role", "alert");
+    form.appendChild(err);
+    var ui = { input: input, box: box, go: go, err: err };
+    cards.push(ui);
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var pass = input.value;
+      cards.forEach(function (c) { c.err.textContent = ""; });
+      go.disabled = true; go.textContent = "Unlocking…";
+      unlock(pass).then(function () {
+        if (box.checked) store.set(PASS_KEY, pass.trim().normalize("NFC"));
+        var h = panels[TABS[tabIndexSelected()]] && panels[TABS[tabIndexSelected()]].querySelector(".sheet-title");
+        if (h) h.focus();
+      }, function (e) {
+        go.disabled = false; go.textContent = "Unlock";
+        err.textContent = e && e.bad ? "Plans and mail could not be opened." : "That passphrase did not work.";
+        input.select();
+      });
+    });
+    return form;
+  }
+  function tabIndexSelected() {
+    for (var i = 0; i < TABS.length; i++) if (tabButtons[TABS[i]].getAttribute("aria-selected") === "true") return i;
+    return 0;
+  }
+
+  function paintPrivate() {
+    cards = [];
+    ["today", "mail"].forEach(function (which) {
+      var host = panels[which];
+      while (host.firstChild) host.removeChild(host.firstChild);
+      if (priv.state === "open" && priv.data) {
+        if (which === "today") renderToday(host, priv.data); else renderMail(host, priv.data);
+      } else if (priv.state === "locked") {
+        host.appendChild(lockCard(which));
+      } else if (priv.state === "nofile") {
+        host.appendChild(el("p", "empty", "Plans and mail are not set up yet."));
+      } else if (priv.state === "error") {
+        host.appendChild(el("p", "empty", "Plans and mail could not be loaded right now."));
+      } else {
+        host.appendChild(el("p", "empty", "Setting type…"));
+      }
+    });
+  }
+
+  // Decrypt with a passphrase. Resolves when the sheets are open; rejects if the passphrase is wrong.
+  function unlock(pass) {
+    if (!priv.blob) return Promise.reject(badFile());
+    return decryptBlob(priv.blob, pass).then(function (data) {
+      if (!data || typeof data !== "object") throw badFile();
+      priv.data = data;
+      priv.state = "open";
+      paintPrivate();
+    });
+  }
+  function lockUp() {
+    store.del(PASS_KEY);
+    priv.data = null;
+    priv.state = "locked";
+    paintPrivate();
+    var f = document.getElementById("pass-" + TABS[tabIndexSelected()]);
+    if (f) f.focus();
+  }
+  function loadPrivate() {
+    paintPrivate();
+    fetch("private.enc?v=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (r.status === 404) { var e = new Error("missing"); e.missing = true; throw e; }
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      })
+      .then(function (blob) {
+        priv.blob = blob;
+        var saved = store.get(PASS_KEY);
+        if (!saved) { priv.state = "locked"; paintPrivate(); return; }
+        // A remembered passphrase opens the sheets silently. If it no longer works it is forgotten.
+        return unlock(saved).catch(function () { store.del(PASS_KEY); priv.state = "locked"; paintPrivate(); });
+      })
+      .catch(function (e) { priv.state = e && e.missing ? "nofile" : "error"; paintPrivate(); });
+  }
+
+  // ----- tabs -----
+  function setHash(id) {
+    try { history.replaceState(null, "", id === "front" ? location.pathname + location.search : "#" + id); } catch (e) {}
+  }
+  function selectTab(id, opts) {
+    opts = opts || {};
+    if (TABS.indexOf(id) < 0) id = "front";
+    TABS.forEach(function (t) {
+      var on = t === id;
+      tabButtons[t].setAttribute("aria-selected", on ? "true" : "false");
+      tabButtons[t].tabIndex = on ? 0 : -1;
+      tabPanels[t].hidden = !on;
+    });
+    store.set(TAB_KEY, id);
+    if (opts.hash !== false) setHash(id);
+    if (opts.focus) tabButtons[id].focus();
+    if (id === "front") { Fit.run(); Fit.schedule(60); }   // the fit engine only measures the visible panel
+  }
+  TABS.forEach(function (t, i) {
+    tabButtons[t].addEventListener("click", function () { selectTab(t); });
+    tabButtons[t].addEventListener("keydown", function (ev) {
+      var n = null;
+      if (ev.key === "ArrowRight") n = (i + 1) % TABS.length;
+      else if (ev.key === "ArrowLeft") n = (i + TABS.length - 1) % TABS.length;
+      else if (ev.key === "Home") n = 0;
+      else if (ev.key === "End") n = TABS.length - 1;
+      if (n === null) return;
+      ev.preventDefault();
+      selectTab(TABS[n], { focus: true });
+    });
+  });
+  window.addEventListener("hashchange", function () {
+    var h = location.hash.replace(/^#/, "");
+    if (TABS.indexOf(h) >= 0) selectTab(h, { hash: false });
+  });
+  (function () {
+    var h = location.hash.replace(/^#/, "");
+    var first = TABS.indexOf(h) >= 0 ? h : (TABS.indexOf(store.get(TAB_KEY)) >= 0 ? store.get(TAB_KEY) : "front");
+    selectTab(first, { hash: first === h });
+  })();
+  loadPrivate();
+  loadWeather();
 
   // DEMO SWITCH: null on the live site. A preview copy sets this to sample data.
   var DEMO_DATA = null;

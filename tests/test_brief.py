@@ -1,5 +1,6 @@
 """Unit checks for brief.py. Run with: python -m pytest -q"""
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -326,17 +327,11 @@ def test_sources_config():
 # ---------- dry run ----------
 
 def test_dry_run_writes_new_schema(tmp_path):
-    target = ROOT / "site" / "brief.json"
-    backup = target.read_bytes() if target.exists() else None
-    try:
-        r = subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"], capture_output=True, text=True)
-        assert r.returncode == 0, r.stderr
-        b = json.loads(target.read_text())
-    finally:
-        if backup is None:
-            target.unlink(missing_ok=True)
-        else:
-            target.write_bytes(backup)
+    env = {**os.environ, "BRIEF_SITE_DIR": str(tmp_path)}
+    env.pop("BRIEF_PASSPHRASE", None)
+    r = subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"], capture_output=True, text=True, env=env)
+    assert r.returncode == 0, r.stderr
+    b = json.loads((tmp_path / "brief.json").read_text())
     assert list(b)[:6] == ["masthead", "tagline", "edition", "date_label", "generated_at", "model"]
     assert "top" not in b
     assert b["lead"]["headline"] and len(b["front"]) == 3

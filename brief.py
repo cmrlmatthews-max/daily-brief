@@ -6,7 +6,7 @@ The page is a front page: one lead story, a few front stories, then four section
 
 Usage:
     ANTHROPIC_API_KEY=... python brief.py
-    python brief.py --dry-run      # no network, uses fixtures/
+    python brief.py --dry-run      # no network, uses fixtures/ (also writes a demo site/private.enc)
     python brief.py --fetch-only   # fetch + normalize, write out/items.json
 """
 from __future__ import annotations
@@ -31,7 +31,10 @@ import feedparser
 import requests
 import yaml
 
+import private
+
 ROOT = Path(__file__).parent
+SITE_DIR = Path(os.environ.get("BRIEF_SITE_DIR") or ROOT / "site")   # tests point this at a scratch folder
 TZ = ZoneInfo("America/New_York")
 USER_AGENT = "daily-brief/1.0 (+https://github.com/cmrlmatthews-max/daily-brief)"
 TIMEOUT = 15
@@ -761,18 +764,22 @@ def main() -> int:
         lead, front = out_items["lead"], out_items["front"]
         print("lead had no image; swapped with a front story that has one")
 
+    # Private tabs (Plans and Mail). Skipped without BRIEF_PASSPHRASE. Prints counts only, never private text.
+    extra = private.run_private(cfg, now, SITE_DIR, ROOT, dry_run=args.dry_run)
+    usage = {k: usage[k] + extra[k] for k in ("input_tokens", "output_tokens")}
+
     brief = {"masthead": cfg.get("masthead", "CMRLM"), "tagline": cfg.get("tagline", "The Daily Brief"),
              "edition": cfg.get("edition", "Atlanta Edition"), "date_label": today,
              "generated_at": now.isoformat(timespec="seconds"), "model": cfg["model"],
              "lead": lead, "front": front, "sections": sections,
              "scores": scores, "source_errors": errors, "usage": usage}
-    out = ROOT / "site/brief.json"
+    out = SITE_DIR / "brief.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n")
     in_sections = sum(len(s["items"]) for s in sections)
     with_img = sum(1 for i in ([lead] if lead else []) + front + [i for s in sections for i in s["items"]]
                    if i.get("image"))
-    print(f"wrote {out.relative_to(ROOT)}: lead={'yes' if lead else 'no'}, {len(front)} front, "
+    print(f"wrote {out.name}: lead={'yes' if lead else 'no'}, {len(front)} front, "
           f"{in_sections} in {len(sections)} sections, {with_img} with images, "
           f"{len(scores)} scores, {len(errors)} sources skipped | "
           f"tokens in={usage['input_tokens']} out={usage['output_tokens']}")
