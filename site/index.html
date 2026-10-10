@@ -690,12 +690,19 @@
     renderFoot(b, when);
   }
 
-  fetch("brief.json?v=" + Date.now(), { cache: "no-store" })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(render)
-    .catch(function () {
-      content.appendChild(el("p", "empty", "Today’s paper has not been printed yet."));
-    });
+  // DEMO SWITCH: null on the live site. A preview copy sets this to sample data.
+  var DEMO_DATA = null;
+
+  if (DEMO_DATA) {
+    render(DEMO_DATA);
+  } else {
+    fetch("brief.json?v=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(render)
+      .catch(function () {
+        content.appendChild(el("p", "empty", "Today’s paper has not been printed yet."));
+      });
+  }
 })();
 </script>
 </body>
