@@ -6,10 +6,10 @@ on:
     - cron: '45 9 * * *'
   workflow_dispatch:
 
+# Least privilege: the build job (which holds every secret and runs third-party packages) can only read.
+# Only the deploy job, which runs no repo code, may publish to Pages.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -44,6 +44,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

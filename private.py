@@ -55,6 +55,8 @@ Task:
 - Refer to messages by id only."""
 
 URL_RX = re.compile(r"(?:https?://|www\.)\S+", re.I)
+EMAIL_RX = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+", re.I)
+BARE_LINK_RX = re.compile(r"\b(?:[a-z0-9-]+\.)+[a-z]{2,}/\S*", re.I)   # scheme-less links such as evil.example/login
 HEX_RX = re.compile(r"[0-9a-f]+")
 
 
@@ -314,8 +316,12 @@ def call_sort_mail(cfg: dict, messages: list[dict]) -> tuple[dict, dict]:
 
 
 def _model_text(text: Any, limit: int, words: int | None = None) -> str:
-    """Model output is shown as plain text. URLs are removed; length is capped."""
-    s = _clean(URL_RX.sub("", str(text or "")), 400)
+    """Model output is shown as plain text. URLs, scheme-less links and email addresses are removed
+    (an email could try to plant one in a summary that is shown under another sender); length is capped."""
+    raw = html.unescape(str(text or ""))     # decode entities first so "&#104;ttps://" cannot slip past
+    for rx in (URL_RX, EMAIL_RX, BARE_LINK_RX):
+        raw = rx.sub("", raw)
+    s = _clean(raw, 400)
     if words:
         parts = s.split(" ")
         if len(parts) > words:

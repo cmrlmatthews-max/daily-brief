@@ -388,3 +388,31 @@ def test_repo_ignores_private_files_and_workflow_passes_secrets():
         assert f"{name}: ${{{{ secrets.{name} }}}}" in wf
     fx = json.loads(FIXTURE.read_text())
     assert "example.invalid" in json.dumps(fx)
+
+
+def test_model_text_strips_links_and_addresses():
+    """A prompt-injected summary must not carry a link, a scheme-less link, or an address onto the page."""
+    for bad in ("Pay now at https://evil.example/pay today", "Pay now at evil.example/pay today",
+                "Reply to attacker@evil.example today", "Visit &#104;ttps://evil.example/x now",
+                "Go to www.evil.example now"):
+        out = private._model_text(bad, 200, private.LINE_WORDS)
+        assert "evil" not in out and "@" not in out, out
+    assert private._model_text("Invoice 4.50 due Friday", 200) == "Invoice 4.50 due Friday"
+    mail = private.build_mail(
+        [private.parse_message({"id": "a1", "threadId": "abc123", "snippet": "hi", "labelIds": ["UNREAD"],
+                                "payload": {"headers": [{"name": "From", "value": "A <a@example.invalid>"},
+                                                        {"name": "Subject", "value": "S"}]}})],
+        {"items": [{"id": "m1", "category": "Personal", "line": "See bank-login.example/verify or mail x@y.example"}],
+         "overview": [{"category": "Personal", "summary": "Click https://evil.example now"}]})
+    blob = json.dumps(mail)
+    assert "example/verify" not in blob and "x@y.example" not in blob and "evil" not in blob
+
+
+def test_workflow_build_job_cannot_publish():
+    """Only the deploy job may write to Pages or mint an OIDC token; the build job holds the secrets."""
+    wf = yaml.safe_load((ROOT / ".github/workflows/daily-brief.yml").read_text())
+    assert wf["permissions"] == {"contents": "read"}
+    assert "permissions" not in wf["jobs"]["build"]
+    assert wf["jobs"]["deploy"]["permissions"] == {"pages": "write", "id-token": "write"}
+    triggers = wf.get("on") or wf.get(True)
+    assert set(triggers) <= {"schedule", "workflow_dispatch"}   # never pull_request / pull_request_target
