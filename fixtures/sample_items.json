@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "id": "f4dce0c7ac",
+      "topic": "Claude and AI",
+      "source": "Claude Platform release notes",
+      "title": "Claude Haiku 5.5 now available on the API",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-haiku-5-5",
+      "published": "2026-10-09T16:00:00+00:00",
+      "summary": "Claude Haiku 5.5 is generally available on the Claude API with improved tool use and lower latency."
+    },
+    {
+      "id": "e04654da9a",
+      "topic": "Claude and AI",
+      "source": "Claude Platform release notes",
+      "title": "Files API adds PDF page-range support",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#files-pdf-pages",
+      "published": "2026-10-08T15:00:00+00:00",
+      "summary": "Requests can now reference specific page ranges of uploaded PDFs, cutting token use on long documents."
+    },
+    {
+      "id": "e9667e445f",
+      "topic": "Claude and AI",
+      "source": "Anthropic news",
+      "title": "Anthropic opens a new office in Seoul",
+      "url": "https://www.anthropic.com/news/seoul-office",
+      "published": null,
+      "summary": "Anthropic announces its third Asia-Pacific office and plans to hire locally."
+    },
+    {
+      "id": "4c25c6ef5d",
+      "topic": "Claude and AI",
+      "source": "Simon Willison",
+      "title": "Notes on building a daily digest with tool-forced output",
+      "url": "https://simonwillison.net/2026/Oct/9/forced-tool-digest/",
+      "published": "2026-10-09T21:30:00+00:00",
+      "summary": "Forcing a single tool call is a reliable way to get structured JSON from a model without parsing prose."
+    },
+    {
+      "id": "acad05ec4b",
+      "topic": "Claude and AI",
+      "source": "Simon Willison",
+      "title": "Quote of the day on prompt injection",
+      "url": "https://simonwillison.net/2026/Oct/8/quote-prompt-injection/",
+      "published": "2026-10-08T12:00:00+00:00",
+      "summary": "A short quote about why untrusted text must never be treated as instructions."
+    },
+    {
+      "id": "8c899a0254",
+      "topic": "Claude and AI",
+      "source": "Hacker News front page",
+      "title": "Show HN: A local-first notes app with on-device embeddings",
+      "url": "https://example.com/show-hn-local-notes",
+      "published": "2026-10-10T08:10:00+00:00",
+      "summary": "Comments discuss on-device embedding models and sync strategies."
+    },
+    {
+      "id": "96cf9e13f7",
+      "topic": "Claude and AI",
+      "source": "Hacker News front page",
+      "title": "The long tail of small language models",
+      "url": "https://example.com/small-language-models",
+      "published": "2026-10-10T05:40:00+00:00",
+      "summary": "An essay on where small models beat large ones in cost and latency."
+    },
+    {
+      "id": "e4e7fb3359",
+      "topic": "Sports",
+      "source": "Houston Rockets",
+      "title": "Rockets sign veteran guard to two-year extension",
+      "url": "https://www.espn.com/nba/story/_/id/rockets-guard-extension",
+      "published": "2026-10-09T18:20:00+00:00",
+      "summary": "Houston locked up a key backcourt rotation piece before the season opener."
+    },
+    {
+      "id": "49baf11a08",
+      "topic": "Sports",
+      "source": "Houston Rockets",
+      "title": "Rockets' starting center questionable with ankle sprain",
+      "url": "https://www.espn.com/nba/story/_/id/rockets-center-ankle",
+      "published": "2026-10-10T01:00:00+00:00",
+      "summary": "He left practice early Thursday and is listed day to day."
+    },
+    {
+      "id": "5127fda34f",
+      "topic": "Sports",
+      "source": "Atlanta Braves",
+      "title": "Braves finalize coaching staff for next season",
+      "url": "https://www.espn.com/mlb/story/_/id/braves-coaching-staff",
+      "published": "2026-10-09T14:00:00+00:00",
+      "summary": "Atlanta named a new hitting coach and retained the rest of the staff."
+    },
+    {
+      "id": "46abc02c79",
+      "topic": "Sports",
+      "source": "San Francisco 49ers",
+      "title": "49ers beat Cardinals 27-17 behind late defensive stand",
+      "url": "https://www.espn.com/nfl/story/_/id/49ers-cardinals-recap",
+      "published": "2026-10-06T03:00:00+00:00",
+      "summary": "San Francisco improved to 4-2 with two fourth-quarter takeaways."
+    },
+    {
+      "id": "dd29cd594b",
+      "topic": "Sports",
+      "source": "San Francisco 49ers",
+      "title": "49ers place linebacker on injured reserve",
+      "url": "https://www.espn.com/nfl/story/_/id/49ers-linebacker-ir",
+      "published": "2026-10-09T20:00:00+00:00",
+      "summary": "He will miss at least four games with a hamstring injury."
+    },
+    {
+      "id": "da667850d7",
+      "topic": "GitHub",
+      "source": "GitHub new popular repos",
+      "title": "example-org/agent-kit",
+      "url": "https://github.com/example-org/agent-kit",
+      "published": "2026-10-07T10:00:00+00:00",
+      "summary": "A small toolkit for building tool-using agents with typed schemas. (★ 4210, Python)"
+    },
+    {
+      "id": "b7f79fe9bd",
+      "topic": "GitHub",
+      "source": "GitHub new popular repos",
+      "title": "someone/revit-mcp",
+      "url": "https://github.com/someone/revit-mcp",
+      "published": "2026-10-05T10:00:00+00:00",
+      "summary": "MCP server exposing Revit model queries to LLM clients. (★ 1380, C#)"
+    },
+    {
+      "id": "0479d56b32",
+      "topic": "GitHub",
+      "source": "GitHub trending (daily)",
+      "title": "acme/pocket-sql",
+      "url": "https://github.com/acme/pocket-sql",
+      "published": null,
+      "summary": "SQLite in the browser with a friendly query UI."
+    },
+    {
+      "id": "ea31651e1e",
+      "topic": "Atlanta architecture",
+      "source": "Urbanize Atlanta",
+      "title": "Mixed-use tower proposed beside the Beltline's Eastside Trail",
+      "url": "https://atlanta.urbanize.city/post/eastside-trail-tower",
+      "published": "2026-10-09T13:00:00+00:00",
+      "summary": "A 28-story project with ground-floor retail and 340 apartments goes to the zoning board in November."
+    },
+    {
+      "id": "62b203c717",
+      "topic": "Atlanta architecture",
+      "source": "Urbanize Atlanta",
+      "title": "Midtown office conversion to residential wins approval",
+      "url": "https://atlanta.urbanize.city/post/midtown-office-conversion",
+      "published": "2026-10-08T17:30:00+00:00",
+      "summary": "The 1980s office building will become 210 apartments with a new facade."
+    },
+    {
+      "id": "9fc6ac2a5c",
+      "topic": "Atlanta architecture",
+      "source": "ArchDaily",
+      "title": "A timber library that doubles as a flood barrier",
+      "url": "https://www.archdaily.com/1000001/timber-library-flood-barrier",
+      "published": "2026-10-09T09:00:00+00:00",
+      "summary": "Mass timber and a raised plinth let the building serve as public space and flood defense."
+    },
+    {
+      "id": "417ceeeb9c",
+      "topic": "AI in architecture",
+      "source": "BIM Pure blog",
+      "title": "Using LLMs to check Revit model naming standards",
+      "url": "https://www.bimpure.com/blog/llm-revit-naming-standards",
+      "published": "2026-10-08T11:00:00+00:00",
+      "summary": "A walkthrough of exporting parameters and having a model flag inconsistent naming."
+    },
+    {
+      "id": "dece1f99b0",
+      "topic": "AI in architecture",
+      "source": "BIM Pure YouTube",
+      "title": "Dynamo automation for door schedules (video)",
+      "url": "https://www.youtube.com/watch?v=abc123DEF45",
+      "published": "2026-10-07T15:00:00+00:00",
+      "summary": "Step-by-step video on generating door schedules with Dynamo."
+    }
+  ],
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 112–104 vs DAL",
+      "last_date": "Oct 5",
+      "next": "Mon Oct 13 at SAS",
+      "url": "https://www.espn.com/nba/team/_/name/hou"
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 3–5 at NYM",
+      "last_date": "Sep 28",
+      "next": null,
+      "url": "https://www.espn.com/mlb/team/_/name/atl"
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 27–17 vs ARI",
+      "last_date": "Oct 5",
+      "next": "Sun Oct 12 at TB",
+      "url": "https://www.espn.com/nfl/team/_/name/sf"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "top": [
+    {
+      "id": "f4dce0c7ac",
+      "note": "A faster, cheaper Claude model is now on the API, which could lower the cost of tools like this one."
+    },
+    {
+      "id": "4c25c6ef5d",
+      "note": "Practical pattern for getting reliable structured output, directly relevant to your own Claude projects."
+    },
+    {
+      "id": "ea31651e1e",
+      "note": "A large Beltline-adjacent project moving to zoning review next month, worth tracking locally."
+    },
+    {
+      "id": "da667850d7",
+      "note": "A new typed agent toolkit is climbing GitHub fast and may suit your own tool building."
+    },
+    {
+      "id": "417ceeeb9c",
+      "note": "Concrete example of applying an LLM to Revit standards checking, close to your BIM work."
+    },
+    {
+      "id": "49baf11a08",
+      "note": "A possible injury to Houston's starting center ahead of the season opener."
+    },
+    {
+      "id": "does-not-exist-123",
+      "note": "This id is not in the item list and must be dropped by the script."
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Claude and AI",
+      "items": [
+        {
+          "id": "e04654da9a",
+          "note": "PDF page ranges can cut token use when working with long specs and drawings sets."
+        },
+        {
+          "id": "e9667e445f",
+          "note": "Anthropic is expanding in Asia-Pacific with a third regional office."
+        },
+        {
+          "id": "also-not-real",
+          "note": "Unknown id, dropped."
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "id": "dd29cd594b",
+          "note": "San Francisco loses a linebacker for at least four games."
+        },
+        {
+          "id": "e4e7fb3359",
+          "note": "Houston keeps a rotation guard through a two-year extension."
+        }
+      ]
+    },
+    {
+      "topic": "GitHub",
+      "items": [
+        {
+          "id": "b7f79fe9bd",
+          "note": "An MCP server for Revit queries lines up with your BIM tooling interests."
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta architecture",
+      "items": [
+        {
+          "id": "62b203c717",
+          "note": "Another Midtown office-to-residential conversion gets approved."
+        },
+        {
+          "id": "9fc6ac2a5c",
+          "note": "A timber library that doubles as flood defense is an interesting precedent."
+        }
+      ]
+    },
+    {
+      "topic": "AI in architecture",
+      "items": [
+        {
+          "id": "dece1f99b0",
+          "note": "A video on automating door schedules with Dynamo, relevant to door hardware work."
+        }
+      ]
+    }
+  ]
+}
