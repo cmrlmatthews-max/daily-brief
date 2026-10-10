@@ -39,6 +39,7 @@ MAX_AGE_DAYS = 4
 OG_TIMEOUT = 8
 OG_MAX_BYTES = 200_000
 OG_MAX_FETCHES = 25
+LEAD_NOTE_CHARS = 1200   # about 150 words with headroom
 
 SYSTEM_PROMPT = """You are the editor of a short personal daily brief, laid out like a newspaper front page, for one reader.
 Pick the few items that are truly worth their attention today, and say why in plain words.
@@ -54,7 +55,9 @@ Rules:
   because the lead is shown with a large picture.
   "headline": a SHORT punchy newspaper headline rewritten from the item title. At most 8 words.
   Use only facts from the title and summary. Do not invent any.
-  "note": 2 to 3 sentences, at most 60 words.
+  "note": the lead story write-up. 4 to 6 sentences, between 120 and 150 words. Write it ONLY from the item
+  title and summary. Do not invent any fact, name, number, quote or date. If the summary is short, restate
+  what it says in plain words and give plain context for the reader, but add no new facts.
   "decks": 2 or 3 short deck lines, like the summary lines printed under an old newspaper headline.
   Each at most 12 words. Write them only from the item title and summary. Do not invent any facts.
 - "front": 2 to 4 other front-page stories, from any section. Note: 1 sentence, at most 25 words.
@@ -86,7 +89,9 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
                         "id": {"type": "string"},
                         "headline": {"type": "string",
                                      "description": "Short punchy newspaper headline, at most 8 words, no invented facts."},
-                        "note": {"type": "string", "description": "2 to 3 sentences, at most 60 words."},
+                        "note": {"type": "string",
+                                 "description": "4 to 6 sentences, 120 to 150 words, written only from the item "
+                                                "title and summary. No invented facts."},
                         "decks": {"type": "array", "minItems": 2, "maxItems": 3, "items": {"type": "string"},
                                   "description": "Short deck lines under the headline. Each at most 12 words, "
                                                  "only from the item title and summary, no invented facts."},
@@ -645,7 +650,7 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
     lead_list = pick([raw_lead], 1)
     lead = lead_list[0] if lead_list else None
     if lead:
-        lead["note"] = clean_text(str(raw_lead.get("note") or ""), 450)
+        lead["note"] = clean_text(str(raw_lead.get("note") or ""), LEAD_NOTE_CHARS)
         lead["headline"] = clean_text(str(raw_lead.get("headline") or ""), 120) or lead["title"]
         raw_decks = raw_lead.get("decks")
         decks = [clean_text(str(d), 100) for d in raw_decks if isinstance(d, str)] \
