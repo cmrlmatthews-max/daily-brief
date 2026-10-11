@@ -331,7 +331,7 @@ def test_sources_config():
     assert names["Atlanta"] == ["Rough Draft Atlanta", "Urbanize Atlanta"]
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
-    assert {"UFC (ESPN)", "MMA Fighting", "Braves highlights", "Rockets highlights",
+    assert {"UFC (ESPN)", "Braves highlights", "Rockets highlights",
             "49ers highlights"} <= set(names["Sports"])
     every = [s for t in cfg["topics"] for s in t["sources"]]
     assert {s["type"] for s in every} <= set(brief.FETCHERS)
