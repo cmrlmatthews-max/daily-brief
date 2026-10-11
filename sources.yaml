@@ -146,9 +146,6 @@ topics:
       - name: UFC (ESPN)
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/mma/ufc/news
-      - name: MMA Fighting   # unverified; skipped if it fails
-        type: rss
-        url: https://www.mmafighting.com/rss/current
       - name: Braves highlights   # unverified; skipped if it fails
         type: rss
         url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNWnkblY5_kmf4OQ9l0LgnA
