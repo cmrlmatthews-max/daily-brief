@@ -142,7 +142,7 @@
     },
     {
       "id": "ea31651e1e",
-      "topic": "Architecture",
+      "topic": "Atlanta",
       "source": "Urbanize Atlanta",
       "title": "Mixed-use tower proposed beside the Beltline's Eastside Trail",
       "url": "https://atlanta.urbanize.city/post/eastside-trail-tower",
@@ -152,7 +152,7 @@
     },
     {
       "id": "62b203c717",
-      "topic": "Architecture",
+      "topic": "Atlanta",
       "source": "Urbanize Atlanta",
       "title": "Midtown office conversion to residential wins approval",
       "url": "https://atlanta.urbanize.city/post/midtown-office-conversion",
@@ -279,6 +279,166 @@
       "published": "2026-10-08T19:00:00+00:00",
       "summary": "Excavators found mosaic floors and a heating system in remarkably good condition.",
       "image": "https://picsum.photos/seed/roman/800/450"
+    },
+    {
+      "id": "da82f3e807",
+      "topic": "Politics",
+      "source": "The Lever",
+      "title": "Fixture: Senate panel schedules hearing on lobbying disclosure rules",
+      "url": "https://levernews.com/fixture-lobbying-disclosure-hearing/",
+      "published": "2026-10-10T07:00:00+00:00",
+      "summary": "A Senate committee has scheduled a hearing on proposed changes to lobbying disclosure rules.",
+      "image": "https://picsum.photos/seed/lever/800/450"
+    },
+    {
+      "id": "008fdb76cb",
+      "topic": "Politics",
+      "source": "Drop Site News",
+      "title": "Fixture: House leaders release a stopgap spending plan",
+      "url": "https://www.dropsitenews.com/p/fixture-stopgap-spending-plan",
+      "published": "2026-10-10T05:30:00+00:00",
+      "summary": "House leaders released a short-term spending plan ahead of the funding deadline.",
+      "image": "https://picsum.photos/seed/dropsite/800/450"
+    },
+    {
+      "id": "c9453f31c8",
+      "topic": "Politics",
+      "source": "The Majority Report",
+      "title": "Fixture video: Panel breakdown of the stopgap spending vote",
+      "url": "https://www.youtube.com/watch?v=mRpT0Fix001",
+      "published": "2026-10-09T22:00:00+00:00",
+      "summary": "A video segment covering the stopgap spending vote and what each party says about it.",
+      "image": "https://i.ytimg.com/vi/mRpT0Fix001/hqdefault.jpg"
+    },
+    {
+      "id": "e70e4a7d19",
+      "topic": "Politics",
+      "source": "Breaking Points",
+      "title": "Fixture video: What the new polling shows in three swing states",
+      "url": "https://www.youtube.com/watch?v=bPnT0Fix002",
+      "published": "2026-10-09T18:00:00+00:00",
+      "summary": "A video segment walking through new polling numbers in three swing states.",
+      "image": "https://i.ytimg.com/vi/bPnT0Fix002/hqdefault.jpg"
+    },
+    {
+      "id": "ac2cec0031",
+      "topic": "Politics",
+      "source": "More Perfect Union",
+      "title": "Fixture video: Workers vote on a first contract at a warehouse",
+      "url": "https://www.youtube.com/watch?v=mPuT0Fix003",
+      "published": "2026-10-08T16:00:00+00:00",
+      "summary": "A video report on a union vote at a regional warehouse.",
+      "image": "https://i.ytimg.com/vi/mPuT0Fix003/hqdefault.jpg"
+    },
+    {
+      "id": "9729c2f50c",
+      "topic": "Sports",
+      "source": "UFC (ESPN)",
+      "title": "Fixture: Title fight set for next month's pay-per-view card",
+      "url": "https://www.espn.com/mma/story/_/id/fixture-title-fight",
+      "published": "2026-10-10T02:00:00+00:00",
+      "summary": "The promotion confirmed a title fight as the main event of next month's card.",
+      "image": "https://picsum.photos/seed/ufc/800/450"
+    },
+    {
+      "id": "bd4928eeb4",
+      "topic": "Sports",
+      "source": "MMA Fighting",
+      "title": "Fixture: Veteran welterweight returns from injury layoff",
+      "url": "https://www.mmafighting.com/fixture-welterweight-returns",
+      "published": "2026-10-09T20:00:00+00:00",
+      "summary": "A veteran welterweight has been booked for his first fight in a year.",
+      "image": null
+    },
+    {
+      "id": "ad0de0b07e",
+      "topic": "Sports",
+      "source": "Braves highlights",
+      "title": "Fixture video: Braves highlights from the season finale",
+      "url": "https://www.youtube.com/watch?v=brvT0Fix004",
+      "published": "2026-10-09T03:00:00+00:00",
+      "summary": "Highlights from the Braves' final game of the regular season.",
+      "image": "https://i.ytimg.com/vi/brvT0Fix004/hqdefault.jpg"
+    },
+    {
+      "id": "7b552eeee7",
+      "topic": "Sports",
+      "source": "Rockets highlights",
+      "title": "Fixture video: Rockets preseason highlights",
+      "url": "https://www.youtube.com/watch?v=rktT0Fix005",
+      "published": "2026-10-09T01:00:00+00:00",
+      "summary": "Highlights from the Rockets' latest preseason game.",
+      "image": "https://i.ytimg.com/vi/rktT0Fix005/hqdefault.jpg"
+    },
+    {
+      "id": "1cc16138f7",
+      "topic": "Atlanta",
+      "source": "Rough Draft Atlanta",
+      "title": "Fixture: Neighborhood group opens a new community garden",
+      "url": "https://roughdraftatlanta.com/fixture-community-garden/",
+      "published": "2026-10-10T06:00:00+00:00",
+      "summary": "A neighborhood group opened a community garden on a former vacant lot.",
+      "image": "https://picsum.photos/seed/garden/800/450"
+    },
+    {
+      "id": "6f4f15dd11",
+      "topic": "Atlanta",
+      "source": "Rough Draft Atlanta",
+      "title": "Fixture: City council approves a transit study",
+      "url": "https://roughdraftatlanta.com/fixture-transit-study/",
+      "published": "2026-10-09T15:00:00+00:00",
+      "summary": "The city council approved funding for a study of bus service on two corridors.",
+      "image": null
+    },
+    {
+      "id": "89900f1126",
+      "topic": "Atlanta",
+      "source": "Rough Draft Atlanta",
+      "title": "Fixture: Restaurant row adds weekend street closures",
+      "url": "https://roughdraftatlanta.com/fixture-street-closures/",
+      "published": "2026-10-08T12:00:00+00:00",
+      "summary": "A popular restaurant street will close to cars on weekend evenings this fall.",
+      "image": "https://picsum.photos/seed/street/800/450"
+    },
+    {
+      "id": "7ce80a1c57",
+      "topic": "Science & Nature",
+      "source": "Science News",
+      "title": "Fixture: Researchers map a new fossil site",
+      "url": "https://www.sciencenews.org/article/fixture-fossil-site",
+      "published": "2026-10-10T04:00:00+00:00",
+      "summary": "Researchers described a fossil site with well-preserved marine animals.",
+      "image": "https://picsum.photos/seed/fossil/800/450"
+    },
+    {
+      "id": "ba58059671",
+      "topic": "Science & Nature",
+      "source": "NASA",
+      "title": "Fixture: Spacecraft completes a planned orbit adjustment",
+      "url": "https://www.nasa.gov/news-release/fixture-orbit-adjustment/",
+      "published": "2026-10-09T19:00:00+00:00",
+      "summary": "A spacecraft completed a planned orbit adjustment and is operating normally.",
+      "image": "https://picsum.photos/seed/orbit/800/450"
+    },
+    {
+      "id": "d560387aac",
+      "topic": "Science & Nature",
+      "source": "Mongabay",
+      "title": "Fixture: Coral reef survey finds signs of recovery",
+      "url": "https://news.mongabay.com/fixture-coral-recovery/",
+      "published": "2026-10-09T09:00:00+00:00",
+      "summary": "A survey of reefs found more young coral than in the previous count.",
+      "image": "https://picsum.photos/seed/coral/800/450"
+    },
+    {
+      "id": "011296a483",
+      "topic": "Science & Nature",
+      "source": "Science News",
+      "title": "Fixture: Study tracks how migrating birds time their trips",
+      "url": "https://www.sciencenews.org/article/fixture-bird-migration",
+      "published": "2026-10-08T10:00:00+00:00",
+      "summary": "A study of tagged birds looks at how weather shapes the timing of migration.",
+      "image": null
     }
   ],
   "scores": [
@@ -287,21 +447,47 @@
       "last": "W 112–104 vs DAL",
       "last_date": "Oct 5",
       "next": "Mon Oct 13 at SAS",
-      "url": "https://www.espn.com/nba/team/_/name/hou"
+      "url": "https://www.espn.com/nba/team/_/name/hou",
+      "recent": [
+        "W 112–104 vs DAL · Oct 5",
+        "L 98–101 at MEM · Oct 3",
+        "W 120–110 vs UTA · Oct 1"
+      ],
+      "upcoming": [
+        "Mon Oct 13 at SAS",
+        "Wed Oct 15 vs PHX",
+        "Fri Oct 17 at NOP"
+      ]
     },
     {
       "team": "Atlanta Braves",
       "last": "L 3–5 at NYM",
       "last_date": "Sep 28",
       "next": null,
-      "url": "https://www.espn.com/mlb/team/_/name/atl"
+      "url": "https://www.espn.com/mlb/team/_/name/atl",
+      "recent": [
+        "L 3–5 at NYM · Sep 28",
+        "W 6–2 at NYM · Sep 27",
+        "W 4–1 at NYM · Sep 26"
+      ],
+      "upcoming": []
     },
     {
       "team": "San Francisco 49ers",
       "last": "W 27–17 vs ARI",
       "last_date": "Oct 5",
       "next": "Sun Oct 12 at TB",
-      "url": "https://www.espn.com/nfl/team/_/name/sf"
+      "url": "https://www.espn.com/nfl/team/_/name/sf",
+      "recent": [
+        "W 27–17 vs ARI · Oct 5",
+        "L 20–24 at SEA · Sep 28",
+        "W 30–13 vs LAR · Sep 21"
+      ],
+      "upcoming": [
+        "Sun Oct 12 at TB",
+        "Sun Oct 19 vs DAL",
+        "Sun Oct 26 at HOU"
+      ]
     }
   ]
 }

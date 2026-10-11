@@ -42,60 +42,19 @@
         {
           "id": "b7f79fe9bd",
           "note": "An MCP server for Revit queries lines up with BIM tooling interests."
-        },
-        {
-          "id": "96cf9e13f7",
-          "note": "A look at where small language models are being used in practice."
-        },
-        {
-          "id": "da667850d7",
-          "note": "A new typed agent toolkit is climbing GitHub quickly."
         }
       ]
     },
     {
-      "topic": "Sports",
+      "topic": "Politics",
       "items": [
         {
-          "id": "49baf11a08",
-          "note": "Houston's starting center is questionable with an ankle sprain ahead of the opener."
+          "id": "da82f3e807",
+          "note": "A Senate committee schedules a hearing on lobbying disclosure rules."
         },
         {
-          "id": "dd29cd594b",
-          "note": "San Francisco places a linebacker on injured reserve for at least four games."
-        },
-        {
-          "id": "e4e7fb3359",
-          "note": "Houston keeps a rotation guard through a two-year extension."
-        },
-        {
-          "id": "46abc02c79",
-          "note": "The 49ers beat the Cardinals 27-17 behind a late defensive stand."
-        },
-        {
-          "id": "5127fda34f",
-          "note": "Atlanta finalizes its coaching staff for next season."
-        }
-      ]
-    },
-    {
-      "topic": "Architecture",
-      "items": [
-        {
-          "id": "dece1f99b0",
-          "note": "A video on automating door schedules with Dynamo."
-        },
-        {
-          "id": "62b203c717",
-          "note": "Another Midtown office-to-residential conversion gets approved."
-        },
-        {
-          "id": "9fc6ac2a5c",
-          "note": "A timber library that doubles as flood defense is an interesting precedent."
-        },
-        {
-          "id": "417ceeeb9c",
-          "note": "An example of applying an LLM to Revit naming standards checks."
+          "id": "c9453f31c8",
+          "note": "A video segment covers the stopgap spending vote and what each party says about it."
         }
       ]
     },
@@ -113,10 +72,66 @@
         {
           "id": "2fcc6b5030",
           "note": "Three major central banks left interest rates unchanged this week."
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "id": "49baf11a08",
+          "note": "Houston's starting center is questionable with an ankle sprain ahead of the opener."
         },
         {
-          "id": "d01deb922a",
-          "note": "Archaeologists found a Roman bathhouse with mosaic floors beneath a city car park."
+          "id": "dd29cd594b",
+          "note": "San Francisco places a linebacker on injured reserve for at least four games."
+        },
+        {
+          "id": "9729c2f50c",
+          "note": "A title fight is confirmed as the main event of next month's card."
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "id": "1cc16138f7",
+          "note": "A neighborhood group opened a community garden on a former vacant lot."
+        },
+        {
+          "id": "62b203c717",
+          "note": "Another Midtown office-to-residential conversion gets approved."
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "id": "dece1f99b0",
+          "note": "A video on automating door schedules with Dynamo."
+        },
+        {
+          "id": "9fc6ac2a5c",
+          "note": "A timber library that doubles as flood defense is an interesting precedent."
+        },
+        {
+          "id": "417ceeeb9c",
+          "note": "An example of applying an LLM to Revit naming standards checks."
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "id": "7ce80a1c57",
+          "note": "Researchers described a fossil site with well-preserved marine animals."
+        },
+        {
+          "id": "d560387aac",
+          "note": "A reef survey found more young coral than in the previous count."
         }
       ]
     }

@@ -5,12 +5,34 @@ site_url: https://cmrlmatthews-max.github.io/daily-brief/
 
 # Claude model and limits.
 model: claude-haiku-5-5
-max_output_tokens: 4000
+max_output_tokens: 4000        # call 1: the front page
+desk_max_output_tokens: 8000   # call 2: the topic tabs
 
 # Fetch limits.
 per_source_item_cap: 8     # newest items kept from each source
-max_total_items: 110       # items sent to Claude in total
+max_total_items: 160       # items sent to Claude in total
 summary_chars: 300         # each item summary is cut to this length
+
+# Tabs after Front Page, in order. Each tab shows the listed topics (topic names below).
+# Front Page, Today and Mail are built into the page, so they are not listed here.
+tabs:
+  - {id: news, name: News, topics: [Politics, World]}
+  - {id: tech, name: Tech & AI, topics: [Tech & AI]}
+  - {id: sports, name: Sports, topics: [Sports]}
+  - {id: atlanta, name: Atlanta, topics: [Atlanta, Architecture]}
+  - {id: science, name: Science, topics: [Science & Nature]}
+
+# FDA recalls box on the front page. Newest first, only items inside max_age_days.
+recalls:
+  name: FDA recalls
+  url: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml
+  max_items: 3
+  max_age_days: 4
+
+# Daily Stoic box. One sentence from this public-domain text, picked by the date (same quote all day).
+stoic:
+  url: https://www.gutenberg.org/cache/epub/2680/pg2680.txt
+  credit: "Marcus Aurelius, Meditations (trans. George Long)"
 
 # Page title block.
 masthead: "CMRLM"
@@ -31,10 +53,12 @@ reader_profile: >
   The reader is an architect in Atlanta who builds personal software tools with Claude.
   Interests: Claude and Anthropic news, AI in general, AI in architecture and BIM,
   architecture and development in Atlanta, popular new GitHub repositories, and the
-  Houston Rockets, Atlanta Braves, and San Francisco 49ers. He also wants a short, neutral
-  read on major world news.
+  Houston Rockets, Atlanta Braves, and San Francisco 49ers. He also follows UFC.
+  He wants a short, neutral read on major world news, and on domestic politics from
+  independent media (The Majority Report, Breaking Points, The Lever, Drop Site News).
+  He also likes space, science, nature and oceans, and Atlanta local news.
 
-# Sections appear on the page in this order. The section name is the item topic.
+# Topics appear on the page in this order. The section name is the item topic.
 # Source types: rss | html_anthropic | github_search | espn_news
 # Optional per source:
 #   enabled: false           switch it off
@@ -65,32 +89,23 @@ topics:
         url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
         ignore_age: true
 
-  - name: Sports
+  - name: Politics
     sources:
-      - name: Houston Rockets
-        type: espn_news
-        url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?team=10
-      - name: Atlanta Braves
-        type: espn_news
-        url: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=15
-      - name: San Francisco 49ers
-        type: espn_news
-        url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=25
-
-  - name: Architecture
-    sources:
-      - name: Urbanize Atlanta
+      - name: The Lever
         type: rss
-        url: https://atlanta.urbanize.city/rss.xml
-      - name: ArchDaily
+        url: https://levernews.com/feed/
+      - name: Drop Site News
         type: rss
-        url: https://feeds.feedburner.com/Archdaily
-      - name: BIM Pure blog
+        url: https://www.dropsitenews.com/feed
+      - name: The Majority Report   # unverified; skipped if it fails
         type: rss
-        url: https://www.bimpure.com/blog?format=rss
-      - name: BIM Pure YouTube   # unverified; skipped if it fails
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-3jIAlnQmbbVMV6gR7K8aQ
+      - name: Breaking Points   # unverified; skipped if it fails
         type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UClDb09FCWGuV231Ft3nRxvg
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCDRIjKy6eZOvKtOELtTdeUA
+      - name: More Perfect Union   # unverified; skipped if it fails
+        type: rss
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCehBVAPy-bxmnbNARF-_tvA
 
   - name: World
     sources:
@@ -116,6 +131,66 @@ topics:
       #   url: "https://news.google.com/rss/search?q=when:1d+site:reuters.com&hl=en-US&gl=US&ceid=US:en"
       #   title_suffix_strip: " - Reuters"
       #   no_image: true
+
+  - name: Sports
+    sources:
+      - name: Houston Rockets
+        type: espn_news
+        url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?team=10
+      - name: Atlanta Braves
+        type: espn_news
+        url: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=15
+      - name: San Francisco 49ers
+        type: espn_news
+        url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=25
+      - name: UFC (ESPN)
+        type: espn_news
+        url: https://site.api.espn.com/apis/site/v2/sports/mma/ufc/news
+      - name: MMA Fighting   # unverified; skipped if it fails
+        type: rss
+        url: https://www.mmafighting.com/rss/current
+      - name: Braves highlights   # unverified; skipped if it fails
+        type: rss
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNWnkblY5_kmf4OQ9l0LgnA
+      - name: Rockets highlights   # unverified; skipped if it fails
+        type: rss
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UChdTjGHWrl-scbthhYSGB3g
+      - name: 49ers highlights   # unverified; skipped if it fails
+        type: rss
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCeIOarQkwmGhimim9cDUTng
+
+  - name: Atlanta
+    sources:
+      - name: Rough Draft Atlanta
+        type: rss
+        url: https://roughdraftatlanta.com/feed/
+      - name: Urbanize Atlanta
+        type: rss
+        url: https://atlanta.urbanize.city/rss.xml
+
+  - name: Architecture
+    sources:
+      - name: ArchDaily
+        type: rss
+        url: https://feeds.feedburner.com/Archdaily
+      - name: BIM Pure blog
+        type: rss
+        url: https://www.bimpure.com/blog?format=rss
+      - name: BIM Pure YouTube   # unverified; skipped if it fails
+        type: rss
+        url: https://www.youtube.com/feeds/videos.xml?channel_id=UClDb09FCWGuV231Ft3nRxvg
+
+  - name: Science & Nature
+    sources:
+      - name: Science News
+        type: rss
+        url: https://www.sciencenews.org/feed
+      - name: NASA
+        type: rss
+        url: https://www.nasa.gov/news-release/feed/
+      - name: Mongabay
+        type: rss
+        url: https://news.mongabay.com/feed/
 
 # Team scores. Fetched straight from ESPN, no AI involved.
 scores:

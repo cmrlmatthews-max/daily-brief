@@ -60,7 +60,7 @@ def test_round_trip():
     payload = {"generated_at": "x", "plans": {"events": [{"title": "Fixture é ✓"}]}, "mail": None, "errors": []}
     blob = private.encrypt_payload(payload, "demo passphrase")
     assert set(blob) == {"v", "kdf", "iter", "salt", "iv", "ct"}
-    assert (blob["v"], blob["kdf"], blob["iter"]) == (1, "PBKDF2-SHA256", 600000)
+    assert (blob["v"], blob["kdf"], blob["iter"]) == (2, "PBKDF2-SHA256", 600000)
     assert private.decrypt_payload(blob, "demo passphrase") == payload
     assert private.decrypt_payload(blob, "  demo passphrase\n") == payload   # a pasted newline cannot lock you out
 
@@ -71,12 +71,49 @@ def test_wrong_passphrase_fails():
         private.decrypt_payload(blob, "wrong one")
 
 
-def test_fresh_salt_and_iv_and_padding():
-    a, b = private.encrypt_payload({"a": 1}, "p"), private.encrypt_payload({"a": 1}, "p")
-    assert a["salt"] != b["salt"] and a["iv"] != b["iv"] and a["ct"] != b["ct"]
+def test_v2_fixed_salt_fresh_iv_and_padding():
     import base64
+    a, b = private.encrypt_payload({"a": 1}, "p"), private.encrypt_payload({"a": 1}, "p")
+    assert private.SALT_V2 == b"cmrlm-daily-brief/private/v2"
+    assert a["salt"] == b["salt"] == base64.b64encode(private.SALT_V2).decode()      # fixed, so one key keeps working
+    assert a["iv"] != b["iv"] and a["ct"] != b["ct"]                                 # the IV is still random
     assert (len(base64.b64decode(a["ct"])) - 16) % private.PAD_TO == 0     # padded; the tag adds 16 bytes
-    assert len(base64.b64decode(a["salt"])) == 16 and len(base64.b64decode(a["iv"])) == 12
+    assert len(base64.b64decode(a["iv"])) == 12
+
+
+def _v1_blob(payload, passphrase, iterations=1000):
+    """A file as the old writer made it: version 1, random 16-byte salt."""
+    import base64
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    salt, iv = os.urandom(16), os.urandom(12)
+    plain = json.dumps(payload).encode()
+    plain += b" " * (-len(plain) % private.PAD_TO)
+    ct = AESGCM(private.derive_key(passphrase, salt, iterations)).encrypt(iv, plain, None)
+    b64 = lambda x: base64.b64encode(x).decode()  # noqa: E731
+    return {"v": 1, "kdf": "PBKDF2-SHA256", "iter": iterations, "salt": b64(salt), "iv": b64(iv), "ct": b64(ct)}
+
+
+def test_decrypt_accepts_v1_and_v2_and_rejects_others():
+    payload = {"plans": None, "mail": None, "errors": ["é"]}
+    assert private.decrypt_payload(_v1_blob(payload, "old pass"), "old pass") == payload
+    v2 = private.encrypt_payload(payload, "new pass", iterations=1000)
+    assert private.decrypt_payload(v2, "new pass") == payload
+    with pytest.raises(ValueError):
+        private.decrypt_payload(_v1_blob(payload, "old pass"), "wrong")
+    for bad in ({**v2, "v": 3}, {**v2, "v": 0}, {**v2, "kdf": "scrypt"}):
+        with pytest.raises(ValueError, match="unsupported"):
+            private.decrypt_payload(bad, "new pass")
+
+
+def test_decrypt_uses_the_salt_stored_in_the_file():
+    """The page reads salt and iter from the file, so a v2 file with another salt must still open."""
+    import base64
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    salt, iv = b"some other salt!", os.urandom(12)
+    ct = AESGCM(private.derive_key("pw", salt, 1000)).encrypt(iv, b'{"ok":1}' + b" " * 8, None)
+    b64 = lambda x: base64.b64encode(x).decode()  # noqa: E731
+    blob = {"v": 2, "kdf": "PBKDF2-SHA256", "iter": 1000, "salt": b64(salt), "iv": b64(iv), "ct": b64(ct)}
+    assert private.decrypt_payload(blob, "pw") == {"ok": 1}
 
 
 def test_ciphertext_hides_plaintext():

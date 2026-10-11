@@ -29,6 +29,9 @@ import requests
 
 TZ = ZoneInfo("America/New_York")
 ITERATIONS = 600_000
+# File format v2 uses one fixed salt, so a browser can keep a single derived (non-extractable) key that keeps
+# working day after day. The passphrase is the only secret; the IV is still random for every file.
+SALT_V2 = b"cmrlm-daily-brief/private/v2"
 PAD_TO = 2048                   # plaintext is padded with spaces so the file size reveals little
 DEMO_PASSPHRASE = "demo passphrase"
 ICS_TIMEOUT = 20
@@ -76,21 +79,23 @@ def derive_key(passphrase: str, salt: bytes, iterations: int = ITERATIONS) -> by
 
 
 def encrypt_payload(payload: dict, passphrase: str, iterations: int = ITERATIONS) -> dict:
-    """AES-256-GCM. A fresh random salt and IV every call. `ct` includes the 16-byte tag, as WebCrypto expects."""
+    """AES-256-GCM, file format v2: the fixed SALT_V2 and a fresh random IV every call.
+    `ct` includes the 16-byte tag, as WebCrypto expects."""
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
     plain = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     plain += b" " * (-len(plain) % PAD_TO)
-    salt, iv = os.urandom(16), os.urandom(12)
+    salt, iv = SALT_V2, os.urandom(12)
     ct = AESGCM(derive_key(passphrase, salt, iterations)).encrypt(iv, plain, None)
     b64 = lambda b: base64.b64encode(b).decode("ascii")  # noqa: E731
-    return {"v": 1, "kdf": "PBKDF2-SHA256", "iter": iterations, "salt": b64(salt), "iv": b64(iv), "ct": b64(ct)}
+    return {"v": 2, "kdf": "PBKDF2-SHA256", "iter": iterations, "salt": b64(salt), "iv": b64(iv), "ct": b64(ct)}
 
 
 def decrypt_payload(blob: dict, passphrase: str) -> dict:
-    """Inverse of encrypt_payload. Raises ValueError("wrong passphrase") if the passphrase is wrong."""
+    """Inverse of encrypt_payload. Reads v1 (random salt) and v2 (fixed salt) files, and uses the salt stored in
+    the file either way. Raises ValueError("wrong passphrase") if the passphrase is wrong."""
     from cryptography.exceptions import InvalidTag
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
-    if blob.get("v") != 1 or blob.get("kdf") != "PBKDF2-SHA256":
+    if blob.get("v") not in (1, 2) or blob.get("kdf") != "PBKDF2-SHA256":
         raise ValueError("unsupported format")
     salt, iv, ct = (base64.b64decode(blob[k]) for k in ("salt", "iv", "ct"))
     try:

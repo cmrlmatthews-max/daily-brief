@@ -62,12 +62,12 @@
   /* ---------- Masthead ---------- */
   /* The two ears and the masthead image share one row. The image sets the row height; the ears fill it. */
   .mast-grid {
-    display: grid; grid-template-columns: minmax(190px, 1fr) minmax(0, 620px) minmax(190px, 1fr);
+    display: grid; grid-template-columns: minmax(190px, 1fr) minmax(0, 560px) minmax(190px, 1fr);
     gap: 0 18px; align-items: stretch;
   }
   .mast { margin: 0; min-width: 0; align-self: center; }
   .mast img {
-    display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto;
+    display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto;
     mix-blend-mode: multiply;
   }
   /* --fit scales every font size in an ear (set by the fill script). Padding stays in px. */
@@ -87,9 +87,16 @@
   .ear-scores .res { font-family: var(--f-head); font-weight: 700; font-size: .93em; }
   .ear-scores .opp { color: var(--ink-soft); white-space: nowrap; }
   .ear-scores .next { display: block; color: var(--ink-soft); font-style: italic; font-size: .9em; }
-  .ear-edition .ear-body { text-align: center; gap: calc(.3em + var(--pad, 0px)); padding: var(--pad, 0px) 0; }
-  .ear-edition .ed { font-family: var(--f-head); font-weight: 900; font-style: italic; font-size: 1.55em; line-height: 1.05; overflow-wrap: break-word; }
-  .ear-edition .dt { font-size: 1em; color: var(--ink-soft); }
+  .ear-wx .ear-body { text-align: center; align-items: center; gap: calc(.3em + var(--pad, 0px)); padding: var(--pad, 0px) 0; }
+  .ear-wx .wxe-now { display: flex; align-items: center; justify-content: center; gap: .5em; max-width: 100%; }
+  .ear-wx .wxe-temp { font: 900 2.4em/1 var(--f-head); letter-spacing: -.01em; }
+  .ear-wx .wxe-sky { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+  .ear-wx .wxe-sky .wx-glyph { font-size: 1.55em; line-height: 1; }
+  .ear-wx .wxe-cond { font-style: italic; font-size: 1.02em; line-height: 1.15; }
+  .ear-wx .wxe-hl { font: 600 1em/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; }
+  .ear-wx .wxe-rain { color: var(--ink-soft); font-style: italic; font-size: .93em; }
+  .ear-wx .phn { display: none; }
+  .ear-wx .ear-title { white-space: nowrap; letter-spacing: .16em; padding-left: .16em; }
 
   .dateline {
     display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; padding: 5px 2px 4px;
@@ -121,11 +128,6 @@
   .frame.r32 { aspect-ratio: var(--ar, 1.5); margin: 4px 3px calc(10px + var(--gap, 0px) * .5); }
   .frame.thumb { float: right; width: calc(72px * var(--fit, 1)); height: calc(72px * var(--fit, 1)); margin: 4px 3px 6px 14px; }
   .sec .frame.thumb { width: calc(68px * var(--fit, 1)); height: calc(68px * var(--fit, 1)); }
-  /* Embedded video fills the 3:2 box: a 16:9 player is widened so it covers it. */
-  .frame iframe {
-    position: absolute; top: 0; left: 50%; width: 118.6%; height: 100%; border: 0;
-    transform: translateX(-50%); filter: var(--photo-filter);
-  }
   /* Halftone dot screen, used on exactly two photos. The picture still moves underneath. */
   .frame.half::after {
     content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
@@ -252,28 +254,20 @@
   .index a { white-space: nowrap; border-bottom: 1px solid transparent; }
   .index a:hover { border-bottom-color: var(--accent); }
   .index .n { color: var(--accent); font: 600 12px var(--f-label); margin-left: .35em; }
-  .index .dot { color: var(--accent); margin: 0 .6em; }
+  .index .dot { color: var(--accent); margin: 0 .3em; }
 
   /* ---------- Footer and classified ---------- */
   .foot { max-width: 1180px; margin: 16px auto 0; text-align: center; font-size: 14px; color: var(--ink-soft); }
   .foot .skipped { cursor: help; text-decoration: underline dotted; }
   .foot .dot { margin: 0 .5em; color: var(--accent); }
-  .classified { max-width: 440px; margin: 14px auto 0; border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px; padding: 8px 10px 10px; text-align: left; }
-  .classified label { display: block; font: 500 11px/1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; margin-bottom: 6px; text-align: center; }
-  .classified input {
-    width: 100%; font: italic 15px var(--f-body); color: var(--ink); background: transparent; padding: 6px 8px;
-    border: 1px solid var(--rule); border-radius: 0; text-align: center;
-  }
-  .classified input:disabled { cursor: not-allowed; opacity: .85; }
-  .classified input::placeholder { color: var(--ink-soft); opacity: 1; }
   .empty { text-align: center; font-style: italic; color: var(--ink-soft); padding: 50px 0; font-size: 18px; }
 
   /* ---------- Tablet: under 1000px ---------- */
   @media (max-width: 999px) {
     .mast-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
     .mast { grid-column: 1 / -1; order: -1; }
-    .mast img { max-width: 620px; }
-    .ear-scores, .ear-edition { justify-self: stretch; }
+    .mast img { max-width: 560px; }
+    .ear-scores, .ear-wx { justify-self: stretch; }
     .lead-grid, .lead-grid.no-front {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       grid-template-areas: "center center" "text front"; gap: 22px 28px;
@@ -309,8 +303,17 @@
     .ear-scores .tm:not(:last-child)::after { content: " · "; color: var(--accent); }
     .ear-scores b { font-size: 11.5px; }
     .ear-scores .opp, .ear-scores .next { display: none; }
-    .ear-edition .ed, .ear-edition .dt { display: inline; font-size: 12.5px; }
-    .ear-edition .ed::after { content: " · "; color: var(--accent); font-style: normal; }
+    .ear-wx .ear-body > * { display: inline; font-size: 12.5px; }
+    .ear-wx .ear-title { display: none; }
+    .ear-wx .wxe-now { display: inline; }
+    .ear-wx .wxe-temp { font: 700 12.5px var(--f-head); }
+    .ear-wx .wxe-sky { display: inline; }
+    .ear-wx .wxe-sky .wx-glyph { display: none; }
+    .ear-wx .wxe-cond { font-size: 12.5px; }
+    .ear-wx .wxe-hl, .ear-wx .wxe-rain { font: inherit; letter-spacing: 0; text-transform: none; color: inherit; }
+    .ear-wx .wxe-hl::before, .ear-wx .wxe-rain::before { content: " · "; color: var(--accent); }
+    .ear-wx .dsk { display: none; }
+    .ear-wx .phn { display: inline; }
     .dateline { margin-top: 12px; font-size: 10.5px; letter-spacing: .14em; }
     .dateline span:not(.mid) { display: none; }
     .lead-block { padding-top: 14px; }
@@ -337,16 +340,24 @@
   }
 
   /* ---------- Tabs ---------- */
-  .tabs { display: flex; justify-content: center; margin: 16px 0 0; border-bottom: 3px double var(--rule); }
+  /* Row 1 is the paper. Row 2 (Today, Mail) is private and smaller. One tablist holds both rows. */
+  .tabs { margin: 16px 0 0; border-bottom: 3px double var(--rule); }
+  .tabrow { display: flex; justify-content: center; }
   .tab {
     -webkit-appearance: none; appearance: none; background: none; border: 0; border-radius: 0; margin: 0; cursor: pointer;
-    border-top: 3px solid transparent; padding: 9px 24px 7px calc(24px + .3em);
+    border-top: 3px solid transparent; padding: 9px 22px 7px calc(22px + .3em); white-space: nowrap;
     font: 500 13px/1.1 var(--f-label); letter-spacing: .3em; text-transform: uppercase; color: var(--ink-soft);
   }
   .tab + .tab { border-left: 1px solid var(--rule-soft); }
   .tab:hover { color: var(--ink); }
   .tab[aria-selected="true"] { color: var(--ink); background: var(--paper-hi); border-top-color: var(--accent); font-weight: 600; }
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
+  .tab .l-short { display: none; }
+  .tabrow.priv { border-top: 1px solid var(--rule-soft); align-items: stretch; }
+  .tabrow.priv .tab { padding: 6px 16px 5px calc(16px + .24em); font-size: 11px; letter-spacing: .24em; border-top-width: 2px; }
+  .tabrow.priv .tab[aria-selected="true"] { border-top-color: transparent; border-bottom: 2px solid var(--accent); padding-bottom: 3px; }
+  .tabrow.priv .tab + .tab { border-left: 0; }
+  .tdot { align-self: center; color: var(--accent); font: 500 13px/1 var(--f-label); }
 
   /* ---------- Private sheets (Today and Mail) ---------- */
   .sheet { max-width: 940px; margin: 0 auto; padding: 22px 0 6px; }
@@ -428,41 +439,128 @@
   .lock .go:disabled { opacity: .6; cursor: wait; }
   .lock-err { min-height: 1.4em; margin: 12px 0 0 !important; color: var(--accent) !important; font-style: italic; }
 
-  /* ---------- Weather box (front page, top of the right-hand column) ---------- */
-  .wx {
-    margin: 4px 4px calc(18px + var(--gap, 0px) * .5); padding: calc(9px * var(--fit, 1)) calc(11px * var(--fit, 1)) calc(8px * var(--fit, 1));
+  /* ---------- Small boxes on the front page (FDA Recalls, Daily Stoic), top of the right-hand column ---------- */
+  .aux {
+    margin: 4px 4px calc(18px + var(--gap, 0px) * .5); padding: calc(9px * var(--fit, 1)) calc(11px * var(--fit, 1)) calc(9px * var(--fit, 1));
     border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px;
-    background: rgba(246, 239, 221, .45); font-size: calc(14px * var(--fit, 1)); line-height: 1.25; color: var(--ink);
+    background: rgba(246, 239, 221, .45); font-size: calc(14px * var(--fit, 1)); line-height: 1.28; color: var(--ink);
   }
-  .wx-title {
+  .aux-title {
     display: block; text-align: center; font: 500 .86em/1 var(--f-label); letter-spacing: .24em; padding: 0 0 .55em .24em;
+    text-transform: uppercase; border-bottom: 3px double var(--rule); margin-bottom: .55em;
+  }
+  .aux-recalls ul { list-style: none; margin: 0; padding: 0; }
+  .aux-recalls li { padding: .38em 0; border-bottom: 1px dotted var(--rule-soft); }
+  .aux-recalls li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .aux-recalls a { font: 700 1.04em/1.2 var(--f-head); overflow-wrap: anywhere; }
+  .aux-recalls a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .aux-recalls .when { display: block; font: 500 .78em/1.2 var(--f-label); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-top: .12em; }
+  .aux-stoic blockquote { margin: 0; text-align: center; font-style: italic; font-size: 1.1em; line-height: 1.32; }
+  .aux-stoic blockquote p { margin: 0; text-wrap: pretty; }
+  .aux-stoic cite { display: block; margin-top: .55em; font: 500 .8em/1.25 var(--f-label); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); text-align: center; }
+
+  /* ---------- Weather glyphs and the full weather block (Atlanta tab) ---------- */
+  .wx-glyph { font-family: "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", "Noto Sans Symbols 2", "Noto Sans Symbols", sans-serif; color: var(--accent); }
+  .wxf { margin: 0 0 26px; padding: 12px 18px 14px; border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px; background: rgba(246, 239, 221, .45); font-size: 15px; line-height: 1.25; }
+  .wxf-title {
+    display: block; text-align: center; font: 500 13px/1 var(--f-label); letter-spacing: .3em; padding: 0 0 8px .3em;
     text-transform: uppercase; border-bottom: 3px double var(--rule);
   }
-  .wx-now { display: flex; align-items: center; justify-content: center; gap: .6em; padding: .55em 0 .35em; }
-  .wx-temp { font: 900 2.5em/1 var(--f-head); letter-spacing: -.01em; }
-  .wx-sky { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
-  .wx-glyph { font-family: "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", "Noto Sans Symbols 2", "Noto Sans Symbols", sans-serif; color: var(--accent); }
-  .wx-sky .wx-glyph { font-size: 1.7em; line-height: 1; }
-  .wx-cond { font-style: italic; font-size: 1.04em; line-height: 1.15; }
-  .wx-kv { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.1em; margin: 0; padding: .1em 0 .4em; }
-  .wx-kv > div { display: flex; justify-content: space-between; gap: .5em; padding: .22em 0; border-bottom: 1px dotted var(--rule-soft); }
-  .wx-kv dt { font: 500 .8em/1.5 var(--f-label); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
-  .wx-kv dd { margin: 0; font-weight: 700; white-space: nowrap; }
-  .wx-kv .wide { grid-column: 1 / -1; }
-  .wx-hours { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin: .35em 0 0; padding: .45em 0 0; border-top: 1px solid var(--rule); }
-  .wx-h { display: flex; flex-direction: column; align-items: center; gap: .08em; min-width: 0; text-align: center; }
-  .wx-h + .wx-h { border-left: 1px dotted var(--rule-soft); }
-  .wx-h .hr { font: 500 .78em/1.2 var(--f-label); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
-  .wx-h .wx-glyph { font-size: 1.25em; line-height: 1.15; }
-  .wx-h .tp { font-weight: 700; font-size: .98em; }
-  .wx-h .rn { font-size: .8em; font-style: italic; color: var(--ink-soft); }
+  .wxf-top { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 0 28px; align-items: center; padding: 12px 0 8px; }
+  .wxf-now { display: flex; align-items: center; justify-content: center; gap: 14px; }
+  .wxf-temp { font: 900 64px/1 var(--f-head); letter-spacing: -.01em; }
+  .wxf-sky { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+  .wxf-sky .wx-glyph { font-size: 34px; line-height: 1; }
+  .wxf-cond { font-style: italic; font-size: 18px; line-height: 1.15; }
+  .wxf-kv { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 22px; margin: 0; }
+  .wxf-kv > div { display: flex; justify-content: space-between; gap: 8px; padding: 5px 0; border-bottom: 1px dotted var(--rule-soft); }
+  .wxf-kv .wide { grid-column: 1 / -1; }
+  .wxf-kv dt { font: 500 12px/1.5 var(--f-label); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+  .wxf-kv dd { margin: 0; font-weight: 700; white-space: nowrap; }
+  .wxf-sub { display: block; margin: 12px 0 0; padding: 7px 0 0; border-top: 1px solid var(--rule); font: 500 11.5px/1 var(--f-label); letter-spacing: .26em; text-transform: uppercase; color: var(--accent); text-align: center; }
+  .wxf-hours { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px 0; margin: 8px 0 0; }
+  .wxf-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); margin: 8px 0 0; }
+  .wx-h { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; text-align: center; }
+  .wxf-hours .wx-h:not(:nth-child(6n+1)), .wxf-days .wx-h + .wx-h { border-left: 1px dotted var(--rule-soft); }
+  .wx-h .hr { font: 500 12px/1.2 var(--f-label); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .wx-h .wx-glyph { font-size: 21px; line-height: 1.15; }
+  .wx-h .tp { font-weight: 700; font-size: 15px; white-space: nowrap; }
+  .wx-h .rn { font-size: 12.5px; font-style: italic; color: var(--ink-soft); }
+  .wx-h .lo { font-weight: 400; color: var(--ink-soft); }
+
+  /* ---------- Topic tabs ---------- */
+  .tabpage { padding-top: 22px; }
+  .tab-cols { --ar: 1.78; column-count: 1; column-gap: 30px; column-rule: 1px solid var(--rule-soft); }
+  .tab-sec { margin: 0 0 30px; }
+  .tab-sec .sec-head { margin-bottom: 16px; }
+  .tab-cols .item { break-inside: avoid; -webkit-column-break-inside: avoid; page-break-inside: avoid; border-bottom: 1px solid var(--rule-soft); margin-bottom: 14px; padding-bottom: 14px; }
+  .tab-cols .item:last-child { border-bottom: 1px solid var(--rule-soft); margin-bottom: 14px; padding-bottom: 14px; }
+  .tab-cols .item .frame.r32 { margin: 0 3px 10px; }
+  .tab-cols .item .note { text-align: left; hyphens: manual; }
+  .tab-cols .item .hd { font-size: 19px; }
+  .tab-empty { padding: 30px 0; }
+
+  /* ---------- Full scores (Sports tab) ---------- */
+  .scoreboard { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 26px; margin: 0 0 30px; }
+  .team-card { min-width: 0; padding: 10px 14px 12px; border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px; background: rgba(246, 239, 221, .35); }
+  .team-card + .team-card { }
+  .team-name { display: block; margin: 0; padding: 0 0 6px; text-align: center; font: 600 18px/1.15 var(--f-label); letter-spacing: .14em; text-transform: uppercase; border-bottom: 3px double var(--rule); }
+  a.team-name:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .team-sub { display: block; margin: 10px 0 2px; font: 500 11px/1 var(--f-label); letter-spacing: .28em; text-transform: uppercase; color: var(--accent); }
+  .team-list { list-style: none; margin: 0; padding: 0; }
+  .team-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 5px 0; border-bottom: 1px dotted var(--rule-soft); font-size: 15.5px; line-height: 1.25; }
+  .team-list li:last-child { border-bottom: 0; }
+  .team-list .res { font-family: var(--f-head); font-weight: 700; white-space: nowrap; }
+  .team-list .opp { flex: 1; min-width: 0; color: var(--ink-soft); }
+  .team-list .dt { font: 500 12px/1.2 var(--f-label); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+  .team-list .none { color: var(--ink-soft); font-style: italic; }
+
+  /* ---------- Video still frames (never a player) ---------- */
+  .frame.vid { cursor: pointer; }
+  .frame .play {
+    position: absolute; z-index: 3; left: 50%; top: 50%; width: 46px; height: 46px; margin: -23px 0 0 -23px;
+    display: flex; align-items: center; justify-content: center; padding-left: 4px;
+    border: 3px double var(--paper-hi); border-radius: 50%; background: rgba(28, 25, 20, .62); color: var(--paper-hi);
+    font: 400 17px/1 var(--f-label); pointer-events: none; box-shadow: 0 0 0 1px rgba(28, 25, 20, .55);
+  }
+  .frame.thumb .play { width: 26px; height: 26px; margin: -13px 0 0 -13px; border-width: 2px; font-size: 10px; padding-left: 2px; }
 
   @media (max-width: 999px) {
     .mail-cols { column-count: 2; }
+    .tab { padding: 9px 12px 7px calc(12px + .2em); letter-spacing: .2em; }
+  }
+  @media (max-width: 699px) {
+    .tab .l-full { display: none; }
+    .tab .l-short { display: inline; }
+  }
+  @media (min-width: 700px) {
+    .tab-cols { column-count: 2; }
+  }
+  @media (min-width: 1100px) {
+    .tab-cols { column-count: 3; }
+  }
+  @media (max-width: 999px) {
+    .wxf-top { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+    .scoreboard { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  }
+  @media (max-width: 699px) {
+    .wxf { padding: 10px 12px 12px; }
+    .wxf-hours { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .wxf-hours .wx-h:not(:nth-child(6n+1)) { border-left: 0; }
+    .wxf-hours .wx-h:not(:nth-child(4n+1)) { border-left: 1px dotted var(--rule-soft); }
+    .wxf-days { grid-template-columns: minmax(0, 1fr); }
+    .wxf-days .wx-h { flex-direction: row; justify-content: space-between; gap: 10px; padding: 5px 0; border-bottom: 1px dotted var(--rule-soft); }
+    .wxf-days .wx-h + .wx-h { border-left: 0; }
+    .wxf-days .wx-h:last-child { border-bottom: 0; }
+    .wxf-days .hr { flex: 0 0 3.2em; text-align: left; }
+    .wxf-days .wx-glyph { flex: 0 0 1.6em; }
+    .wxf-days .tp { flex: 1; text-align: left; }
   }
   @media (max-width: 599px) {
     .tabs { margin-top: 12px; }
-    .tab { flex: 1 1 0; padding: 9px 4px 7px calc(4px + .2em); font-size: 12px; letter-spacing: .2em; text-align: center; }
+    .tab { flex: 1 1 0; min-width: 0; padding: 9px 1px 7px calc(1px + .1em); font-size: 11.5px; letter-spacing: .1em; text-align: center; }
+    .tabrow.priv { justify-content: center; }
+    .tabrow.priv .tab { flex: 0 0 auto; padding: 6px 14px 5px calc(14px + .2em); font-size: 11px; letter-spacing: .2em; }
     .sheet { padding-top: 16px; }
     .mail-cols { column-count: 1; }
     .times li { grid-template-columns: 6.2em minmax(0, 1fr); gap: 0 12px; }
@@ -478,21 +576,36 @@
     <aside class="ear ear-scores" id="ear-scores" hidden aria-label="Team scores"><div class="ear-in"><div class="ear-body"></div></div></aside>
     <h1 class="mast" id="masthead">
       <span class="sr-only">CMRLM — The Daily Brief</span>
-      <img src="img/masthead.png" width="485" height="185" alt="CMRLM — The Daily Brief">
+      <picture><source srcset="img/masthead.webp" type="image/webp"><img src="img/masthead.png" width="560" height="230" alt="CMRLM — The Daily Brief"></picture>
     </h1>
-    <aside class="ear ear-edition" id="ear-edition" hidden aria-label="Edition"><div class="ear-in"><div class="ear-body"></div></div></aside>
+    <aside class="ear ear-wx" id="ear-wx" hidden aria-label="Weather"><div class="ear-in"><div class="ear-body"></div></div></aside>
   </header>
   <div class="dateline" id="dateline" hidden></div>
   <div class="tabs" id="tabs" role="tablist" aria-label="Sections of the paper">
-    <button type="button" class="tab" role="tab" id="tab-front" data-tab="front" aria-controls="panel-front" aria-selected="true">Front Page</button>
-    <button type="button" class="tab" role="tab" id="tab-today" data-tab="today" aria-controls="panel-today" aria-selected="false" tabindex="-1">Today</button>
-    <button type="button" class="tab" role="tab" id="tab-mail" data-tab="mail" aria-controls="panel-mail" aria-selected="false" tabindex="-1">Mail</button>
+    <div class="tabrow paper" role="presentation">
+      <button type="button" class="tab" role="tab" id="tab-front" data-tab="front" aria-controls="panel-front" aria-selected="true"><span class="l-full">Front Page</span><span class="l-short">Front</span></button>
+      <button type="button" class="tab" role="tab" id="tab-news" data-tab="news" aria-controls="panel-news" aria-selected="false" tabindex="-1" hidden><span class="l-full">News</span><span class="l-short">News</span></button>
+      <button type="button" class="tab" role="tab" id="tab-tech" data-tab="tech" aria-controls="panel-tech" aria-selected="false" tabindex="-1" hidden><span class="l-full">Tech &amp; AI</span><span class="l-short">Tech</span></button>
+      <button type="button" class="tab" role="tab" id="tab-sports" data-tab="sports" aria-controls="panel-sports" aria-selected="false" tabindex="-1" hidden><span class="l-full">Sports</span><span class="l-short">Sports</span></button>
+      <button type="button" class="tab" role="tab" id="tab-atlanta" data-tab="atlanta" aria-controls="panel-atlanta" aria-selected="false" tabindex="-1" hidden><span class="l-full">Atlanta</span><span class="l-short">ATL</span></button>
+      <button type="button" class="tab" role="tab" id="tab-science" data-tab="science" aria-controls="panel-science" aria-selected="false" tabindex="-1" hidden><span class="l-full">Science</span><span class="l-short">Science</span></button>
+    </div>
+    <div class="tabrow priv" role="presentation">
+      <button type="button" class="tab" role="tab" id="tab-today" data-tab="today" aria-controls="panel-today" aria-selected="false" tabindex="-1">Today</button>
+      <span class="tdot" aria-hidden="true">·</span>
+      <button type="button" class="tab" role="tab" id="tab-mail" data-tab="mail" aria-controls="panel-mail" aria-selected="false" tabindex="-1">Mail</button>
+    </div>
   </div>
   <main>
     <div id="panel-front" class="panel" role="tabpanel" aria-labelledby="tab-front">
       <div id="content"></div>
       <nav class="index" id="index" aria-label="Index" hidden></nav>
     </div>
+    <div id="panel-news" class="panel" role="tabpanel" aria-labelledby="tab-news" hidden></div>
+    <div id="panel-tech" class="panel" role="tabpanel" aria-labelledby="tab-tech" hidden></div>
+    <div id="panel-sports" class="panel" role="tabpanel" aria-labelledby="tab-sports" hidden></div>
+    <div id="panel-atlanta" class="panel" role="tabpanel" aria-labelledby="tab-atlanta" hidden></div>
+    <div id="panel-science" class="panel" role="tabpanel" aria-labelledby="tab-science" hidden></div>
     <div id="panel-today" class="panel" role="tabpanel" aria-labelledby="tab-today" hidden></div>
     <div id="panel-mail" class="panel" role="tabpanel" aria-labelledby="tab-mail" hidden></div>
   </main>
@@ -576,21 +689,18 @@
     return box;
   }
 
-  // Muted looping YouTube player in the same framed box. Feature slots only, never thumbnails.
-  function videoFrame(item, shape, opts, title) {
+  // A video is a still picture with a small play badge. The whole frame links to YouTube. No player is ever embedded.
+  function videoFrame(item, shape, opts) {
     opts = opts || {};
     var id = item.video;
-    if (CALM || typeof id !== "string" || !VIDEO_ID.test(id)) return null;
-    var box = el("div", "frame vid " + shape + (opts.half ? " half" : ""));
-    var f = document.createElement("iframe");
-    f.setAttribute("loading", "lazy");
-    f.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture");
-    f.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-    f.setAttribute("frameborder", "0");
-    f.title = title || item.title || "Video";
-    f.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&mute=1&loop=1&playlist=" + id +
-      "&controls=0&playsinline=1&modestbranding=1&rel=0";
-    box.appendChild(f);
+    if (typeof id !== "string" || !VIDEO_ID.test(id)) return null;
+    var still = safeImage(item.image) ? item.image : "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg";
+    var box = frame({ image: still, url: "https://www.youtube.com/watch?v=" + id }, shape, opts);
+    if (!box) return null;
+    box.className += " vid";
+    var badge = el("span", "play", "▶︎");
+    badge.setAttribute("aria-hidden", "true");
+    box.appendChild(badge);
     return box;
   }
 
@@ -608,7 +718,7 @@
     opts = opts || {};
     var art = el("article", "item" + (opts.feature ? " feature" : ""));
     if (opts.photo) {
-      var f = (opts.video && videoFrame(item, opts.photo, opts)) || frame(item, opts.photo, opts);
+      var f = videoFrame(item, opts.photo, opts) || frame(item, opts.photo, opts);
       if (f) art.appendChild(f);
     }
     var kick = opts.kicker === "source" ? item.source : opts.kicker === "topic" ? item.topic : "";
@@ -657,14 +767,6 @@
     ear.hidden = false;
   }
 
-  function renderEdition(b) {
-    var ear = document.getElementById("ear-edition");
-    var body = ear.querySelector(".ear-body");
-    body.appendChild(el("span", "ed", b.edition || "Atlanta Edition"));
-    if (b.date_label) body.appendChild(el("span", "dt", b.date_label));
-    ear.hidden = false;
-  }
-
   function renderDateline(b, when) {
     var d = document.getElementById("dateline");
     var l = el("span", "l", b.edition || "Morning Edition");
@@ -678,7 +780,7 @@
     d.hidden = false;
   }
 
-  function renderLead(lead, front) {
+  function renderLead(lead, front, aux) {
     var block = el("section", "lead-block");
     var banner = el("div", "banner");
     banner.appendChild(el("span", "banner-label", "Top Story"));
@@ -706,7 +808,7 @@
     }
 
     var fig = el("figure", "lead-photo");
-    var photo = videoFrame(lead, "r32", {}, headText) || frame(lead, "r32", { eager: true }, fig);
+    var photo = videoFrame(lead, "r32", {}) || frame(lead, "r32", { eager: true }, fig);
     if (photo) {
       fig.appendChild(photo);
       var cap = el("figcaption", "cap");
@@ -740,10 +842,11 @@
     if (lead.source) text.appendChild(el("span", "src", lead.source));
     grid.appendChild(text);
 
-    // Right: also on the front page.
-    if (front.length) {
+    // Right: the small boxes (Daily Stoic, FDA Recalls), then also on the front page.
+    if (front.length || aux.length) {
       var col = el("div", "front-col");
-      col.appendChild(el("span", "front-label", "Also on the Front Page"));
+      aux.forEach(function (box) { col.appendChild(box); });
+      if (front.length) col.appendChild(el("span", "front-label", "Also on the Front Page"));
       var list = el("div", "front-list");
       front.forEach(function (it) { list.appendChild(story(it, { photo: "thumb", kicker: "topic" })); });
       col.appendChild(list);
@@ -755,18 +858,22 @@
     content.appendChild(block);
   }
 
-  function renderSection(sec) {
-    var s = el("section", "sec");
-    s.id = "sec-" + slug(sec.topic);
+  function secHead(topic) {
     var head = el("h2", "sec-head");
     [["orn-img", "img/orn-left.png", 29], ["ttl"], ["orn-img", "img/orn-right.png", 31]].forEach(function (part) {
-      if (part.length === 1) { head.appendChild(el("span", "ttl", sec.topic || "")); return; }
+      if (part.length === 1) { head.appendChild(el("span", "ttl", topic || "")); return; }
       var im = document.createElement("img");
       im.className = part[0]; im.src = part[1]; im.alt = ""; im.width = part[2]; im.height = 21;
       im.setAttribute("aria-hidden", "true");
       head.appendChild(im);
     });
-    s.appendChild(head);
+    return head;
+  }
+
+  function renderSection(sec) {
+    var s = el("section", "sec");
+    s.id = "sec-" + slug(sec.topic);
+    s.appendChild(secHead(sec.topic));
     var halftone = /^(tech-ai|architecture)$/.test(slug(sec.topic));
     var wrap = el("div", "items");
     var items = sec.items.slice();
@@ -777,7 +884,7 @@
       var isFeature = idx === 0 && k >= 0;
       var hasPic = !!safeImage(it.image);
       wrap.appendChild(story(it, isFeature
-        ? { photo: "r32", feature: true, video: true, half: halftone, kicker: "source" }
+        ? { photo: "r32", feature: true, half: halftone, kicker: "source" }
         : { photo: hasPic ? "thumb" : null, kicker: "source" }));
     });
     s.appendChild(wrap);
@@ -808,7 +915,8 @@
     if (!entries.length) return;
     nav.appendChild(el("span", "idx-label", "Index"));
     entries.forEach(function (e, i) {
-      if (i) nav.appendChild(el("span", "dot", "•"));
+      // The spaces give the line a place to wrap; seven topics do not fit on one phone line.
+      if (i) { txt(nav, " "); nav.appendChild(el("span", "dot", "•")); txt(nav, " "); }
       var a = el("a");
       a.href = "#sec-" + slug(e.topic);
       a.appendChild(document.createTextNode(e.topic));
@@ -836,27 +944,137 @@
       sk.title = errs.map(function (e) { return e.source; }).join("\n");
       f.appendChild(sk);
     }
-    var box = el("div", "classified");
-    var label = el("label", null, "Classified");
-    label.setAttribute("for", "reshape");
-    var input = document.createElement("input");
-    input.type = "text"; input.id = "reshape"; input.disabled = true;
-    input.placeholder = "Reshape this paper — coming soon";
-    box.appendChild(label); box.appendChild(input);
-    f.appendChild(box);
+  }
+
+  // ----- small front-page boxes -----
+  function shortDate(v) {
+    var d = new Date(v);
+    if (typeof v !== "string" || isNaN(d)) return "";
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+  }
+  function recallsBox(list) {
+    var rows = (Array.isArray(list) ? list : []).filter(function (r) { return r && typeof r === "object" && typeof r.title === "string" && r.title.trim(); }).slice(0, 3);
+    if (!rows.length) return null;
+    var box = el("aside", "aux aux-recalls");
+    box.setAttribute("aria-label", "FDA recalls");
+    box.appendChild(el("span", "aux-title", "FDA Recalls"));
+    var ul = el("ul");
+    rows.forEach(function (r) {
+      var li = el("li");
+      var href = safeUrl(r.url);
+      var a = el(href ? "a" : "span", null, r.title.trim().slice(0, 200));
+      if (href) openLink(a, href);
+      li.appendChild(a);
+      var when = shortDate(r.published);
+      if (when) li.appendChild(el("span", "when", when));
+      ul.appendChild(li);
+    });
+    box.appendChild(ul);
+    return box;
+  }
+  function stoicBox(q) {
+    if (!q || typeof q !== "object" || typeof q.text !== "string" || !q.text.trim()) return null;
+    var box = el("aside", "aux aux-stoic");
+    box.setAttribute("aria-label", "Daily Stoic");
+    box.appendChild(el("span", "aux-title", "Daily Stoic"));
+    var bq = el("blockquote");
+    bq.appendChild(el("p", null, "“" + q.text.trim() + "”"));
+    box.appendChild(bq);
+    if (typeof q.credit === "string" && q.credit.trim()) box.appendChild(el("cite", null, "— " + q.credit.trim()));
+    return box;
+  }
+
+  // ----- full scores (Sports tab) -----
+  function gameRow(text, isResult) {
+    var li = el("li");
+    var parts = String(text).split(" · ");
+    var main = parts[0], date = parts.slice(1).join(" · ");
+    var m = isResult ? /^(\S+\s+\S+)\s+(.+)$/.exec(main) : null;
+    if (m) {
+      li.appendChild(el("span", "res", m[1]));
+      li.appendChild(el("span", "opp", m[2]));
+    } else {
+      li.appendChild(el("span", "opp", main));
+    }
+    if (date) li.appendChild(el("span", "dt", date));
+    return li;
+  }
+  function renderScoreboard(scores) {
+    var teams = (Array.isArray(scores) ? scores : []).filter(function (t) { return t && typeof t === "object" && t.team; });
+    if (!teams.length) return null;
+    var wrap = el("div", "scoreboard");
+    teams.forEach(function (t) {
+      var href = safeUrl(t.url);
+      var card = el("section", "team-card");
+      var nm = el(href ? "a" : "h3", "team-name", String(t.team));
+      if (href) openLink(nm, href);
+      card.appendChild(nm);
+      var recent = (Array.isArray(t.recent) ? t.recent : []).filter(function (x) { return typeof x === "string" && x; }).slice(0, 3);
+      if (!recent.length && t.last) recent = [t.last + (t.last_date ? " · " + t.last_date : "")];
+      var upcoming = (Array.isArray(t.upcoming) ? t.upcoming : []).filter(function (x) { return typeof x === "string" && x; }).slice(0, 3);
+      if (!upcoming.length && t.next) upcoming = [t.next];
+      card.appendChild(el("span", "team-sub", "Last results"));
+      var a = el("ul", "team-list");
+      if (recent.length) recent.forEach(function (x) { a.appendChild(gameRow(x, true)); });
+      else a.appendChild(el("li", "none", "No games listed."));
+      card.appendChild(a);
+      card.appendChild(el("span", "team-sub", "Next games"));
+      var b2 = el("ul", "team-list");
+      if (upcoming.length) upcoming.forEach(function (x) { b2.appendChild(gameRow(x, false)); });
+      else b2.appendChild(el("li", "none", "Nothing scheduled."));
+      card.appendChild(b2);
+      wrap.appendChild(card);
+    });
+    return wrap;
+  }
+
+  // ----- topic tabs: News, Tech & AI, Sports, Atlanta, Science -----
+  var TOPIC_TABS = ["news", "tech", "sports", "atlanta", "science"];
+  var tabsAvail = {};   // id -> true once brief.tabs has it
+  function renderTabs(b) {
+    var list = Array.isArray(b.tabs) ? b.tabs : [];
+    list.forEach(function (t) {
+      if (!t || typeof t !== "object" || TOPIC_TABS.indexOf(t.id) < 0) return;
+      var host = document.getElementById("panel-" + t.id);
+      var secs = (Array.isArray(t.sections) ? t.sections : []).filter(function (x) {
+        return x && typeof x === "object" && Array.isArray(x.items) && x.items.filter(function (i) { return i && typeof i === "object"; }).length;
+      });
+      var board = t.id === "sports" ? renderScoreboard(b.scores) : null;
+      if (!host || (!secs.length && !board)) return;
+      while (host.firstChild) host.removeChild(host.firstChild);
+      var page = el("div", "tabpage");
+      page.id = "page-" + t.id;
+      if (t.id === "atlanta") { var slot = el("div", "wx-slot"); page.appendChild(slot); }
+      if (board) page.appendChild(board);
+      secs.forEach(function (sec) {
+        var box = el("section", "tab-sec");
+        box.appendChild(secHead(sec.topic));
+        var cols = el("div", "tab-cols");
+        sec.items.forEach(function (it) {
+          if (!it || typeof it !== "object") return;
+          cols.appendChild(story(it, { photo: safeImage(it.image) || (typeof it.video === "string" && VIDEO_ID.test(it.video)) ? "r32" : null, kicker: "source" }));
+        });
+        box.appendChild(cols);
+        page.appendChild(box);
+      });
+      host.appendChild(page);
+      tabsAvail[t.id] = true;
+    });
+    paintWeather();
+    refreshTabs();
   }
 
   function render(b) {
     if (!b || typeof b !== "object") throw new Error("bad data");
     var when = b.generated_at ? new Date(b.generated_at) : null;
     renderScores(b.scores);
-    renderEdition(b);
     renderDateline(b, when);
 
     var lead = b.lead && typeof b.lead === "object" ? b.lead : null;
     var front = (Array.isArray(b.front) ? b.front : []).filter(function (x) { return x && typeof x === "object"; });
     if (!lead && front.length) { lead = front[0]; front = front.slice(1); }
-    if (lead) renderLead(lead, front);
+    var aux = [stoicBox(b.stoic), recallsBox(b.recalls)].filter(Boolean);
+    if (lead) renderLead(lead, front, aux);
 
     var sections = (Array.isArray(b.sections) ? b.sections : []).filter(function (s) {
       return s && typeof s === "object" && Array.isArray(s.items) && s.items.length;
@@ -881,7 +1099,7 @@
     }
     renderIndex(entries);
     renderFoot(b, when);
-    placeWeather();   // if the weather arrived first
+    renderTabs(b);   // old brief.json without "tabs": the five topic tabs simply stay hidden
     Fit.run();
     Fit.schedule(300);
   }
@@ -953,7 +1171,7 @@
 
     // ---- Ears: scale the type so the content fills the box height. ----
     function fitEars() {
-      var ears = ["ear-scores", "ear-edition"].map(function (id) { return document.getElementById(id); })
+      var ears = ["ear-scores", "ear-wx"].map(function (id) { return document.getElementById(id); })
         .filter(function (e) { return e && !e.hidden; });
       if (!ears.length) return;
       var CHROME = 20;   // 2px border + 18px padding
@@ -1063,7 +1281,7 @@
       if (busy || !content.firstElementChild || frontPanel.hidden) return;   // measure only the visible panel
       busy = true;
       try {
-        var ears = [document.getElementById("ear-scores"), document.getElementById("ear-edition")];
+        var ears = [document.getElementById("ear-scores"), document.getElementById("ear-wx")];
         ears.forEach(function (e) { if (e) clearVars(e); });
         all(".lead-text, .lead-center, .front-col, .sec, .wcell").forEach(clearVars);
         fitHead();
@@ -1115,8 +1333,8 @@
   var WX_URL = "https://api.open-meteo.com/v1/forecast?latitude=" + WX_PLACE.lat + "&longitude=" + WX_PLACE.lon +
     "&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m" +
     "&hourly=temperature_2m,precipitation_probability,weather_code" +
-    "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset" +
-    "&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=2";
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset" +
+    "&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=7";
   // WMO weather codes: [plain words, text glyph]. Glyphs are forced to text style (U+FE0E) so they stay engraved, not emoji.
   var SUN = "☀", PART = "⛅", CLOUD = "☁", FOG = "≋", RAIN = "☂", STORM = "⛈", SNOW = "❄";
   var WMO = {
@@ -1169,7 +1387,7 @@
     if (!Array.isArray(h.time) || !Array.isArray(h.temperature_2m)) throw new Error("hourly");
     var nowStr = typeof c.time === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(c.time) ? c.time : wxNowLocal();
     var cutoff = nowStr.slice(0, 13) + ":00";   // only hours after the current one
-    for (var i = 0; i < h.time.length && out.hours.length < 6; i++) {
+    for (var i = 0; i < h.time.length && out.hours.length < 12; i++) {
       var t = h.time[i];
       if (typeof t !== "string" || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(t) || t <= cutoff) continue;
       var tp = wxNum(h.temperature_2m[i], -60, 140), label = wxHour12(t);
@@ -1178,23 +1396,64 @@
         rain: wxNum(h.precipitation_probability && h.precipitation_probability[i], 0, 100) });
     }
     if (out.hours.length < 6) throw new Error("hours");
+    // Seven-day row. A bad day is skipped; the row only shows when the box itself parsed.
+    out.days = [];
+    for (var k = 0; Array.isArray(d.time) && k < d.time.length && k < 7; k++) {
+      var ds = d.time[k], dm = /^(\d{4})-(\d{2})-(\d{2})$/.exec(typeof ds === "string" ? ds : "");
+      var dh = wxNum(d.temperature_2m_max && d.temperature_2m_max[k], -60, 140), dl = wxNum(d.temperature_2m_min && d.temperature_2m_min[k], -60, 140);
+      if (!dm || dh === null || dl === null) continue;
+      var wd = new Date(Date.UTC(+dm[1], +dm[2] - 1, +dm[3])).toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+      out.days.push({ day: k === 0 ? "Today" : wd, hi: dh, lo: dl, sky: wxCode(d.weather_code && d.weather_code[k]),
+        rain: wxNum(d.precipitation_probability_max && d.precipitation_probability_max[k], 0, 100) });
+    }
     return out;
   }
   function deg(v) { return Math.round(v) + "°"; }
-  function renderWeather(w) {
-    var box = el("aside", "wx");
-    box.setAttribute("aria-label", "Weather for " + WX_PLACE.name);
-    box.appendChild(el("span", "wx-title", "Weather — " + WX_PLACE.name));
-    var now = el("div", "wx-now");
-    now.appendChild(el("span", "wx-temp", deg(w.temp)));
-    var sky = el("div", "wx-sky");
-    var g = el("span", "wx-glyph", w.sky.glyph);
+  function glyphSpan(sky) {
+    var g = el("span", "wx-glyph", sky.glyph);
     g.setAttribute("aria-hidden", "true");
-    sky.appendChild(g);
-    sky.appendChild(el("span", "wx-cond", w.sky.words));
+    return g;
+  }
+  // Short weather ear in the masthead. Wide screens: a small panel. Phones: one inline line.
+  function paintEar(w) {
+    var ear = document.getElementById("ear-wx");
+    var body = ear.querySelector(".ear-body");
+    while (body.firstChild) body.removeChild(body.firstChild);
+    if (!w) { ear.hidden = true; return; }
+    body.appendChild(el("span", "ear-title", "Weather — " + WX_PLACE.name));
+    var now = el("div", "wxe-now");
+    now.appendChild(el("span", "wxe-temp", deg(w.temp)));
+    var sky = el("div", "wxe-sky");
+    sky.appendChild(glyphSpan(w.sky));
+    sky.appendChild(el("span", "wxe-cond", w.sky.words));
     now.appendChild(sky);
-    box.appendChild(now);
-    var kv = el("dl", "wx-kv");
+    body.appendChild(now);
+    var hl = el("span", "wxe-hl");
+    hl.appendChild(el("span", "dsk", "H " + deg(w.hi) + " · L " + deg(w.lo)));
+    hl.appendChild(el("span", "phn", "H " + deg(w.hi) + " L " + deg(w.lo)));
+    body.appendChild(hl);
+    if (w.rain !== null) {
+      var rn = el("span", "wxe-rain");
+      rn.appendChild(el("span", "dsk", "Rain up to " + Math.round(w.rain) + "%"));
+      rn.appendChild(el("span", "phn", "Rain " + Math.round(w.rain) + "%"));
+      body.appendChild(rn);
+    }
+    ear.hidden = false;
+  }
+  // Full weather block at the top of the Atlanta tab.
+  function renderWeatherFull(w) {
+    var box = el("aside", "wxf");
+    box.setAttribute("aria-label", "Weather for " + WX_PLACE.name);
+    box.appendChild(el("span", "wxf-title", "Weather — " + WX_PLACE.name));
+    var top = el("div", "wxf-top");
+    var now = el("div", "wxf-now");
+    now.appendChild(el("span", "wxf-temp", deg(w.temp)));
+    var sky = el("div", "wxf-sky");
+    sky.appendChild(glyphSpan(w.sky));
+    sky.appendChild(el("span", "wxf-cond", w.sky.words));
+    now.appendChild(sky);
+    top.appendChild(now);
+    var kv = el("dl", "wxf-kv");
     [["Feels like", deg(w.feels)], ["Wind", Math.round(w.wind) + " mph"], ["High", deg(w.hi)], ["Low", deg(w.lo)],
      w.rain === null ? null : ["Chance of rain", "up to " + Math.round(w.rain) + "%", "wide"],
      ["Sunrise", w.rise], ["Sunset", w.set]].forEach(function (r) {
@@ -1204,33 +1463,53 @@
       row.appendChild(el("dd", null, r[1]));
       kv.appendChild(row);
     });
-    box.appendChild(kv);
-    var hours = el("div", "wx-hours");
+    top.appendChild(kv);
+    box.appendChild(top);
+
+    box.appendChild(el("span", "wxf-sub", "Next twelve hours"));
+    var hours = el("div", "wxf-hours");
     hours.setAttribute("role", "list");
     w.hours.forEach(function (x) {
       var c = el("div", "wx-h");
       c.setAttribute("role", "listitem");
       c.setAttribute("aria-label", x.hr + ", " + deg(x.temp) + ", " + x.sky.words + (x.rain === null ? "" : ", " + Math.round(x.rain) + " percent chance of rain"));
       c.appendChild(el("span", "hr", x.hr));
-      var gg = el("span", "wx-glyph", x.sky.glyph);
-      gg.setAttribute("aria-hidden", "true");
-      c.appendChild(gg);
+      c.appendChild(glyphSpan(x.sky));
       c.appendChild(el("span", "tp", deg(x.temp)));
       c.appendChild(el("span", "rn", x.rain === null ? "–" : Math.round(x.rain) + "%"));
       hours.appendChild(c);
     });
     box.appendChild(hours);
+
+    if (w.days && w.days.length > 1) {
+      box.appendChild(el("span", "wxf-sub", "Seven-day forecast"));
+      var days = el("div", "wxf-days");
+      days.setAttribute("role", "list");
+      w.days.forEach(function (x) {
+        var c = el("div", "wx-h");
+        c.setAttribute("role", "listitem");
+        c.setAttribute("aria-label", x.day + ", " + x.sky.words + ", high " + deg(x.hi) + ", low " + deg(x.lo) + (x.rain === null ? "" : ", " + Math.round(x.rain) + " percent chance of rain"));
+        c.appendChild(el("span", "hr", x.day));
+        c.appendChild(glyphSpan(x.sky));
+        var tp = el("span", "tp", deg(x.hi) + " ");
+        tp.appendChild(el("span", "lo", deg(x.lo)));
+        c.appendChild(tp);
+        c.appendChild(el("span", "rn", x.rain === null ? "–" : Math.round(x.rain) + "%"));
+        days.appendChild(c);
+      });
+      box.appendChild(days);
+    }
     return box;
   }
-  // Put the box at the top of the "Also on the Front Page" column. Returns true if it was added just now.
-  function placeWeather() {
-    var col = content.querySelector(".front-col");
-    if (!col || wx.failed || !wx.data || col.querySelector(".wx")) return false;
-    col.insertBefore(renderWeather(wx.data), col.firstChild);
-    return true;
-  }
-  function removeWeather() {
-    Array.prototype.slice.call(document.querySelectorAll(".wx")).forEach(function (n) { n.parentNode.removeChild(n); });
+  // Safe to call any number of times, in any order: the ear needs the data, the tab needs the data and the page.
+  function paintWeather() {
+    paintEar(wx.failed ? null : wx.data);
+    var slot = document.querySelector("#page-atlanta .wx-slot");
+    if (slot) {
+      while (slot.firstChild) slot.removeChild(slot.firstChild);
+      if (wx.data && !wx.failed) slot.appendChild(renderWeatherFull(wx.data));
+    }
+    Fit.schedule(60);
   }
   function loadWeather() {
     var ctl = window.AbortController ? new AbortController() : null;
@@ -1241,15 +1520,19 @@
       .then(function (w) {
         clearTimeout(timer);
         wx.data = w;
-        if (placeWeather()) { Fit.run(); Fit.schedule(200); }   // fit again now the box is on the page
+        paintWeather();
+        Fit.run(); Fit.schedule(200);   // fit again now the ear is filled
       })
-      .catch(function () { clearTimeout(timer); wx.failed = true; wx.data = null; removeWeather(); Fit.schedule(60); });
+      .catch(function () { clearTimeout(timer); wx.failed = true; wx.data = null; paintWeather(); });
   }
 
   // ---------- Private tabs: Today and Mail ----------
   // private.enc is public but sealed (AES-256-GCM, PBKDF2-SHA256). It is opened here with the passphrase, in memory only.
+  // "Remember on this device" keeps one derived, non-extractable CryptoKey in IndexedDB. The passphrase itself is never stored.
+  // PASS_KEY is the old localStorage passphrase; it is migrated to a key and then deleted.
   var PASS_KEY = "cmrlm-pass", TAB_KEY = "cmrlm-tab";
-  var TABS = ["front", "today", "mail"];
+  var DB_NAME = "cmrlm", DB_STORE = "keys", DB_ID = "private";
+  var TABS = ["front", "news", "tech", "sports", "atlanta", "science", "today", "mail"];
   var NY = "America/New_York";
   var MAIL_PREFIX = "https://mail.google.com/";
   var store = {
@@ -1259,8 +1542,8 @@
   };
   var priv = { state: "loading", blob: null, data: null };   // loading | nofile | error | locked | open
   var panels = { today: document.getElementById("panel-today"), mail: document.getElementById("panel-mail") };
-  var tabButtons = {}, tabPanels = { front: frontPanel, today: panels.today, mail: panels.mail };
-  TABS.forEach(function (t) { tabButtons[t] = document.getElementById("tab-" + t); });
+  var tabButtons = {}, tabPanels = {};
+  TABS.forEach(function (t) { tabButtons[t] = document.getElementById("tab-" + t); tabPanels[t] = document.getElementById("panel-" + t); });
 
   function b64bytes(s) {
     if (typeof s !== "string" || !/^[A-Za-z0-9+\/]*={0,2}$/.test(s)) throw badFile();
@@ -1270,22 +1553,58 @@
   }
   function badFile() { var e = new Error("bad file"); e.bad = true; return e; }
 
-  function decryptBlob(blob, pass) {
-    if (!window.crypto || !crypto.subtle) { var e = new Error("no crypto"); e.bad = true; return Promise.reject(e); }
-    try {
-      if (!blob || blob.v !== 1 || blob.kdf !== "PBKDF2-SHA256" || !(blob.iter >= 100000 && blob.iter <= 5000000)) throw badFile();
-      var salt = b64bytes(blob.salt), iv = b64bytes(blob.iv), ct = b64bytes(blob.ct);
-      if (iv.length !== 12 || ct.length < 16) throw badFile();
-    } catch (e) { return Promise.reject(e); }
+  // Check the blob (v1 or v2) and return its parts. Throws a "bad file" error.
+  function blobParts(blob) {
+    if (!blob || (blob.v !== 1 && blob.v !== 2) || blob.kdf !== "PBKDF2-SHA256" || !(blob.iter >= 100000 && blob.iter <= 5000000)) throw badFile();
+    var salt = b64bytes(blob.salt), iv = b64bytes(blob.iv), ct = b64bytes(blob.ct);
+    if (iv.length !== 12 || ct.length < 16) throw badFile();
+    return { salt: salt, iv: iv, ct: ct };
+  }
+  function noCrypto() {
+    if (window.crypto && crypto.subtle) return null;
+    var e = new Error("no crypto"); e.bad = true; return e;
+  }
+  // Derive the AES-GCM key from the passphrase. Never extractable.
+  function deriveKey(blob, pass) {
     var secret = new TextEncoder().encode(String(pass).trim().normalize("NFC"));
-    return crypto.subtle.importKey("raw", secret, "PBKDF2", false, ["deriveKey"])
-      .then(function (base) {
-        return crypto.subtle.deriveKey({ name: "PBKDF2", salt: salt, iterations: blob.iter, hash: "SHA-256" }, base,
-          { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
-      })
-      .then(function (key) { return crypto.subtle.decrypt({ name: "AES-GCM", iv: iv }, key, ct); })
+    return crypto.subtle.importKey("raw", secret, "PBKDF2", false, ["deriveKey"]).then(function (base) {
+      return crypto.subtle.deriveKey({ name: "PBKDF2", salt: b64bytes(blob.salt), iterations: blob.iter, hash: "SHA-256" }, base,
+        { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    });
+  }
+  function decryptWithKey(blob, key) {
+    var p;
+    try { p = blobParts(blob); } catch (e) { return Promise.reject(e); }
+    return crypto.subtle.decrypt({ name: "AES-GCM", iv: p.iv }, key, p.ct)
       .then(function (plain) { return JSON.parse(new TextDecoder().decode(plain)); });
   }
+
+  // ----- the remembered key (IndexedDB, best effort: everything works without it) -----
+  function idb(mode, fn) {
+    return new Promise(function (resolve) {
+      try {
+        var open = window.indexedDB.open(DB_NAME, 1);
+        open.onupgradeneeded = function () { try { open.result.createObjectStore(DB_STORE); } catch (e) {} };
+        open.onerror = function () { resolve(null); };
+        open.onblocked = function () { resolve(null); };
+        open.onsuccess = function () {
+          var db = open.result, out = null;
+          try {
+            var tx = db.transaction(DB_STORE, mode);
+            var req = fn(tx.objectStore(DB_STORE));
+            if (req) req.onsuccess = function () { out = req.result === undefined ? null : req.result; };
+            tx.oncomplete = function () { db.close(); resolve(out); };
+            tx.onerror = tx.onabort = function () { try { db.close(); } catch (e) {} resolve(null); };
+          } catch (e) { try { db.close(); } catch (e2) {} resolve(null); }
+        };
+      } catch (e) { resolve(null); }
+    });
+  }
+  var keyStore = {
+    get: function () { return idb("readonly", function (st) { return st.get(DB_ID); }); },
+    put: function (rec) { return idb("readwrite", function (st) { return st.put(rec, DB_ID); }); },
+    del: function () { return idb("readwrite", function (st) { return st.delete(DB_ID); }); }
+  };
 
   // ----- formatting -----
   function fmtTime(iso) {
@@ -1480,8 +1799,7 @@
       var pass = input.value;
       cards.forEach(function (c) { c.err.textContent = ""; });
       go.disabled = true; go.textContent = "Unlocking…";
-      unlock(pass).then(function () {
-        if (box.checked) store.set(PASS_KEY, pass.trim().normalize("NFC"));
+      unlock(pass, box.checked).then(function () {
         var h = panels[TABS[tabIndexSelected()]] && panels[TABS[tabIndexSelected()]].querySelector(".sheet-title");
         if (h) h.focus();
       }, function (e) {
@@ -1516,23 +1834,52 @@
     });
   }
 
+  function openSheets(data) {
+    if (!data || typeof data !== "object") throw badFile();
+    priv.data = data;
+    priv.state = "open";
+    paintPrivate();
+  }
   // Decrypt with a passphrase. Resolves when the sheets are open; rejects if the passphrase is wrong.
-  function unlock(pass) {
-    if (!priv.blob) return Promise.reject(badFile());
-    return decryptBlob(priv.blob, pass).then(function (data) {
-      if (!data || typeof data !== "object") throw badFile();
-      priv.data = data;
-      priv.state = "open";
-      paintPrivate();
+  // With `remember` (and a v2 file) the derived, non-extractable key is kept in IndexedDB. The passphrase is not.
+  function unlock(pass, remember) {
+    var blob = priv.blob, bad = noCrypto();
+    if (!blob) return Promise.reject(badFile());
+    if (bad) return Promise.reject(bad);
+    try { blobParts(blob); } catch (e) { return Promise.reject(e); }
+    return deriveKey(blob, pass).then(function (key) {
+      return decryptWithKey(blob, key).then(function (data) {
+        openSheets(data);
+        if (remember && blob.v === 2) keyStore.put({ salt: blob.salt, iter: blob.iter, key: key });
+      });
     });
   }
   function lockUp() {
     store.del(PASS_KEY);
+    keyStore.del();
     priv.data = null;
     priv.state = "locked";
     paintPrivate();
     var f = document.getElementById("pass-" + TABS[tabIndexSelected()]);
     if (f) f.focus();
+  }
+  // On load: open silently with the remembered key; or migrate an old stored passphrase; otherwise show the lock card.
+  function restore() {
+    var blob = priv.blob;
+    var old = store.get(PASS_KEY);
+    if (old !== null) store.del(PASS_KEY);   // the passphrase is never kept, whatever happens next
+    function locked() { priv.state = "locked"; paintPrivate(); }
+    function migrate() {
+      if (!old || noCrypto()) return locked();
+      return unlock(old, true).catch(locked);
+    }
+    if (noCrypto()) return locked();
+    return keyStore.get().then(function (rec) {
+      if (rec && rec.key && rec.salt === blob.salt && rec.iter === blob.iter) {
+        return decryptWithKey(blob, rec.key).then(openSheets).catch(function () { return keyStore.del().then(migrate); });
+      }
+      return (rec ? keyStore.del() : Promise.resolve()).then(migrate);
+    });
   }
   function loadPrivate() {
     paintPrivate();
@@ -1542,55 +1889,70 @@
         if (!r.ok) throw new Error(r.status);
         return r.json();
       })
-      .then(function (blob) {
-        priv.blob = blob;
-        var saved = store.get(PASS_KEY);
-        if (!saved) { priv.state = "locked"; paintPrivate(); return; }
-        // A remembered passphrase opens the sheets silently. If it no longer works it is forgotten.
-        return unlock(saved).catch(function () { store.del(PASS_KEY); priv.state = "locked"; paintPrivate(); });
-      })
+      .then(function (blob) { priv.blob = blob; return restore(); })
       .catch(function (e) { priv.state = e && e.missing ? "nofile" : "error"; paintPrivate(); });
   }
 
   // ----- tabs -----
+  var wantTab = null;   // a tab asked for by the address or by memory before brief.json arrived
+  function available(id) { return TABS.indexOf(id) >= 0 && (TOPIC_TABS.indexOf(id) < 0 || !!tabsAvail[id]); }
+  function visibleTabs() { return TABS.filter(available); }
   function setHash(id) {
     try { history.replaceState(null, "", id === "front" ? location.pathname + location.search : "#" + id); } catch (e) {}
   }
   function selectTab(id, opts) {
     opts = opts || {};
-    if (TABS.indexOf(id) < 0) id = "front";
+    if (!available(id)) id = "front";
+    if (opts.user !== false) wantTab = null;
     TABS.forEach(function (t) {
       var on = t === id;
       tabButtons[t].setAttribute("aria-selected", on ? "true" : "false");
       tabButtons[t].tabIndex = on ? 0 : -1;
       tabPanels[t].hidden = !on;
     });
-    store.set(TAB_KEY, id);
+    if (opts.persist !== false) store.set(TAB_KEY, id);
     if (opts.hash !== false) setHash(id);
     if (opts.focus) tabButtons[id].focus();
     if (id === "front") { Fit.run(); Fit.schedule(60); }   // the fit engine only measures the visible panel
   }
-  TABS.forEach(function (t, i) {
+  // Show the topic tabs that brief.tabs provided, hide the rest, and open a tab that was asked for early.
+  function refreshTabs() {
+    TOPIC_TABS.forEach(function (t) { tabButtons[t].hidden = !tabsAvail[t]; });
+    if (wantTab && available(wantTab)) {
+      var w = wantTab;
+      selectTab(w, { hash: false, user: false });
+    } else if (!available(currentTab())) {
+      selectTab("front", { hash: false, user: false });
+    }
+  }
+  function currentTab() {
+    for (var i = 0; i < TABS.length; i++) if (tabButtons[TABS[i]].getAttribute("aria-selected") === "true") return TABS[i];
+    return "front";
+  }
+  TABS.forEach(function (t) {
     tabButtons[t].addEventListener("click", function () { selectTab(t); });
     tabButtons[t].addEventListener("keydown", function (ev) {
-      var n = null;
-      if (ev.key === "ArrowRight") n = (i + 1) % TABS.length;
-      else if (ev.key === "ArrowLeft") n = (i + TABS.length - 1) % TABS.length;
+      var list = visibleTabs(), i = list.indexOf(t), n = null;
+      if (ev.key === "ArrowRight") n = (i + 1) % list.length;
+      else if (ev.key === "ArrowLeft") n = (i + list.length - 1) % list.length;
       else if (ev.key === "Home") n = 0;
-      else if (ev.key === "End") n = TABS.length - 1;
+      else if (ev.key === "End") n = list.length - 1;
       if (n === null) return;
       ev.preventDefault();
-      selectTab(TABS[n], { focus: true });
+      selectTab(list[n], { focus: true });
     });
   });
   window.addEventListener("hashchange", function () {
     var h = location.hash.replace(/^#/, "");
-    if (TABS.indexOf(h) >= 0) selectTab(h, { hash: false });
+    if (TABS.indexOf(h) < 0) return;
+    if (available(h)) selectTab(h, { hash: false });
+    else { wantTab = h; }
   });
   (function () {
     var h = location.hash.replace(/^#/, "");
-    var first = TABS.indexOf(h) >= 0 ? h : (TABS.indexOf(store.get(TAB_KEY)) >= 0 ? store.get(TAB_KEY) : "front");
-    selectTab(first, { hash: first === h });
+    var want = TABS.indexOf(h) >= 0 ? h : (TABS.indexOf(store.get(TAB_KEY)) >= 0 ? store.get(TAB_KEY) : "front");
+    if (available(want)) selectTab(want, { hash: want === h });
+    else { wantTab = want; selectTab("front", { hash: false, persist: false, user: false }); }
   })();
   loadPrivate();
   loadWeather();

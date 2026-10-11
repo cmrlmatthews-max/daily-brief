@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>FDA Recalls (fixture)</title>
+<link>https://www.fda.gov/</link>
+<description>Fake recall notices for --dry-run and tests.</description>
+<item><title>Fixture Foods recalls frozen dumplings because of possible undeclared milk</title>
+ <link>https://www.fda.gov/safety/recalls/fixture-foods-dumplings</link><pubDate>@D0@</pubDate></item>
+<item><title>Fixture Pharma recalls blood pressure tablets because of a labeling error</title>
+ <link>https://www.fda.gov/safety/recalls/fixture-pharma-tablets</link><pubDate>@D1@</pubDate></item>
+<item><title>Fixture Farms recalls cantaloupes because of possible Salmonella</title>
+ <link>https://www.fda.gov/safety/recalls/fixture-farms-cantaloupes</link><pubDate>@D2@</pubDate></item>
+<item><title>Fixture Bakery recalls bread because of possible undeclared soy</title>
+ <link>https://www.fda.gov/safety/recalls/fixture-bakery-bread</link><pubDate>@D3@</pubDate></item>
+<item><title>Fixture Devices recalls an old pump (too old to show)</title>
+ <link>https://www.fda.gov/safety/recalls/fixture-devices-pump</link><pubDate>@D9@</pubDate></item>
+</channel>
+</rss>

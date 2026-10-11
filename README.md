@@ -8,14 +8,14 @@ Live at https://cmrlmatthews-max.github.io/daily-brief/
 
 1. GitHub Actions runs `brief.py` every morning.
 2. The script reads the feeds listed in `sources.yaml`.
-3. It sends the items to Claude. Claude picks the best ones and writes a short note for each.
+3. It sends the items to Claude twice. Call 1 writes the front page: the lead, a few front stories, and 2 to 3 items per topic. Call 2 (the "desk") picks the 6 to 10 best items per topic, with a short note each, for the topic tabs. If call 2 fails, the run still succeeds: each tab then shows the newest items of each topic (up to 8) with no notes, and the log says `desk: fallback`.
 4. Claude only returns item ids. The script maps them back to the real titles and links. Unknown ids are dropped, so links are never invented.
-5. Team scores come straight from ESPN. No AI is involved.
-6. The script writes `site/brief.json`. The page `site/index.html` shows it.
+5. Team scores (the last result, plus the last 3 results and next 3 games per team), FDA recalls, and the Daily Stoic quote come straight from ESPN, the FDA feed and Project Gutenberg. No AI is involved. The Stoic quote is one whole sentence taken from the downloaded book and picked by the date, so it never changes during the day and is never written by a model.
+6. The script writes `site/brief.json` (with `lead`, `front`, `sections`, `tabs`, `recalls`, `stoic`, `scores`). The page `site/index.html` shows it.
 
 ## The page
 
-The page is a vintage newspaper called CMRLM, in one light theme: aged newsprint, near-black ink, and a muted red-brown accent. The masthead is the image `site/img/masthead.png`. Team scores sit in a box at its left and the edition in a box at its right. It has one top story, a few front-page stories, and four sections in this order: Tech & AI, Sports, Architecture, World.
+The page is a vintage newspaper called CMRLM, in one light theme: aged newsprint, near-black ink, and a muted red-brown accent. The masthead is the image `site/img/masthead.png`. Team scores sit in a box at its left and the edition in a box at its right. It has one top story, a few front-page stories, and sections for these topics in this order: Tech & AI, Politics, World, Sports, Atlanta, Architecture, Science & Nature. The `tabs:` list in `sources.yaml` groups the topics into the News, Tech & AI, Sports, Atlanta and Science tabs.
 
 The top story has a giant headline and 2 to 3 short `decks` under it. Claude writes the decks from the item title and summary only. If the lead is swapped for a story with a picture, the decks are left empty and the page copes.
 
@@ -23,17 +23,17 @@ The lead note is 120 to 150 words (4 to 6 sentences), written by Claude only fro
 
 Nothing on the page is left empty. After the page is built, after fonts load, after each picture loads or fails, and on resize, a small fill script in `site/index.html` evens out the blocks. It only sets CSS variables: it scales the type to fill the ears, makes the top-story, section and World columns end level (type size first, then line height, letter spacing, photo shape, and spacing), and fits the lead headline to its column in at most 4 lines. A picture that fails, loads blank, or takes over 8 seconds is removed, and the layout is refitted. It does nothing under 600px wide, where the page is one natural column.
 
-Each item has a `video` field. It holds the 11-character YouTube id when the link is a YouTube watch link, otherwise `null`. When a section's feature story has a video id, the page plays it muted and looping in the photo frame, using youtube-nocookie. With reduced motion on, the thumbnail is shown instead.
+Each item has a `video` field. It holds the 11-character YouTube id when the link is a YouTube watch link, otherwise `null`. The page never embeds a player. A video shows as a still sepia frame with a ▶ mark, and a tap opens the video on YouTube (the YouTube app on iPhone), so YouTube Premium applies and no ads play. All video comes from YouTube only.
 
-## Tabs: Front Page, Today, Mail
+## Tabs
 
-A tab bar sits under the dateline. Front Page is the default. `#today` and `#mail` in the address open those tabs, and the page remembers the last tab on each device. The fit script only measures the visible tab and runs again when you return to Front Page.
+The tab bar under the dateline has two rows. Row 1 is the paper: Front Page, News, Tech & AI, Sports, Atlanta, Science. Row 2 is private: Today and Mail. `#news`, `#sports` and the other tab ids in the address open those tabs, and the page remembers the last tab on each device. The fit script only measures Front Page. The topic tabs (set by `tabs:` in `sources.yaml`) come from a second Haiku call that picks 6 to 10 items per topic; if that call fails, each topic shows its newest items without notes.
 
-The weather box at the top of the right-hand column is public. The browser asks Open-Meteo for Atlanta (city level, set by `WX_PLACE` in `site/index.html`). If that fails, the box is simply left out.
+The weather ear in the header (right of the masthead) and the full weather block on the Atlanta tab are public. The browser asks Open-Meteo for Atlanta (city level, set by `WX_PLACE` in `site/index.html`). If that fails, both are left out. The Sports tab shows the last 3 results and next 3 games for each team. The Front Page also has a Daily Stoic line (from the public-domain George Long translation of Marcus Aurelius on Project Gutenberg) and an FDA Recalls box; each is hidden when its source fails.
 
-Today (calendar) and Mail (Gmail) are private, but the site is public. So `brief.py` builds them on the server, seals them with AES-256-GCM (key from your passphrase, PBKDF2-SHA256, 600,000 rounds, fresh salt and IV each run), and writes only `site/private.enc`. That file is gitignored and is never committed. The page opens it in your browser with the passphrase, in memory. Calendar and mail text never appear in the repo, in `brief.json`, or in the Actions logs. The logs show counts only, and error type names, never messages.
+Today (calendar) and Mail (Gmail) are private, but the site is public. So `brief.py` builds them on the server, seals them with AES-256-GCM (key from your passphrase, PBKDF2-SHA256, 600,000 rounds, a fixed app salt, and a fresh random IV each run; the file is format v2, and the page still opens v1 files), and writes only `site/private.enc`. That file is gitignored and is never committed. The page opens it in your browser with the passphrase, in memory. Calendar and mail text never appear in the repo, in `brief.json`, or in the Actions logs. The logs show counts only, and error type names, never messages.
 
-Use a long passphrase. The sealed file is public, so its strength is the only lock. "Remember on this device" keeps the passphrase in this browser's local storage; the Lock button erases it.
+Use a long passphrase. The sealed file is public, so its strength is the only lock. "Remember on this device" keeps one derived, non-extractable key in this browser's IndexedDB, never the passphrase. A script on another page of the same site can use that key while the page is open, but it cannot copy it out or learn the passphrase. The Lock button erases it. If you change the passphrase, each device asks for it again once.
 
 Add these repo secrets (names only). All are optional:
 

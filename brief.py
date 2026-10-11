@@ -2,7 +2,8 @@
 """Daily brief generator.
 
 Fetches feeds, asks Claude to pick and summarize items, writes site/brief.json.
-The page is a front page: one lead story, a few front stories, then four sections.
+The page is a front page (one lead story, a few front stories, 2 to 3 items per topic) plus one tab per
+topic group. Call 1 to Claude writes the front page. Call 2 picks the longer list for the topic tabs.
 
 Usage:
     ANTHROPIC_API_KEY=... python brief.py
@@ -51,8 +52,10 @@ Rules:
 - Be selective. Prefer substance over hype. No clickbait.
 - Never invent facts. Use only what is in the item title and summary.
 - Refer to items by their id only. Never write URLs.
-- Sports items only if they are real news: trades, injuries, results.
+- Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
 - World items must be straight news, never opinion or analysis pieces.
+- Politics items must be news, or a plain description of what a video segment covers.
+  Use neutral wording. No adjectives that take a side.
 - Notes must be neutral and factual for World and for anything political. No adjectives that take a side.
 - "lead": the single most important story today. Strongly prefer an item with has_image=true,
   because the lead is shown with a large picture.
@@ -65,7 +68,7 @@ Rules:
   Each at most 12 words. Write them only from the item title and summary. Do not invent any facts.
 - "front": 2 to 4 other front-page stories, from any section. Note: 1 sentence, at most 25 words.
 - "sections": one entry for EVERY topic listed in the message that has items left after "lead" and "front".
-  Give 3 to 5 items per topic. No repeats of the lead or front items.
+  Give 2 to 3 items per topic. No repeats of the lead or front items.
   Use the topic name exactly as listed. Do not leave "sections" empty.
   Note: 1 sentence, at most 25 words, saying why the item matters to this reader.
 - has_image only tells you whether a picture is available. Never mention pictures in notes."""
@@ -110,13 +113,67 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
                         "type": "object",
                         "properties": {
                             "topic": {"type": "string", "enum": list(section_names)},
-                            "items": {"type": "array", "minItems": 3, "maxItems": 5, "items": _NOTE_ITEM},
+                            "items": {"type": "array", "minItems": 2, "maxItems": 3, "items": _NOTE_ITEM},
                         },
                         "required": ["topic", "items"],
                     },
                 },
             },
             "required": ["lead", "front", "sections"],
+        },
+    }
+
+
+DESK_PROMPT = """You are the editor of the topic pages of a short personal daily newspaper, for one reader.
+The front page is already done. Now you fill the page of each topic.
+
+Rules:
+- For every topic that has items in the message, pick the 6 to 10 best items. Pick fewer only if the topic
+  has fewer. Put the best first. You may pick items that are also on the front page.
+- Be selective. Prefer substance over hype. No clickbait.
+- Never invent facts. Use only what is in the item title and summary.
+- Refer to items by id only. Never write URLs.
+- Note: 1 to 2 sentences, at most 35 words, saying what the story is and why it matters to this reader.
+- Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
+- World items must be straight news, never opinion or analysis pieces.
+- Politics items must be news, or a plain description of what a video segment covers.
+- Notes must be neutral and factual for World and for anything political. No adjectives that take a side.
+- Use the topic name exactly as listed. Do not leave "sections" empty.
+- has_image only tells you whether a picture is available. Never mention pictures in notes."""
+
+DESK_MIN_ITEMS, DESK_MAX_ITEMS = 4, 10
+DESK_FALLBACK_ITEMS = 8
+
+
+def desk_tool(section_names: list[str]) -> dict[str, Any]:
+    """The forced tool for call 2 (the topic tabs)."""
+    return {
+        "name": "publish_desk",
+        "description": "Publish the topic pages by listing the chosen item ids with a short note each.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "sections": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "topic": {"type": "string", "enum": list(section_names)},
+                            "items": {"type": "array", "minItems": DESK_MIN_ITEMS, "maxItems": DESK_MAX_ITEMS,
+                                      "items": {
+                                          "type": "object",
+                                          "properties": {"id": {"type": "string"},
+                                                         "note": {"type": "string",
+                                                                  "description": "1 to 2 sentences, at most 35 words. "
+                                                                                 "No invented facts."}},
+                                          "required": ["id", "note"]}},
+                        },
+                        "required": ["topic", "items"],
+                    },
+                },
+            },
+            "required": ["sections"],
         },
     }
 
@@ -345,22 +402,37 @@ def fetch_og_image(s: requests.Session, url: str) -> str | None:
 
 def resolve_og_images(out: dict, no_image_sources: set[str], session: requests.Session | None = None,
                       fetcher: Any = None) -> int:
-    """Fill missing images on selected items (lead, front, sections) from the article page.
-    At most OG_MAX_FETCHES fetches, run concurrently. Returns how many images were found."""
+    """Fill missing images on selected items (lead, front, sections, then the tab pages) from the article page.
+    The same story on the front page and on a tab is fetched once and shares the picture.
+    At most OG_MAX_FETCHES fetches, run concurrently, front page first. Returns how many images were found."""
     s = session or requests.Session()
     if session is None:
         s.headers["User-Agent"] = USER_AGENT
     fetcher = fetcher or (lambda u: fetch_og_image(s, u))
     ordered = ([out["lead"]] if out.get("lead") else []) + list(out.get("front") or []) + \
-        [i for sec in out.get("sections") or [] for i in sec["items"]]
-    todo = [i for i in ordered if not i.get("image") and i["source"] not in no_image_sources][:OG_MAX_FETCHES]
+        [i for sec in out.get("sections") or [] for i in sec["items"]] + \
+        [i for tab in out.get("tabs") or [] for sec in tab["sections"] for i in sec["items"]]
+    known = {i["url"]: i["image"] for i in ordered if i.get("image")}
+    for i in ordered:                     # a copy of a story that already has a picture gets it for free
+        if not i.get("image") and i["url"] in known:
+            i["image"] = known[i["url"]]
+    todo, seen = [], set()
+    for i in ordered:
+        if not i.get("image") and i["source"] not in no_image_sources and i["url"] not in seen:
+            seen.add(i["url"])
+            todo.append(i)
+    todo = todo[:OG_MAX_FETCHES]
     if not todo:
         return 0
+    found: dict[str, str] = {}
     with ThreadPoolExecutor(max_workers=8) as pool:
         for it, img in zip(todo, pool.map(lambda i: fetcher(i["url"]), todo)):
             if img:
-                it["image"] = img
-    return sum(1 for i in todo if i.get("image"))
+                found[it["url"]] = img
+    for i in ordered:
+        if not i.get("image") and i["url"] in found:
+            i["image"] = found[i["url"]]
+    return len(found)
 
 
 class _NewsLinks(HTMLParser):
@@ -545,7 +617,10 @@ def _parse_event(event: dict, team_id: str) -> dict | None:
 
 
 def team_score(s: requests.Session, cfg: dict) -> dict:
-    out = {"team": cfg["team"], "last": None, "last_date": None, "next": None, "url": None}
+    """One team's schedule from ESPN. `last`, `last_date`, `next` feed the small scores ear.
+    `recent` (up to 3 results, newest first) and `upcoming` (up to 3 games, soonest first) feed the Sports tab."""
+    out = {"team": cfg["team"], "last": None, "last_date": None, "next": None, "url": None,
+           "recent": [], "upcoming": []}
     base = f"https://site.api.espn.com/apis/site/v2/sports/{cfg['league_path']}/teams/{cfg['team_id']}/schedule"
     events: list = []
     for suffix in ("", "?seasontype=2") if cfg["league_path"].endswith("nfl") else ("",):
@@ -571,19 +646,28 @@ def team_score(s: requests.Session, cfg: dict) -> dict:
         return ("vs" if p["mine"].get("homeAway") == "home" else "at") + " " + \
             str((p["other"].get("team") or {}).get("abbreviation") or "?")
 
-    if done:
-        p, ev = done[-1]
+    def day(p: dict) -> str:
+        return p["when"].strftime("%b ") + str(p["when"].day)
+
+    def link(ev: dict) -> str | None:
+        return next((l.get("href") for l in ev.get("links") or [] if is_http(l.get("href"))), None)
+
+    results = []                     # (result text, date text, event), newest first
+    for p, ev in reversed(done):
         mine, theirs = _score(p["mine"]), _score(p["other"])
-        if mine is not None and theirs is not None:
-            res = "W" if mine > theirs else "L" if mine < theirs else "T"
-            out["last"] = f"{res} {mine}–{theirs} {where(p)}"
-            out["last_date"] = p["when"].strftime("%b ") + str(p["when"].day)
-            out["url"] = next((l.get("href") for l in ev.get("links") or [] if is_http(l.get("href"))), None)
-    if future:
-        p, ev = future[0]
-        out["next"] = f"{p['when']:%a %b} {p['when'].day} {where(p)}"
-        out["url"] = out["url"] or next((l.get("href") for l in ev.get("links") or []
-                                         if is_http(l.get("href"))), None)
+        if mine is None or theirs is None:
+            continue
+        res = "W" if mine > theirs else "L" if mine < theirs else "T"
+        results.append((f"{res} {mine}–{theirs} {where(p)}", day(p), ev))
+    if results:
+        text, date_text, ev = results[0]
+        out["last"], out["last_date"], out["url"] = text, date_text, link(ev)
+        out["recent"] = [f"{t} · {d}" for t, d, _ in results[:3]]
+    for p, ev in future[:3]:
+        out["upcoming"].append(f"{p['when']:%a %b} {p['when'].day} {where(p)}")
+    if out["upcoming"]:
+        out["next"] = out["upcoming"][0]
+        out["url"] = out["url"] or link(future[0][1])
     return out
 
 
@@ -599,24 +683,131 @@ def fetch_scores(cfg: dict) -> tuple[list[dict], list[dict]]:
     return scores, errors
 
 
+# ---------- recalls and the daily Stoic quote ----------
+
+def parse_recalls(content: bytes | str, cfg: dict, now: datetime | None = None) -> list[dict]:
+    """FDA recall feed -> [{"title", "url", "published"}], newest first, at most max_items,
+    only items inside max_age_days. `cfg` is the `recalls:` block. Items without a usable date are left out."""
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=float(cfg.get("max_age_days", 4)))
+    feed = feedparser.parse(content)
+    if not feed.entries:
+        raise ValueError("feed has no entries")
+    rows, seen = [], set()
+    for e in feed.entries:
+        published = to_iso(e.get("published_parsed") or e.get("updated_parsed"))
+        title, url = clean_text(e.get("title", ""), 160), e.get("link", "")
+        if not title or not is_http(url) or not published or url in seen:
+            continue
+        if datetime.fromisoformat(published) < cutoff:
+            continue
+        seen.add(url)
+        rows.append({"title": title, "url": url, "published": published})
+    rows.sort(key=lambda r: r["published"], reverse=True)
+    return rows[: int(cfg.get("max_items", 3))]
+
+
+def fetch_recalls(cfg: dict, now: datetime | None = None, session: requests.Session | None = None) -> list[dict]:
+    """Download the FDA recall feed. Raises on any failure; the caller records it as a skipped source."""
+    s = session or requests.Session()
+    if session is None:
+        s.headers["User-Agent"] = USER_AGENT
+    r = s.get(cfg["recalls"]["url"], timeout=TIMEOUT)
+    r.raise_for_status()
+    return parse_recalls(r.content, cfg["recalls"], now)
+
+
+STOIC_START = re.compile(r"^[ \t]*THE FIRST BOOK[ \t]*$", re.M)
+STOIC_NUMERAL = re.compile(r"^[IVXL]+\.\s+")
+STOIC_SKIP_FIRST = {"and", "but", "for", "or", "nor", "so", "this", "these", "that", "such", "which", "he", "it"}
+STOIC_MIN, STOIC_MAX = 60, 200
+
+
+def stoic_sentences(text: str) -> list[str]:
+    """Usable one-sentence quotes from the Gutenberg text of the Meditations.
+    Keeps only the body (from "THE FIRST BOOK" to "*** END OF"). A sentence must be 60 to 200 characters,
+    start with a capital that is not a linking word (And, But, This ...), end like a sentence, and have
+    no digits or "[" (footnote marks)."""
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    starts = list(STOIC_START.finditer(text))
+    if not starts:
+        return []
+    body = text[starts[-1].end():]          # the last match: the contents list names the books too
+    end = body.find("*** END OF")
+    if end != -1:
+        body = body[:end]
+    out, seen = [], set()
+    for para in re.split(r"\n\s*\n", body):
+        para = STOIC_NUMERAL.sub("", re.sub(r"\s+", " ", para.replace("_", "")).strip())
+        for sent in re.split(r"(?<=[.!?])\s+(?=[A-Z])", para):
+            sent = sent.strip()
+            first = re.match(r"[A-Za-z']+", sent)
+            if not (STOIC_MIN <= len(sent) <= STOIC_MAX) or not first or not sent[0].isupper():
+                continue
+            if first.group(0).lower() in STOIC_SKIP_FIRST or sent[-1] not in ".!?":
+                continue
+            if "[" in sent or any(c.isdigit() for c in sent) or sent in seen:
+                continue
+            seen.add(sent)
+            out.append(sent)
+    return out
+
+
+def pick_stoic(text: str, cfg: dict, now: datetime) -> dict | None:
+    """One quote, chosen by a stable hash of the date, so it stays the same all day. None if nothing qualifies.
+    `cfg` is the `stoic:` block."""
+    sentences = stoic_sentences(text)
+    if not sentences:
+        return None
+    day = now.astimezone(TZ).date().isoformat()
+    n = int(hashlib.sha256(day.encode("utf-8")).hexdigest(), 16)
+    return {"text": sentences[n % len(sentences)], "credit": cfg.get("credit", "")}
+
+
+def fetch_stoic(cfg: dict, now: datetime, session: requests.Session | None = None) -> dict | None:
+    """Download the Meditations and pick today's quote. Raises on network failure; returns None if no
+    sentence qualifies. Quote text always comes from the downloaded book, never from the model."""
+    s = session or requests.Session()
+    if session is None:
+        s.headers["User-Agent"] = USER_AGENT
+    r = s.get(cfg["stoic"]["url"], timeout=TIMEOUT)
+    r.raise_for_status()
+    r.encoding = "utf-8"
+    return pick_stoic(r.text, cfg["stoic"], now)
+
+
+def fetch_extras(cfg: dict, now: datetime) -> tuple[list[dict], dict | None, list[dict]]:
+    """Recalls and the Stoic quote, each failing soft. Returns (recalls, stoic, source_errors)."""
+    errors, recalls, stoic = [], [], None
+    if cfg.get("recalls"):
+        try:
+            recalls = fetch_recalls(cfg, now)
+        except Exception as exc:
+            errors.append({"source": "Recalls", "error": f"{type(exc).__name__}: {exc}"[:140]})
+    if cfg.get("stoic"):
+        try:
+            stoic = fetch_stoic(cfg, now)
+        except Exception as exc:
+            errors.append({"source": "Stoic", "error": f"{type(exc).__name__}: {exc}"[:140]})
+    return recalls, stoic, errors
+
+
 # ---------- Claude ----------
 
-def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
+def slim_items(items: list[dict]) -> list[dict]:
+    """The records the model sees. No urls and no image links; only whether a picture exists."""
+    return [{**{k: i[k] for k in ("id", "topic", "source", "title", "summary", "published")},
+             "has_image": bool(i.get("image"))} for i in items]
+
+
+def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int) -> tuple[dict, dict]:
+    """One Claude call that must answer through `tool`. Returns (tool input, usage counts)."""
     import anthropic
 
-    key = os.environ["ANTHROPIC_API_KEY"]
-    slim = [{**{k: i[k] for k in ("id", "topic", "source", "title", "summary", "published")},
-             "has_image": bool(i.get("image"))} for i in items]
-    topics = section_names(cfg, items)
-    user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
-            f"Topics (make a section for each): {', '.join(topics)}\n\n"
-            f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
-            "Call publish_brief with your picks.")
-    client = anthropic.Anthropic(api_key=key)
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     msg = client.messages.create(
-        model=cfg["model"], max_tokens=int(cfg["max_output_tokens"]), system=SYSTEM_PROMPT,
-        tools=[publish_tool([t["name"] for t in cfg["topics"]])],
-        tool_choice={"type": "tool", "name": "publish_brief"},
+        model=cfg["model"], max_tokens=max_tokens, system=system,
+        tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
         messages=[{"role": "user", "content": user}])
     block = next((b for b in msg.content if b.type == "tool_use"), None)
     if block is None:
@@ -625,10 +816,41 @@ def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
     return dict(block.input), usage
 
 
+def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
+    """Call 1: the front page (lead, front stories, 2 to 3 items per topic)."""
+    slim = slim_items(items)
+    topics = section_names(cfg, items)
+    user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
+            f"Topics (make a section for each): {', '.join(topics)}\n\n"
+            f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
+            "Call publish_brief with your picks.")
+    return _forced_call(cfg, SYSTEM_PROMPT, publish_tool([t["name"] for t in cfg["topics"]]), user,
+                        int(cfg["max_output_tokens"]))
+
+
+def ask_desk(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
+    """Call 2: the longer list for each topic tab. Same items as call 1."""
+    slim = slim_items(items)
+    topics = section_names(cfg, items)
+    user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
+            f"Topics (one entry for each): {', '.join(topics)}\n\n"
+            f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
+            "Call publish_desk with your picks.")
+    return _forced_call(cfg, DESK_PROMPT, desk_tool([t["name"] for t in cfg["topics"]]), user,
+                        int(cfg.get("desk_max_output_tokens", 8000)))
+
+
 def section_names(cfg: dict, items: list[dict]) -> list[str]:
     """Configured section names, in order, that have at least one item."""
     have = {i["topic"] for i in items}
     return [t["name"] for t in cfg["topics"] if t["name"] in have]
+
+
+def make_story(it: dict, note: Any) -> dict:
+    """The shape of every story in brief.json (lead, front, sections and tabs)."""
+    return {"title": it["title"], "url": it["url"], "source": it["source"],
+            "topic": it["topic"], "note": clean_text(str(note or ""), 300), "image": it.get("image"),
+            "video": youtube_id(it["url"])}
 
 
 def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
@@ -638,10 +860,7 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
     by_id = {i["id"]: i for i in items}
     used: set[str] = set()
 
-    def make(it: dict, note: Any) -> dict:
-        return {"title": it["title"], "url": it["url"], "source": it["source"],
-                "topic": it["topic"], "note": clean_text(str(note or ""), 300), "image": it.get("image"),
-                "video": youtube_id(it["url"])}
+    make = make_story
 
     def pick(entries: Any, limit: int | None = None) -> list[dict]:
         out = []
@@ -677,12 +896,57 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
             continue
         rest = [i for i in items if i["topic"] == topic and i["id"] not in used]
         rest.sort(key=lambda i: i.get("published") or "", reverse=True)
-        for it in rest[:3]:
+        for it in rest[:2]:
             used.add(it["id"])
             buckets[topic] = buckets.get(topic, []) + [make(it, "")]
     names = [n for n in order if buckets.get(n)] + [n for n in buckets if n not in order and buckets[n]]
-    sections = [{"topic": n, "items": buckets[n][:5]} for n in names]
+    sections = [{"topic": n, "items": buckets[n][:3]} for n in names]
     return {"lead": lead, "front": front, "sections": sections}
+
+
+def desk_has_picks(choice: Any, items: list[dict]) -> bool:
+    """True if the desk answer names at least one real item id."""
+    ids = {i["id"] for i in items}
+    return any(isinstance(e, dict) and e.get("id") in ids
+               for sec in (choice.get("sections") if isinstance(choice, dict) else None) or []
+               if isinstance(sec, dict) for e in (sec.get("items") if isinstance(sec.get("items"), list) else []))
+
+
+def build_tabs(desk_choice: Any, items: list[dict], cfg: dict) -> list[dict]:
+    """The topic tabs: [{"id", "name", "sections": [{"topic", "items": [story...]}]}], in the configured tab
+    order. Model-chosen ids are mapped back to real items; unknown and repeated ids are dropped, and an item
+    always sits under its own topic. A topic the model skipped (or all of them, when call 2 failed and
+    desk_choice is None) is filled with its newest items, no notes. Empty sections are dropped, and a tab
+    is dropped only when all its sections are empty."""
+    by_id = {i["id"]: i for i in items}
+    picked: dict[str, list[dict]] = {}
+    seen: set[str] = set()
+    sections = desk_choice.get("sections") if isinstance(desk_choice, dict) else None
+    for sec in sections if isinstance(sections, list) else []:
+        entries = sec.get("items") if isinstance(sec, dict) else None
+        for e in entries if isinstance(entries, list) else []:
+            iid = e.get("id") if isinstance(e, dict) else None
+            if iid not in by_id or iid in seen:
+                continue
+            seen.add(iid)
+            it = by_id[iid]
+            picked.setdefault(it["topic"], []).append(make_story(it, e.get("note")))
+    for topic in list(picked):
+        picked[topic] = picked[topic][:DESK_MAX_ITEMS]
+    for t in cfg["topics"]:
+        name = t["name"]
+        if picked.get(name):
+            continue
+        newest = sorted((i for i in items if i["topic"] == name), key=lambda i: i.get("published") or "",
+                        reverse=True)
+        if newest:
+            picked[name] = [make_story(i, "") for i in newest[:DESK_FALLBACK_ITEMS]]
+    tabs = []
+    for tab in cfg.get("tabs") or []:
+        secs = [{"topic": topic, "items": picked[topic]} for topic in tab.get("topics") or [] if picked.get(topic)]
+        if secs:
+            tabs.append({"id": tab["id"], "name": tab["name"], "sections": secs})
+    return tabs
 
 
 def swap_lead_if_imageless(out: dict) -> bool:
@@ -703,6 +967,15 @@ def swap_lead_if_imageless(out: dict) -> bool:
 
 # ---------- main ----------
 
+def load_recalls_fixture(path: Path, cfg: dict, now: datetime) -> list[dict]:
+    """Dry-run recalls. @D0@ ... @D9@ in the fixture become dates that many days before `now`."""
+    from email.utils import format_datetime
+    text = path.read_text()
+    for n in range(10):
+        text = text.replace(f"@D{n}@", format_datetime((now - timedelta(days=n)).astimezone(timezone.utc)))
+    return parse_recalls(text, cfg["recalls"], now)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate the daily brief.")
     ap.add_argument("--dry-run", action="store_true", help="no network; use fixtures/")
@@ -721,15 +994,20 @@ def main() -> int:
     if args.dry_run:
         fixture = json.loads((ROOT / "fixtures/sample_items.json").read_text())
         items, scores = fixture["items"], fixture.get("scores", [])
+        recalls = load_recalls_fixture(ROOT / "fixtures/sample_recalls.xml", cfg, now)
+        stoic = pick_stoic((ROOT / "fixtures/sample_stoic.txt").read_text(), cfg["stoic"], now)
     else:
         items, errors = fetch_all(cfg)
         scores, score_errors = fetch_scores(cfg)
-        errors += score_errors
+        recalls, stoic, extra_errors = fetch_extras(cfg, now)
+        errors += score_errors + extra_errors
         if args.fetch_only:
             (ROOT / "out").mkdir(exist_ok=True)
             (ROOT / "out/items.json").write_text(json.dumps(
-                {"items": items, "scores": scores, "source_errors": errors}, indent=2, ensure_ascii=False))
-            print(f"fetched {len(items)} items, {len(scores)} scores, {len(errors)} errors -> out/items.json")
+                {"items": items, "scores": scores, "recalls": recalls, "stoic": stoic, "source_errors": errors},
+                indent=2, ensure_ascii=False))
+            print(f"fetched {len(items)} items, {len(scores)} scores, {len(recalls)} recalls, "
+                  f"{len(errors)} errors -> out/items.json")
             for e in errors:
                 print(f"  skipped {e['source']}: {e['error']}")
             return 0
@@ -756,6 +1034,21 @@ def main() -> int:
         print("error: Claude returned no usable items", file=sys.stderr)
         return 1
 
+    # Call 2: the topic tabs. It must never stop the run: on any problem each topic uses its newest items.
+    desk_choice = None
+    if args.dry_run:
+        desk_choice = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+    else:
+        try:
+            desk_choice, desk_usage = ask_desk(cfg, items, today)
+            usage = {k: usage[k] + desk_usage[k] for k in usage}
+        except Exception as exc:
+            print(f"desk: call failed ({type(exc).__name__})")
+    if not desk_has_picks(desk_choice, items):
+        desk_choice = None
+        print("desk: fallback")
+    out_items["tabs"] = build_tabs(desk_choice, items, cfg)
+
     if not args.dry_run:   # dry-run never touches the network
         no_image = {src["name"] for t in cfg["topics"] for src in t.get("sources", []) if src.get("no_image")}
         found = resolve_og_images(out_items, no_image)
@@ -763,24 +1056,28 @@ def main() -> int:
     if swap_lead_if_imageless(out_items):
         lead, front = out_items["lead"], out_items["front"]
         print("lead had no image; swapped with a front story that has one")
+    tabs = out_items["tabs"]
 
-    # Private tabs (Plans and Mail). Skipped without BRIEF_PASSPHRASE. Prints counts only, never private text.
+    # Private tabs (Today and Mail). Skipped without BRIEF_PASSPHRASE. Prints counts only, never private text.
     extra = private.run_private(cfg, now, SITE_DIR, ROOT, dry_run=args.dry_run)
     usage = {k: usage[k] + extra[k] for k in ("input_tokens", "output_tokens")}
 
     brief = {"masthead": cfg.get("masthead", "CMRLM"), "tagline": cfg.get("tagline", "The Daily Brief"),
              "edition": cfg.get("edition", "Atlanta Edition"), "date_label": today,
              "generated_at": now.isoformat(timespec="seconds"), "model": cfg["model"],
-             "lead": lead, "front": front, "sections": sections,
+             "lead": lead, "front": front, "sections": sections, "tabs": tabs,
+             "recalls": recalls, "stoic": stoic,
              "scores": scores, "source_errors": errors, "usage": usage}
     out = SITE_DIR / "brief.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n")
     in_sections = sum(len(s["items"]) for s in sections)
+    in_tabs = sum(len(s["items"]) for t in tabs for s in t["sections"])
     with_img = sum(1 for i in ([lead] if lead else []) + front + [i for s in sections for i in s["items"]]
                    if i.get("image"))
     print(f"wrote {out.name}: lead={'yes' if lead else 'no'}, {len(front)} front, "
           f"{in_sections} in {len(sections)} sections, {with_img} with images, "
+          f"{in_tabs} in {len(tabs)} tabs, {len(recalls)} recalls, stoic={'yes' if stoic else 'no'}, "
           f"{len(scores)} scores, {len(errors)} sources skipped | "
           f"tokens in={usage['input_tokens']} out={usage['output_tokens']}")
     return 0

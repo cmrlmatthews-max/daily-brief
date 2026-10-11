@@ -1,0 +1,203 @@
+{
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "id": "f4dce0c7ac",
+          "note": "Claude Haiku 5.5 is generally available on the Claude API with improved tool use and lower latency."
+        },
+        {
+          "id": "e04654da9a",
+          "note": "Requests can now reference specific page ranges of uploaded PDFs, cutting token use on long documents."
+        },
+        {
+          "id": "e9667e445f",
+          "note": "Anthropic announces its third Asia-Pacific office and plans to hire locally."
+        },
+        {
+          "id": "4c25c6ef5d",
+          "note": "Forcing a single tool call is a reliable way to get structured JSON from a model without parsing prose."
+        },
+        {
+          "id": "8c899a0254",
+          "note": "Comments discuss on-device embedding models and sync strategies."
+        },
+        {
+          "id": "96cf9e13f7",
+          "note": "An essay on where small models beat large ones in cost and latency."
+        },
+        {
+          "id": "da667850d7",
+          "note": "A small toolkit for building tool-using agents with typed schemas. (★ 4210, Python)"
+        },
+        {
+          "id": "b7f79fe9bd",
+          "note": "MCP server exposing Revit model queries to LLM clients. (★ 1380, C#)"
+        },
+        {
+          "id": "not-a-real-id",
+          "note": "Unknown ids are dropped."
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "id": "da82f3e807",
+          "note": "A Senate committee has scheduled a hearing on proposed changes to lobbying disclosure rules."
+        },
+        {
+          "id": "008fdb76cb",
+          "note": "House leaders released a short-term spending plan ahead of the funding deadline."
+        },
+        {
+          "id": "c9453f31c8",
+          "note": "A video segment covering the stopgap spending vote and what each party says about it."
+        },
+        {
+          "id": "e70e4a7d19",
+          "note": "A video segment walking through new polling numbers in three swing states."
+        },
+        {
+          "id": "ac2cec0031",
+          "note": "A video report on a union vote at a regional warehouse."
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "id": "3a92ae823b",
+          "note": "Agencies say road closures have held back deliveries to several regions."
+        },
+        {
+          "id": "e259ce5899",
+          "note": "Officials say thousands of residents are returning to damaged homes."
+        },
+        {
+          "id": "2fcc6b5030",
+          "note": "Three major central banks left interest rates unchanged this week."
+        },
+        {
+          "id": "bfc62f7810",
+          "note": "Satellite data show the smallest September extent in the observational record."
+        },
+        {
+          "id": "53b331a370",
+          "note": "Delegates signed a technical agreement on sharing water-flow data across borders."
+        },
+        {
+          "id": "d01deb922a",
+          "note": "Excavators found mosaic floors and a heating system in remarkably good condition."
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "id": "e4e7fb3359",
+          "note": "Houston locked up a key backcourt rotation piece before the season opener."
+        },
+        {
+          "id": "49baf11a08",
+          "note": "He left practice early Thursday and is listed day to day."
+        },
+        {
+          "id": "5127fda34f",
+          "note": "Atlanta named a new hitting coach and retained the rest of the staff."
+        },
+        {
+          "id": "46abc02c79",
+          "note": "San Francisco improved to 4-2 with two fourth-quarter takeaways."
+        },
+        {
+          "id": "dd29cd594b",
+          "note": "He will miss at least four games with a hamstring injury."
+        },
+        {
+          "id": "5819cc66f6",
+          "note": "The Braves center fielder was recognized after a strong second half."
+        },
+        {
+          "id": "9729c2f50c",
+          "note": "The promotion confirmed a title fight as the main event of next month's card."
+        },
+        {
+          "id": "bd4928eeb4",
+          "note": "A veteran welterweight has been booked for his first fight in a year."
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "id": "ea31651e1e",
+          "note": "A 28-story project with ground-floor retail and 340 apartments goes to the zoning board in November."
+        },
+        {
+          "id": "62b203c717",
+          "note": "The 1980s office building will become 210 apartments with a new facade."
+        },
+        {
+          "id": "1cc16138f7",
+          "note": "A neighborhood group opened a community garden on a former vacant lot."
+        },
+        {
+          "id": "6f4f15dd11",
+          "note": "The city council approved funding for a study of bus service on two corridors."
+        },
+        {
+          "id": "89900f1126",
+          "note": "A popular restaurant street will close to cars on weekend evenings this fall."
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "id": "9fc6ac2a5c",
+          "note": "Mass timber and a raised plinth let the building serve as public space and flood defense."
+        },
+        {
+          "id": "417ceeeb9c",
+          "note": "A walkthrough of exporting parameters and having a model flag inconsistent naming."
+        },
+        {
+          "id": "dece1f99b0",
+          "note": "Step-by-step video on generating door schedules with Dynamo."
+        },
+        {
+          "id": "227b45dc3a",
+          "note": "Open stairs and ramps wrap a planted courtyard in a primary school in Lisbon."
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "id": "7ce80a1c57",
+          "note": "Researchers described a fossil site with well-preserved marine animals."
+        },
+        {
+          "id": "ba58059671",
+          "note": "A spacecraft completed a planned orbit adjustment and is operating normally."
+        },
+        {
+          "id": "d560387aac",
+          "note": "A survey of reefs found more young coral than in the previous count."
+        },
+        {
+          "id": "011296a483",
+          "note": "A study of tagged birds looks at how weather shapes the timing of migration."
+        }
+      ]
+    }
+  ]
+}
