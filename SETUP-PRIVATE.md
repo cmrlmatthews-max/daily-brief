@@ -187,7 +187,7 @@ If the run shows a red X, click the run and then **build**. Copy only the error 
 
 ## Part 5. Daily use and the "Remember" setting
 
-- The script runs at 5:45 AM. **Today** and **Mail** show that morning's snapshot.
+- The script runs at 2:17 AM (1:17 AM in winter). **Today** and **Mail** show that early-morning snapshot.
 - To read a message, click its line in **Mail**. Gmail opens in a new tab.
 
 > **CAUTION:** "Remember on this device" saves the passphrase in this browser. Your other GitHub Pages sites (for example your anatomy app and your political map) share storage with this site, because they all use `cmrlmatthews-max.github.io`. A bad script on any of those sites could read the saved passphrase. To be safe, either leave "Remember" off, or keep those other sites free of scripts loaded from outside services. Ask me if you want a separate address for this site.
