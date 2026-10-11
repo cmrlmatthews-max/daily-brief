@@ -2,8 +2,8 @@ name: Daily brief
 
 on:
   schedule:
-    # 5:45 AM EDT / 4:45 AM EST. GitHub cron is UTC and can run late.
-    - cron: '45 9 * * *'
+    # 2:17 AM EDT / 1:17 AM EST (ready before 3:30 AM). GitHub cron is UTC and can run late; odd minute avoids peak load.
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 # Least privilege: the build job (which holds every secret and runs third-party packages) can only read.

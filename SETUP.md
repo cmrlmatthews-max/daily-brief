@@ -104,7 +104,7 @@ GitHub saves this choice immediately. There is no save button.
 
 ## Part 5. Run the first brief
 
-The schedule runs every morning at 5:45 AM Eastern (4:45 AM in winter). Run it now one time to test it.
+The schedule runs every morning at 2:17 AM Eastern (1:17 AM in winter). Run it now one time to test it.
 
 1. In the repository, click the **Actions** tab.
 2. In the left list, click **Daily brief**.
