@@ -1,0 +1,54 @@
+name: Save likes
+
+# Started from the phone. Adds the liked stories to data/likes.jsonl on the data branch.
+on:
+  workflow_dispatch:
+    inputs:
+      likes:
+        description: JSON list of liked stories from the phone
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    # No concurrency group: a group keeps only one waiting run and cancels the others, which would lose likes.
+    # Instead each try starts from the newest data branch and adds the likes again.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+      # The input reaches the script only through an environment variable, never inside a run: script,
+      # so its text cannot be run as a command.
+      - name: Add the likes and push
+        working-directory: data
+        # The input reaches the script only through an environment variable, never inside a run: script,
+        # so its text cannot be run as a command.
+        env:
+          LIKES_JSON: ${{ inputs.likes }}
+          BRIEF_DATA_DIR: .
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for try in 1 2 3 4 5; do
+            git fetch -q origin data && git reset -q --hard origin/data
+            python3 ../likes.py || exit 1
+            git add likes.jsonl
+            if git diff --cached --quiet; then
+              echo "nothing to commit"
+              exit 0
+            fi
+            git commit -q -m "Likes $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push -q origin HEAD:data && exit 0
+            sleep $((try * 3))
+          done
+          echo "push failed after 5 tries"
+          exit 1

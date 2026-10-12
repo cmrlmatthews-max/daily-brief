@@ -20,6 +20,7 @@ import os
 import re
 import sys
 import time
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
@@ -44,6 +45,8 @@ OG_TIMEOUT = 8
 OG_MAX_BYTES = 200_000
 OG_MAX_FETCHES = 25
 LEAD_NOTE_CHARS = 1200   # about 150 words with headroom
+LISTEN_CHARS = 4000      # the spoken script, about 450 words with headroom
+ARCHIVE_NAME = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
 
 SYSTEM_PROMPT = """You are the editor of a short personal daily brief, laid out like a newspaper front page, for one reader.
 Pick the few items that are truly worth their attention today, and say why in plain words.
@@ -71,7 +74,15 @@ Rules:
   Give 2 to 3 items per topic. No repeats of the lead or front items.
   Use the topic name exactly as listed. Do not leave "sections" empty.
   Note: 1 sentence, at most 25 words, saying why the item matters to this reader.
-- has_image only tells you whether a picture is available. Never mention pictures in notes."""
+- has_image only tells you whether a picture is available. Never mention pictures in notes.
+- "listen": a spoken version of today's paper, for a phone voice to read aloud. 300 to 450 words.
+  Start with these exact words: Good morning. This is The Daily Brief for <weekday, month day>.
+  Use today's date from the message.
+  Cover the lead story, then the front stories, then one short sentence for each section.
+  Write for the ear: short plain sentences, no URLs, no lists or bullets, no symbols, no headlines in all caps.
+  Spell out abbreviations a voice reads badly. Use only facts from the item titles and summaries. Do not invent any.
+  Use neutral wording for World and for politics.
+  End with these exact words: That is the brief. Have a good day."""
 
 _NOTE_ITEM = {
     "type": "object",
@@ -118,8 +129,11 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
                         "required": ["topic", "items"],
                     },
                 },
+                "listen": {"type": "string",
+                           "description": "Spoken version of today's paper for a phone voice, 300 to 450 words. Short "
+                                          "plain sentences, no URLs, lists or symbols. No invented facts."},
             },
-            "required": ["lead", "front", "sections"],
+            "required": ["lead", "front", "sections", "listen"],
         },
     }
 
@@ -839,13 +853,15 @@ def slim_items(items: list[dict]) -> list[dict]:
              "has_image": bool(i.get("image"))} for i in items]
 
 
-def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int) -> tuple[dict, dict]:
-    """One Claude call that must answer through `tool`. Returns (tool input, usage counts)."""
+def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int,
+                 model: str | None = None) -> tuple[dict, dict]:
+    """One Claude call that must answer through `tool`. Returns (tool input, usage counts).
+    `model` defaults to cfg["model"]."""
     import anthropic
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=180.0, max_retries=2)
     msg = client.messages.create(
-        model=cfg["model"], max_tokens=max_tokens, system=system,
+        model=model or cfg["model"], max_tokens=max_tokens, system=system,
         tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
         messages=[{"role": "user", "content": user}])
     block = next((b for b in msg.content if b.type == "tool_use"), None)
@@ -855,28 +871,51 @@ def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int)
     return dict(block.input), usage
 
 
+def front_model(cfg: dict) -> str:
+    """The model for call 1 (front page and spoken script): front_model, else the main model."""
+    return cfg.get("front_model") or cfg["model"]
+
+
+def week_model(cfg: dict) -> str:
+    """The model for the Sunday week in review: week_model, else the main model."""
+    return cfg.get("week_model") or cfg["model"]
+
+
+def reader_block(cfg: dict, now: datetime | None = None) -> str:
+    """The reader profile, then (when the likes log has recent entries) the liked stories. Ends with a blank line."""
+    text = f"Reader profile:\n{cfg['reader_profile'].strip()}\n\n"
+    try:
+        lines = likes_prompt(load_likes(data_dir()), now or datetime.now(TZ))
+    except Exception:   # the likes log must never stop the run
+        lines = ""
+    if lines:
+        text += ("Stories this reader liked recently. Use them only as a guide to the reader's taste. "
+                 f"They are not items to pick:\n{lines}\n\n")
+    return text
+
+
 def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
-    """Call 1: the front page (lead, front stories, 2 to 3 items per topic)."""
+    """Call 1: the front page (lead, front stories, 2 to 3 items per topic) and the spoken script."""
     slim = slim_items(items)
     topics = section_names(cfg, items)
-    user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
+    user = (f"{reader_block(cfg)}Today is {today}.\n\n"
             f"Topics (make a section for each): {', '.join(topics)}\n\n"
             f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
             "Call publish_brief with your picks.")
     return _forced_call(cfg, SYSTEM_PROMPT, publish_tool([t["name"] for t in cfg["topics"]]), user,
-                        int(cfg["max_output_tokens"]))
+                        int(cfg["max_output_tokens"]), model=front_model(cfg))
 
 
 def ask_desk(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
-    """Call 2: the longer list for each topic tab. Same items as call 1."""
+    """Call 2: the longer list for each topic tab. Same items as call 1. Uses the main (cheaper) model."""
     slim = slim_items(items)
     topics = section_names(cfg, items)
-    user = (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\nToday is {today}.\n\n"
+    user = (f"{reader_block(cfg)}Today is {today}.\n\n"
             f"Topics (one entry for each): {', '.join(topics)}\n\n"
             f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
             "Call publish_desk with your picks.")
     return _forced_call(cfg, DESK_PROMPT, desk_tool([t["name"] for t in cfg["topics"]]), user,
-                        int(cfg.get("desk_max_output_tokens", 8000)))
+                        int(cfg.get("desk_max_output_tokens", 8000)), model=cfg["model"])
 
 
 def section_names(cfg: dict, items: list[dict]) -> list[str]:
@@ -1004,6 +1043,352 @@ def swap_lead_if_imageless(out: dict) -> bool:
     return False
 
 
+# ---------- data branch: likes log and back issues ----------
+
+def data_dir() -> Path:
+    """Where the `data` branch is checked out. BRIEF_DATA_DIR overrides it (tests). The folder may not exist."""
+    return Path(os.environ.get("BRIEF_DATA_DIR") or ROOT / "data")
+
+
+def load_likes(folder: Path | str) -> list[dict]:
+    """Read data/likes.jsonl. Bad lines and bad records are skipped; a missing file gives []."""
+    out: list[dict] = []
+    try:
+        lines = (Path(folder) / "likes.jsonl").read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError:
+        return out
+    for line in lines[-5000:]:
+        try:
+            rec = json.loads(line)
+        except ValueError:
+            continue
+        if not isinstance(rec, dict):
+            continue
+        url, title = rec.get("u"), rec.get("t")
+        if isinstance(url, str) and url.lower().startswith(("http://", "https://")) \
+                and isinstance(title, str) and title.strip():
+            out.append(rec)
+    return out
+
+
+def _parse_at(value: Any) -> datetime | None:
+    """A UTC-aware datetime from an ISO string, or None."""
+    try:
+        when = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (ValueError, TypeError):
+        return None
+    return when if when.tzinfo else when.replace(tzinfo=timezone.utc)
+
+
+def recent_likes(likes: list[dict], now: datetime, days: int) -> list[dict]:
+    """Likes with a valid "at" inside the last `days` days, newest first."""
+    cutoff = now - timedelta(days=days)
+    dated = [(when, rec) for rec in likes if (when := _parse_at(rec.get("at"))) and cutoff <= when <= now]
+    dated.sort(key=lambda pair: pair[0], reverse=True)
+    return [rec for _, rec in dated]
+
+
+def like_line(rec: dict) -> str:
+    """One like as a single line: "- [topic] source: title". Every field is cleaned and capped."""
+    topic, source = clean_text(str(rec.get("c") or ""), 40), clean_text(str(rec.get("s") or ""), 60)
+    title = clean_text(str(rec.get("t") or ""), 160)
+    return "- " + (f"[{topic}] " if topic else "") + (f"{source}: " if source else "") + title
+
+
+def likes_prompt(likes: list[dict], now: datetime, days: int = 60, limit: int = 30) -> str:
+    """The most recent likes inside `days`, newest first, up to `limit`, one line each. "" when there are none."""
+    return "\n".join(like_line(r) for r in recent_likes(likes, now, days)[:limit])
+
+
+def write_archive(site_dir: Path, folder: Path | str, brief: dict, now: datetime, keep: int = 60) -> None:
+    """Publish back issues: copy the newest `keep` papers from data/archive into site/archive, add today's paper,
+    and write site/archive/index.json {"dates": [newest first]}. Never fails the run."""
+    try:
+        today = now.astimezone(TZ).date().isoformat()
+        out = Path(site_dir) / "archive"
+        out.mkdir(parents=True, exist_ok=True)
+        kept: dict[str, str] = {}
+        src = Path(folder) / "archive"
+        names = sorted((p.name for p in src.iterdir() if ARCHIVE_NAME.match(p.name)), reverse=True) \
+            if src.is_dir() else []
+        for name in names:
+            if len(kept) >= keep:
+                break
+            date = name[:-5]
+            if date == today:
+                continue
+            try:
+                text = (src / name).read_text(encoding="utf-8")
+                if isinstance(json.loads(text), dict):
+                    kept[date] = text
+            except (OSError, ValueError):
+                continue
+        for old in out.iterdir():       # drop leftovers from an earlier local run
+            if ARCHIVE_NAME.match(old.name) and old.name[:-5] not in kept and old.name[:-5] != today:
+                old.unlink()
+        for date, text in kept.items():
+            (out / f"{date}.json").write_text(text, encoding="utf-8")
+        (out / f"{today}.json").write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        dates = [today] + list(kept)
+        (out / "index.json").write_text(json.dumps({"dates": dates}) + "\n", encoding="utf-8")
+        print(f"archive: {len(dates)} back issues")
+    except Exception as exc:   # never stop the run
+        print(f"archive: skipped ({type(exc).__name__})")
+
+
+# ---------- the spoken script ----------
+
+def _sentence(text: Any) -> str:
+    """Clean text that ends in . ! or ? (empty stays empty)."""
+    t = clean_text(str(text or ""))
+    return t if not t or t[-1] in ".!?" else t + "."
+
+
+def clean_listen(raw: Any) -> str:
+    """The model's spoken script as plain text: tags removed, whitespace collapsed, capped at LISTEN_CHARS
+    (cut at a sentence end when there is one in the second half)."""
+    text = clean_text(raw) if isinstance(raw, str) else ""
+    if len(text) > LISTEN_CHARS:
+        text = text[:LISTEN_CHARS]
+        end = max(text.rfind(". "), text.rfind("! "), text.rfind("? "))
+        text = text[:end + 1] if end > LISTEN_CHARS // 2 else text.rstrip()
+    return text
+
+
+def fallback_listen(lead: dict | None, front: list[dict], today: str) -> str:
+    """A plain spoken script built in Python (headline and note of the lead, then each front title),
+    used when the model gives none. `today` is like "Monday, October 12, 2026"."""
+    day = re.sub(r",?\s*\d{4}$", "", today or "").strip()
+    parts = [f"Good morning. This is The Daily Brief for {day}." if day else "Good morning. This is The Daily Brief."]
+    if lead:
+        parts.append("The top story. " + _sentence(lead.get("headline") or lead.get("title")))
+        parts.append(_sentence(lead.get("note")))
+    titles = [_sentence(f.get("title")) for f in front or [] if f.get("title")]
+    if titles:
+        parts.append("Also on the front page. " + " ".join(titles))
+    parts.append("That is the brief. Have a good day.")
+    return " ".join(p for p in parts if p)
+
+
+# ---------- Sunday edition: the week in review ----------
+
+WEEK_PROMPT = """You are the weekly editor of a personal daily newspaper, for one reader. It is Sunday.
+You write the week in review from the stories of the past days and the stories the reader liked.
+
+Rules:
+- Use only facts that are in the story titles and notes. Never invent a fact, name, number or date.
+- Refer to stories by id only. Never write URLs.
+- Be neutral and factual on politics, World news and anything contested. No adjectives that take a side.
+- "headline": at most 10 words.
+- "summary": 180 to 260 words in 2 or 3 paragraphs separated by a blank line. What mattered this week, in plain words.
+- "top": 3 to 5 stories of the week, best first. Note: 1 sentence, at most 25 words.
+- "suggestions": 3 to 5 proposals for next week's paper. Each is one concrete change: add or drop a topic,
+  add or drop a named source, or change a line of the reader profile. The reason is one sentence that cites
+  what the likes or the week's coverage show. Suggestions are proposals the reader approves by hand.
+  Nothing changes automatically.
+- Base the suggestions on the likes and on which sources gave stories. If there are few likes, say so in the
+  reason instead of guessing."""
+
+WEEK_MIN_PAPERS = 3
+WEEK_MAX_STORIES = 220
+WEEK_SUMMARY_CHARS = 2000
+
+
+def week_tool() -> dict[str, Any]:
+    """The forced tool for the Sunday edition."""
+    return {
+        "name": "publish_week",
+        "description": "Publish the week in review: headline, summary, top stories by id, and suggestions.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "headline": {"type": "string", "description": "At most 10 words."},
+                "summary": {"type": "string",
+                            "description": "180 to 260 words, 2 or 3 paragraphs separated by a blank line."},
+                "top": {"type": "array", "minItems": 3, "maxItems": 5,
+                        "items": {"type": "object",
+                                  "properties": {"id": {"type": "string"},
+                                                 "note": {"type": "string",
+                                                          "description": "1 sentence, at most 25 words."}},
+                                  "required": ["id", "note"]}},
+                "suggestions": {"type": "array", "minItems": 3, "maxItems": 5,
+                                "items": {"type": "object",
+                                          "properties": {"change": {"type": "string",
+                                                                    "description": "One concrete sentence."},
+                                                         "reason": {"type": "string",
+                                                                    "description": "One sentence citing the "
+                                                                                   "likes or the coverage."}},
+                                          "required": ["change", "reason"]}},
+            },
+            "required": ["headline", "summary", "top", "suggestions"],
+        },
+    }
+
+
+def week_wanted(now: datetime) -> bool:
+    """True on a New York Sunday, or when BRIEF_FORCE_WEEK=1."""
+    return os.environ.get("BRIEF_FORCE_WEEK") == "1" or now.astimezone(TZ).weekday() == 6
+
+
+def load_archive_papers(folder: Path | str, today: Any, days: int = 6) -> list[tuple[str, dict]]:
+    """(date, paper) for the `days` days before `today` (a date), from data/archive by file name, oldest first.
+    Missing or unreadable files are skipped."""
+    out = []
+    for back in range(days, 0, -1):
+        date = (today - timedelta(days=back)).isoformat()
+        try:
+            paper = json.loads((Path(folder) / "archive" / f"{date}.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if isinstance(paper, dict):
+            out.append((date, paper))
+    return out
+
+
+def _paper_stories(paper: dict) -> list[tuple[int, dict]]:
+    """(priority, story) for the lead and front (0) and the sections (1) of one paper. Only dicts with a
+    title and an http(s) url are kept."""
+    found: list[tuple[int, Any]] = []
+    front, sections = paper.get("front"), paper.get("sections")
+    if isinstance(paper.get("lead"), dict):
+        found.append((0, paper["lead"]))
+    found += [(0, f) for f in front] if isinstance(front, list) else []
+    for sec in sections if isinstance(sections, list) else []:
+        if isinstance(sec, dict) and isinstance(sec.get("items"), list):
+            found += [(1, i) for i in sec["items"]]
+    return [(prio, st) for prio, st in found if isinstance(st, dict) and isinstance(st.get("title"), str)
+            and st["title"].strip() and isinstance(st.get("url"), str) and is_http(st["url"])]
+
+
+def week_stories(papers: list[tuple[str, dict]], cap: int = WEEK_MAX_STORIES) -> list[dict]:
+    """The week's stories as records {id: "w1", date, topic, source, title, note, url, image}, oldest paper first.
+    The same url is kept once. Over the cap, section stories of the oldest papers go first.
+    `url` and `image` stay in Python; they are never sent to the model."""
+    entries, seen = [], set()
+    for p_idx, (date, paper) in enumerate(papers):
+        for prio, st in _paper_stories(paper):
+            key = st["url"].rstrip("/")
+            if key in seen:
+                continue
+            seen.add(key)
+            entries.append((p_idx, prio, len(entries), {
+                "date": date, "topic": clean_text(str(st.get("topic") or ""), 60),
+                "source": clean_text(str(st.get("source") or ""), 100), "title": clean_text(st["title"], 300),
+                "note": clean_text(str(st.get("note") or ""), 200), "url": st["url"],
+                "image": clean_image(st.get("image"))}))
+    if len(entries) > cap:
+        entries = sorted(sorted(entries, key=lambda e: (e[1], -e[0], e[2]))[:cap], key=lambda e: e[2])
+    return [{"id": f"w{n}", **rec} for n, (_, _, _, rec) in enumerate(entries, 1)]
+
+
+def _count_by(likes: list[dict], key: str, blank: str) -> dict[str, int]:
+    """Likes counted by a field, biggest first."""
+    counts = Counter(clean_text(str(r.get(key) or ""), 60) or blank for r in likes)
+    return dict(counts.most_common(15))
+
+
+def configured_sources(cfg: dict) -> dict[str, list[str]]:
+    """Enabled source names per topic, from sources.yaml."""
+    return {t["name"]: [s["name"] for s in t.get("sources", []) if s.get("enabled", True)] for t in cfg["topics"]}
+
+
+def week_user_message(cfg: dict, stories: list[dict], week_likes: list[dict], frm: str, to: str, n_papers: int) -> str:
+    """What the model sees: the stories (no urls), this week's likes, like counts, the profile and the sources."""
+    slim = [{k: s[k] for k in ("id", "date", "topic", "source", "title", "note")} for s in stories]
+    dump = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(",", ":"))   # noqa: E731
+    lines = "\n".join(like_line(r) for r in week_likes[:60]) or "(none this week)"
+    return (f"Reader profile:\n{cfg['reader_profile'].strip()}\n\n"
+            f"The week: {frm} to {to}, from {n_papers} papers.\n\n"
+            f"Configured sources by topic (JSON):\n{dump(configured_sources(cfg))}\n\n"
+            f"Stories the reader liked this week ({len(week_likes)}):\n{lines}\n\n"
+            f"Likes by topic (JSON): {dump(_count_by(week_likes, 'c', 'Other'))}\n"
+            f"Likes by source (JSON): {dump(_count_by(week_likes, 's', 'Unknown'))}\n\n"
+            f"Stories of the week (JSON):\n{dump(slim)}\n\n"
+            "Call publish_week.")
+
+
+def ask_week(cfg: dict, user: str) -> tuple[dict, dict]:
+    """The Sunday call, on week_model."""
+    return _forced_call(cfg, WEEK_PROMPT, week_tool(), user, 4000, model=week_model(cfg))
+
+
+def clean_paragraphs(raw: Any, limit: int) -> str:
+    """Plain text kept as paragraphs (blank line between), each cleaned, capped at `limit` characters."""
+    paras = [clean_text(p) for p in re.split(r"\n\s*\n", str(raw or ""))]
+    text = "\n\n".join(p for p in paras if p)
+    return text if len(text) <= limit else text[:limit].rstrip()
+
+
+def build_week(choice: Any, stories: list[dict], week_likes: list[dict], frm: str, to: str) -> dict | None:
+    """The "week" object of brief.json. Model ids map back to the archived stories (unknown and repeated ids
+    are dropped); urls and images come from the archive. None when there is no headline and no summary."""
+    if not isinstance(choice, dict):
+        return None
+    headline = clean_text(str(choice.get("headline") or ""), 120)
+    summary = clean_paragraphs(choice.get("summary"), WEEK_SUMMARY_CHARS)
+    if not headline and not summary:
+        return None
+    by_id = {s["id"]: s for s in stories}
+    top, used = [], set()
+    for e in choice.get("top") if isinstance(choice.get("top"), list) else []:
+        sid = e.get("id") if isinstance(e, dict) else None
+        if sid in by_id and sid not in used:
+            used.add(sid)
+            top.append(make_story(by_id[sid], e.get("note")))
+    suggestions = []
+    for e in choice.get("suggestions") if isinstance(choice.get("suggestions"), list) else []:
+        change = clean_text(str(e.get("change") or ""), 300) if isinstance(e, dict) else ""
+        reason = clean_text(str(e.get("reason") or ""), 300) if isinstance(e, dict) else ""
+        if change and reason:
+            suggestions.append({"change": change, "reason": reason})
+    liked = [{"title": clean_text(r["t"], 300), "url": r["u"], "source": clean_text(str(r.get("s") or ""), 100),
+              "topic": clean_text(str(r.get("c") or ""), 60)} for r in week_likes[:10]]
+    return {"from": frm, "to": to, "headline": headline, "summary": summary, "top": top[:5],
+            "liked": liked, "suggestions": suggestions[:5]}
+
+
+def week_listen(week: dict) -> str:
+    """The Sunday addition to the spoken script, as plain text."""
+    return (" This is the Sunday edition. Here is the week in review. " + _sentence(week.get("headline"))
+            + " " + clean_text(str(week.get("summary") or ""))).rstrip()
+
+
+def make_week(cfg: dict, today_paper: dict, now: datetime, dry_run: bool = False) -> tuple[dict | None, dict]:
+    """The week in review, or None. Returns (week, usage). It never stops the run: on any problem it prints a
+    short reason (no story text) and returns None. Dry-run uses fixtures/sample_week_response.json and today's
+    paper only."""
+    usage = {"input_tokens": 0, "output_tokens": 0}
+    try:
+        if not week_wanted(now):
+            return None, usage
+        today = now.astimezone(TZ).date()
+        papers = [] if dry_run else load_archive_papers(data_dir(), today)
+        papers.append((today.isoformat(), today_paper))
+        if not dry_run and len(papers) < WEEK_MIN_PAPERS:
+            print(f"week: skipped, only {len(papers)} papers")
+            return None, usage
+        stories = week_stories(papers)
+        if not stories:
+            print("week: skipped, no stories")
+            return None, usage
+        week_likes = recent_likes(load_likes(data_dir()), now, 7)
+        if dry_run:
+            choice = json.loads((ROOT / "fixtures/sample_week_response.json").read_text())
+        else:
+            user = week_user_message(cfg, stories, week_likes, papers[0][0], today.isoformat(), len(papers))
+            choice, usage = ask_week(cfg, user)
+        week = build_week(choice, stories, week_likes, papers[0][0], today.isoformat())
+        if not week:
+            print("week: skipped, no usable answer")
+            return None, usage
+        print(f"week: {len(papers)} papers, {len(stories)} stories, {len(week['top'])} top, "
+              f"{len(week['suggestions'])} suggestions, {len(week_likes)} likes")
+        return week, usage
+    except Exception as exc:
+        print(f"week: skipped ({type(exc).__name__})")
+        return None, usage
+
+
 # ---------- main ----------
 
 def load_recalls_fixture(path: Path, cfg: dict, now: datetime) -> list[dict]:
@@ -1062,13 +1447,23 @@ def main() -> int:
 
     if args.dry_run:
         choice = json.loads((ROOT / "fixtures/sample_response.json").read_text())
+        if isinstance(choice.get("listen"), str):    # the fixture cannot know today's date
+            choice["listen"] = choice["listen"].replace("@DATE@", re.sub(r",?\s*\d{4}$", "", today))
         usage = {"input_tokens": 0, "output_tokens": 0}
     else:
         try:
             choice, usage = ask_claude(cfg, items, today)
         except Exception as exc:
             print(f"error: Claude call failed: {type(exc).__name__}: {exc}", file=sys.stderr)
-            return 1
+            if front_model(cfg) == cfg["model"]:
+                return 1
+            # The stronger front-page model failed. Print the paper with the main model rather than no paper.
+            print(f"front page: retrying with {cfg['model']}", file=sys.stderr)
+            try:
+                choice, usage = ask_claude({**cfg, "front_model": cfg["model"]}, items, today)
+            except Exception as exc2:
+                print(f"error: Claude call failed again: {type(exc2).__name__}: {exc2}", file=sys.stderr)
+                return 1
 
     order = [t["name"] for t in cfg["topics"]]
     out_items = build_output(choice, items, order)
@@ -1105,15 +1500,35 @@ def main() -> int:
     extra = private.run_private(cfg, now, SITE_DIR, ROOT, dry_run=args.dry_run)
     usage = {k: usage[k] + extra[k] for k in ("input_tokens", "output_tokens")}
 
+    # The spoken script: the model's text, or a plain one built here when it is missing.
+    listen = clean_listen(choice.get("listen"))
+    if not listen:
+        listen = fallback_listen(lead, front, today)
+        print("listen: fallback")
+
+    # Sunday edition (or BRIEF_FORCE_WEEK=1): the week in review. Never stops the run.
+    week, week_usage = make_week(cfg, {"lead": lead, "front": front, "sections": sections}, now,
+                                 dry_run=args.dry_run)
+    usage = {k: usage[k] + week_usage[k] for k in usage}
+    models = {"front": front_model(cfg), "desk": cfg["model"]}
+    if week:
+        models["week"] = week_model(cfg)
+        if now.weekday() == 6:
+            listen += week_listen(week)
+
     brief = {"masthead": cfg.get("masthead", "CMRLM"), "tagline": cfg.get("tagline", "The Daily Brief"),
              "edition": cfg.get("edition", "Atlanta Edition"), "date_label": today,
-             "generated_at": now.isoformat(timespec="seconds"), "model": cfg["model"],
+             "generated_at": now.isoformat(timespec="seconds"), "model": front_model(cfg), "models": models,
+             "listen": listen,
              "lead": lead, "front": front, "sections": sections, "tabs": tabs,
              "recalls": recalls, "stoic": stoic,
              "scores": scores, "source_errors": errors, "usage": usage}
+    if week:
+        brief["week"] = week
     out = SITE_DIR / "brief.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n")
+    write_archive(SITE_DIR, data_dir(), brief, now)
     in_sections = sum(len(s["items"]) for s in sections)
     in_tabs = sum(len(s["items"]) for t in tabs for s in t["sections"])
     with_img = sum(1 for i in ([lead] if lead else []) + front + [i for s in sections for i in s["items"]]

@@ -19,11 +19,17 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15   # Sundays add the Opus week review
     outputs:
       skip: ${{ steps.check.outputs.skip }}
     steps:
       - uses: actions/checkout@v4
+      # The data branch holds the back issues and the likes log. The build only reads it.
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+        continue-on-error: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -50,6 +56,13 @@ jobs:
         if: steps.check.outputs.skip != 'true'
         with:
           path: site
+      # The finished paper, handed to the save job (which files it as a back issue).
+      - uses: actions/upload-artifact@v4
+        if: steps.check.outputs.skip != 'true'
+        with:
+          name: paper
+          path: site/brief.json
+          retention-days: 3
 
   deploy:
     needs: build
@@ -64,3 +77,61 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Files today's paper on the data branch as a back issue. This job runs no repo code and no third-party
+  # packages; it only commits the published paper.
+  save:
+    needs: build
+    if: needs.build.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    concurrency:
+      group: data-branch
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+      - uses: actions/download-artifact@v4
+        with:
+          name: paper
+          path: incoming
+      - name: Copy the paper into archive/
+        id: paper
+        run: |
+          python3 - <<'PY'
+          import json, os, re, shutil
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          with open("incoming/brief.json", encoding="utf-8") as f:
+              made = json.load(f)["generated_at"]
+          date = datetime.fromisoformat(made).astimezone(ZoneInfo("America/New_York")).date().isoformat()
+          if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+              raise SystemExit("bad date")
+          os.makedirs("archive", exist_ok=True)
+          shutil.copyfile("incoming/brief.json", f"archive/{date}.json")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"date={date}\n")
+          PY
+      - name: Commit and push
+        env:
+          ISSUE_DATE: ${{ steps.paper.outputs.date }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "Back issue $ISSUE_DATE"
+          for try in 1 2 3; do
+            git pull --rebase origin data && git push origin HEAD:data && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 3
+          done
+          echo "push failed after 3 tries"
+          exit 1

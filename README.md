@@ -49,6 +49,20 @@ Mail uses one more Claude call. It sees sender, subject, and snippet only (never
 
 The foot of the page has a "Print a New Edition" button. It opens the Apple Shortcut named `Print Daily Brief` (set by `SHORTCUT_NAME` in `site/index.html`), which starts the GitHub run. The page then checks `brief.json` every 15 seconds. When a newer edition arrives, it reloads. After 6 minutes it gives up and links to the runs on GitHub. The Shortcut comes back to the page with `?printed=<time>`, and the page keeps waiting from there. The scheduled 2:17 AM run first runs `python brief.py --check-today`. If a paper was already printed that day (New York time), it skips the build and the deploy. Manual runs always build.
 
+## Models
+
+Call 1 (front page and spoken script) uses `front_model` (Sonnet). If it fails, the run tries once more with `model` (Haiku). Call 2 (topic tabs) and the private tabs use `model`. The Sunday week review uses `week_model` (Opus).
+
+## Back issues, likes, and the Sunday edition
+
+The `data` branch holds `archive/DATE.json` (one paper per day) and `likes.jsonl` (the public likes log). The build reads it from `./data`. The `save` job commits each new paper to `archive/`. The page shows back issues at `?date=YYYY-MM-DD` and lists them in the footer.
+
+Tap ☆ on a story to star it. Stars stay on the phone until you tap "Send N likes". That button runs the Apple Shortcut `Send Daily Brief Likes`, which starts the "Save likes" workflow (`likes.yml`, `likes.py`). Each run gives both Claude calls up to 30 recent likes as a guide to taste.
+
+On Sundays, Opus reads the week's papers and likes. It writes "The Week" tab: a summary, the top stories, your most-liked stories, and suggestions for sources and the reader profile. Nothing changes on its own. You approve each suggestion by hand.
+
+The "Listen to Today's Paper" button runs the Apple Shortcut `Read Daily Brief`, which speaks the `listen` text in `brief.json`. Setup: [SETUP-LIKES-AUDIO.md](SETUP-LIKES-AUDIO.md).
+
 ## Images
 
 Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. The feature photos of Tech & AI and Architecture also get a halftone dot screen. A picture that fails to load is removed, and the story shows as text.

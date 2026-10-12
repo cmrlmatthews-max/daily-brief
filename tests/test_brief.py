@@ -304,7 +304,8 @@ def test_item_video_field_set_only_for_youtube():
 def test_tool_schema_shape():
     t = brief.publish_tool(ORDER)
     props = t["input_schema"]["properties"]
-    assert set(t["input_schema"]["required"]) == {"lead", "front", "sections"}
+    assert set(t["input_schema"]["required"]) == {"lead", "front", "sections", "listen"}
+    assert props["listen"]["type"] == "string"
     assert set(props["lead"]["required"]) == {"id", "headline", "note", "decks"}
     decks = props["lead"]["properties"]["decks"]
     assert decks["type"] == "array" and decks["minItems"] == 2 and decks["maxItems"] == 3
@@ -320,15 +321,18 @@ def test_tool_schema_shape():
 def test_sources_config():
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
     assert [t["name"] for t in cfg["topics"]] == TOPICS
-    assert cfg["max_total_items"] == 160
-    assert cfg["max_output_tokens"] == 4000 and cfg["desk_max_output_tokens"] == 8000
+    assert cfg["max_total_items"] == 180
+    assert cfg["max_output_tokens"] == 6000 and cfg["desk_max_output_tokens"] == 8000
+    assert (cfg["model"], cfg["front_model"], cfg["week_model"]) == (
+        "claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5")
     assert (cfg["masthead"], cfg["tagline"], cfg["edition"]) == ("CMRLM", "The Daily Brief", "Atlanta Edition")
     world = next(t for t in cfg["topics"] if t["name"] == "World")
     assert [s["name"] for s in world["sources"]] == ["NPR World", "NPR News", "BBC World"]
     names = {t["name"]: [s["name"] for s in t["sources"]] for t in cfg["topics"]}
     assert names["Politics"] == ["The Lever", "Drop Site News", "The Majority Report", "Breaking Points",
                                  "More Perfect Union"]
-    assert names["Atlanta"] == ["Rough Draft Atlanta", "Urbanize Atlanta"]
+    assert names["Atlanta"] == ["Rough Draft Atlanta", "Urbanize Atlanta", "SaportaReport"]
+    assert {"AEC Magazine", "Architosh"} <= set(names["Architecture"])
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
     assert {"UFC (ESPN)", "Braves highlights", "Rockets highlights",
@@ -784,10 +788,18 @@ def test_fixture_stoic_text_yields_a_quote():
 
 # ---------- main(): two calls, fail-soft desk, summed usage ----------
 
-def run_main(monkeypatch, tmp_path, capsys, ask_desk):
+def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_week=False):
     items = json.loads((ROOT / "fixtures/sample_items.json").read_text())["items"]
+    choice = json.loads((ROOT / "fixtures/sample_response.json").read_text())
+    if edit_choice:
+        edit_choice(choice)
     monkeypatch.setenv("ANTHROPIC_API_KEY", "fake")
     monkeypatch.delenv("BRIEF_PASSPHRASE", raising=False)
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(tmp_path / "data"))      # a test that wants data creates it first
+    if force_week:
+        monkeypatch.setenv("BRIEF_FORCE_WEEK", "1")
+    else:
+        monkeypatch.delenv("BRIEF_FORCE_WEEK", raising=False)
     monkeypatch.setattr(sys, "argv", ["brief.py"])
     monkeypatch.setattr(brief, "SITE_DIR", tmp_path)
     monkeypatch.setattr(brief, "fetch_all", lambda cfg: (items, [{"source": "Bad feed", "error": "x"}]))
@@ -798,7 +810,7 @@ def run_main(monkeypatch, tmp_path, capsys, ask_desk):
     monkeypatch.setattr(brief, "drop_seen_yesterday", lambda items, url: items)
     monkeypatch.setattr(brief, "resolve_og_images", lambda out, no_image: 0)
     monkeypatch.setattr(brief, "ask_claude", lambda cfg, items, today: (
-        json.loads((ROOT / "fixtures/sample_response.json").read_text()), {"input_tokens": 100, "output_tokens": 10}))
+        choice, {"input_tokens": 100, "output_tokens": 10}))
     monkeypatch.setattr(brief, "ask_desk", ask_desk)
     assert brief.main() == 0
     return json.loads((tmp_path / "brief.json").read_text()), capsys.readouterr().out
@@ -924,3 +936,484 @@ def test_page_has_print_button_wiring():
     assert 'var SHORTCUT_NAME = "Print Daily Brief";' in page
     assert "shortcuts://x-callback-url/run-shortcut?name=" in page
     assert "Print a New Edition" in page and "printed=" in page
+
+
+# ---------- models per call ----------
+
+class FakeAnthropic:
+    """Stands in for the anthropic module; records what each call asked for."""
+    calls: list = []
+
+    def __init__(self, api_key=None, **kwargs):
+        self.messages = self
+
+    def create(self, **kw):
+        from types import SimpleNamespace as NS
+        FakeAnthropic.calls.append(kw)
+        block = NS(type="tool_use", input={"sections": []})
+        return NS(content=[block], stop_reason="tool_use", usage=NS(input_tokens=3, output_tokens=2))
+
+
+@pytest.fixture
+def fake_anthropic(monkeypatch):
+    from types import SimpleNamespace
+    FakeAnthropic.calls = []
+    monkeypatch.setitem(sys.modules, "anthropic", SimpleNamespace(Anthropic=FakeAnthropic))
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "fake")
+    monkeypatch.setenv("BRIEF_DATA_DIR", "/nonexistent-data-dir")
+    return FakeAnthropic.calls
+
+
+def test_model_per_call(fake_anthropic):
+    cfg = {**CFG, "model": "m-main", "front_model": "m-front", "week_model": "m-week"}
+    items = items_fixture()
+    brief.ask_claude(cfg, items, "Monday, October 12, 2026")
+    brief.ask_desk(cfg, items, "Monday, October 12, 2026")
+    brief.ask_week(cfg, "x")
+    assert [c["model"] for c in fake_anthropic] == ["m-front", "m-main", "m-week"]
+    assert [c["max_tokens"] for c in fake_anthropic] == [6000, 8000, 4000]
+    assert [c["tool_choice"]["name"] for c in fake_anthropic] == ["publish_brief", "publish_desk", "publish_week"]
+
+
+def test_models_fall_back_to_the_main_model(fake_anthropic):
+    cfg = {k: v for k, v in CFG.items() if k not in ("front_model", "week_model")}
+    brief.ask_claude(cfg, items_fixture(), "Monday, October 12, 2026")
+    brief.ask_week(cfg, "x")
+    assert [c["model"] for c in fake_anthropic] == [cfg["model"], cfg["model"]]
+    brief._forced_call(cfg, "s", brief.week_tool(), "u", 10)                 # no model argument: the main model
+    brief._forced_call(cfg, "s", brief.week_tool(), "u", 10, model="other")
+    assert [c["model"] for c in fake_anthropic][2:] == [cfg["model"], "other"]
+
+
+def test_front_call_prompt_has_listen_rule_and_never_urls(fake_anthropic):
+    brief.ask_claude(CFG, items_fixture(), "Monday, October 12, 2026")
+    system = fake_anthropic[0]["system"]
+    assert "300 to 450 words" in system and "Good morning. This is The Daily Brief for" in system
+    assert "That is the brief. Have a good day." in system
+    assert "https://" not in fake_anthropic[0]["messages"][0]["content"]
+
+
+# ---------- likes: read side ----------
+
+NOW = datetime(2026, 10, 12, 12, 0, tzinfo=timezone.utc)
+
+
+def like(days_ago, n, topic="World", source="NPR", **kw):
+    at = (NOW - timedelta(days=days_ago)).isoformat(timespec="seconds").replace("+00:00", "Z")
+    return {"at": at, "u": f"https://x.test/{n}", "t": f"Title {n}", "s": source, "c": topic, **kw}
+
+
+def write_likes(folder, lines):
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "likes.jsonl").write_text("\n".join(l if isinstance(l, str) else json.dumps(l) for l in lines) + "\n")
+
+
+def test_load_likes_skips_bad_lines(tmp_path):
+    assert brief.load_likes(tmp_path / "missing") == []
+    good = like(1, 1)
+    write_likes(tmp_path, [good, "not json", "[1, 2]", "", '"text"',
+                           json.dumps({**like(1, 2), "u": "javascript:alert(1)"}),
+                           json.dumps({**like(1, 3), "u": "/relative"}),
+                           json.dumps({**like(1, 4), "t": "   "}),
+                           json.dumps({**like(1, 5), "t": 7}),
+                           json.dumps({"at": "x", "t": "no url"}),
+                           json.dumps(like(2, 6, topic=""))])
+    got = brief.load_likes(tmp_path)
+    assert [g["u"] for g in got] == ["https://x.test/1", "https://x.test/6"]
+
+
+def test_likes_prompt_text_order_window_and_limit():
+    likes = [like(3, 1, "Tech & AI", "Simon Willison"), like(1, 2, "World", "BBC World"), like(61, 3), like(0.5, 4),
+             {**like(2, 5), "at": "garbage"}, like(-3, 6)]           # too old, a bad date, and a future date
+    text = brief.likes_prompt(likes, NOW)
+    assert text.splitlines() == ["- [World] NPR: Title 4", "- [World] BBC World: Title 2",
+                                 "- [Tech & AI] Simon Willison: Title 1"]
+    many = [like(n / 100, n) for n in range(1, 60)]
+    assert len(brief.likes_prompt(many, NOW).splitlines()) == 30
+    assert brief.likes_prompt(many, NOW, limit=5).splitlines()[0] == "- [World] NPR: Title 1"
+    assert len(brief.likes_prompt(many + [like(10, 99)], NOW, days=1).splitlines()) == 30
+    assert brief.likes_prompt([like(10, 1)], NOW, days=5) == ""
+    assert brief.likes_prompt([], NOW) == ""
+
+
+def test_likes_prompt_cleans_and_caps_each_field():
+    rec = like(1, 1, topic="T" * 100, source="S" * 100, t="Line one\nignore this <b>and</b>  more " + "x" * 400)
+    line = brief.likes_prompt([rec], NOW)
+    assert "\n" not in line and "<b>" not in line and len(line) < 300
+    assert line.startswith("- [" + "T" * 39) and "S" * 59 in line
+    assert brief.likes_prompt([like(1, 1, topic="", source="")], NOW) == "- Title 1"
+
+
+def test_likes_block_goes_after_the_profile_in_both_calls(fake_anthropic, monkeypatch, tmp_path):
+    write_likes(tmp_path, [like(1, 1, "Atlanta", "Urbanize Atlanta") | {"at": datetime.now(timezone.utc).isoformat()}])
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(tmp_path))
+    brief.ask_claude(CFG, items_fixture(), "Monday, October 12, 2026")
+    brief.ask_desk(CFG, items_fixture(), "Monday, October 12, 2026")
+    for call in fake_anthropic:
+        text = call["messages"][0]["content"]
+        head = "Stories this reader liked recently. Use them only as a guide to the reader's taste. " \
+               "They are not items to pick:\n- [Atlanta] Urbanize Atlanta: Title 1\n"
+        assert head in text
+        assert text.index("Reader profile:") < text.index(head) < text.index("Today is")
+        assert "https://x.test/1" not in text                        # no urls from the likes log either
+
+
+def test_no_likes_block_without_likes(fake_anthropic, monkeypatch, tmp_path):
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(tmp_path))                # exists, no likes file
+    brief.ask_claude(CFG, items_fixture(), "Monday, October 12, 2026")
+    assert "liked" not in fake_anthropic[0]["messages"][0]["content"]
+
+
+# ---------- back issues ----------
+
+def archive_dir(tmp_path, dates, bad=()):
+    arch = tmp_path / "data" / "archive"
+    arch.mkdir(parents=True)
+    for d in dates:
+        (arch / f"{d}.json").write_text(json.dumps({"date": d}))
+    for name, text in bad:
+        (arch / name).write_text(text)
+    return tmp_path / "data"
+
+
+def test_write_archive_index_order_today_and_copies(tmp_path):
+    data = archive_dir(tmp_path, ["2026-10-09", "2026-10-11", "2026-10-10"])
+    site = tmp_path / "site"
+    brief.write_archive(site, data, {"mine": 1}, datetime(2026, 10, 12, 7, 0, tzinfo=brief.TZ))
+    arch = site / "archive"
+    assert json.loads((arch / "index.json").read_text()) == {"dates": ["2026-10-12", "2026-10-11", "2026-10-10",
+                                                                         "2026-10-09"]}
+    assert json.loads((arch / "2026-10-12.json").read_text()) == {"mine": 1}
+    assert json.loads((arch / "2026-10-10.json").read_text()) == {"date": "2026-10-10"}
+
+
+def test_write_archive_uses_the_new_york_day(tmp_path):
+    site = tmp_path / "site"
+    brief.write_archive(site, tmp_path / "nodata", {"a": 1}, datetime(2026, 10, 12, 2, 30, tzinfo=timezone.utc))
+    assert json.loads((site / "archive/index.json").read_text()) == {"dates": ["2026-10-11"]}   # still the 11th in NY
+
+
+def test_write_archive_keep_limit_and_bad_names_skipped(tmp_path):
+    dates = [f"2026-08-{d:02d}" for d in range(1, 31)] + [f"2026-09-{d:02d}" for d in range(1, 31)]   # 60 files
+    data = archive_dir(tmp_path, dates, bad=[("notes.json", "{}"), ("2026-10-1.json", "{}"), ("index.json", "{}"),
+                                             ("2026-10-05.json.bak", "{}"), ("2026-10-06.JSON", "{}"),
+                                             ("2026-10-07.json", "not json"), ("2026-10-08.json", "[1]"),
+                                             ("2026-10-12.json", '{"stale": "same day"}')])
+    site = tmp_path / "site"
+    brief.write_archive(site, data, {"mine": 1}, datetime(2026, 10, 12, 7, 0, tzinfo=brief.TZ), keep=10)
+    got = json.loads((site / "archive/index.json").read_text())["dates"]
+    assert got == ["2026-10-12"] + [f"2026-09-{d:02d}" for d in range(30, 20, -1)]
+    assert json.loads((site / "archive/2026-10-12.json").read_text()) == {"mine": 1}      # not the stale copy
+    assert sorted(p.name for p in (site / "archive").iterdir()) == sorted([f"{d}.json" for d in got] + ["index.json"])
+    # a later run with fewer files removes leftovers
+    brief.write_archive(site, data, {"mine": 2}, datetime(2026, 10, 12, 7, 0, tzinfo=brief.TZ), keep=2)
+    assert len(list((site / "archive").iterdir())) == 4
+
+
+def test_write_archive_never_fails_the_run(tmp_path, capsys):
+    blocker = tmp_path / "site"
+    blocker.write_text("a file, not a folder")
+    brief.write_archive(blocker, tmp_path, {"a": 1}, NOW)
+    assert "archive: skipped" in capsys.readouterr().out
+
+
+# ---------- the spoken script ----------
+
+def test_fallback_listen():
+    lead = {"headline": "Haiku Arrives On The API", "title": "t", "note": "A short note about it"}
+    front = [{"title": "Tower proposed on the Beltline"}, {"title": "Aid convoys delayed."}, {"title": ""}]
+    text = brief.fallback_listen(lead, front, "Monday, October 12, 2026")
+    assert text.startswith("Good morning. This is The Daily Brief for Monday, October 12.")
+    assert "The top story. Haiku Arrives On The API. A short note about it." in text
+    assert "Also on the front page. Tower proposed on the Beltline. Aid convoys delayed." in text
+    assert text.endswith("That is the brief. Have a good day.") and "  " not in text
+    bare = brief.fallback_listen(None, [], "Monday, October 12, 2026")
+    assert bare == "Good morning. This is The Daily Brief for Monday, October 12. That is the brief. Have a good day."
+
+
+def test_clean_listen():
+    assert brief.clean_listen("  Good   morning.\n\nHello <b>there</b>.  ") == "Good morning. Hello there ."
+    assert brief.clean_listen(None) == "" and brief.clean_listen(5) == "" and brief.clean_listen("  \n ") == ""
+    long = ("This is a sentence. " * 400)
+    got = brief.clean_listen(long)
+    assert len(got) <= brief.LISTEN_CHARS and got.endswith("sentence.")
+
+
+def test_main_writes_listen_models_and_archive(monkeypatch, tmp_path, capsys):
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (
+        json.loads((ROOT / "fixtures/sample_desk_response.json").read_text()), {"input_tokens": 1, "output_tokens": 1}),
+        edit_choice=lambda c: c.update(listen="  Good morning.\n\nOne two.  "))
+    assert b["listen"] == "Good morning. One two."
+    assert b["model"] == "claude-sonnet-5-5" and b["models"]["front"] == "claude-sonnet-5-5"
+    assert b["models"]["desk"] == "claude-haiku-5-5"
+    index = json.loads((tmp_path / "archive/index.json").read_text())
+    assert index["dates"][0] == b["generated_at"][:10]
+    assert json.loads((tmp_path / "archive" / f"{index['dates'][0]}.json").read_text())["listen"] == b["listen"]
+
+
+def test_main_builds_a_fallback_listen_when_the_model_gives_none(monkeypatch, tmp_path, capsys):
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: ({"sections": []}, {
+        "input_tokens": 1, "output_tokens": 1}), edit_choice=lambda c: c.pop("listen"))
+    assert "listen: fallback" in out
+    assert b["listen"].startswith("Good morning. This is The Daily Brief for ")
+    assert b["lead"]["headline"] in b["listen"] and all(f["title"] in b["listen"] for f in b["front"])
+    assert b["listen"].endswith("That is the brief. Have a good day.")
+
+
+# ---------- Sunday edition: the week in review ----------
+
+def paper(date, n, extra=0):
+    """A small archived paper. Story urls are unique per paper."""
+    def st(k, topic="World"):
+        return {"title": f"Story {date} {k}", "url": f"https://{date}.test/{k}", "source": f"Src{k}", "topic": topic,
+                "note": f"Note {k}", "image": f"http://img.test/{date}/{k}.jpg", "video": None}
+    return {"generated_at": f"{date}T07:00:00-04:00", "lead": {**st(0, "Tech & AI"), "headline": "H"},
+            "front": [st(1), st(2, "Sports")],
+            "sections": [{"topic": "World", "items": [st(k) for k in range(3, 3 + n)]}] +
+                        [{"topic": "Atlanta", "items": [st(100 + k, "Atlanta") for k in range(extra)]}]}
+
+
+SUNDAY = datetime(2026, 10, 11, 7, 0, tzinfo=brief.TZ)          # a Sunday in New York
+
+
+def week_data(tmp_path, dates):
+    data = tmp_path / "data"
+    arch = data / "archive"
+    arch.mkdir(parents=True)
+    for d in dates:
+        (arch / f"{d}.json").write_text(json.dumps(paper(d, 2)))
+    return data
+
+
+def test_week_runs_on_sunday_or_when_forced(monkeypatch):
+    monkeypatch.delenv("BRIEF_FORCE_WEEK", raising=False)
+    assert brief.week_wanted(SUNDAY) and not brief.week_wanted(SUNDAY + timedelta(days=1))
+    assert brief.week_wanted(datetime(2026, 10, 12, 3, 0, tzinfo=timezone.utc))          # still Sunday night in New York
+    monkeypatch.setenv("BRIEF_FORCE_WEEK", "1")
+    assert brief.week_wanted(SUNDAY + timedelta(days=1))
+    monkeypatch.setenv("BRIEF_FORCE_WEEK", "0")
+    assert not brief.week_wanted(SUNDAY + timedelta(days=1))
+
+
+def test_week_skipped_with_fewer_than_three_papers(monkeypatch, tmp_path, capsys):
+    data = week_data(tmp_path, ["2026-10-09"])                    # one archive paper plus today = 2
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(data))
+    monkeypatch.setattr(brief, "ask_week", lambda cfg, user: pytest.fail("the model must not be called"))
+    week, usage = brief.make_week(CFG, paper("2026-10-11", 2), SUNDAY)
+    assert week is None and usage == {"input_tokens": 0, "output_tokens": 0}
+    assert "week: skipped, only 2 papers" in capsys.readouterr().out
+
+
+def test_week_not_made_on_a_weekday(monkeypatch, tmp_path):
+    monkeypatch.delenv("BRIEF_FORCE_WEEK", raising=False)
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(week_data(tmp_path, ["2026-10-08", "2026-10-09", "2026-10-10"])))
+    monkeypatch.setattr(brief, "ask_week", lambda cfg, user: pytest.fail("the model must not be called"))
+    assert brief.make_week(CFG, paper("2026-10-12", 2), SUNDAY + timedelta(days=1))[0] is None
+
+
+def test_load_archive_papers_uses_the_six_days_before_today(tmp_path):
+    data = week_data(tmp_path, ["2026-10-04", "2026-10-05", "2026-10-06", "2026-10-10", "2026-10-11"])
+    (data / "archive/2026-10-08.json").write_text("not json")
+    got = brief.load_archive_papers(data, datetime(2026, 10, 11).date())
+    assert [d for d, _ in got] == ["2026-10-05", "2026-10-06", "2026-10-10"]     # 04 too old, 08 bad, 11 is today
+
+
+def test_week_stories_ids_dedupe_cap_and_no_urls_for_the_model():
+    papers = [("2026-10-09", paper("2026-10-09", 2)), ("2026-10-10", paper("2026-10-10", 2)),
+              ("2026-10-11", {**paper("2026-10-11", 2), "front": [paper("2026-10-10", 2)["lead"]]})]   # repeats a url
+    stories = brief.week_stories(papers)
+    assert [s["id"] for s in stories] == [f"w{n}" for n in range(1, len(stories) + 1)]
+    assert len({s["url"] for s in stories}) == len(stories) and stories[0]["date"] == "2026-10-09"
+    assert stories[0]["image"] == "https://img.test/2026-10-09/0.jpg"             # http is upgraded
+    capped = brief.week_stories([("2026-10-0%d" % d, paper("2026-10-0%d" % d, 5, extra=6)) for d in range(1, 8)], cap=20)
+    assert len(capped) == 20
+    assert sum(1 for s in capped if s["note"] == "Note 0") == 7                    # every lead survives the cap
+    assert [s["date"] for s in capped] == sorted(s["date"] for s in capped)
+    msg = brief.week_user_message(CFG, stories, [], "2026-10-09", "2026-10-11", 3)
+    assert "https://" not in msg and "http://" not in msg and "w1" in msg and "(none this week)" in msg
+    assert "Houston Rockets" in msg and "SaportaReport" in msg                      # configured sources by topic
+
+
+def test_week_built_from_archive_ids_map_back(monkeypatch, tmp_path, capsys):
+    data = week_data(tmp_path, ["2026-10-07", "2026-10-09", "2026-10-10"])
+    write_likes(data, [{"at": "2026-10-10T12:00:00Z", "u": "https://l.test/a", "t": "Liked A", "s": "BBC", "c": "World"},
+                       {"at": "2026-10-09T12:00:00Z", "u": "https://l.test/b", "t": "Liked B", "s": "BBC", "c": "World"},
+                       {"at": "2026-09-01T12:00:00Z", "u": "https://l.test/old", "t": "Too old", "s": "X", "c": "Y"}])
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(data))
+    seen = {}
+
+    def fake_ask(cfg, user):
+        seen["user"] = user
+        return ({"headline": "A Quiet Week", "summary": "First paragraph.\n\nSecond <i>paragraph</i>.",
+                 "top": [{"id": "w2", "note": "Front story note."}, {"id": "w1", "note": "Lead."}, {"id": "w2", "note": "dup"},
+                         {"id": "w999", "note": "unknown"}],
+                 "suggestions": [{"change": "Add a source.", "reason": "Because."}, {"change": "", "reason": "no change"},
+                                 "junk"]}, {"input_tokens": 50, "output_tokens": 20})
+
+    monkeypatch.setattr(brief, "ask_week", fake_ask)
+    week, usage = brief.make_week(CFG, paper("2026-10-11", 2), SUNDAY)
+    assert usage == {"input_tokens": 50, "output_tokens": 20}
+    assert (week["from"], week["to"]) == ("2026-10-07", "2026-10-11")
+    assert (week["headline"], week["summary"]) == ("A Quiet Week", "First paragraph.\n\nSecond paragraph .")
+    # w1 is the lead of the oldest paper, w2 its first front story
+    assert [t["title"] for t in week["top"]] == ["Story 2026-10-07 1", "Story 2026-10-07 0"]
+    assert week["top"][0] == {"title": "Story 2026-10-07 1", "url": "https://2026-10-07.test/1", "source": "Src1",
+                              "topic": "World", "note": "Front story note.",
+                              "image": "https://img.test/2026-10-07/1.jpg", "video": None}
+    assert week["suggestions"] == [{"change": "Add a source.", "reason": "Because."}]
+    assert [(l["title"], l["url"]) for l in week["liked"]] == [("Liked A", "https://l.test/a"), ("Liked B", "https://l.test/b")]
+    assert set(week["liked"][0]) == {"title", "url", "source", "topic"}
+    assert "Liked A" in seen["user"] and "Too old" not in seen["user"] and '"World":2' in seen["user"]
+    assert '"BBC":2' in seen["user"] and "Story 2026-10-11 0" in seen["user"]          # today's paper is included
+    assert "week: 4 papers" in capsys.readouterr().out
+
+
+def test_week_never_stops_the_run(monkeypatch, tmp_path, capsys):
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(week_data(tmp_path, ["2026-10-08", "2026-10-09", "2026-10-10"])))
+
+    def boom(cfg, user):
+        raise RuntimeError("private-looking text")
+
+    monkeypatch.setattr(brief, "ask_week", boom)
+    assert brief.make_week(CFG, paper("2026-10-11", 2), SUNDAY)[0] is None
+    out = capsys.readouterr().out
+    assert "week: skipped (RuntimeError)" in out and "private-looking" not in out
+    monkeypatch.setattr(brief, "ask_week", lambda cfg, user: ({"headline": "", "summary": " "}, {"input_tokens": 1, "output_tokens": 1}))
+    week, usage = brief.make_week(CFG, paper("2026-10-11", 2), SUNDAY)
+    assert week is None and usage == {"input_tokens": 1, "output_tokens": 1}
+
+
+def test_week_tool_and_prompt():
+    t = brief.week_tool()
+    props = t["input_schema"]["properties"]
+    assert t["name"] == "publish_week" and set(t["input_schema"]["required"]) == {"headline", "summary", "top", "suggestions"}
+    assert props["top"]["minItems"] == 3 and props["top"]["maxItems"] == 5
+    assert props["suggestions"]["minItems"] == 3 and props["suggestions"]["maxItems"] == 5
+    assert set(props["suggestions"]["items"]["required"]) == {"change", "reason"}
+    for phrase in ("Never invent", "approves by hand", "Nothing changes automatically", "few likes", "neutral"):
+        assert phrase in brief.WEEK_PROMPT
+
+
+def test_main_sunday_edition_adds_week_and_listen(monkeypatch, tmp_path, capsys):
+    class Sunday(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return SUNDAY.astimezone(tz) if tz else SUNDAY
+
+    week_data(tmp_path, ["2026-10-08", "2026-10-09", "2026-10-10"])
+    monkeypatch.setattr(brief, "datetime", Sunday)
+    monkeypatch.setattr(brief, "ask_week", lambda cfg, user: (
+        {"headline": "A Quiet Week", "summary": "First.\n\nSecond.", "top": [{"id": "w1", "note": "n"}],
+         "suggestions": []}, {"input_tokens": 7, "output_tokens": 3}))
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (
+        json.loads((ROOT / "fixtures/sample_desk_response.json").read_text()), {"input_tokens": 300, "output_tokens": 70}))
+    assert b["week"]["headline"] == "A Quiet Week" and b["models"]["week"] == "claude-opus-5-5"
+    assert b["listen"].endswith(" This is the Sunday edition. Here is the week in review. A Quiet Week. First. Second.")
+    assert b["usage"] == {"input_tokens": 407, "output_tokens": 83}                       # 100+300+7, 10+70+3
+    assert json.loads((tmp_path / "archive/index.json").read_text())["dates"] == [
+        "2026-10-11", "2026-10-10", "2026-10-09", "2026-10-08"]
+
+
+def test_dry_run_listen_and_week_preview(tmp_path):
+    env = {**os.environ, "BRIEF_SITE_DIR": str(tmp_path), "BRIEF_DATA_DIR": str(tmp_path / "nodata")}
+    env.pop("BRIEF_PASSPHRASE", None)
+    env.pop("BRIEF_FORCE_WEEK", None)
+    run = lambda e: subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"],  # noqa: E731
+                                   capture_output=True, text=True, env=e)
+    r = run(env)
+    assert r.returncode == 0, r.stderr
+    b = json.loads((tmp_path / "brief.json").read_text())
+    assert b["listen"].startswith("Good morning. This is The Daily Brief for ") and "@DATE@" not in b["listen"]
+    assert 250 <= len(b["listen"].split()) <= 450 and b["listen"].endswith("That is the brief. Have a good day.")
+    assert b["model"] == "claude-sonnet-5-5" and "week" not in b["models"]
+    assert (tmp_path / "archive/index.json").exists()
+
+    r = run({**env, "BRIEF_FORCE_WEEK": "1"})
+    assert r.returncode == 0, r.stderr
+    b = json.loads((tmp_path / "brief.json").read_text())
+    week = b["week"]
+    assert week["headline"] and week["summary"].count("\n\n") == 2 and len(week["suggestions"]) == 3
+    assert b["models"]["week"] == "claude-opus-5-5"
+    stories = [b["lead"]] + b["front"] + [i for s in b["sections"] for i in s["items"]]
+    assert 3 <= len(week["top"]) <= 5 and {t["url"] for t in week["top"]} <= {st["url"] for st in stories}    # ids resolve
+    assert week["from"] == week["to"] == b["generated_at"][:10]
+
+
+# ---------- workflows ----------
+
+def test_daily_workflow_saves_back_issues():
+    wf = yaml.safe_load((ROOT / ".github/workflows/daily-brief.yml").read_text())
+    build, save = wf["jobs"]["build"], wf["jobs"]["save"]
+    steps = build["steps"]
+    main_checkout = steps[0]
+    data_checkout = steps[1]
+    assert main_checkout["uses"] == "actions/checkout@v4" and "with" not in main_checkout
+    assert data_checkout["uses"] == "actions/checkout@v4" and data_checkout["continue-on-error"] is True
+    assert data_checkout["with"] == {"ref": "data", "path": "data"}
+    paper_step = next(s for s in steps if s.get("uses", "").startswith("actions/upload-artifact@v4"))
+    assert paper_step["if"] == "steps.check.outputs.skip != 'true'"
+    assert paper_step["with"] == {"name": "paper", "path": "site/brief.json", "retention-days": 3}
+    assert save["needs"] == "build" and save["if"] == "needs.build.outputs.skip != 'true'"
+    assert save["runs-on"] == "ubuntu-latest" and save["timeout-minutes"] == 5
+    assert save["permissions"] == {"contents": "write"}
+    assert save["concurrency"] == {"group": "data-branch", "cancel-in-progress": False}
+    assert wf["permissions"] == {"contents": "read"}                                   # the build stays read-only
+    assert "permissions" not in build
+    uses = [s.get("uses") for s in save["steps"]]
+    assert uses[:2] == ["actions/checkout@v4", "actions/download-artifact@v4"]
+    assert save["steps"][0]["with"] == {"ref": "data"} and save["steps"][1]["with"] == {"name": "paper", "path": "incoming"}
+    runs = "\n".join(s.get("run", "") for s in save["steps"])
+    assert "America/New_York" in runs and "archive/{date}.json" in runs and 'git commit -m "Back issue $ISSUE_DATE"' in runs
+    assert runs.count("git pull --rebase origin data") == 1 and "for try in 1 2 3" in runs
+    assert "pip" not in runs and "brief.py" not in runs                             # no repo code, no packages
+    assert "${{" not in runs                                                            # no interpolation inside scripts
+
+
+def test_likes_workflow_never_puts_the_input_inside_a_run_block():
+    text = (ROOT / ".github/workflows/likes.yml").read_text()
+    wf = yaml.safe_load(text)
+    assert wf["name"] == "Save likes" and list(wf[True]) == ["workflow_dispatch"]
+    spec = wf[True]["workflow_dispatch"]["inputs"]["likes"]
+    assert spec["required"] is True and spec["type"] == "string"
+    assert wf["permissions"] == {"contents": "read"}
+    job = wf["jobs"]["save"]
+    assert job["permissions"] == {"contents": "write"} and job["timeout-minutes"] == 5
+    assert "concurrency" not in job      # a group would cancel waiting runs and lose likes
+    for step in job["steps"]:
+        assert "inputs.likes" not in step.get("run", ""), "interpolating the input into a script is a script injection"
+        assert "${{" not in step.get("run", "")
+    add = next(s for s in job["steps"] if "python3 ../likes.py" in s.get("run", ""))
+    assert add["env"] == {"LIKES_JSON": "${{ inputs.likes }}", "BRIEF_DATA_DIR": "."}
+    assert add["working-directory"] == "data" and "git reset -q --hard origin/data" in add["run"]
+    assert text.count("inputs.likes") == 1                                         # only the env line
+    assert job["steps"][1]["with"] == {"ref": "data", "path": "data"}
+
+
+def test_gitignore_has_archive_folder():
+    assert "site/archive/" in (ROOT / ".gitignore").read_text().split()
+
+
+
+def test_main_front_model_failure_retries_with_main_model(monkeypatch, tmp_path, capsys):
+    """If the stronger front-page model fails, the paper still prints with the main model."""
+    choice = json.loads((ROOT / "fixtures/sample_response.json").read_text())
+    seen = []
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+    orig_setattr = monkeypatch.setattr
+
+    def flaky(cfg, items, today):
+        seen.append(brief.front_model(cfg))
+        if brief.front_model(cfg) != cfg["model"]:
+            raise RuntimeError("overloaded")
+        return choice, {"input_tokens": 5, "output_tokens": 1}
+
+    def patched(target, name, value=None, *a, **k):
+        if target is brief and name == "ask_claude":
+            value = flaky
+        return orig_setattr(target, name, value, *a, **k)
+
+    monkeypatch.setattr = patched
+    b, _ = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (desk, {"input_tokens": 0, "output_tokens": 0}))
+    cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
+    assert seen == [cfg["front_model"], cfg["model"]]
+    assert b["lead"]

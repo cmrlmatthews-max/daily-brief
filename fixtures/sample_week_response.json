@@ -1,0 +1,40 @@
+{
+  "headline": "A Faster Model, Floods Recede, and Ice at a Low",
+  "summary": "This week began with a developer story. Claude Haiku 5.5 became generally available on the Claude API, with improved tool use and lower latency. Alongside it, the Files API gained PDF page ranges, and Anthropic announced a new office in Seoul. Together they point to steady, practical progress for people who build small tools on the API.\n\nThe wider world had a mixed week. Flood waters began to recede in northern Italy, the United Nations warned that road closures were delaying aid convoys, and satellite data showed the smallest September Arctic sea ice on record. Three major central banks left interest rates unchanged.\n\nCloser to home, Atlanta saw a Midtown office building approved for conversion to homes and a neighborhood group open a community garden. In architecture, a timber library that doubles as a flood barrier drew attention, and Houston's starting center was listed as questionable heading into the season.",
+  "top": [
+    {
+      "id": "w1",
+      "note": "Claude Haiku 5.5 reached general availability on the API with better tool use and lower latency."
+    },
+    {
+      "id": "w10",
+      "note": "Flood waters receded in northern Italy and residents began returning to damaged homes."
+    },
+    {
+      "id": "w11",
+      "note": "Satellite data showed the smallest September Arctic sea ice extent on record."
+    },
+    {
+      "id": "w19",
+      "note": "A timber library that also works as a flood barrier gave architects a new precedent."
+    },
+    {
+      "id": "does-not-exist",
+      "note": "This id is not in the week's stories and must be dropped by the script."
+    }
+  ],
+  "suggestions": [
+    {
+      "change": "Add a second Atlanta source focused on development and zoning.",
+      "reason": "Atlanta stories came from only two sources this week, and the Midtown conversion was the strongest local item."
+    },
+    {
+      "change": "Keep the Architecture topic and add a source on building science.",
+      "reason": "The timber library and flood barrier story was among the most useful items, and Architecture had few sources."
+    },
+    {
+      "change": "Add a line to the reader profile about climate and sea ice.",
+      "reason": "Sea ice and coral stories appeared often in the coverage, but there are too few likes yet to be sure it is a lasting interest."
+    }
+  ]
+}

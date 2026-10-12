@@ -3,14 +3,16 @@
 # Where the page is published. Used to fetch yesterday's brief.json for dedupe.
 site_url: https://cmrlmatthews-max.github.io/daily-brief/
 
-# Claude model and limits.
-model: claude-haiku-5-5
-max_output_tokens: 4000        # call 1: the front page
+# Claude models and limits.
+model: claude-haiku-5-5        # call 2 (the topic tabs), the private tabs, and the fallback for the two below
+front_model: claude-sonnet-5-5 # call 1: the front page and the spoken script (a stronger model picks better)
+week_model: claude-opus-5-5    # Sunday only: the week in review
+max_output_tokens: 6000        # call 1: the front page and the spoken script
 desk_max_output_tokens: 8000   # call 2: the topic tabs
 
 # Fetch limits.
 per_source_item_cap: 8     # newest items kept from each source
-max_total_items: 160       # items sent to Claude in total
+max_total_items: 180       # items sent to Claude in total
 summary_chars: 300         # each item summary is cut to this length
 
 # Tabs after Front Page, in order. Each tab shows the listed topics (topic names below).
@@ -164,6 +166,9 @@ topics:
       - name: Urbanize Atlanta
         type: rss
         url: https://atlanta.urbanize.city/rss.xml
+      - name: SaportaReport
+        type: rss
+        url: https://saportareport.com/feed/
 
   - name: Architecture
     sources:
@@ -173,6 +178,12 @@ topics:
       - name: BIM Pure blog
         type: rss
         url: https://www.bimpure.com/blog?format=rss
+      - name: AEC Magazine
+        type: rss
+        url: https://aecmag.com/feed/
+      - name: Architosh
+        type: rss
+        url: https://www.architosh.com/feed/
       - name: BIM Pure YouTube   # unverified; skipped if it fails
         type: rss
         url: https://www.youtube.com/feeds/videos.xml?channel_id=UClDb09FCWGuV231Ft3nRxvg

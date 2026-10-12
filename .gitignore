@@ -3,3 +3,5 @@ __pycache__/
 .env
 site/brief.json
 site/private.enc
+site/archive/
+data/

@@ -577,6 +577,92 @@
     .t-title { font-size: 19px; }
     .lock { margin-top: 24px; padding: 16px 16px 18px; }
   }
+
+  /* ---------- Back issues, likes, listen, and the Sunday week ---------- */
+  .backbar {
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center; gap: 2px 14px; margin: 10px 0 0; padding: 6px 8px 5px;
+    border-bottom: 1px solid var(--rule-soft); background: rgba(246, 239, 221, .55);
+    font: 500 12px/1.3 var(--f-label); letter-spacing: .18em; text-transform: uppercase; text-align: center;
+  }
+  .backbar .lbl { color: var(--accent); }
+  .backbar a { border-bottom: 1px solid var(--accent); }
+  .backbar a:hover, .backbar a:focus-visible { background: var(--ink); color: var(--paper-hi); border-bottom-color: var(--ink); outline: none; }
+
+  .reprint-row { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 12px 14px; }
+  .listen-col { display: flex; flex-direction: column; align-items: center; max-width: 100%; }
+  .reprint-tip { margin: 6px 0 0; max-width: 19em; font-size: 13px; font-style: italic; line-height: 1.3; color: var(--ink-soft); }
+  .backissues { margin: 18px auto 0; padding: 7px 4px 0; max-width: 46em; border-top: 1px solid var(--rule-soft); font-size: 14px; line-height: 1.9; }
+  .backissues a { white-space: nowrap; border-bottom: 1px solid transparent; }
+  .backissues a:hover, .backissues a:focus-visible { border-bottom-color: var(--accent); outline: none; }
+  .backissues .idx-label { margin-right: 8px; }
+  .backissues .dot { color: var(--accent); margin: 0 .3em; }
+
+  /* The like star sits at the end of the kicker or source line. Its touch area is padding, cancelled by negative margin, so the line height does not change. */
+  .like {
+    -webkit-appearance: none; appearance: none; background: none; border: 0; border-radius: 0; cursor: pointer;
+    display: inline-block; position: relative; z-index: 1; vertical-align: middle; box-sizing: content-box;
+    height: 1em; min-width: 1em; padding: 10px 10px; margin: -10px -4px -10px 2px;
+    font: 400 1.15em/1 "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", "Noto Sans Symbols 2", "Noto Sans Symbols", sans-serif;
+    letter-spacing: 0; text-transform: none; color: var(--ink);
+  }
+  .like:hover { color: var(--accent); }
+  .like:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
+  .like[aria-pressed="true"] { color: var(--accent); }
+  .like.sent { cursor: default; opacity: .6; }
+  .likeline { display: block; margin-top: 4px; font-size: 11.5px; line-height: 1.2; clear: both; }
+
+  .likepill {
+    position: fixed; z-index: 60; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+    -webkit-appearance: none; appearance: none; cursor: pointer; border-radius: 0; white-space: nowrap; max-width: calc(100vw - 32px);
+    padding: 10px 22px 9px calc(22px + .22em); border: 3px double var(--ink); background: var(--paper-hi); color: var(--ink);
+    font: 500 13px/1.2 var(--f-label); letter-spacing: .22em; text-transform: uppercase;
+    box-shadow: 0 3px 0 rgba(28, 25, 20, .28), 0 8px 18px rgba(28, 25, 20, .2);
+  }
+  .likepill:hover, .likepill:focus-visible { background: var(--ink); color: var(--paper-hi); outline: none; }
+  body.has-pill { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)); }
+  .toast {
+    position: fixed; z-index: 61; left: 50%; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+    padding: 8px 18px 7px calc(18px + .2em); background: var(--ink); color: var(--paper-hi); border: 1px solid var(--ink);
+    font: 500 12px/1.2 var(--f-label); letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; max-width: calc(100vw - 32px);
+  }
+  .toast:empty { display: none; }
+  body.has-pill .toast { bottom: calc(78px + env(safe-area-inset-bottom, 0px)); }
+
+  .aux-week .wk-head { margin: 0 0 .5em; text-align: center; font: 700 1.06em/1.2 var(--f-head); overflow-wrap: anywhere; text-wrap: balance; }
+  .aux-btn {
+    display: block; width: max-content; max-width: 100%; margin: .6em auto 0; padding: .55em 1em .45em calc(1em + .22em);
+    border: 1px solid var(--rule); color: var(--ink); text-align: center;
+    font: 500 .8em/1.2 var(--f-label); letter-spacing: .22em; text-transform: uppercase;
+  }
+  .aux-btn:hover, .aux-btn:focus-visible { background: var(--ink); color: var(--paper-hi); outline: none; }
+
+  .week-intro { max-width: 760px; margin: 0 auto 30px; }
+  .week-dates { margin: 0 0 12px; text-align: center; font: 500 12px/1.3 var(--f-label); letter-spacing: .26em; text-transform: uppercase; color: var(--accent); }
+  .week-head { margin: 0 auto 16px; text-align: center; font: 700 clamp(28px, 5vw, 46px)/1.04 var(--f-display); text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+  .week-sum p { margin: 0; font-size: 17px; line-height: 1.4; text-align: justify; hyphens: auto; }
+  .week-sum p + p { margin-top: .75em; }
+  .week-narrow { max-width: 760px; margin: 0 auto 30px; }
+  .week-liked, .week-sugg { list-style: none; margin: 0; padding: 0; }
+  .week-liked li { padding: 9px 2px; border-bottom: 1px dotted var(--rule-soft); }
+  .week-liked li:last-child { border-bottom: 0; }
+  .week-liked a { display: block; font: 700 18px/1.2 var(--f-head); overflow-wrap: anywhere; }
+  .week-liked a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .week-liked .wsrc { display: block; margin-top: 3px; font: 500 11.5px/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .week-sugg li { display: grid; grid-template-columns: 2.1em minmax(0, 1fr); gap: 0 6px; padding: 11px 2px; border-bottom: 1px dotted var(--rule-soft); counter-increment: sg; }
+  .week-sugg { counter-reset: sg; }
+  .week-sugg li:last-child { border-bottom: 0; }
+  .week-sugg li::before { content: counter(sg) "."; font: 900 24px/1.05 var(--f-head); color: var(--accent); text-align: right; }
+  .sg-change { display: block; font: 700 19px/1.25 var(--f-head); overflow-wrap: anywhere; }
+  .sg-reason { display: block; margin-top: 3px; font-style: italic; color: var(--ink-soft); overflow-wrap: anywhere; }
+  .week-note { margin: 14px 0 0; text-align: center; font-size: 15px; font-style: italic; color: var(--ink-soft); }
+  .week-none { margin: 0; text-align: center; font-style: italic; color: var(--ink-soft); }
+  @media (max-width: 599px) {
+    .backbar { font-size: 11px; letter-spacing: .12em; }
+    .week-sum p { text-align: left; }
+  }
+  @media (max-width: 419px) {
+    .tabs.has-week .tab { font-size: 10.5px; letter-spacing: .03em; padding-left: 1px; padding-right: 1px; }
+  }
 </style>
 </head>
 <body>
@@ -590,9 +676,11 @@
     <aside class="ear ear-wx" id="ear-wx" hidden aria-label="Weather"><div class="ear-in"><div class="ear-body"></div></div></aside>
   </header>
   <div class="dateline" id="dateline" hidden></div>
+  <div class="backbar" id="backbar" hidden></div>
   <div class="tabs" id="tabs" role="tablist" aria-label="Sections of the paper">
     <div class="tabrow paper" role="presentation">
       <button type="button" class="tab" role="tab" id="tab-front" data-tab="front" aria-controls="panel-front" aria-selected="true"><span class="l-full">Front Page</span><span class="l-short">Front</span></button>
+      <button type="button" class="tab" role="tab" id="tab-week" data-tab="week" aria-controls="panel-week" aria-selected="false" tabindex="-1" hidden><span class="l-full">The Week</span><span class="l-short">Week</span></button>
       <button type="button" class="tab" role="tab" id="tab-news" data-tab="news" aria-controls="panel-news" aria-selected="false" tabindex="-1" hidden><span class="l-full">News</span><span class="l-short">News</span></button>
       <button type="button" class="tab" role="tab" id="tab-tech" data-tab="tech" aria-controls="panel-tech" aria-selected="false" tabindex="-1" hidden><span class="l-full">Tech &amp; AI</span><span class="l-short">Tech</span></button>
       <button type="button" class="tab" role="tab" id="tab-sports" data-tab="sports" aria-controls="panel-sports" aria-selected="false" tabindex="-1" hidden><span class="l-full">Sports</span><span class="l-short">Sports</span></button>
@@ -610,6 +698,7 @@
       <div id="content"></div>
       <nav class="index" id="index" aria-label="Index" hidden></nav>
     </div>
+    <div id="panel-week" class="panel" role="tabpanel" aria-labelledby="tab-week" hidden></div>
     <div id="panel-news" class="panel" role="tabpanel" aria-labelledby="tab-news" hidden></div>
     <div id="panel-tech" class="panel" role="tabpanel" aria-labelledby="tab-tech" hidden></div>
     <div id="panel-sports" class="panel" role="tabpanel" aria-labelledby="tab-sports" hidden></div>
@@ -634,6 +723,22 @@
   var CALM = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   var VIDEO_ID = /^[A-Za-z0-9_-]{11}$/;
   var seq = 0;
+
+  // A back issue is asked for with ?date=YYYY-MM-DD. Anything that is not a real calendar date is ignored.
+  function isDate(s) {
+    if (typeof s !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return false;
+    var ms = Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10));
+    return !isNaN(ms) && new Date(ms).toISOString().slice(0, 10) === s;
+  }
+  var BACK_DATE = (function () {
+    var m = /[?&]date=([^&#]*)/.exec(location.search);
+    return m && isDate(m[1]) ? m[1] : null;
+  })();
+  var IS_BACK = !!BACK_DATE;
+  if (IS_BACK) {
+    var privRow = document.querySelector(".tabrow.priv");
+    if (privRow) privRow.hidden = true;   // private data belongs to today's paper only
+  }
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -731,10 +836,19 @@
       if (f) art.appendChild(f);
     }
     var kick = opts.kicker === "source" ? item.source : opts.kicker === "topic" ? item.topic : "";
-    if (kick) art.appendChild(el("span", "kicker", kick));
+    var kickEl = kick ? el("span", "kicker", kick) : null;
+    if (kickEl) art.appendChild(kickEl);
     art.appendChild(headline("h3", item));
     if (item.note) art.appendChild(el("p", "note", item.note));
-    if (item.source && opts.kicker !== "source") art.appendChild(el("span", "src", item.source));
+    var srcEl = null;
+    if (item.source && opts.kicker !== "source") { srcEl = el("span", "src", item.source); art.appendChild(srcEl); }
+    // The like star goes at the end of the kicker line, else the source line, else a line of its own.
+    var lb = likeButton(item);
+    if (lb) {
+      var line = kickEl || srcEl;
+      if (!line) { line = el("span", "likeline"); art.appendChild(line); }
+      line.appendChild(lb);
+    }
     return art;
   }
 
@@ -848,7 +962,13 @@
       openLink(more, href);
       text.appendChild(more);
     }
-    if (lead.source) text.appendChild(el("span", "src", lead.source));
+    var leadLine = null;
+    if (lead.source) { leadLine = el("span", "src", lead.source); text.appendChild(leadLine); }
+    var leadLike = likeButton(lead);
+    if (leadLike) {
+      if (!leadLine) { leadLine = el("span", "likeline"); text.appendChild(leadLine); }
+      leadLine.appendChild(leadLike);
+    }
     grid.appendChild(text);
 
     // Right: the small boxes (Daily Stoic, FDA Recalls), then also on the front page.
@@ -953,7 +1073,70 @@
       sk.title = errs.map(function (e) { return e.source; }).join("\n");
       f.appendChild(sk);
     }
-    f.appendChild(printBox());
+    if (!IS_BACK) f.appendChild(printBox(b));   // a back issue has no Print or Listen button
+  }
+
+  // ----- back issues -----
+  function nyDate(d) {   // a Date as "YYYY-MM-DD" in New York
+    try {
+      var p = {};
+      new Intl.DateTimeFormat("en-CA", { timeZone: NY, year: "numeric", month: "2-digit", day: "2-digit" })
+        .formatToParts(d).forEach(function (x) { p[x.type] = x.value; });
+      var out = p.year + "-" + p.month + "-" + p.day;
+      return isDate(out) ? out : null;
+    } catch (e) { return null; }
+  }
+  function renderBackBar(b) {
+    var bar = document.getElementById("backbar");
+    if (!bar) return;
+    while (bar.firstChild) bar.removeChild(bar.firstChild);
+    var label = typeof b.date_label === "string" && b.date_label.trim() ? b.date_label.trim().slice(0, 60) : fmtDay(ymd(BACK_DATE));
+    bar.appendChild(el("span", "lbl", "Back issue: " + label));
+    var a = el("a", null, "Return to today’s paper");
+    a.href = pageBase();
+    bar.appendChild(a);
+    bar.hidden = false;
+  }
+  function backMissing() {
+    var tabs = document.getElementById("tabs");
+    if (tabs) tabs.hidden = true;
+    content.appendChild(el("p", "empty", "This back issue is not available."));
+    var box = el("div", "reprint");
+    var a = el("a", "reprint-btn", "Open today’s paper");
+    a.href = pageBase();
+    box.appendChild(a);
+    content.appendChild(box);
+  }
+  // Footer line: Yesterday's Paper, then up to six earlier dates. Shows nothing if the index is missing or has no earlier date.
+  function loadBackIssues(paperDate) {
+    try {
+      fetch("archive/index.json?v=" + Date.now(), { cache: "no-store" })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (j) { paintBackIssues(j, paperDate); })
+        .catch(function () { /* no index: no line */ });
+    } catch (e) { /* ignore */ }
+  }
+  function paintBackIssues(j, paperDate) {
+    var seen = {}, older = arr(j && j.dates).filter(function (d) {
+      if (!isDate(d) || d >= paperDate || seen[d]) return false;
+      seen[d] = true;
+      return true;
+    }).sort().reverse().slice(0, 7);
+    var f = document.getElementById("foot");
+    if (!older.length || !f) return;
+    var old = f.querySelector(".backissues");
+    if (old) f.removeChild(old);
+    var nav = el("nav", "backissues");
+    nav.setAttribute("aria-label", "Back issues");
+    nav.appendChild(el("span", "idx-label", "Back Issues"));
+    older.forEach(function (d, i) {
+      if (i) { txt(nav, " "); nav.appendChild(el("span", "dot", "•")); txt(nav, " "); }
+      var a = el("a", null, i === 0 ? "Yesterday’s Paper" : fmtDay(ymd(d)));
+      a.href = "?date=" + d;
+      nav.appendChild(a);
+    });
+    f.appendChild(nav);
+    Fit.schedule();
   }
 
   // ----- print a new edition (Apple Shortcut, then wait for the new brief.json) -----
@@ -967,8 +1150,10 @@
     return "shortcuts://x-callback-url/run-shortcut?name=" + encodeURIComponent(SHORTCUT_NAME) +
       "&x-success=" + encodeURIComponent(pageBase() + "?printed=" + Date.now());
   }
-  function printBox() {
+  var LISTEN_NAME = "Read Daily Brief";
+  function printBox(b) {
     var box = el("div", "reprint");
+    var row = el("div", "reprint-row");
     var a = el("a", "reprint-btn", "Print a New Edition");
     a.href = shortcutUrl();
     a.addEventListener("click", function () {
@@ -978,7 +1163,17 @@
     var st = el("p", "reprint-status");
     st.setAttribute("role", "status");
     printer.btn = a; printer.status = st;
-    box.appendChild(a); box.appendChild(st);
+    row.appendChild(a);
+    // The Listen button needs a spoken script in brief.json. The Shortcut reads it aloud.
+    if (b && typeof b.listen === "string" && b.listen.trim()) {
+      var col = el("div", "listen-col");
+      var l = el("a", "reprint-btn", "Listen to Today’s Paper");
+      l.href = "shortcuts://run-shortcut?name=" + encodeURIComponent(LISTEN_NAME);
+      col.appendChild(l);
+      col.appendChild(el("p", "reprint-tip", "Tip: Say “Hey Siri, Read Daily Brief” to listen hands-free."));
+      row.appendChild(col);
+    }
+    box.appendChild(row); box.appendChild(st);
     paintPrint();
     return box;
   }
@@ -1083,6 +1278,108 @@
     return box;
   }
 
+  // ----- The Week (Sunday only: brief.week) -----
+  // Returns a clean copy of brief.week, or null. Every field is optional; a week with no headline and no top stories is not shown.
+  function weekData(b) {
+    var w = b && b.week;
+    if (!w || typeof w !== "object" || Array.isArray(w)) return null;
+    function obj(x) { return x && typeof x === "object" && !Array.isArray(x); }
+    var out = {
+      headline: str(w.headline, 300).trim(),
+      paras: str(w.summary, 8000).split(/\n\s*\n/).map(function (x) { return x.replace(/\s+/g, " ").trim(); }).filter(Boolean).slice(0, 8),
+      top: arr(w.top).filter(obj).slice(0, 12),
+      liked: arr(w.liked).filter(function (x) { return obj(x) && str(x.title, 200).trim(); }).slice(0, 40),
+      sugg: arr(w.suggestions).filter(function (x) { return obj(x) && str(x.change, 400).trim(); }).slice(0, 10),
+      from: isDate(w.from) ? w.from : null, to: isDate(w.to) ? w.to : null
+    };
+    return out.headline || out.top.length ? out : null;
+  }
+  function weekBox(w) {
+    if (!w) return null;
+    var box = el("aside", "aux aux-week");
+    box.setAttribute("aria-label", "The week in review");
+    box.appendChild(el("span", "aux-title", "The Week in Review"));
+    if (w.headline) box.appendChild(el("p", "wk-head", w.headline));
+    var a = el("a", "aux-btn", "Read the week");
+    a.href = "#week";
+    a.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      selectTab("week", { focus: false });
+      var tabs = document.getElementById("tabs");
+      if (tabs && tabs.getBoundingClientRect().top < 0) tabs.scrollIntoView({ behavior: CALM ? "auto" : "smooth", block: "start" });
+    });
+    box.appendChild(a);
+    return box;
+  }
+  function renderWeek(w) {
+    var host = document.getElementById("panel-week");
+    if (!host || !w) return;
+    while (host.firstChild) host.removeChild(host.firstChild);
+    var page = el("div", "tabpage");
+    page.id = "page-week";
+
+    var intro = el("section", "week-intro");
+    intro.appendChild(secHead("The Week in Review"));
+    if (w.from && w.to) intro.appendChild(el("p", "week-dates", fmtDay(ymd(w.from)) + " to " + fmtDay(ymd(w.to))));
+    if (w.headline) intro.appendChild(el("h2", "week-head", w.headline));
+    if (w.paras.length) {
+      var sum = el("div", "week-sum");
+      w.paras.forEach(function (t) { sum.appendChild(el("p", null, t)); });
+      intro.appendChild(sum);
+    }
+    page.appendChild(intro);
+
+    if (w.top.length) {
+      var top = el("section", "tab-sec");
+      top.appendChild(secHead("Top Stories of the Week"));
+      var cols = el("div", "tab-cols");
+      w.top.forEach(function (it) {
+        cols.appendChild(story(it, { photo: safeImage(it.image) || (typeof it.video === "string" && VIDEO_ID.test(it.video)) ? "r32" : null, kicker: "source" }));
+      });
+      top.appendChild(cols);
+      page.appendChild(top);
+    }
+
+    var likedBox = el("section", "tab-sec week-narrow");
+    likedBox.appendChild(secHead("Your Most-Liked Stories"));
+    var shown = 0;
+    if (w.liked.length) {
+      var ul = el("ul", "week-liked");
+      w.liked.forEach(function (x) {
+        var li = el("li");
+        var href = safeUrl(x.url);
+        var a = el(href ? "a" : "span", null, str(x.title, 200).trim());
+        if (href) openLink(a, href); else a.className = "wtitle";
+        li.appendChild(a);
+        if (str(x.source, 80).trim()) li.appendChild(el("span", "wsrc", str(x.source, 80).trim()));
+        ul.appendChild(li);
+        shown++;
+      });
+      likedBox.appendChild(ul);
+    }
+    if (!shown) likedBox.appendChild(el("p", "week-none", "You liked no stories this week."));
+    page.appendChild(likedBox);
+
+    if (w.sugg.length) {
+      var sg = el("section", "tab-sec week-narrow");
+      sg.appendChild(secHead("Suggestions for Your Paper"));
+      var ol = el("ol", "week-sugg");
+      w.sugg.forEach(function (x) {
+        var li = el("li");
+        var body = el("div");
+        body.appendChild(el("b", "sg-change", str(x.change, 400).trim()));
+        if (str(x.reason, 600).trim()) body.appendChild(el("span", "sg-reason", str(x.reason, 600).trim()));
+        li.appendChild(body);
+        ol.appendChild(li);
+      });
+      sg.appendChild(ol);
+      sg.appendChild(el("p", "week-note", "Nothing changes on its own. To accept a suggestion, tell Claude its number."));
+      page.appendChild(sg);
+    }
+    host.appendChild(page);
+    tabsAvail.week = true;
+  }
+
   // ----- full scores (Sports tab) -----
   function gameRow(text, isResult) {
     var li = el("li");
@@ -1168,11 +1465,13 @@
     var when = b.generated_at ? new Date(b.generated_at) : null;
     renderScores(b.scores);
     renderDateline(b, when);
+    if (IS_BACK) renderBackBar(b);
+    var week = weekData(b);
 
     var lead = b.lead && typeof b.lead === "object" ? b.lead : null;
     var front = (Array.isArray(b.front) ? b.front : []).filter(function (x) { return x && typeof x === "object"; });
     if (!lead && front.length) { lead = front[0]; front = front.slice(1); }
-    var aux = [stoicBox(b.stoic), recallsBox(b.recalls)].filter(Boolean);
+    var aux = [weekBox(week), stoicBox(b.stoic), recallsBox(b.recalls)].filter(Boolean);
     if (lead) renderLead(lead, front, aux);
 
     var sections = (Array.isArray(b.sections) ? b.sections : []).filter(function (s) {
@@ -1198,6 +1497,9 @@
     }
     renderIndex(entries);
     renderFoot(b, when);
+    var paperDate = IS_BACK ? BACK_DATE : nyDate(when && !isNaN(when) ? when : new Date());
+    if (paperDate) loadBackIssues(paperDate);
+    renderWeek(week);   // no "week" in brief.json (every day but Sunday): the tab stays hidden
     renderTabs(b);   // old brief.json without "tabs": the five topic tabs simply stay hidden
     Fit.run();
     Fit.schedule(300);
@@ -1631,7 +1933,7 @@
   // PASS_KEY is the old localStorage passphrase; it is migrated to a key and then deleted.
   var PASS_KEY = "cmrlm-pass", TAB_KEY = "cmrlm-tab";
   var DB_NAME = "cmrlm", DB_STORE = "keys", DB_ID = "private";
-  var TABS = ["front", "news", "tech", "sports", "atlanta", "science", "today", "mail"];
+  var TABS = ["front", "week", "news", "tech", "sports", "atlanta", "science", "today", "mail"];
   var NY = "America/New_York";
   var MAIL_PREFIX = "https://mail.google.com/";
   var store = {
@@ -1994,7 +2296,12 @@
 
   // ----- tabs -----
   var wantTab = null;   // a tab asked for by the address or by memory before brief.json arrived
-  function available(id) { return TABS.indexOf(id) >= 0 && (TOPIC_TABS.indexOf(id) < 0 || !!tabsAvail[id]); }
+  var HIDEABLE = ["week"].concat(TOPIC_TABS);   // tabs that exist only when brief.json has their data
+  function available(id) {
+    if (TABS.indexOf(id) < 0) return false;
+    if (IS_BACK && (id === "today" || id === "mail")) return false;
+    return HIDEABLE.indexOf(id) < 0 || !!tabsAvail[id];
+  }
   function visibleTabs() { return TABS.filter(available); }
   function setHash(id) {
     try { history.replaceState(null, "", id === "front" ? location.pathname + location.search : "#" + id); } catch (e) {}
@@ -2016,7 +2323,8 @@
   }
   // Show the topic tabs that brief.tabs provided, hide the rest, and open a tab that was asked for early.
   function refreshTabs() {
-    TOPIC_TABS.forEach(function (t) { tabButtons[t].hidden = !tabsAvail[t]; });
+    HIDEABLE.forEach(function (t) { tabButtons[t].hidden = !tabsAvail[t]; });
+    document.getElementById("tabs").classList.toggle("has-week", !!tabsAvail.week);
     if (wantTab && available(wantTab)) {
       var w = wantTab;
       selectTab(w, { hash: false, user: false });
@@ -2053,9 +2361,158 @@
     if (available(want)) selectTab(want, { hash: want === h });
     else { wantTab = want; selectTab("front", { hash: false, persist: false, user: false }); }
   })();
-  loadPrivate();
+  if (!IS_BACK) loadPrivate();   // private data belongs to today's paper only
   loadWeather();
-  resumePrint();
+  if (!IS_BACK) resumePrint();
+
+  // ---------- Liked stories: mark a star, then send the marks to a Shortcut ----------
+  // brief.likes.v1 = { pending: { url: { t, s, c, at } }, sent: { url: ms } }. The copy in memory is the truth;
+  // localStorage only keeps it between visits, so a blocked or full store never breaks the stars.
+  var LIKES_KEY = "brief.likes.v1", LIKES_SHORTCUT = "Send Daily Brief Likes";
+  var SENT_KEEP = 45 * 86400000, LIKES_MAX = 40;
+  var likes = { pending: {}, sent: {}, batch: [] };
+  var likeBtns = [];   // { btn, url }
+  var pillEl = null, toastEl = null, toastTimer = null;
+
+  function has(o, k) { return Object.prototype.hasOwnProperty.call(o, k); }
+  function loadLikes() {
+    var next = { pending: {}, sent: {}, batch: [] }, raw = null, j = null;
+    try { raw = store.get(LIKES_KEY); j = raw ? JSON.parse(raw) : null; } catch (e) { j = null; }
+    if (j && typeof j === "object") {
+      var pend = j.pending && typeof j.pending === "object" ? j.pending : {};
+      Object.keys(pend).forEach(function (u) {
+        var v = pend[u];
+        if (!safeUrl(u) || !v || typeof v !== "object") return;
+        next.pending[u] = { t: str(v.t, 200), s: str(v.s, 80), c: str(v.c, 40), at: typeof v.at === "number" && isFinite(v.at) ? v.at : 0 };
+      });
+      var sent = j.sent && typeof j.sent === "object" ? j.sent : {};
+      Object.keys(sent).forEach(function (u) {
+        if (safeUrl(u) && typeof sent[u] === "number" && isFinite(sent[u])) next.sent[u] = sent[u];
+      });
+      next.batch = arr(j.batch).filter(function (u) { return typeof u === "string" && has(next.pending, u); }).slice(0, LIKES_MAX);
+    }
+    likes = next;
+  }
+  function saveLikes() {
+    try { store.set(LIKES_KEY, JSON.stringify(likes)); } catch (e) { /* memory copy still works */ }
+  }
+  function pruneSent() {
+    var cut = Date.now() - SENT_KEEP, changed = false;
+    Object.keys(likes.sent).forEach(function (u) { if (likes.sent[u] < cut) { delete likes.sent[u]; changed = true; } });
+    if (changed) saveLikes();
+  }
+  function pendingList() {   // oldest first, at most LIKES_MAX
+    return Object.keys(likes.pending).sort(function (a, b) { return likes.pending[a].at - likes.pending[b].at; }).slice(0, LIKES_MAX);
+  }
+
+  function likeButton(item) {
+    var url = item && safeUrl(item.url);
+    if (!url || url.length > 1000) return null;   // likes.py takes urls up to 1000 characters
+    var meta = { t: str(item.title || item.headline, 200), s: str(item.source, 80), c: str(item.topic, 40) };
+    var btn = el("button", "like");
+    btn.type = "button";
+    btn.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      toggleLike(url, meta);
+    });
+    likeBtns.push({ btn: btn, url: url });
+    paintLike(btn, url);
+    return btn;
+  }
+  function paintLike(btn, url) {
+    var sent = has(likes.sent, url), on = sent || has(likes.pending, url);
+    btn.textContent = on ? "★︎" : "☆︎";   // text-style stars, never emoji
+    btn.setAttribute("aria-pressed", on ? "true" : "false");
+    btn.classList.toggle("sent", sent);
+    if (sent) {
+      btn.setAttribute("aria-label", "Liked. Already sent.");
+      btn.setAttribute("aria-disabled", "true");
+      btn.title = "Already sent";
+    } else {
+      var label = on ? "Unlike this story" : "Like this story";
+      btn.setAttribute("aria-label", label);
+      btn.removeAttribute("aria-disabled");
+      btn.title = label;
+    }
+  }
+  function toggleLike(url, meta) {
+    if (has(likes.sent, url)) return;   // already sent: nothing to do
+    if (has(likes.pending, url)) delete likes.pending[url];
+    else likes.pending[url] = { t: meta.t, s: meta.s, c: meta.c, at: Date.now() };
+    likes.batch = [];
+    saveLikes();
+    paintLikes();
+  }
+  function paintLikes() {
+    likeBtns.forEach(function (x) { paintLike(x.btn, x.url); });
+    var n = Math.min(Object.keys(likes.pending).length, LIKES_MAX);
+    if (pillEl) {
+      pillEl.hidden = !n;
+      pillEl.textContent = "Send " + n + (n === 1 ? " like" : " likes");
+    }
+    document.body.classList.toggle("has-pill", n > 0);
+  }
+  function sendLikes() {
+    var urls = pendingList();
+    if (!urls.length) return;
+    var list = urls.map(function (u) {
+      var v = likes.pending[u];
+      return { u: u, t: str(v.t, 200), s: str(v.s, 80), c: str(v.c, 40) };
+    });
+    likes.batch = urls;   // on return, only these move to "sent" (the Shortcut takes 40 at most)
+    saveLikes();
+    var back = pageBase() + (BACK_DATE ? "?date=" + BACK_DATE : "") + "#likes-sent";
+    location.href = "shortcuts://x-callback-url/run-shortcut?name=" + encodeURIComponent(LIKES_SHORTCUT) +
+      "&input=text&text=" + encodeURIComponent(JSON.stringify(list)) + "&x-success=" + encodeURIComponent(back);
+  }
+  function toast(text) {
+    if (!toastEl) return;
+    toastEl.textContent = text;
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.textContent = ""; toastTimer = null; }, 3000);
+  }
+  // Back from the Shortcut (#likes-sent): the sent likes become "sent" stars.
+  function checkLikesSent() {
+    // iOS can add "?result=..." after the hash, so match the start only.
+    if (location.hash.indexOf("#likes-sent") !== 0) return;
+    var clean = location.pathname + (BACK_DATE ? "?date=" + BACK_DATE : "");
+    // Act only on a batch that this phone just sent. A stray link to #likes-sent must not clear the queue.
+    if (!likes.batch.length) {
+      try { history.replaceState(null, "", clean); } catch (e) { /* ignore */ }
+      return;
+    }
+    var now = Date.now();
+    var urls = likes.batch.slice();
+    urls.forEach(function (u) {
+      if (!has(likes.pending, u)) return;
+      delete likes.pending[u];
+      likes.sent[u] = now;
+    });
+    likes.batch = [];
+    saveLikes();
+    try { history.replaceState(null, "", clean); } catch (e) { /* ignore */ }
+    paintLikes();
+    toast("Likes sent.");
+  }
+  function startLikes() {
+    loadLikes();
+    pruneSent();
+    pillEl = el("button", "likepill", "Send 0 likes");
+    pillEl.type = "button";
+    pillEl.hidden = true;
+    pillEl.addEventListener("click", sendLikes);
+    toastEl = el("div", "toast");
+    toastEl.setAttribute("role", "status");
+    document.body.appendChild(pillEl);
+    document.body.appendChild(toastEl);
+    checkLikesSent();
+    paintLikes();
+    window.addEventListener("hashchange", checkLikesSent);
+    // Another tab or window changed the stars: follow it.
+    window.addEventListener("storage", function (ev) { if (ev.key === LIKES_KEY) { loadLikes(); paintLikes(); } });
+  }
+  startLikes();
 
   // DEMO SWITCH: null on the live site. A preview copy sets this to sample data.
   var DEMO_DATA = null;
@@ -2063,11 +2520,12 @@
   if (DEMO_DATA) {
     render(DEMO_DATA);
   } else {
-    fetch("brief.json?v=" + Date.now(), { cache: "no-store" })
+    fetch((IS_BACK ? "archive/" + BACK_DATE + ".json" : "brief.json") + "?v=" + Date.now(), { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(render)
       .catch(function () {
-        content.appendChild(el("p", "empty", "Today’s paper has not been printed yet."));
+        if (IS_BACK) backMissing();
+        else content.appendChild(el("p", "empty", "Today’s paper has not been printed yet."));
       });
   }
 })();
