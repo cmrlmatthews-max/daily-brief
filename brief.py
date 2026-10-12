@@ -51,6 +51,8 @@ ARCHIVE_NAME = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
 CHANNEL_ID = re.compile(r"UC[\w-]{22}", re.ASCII)
 YOUTUBE_FEED = "https://www.youtube.com/feeds/videos.xml?channel_id="
 VIDEO_MAX_TOKENS = 3000   # call 3: at most 12 short notes
+YOUTUBE_RETRY_WAIT = 2.0  # seconds before the one retry of a failed YouTube feed
+YOUTUBE_FOLD_AFTER = 3    # more channel failures than this are folded into one source error
 
 SYSTEM_PROMPT = """You are the editor of a short personal daily brief, laid out like a newspaper front page, for one reader.
 Pick the few items that are truly worth their attention today, and say why in plain words.
@@ -59,11 +61,11 @@ Rules:
 - Be selective. Prefer substance over hype. No clickbait.
 - Never invent facts. Use only what is in the item title and summary.
 - Refer to items by their id only. Never write URLs.
-- Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
+- Sports items only if they are real news (trades, injuries, results, fights).
 - A team source also carries stories about other teams and players. Name a team only when the item title
   or summary names it. Never take the team from the source name.
 - World items must be straight news, never opinion or analysis pieces.
-- Politics items must be news, or a plain description of what a video segment covers.
+- Politics items must be news.
   Use neutral wording. No adjectives that take a side.
 - Notes must be neutral and factual for World and for anything political. No adjectives that take a side.
 - "lead": the single most important story today. Strongly prefer an item with has_image=true,
@@ -154,11 +156,11 @@ Rules:
 - Never invent facts. Use only what is in the item title and summary.
 - Refer to items by id only. Never write URLs.
 - Note: 1 to 2 sentences, at most 35 words, saying what the story is and why it matters to this reader.
-- Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
+- Sports items only if they are real news (trades, injuries, results, fights).
 - A team source also carries stories about other teams and players. Name a team only when the item title
   or summary names it. Never take the team from the source name.
 - World items must be straight news, never opinion or analysis pieces.
-- Politics items must be news, or a plain description of what a video segment covers.
+- Politics items must be news.
 - Notes must be neutral and factual for World and for anything political. No adjectives that take a side.
 - Use the topic name exactly as listed. Do not leave "sections" empty.
 - has_image only tells you whether a picture is available. Never mention pictures in notes."""
@@ -214,6 +216,8 @@ Rules:
 - Note: 1 sentence, at most 25 words, saying what the video covers. Write it only from the title and description.
   Never invent facts.
 - Use neutral wording for politics. No adjectives that take a side.
+- A channel also posts about other teams and players. Name a team only when the title or description names it.
+  Never take the team from the channel name.
 - Refer to videos by id only. Never write URLs."""
 
 
@@ -712,9 +716,19 @@ def fetch_channel(s: requests.Session, ch: dict, group: str, yt: dict, summary_c
                   now: datetime) -> list[dict]:
     """One channel's newest videos: no Shorts, none older than max_age_days, only real watch links,
     newest first, at most per_channel. Topic is the group name, source is the channel name.
-    The picture is the feed thumbnail, else the standard YouTube still. Raises on a bad feed."""
+    The picture is the feed thumbnail, else the standard YouTube still. A feed with 0 views (an upcoming
+    premiere or scheduled live stream) is skipped. A 404, 429 or 5xx is tried once more after a short wait.
+    Raises on a bad feed."""
     r = s.get(ch["url"], timeout=TIMEOUT)
-    r.raise_for_status()
+    try:
+        r.raise_for_status()
+    except requests.HTTPError as exc:   # YouTube feeds often fail once and work a moment later
+        code = getattr(getattr(exc, "response", None), "status_code", None)
+        if not isinstance(code, int) or not (code in (404, 429) or 500 <= code < 600):
+            raise
+        time.sleep(YOUTUBE_RETRY_WAIT)
+        r = s.get(ch["url"], timeout=TIMEOUT)
+        r.raise_for_status()
     feed = feedparser.parse(r.content)
     if not feed.entries:
         raise ValueError("feed has no entries")
@@ -723,6 +737,8 @@ def fetch_channel(s: requests.Session, ch: dict, group: str, yt: dict, summary_c
     for e in feed.entries:
         link, title = e.get("link", ""), clean_text(e.get("title", ""))
         vid = youtube_id(link)
+        if str((e.get("media_statistics") or {}).get("views", "")).strip() == "0":
+            continue   # an upcoming premiere or a scheduled live stream; missing stats = keep
         published = to_iso(e.get("published_parsed") or e.get("updated_parsed"))
         if not vid or is_short(title, link, e.get("summary", "")) or not published or datetime.fromisoformat(published) < cutoff:
             continue
@@ -757,24 +773,42 @@ def fetch_youtube(cfg: dict, now: datetime | None = None) -> tuple[list[dict], l
 
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(run, jobs))
-    items, seen = [], set()
+    items, seen, failed = [], set(), []
     for found, err in results:
         if err:
-            errors.append(err)
+            failed.append(err)
         for it in found:
             if it["id"] not in seen:
                 seen.add(it["id"])
                 items.append(it)
+    if failed:
+        print(f"youtube: {len(failed)} of {len(jobs)} channels failed")
+    if len(failed) > YOUTUBE_FOLD_AFTER:   # one line instead of a wall of errors
+        names = ", ".join(e["source"] for e in failed)[:200]
+        errors.append({"source": "YouTube", "error": f"{len(failed)} of {len(jobs)} channels failed: {names}"})
+    else:
+        errors += failed
     return items, errors
 
 
-def drop_seen_yesterday(items: list[dict], site_url: str) -> list[dict]:
-    """Remove items whose URL was in yesterday's published brief. Ignore any failure."""
+def fetch_yesterday(site_url: str) -> dict:
+    """Yesterday's live brief.json as a dict, or {} on any failure. Never raises."""
     try:
         r = requests.get(site_url.rstrip("/") + "/brief.json", timeout=TIMEOUT,
                          headers={"User-Agent": USER_AGENT})
         r.raise_for_status()
         old = r.json()
+        return old if isinstance(old, dict) else {}
+    except Exception:
+        return {}
+
+
+def drop_seen_yesterday(items: list[dict], site_url: str, old: dict | None = None) -> list[dict]:
+    """Remove items whose URL was in yesterday's published brief. Ignore any failure.
+    `old` is the live brief when the caller already fetched it; else it is fetched here."""
+    try:
+        if old is None:
+            old = fetch_yesterday(site_url)
         urls = {i["url"].rstrip("/") for i in old.get("front", [])}
         if old.get("lead"):
             urls.add(old["lead"]["url"].rstrip("/"))
@@ -783,6 +817,18 @@ def drop_seen_yesterday(items: list[dict], site_url: str) -> list[dict]:
         return [i for i in items if i["url"].rstrip("/") not in urls]
     except Exception:
         return items
+
+
+def drop_seen_videos(videos: list[dict], old: dict | None) -> list[dict]:
+    """Remove fetched videos that were on yesterday's YouTube tab (old["videos"][*]["items"][*]["url"]).
+    Compared by YouTube id when the link has one, else by URL. Ignore any failure."""
+    try:
+        def key(url: str) -> str:
+            return youtube_id(url) or url.rstrip("/")
+        seen = {key(i["url"]) for g in (old or {}).get("videos", []) for i in g.get("items", [])}
+        return [v for v in videos if key(v["url"]) not in seen]
+    except Exception:
+        return videos
 
 
 # ---------- one paper per day ----------
@@ -1033,12 +1079,12 @@ def slim_items(items: list[dict]) -> list[dict]:
 
 
 def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int,
-                 model: str | None = None) -> tuple[dict, dict]:
+                 model: str | None = None, timeout: float = 180.0, max_retries: int = 2) -> tuple[dict, dict]:
     """One Claude call that must answer through `tool`. Returns (tool input, usage counts).
-    `model` defaults to cfg["model"]."""
+    `model` defaults to cfg["model"]. `timeout` (seconds) and `max_retries` go to the client."""
     import anthropic
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=180.0, max_retries=2)
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=timeout, max_retries=max_retries)
     msg = client.messages.create(
         model=model or cfg["model"], max_tokens=max_tokens, system=system,
         tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
@@ -1222,7 +1268,9 @@ def ask_videos(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
             f"Videos (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
             f"Pick {yt['pick_min']} to {yt['pick_max']} videos in total. Call publish_videos with your picks.")
     system = VIDEO_PROMPT.replace("{lo}", str(yt["pick_min"])).replace("{hi}", str(yt["pick_max"]))
-    return _forced_call(cfg, system, videos_tool(names, yt["pick_max"]), user, VIDEO_MAX_TOKENS, model=cfg["model"])
+    # The YouTube tab is optional, so a slow API gets a short leash: one try plus one retry, 60 seconds each.
+    return _forced_call(cfg, system, videos_tool(names, yt["pick_max"]), user, VIDEO_MAX_TOKENS, model=cfg["model"],
+                        timeout=60.0, max_retries=1)
 
 
 def _video_groups(picked: dict[str, list[dict]], yt: dict) -> list[dict]:
@@ -1270,15 +1318,16 @@ def fallback_videos(items: list[dict], yt: dict) -> list[dict]:
     return _video_groups(picked, yt)
 
 
-def make_videos(cfg: dict, items: list[dict], today: str, dry_run: bool = False) -> tuple[list[dict], dict]:
-    """The YouTube tab, as (videos, usage). It never stops the run: when the call fails or gives nothing
-    usable, the newest videos of each group are used (no notes). Prints counts only. Dry-run uses
-    fixtures/sample_videos_response.json."""
+def make_videos(cfg: dict, items: list[dict], today: str,
+                dry_run: bool = False) -> tuple[list[dict], dict, bool]:
+    """The YouTube tab, as (videos, usage, from_model). It never stops the run: when the call fails or gives
+    nothing usable, the newest videos of each group are used (no notes) and from_model is False. Prints counts
+    only. Dry-run uses fixtures/sample_videos_response.json."""
     usage = {"input_tokens": 0, "output_tokens": 0}
     try:
         yt = youtube_settings(cfg)
         if not yt or not items:
-            return [], usage
+            return [], usage, False
         choice = None
         try:
             if dry_run:
@@ -1287,16 +1336,16 @@ def make_videos(cfg: dict, items: list[dict], today: str, dry_run: bool = False)
                 choice, usage = ask_videos(cfg, items, today)
         except Exception as exc:
             print(f"videos: call failed ({type(exc).__name__})")
-        videos = build_videos(choice, items, yt)
+        videos, from_model = build_videos(choice, items, yt), True
         if not videos:
-            videos = fallback_videos(items, yt)
+            videos, from_model = fallback_videos(items, yt), False
             print("videos: fallback")
         print(f"videos: {sum(len(g['items']) for g in videos)} in {len(videos)} groups, "
               f"{len(items)} fetched")
-        return videos, usage
+        return videos, usage, from_model
     except Exception as exc:
         print(f"videos: skipped ({type(exc).__name__})")
-        return [], usage
+        return [], usage, False
 
 
 def swap_lead_if_imageless(out: dict) -> bool:
@@ -1718,7 +1767,9 @@ def main() -> int:
             for e in errors:
                 print(f"  skipped {e['source']}: {e['error']}")
             return 0
-        items = drop_seen_yesterday(items, cfg["site_url"])
+        old = fetch_yesterday(cfg["site_url"])   # one live fetch for the news items and the videos
+        items = drop_seen_yesterday(items, cfg["site_url"], old)
+        video_items = drop_seen_videos(video_items, old)
 
     if not items:
         print("error: no items to summarize", file=sys.stderr)
@@ -1776,7 +1827,7 @@ def main() -> int:
     tabs = out_items["tabs"]
 
     # Call 3: the YouTube tab. Videos are not sent to calls 1 and 2. It must never stop the run.
-    videos, video_usage = make_videos(cfg, video_items, today, dry_run=args.dry_run)
+    videos, video_usage, videos_from_model = make_videos(cfg, video_items, today, dry_run=args.dry_run)
     usage = {k: usage[k] + video_usage[k] for k in usage}
 
     # Private tabs (Today and Mail). Skipped without BRIEF_PASSPHRASE. Prints counts only, never private text.
@@ -1794,7 +1845,7 @@ def main() -> int:
                                  dry_run=args.dry_run)
     usage = {k: usage[k] + week_usage[k] for k in usage}
     models = {"front": front_model(cfg), "desk": cfg["model"]}
-    if videos:
+    if videos and videos_from_model:
         models["videos"] = cfg["model"]
     if week:
         models["week"] = week_model(cfg)

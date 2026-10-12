@@ -905,7 +905,7 @@
     return h;
   }
 
-  // opts: photo (frame shape), video (allow the player), half (halftone), kicker ("topic" | "source"), feature
+  // opts: photo (frame shape; a story with a video id gets a still with a play badge), half (halftone), kicker ("topic" | "source"), feature
   function story(item, opts) {
     opts = opts || {};
     var art = el("article", "item" + (opts.feature ? " feature" : ""));

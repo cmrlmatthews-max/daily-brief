@@ -57,8 +57,10 @@ reader_profile: >
   architecture and development in Atlanta, popular new GitHub repositories, and the
   Houston Rockets, Atlanta Braves, and San Francisco 49ers. He also follows UFC.
   He wants a short, neutral read on major world news, and on domestic politics from
-  independent media (The Majority Report, Breaking Points, The Lever, Drop Site News).
+  independent media such as The Lever and Drop Site News.
   He also likes space, science, nature and oceans, and Atlanta local news.
+  On YouTube he also watches cooking, woodworking and home-building channels, science and
+  engineering channels, and architecture and Revit/BIM tutorials.
 
 # Topics appear on the page in this order. The section name is the item topic.
 # Source types: rss | html_anthropic | github_search | espn_news
@@ -99,6 +101,9 @@ topics:
       - name: Drop Site News
         type: rss
         url: https://www.dropsitenews.com/feed
+      - name: NPR Politics
+        type: rss
+        url: https://feeds.npr.org/1014/rss.xml
 
   - name: World
     sources:
