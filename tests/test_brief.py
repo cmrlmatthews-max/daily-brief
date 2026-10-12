@@ -1,6 +1,7 @@
 """Unit checks for brief.py. Run with: python -m pytest -q"""
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
@@ -329,14 +330,12 @@ def test_sources_config():
     world = next(t for t in cfg["topics"] if t["name"] == "World")
     assert [s["name"] for s in world["sources"]] == ["NPR World", "NPR News", "BBC World"]
     names = {t["name"]: [s["name"] for s in t["sources"]] for t in cfg["topics"]}
-    assert names["Politics"] == ["The Lever", "Drop Site News", "The Majority Report", "Breaking Points",
-                                 "More Perfect Union"]
+    assert names["Politics"] == ["The Lever", "Drop Site News"]
     assert names["Atlanta"] == ["Rough Draft Atlanta", "Urbanize Atlanta", "SaportaReport"]
     assert "AEC Magazine" in names["Architecture"] and "Architosh" not in names["Architecture"]   # Architosh blocks the GitHub runner (403)
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
-    assert {"UFC (ESPN)", "Braves highlights", "Rockets highlights",
-            "49ers highlights"} <= set(names["Sports"])
+    assert names["Sports"] == ["Houston Rockets", "Atlanta Braves", "San Francisco 49ers", "UFC (ESPN)"]
     every = [s for t in cfg["topics"] for s in t["sources"]]
     assert {s["type"] for s in every} <= set(brief.FETCHERS)
     assert len({s["url"] for s in every}) == len(every)
@@ -370,10 +369,8 @@ def test_dry_run_writes_new_schema(tmp_path):
     every = [b["lead"]] + b["front"] + [i for s in b["sections"] for i in s["items"]]
     assert all(set(i) >= {"title", "url", "source", "topic", "note", "image", "video"} for i in every)
     assert "does-not-exist-123" not in json.dumps(b)
-    arch = next(s for s in b["sections"] if s["topic"] == "Architecture")
-    first_img = next(i for i in arch["items"] if i["image"])
-    assert first_img["source"] == "BIM Pure YouTube" and first_img["video"] == "abc123DEF45"
-    assert sum(1 for i in every if i["video"]) == 2          # BIM Pure and The Majority Report
+    assert not any(i["video"] for i in every)               # videos live only in the YouTube tab
+    assert not any(i["video"] for t in b["tabs"] for s in t["sections"] for i in s["items"])
     # tabs, recalls, stoic and the longer score lines
     assert [t["id"] for t in b["tabs"]] == ["news", "tech", "sports", "atlanta", "science"]
     for t in b["tabs"]:
@@ -388,6 +385,7 @@ def test_dry_run_writes_new_schema(tmp_path):
     for sc in b["scores"]:
         assert len(sc["recent"]) <= 3 and len(sc["upcoming"]) <= 3 and "last" in sc and "next" in sc
     assert b["usage"] == {"input_tokens": 0, "output_tokens": 0}
+    assert b["models"]["videos"] == "claude-haiku-5-5"
 
 
 # ---------- real feedparser parsing ----------
@@ -788,7 +786,10 @@ def test_fixture_stoic_text_yields_a_quote():
 
 # ---------- main(): two calls, fail-soft desk, summed usage ----------
 
-def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_week=False):
+def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_week=False, videos=None,
+             ask_videos=None, spy=None):
+    """Runs brief.main() with every network call replaced. `videos` are the fetched YouTube items,
+    `ask_videos` replaces call 3, and `spy` (a dict) gets the items that calls 1 and 2 were given."""
     items = json.loads((ROOT / "fixtures/sample_items.json").read_text())["items"]
     choice = json.loads((ROOT / "fixtures/sample_response.json").read_text())
     if edit_choice:
@@ -804,14 +805,26 @@ def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_we
     monkeypatch.setattr(brief, "SITE_DIR", tmp_path)
     monkeypatch.setattr(brief, "fetch_all", lambda cfg: (items, [{"source": "Bad feed", "error": "x"}]))
     monkeypatch.setattr(brief, "fetch_scores", lambda cfg: ([], []))
+    monkeypatch.setattr(brief, "fetch_youtube", lambda cfg: (list(videos or []), []))
+    monkeypatch.setattr(brief, "ask_videos", ask_videos or (lambda cfg, items, today: (_ for _ in ()).throw(
+        AssertionError("call 3 was not expected"))))
     monkeypatch.setattr(brief, "fetch_extras", lambda cfg, now: (
         [{"title": "R", "url": "https://fda.test/r", "published": "2026-10-11T00:00:00+00:00"}], None,
         [{"source": "Stoic", "error": "ConnectionError: x"}]))
     monkeypatch.setattr(brief, "drop_seen_yesterday", lambda items, url: items)
     monkeypatch.setattr(brief, "resolve_og_images", lambda out, no_image: 0)
-    monkeypatch.setattr(brief, "ask_claude", lambda cfg, items, today: (
-        choice, {"input_tokens": 100, "output_tokens": 10}))
-    monkeypatch.setattr(brief, "ask_desk", ask_desk)
+    def front_call(cfg, its, today):
+        if spy is not None:
+            spy["front"] = list(its)
+        return choice, {"input_tokens": 100, "output_tokens": 10}
+
+    def desk_call(cfg, its, today):
+        if spy is not None:
+            spy["desk"] = list(its)
+        return ask_desk(cfg, its, today)
+
+    monkeypatch.setattr(brief, "ask_claude", front_call)
+    monkeypatch.setattr(brief, "ask_desk", desk_call)
     assert brief.main() == 0
     return json.loads((tmp_path / "brief.json").read_text()), capsys.readouterr().out
 
@@ -1422,3 +1435,418 @@ def test_main_front_model_failure_retries_with_main_model(monkeypatch, tmp_path,
 def test_prompts_never_take_the_team_from_the_source_name():
     for prompt in (brief.SYSTEM_PROMPT, brief.DESK_PROMPT):
         assert "Never take the team from the source name." in prompt
+
+
+# ---------- the YouTube tab ----------
+
+YT = CFG["youtube"]
+YT_NOW = datetime(2026, 10, 12, 12, 0, tzinfo=timezone.utc)
+CHAN = "UCabcdefghijklmnopqrstuv"                     # a good id: UC plus 22 characters
+GOOD_IDS = [ch["id"] for g in YT["groups"] for ch in g["channels"]]
+
+
+def vid_cfg(**over):
+    """A small youtube config: group A with channels one and two, group B with channel three."""
+    block = {"max_age_days": 2, "per_channel": 3, "pick_min": 2, "pick_max": 4, "groups": [
+        {"name": "A", "channels": [{"name": "One", "id": "UC" + "1" * 22}, {"name": "Two", "id": "UC" + "2" * 22}]},
+        {"name": "B", "channels": [{"name": "Three", "id": "UC" + "3" * 22}]}]}
+    return {**CFG, "youtube": {**block, **over}}
+
+
+def atom(*rows):
+    """A YouTube-style Atom feed. rows are (video id, title, hours old, link or None, description)."""
+    out = ['<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom" '
+           'xmlns:media="http://search.yahoo.com/mrss/"><title>c</title>']
+    for vid, title, hours, link, desc in rows:
+        when = (YT_NOW - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+        out.append(f'<entry><id>yt:video:{vid}</id><title>{title}</title>'
+                   f'<link rel="alternate" href="{link or "https://www.youtube.com/watch?v=" + vid}"/>'
+                   f'<published>{when}</published><updated>{when}</updated><media:group>'
+                   f'<media:thumbnail url="https://i1.ytimg.com/vi/{vid}/hqdefault.jpg"/>'
+                   f'<media:description>{desc}</media:description></media:group></entry>')
+    return "".join(out) + "</feed>"
+
+
+class FeedSession:
+    """Stands in for requests.Session: one feed (or error) per feed url."""
+    feeds: dict = {}
+    asked: list = []
+
+    def __init__(self):
+        self.headers = {}
+
+    def get(self, url, timeout=None):
+        FeedSession.asked.append(url)
+        found = FeedSession.feeds.get(url)
+        if isinstance(found, Exception):
+            raise found
+        text = found if found is not None else ""
+
+        class R:
+            content = text.encode()
+
+            def raise_for_status(self):
+                if found is None:
+                    raise brief.requests.HTTPError("404 Client Error")
+        return R()
+
+
+def feed_url(n):
+    return brief.YOUTUBE_FEED + "UC" + str(n) * 22
+
+
+@pytest.fixture
+def yt_feeds(monkeypatch):
+    FeedSession.feeds, FeedSession.asked = {}, []
+    monkeypatch.setattr(brief.requests, "Session", FeedSession)
+    return FeedSession.feeds
+
+
+def test_youtube_config_loads_groups_and_checks_ids():
+    yt = brief.youtube_settings(CFG)
+    assert (yt["max_age_days"], yt["per_channel"], yt["pick_min"], yt["pick_max"]) == (2, 3, 8, 12)
+    assert [g["name"] for g in yt["groups"]] == ["News & Politics", "Sports", "Architecture & Building",
+                                                 "Tech & Science", "Make & Cook"]
+    assert [len(g["channels"]) for g in yt["groups"]] == [3, 8, 7, 9, 7]
+    assert yt["bad"] == [] and len(set(GOOD_IDS)) == len(GOOD_IDS) == 34
+    for g in yt["groups"]:
+        for ch in g["channels"]:
+            assert re.fullmatch(r"UC[\w-]{22}", ch["id"]) and ch["url"] == brief.YOUTUBE_FEED + ch["id"]
+    assert ch["name"] == "Home RenoVision DIY"
+    ids = {c["name"]: c["id"] for g in yt["groups"] for c in g["channels"]}
+    assert ids["Breaking Points"] == "UCDRIjKy6eZOvKtOELtTdeUA" and ids["Einzelgänger"] == "UCybBViio_TH_uiFFDJuz5tg"
+
+
+def test_youtube_config_skips_bad_ids_and_junk():
+    bad = {"max_age_days": "x", "per_channel": 0, "pick_min": 99, "pick_max": 5, "groups": [
+        {"name": "G", "channels": [
+            {"name": "ok", "id": CHAN},
+            {"name": "short", "id": "UC" + "a" * 21}, {"name": "long", "id": "UC" + "a" * 23},
+            {"name": "no prefix", "id": "XX" + "a" * 22}, {"name": "symbol", "id": "UC" + "a" * 21 + "!"},
+            {"name": "accent", "id": "UC" + "a" * 21 + "é"}, {"name": "newline", "id": CHAN[:-1] + "\n"},
+            {"name": "repeat", "id": CHAN}, {"name": "", "id": "UC" + "b" * 22}, "junk", None]},
+        {"name": "Empty", "channels": [{"name": "bad", "id": "nope"}]},
+        {"name": "G", "channels": [{"name": "same group name", "id": "UC" + "c" * 22}]}, "junk", None]}
+    yt = brief.youtube_settings({"youtube": bad})
+    assert [(g["name"], [c["name"] for c in g["channels"]]) for g in yt["groups"]] == [("G", ["ok"])]
+    assert "short" in yt["bad"] and "accent" in yt["bad"] and "repeat" in yt["bad"] and "bad" in yt["bad"]
+    assert (yt["max_age_days"], yt["per_channel"], yt["pick_max"], yt["pick_min"]) == (2, 3, 5, 5)   # bad numbers: defaults
+    for junk in (None, {}, {"youtube": None}, {"youtube": []}, {"youtube": {"groups": "x"}}, {"youtube": {"groups": []}}):
+        assert brief.youtube_settings(junk) is None
+
+
+def test_youtube_sources_are_no_longer_topic_sources():
+    every = [s for t in CFG["topics"] for s in t["sources"]]
+    assert not [s for s in every if "youtube.com" in s["url"]]
+    gone = {"The Majority Report", "Breaking Points", "More Perfect Union", "Braves highlights",
+            "Rockets highlights", "49ers highlights", "BIM Pure YouTube"}
+    assert not gone & {s["name"] for s in every}
+    assert {"BIM Pure", "Breaking Points"} <= {c["name"] for g in YT["groups"] for c in g["channels"]}
+
+
+def test_is_short():
+    assert brief.is_short("Clip", "https://www.youtube.com/shorts/abc123DEF45")
+    assert brief.is_short("Funny moment #Shorts", "https://www.youtube.com/watch?v=abc123DEF45")
+    assert brief.is_short("a #SHORTS b", "https://www.youtube.com/watch?v=abc123DEF45")
+    assert not brief.is_short("Short film about shorts", "https://www.youtube.com/watch?v=abc123DEF45")
+    assert brief.is_short("Clip", "https://www.youtube.com/watch?v=abc123DEF45", "Quick one #Shorts")
+    assert not brief.is_short("", "")
+
+
+def test_fetch_youtube_drops_shorts_old_videos_and_non_watch_links(yt_feeds):
+    yt_feeds[feed_url(1)] = atom(
+        ("aaaaaaaaaa1", "A real video", 5, None, "About the thing. See https://sponsor.test/x now"),
+        ("aaaaaaaaaa2", "Quick clip", 6, "https://www.youtube.com/shorts/aaaaaaaaaa2", "d"),
+        ("aaaaaaaaaa3", "Another quick clip #shorts", 7, None, "d"),
+        ("aaaaaaaaaa4", "Too old", 49, None, "d"),
+        ("aaaaaaaaaa7", "Clip with the tag in the description", 4, None, "Fun one #Shorts"),
+        ("aaaaaaaaaa5", "Playlist link", 8, "https://www.youtube.com/playlist?list=aaaaaaaaaa5", "d"),
+        ("aaaaaaaaaa6", "Just inside the window", 47, None, "d"))
+    items, errors = brief.fetch_youtube(vid_cfg(), YT_NOW)
+    one = [i for i in items if i["source"] == "One"]
+    assert [i["title"] for i in one] == ["A real video", "Just inside the window"] and errors[0]["source"] == "Two"
+    first = one[0]
+    assert first["topic"] == "A" and first["url"] == "https://www.youtube.com/watch?v=aaaaaaaaaa1"
+    assert first["image"] == "https://i1.ytimg.com/vi/aaaaaaaaaa1/hqdefault.jpg"
+    assert "sponsor.test" not in first["summary"] and first["summary"].startswith("About the thing.")
+    assert set(first) == {"id", "topic", "source", "title", "url", "published", "summary", "image"}
+    assert brief.youtube_id(first["url"]) == "aaaaaaaaaa1"
+
+
+def test_fetch_youtube_keeps_the_newest_per_channel_and_uses_a_fallback_thumbnail(yt_feeds):
+    rows = [(f"vvvvvvvvvv{n}", f"Video {n}", n, None, "d") for n in (9, 3, 7, 1, 5)]     # not in date order
+    yt_feeds[feed_url(1)] = atom(*rows).replace('<media:thumbnail url="https://i1.ytimg.com/vi/vvvvvvvvvv1/hqdefault.jpg"/>', "")
+    items, _ = brief.fetch_youtube(vid_cfg(), YT_NOW)
+    assert [i["title"] for i in items] == ["Video 1", "Video 3", "Video 5"]                # newest first, 3 kept
+    assert items[0]["image"] == "https://i.ytimg.com/vi/vvvvvvvvvv1/hqdefault.jpg"          # no thumbnail in the feed
+    items, _ = brief.fetch_youtube(vid_cfg(per_channel=1), YT_NOW)
+    assert [i["title"] for i in items] == ["Video 1"]
+
+
+def test_fetch_youtube_errors_name_the_channel_and_never_raise(yt_feeds):
+    yt_feeds[feed_url(1)] = atom(("bbbbbbbbbb1", "Good", 2, None, "d"))
+    yt_feeds[feed_url(2)] = brief.requests.ConnectionError("offline")
+    yt_feeds[feed_url(3)] = "<feed></feed>"                                              # parses, but has no entries
+    items, errors = brief.fetch_youtube(vid_cfg(), YT_NOW)
+    assert [i["title"] for i in items] == ["Good"]
+    assert [e["source"] for e in errors] == ["Two", "Three"]
+    assert "ConnectionError" in errors[0]["error"] and "no entries" in errors[1]["error"]
+    # a bad channel id in the config is reported by name, and its feed is never asked for
+    cfg = vid_cfg()
+    cfg["youtube"]["groups"][0]["channels"].append({"name": "Broken", "id": "nope"})
+    FeedSession.asked.clear()
+    _, errors = brief.fetch_youtube(cfg, YT_NOW)
+    assert errors[0] == {"source": "Broken", "error": "ValueError: bad channel id"}
+    assert len(FeedSession.asked) == 3 and all(u.startswith(brief.YOUTUBE_FEED + "UC") for u in FeedSession.asked)
+    assert brief.fetch_youtube({"topics": []}, YT_NOW) == ([], [])                        # nothing configured
+
+
+def test_fetch_youtube_same_video_on_two_channels_is_kept_once(yt_feeds):
+    row = ("cccccccccc1", "Shared", 3, None, "d")
+    yt_feeds[feed_url(1)] = atom(row)
+    yt_feeds[feed_url(2)] = atom(row)
+    items, _ = brief.fetch_youtube(vid_cfg(), YT_NOW)
+    assert [i["source"] for i in items] == ["One"]
+
+
+
+
+def video_items_fixture(groups=("A", "B"), per_group=3):
+    """Fetched videos: `per_group` per group, ids v1, v2, ... (newer videos have lower numbers)."""
+    out = []
+    for g, name in enumerate(groups):
+        for k in range(per_group):
+            n = g * per_group + k + 1
+            vid = f"vid{n:08d}"
+            out.append({"id": f"v{n}", "topic": name, "source": f"Chan {n}", "title": f"Video {n}",
+                        "url": f"https://www.youtube.com/watch?v={vid}", "summary": "s",
+                        "published": (YT_NOW - timedelta(hours=n)).isoformat(),
+                        "image": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"})
+    return out
+
+
+def picks(*groups):
+    """A model answer: picks(("A", "v1", "v2"), ("B", "v4")) -> {"groups": [...]}, with a note per id."""
+    return {"groups": [{"group": g, "items": [{"id": i, "note": f"Note {i}."} for i in ids]}
+                       for g, *ids in groups]}
+
+
+def test_build_videos_shape_order_and_unknown_ids():
+    yt = brief.youtube_settings(vid_cfg())
+    items = video_items_fixture()
+    choice = picks(("B", "v6", "nope", "v4"), ("A", "v2", "v6", "v1"), ("A", "v1"))   # B first; repeats and unknown ids
+    out = brief.build_videos(choice, items, yt)
+    assert [g["group"] for g in out] == ["A", "B"]                                    # configured group order
+    assert [i["title"] for i in out[0]["items"]] == ["Video 2", "Video 1"]             # model order kept in a group
+    assert [i["title"] for i in out[1]["items"]] == ["Video 6", "Video 4"]             # v6 stays with its first pick
+    story = out[0]["items"][0]
+    assert story == {"title": "Video 2", "url": "https://www.youtube.com/watch?v=vid00000002", "source": "Chan 2",
+                     "topic": "A", "note": "Note v2.", "image": "https://i.ytimg.com/vi/vid00000002/hqdefault.jpg",
+                     "video": "vid00000002"}
+
+
+def test_build_videos_puts_a_video_under_its_own_group_and_drops_empty_groups():
+    yt = brief.youtube_settings(vid_cfg())
+    out = brief.build_videos(picks(("B", "v1", "v2")), video_items_fixture(), yt)       # the model named the wrong group
+    assert [(g["group"], len(g["items"])) for g in out] == [("A", 2)]
+    for bad in (None, {}, [], {"groups": "x"}, {"groups": [None, "x", {"group": "A"}, {"group": "A", "items": "x"},
+                                                           {"group": "A", "items": [None, {"id": 5}, {"note": "n"}]}]}):
+        assert brief.build_videos(bad, video_items_fixture(), yt) == []
+
+
+def test_build_videos_trims_to_pick_max_in_group_order():
+    yt = brief.youtube_settings(vid_cfg(pick_max=4))
+    items = video_items_fixture(per_group=4)                                           # A: v1-v4, B: v5-v8
+    out = brief.build_videos(picks(("B", "v5", "v6"), ("A", "v3", "v1", "v2", "v4")), items, yt)
+    assert [(g["group"], [i["title"] for i in g["items"]]) for g in out] == [
+        ("A", ["Video 3", "Video 1", "Video 2", "Video 4"])]                           # group A fills all 4 places
+    out = brief.build_videos(picks(("A", "v1", "v2", "v3"), ("B", "v5", "v6")), items, yt)
+    assert [(g["group"], len(g["items"])) for g in out] == [("A", 3), ("B", 1)]
+    assert sum(len(g["items"]) for g in out) == 4
+
+
+def test_fallback_videos_newest_two_per_group_capped_without_notes():
+    yt = brief.youtube_settings(vid_cfg(pick_max=3))
+    items = video_items_fixture()
+    items[0]["published"], items[2]["published"] = items[2]["published"], items[0]["published"]   # v3 is now newest of A
+    out = brief.fallback_videos(items, yt)
+    assert [(g["group"], [i["title"] for i in g["items"]]) for g in out] == [
+        ("A", ["Video 3", "Video 2"]), ("B", ["Video 4"])]                              # capped at 3 in all
+    assert all(i["note"] == "" and i["video"] for g in out for i in g["items"])
+    assert brief.fallback_videos([], yt) == []
+
+
+def test_ask_videos_call_shape(fake_anthropic):
+    cfg = {**vid_cfg(), "model": "m-main"}
+    brief.ask_videos(cfg, video_items_fixture(), "Monday, October 12, 2026")
+    call = fake_anthropic[0]
+    assert call["model"] == "m-main" and call["tool_choice"] == {"type": "tool", "name": "publish_videos"}
+    assert call["max_tokens"] == brief.VIDEO_MAX_TOKENS
+    tool = call["tools"][0]
+    group = tool["input_schema"]["properties"]["groups"]["items"]["properties"]
+    assert group["group"]["enum"] == ["A", "B"] and tool["input_schema"]["required"] == ["groups"]
+    assert group["items"]["maxItems"] == 4
+    assert "2 to 4 videos in total" in call["system"] and "{lo}" not in call["system"]
+    for word in ("sponsor", "trailer", "3 hours", "near-duplicates", "25 words", "neutral", "id"):
+        assert word in call["system"]
+    user = call["messages"][0]["content"]
+    assert user.startswith("Reader profile:") and "Monday, October 12, 2026" in user
+    assert "Video 1" in user and "https://" not in user and "ytimg" not in user         # titles yes, links no
+
+
+def test_ask_videos_includes_recent_likes(fake_anthropic, monkeypatch, tmp_path):
+    folder = tmp_path / "data"
+    folder.mkdir()
+    (folder / "likes.jsonl").write_text(json.dumps(
+        {"u": "https://x.test/1", "t": "A liked story", "s": "NPR", "c": "World",
+         "at": datetime.now(timezone.utc).isoformat()}) + "\n")
+    monkeypatch.setenv("BRIEF_DATA_DIR", str(folder))
+    brief.ask_videos(vid_cfg(), video_items_fixture(), "Monday, October 12, 2026")
+    assert "A liked story" in fake_anthropic[0]["messages"][0]["content"]
+
+
+def test_make_videos_picks_trims_and_counts_usage(monkeypatch, capsys):
+    cfg = vid_cfg(pick_max=3)
+    items = video_items_fixture()
+    monkeypatch.setattr(brief, "ask_videos", lambda c, its, today: (
+        picks(("A", "v1", "v2"), ("B", "v4", "v5")), {"input_tokens": 50, "output_tokens": 8}))
+    videos, usage = brief.make_videos(cfg, items, "today")
+    assert [(g["group"], len(g["items"])) for g in videos] == [("A", 2), ("B", 1)] and usage["input_tokens"] == 50
+    assert capsys.readouterr().out == "videos: 3 in 2 groups, 6 fetched\n"              # counts only
+
+
+def test_make_videos_falls_back_when_the_call_fails_or_gives_nothing(monkeypatch, capsys):
+    cfg = vid_cfg()
+    items = video_items_fixture()
+
+    def boom(c, its, today):
+        raise RuntimeError("a private-looking message")
+    monkeypatch.setattr(brief, "ask_videos", boom)
+    videos, usage = brief.make_videos(cfg, items, "today")
+    out = capsys.readouterr().out
+    assert "videos: call failed (RuntimeError)" in out and "videos: fallback" in out and "private-looking" not in out
+    assert [(g["group"], [i["title"] for i in g["items"]]) for g in videos] == [
+        ("A", ["Video 1", "Video 2"]), ("B", ["Video 4", "Video 5"])]
+    assert all(i["note"] == "" for g in videos for i in g["items"]) and usage == {"input_tokens": 0, "output_tokens": 0}
+
+    monkeypatch.setattr(brief, "ask_videos", lambda c, its, today: (
+        picks(("A", "unknown-1", "unknown-2")), {"input_tokens": 9, "output_tokens": 1}))
+    videos, usage = brief.make_videos(cfg, items, "today")
+    assert "videos: fallback" in capsys.readouterr().out and len(videos) == 2 and usage["input_tokens"] == 9
+    assert brief.make_videos(cfg, [], "today")[0] == []                                  # nothing fetched: nothing to do
+    assert brief.make_videos({"topics": []}, items, "today")[0] == []                      # nothing configured
+
+
+def test_make_videos_never_raises(monkeypatch, capsys):
+    monkeypatch.setattr(brief, "fallback_videos", lambda its, yt: 1 / 0)
+    monkeypatch.setattr(brief, "ask_videos", lambda c, its, today: ({"groups": []}, {"input_tokens": 1, "output_tokens": 1}))
+    videos, usage = brief.make_videos(vid_cfg(), video_items_fixture(), "today")
+    assert videos == [] and "videos: skipped (ZeroDivisionError)" in capsys.readouterr().out
+
+
+def test_main_keeps_videos_out_of_calls_one_and_two_and_writes_the_videos_key(monkeypatch, tmp_path, capsys):
+    videos = video_items_fixture(("News & Politics", "Sports"))
+    spy, calls = {}, []
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+
+    def ask_videos(cfg, items, today):
+        calls.append(items)
+        return picks(("News & Politics", "v1"), ("Sports", "v5", "v4")), {"input_tokens": 40, "output_tokens": 9}
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (desk, {"input_tokens": 300, "output_tokens": 70}),
+                      videos=videos, ask_videos=ask_videos, spy=spy)
+    assert spy["front"] and spy["desk"]
+    for key in ("front", "desk"):
+        assert not [i for i in spy[key] if i["id"] in {v["id"] for v in videos} or "youtube.com" in i["url"]]
+    assert [c["id"] for c in calls[0]] == [v["id"] for v in videos]                       # call 3 sees the videos
+    assert b["usage"] == {"input_tokens": 440, "output_tokens": 89}                      # 100+300+40, 10+70+9
+    assert [g["group"] for g in b["videos"]] == ["News & Politics", "Sports"]
+    assert [i["title"] for i in b["videos"][1]["items"]] == ["Video 5", "Video 4"]
+    assert all(set(i) == {"title", "url", "source", "topic", "note", "image", "video"}
+               for g in b["videos"] for i in g["items"])
+    assert b["models"]["videos"] == brief.yaml.safe_load((ROOT / "sources.yaml").read_text())["model"]
+    assert "videos: 3 in 2 groups, 6 fetched" in out
+    assert not any(i.get("video") for t in b["tabs"] for s in t["sections"] for i in s["items"])
+
+
+def test_main_omits_the_videos_key_when_there_are_no_videos(monkeypatch, tmp_path, capsys):
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (desk, {"input_tokens": 0, "output_tokens": 0}))
+    assert "videos" not in b and "videos" not in b["models"] and "videos:" not in out
+    assert b["usage"] == {"input_tokens": 100, "output_tokens": 10}
+
+
+def test_main_video_call_failure_falls_back_and_still_succeeds(monkeypatch, tmp_path, capsys):
+    videos = video_items_fixture(("News & Politics", "Sports"))
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+
+    def boom(cfg, items, today):
+        raise RuntimeError("overloaded")
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (desk, {"input_tokens": 300, "output_tokens": 70}),
+                      videos=videos, ask_videos=boom)
+    assert "videos: fallback" in out and "overloaded" not in out
+    assert [(g["group"], len(g["items"])) for g in b["videos"]] == [("News & Politics", 2), ("Sports", 2)]
+    assert all(i["note"] == "" for g in b["videos"] for i in g["items"])
+    assert b["usage"] == {"input_tokens": 400, "output_tokens": 80}                       # calls 1 and 2 only
+    assert b["lead"] and b["tabs"]
+
+
+def test_main_a_crash_in_the_video_fetch_never_stops_the_run(monkeypatch, tmp_path, capsys):
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+    orig = monkeypatch.setattr
+
+    def patched(target, name, value=None, *a, **k):
+        if target is brief and name == "fetch_youtube":
+            value = lambda cfg: 1 / 0   # noqa: E731
+        return orig(target, name, value, *a, **k)
+    monkeypatch.setattr = patched
+    b, _ = run_main(monkeypatch, tmp_path, capsys, lambda cfg, items, today: (desk, {"input_tokens": 0, "output_tokens": 0}))
+    assert "videos" not in b and any(e["source"] == "YouTube" and "ZeroDivisionError" in e["error"]
+                                     for e in b["source_errors"])
+
+
+def test_fetch_only_writes_the_videos(monkeypatch, tmp_path, capsys):
+    videos = video_items_fixture(("News & Politics", "Sports"))
+    monkeypatch.setattr(sys, "argv", ["brief.py", "--fetch-only"])
+    monkeypatch.setattr(brief, "ROOT", tmp_path)                                         # out/items.json goes to a scratch folder
+    (tmp_path / "sources.yaml").write_text((ROOT / "sources.yaml").read_text(encoding="utf-8"), encoding="utf-8")
+    monkeypatch.setattr(brief, "fetch_all", lambda cfg: ([], []))
+    monkeypatch.setattr(brief, "fetch_youtube", lambda cfg: (videos, [{"source": "Bad channel", "error": "x"}]))
+    monkeypatch.setattr(brief, "fetch_scores", lambda cfg: ([], []))
+    monkeypatch.setattr(brief, "fetch_extras", lambda cfg, now: ([], None, []))
+    assert brief.main() == 0
+    saved = json.loads((tmp_path / "out/items.json").read_text())
+    assert [v["id"] for v in saved["videos"]] == [v["id"] for v in videos] and saved["items"] == []
+    assert saved["source_errors"] == [{"source": "Bad channel", "error": "x"}]
+    assert "6 videos" in capsys.readouterr().out
+
+
+def test_dry_run_produces_videos(tmp_path):
+    env = {**os.environ, "BRIEF_SITE_DIR": str(tmp_path), "BRIEF_DATA_DIR": str(tmp_path / "nodata")}
+    env.pop("BRIEF_PASSPHRASE", None)
+    r = subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"], capture_output=True, text=True, env=env)
+    assert r.returncode == 0, r.stderr
+    b = json.loads((tmp_path / "brief.json").read_text())
+    names = [g["name"] for g in YT["groups"]]
+    groups = [g["group"] for g in b["videos"]]
+    assert groups == [n for n in names if n in groups] and len(groups) >= 3             # config order, at least 3 groups
+    total = sum(len(g["items"]) for g in b["videos"])
+    assert YT["pick_min"] <= total <= YT["pick_max"]
+    ids = set()
+    for g in b["videos"]:
+        assert g["items"] and all(i["topic"] == g["group"] and i["note"] for i in g["items"])
+        for i in g["items"]:
+            assert re.fullmatch(r"[A-Za-z0-9_-]{11}", i["video"]) and i["url"].endswith(i["video"])
+            assert i["image"].startswith("https://i.ytimg.com/vi/") and i["video"] not in ids
+            ids.add(i["video"])
+    assert "not-a-real-video-id" not in json.dumps(b)
+    assert "videos: " in r.stdout and b["usage"] == {"input_tokens": 0, "output_tokens": 0}
+
+
+def test_video_fixture_items_are_well_formed():
+    items = json.loads((ROOT / "fixtures/sample_videos.json").read_text())["items"]
+    assert {i["topic"] for i in items} <= {g["name"] for g in YT["groups"]} and len(items) >= 12
+    assert len({i["topic"] for i in items}) >= 3 and len({i["id"] for i in items}) == len(items)
+    for i in items:
+        assert brief.youtube_id(i["url"]) and i["id"] == brief.item_id(i["url"]) and i["image"].startswith(
+            "https://i.ytimg.com/vi/")
+        assert not brief.is_short(i["title"], i["url"])

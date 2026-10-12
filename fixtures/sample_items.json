@@ -181,16 +181,6 @@
       "image": null
     },
     {
-      "id": "dece1f99b0",
-      "topic": "Architecture",
-      "source": "BIM Pure YouTube",
-      "title": "Dynamo automation for door schedules (video)",
-      "url": "https://www.youtube.com/watch?v=abc123DEF45",
-      "published": "2026-10-07T15:00:00+00:00",
-      "summary": "Step-by-step video on generating door schedules with Dynamo.",
-      "image": "https://i.ytimg.com/vi/abc123DEF45/hqdefault.jpg"
-    },
-    {
       "id": "d386ec1529",
       "topic": "Tech & AI",
       "source": "Hacker News front page",
@@ -301,36 +291,6 @@
       "image": "https://picsum.photos/seed/dropsite/800/450"
     },
     {
-      "id": "c9453f31c8",
-      "topic": "Politics",
-      "source": "The Majority Report",
-      "title": "Fixture video: Panel breakdown of the stopgap spending vote",
-      "url": "https://www.youtube.com/watch?v=mRpT0Fix001",
-      "published": "2026-10-09T22:00:00+00:00",
-      "summary": "A video segment covering the stopgap spending vote and what each party says about it.",
-      "image": "https://i.ytimg.com/vi/mRpT0Fix001/hqdefault.jpg"
-    },
-    {
-      "id": "e70e4a7d19",
-      "topic": "Politics",
-      "source": "Breaking Points",
-      "title": "Fixture video: What the new polling shows in three swing states",
-      "url": "https://www.youtube.com/watch?v=bPnT0Fix002",
-      "published": "2026-10-09T18:00:00+00:00",
-      "summary": "A video segment walking through new polling numbers in three swing states.",
-      "image": "https://i.ytimg.com/vi/bPnT0Fix002/hqdefault.jpg"
-    },
-    {
-      "id": "ac2cec0031",
-      "topic": "Politics",
-      "source": "More Perfect Union",
-      "title": "Fixture video: Workers vote on a first contract at a warehouse",
-      "url": "https://www.youtube.com/watch?v=mPuT0Fix003",
-      "published": "2026-10-08T16:00:00+00:00",
-      "summary": "A video report on a union vote at a regional warehouse.",
-      "image": "https://i.ytimg.com/vi/mPuT0Fix003/hqdefault.jpg"
-    },
-    {
       "id": "9729c2f50c",
       "topic": "Sports",
       "source": "UFC (ESPN)",
@@ -349,26 +309,6 @@
       "published": "2026-10-09T20:00:00+00:00",
       "summary": "A veteran welterweight has been booked for his first fight in a year.",
       "image": null
-    },
-    {
-      "id": "ad0de0b07e",
-      "topic": "Sports",
-      "source": "Braves highlights",
-      "title": "Fixture video: Braves highlights from the season finale",
-      "url": "https://www.youtube.com/watch?v=brvT0Fix004",
-      "published": "2026-10-09T03:00:00+00:00",
-      "summary": "Highlights from the Braves' final game of the regular season.",
-      "image": "https://i.ytimg.com/vi/brvT0Fix004/hqdefault.jpg"
-    },
-    {
-      "id": "7b552eeee7",
-      "topic": "Sports",
-      "source": "Rockets highlights",
-      "title": "Fixture video: Rockets preseason highlights",
-      "url": "https://www.youtube.com/watch?v=rktT0Fix005",
-      "published": "2026-10-09T01:00:00+00:00",
-      "summary": "Highlights from the Rockets' latest preseason game.",
-      "image": "https://i.ytimg.com/vi/rktT0Fix005/hqdefault.jpg"
     },
     {
       "id": "1cc16138f7",
@@ -439,6 +379,46 @@
       "published": "2026-10-08T10:00:00+00:00",
       "summary": "A study of tagged birds looks at how weather shapes the timing of migration.",
       "image": null
+    },
+    {
+      "id": "94ad32f488",
+      "topic": "Politics",
+      "source": "Drop Site News",
+      "title": "Fixture: Governors split over a plan to share disaster-relief costs",
+      "url": "https://www.dropsitenews.com/p/fixture-governors-disaster-relief",
+      "published": "2026-10-09T14:00:00+00:00",
+      "summary": "Governors from several states disagree on how to share the cost of federal disaster relief.",
+      "image": "https://picsum.photos/seed/governors/800/450"
+    },
+    {
+      "id": "e428334bd5",
+      "topic": "Politics",
+      "source": "The Lever",
+      "title": "Fixture: Lobbying records show who paid for the energy bill push",
+      "url": "https://levernews.com/fixture-energy-bill-lobbying/",
+      "published": "2026-10-08T12:00:00+00:00",
+      "summary": "Public records list the groups that paid for lobbying on a pending energy bill.",
+      "image": null
+    },
+    {
+      "id": "ee32242cb1",
+      "topic": "Politics",
+      "source": "Drop Site News",
+      "title": "Fixture: Court hears arguments in a state voting-map case",
+      "url": "https://www.dropsitenews.com/p/fixture-voting-map-case",
+      "published": "2026-10-08T09:00:00+00:00",
+      "summary": "A state court heard arguments over a voting map. A ruling is expected within weeks.",
+      "image": null
+    },
+    {
+      "id": "9fcb3463f7",
+      "topic": "Architecture",
+      "source": "AEC Magazine",
+      "title": "Fixture: A mass-timber office tower passes its fire test",
+      "url": "https://aecmag.com/fixture-mass-timber-fire-test/",
+      "published": "2026-10-09T11:00:00+00:00",
+      "summary": "A mass-timber office design passed a full-scale fire test, which may speed up approvals.",
+      "image": "https://picsum.photos/seed/masstimber/800/450"
     }
   ],
   "scores": [

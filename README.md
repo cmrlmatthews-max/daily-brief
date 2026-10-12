@@ -8,10 +8,10 @@ Live at https://cmrlmatthews-max.github.io/daily-brief/
 
 1. GitHub Actions runs `brief.py` every morning.
 2. The script reads the feeds listed in `sources.yaml`.
-3. It sends the items to Claude twice. Call 1 writes the front page: the lead, a few front stories, and 2 to 3 items per topic. Call 2 (the "desk") picks the 6 to 10 best items per topic, with a short note each, for the topic tabs. If call 2 fails, the run still succeeds: each tab then shows the newest items of each topic (up to 8) with no notes, and the log says `desk: fallback`.
+3. It sends the items to Claude twice (a third call picks the YouTube videos). Call 1 writes the front page: the lead, a few front stories, and 2 to 3 items per topic. Call 2 (the "desk") picks the 6 to 10 best items per topic, with a short note each, for the topic tabs. If call 2 fails, the run still succeeds: each tab then shows the newest items of each topic (up to 8) with no notes, and the log says `desk: fallback`.
 4. Claude only returns item ids. The script maps them back to the real titles and links. Unknown ids are dropped, so links are never invented.
 5. Team scores (the last result, plus the last 3 results and next 3 games per team), FDA recalls, and the Daily Stoic quote come straight from ESPN, the FDA feed and Project Gutenberg. No AI is involved. The Stoic quote is one whole sentence taken from the downloaded book and picked by the date, so it never changes during the day and is never written by a model.
-6. The script writes `site/brief.json` (with `lead`, `front`, `sections`, `tabs`, `recalls`, `stoic`, `scores`). The page `site/index.html` shows it.
+6. The script writes `site/brief.json` (with `lead`, `front`, `sections`, `tabs`, `videos`, `recalls`, `stoic`, `scores`). The page `site/index.html` shows it.
 
 ## The page
 
@@ -25,9 +25,13 @@ Nothing on the page is left empty. After the page is built, after fonts load, af
 
 Each item has a `video` field. It holds the 11-character YouTube id when the link is a YouTube watch link, otherwise `null`. The page never embeds a player. A video shows as a still sepia frame with a ▶ mark, and a tap opens the video on YouTube (the YouTube app on iPhone), so YouTube Premium applies and no ads play. All video comes from YouTube only.
 
+## YouTube tab
+
+Videos do not go in the news topics. They have their own tab, YouTube, built from the `youtube:` block in `sources.yaml`: channels in groups (News & Politics, Sports, Architecture & Building, Tech & Science, Make & Cook). The script reads each channel feed, leaves out Shorts, keeps only videos from the past 2 days, and keeps the newest 3 per channel. The videos are never sent to calls 1 and 2. A third Claude call (Haiku, the writer) picks the best 8 to 12, best first in each group, with a one-sentence note each. It writes the note only from the title and description. If that call fails, the tab shows the newest 2 videos of each group with no notes, and the log says `videos: fallback`. A bad channel is skipped and shows up in `source_errors`; it never stops the run. `site/brief.json` gets a `videos` list: `[{"group": "Sports", "items": [...]}]`, in the order of the config. The key is left out when there are no videos. Each item has the 11-character id in `video`, and a tap opens YouTube. The log shows counts only.
+
 ## Tabs
 
-The tab bar under the dateline has two rows. Row 1 is the paper: Front Page, News, Tech & AI, Sports, Atlanta, Science. Row 2 is private: Today and Mail. `#news`, `#sports` and the other tab ids in the address open those tabs, and the page remembers the last tab on each device. The fit script only measures Front Page. The topic tabs (set by `tabs:` in `sources.yaml`) come from a second Haiku call that picks 6 to 10 items per topic; if that call fails, each topic shows its newest items without notes.
+The tab bar under the dateline has two rows. Row 1 is the paper: Front Page, News, Tech & AI, Sports, Atlanta, Science, YouTube. Row 2 is private: Today and Mail. `#news`, `#sports` and the other tab ids in the address open those tabs, and the page remembers the last tab on each device. The fit script only measures Front Page. The topic tabs (set by `tabs:` in `sources.yaml`) come from a second Haiku call that picks 6 to 10 items per topic; if that call fails, each topic shows its newest items without notes.
 
 The weather ear in the header (right of the masthead) and the full weather block on the Atlanta tab are public. The browser asks Open-Meteo for Atlanta (city level, set by `WX_PLACE` in `site/index.html`). If that fails, both are left out. The Sports tab shows the last 3 results and next 3 games for each team. The Front Page also has a Daily Stoic line (from the public-domain George Long translation of Marcus Aurelius on Project Gutenberg) and an FDA Recalls box; each is hidden when its source fails.
 

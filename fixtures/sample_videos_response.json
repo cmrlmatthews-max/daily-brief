@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "id": "eaeb693817",
+          "note": "A walk through new polling numbers in three swing states and how they changed since last month."
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "id": "ddd6b033eb",
+          "note": "The two fighters meet face to face before the main event."
+        },
+        {
+          "id": "7bb2db91bc",
+          "note": "A coach breaks down film of how the defense stopped the run."
+        },
+        {
+          "id": "not-a-real-video-id",
+          "note": "An unknown id must be dropped."
+        },
+        {
+          "id": "8481ecbea6",
+          "note": "Highlights from the final game of the regular season."
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "id": "840b113fe3",
+          "note": "A step-by-step guide to building door schedules with Dynamo."
+        },
+        {
+          "id": "2722010a2b",
+          "note": "A plan for the last month of study before an ARE 5.0 exam."
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "id": "c641a6ca78",
+          "note": "A walkthrough of building a small research agent with the Claude API."
+        },
+        {
+          "id": "e1da286cb7",
+          "note": "Slow-motion footage of fluid inside a spinning container."
+        },
+        {
+          "id": "f44f518e20",
+          "note": "Scratch, burn and bend tests on a new folding phone."
+        },
+        {
+          "id": "763e38a34e",
+          "note": "Rangers follow the tracks of a snow leopard in high country."
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "id": "7aeb300e0d",
+          "note": "A method for a juicy thick pork chop with a pan sauce."
+        },
+        {
+          "id": "c1f6d24f1d",
+          "note": "A slab of walnut becomes a dining table in a few steps."
+        }
+      ]
+    }
+  ]
+}

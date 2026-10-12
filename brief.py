@@ -4,11 +4,12 @@
 Fetches feeds, asks Claude to pick and summarize items, writes site/brief.json.
 The page is a front page (one lead story, a few front stories, 2 to 3 items per topic) plus one tab per
 topic group. Call 1 to Claude writes the front page. Call 2 picks the longer list for the topic tabs.
+Call 3 picks the best YouTube videos of the past two days for the YouTube tab.
 
 Usage:
     ANTHROPIC_API_KEY=... python brief.py
     python brief.py --dry-run      # no network, uses fixtures/ (also writes a demo site/private.enc)
-    python brief.py --fetch-only   # fetch + normalize, write out/items.json
+    python brief.py --fetch-only   # fetch + normalize (news items and videos), write out/items.json
 """
 from __future__ import annotations
 
@@ -47,6 +48,9 @@ OG_MAX_FETCHES = 25
 LEAD_NOTE_CHARS = 1200   # about 150 words with headroom
 LISTEN_CHARS = 4000      # the spoken script, about 450 words with headroom
 ARCHIVE_NAME = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
+CHANNEL_ID = re.compile(r"UC[\w-]{22}", re.ASCII)
+YOUTUBE_FEED = "https://www.youtube.com/feeds/videos.xml?channel_id="
+VIDEO_MAX_TOKENS = 3000   # call 3: at most 12 short notes
 
 SYSTEM_PROMPT = """You are the editor of a short personal daily brief, laid out like a newspaper front page, for one reader.
 Pick the few items that are truly worth their attention today, and say why in plain words.
@@ -192,6 +196,57 @@ def desk_tool(section_names: list[str]) -> dict[str, Any]:
                 },
             },
             "required": ["sections"],
+        },
+    }
+
+
+VIDEO_PROMPT = """You are the video editor of a short personal daily newspaper, for one reader.
+You fill the YouTube page. The reader has YouTube Premium and wants to watch only videos that are worth the time.
+
+Rules:
+- Pick the best {lo} to {hi} videos in total from the list. Pick fewer only if the list has fewer.
+- Put each pick under the group of its item. Use the group name exactly as listed.
+- Put the best video first within each group.
+- Spread the picks across the groups. Pick at least one video from every group that has any, if the quality allows.
+- Be selective. Prefer substance over hype. No clickbait.
+- Skip a clip that is only a promo, a trailer, or a sponsor read. Skip a livestream replay when the title or
+  description says it is over 3 hours long. Skip near-duplicates: of videos that cover the same thing, pick the best one.
+- Note: 1 sentence, at most 25 words, saying what the video covers. Write it only from the title and description.
+  Never invent facts.
+- Use neutral wording for politics. No adjectives that take a side.
+- Refer to videos by id only. Never write URLs."""
+
+
+def videos_tool(group_names: list[str], pick_max: int) -> dict[str, Any]:
+    """The forced tool for call 3 (the YouTube tab). Group names come from sources.yaml, so the enum always matches."""
+    return {
+        "name": "publish_videos",
+        "description": "Publish the YouTube page by listing the chosen video ids with a short note each, by group.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "groups": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "group": {"type": "string", "enum": list(group_names)},
+                            "items": {"type": "array", "minItems": 1, "maxItems": pick_max,
+                                      "items": {
+                                          "type": "object",
+                                          "properties": {"id": {"type": "string"},
+                                                         "note": {"type": "string",
+                                                                  "description": "1 sentence, at most 25 words, "
+                                                                                 "from the title and description only. "
+                                                                                 "No invented facts."}},
+                                          "required": ["id", "note"]}},
+                        },
+                        "required": ["group", "items"],
+                    },
+                },
+            },
+            "required": ["groups"],
         },
     }
 
@@ -590,6 +645,126 @@ def fetch_all(cfg: dict) -> tuple[list[dict], list[dict]]:
             items.append(q.pop(0))
             if not q:
                 queues.remove(q)
+    return items, errors
+
+
+# ---------- YouTube (its own tab; the videos never go to calls 1 and 2) ----------
+
+URL_IN_TEXT = re.compile(r"https?://\S+")
+
+
+def _count(value: Any, default: int, lo: int = 1, hi: int = 1000) -> int:
+    """A whole number inside [lo, hi] from the config, else `default`."""
+    try:
+        n = int(value)
+    except (TypeError, ValueError):
+        return default
+    return n if lo <= n <= hi else default
+
+
+def youtube_settings(cfg: dict) -> dict | None:
+    """The `youtube:` block, checked. Returns {"max_age_days", "per_channel", "pick_min", "pick_max",
+    "groups": [{"name", "channels": [{"name", "id", "url"}]}], "bad": [names of skipped channels]}, or None
+    when there is nothing to fetch. A channel id must be UC plus 22 letters, digits, "_" or "-"; a channel with
+    a bad or repeated id, or no name, is skipped. A group with no good channel is dropped. Never raises."""
+    raw = cfg.get("youtube") if isinstance(cfg, dict) else None
+    if not isinstance(raw, dict):
+        return None
+    groups, bad, seen_ids, seen_names = [], [], set(), set()
+    for g in raw.get("groups") if isinstance(raw.get("groups"), list) else []:
+        if not isinstance(g, dict):
+            continue
+        gname = clean_text(str(g.get("name") or ""), 60)
+        if not gname or gname in seen_names:
+            continue
+        channels = []
+        for ch in g.get("channels") if isinstance(g.get("channels"), list) else []:
+            if not isinstance(ch, dict):
+                continue
+            cid, cname = str(ch.get("id") or "").strip(), clean_text(str(ch.get("name") or ""), 80)
+            if not CHANNEL_ID.fullmatch(cid) or not cname or cid in seen_ids:
+                bad.append(cname or "unnamed channel")
+                continue
+            seen_ids.add(cid)
+            channels.append({"name": cname, "id": cid, "url": YOUTUBE_FEED + cid})
+        if channels:
+            seen_names.add(gname)
+            groups.append({"name": gname, "channels": channels})
+    if not groups:
+        return None
+    pick_max = _count(raw.get("pick_max"), 12, 1, 50)
+    return {"max_age_days": _count(raw.get("max_age_days"), 2, 1, 30),
+            "per_channel": _count(raw.get("per_channel"), 3, 1, 15),
+            "pick_min": min(_count(raw.get("pick_min"), 8, 1, 50), pick_max), "pick_max": pick_max,
+            "groups": groups, "bad": bad}
+
+
+def is_short(title: str, link: str, summary: str = "") -> bool:
+    """A YouTube Short: the link path starts with /shorts/, or the title or summary has #shorts (any case)."""
+    try:
+        path = urlsplit(link or "").path
+    except ValueError:
+        path = ""
+    return path.startswith("/shorts/") or "#shorts" in f"{title or ''} {summary or ''}".lower()
+
+
+def fetch_channel(s: requests.Session, ch: dict, group: str, yt: dict, summary_chars: int,
+                  now: datetime) -> list[dict]:
+    """One channel's newest videos: no Shorts, none older than max_age_days, only real watch links,
+    newest first, at most per_channel. Topic is the group name, source is the channel name.
+    The picture is the feed thumbnail, else the standard YouTube still. Raises on a bad feed."""
+    r = s.get(ch["url"], timeout=TIMEOUT)
+    r.raise_for_status()
+    feed = feedparser.parse(r.content)
+    if not feed.entries:
+        raise ValueError("feed has no entries")
+    cutoff = now - timedelta(days=yt["max_age_days"])
+    items = []
+    for e in feed.entries:
+        link, title = e.get("link", ""), clean_text(e.get("title", ""))
+        vid = youtube_id(link)
+        published = to_iso(e.get("published_parsed") or e.get("updated_parsed"))
+        if not vid or is_short(title, link, e.get("summary", "")) or not published or datetime.fromisoformat(published) < cutoff:
+            continue
+        image = entry_image(e, link) or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
+        it = make_item(group, ch["name"], title, link, published, URL_IN_TEXT.sub("", e.get("summary", "")),
+                       summary_chars, image)
+        if it:
+            items.append(it)
+    items.sort(key=lambda i: i["published"], reverse=True)
+    return items[: yt["per_channel"]]
+
+
+def fetch_youtube(cfg: dict, now: datetime | None = None) -> tuple[list[dict], list[dict]]:
+    """Fetch every YouTube channel in parallel. Returns (items, source_errors); items are in group order,
+    then channel order, newest first within a channel. A bad channel is a source error, never a stop."""
+    yt = youtube_settings(cfg)
+    if not yt:
+        return [], []
+    errors = [{"source": name, "error": "ValueError: bad channel id"} for name in yt["bad"]]
+    s = requests.Session()
+    s.headers["User-Agent"] = USER_AGENT
+    now = now or datetime.now(timezone.utc)
+    summary_chars = int(cfg.get("summary_chars", 300))
+    jobs = [(g["name"], ch) for g in yt["groups"] for ch in g["channels"]]
+
+    def run(job: tuple[str, dict]) -> tuple[list[dict], dict | None]:
+        group, ch = job
+        try:
+            return fetch_channel(s, ch, group, yt, summary_chars, now), None
+        except Exception as exc:  # one bad channel must never stop the run
+            return [], {"source": ch["name"], "error": f"{type(exc).__name__}: {exc}"[:140]}
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        results = list(pool.map(run, jobs))
+    items, seen = [], set()
+    for found, err in results:
+        if err:
+            errors.append(err)
+        for it in found:
+            if it["id"] not in seen:
+                seen.add(it["id"])
+                items.append(it)
     return items, errors
 
 
@@ -1031,6 +1206,99 @@ def build_tabs(desk_choice: Any, items: list[dict], cfg: dict) -> list[dict]:
     return tabs
 
 
+# ---------- call 3: the YouTube tab ----------
+
+def ask_videos(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
+    """Call 3: the best videos for the YouTube tab, by group. Uses the main (cheaper) model."""
+    yt = youtube_settings(cfg)
+    if not yt:
+        raise ValueError("no youtube config")
+    names = [g["name"] for g in yt["groups"]]
+    have = {i["topic"] for i in items}
+    slim = [{"id": i["id"], "group": i["topic"], "channel": i["source"], "title": i["title"],
+             "summary": i["summary"], "published": i["published"]} for i in items]
+    user = (f"{reader_block(cfg)}Today is {today}.\n\n"
+            f"Groups (in this order): {', '.join(n for n in names if n in have)}\n\n"
+            f"Videos (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
+            f"Pick {yt['pick_min']} to {yt['pick_max']} videos in total. Call publish_videos with your picks.")
+    system = VIDEO_PROMPT.replace("{lo}", str(yt["pick_min"])).replace("{hi}", str(yt["pick_max"]))
+    return _forced_call(cfg, system, videos_tool(names, yt["pick_max"]), user, VIDEO_MAX_TOKENS, model=cfg["model"])
+
+
+def _video_groups(picked: dict[str, list[dict]], yt: dict) -> list[dict]:
+    """[{"group", "items"}] in the configured group order, trimmed to pick_max in that order. No empty groups."""
+    out, room = [], yt["pick_max"]
+    for g in yt["groups"]:
+        rows = picked.get(g["name"], [])[:room]
+        if rows:
+            out.append({"group": g["name"], "items": rows})
+            room -= len(rows)
+        if room <= 0:
+            break
+    return out
+
+
+def build_videos(choice: Any, items: list[dict], yt: dict) -> list[dict]:
+    """The "videos" list of brief.json: [{"group", "items": [story...]}] in configured group order.
+    Model-chosen ids map back to real items; unknown and repeated ids are dropped, and a video always sits
+    under its own group. The best-first order of the model is kept inside a group. The total is trimmed to
+    pick_max (in group order). Empty groups are left out."""
+    by_id = {i["id"]: i for i in items}
+    picked: dict[str, list[dict]] = {}
+    seen: set[str] = set()
+    groups = choice.get("groups") if isinstance(choice, dict) else None
+    for grp in groups if isinstance(groups, list) else []:
+        entries = grp.get("items") if isinstance(grp, dict) else None
+        for e in entries if isinstance(entries, list) else []:
+            iid = e.get("id") if isinstance(e, dict) else None
+            if not isinstance(iid, str) or iid not in by_id or iid in seen:
+                continue
+            seen.add(iid)
+            it = by_id[iid]
+            picked.setdefault(it["topic"], []).append(make_story(it, e.get("note")))
+    return _video_groups(picked, yt)
+
+
+def fallback_videos(items: list[dict], yt: dict) -> list[dict]:
+    """When call 3 fails: the newest 2 videos of each group, in group order, up to pick_max, with no notes."""
+    picked: dict[str, list[dict]] = {}
+    for g in yt["groups"]:
+        newest = sorted((i for i in items if i["topic"] == g["name"]), key=lambda i: i.get("published") or "",
+                        reverse=True)
+        if newest:
+            picked[g["name"]] = [make_story(i, "") for i in newest[:2]]
+    return _video_groups(picked, yt)
+
+
+def make_videos(cfg: dict, items: list[dict], today: str, dry_run: bool = False) -> tuple[list[dict], dict]:
+    """The YouTube tab, as (videos, usage). It never stops the run: when the call fails or gives nothing
+    usable, the newest videos of each group are used (no notes). Prints counts only. Dry-run uses
+    fixtures/sample_videos_response.json."""
+    usage = {"input_tokens": 0, "output_tokens": 0}
+    try:
+        yt = youtube_settings(cfg)
+        if not yt or not items:
+            return [], usage
+        choice = None
+        try:
+            if dry_run:
+                choice = json.loads((ROOT / "fixtures/sample_videos_response.json").read_text(encoding="utf-8"))
+            else:
+                choice, usage = ask_videos(cfg, items, today)
+        except Exception as exc:
+            print(f"videos: call failed ({type(exc).__name__})")
+        videos = build_videos(choice, items, yt)
+        if not videos:
+            videos = fallback_videos(items, yt)
+            print("videos: fallback")
+        print(f"videos: {sum(len(g['items']) for g in videos)} in {len(videos)} groups, "
+              f"{len(items)} fetched")
+        return videos, usage
+    except Exception as exc:
+        print(f"videos: skipped ({type(exc).__name__})")
+        return [], usage
+
+
 def swap_lead_if_imageless(out: dict) -> bool:
     """If the lead has no image and a front story has one, swap them. Returns True if swapped.
     The new lead uses its own title as headline and has no decks.
@@ -1411,13 +1679,14 @@ def main() -> int:
     ap.add_argument("--check-today", action="store_true", help="say whether today's paper is already out, then exit")
     args = ap.parse_args()
 
-    cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8"))
     if args.check_today:
         check_today(cfg)
         return 0
     now = datetime.now(TZ)
     today = f"{now:%A, %B} {now.day}, {now.year}"
     errors: list[dict] = []
+    video_items: list[dict] = []
 
     if not (args.dry_run or args.fetch_only or os.environ.get("ANTHROPIC_API_KEY")):
         print("error: ANTHROPIC_API_KEY is not set. Set it, or use --dry-run.", file=sys.stderr)
@@ -1428,18 +1697,24 @@ def main() -> int:
         items, scores = fixture["items"], fixture.get("scores", [])
         recalls = load_recalls_fixture(ROOT / "fixtures/sample_recalls.xml", cfg, now)
         stoic = pick_stoic((ROOT / "fixtures/sample_stoic.txt").read_text(), cfg["stoic"], now)
+        video_items = json.loads((ROOT / "fixtures/sample_videos.json").read_text(encoding="utf-8"))["items"]
     else:
         items, errors = fetch_all(cfg)
         scores, score_errors = fetch_scores(cfg)
         recalls, stoic, extra_errors = fetch_extras(cfg, now)
         errors += score_errors + extra_errors
+        try:   # the YouTube channels must never stop the run
+            video_items, video_errors = fetch_youtube(cfg)
+        except Exception as exc:
+            video_items, video_errors = [], [{"source": "YouTube", "error": f"{type(exc).__name__}: {exc}"[:140]}]
+        errors += video_errors
         if args.fetch_only:
             (ROOT / "out").mkdir(exist_ok=True)
             (ROOT / "out/items.json").write_text(json.dumps(
-                {"items": items, "scores": scores, "recalls": recalls, "stoic": stoic, "source_errors": errors},
-                indent=2, ensure_ascii=False))
-            print(f"fetched {len(items)} items, {len(scores)} scores, {len(recalls)} recalls, "
-                  f"{len(errors)} errors -> out/items.json")
+                {"items": items, "videos": video_items, "scores": scores, "recalls": recalls, "stoic": stoic,
+                 "source_errors": errors}, indent=2, ensure_ascii=False))
+            print(f"fetched {len(items)} items, {len(video_items)} videos, {len(scores)} scores, "
+                  f"{len(recalls)} recalls, {len(errors)} errors -> out/items.json")
             for e in errors:
                 print(f"  skipped {e['source']}: {e['error']}")
             return 0
@@ -1500,6 +1775,10 @@ def main() -> int:
         print("lead had no image; swapped with a front story that has one")
     tabs = out_items["tabs"]
 
+    # Call 3: the YouTube tab. Videos are not sent to calls 1 and 2. It must never stop the run.
+    videos, video_usage = make_videos(cfg, video_items, today, dry_run=args.dry_run)
+    usage = {k: usage[k] + video_usage[k] for k in usage}
+
     # Private tabs (Today and Mail). Skipped without BRIEF_PASSPHRASE. Prints counts only, never private text.
     extra = private.run_private(cfg, now, SITE_DIR, ROOT, dry_run=args.dry_run)
     usage = {k: usage[k] + extra[k] for k in ("input_tokens", "output_tokens")}
@@ -1515,6 +1794,8 @@ def main() -> int:
                                  dry_run=args.dry_run)
     usage = {k: usage[k] + week_usage[k] for k in usage}
     models = {"front": front_model(cfg), "desk": cfg["model"]}
+    if videos:
+        models["videos"] = cfg["model"]
     if week:
         models["week"] = week_model(cfg)
         if now.weekday() == 6:
@@ -1527,6 +1808,8 @@ def main() -> int:
              "lead": lead, "front": front, "sections": sections, "tabs": tabs,
              "recalls": recalls, "stoic": stoic,
              "scores": scores, "source_errors": errors, "usage": usage}
+    if videos:
+        brief["videos"] = videos
     if week:
         brief["week"] = week
     out = SITE_DIR / "brief.json"

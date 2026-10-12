@@ -16,7 +16,7 @@ max_total_items: 180       # items sent to Claude in total
 summary_chars: 300         # each item summary is cut to this length
 
 # Tabs after Front Page, in order. Each tab shows the listed topics (topic names below).
-# Front Page, Today and Mail are built into the page, so they are not listed here.
+# Front Page, YouTube, Today and Mail are built into the page, so they are not listed here.
 tabs:
   - {id: news, name: News, topics: [Politics, World]}
   - {id: tech, name: Tech & AI, topics: [Tech & AI]}
@@ -99,15 +99,6 @@ topics:
       - name: Drop Site News
         type: rss
         url: https://www.dropsitenews.com/feed
-      - name: The Majority Report   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-3jIAlnQmbbVMV6gR7K8aQ
-      - name: Breaking Points   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCDRIjKy6eZOvKtOELtTdeUA
-      - name: More Perfect Union   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCehBVAPy-bxmnbNARF-_tvA
 
   - name: World
     sources:
@@ -148,15 +139,6 @@ topics:
       - name: UFC (ESPN)
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/mma/ufc/news
-      - name: Braves highlights   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNWnkblY5_kmf4OQ9l0LgnA
-      - name: Rockets highlights   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UChdTjGHWrl-scbthhYSGB3g
-      - name: 49ers highlights   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UCeIOarQkwmGhimim9cDUTng
 
   - name: Atlanta
     sources:
@@ -181,9 +163,6 @@ topics:
       - name: AEC Magazine
         type: rss
         url: https://aecmag.com/feed/
-      - name: BIM Pure YouTube   # unverified; skipped if it fails
-        type: rss
-        url: https://www.youtube.com/feeds/videos.xml?channel_id=UClDb09FCWGuV231Ft3nRxvg
 
   - name: Science & Nature
     sources:
@@ -196,6 +175,60 @@ topics:
       - name: Mongabay
         type: rss
         url: https://news.mongabay.com/feed/
+
+# YouTube tab. These channels are NOT in the topics above: their videos live only in the YouTube tab.
+# Each channel's feed is https://www.youtube.com/feeds/videos.xml?channel_id=<id>. Shorts are left out.
+# A channel id must match ^UC[\w-]{22}$ (a bad one is skipped). The writer (call 3) picks the best videos.
+youtube:
+  max_age_days: 2
+  per_channel: 3          # newest videos kept per channel before the writer picks
+  pick_min: 8
+  pick_max: 12
+  groups:
+    - name: News & Politics
+      channels:
+        - {name: The Majority Report, id: UC-3jIAlnQmbbVMV6gR7K8aQ}
+        - {name: Breaking Points, id: UCDRIjKy6eZOvKtOELtTdeUA}
+        - {name: More Perfect Union, id: UCehBVAPy-bxmnbNARF-_tvA}
+    - name: Sports
+      channels:
+        - {name: Atlanta Braves, id: UCNWnkblY5_kmf4OQ9l0LgnA}
+        - {name: Houston Rockets, id: UChdTjGHWrl-scbthhYSGB3g}
+        - {name: San Francisco 49ers, id: UCeIOarQkwmGhimim9cDUTng}
+        - {name: UFC, id: UCvgfXK4nTYKudb0rFR6noLA}
+        - {name: MMA Fighting, id: UC4f1JueVgo5t9HSmobCRPug}
+        - {name: The Athletic Football Show, id: UC6gWjMSDj7-8j3iCc2ZGo3g}
+        - {name: The Pat McAfee Show, id: UCxcTeAKWJca6XyJ37_ZoKIQ}
+        - {name: Anatomy of a Fighter, id: UC47UlrwAYX5HRs5bm2KbEZg}
+    - name: Architecture & Building
+      channels:
+        - {name: BIM Pure, id: UClDb09FCWGuV231Ft3nRxvg}
+        - {name: Balkan Architect, id: UCapzEjUWyv7H4GtPQrgybTQ}
+        - {name: 30X40 Design Workshop, id: UCoc2ZM2cYas4DijNdaEJXUA}
+        - {name: archicorner, id: UCm_fSj6rb813RWZbl85Khyg}
+        - {name: Black Spectacles, id: UCZkrgFedR-1DU8eKeH5QBUg}
+        - {name: Amber Book, id: UC5IBkB2yqnrxT-wtuxLI0Zg}
+        - {name: Tim Fairley (ConstructIQ), id: UCvZpyt2fRQcLmGNUKPph3yg}
+    - name: Tech & Science
+      channels:
+        - {name: Claude, id: UCV03SRZXJEz-hchIAogeJOg}
+        - {name: Byte Review, id: UCg3tygBbdzyLEZ4lPMpCAFw}
+        - {name: JerryRigEverything, id: UCWFKCr40YwOZQx8FHU_ZqqQ}
+        - {name: SmarterEveryDay, id: UC6107grRI4m0o2-emgoDnAA}
+        - {name: Mark Rober, id: UCY1kMZp36IQSyNx_9h4mpCg}
+        - {name: Science Channel, id: UCvJiYiBUbw4tmpRSZT2r1Hw}
+        - {name: Planet Wild, id: UC6QFT2c2MJxID-vxHDeX9XQ}
+        - {name: Geography By Geoff, id: UC7-Z34pbJ0ZAOJRmUCEz0Cg}
+        - {name: Einzelgänger, id: UCybBViio_TH_uiFFDJuz5tg}
+    - name: Make & Cook
+      channels:
+        - {name: Brian Lagerstrom, id: UCn5fhcGRrCvrmFibPbT6q1A}
+        - {name: ThatDudeCanCook, id: UC19OYOBqkgVqgTIQxbsPdlw}
+        - {name: Sam the Cooking Guy, id: UCbRj3Tcy1Zoz3rcf83nW5kw}
+        - {name: Michael Alm, id: UCFPi0bIn4Bc3Vkd9T-dKuzw}
+        - {name: Blacktail Studio, id: UC6I0KzAD7uFTL1qzxyunkvA}
+        - {name: John Malecki, id: UCVUSDq6-oSpWAAPUppHFtZQ}
+        - {name: Home RenoVision DIY, id: UCnorhjQR4zJkT7AVNhu395Q}
 
 # Team scores. Fetched straight from ESPN, no AI involved.
 scores:

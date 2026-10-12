@@ -349,7 +349,8 @@
   }
 
   /* ---------- Tabs ---------- */
-  /* Row 1 is the paper. Row 2 (Today, Mail) is private and smaller. One tablist holds both rows. */
+  /* Row 1 is the paper. Row 2 (YouTube, Today, Mail) is smaller. Today and Mail are private; YouTube is not.
+     One tablist holds both rows. */
   .tabs { margin: 16px 0 0; border-bottom: 3px double var(--rule); }
   .tabrow { display: flex; justify-content: center; }
   .tab {
@@ -367,6 +368,7 @@
   .tabrow.priv .tab[aria-selected="true"] { border-top-color: transparent; border-bottom: 2px solid var(--accent); padding-bottom: 3px; }
   .tabrow.priv .tab + .tab { border-left: 0; }
   .tdot { align-self: center; color: var(--accent); font: 500 13px/1 var(--f-label); }
+  .tab .yt-mark { display: inline-block; margin-right: .5em; font-size: .8em; letter-spacing: 0; color: var(--accent); }
 
   /* ---------- Private sheets (Today and Mail) ---------- */
   .sheet { max-width: 940px; margin: 0 auto; padding: 22px 0 6px; }
@@ -509,6 +511,48 @@
   .tab-cols .item .hd { font-size: 19px; }
   .tab-empty { padding: 30px 0; }
 
+  /* ---------- YouTube tab ---------- */
+  /* Each group is a grid of cards. A card is a video still (never a player), the channel, a headline, and a note.
+     Phone: one column. Tablet (700 to 999px): two columns; the last card of an odd group is wide. Desktop (1000px and up):
+     three columns on a 6-column grid, so a short last row never leaves an empty cell:
+       1 card = one wide card. 2 cards = two equal halves. 3 cards = three columns.
+       4 cards = a wide card, then three. (5 = three and two, 7 = a wide card and two rows of three.)
+     A wide card puts the still on the left (55%) and the text on the right. The JS marks the group with
+     .r1 / .r2 (cards modulo 3) and .odd (cards modulo 2). */
+  .vgrid { --ar: 1.78; display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px 26px; }
+  .vcell { min-width: 0; container: vcell / inline-size; }
+  .vcell > .vcard { height: 100%; margin: 0; padding: 0 0 14px; border-bottom: 1px solid var(--rule-soft); }
+  .vcard .frame.r32 { margin: 0 3px 10px; }
+  .vcard .note { text-align: left; hyphens: manual; }
+  .vcard .hd { font-size: 19px; }
+  @media (min-width: 700px) and (max-width: 999px) {
+    .vgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .vgrid.odd .vcell:last-child { grid-column: 1 / -1; }
+  }
+  @media (min-width: 1000px) {
+    .vgrid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+    .vgrid .vcell { grid-column: span 2; }
+    .vgrid.r1 .vcell:first-child { grid-column: 1 / -1; }
+    .vgrid.r2 .vcell:nth-last-child(-n+2) { grid-column: span 3; }
+  }
+  @media (min-width: 700px) {
+    @container vcell (min-width: 640px) {
+      .vcell > .vcard { display: grid; grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); gap: 0 30px; align-items: center; }
+      .vcell > .vcard > .frame.r32 { margin: 0 3px 0 0; }
+      .vcell > .vcard .hd { font-size: 28px; line-height: 1.12; }
+      .vcell > .vcard .note { font-size: 18px; margin-top: 8px; }
+      .vcell > .vcard .kicker { margin-bottom: 6px; }
+      .vcell > .vcard.nopic { display: block; }
+      .vcell > .vcard { --ar: 2; }
+    }
+  }
+  @media (min-width: 1000px) {
+    @container vcell (min-width: 640px) {
+      .vcell > .vcard .hd { font-size: 36px; line-height: 1.1; }
+      .vcell > .vcard .note { font-size: 20px; }
+    }
+  }
+
   /* ---------- Full scores (Sports tab) ---------- */
   .scoreboard { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 26px; margin: 0 0 30px; }
   .team-card { min-width: 0; padding: 10px 14px 12px; border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px; background: rgba(246, 239, 221, .35); }
@@ -570,6 +614,7 @@
     .tab { flex: 1 1 0; min-width: 0; padding: 9px 1px 7px calc(1px + .1em); font-size: 11.5px; letter-spacing: .1em; text-align: center; }
     .tabrow.priv { justify-content: center; }
     .tabrow.priv .tab { flex: 0 0 auto; padding: 6px 14px 5px calc(14px + .2em); font-size: 11px; letter-spacing: .2em; }
+    .tabrow.priv .tdot { flex: 0 0 auto; }
     .sheet { padding-top: 16px; }
     .mail-cols { column-count: 1; }
     .times li { grid-template-columns: 6.2em minmax(0, 1fr); gap: 0 12px; }
@@ -718,8 +763,10 @@
       <button type="button" class="tab" role="tab" id="tab-science" data-tab="science" aria-controls="panel-science" aria-selected="false" tabindex="-1" hidden><span class="l-full">Science</span><span class="l-short">Science</span></button>
     </div>
     <div class="tabrow priv" role="presentation">
+      <button type="button" class="tab" role="tab" id="tab-youtube" data-tab="youtube" aria-controls="panel-youtube" aria-selected="false" tabindex="-1" hidden><span class="yt-mark" aria-hidden="true">▶︎</span>YouTube</button>
+      <span class="tdot" id="dot-youtube" aria-hidden="true" hidden>·</span>
       <button type="button" class="tab" role="tab" id="tab-today" data-tab="today" aria-controls="panel-today" aria-selected="false" tabindex="-1">Today</button>
-      <span class="tdot" aria-hidden="true">·</span>
+      <span class="tdot" id="dot-mail" aria-hidden="true">·</span>
       <button type="button" class="tab" role="tab" id="tab-mail" data-tab="mail" aria-controls="panel-mail" aria-selected="false" tabindex="-1">Mail</button>
     </div>
   </div>
@@ -734,6 +781,7 @@
     <div id="panel-sports" class="panel" role="tabpanel" aria-labelledby="tab-sports" hidden></div>
     <div id="panel-atlanta" class="panel" role="tabpanel" aria-labelledby="tab-atlanta" hidden></div>
     <div id="panel-science" class="panel" role="tabpanel" aria-labelledby="tab-science" hidden></div>
+    <div id="panel-youtube" class="panel" role="tabpanel" aria-labelledby="tab-youtube" hidden></div>
     <div id="panel-today" class="panel" role="tabpanel" aria-labelledby="tab-today" hidden></div>
     <div id="panel-mail" class="panel" role="tabpanel" aria-labelledby="tab-mail" hidden></div>
   </main>
@@ -767,7 +815,7 @@
   var IS_BACK = !!BACK_DATE;
   if (IS_BACK) {
     var privRow = document.querySelector(".tabrow.priv");
-    if (privRow) privRow.hidden = true;   // private data belongs to today's paper only
+    if (privRow) privRow.hidden = true;   // Today and Mail are private data of today's paper only; YouTube shows the row again
   }
 
   function el(tag, cls, text) {
@@ -1492,6 +1540,71 @@
     return wrap;
   }
 
+  // ----- YouTube tab: groups of video cards. Each card is the still of the video and opens YouTube. No player. -----
+  var VIDEO_GROUPS_MAX = 8, VIDEO_CARDS_MAX = 8;
+  // A clean copy of one video. Only the 11-character id is trusted: the link is always rebuilt from it, so a card can only open YouTube.
+  function cleanVideo(it, group) {
+    if (!it || typeof it !== "object" || Array.isArray(it)) return null;
+    var id = typeof it.video === "string" ? it.video : "";
+    if (!VIDEO_ID.test(id)) return null;
+    return {
+      video: id, url: "https://www.youtube.com/watch?v=" + id,
+      title: str(it.title, 200).trim() || "Untitled", source: str(it.source, 80).trim(), topic: group,
+      note: str(it.note, 400).trim(), image: safeImage(it.image)
+    };
+  }
+  function videoGroups(b) {
+    var seen = {};
+    return arr(b && b.videos).map(function (g) {
+      if (!g || typeof g !== "object" || Array.isArray(g)) return null;
+      var name = str(g.group, 60).trim();
+      if (!name) return null;
+      var items = [];
+      arr(g.items).forEach(function (it) {
+        var c = cleanVideo(it, name);
+        if (!c || has(seen, c.video)) return;   // a video shows once, so a star never stands for two cards
+        seen[c.video] = true;
+        items.push(c);
+      });
+      items = items.slice(0, VIDEO_CARDS_MAX);
+      return items.length ? { name: name, items: items } : null;
+    }).filter(Boolean).slice(0, VIDEO_GROUPS_MAX);
+  }
+  function renderVideos(b) {
+    try {
+      var host = document.getElementById("panel-youtube");
+      var groups = videoGroups(b);
+      if (!host || !groups.length) return;   // an older brief.json has no "videos": the tab stays hidden
+      var page = el("div", "tabpage");
+      page.id = "page-youtube";
+      groups.forEach(function (g) {
+        var box = el("section", "tab-sec");
+        box.appendChild(secHead(g.name));
+        var n = g.items.length;
+        // The classes tell the stylesheet how the last row falls short, so its cards can grow to fill it.
+        var grid = el("div", "vgrid r" + (n % 3) + (n % 2 ? " odd" : ""));
+        g.items.forEach(function (it) {
+          var card = null;
+          // If the still does not load, it is removed and the card stays as text.
+          card = story(it, { photo: "r32", kicker: "source", onGone: function () { if (card) card.classList.add("nopic"); } });
+          card.classList.add("vcard");
+          // The text goes in one block, so a wide card can set the still on the left and the text on the right.
+          var body = el("div", "vtext");
+          Array.prototype.slice.call(card.children).forEach(function (c) { if (!c.classList.contains("frame")) body.appendChild(c); });
+          card.appendChild(body);
+          var cell = el("div", "vcell");
+          cell.appendChild(card);
+          grid.appendChild(cell);
+        });
+        box.appendChild(grid);
+        page.appendChild(box);
+      });
+      while (host.firstChild) host.removeChild(host.firstChild);
+      host.appendChild(page);
+      tabsAvail.youtube = true;
+    } catch (e) { /* the YouTube tab stays hidden; the rest of the paper is unaffected */ }
+  }
+
   // ----- topic tabs: News, Tech & AI, Sports, Atlanta, Science -----
   var TOPIC_TABS = ["news", "tech", "sports", "atlanta", "science"];
   var tabsAvail = {};   // id -> true once brief.tabs has it
@@ -1568,6 +1681,7 @@
     var paperDate = IS_BACK ? BACK_DATE : nyDate(when && !isNaN(when) ? when : new Date());
     if (paperDate) loadBackIssues(paperDate);
     renderWeek(week);   // no "week" in brief.json (every day but Sunday): the tab stays hidden
+    renderVideos(b);   // old brief.json without "videos": the YouTube tab simply stays hidden
     renderTabs(b);   // old brief.json without "tabs": the five topic tabs simply stay hidden
     Fit.run();
     Fit.schedule(300);
@@ -2118,7 +2232,7 @@
   // PASS_KEY is the old localStorage passphrase; it is migrated to a key and then deleted.
   var PASS_KEY = "cmrlm-pass", TAB_KEY = "cmrlm-tab";
   var DB_NAME = "cmrlm", DB_STORE = "keys", DB_ID = "private";
-  var TABS = ["front", "week", "news", "tech", "sports", "atlanta", "science", "today", "mail"];
+  var TABS = ["front", "week", "news", "tech", "sports", "atlanta", "science", "youtube", "today", "mail"];
   var NY = "America/New_York";
   var MAIL_PREFIX = "https://mail.google.com/";
   var store = {
@@ -2481,7 +2595,7 @@
 
   // ----- tabs -----
   var wantTab = null;   // a tab asked for by the address or by memory before brief.json arrived
-  var HIDEABLE = ["week"].concat(TOPIC_TABS);   // tabs that exist only when brief.json has their data
+  var HIDEABLE = ["week"].concat(TOPIC_TABS, ["youtube"]);   // tabs that exist only when brief.json has their data
   function available(id) {
     if (TABS.indexOf(id) < 0) return false;
     if (IS_BACK && (id === "today" || id === "mail")) return false;
@@ -2507,8 +2621,19 @@
     if (id === "front" || id === "week") { Fit.run(); Fit.schedule(60); }   // the fit engine only measures the visible panel
   }
   // Show the topic tabs that brief.tabs provided, hide the rest, and open a tab that was asked for early.
+  // Row two holds YouTube (public), Today and Mail (private). A back issue shows YouTube only, and only when it has videos.
+  function paintRowTwo() {
+    var yt = !!tabsAvail.youtube, priv = !IS_BACK;
+    tabButtons.youtube.hidden = !yt;
+    tabButtons.today.hidden = tabButtons.mail.hidden = !priv;
+    document.getElementById("dot-youtube").hidden = !(yt && priv);
+    document.getElementById("dot-mail").hidden = !priv;
+    var row = document.querySelector(".tabrow.priv");
+    if (row) row.hidden = !(yt || priv);
+  }
   function refreshTabs() {
     HIDEABLE.forEach(function (t) { tabButtons[t].hidden = !tabsAvail[t]; });
+    paintRowTwo();
     document.getElementById("tabs").classList.toggle("has-week", !!tabsAvail.week);
     if (wantTab && available(wantTab)) {
       var w = wantTab;
@@ -2521,6 +2646,7 @@
     for (var i = 0; i < TABS.length; i++) if (tabButtons[TABS[i]].getAttribute("aria-selected") === "true") return TABS[i];
     return "front";
   }
+  paintRowTwo();   // before the data arrives: Today and Mail only (a back issue shows nothing in row two yet)
   TABS.forEach(function (t) {
     tabButtons[t].addEventListener("click", function () { selectTab(t); });
     tabButtons[t].addEventListener("keydown", function (ev) {

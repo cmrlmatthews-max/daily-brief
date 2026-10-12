@@ -1,0 +1,214 @@
+{
+  "items": [
+    {
+      "id": "eaeb693817",
+      "topic": "News & Politics",
+      "source": "Breaking Points",
+      "title": "What the new polling shows in three swing states",
+      "url": "https://www.youtube.com/watch?v=pLk3Rt9xQ2w",
+      "published": "2026-10-11T14:00:00+00:00",
+      "summary": "A walk through new polling numbers in three swing states and what changed since last month.",
+      "image": "https://i.ytimg.com/vi/pLk3Rt9xQ2w/hqdefault.jpg"
+    },
+    {
+      "id": "4d41c6f042",
+      "topic": "News & Politics",
+      "source": "More Perfect Union",
+      "title": "Workers vote on a first contract at a regional warehouse",
+      "url": "https://www.youtube.com/watch?v=mPu7Vc2nB4s",
+      "published": "2026-10-10T16:00:00+00:00",
+      "summary": "A report on a union vote at a regional warehouse and what the contract would cover.",
+      "image": "https://i.ytimg.com/vi/mPu7Vc2nB4s/hqdefault.jpg"
+    },
+    {
+      "id": "029c4a4f53",
+      "topic": "News & Politics",
+      "source": "The Majority Report",
+      "title": "Panel breakdown of the stopgap spending vote",
+      "url": "https://www.youtube.com/watch?v=mRp4Hd8yK1e",
+      "published": "2026-10-11T22:00:00+00:00",
+      "summary": "A panel looks at the stopgap spending vote and what each party says about it.",
+      "image": "https://i.ytimg.com/vi/mRp4Hd8yK1e/hqdefault.jpg"
+    },
+    {
+      "id": "8481ecbea6",
+      "topic": "Sports",
+      "source": "Atlanta Braves",
+      "title": "Braves highlights from the season finale",
+      "url": "https://www.youtube.com/watch?v=bRv5Jt3zM8a",
+      "published": "2026-10-11T03:00:00+00:00",
+      "summary": "Highlights from the final game of the regular season.",
+      "image": "https://i.ytimg.com/vi/bRv5Jt3zM8a/hqdefault.jpg"
+    },
+    {
+      "id": "dd30803530",
+      "topic": "Sports",
+      "source": "Houston Rockets",
+      "title": "Rockets preseason highlights: the best plays from the opener",
+      "url": "https://www.youtube.com/watch?v=rKt2Gn6wD9c",
+      "published": "2026-10-11T01:00:00+00:00",
+      "summary": "The best plays from the first preseason game.",
+      "image": "https://i.ytimg.com/vi/rKt2Gn6wD9c/hqdefault.jpg"
+    },
+    {
+      "id": "7bb2db91bc",
+      "topic": "Sports",
+      "source": "San Francisco 49ers",
+      "title": "49ers film room: how the defense stopped the run",
+      "url": "https://www.youtube.com/watch?v=sFn8Pq4uL7b",
+      "published": "2026-10-10T18:00:00+00:00",
+      "summary": "A coach breaks down film of the defense against the run.",
+      "image": "https://i.ytimg.com/vi/sFn8Pq4uL7b/hqdefault.jpg"
+    },
+    {
+      "id": "ddd6b033eb",
+      "topic": "Sports",
+      "source": "UFC",
+      "title": "Title fight preview: the main event, face to face",
+      "url": "https://www.youtube.com/watch?v=uFc1Zw5eT3k",
+      "published": "2026-10-11T12:00:00+00:00",
+      "summary": "The two fighters meet face to face before the main event.",
+      "image": "https://i.ytimg.com/vi/uFc1Zw5eT3k/hqdefault.jpg"
+    },
+    {
+      "id": "ffdc75e105",
+      "topic": "Sports",
+      "source": "The Pat McAfee Show",
+      "title": "Full show: trade news and a look at week six",
+      "url": "https://www.youtube.com/watch?v=pMc9Xa2rH6d",
+      "published": "2026-10-11T19:00:00+00:00",
+      "summary": "A live show with trade news and a look at week six.",
+      "image": "https://i.ytimg.com/vi/pMc9Xa2rH6d/hqdefault.jpg"
+    },
+    {
+      "id": "840b113fe3",
+      "topic": "Architecture & Building",
+      "source": "BIM Pure",
+      "title": "Dynamo automation for door schedules",
+      "url": "https://www.youtube.com/watch?v=bIm3Yv7sN5f",
+      "published": "2026-10-10T15:00:00+00:00",
+      "summary": "A step-by-step guide to building door schedules with Dynamo.",
+      "image": "https://i.ytimg.com/vi/bIm3Yv7sN5f/hqdefault.jpg"
+    },
+    {
+      "id": "2722010a2b",
+      "topic": "Architecture & Building",
+      "source": "Black Spectacles",
+      "title": "ARE 5.0 study tips: how to plan your last month",
+      "url": "https://www.youtube.com/watch?v=bSp6Lk1oC4m",
+      "published": "2026-10-11T13:00:00+00:00",
+      "summary": "A plan for the last month of study before an ARE 5.0 exam.",
+      "image": "https://i.ytimg.com/vi/bSp6Lk1oC4m/hqdefault.jpg"
+    },
+    {
+      "id": "f80bf3489a",
+      "topic": "Architecture & Building",
+      "source": "Balkan Architect",
+      "title": "A concrete house built around a courtyard",
+      "url": "https://www.youtube.com/watch?v=bAk2Fe8hW0g",
+      "published": "2026-10-10T10:00:00+00:00",
+      "summary": "A tour of a concrete house that is built around a courtyard.",
+      "image": "https://i.ytimg.com/vi/bAk2Fe8hW0g/hqdefault.jpg"
+    },
+    {
+      "id": "875543ab6d",
+      "topic": "Architecture & Building",
+      "source": "Tim Fairley (ConstructIQ)",
+      "title": "Why change orders slip: a field guide for project teams",
+      "url": "https://www.youtube.com/watch?v=tFq7Du3jR9p",
+      "published": "2026-10-11T08:00:00+00:00",
+      "summary": "A look at why change orders slip and how teams can catch them early.",
+      "image": "https://i.ytimg.com/vi/tFq7Du3jR9p/hqdefault.jpg"
+    },
+    {
+      "id": "c641a6ca78",
+      "topic": "Tech & Science",
+      "source": "Claude",
+      "title": "Build a research agent with the Claude API",
+      "url": "https://www.youtube.com/watch?v=cLd4Ob9tV2x",
+      "published": "2026-10-11T17:00:00+00:00",
+      "summary": "A walkthrough of building a small research agent with the Claude API.",
+      "image": "https://i.ytimg.com/vi/cLd4Ob9tV2x/hqdefault.jpg"
+    },
+    {
+      "id": "e1da286cb7",
+      "topic": "Tech & Science",
+      "source": "SmarterEveryDay",
+      "title": "What happens inside a spinning fluid, in slow motion",
+      "url": "https://www.youtube.com/watch?v=sEd5Wm1qZ7y",
+      "published": "2026-10-10T20:00:00+00:00",
+      "summary": "Slow-motion footage of fluid inside a spinning container.",
+      "image": "https://i.ytimg.com/vi/sEd5Wm1qZ7y/hqdefault.jpg"
+    },
+    {
+      "id": "d39a839d5b",
+      "topic": "Tech & Science",
+      "source": "Mark Rober",
+      "title": "Building the world's largest foam pit",
+      "url": "https://www.youtube.com/watch?v=mRb8Tc6xJ3n",
+      "published": "2026-10-11T15:00:00+00:00",
+      "summary": "The team builds a very large foam pit and tests it with stunts.",
+      "image": "https://i.ytimg.com/vi/mRb8Tc6xJ3n/hqdefault.jpg"
+    },
+    {
+      "id": "f44f518e20",
+      "topic": "Tech & Science",
+      "source": "JerryRigEverything",
+      "title": "Durability test: the new folding phone",
+      "url": "https://www.youtube.com/watch?v=jRe2Hs4vA9l",
+      "published": "2026-10-10T14:00:00+00:00",
+      "summary": "Scratch, burn and bend tests on a new folding phone.",
+      "image": "https://i.ytimg.com/vi/jRe2Hs4vA9l/hqdefault.jpg"
+    },
+    {
+      "id": "763e38a34e",
+      "topic": "Tech & Science",
+      "source": "Planet Wild",
+      "title": "A day with the rangers who track a snow leopard",
+      "url": "https://www.youtube.com/watch?v=pWl6Cj0kG8t",
+      "published": "2026-10-11T06:00:00+00:00",
+      "summary": "Rangers follow the tracks of a snow leopard in high country.",
+      "image": "https://i.ytimg.com/vi/pWl6Cj0kG8t/hqdefault.jpg"
+    },
+    {
+      "id": "7aeb300e0d",
+      "topic": "Make & Cook",
+      "source": "Brian Lagerstrom",
+      "title": "The best way to cook a thick pork chop",
+      "url": "https://www.youtube.com/watch?v=bLg3Re5pY1u",
+      "published": "2026-10-11T11:00:00+00:00",
+      "summary": "A method for a juicy thick pork chop with a pan sauce.",
+      "image": "https://i.ytimg.com/vi/bLg3Re5pY1u/hqdefault.jpg"
+    },
+    {
+      "id": "c1f6d24f1d",
+      "topic": "Make & Cook",
+      "source": "Blacktail Studio",
+      "title": "Turning a slab of walnut into a dining table",
+      "url": "https://www.youtube.com/watch?v=bTs7Mn2dF6h",
+      "published": "2026-10-10T17:00:00+00:00",
+      "summary": "A slab of walnut becomes a dining table in a few steps.",
+      "image": "https://i.ytimg.com/vi/bTs7Mn2dF6h/hqdefault.jpg"
+    },
+    {
+      "id": "dbd8a247b1",
+      "topic": "Make & Cook",
+      "source": "Sam the Cooking Guy",
+      "title": "Fall comfort food: three easy sheet-pan dinners",
+      "url": "https://www.youtube.com/watch?v=sCg4Ab8iE0v",
+      "published": "2026-10-11T09:00:00+00:00",
+      "summary": "Three sheet-pan dinners for cooler nights.",
+      "image": "https://i.ytimg.com/vi/sCg4Ab8iE0v/hqdefault.jpg"
+    },
+    {
+      "id": "56c2c93d7c",
+      "topic": "Make & Cook",
+      "source": "Home RenoVision DIY",
+      "title": "How to tile a small bathroom floor from start to finish",
+      "url": "https://www.youtube.com/watch?v=hRv1Kp9sQ5z",
+      "published": "2026-10-10T12:00:00+00:00",
+      "summary": "Steps for tiling a small bathroom floor, from layout to grout.",
+      "image": "https://i.ytimg.com/vi/hRv1Kp9sQ5z/hqdefault.jpg"
+    }
+  ]
+}

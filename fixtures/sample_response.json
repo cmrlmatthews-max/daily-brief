@@ -53,8 +53,8 @@
           "note": "A Senate committee schedules a hearing on lobbying disclosure rules."
         },
         {
-          "id": "c9453f31c8",
-          "note": "A video segment covers the stopgap spending vote and what each party says about it."
+          "id": "008fdb76cb",
+          "note": "House leaders released a short-term spending plan ahead of the funding deadline."
         }
       ]
     },
@@ -108,10 +108,6 @@
     {
       "topic": "Architecture",
       "items": [
-        {
-          "id": "dece1f99b0",
-          "note": "A video on automating door schedules with Dynamo."
-        },
         {
           "id": "9fc6ac2a5c",
           "note": "A timber library that doubles as flood defense is an interesting precedent."
