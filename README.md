@@ -45,6 +45,10 @@ Mail uses one more Claude call. It sees sender, subject, and snippet only (never
 
 `python brief.py --dry-run` builds a demo `site/private.enc` from `fixtures/sample_private.json` (fake data, no network) with the passphrase `demo passphrase`, unless `BRIEF_PASSPHRASE` is set.
 
+## Print a new edition
+
+The foot of the page has a "Print a New Edition" button. It opens the Apple Shortcut named `Print Daily Brief` (set by `SHORTCUT_NAME` in `site/index.html`), which starts the GitHub run. The page then checks `brief.json` every 15 seconds. When a newer edition arrives, it reloads. After 6 minutes it gives up and links to the runs on GitHub. The Shortcut comes back to the page with `?printed=<time>`, and the page keeps waiting from there. The scheduled 2:17 AM run first runs `python brief.py --check-today`. If a paper was already printed that day (New York time), it skips the build and the deploy. Manual runs always build.
+
 ## Images
 
 Feeds, ESPN, and GitHub give most pictures. For chosen stories that still have none, the script reads the `og:image` of the article page. Claude never sees pictures. It only learns whether one exists. Photos are shown in sepia with a slow zoom. The feature photos of Tech & AI and Architecture also get a halftone dot screen. A picture that fails to load is removed, and the story shows as text.

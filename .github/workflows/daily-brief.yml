@@ -2,8 +2,9 @@ name: Daily brief
 
 on:
   schedule:
-    # 2:17 AM EDT / 1:17 AM EST (ready before 3:30 AM). GitHub cron is UTC and can run late; odd minute avoids peak load.
-    - cron: '17 6 * * *'
+    # Backup only. The main run is the 5:00 AM iPhone Shortcut. This runs at 6:47 AM EDT / 5:47 AM EST, after it,
+    # and skips itself if today's paper already exists. GitHub cron is UTC and can run late or not at all.
+    - cron: '47 10 * * *'
   workflow_dispatch:
 
 # Least privilege: the build job (which holds every secret and runs third-party packages) can only read.
@@ -19,6 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,7 +29,13 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      # Scheduled runs only: skip if today's paper was already printed by hand. Manual runs always build.
+      - name: Check if already printed today
+        id: check
+        if: github.event_name == 'schedule'
+        run: python brief.py --check-today
       - name: Generate brief
+        if: steps.check.outputs.skip != 'true'
         run: python brief.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -38,11 +47,13 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
       - uses: actions/upload-pages-artifact@v3
+        if: steps.check.outputs.skip != 'true'
         with:
           path: site
 
   deploy:
     needs: build
+    if: needs.build.outputs.skip != 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write

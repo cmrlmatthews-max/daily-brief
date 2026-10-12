@@ -835,3 +835,92 @@ def test_main_desk_with_no_usable_ids_also_falls_back(monkeypatch, tmp_path, cap
                                                  {"input_tokens": 5, "output_tokens": 5}))
     assert "desk: fallback" in out and b["usage"] == {"input_tokens": 105, "output_tokens": 15}
     assert b["tabs"]
+
+
+# ---------- one paper per day ----------
+
+NY = brief.TZ
+
+
+def test_printed_today_same_day():
+    now = datetime(2026, 10, 12, 14, 0, tzinfo=NY)
+    assert brief.printed_today({"generated_at": "2026-10-12T02:17:05-04:00"}, now)
+
+
+def test_printed_today_yesterday_is_false():
+    now = datetime(2026, 10, 12, 2, 17, tzinfo=NY)
+    assert not brief.printed_today({"generated_at": "2026-10-11T02:17:05-04:00"}, now)
+
+
+def test_printed_today_uses_new_york_day_not_utc():
+    # 11:30 PM ET on Oct 11 is already Oct 12 in UTC
+    made = {"generated_at": "2026-10-11T23:30:00-04:00"}
+    assert not brief.printed_today(made, datetime(2026, 10, 12, 6, 17, tzinfo=timezone.utc))   # 2:17 AM ET Oct 12
+    assert brief.printed_today(made, datetime(2026, 10, 12, 1, 0, tzinfo=timezone.utc))        # 9 PM ET Oct 11
+    # a UTC stamp just after midnight UTC is still the evening before in New York
+    assert brief.printed_today({"generated_at": "2026-10-12T01:00:00+00:00"}, datetime(2026, 10, 11, 20, 0, tzinfo=NY))
+
+
+@pytest.mark.parametrize("bad", [None, {}, [], "x", {"generated_at": None}, {"generated_at": 5},
+                                 {"generated_at": "not a date"}, {"generated_at": "2026-10-12T02:17:05"}])
+def test_printed_today_bad_input_is_false(bad):
+    assert not brief.printed_today(bad, datetime(2026, 10, 12, 12, 0, tzinfo=NY))
+
+
+def run_check_today(monkeypatch, tmp_path, capsys, live):
+    out_file = tmp_path / "gh_output"
+    monkeypatch.setenv("GITHUB_OUTPUT", str(out_file))
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.setattr(sys, "argv", ["brief.py", "--check-today"])
+    monkeypatch.setattr(brief, "fetch_live_brief", lambda site_url: live)
+    assert brief.main() == 0
+    return capsys.readouterr().out, out_file.read_text()
+
+
+def test_check_today_printed_sets_skip_true(monkeypatch, tmp_path, capsys):
+    stamp = datetime.now(NY).isoformat(timespec="seconds")
+    out, gh = run_check_today(monkeypatch, tmp_path, capsys, {"generated_at": stamp})
+    assert "printed_today=true" in out and gh == "skip=true\n"
+
+
+def test_check_today_old_or_missing_sets_skip_false(monkeypatch, tmp_path, capsys):
+    old = (datetime.now(NY) - timedelta(days=2)).isoformat(timespec="seconds")
+    for live in ({"generated_at": old}, None):
+        out, gh = run_check_today(monkeypatch, tmp_path, capsys, live)
+        assert "printed_today=false" in out and gh.endswith("skip=false\n")
+
+
+def test_check_today_without_github_output_still_prints(monkeypatch, capsys):
+    monkeypatch.delenv("GITHUB_OUTPUT", raising=False)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.setattr(sys, "argv", ["brief.py", "--check-today"])
+    monkeypatch.setattr(brief, "fetch_live_brief", lambda site_url: None)
+    assert brief.main() == 0
+    assert "printed_today=false" in capsys.readouterr().out
+
+
+def test_fetch_live_brief_fails_soft(monkeypatch):
+    def boom(*a, **k):
+        raise brief.requests.ConnectionError("down")
+    monkeypatch.setattr(brief.requests, "get", boom)
+    assert brief.fetch_live_brief("https://x.test/") is None
+
+
+def test_workflow_guard_wiring():
+    wf = yaml.safe_load((ROOT / ".github/workflows/daily-brief.yml").read_text())
+    assert set(wf[True]) == {"schedule", "workflow_dispatch"}                 # YAML reads "on" as True
+    build, deploy = wf["jobs"]["build"], wf["jobs"]["deploy"]
+    steps = {s.get("id") or s.get("name"): s for s in build["steps"]}
+    assert steps["check"]["if"] == "github.event_name == 'schedule'"
+    assert build["outputs"]["skip"] == "${{ steps.check.outputs.skip }}"
+    assert steps["Generate brief"]["if"] == "steps.check.outputs.skip != 'true'"
+    assert any(s.get("uses", "").startswith("actions/upload-pages-artifact") and
+               s["if"] == "steps.check.outputs.skip != 'true'" for s in build["steps"])
+    assert deploy["if"] == "needs.build.outputs.skip != 'true'"
+
+
+def test_page_has_print_button_wiring():
+    page = (ROOT / "site/index.html").read_text()
+    assert 'var SHORTCUT_NAME = "Print Daily Brief";' in page
+    assert "shortcuts://x-callback-url/run-shortcut?name=" in page
+    assert "Print a New Edition" in page and "printed=" in page

@@ -259,6 +259,15 @@
   /* ---------- Footer and classified ---------- */
   .foot { max-width: 1180px; margin: 16px auto 0; text-align: center; font-size: 14px; color: var(--ink-soft); }
   .foot .skipped { cursor: help; text-decoration: underline dotted; }
+  .reprint { margin: 18px auto 6px; }
+  .reprint-btn {
+    display: inline-block; padding: 7px 16px 6px calc(16px + .22em); border: 1px solid var(--rule); color: var(--ink);
+    font: 500 11.5px/1.2 var(--f-label); letter-spacing: .22em; text-transform: uppercase; text-decoration: none;
+  }
+  .reprint-btn:hover, .reprint-btn:focus-visible { background: var(--ink); color: var(--paper); outline: none; }
+  .reprint-status { margin: 10px auto 0; max-width: 34em; font-style: italic; overflow-wrap: anywhere; }
+  .reprint-status:empty { display: none; }
+  .reprint-status a { color: var(--accent); }
   .foot .dot { margin: 0 .5em; color: var(--accent); }
   .empty { text-align: center; font-style: italic; color: var(--ink-soft); padding: 50px 0; font-size: 18px; }
 
@@ -944,6 +953,96 @@
       sk.title = errs.map(function (e) { return e.source; }).join("\n");
       f.appendChild(sk);
     }
+    f.appendChild(printBox());
+  }
+
+  // ----- print a new edition (Apple Shortcut, then wait for the new brief.json) -----
+  var SHORTCUT_NAME = "Print Daily Brief";
+  var ACTIONS_URL = "https://github.com/cmrlmatthews-max/daily-brief/actions";
+  var PRINT_EVERY = 15000, PRINT_GIVE_UP = 6 * 60000, PRINT_RECENT = 15 * 60000, PRINT_SLACK = 60000;
+  var printer = { timer: null, since: 0, started: 0, busy: false, text: "", link: false, status: null, btn: null };
+
+  function pageBase() { return location.href.split(/[?#]/)[0]; }
+  function shortcutUrl() {
+    return "shortcuts://x-callback-url/run-shortcut?name=" + encodeURIComponent(SHORTCUT_NAME) +
+      "&x-success=" + encodeURIComponent(pageBase() + "?printed=" + Date.now());
+  }
+  function printBox() {
+    var box = el("div", "reprint");
+    var a = el("a", "reprint-btn", "Print a New Edition");
+    a.href = shortcutUrl();
+    a.addEventListener("click", function () {
+      a.href = shortcutUrl();   // fresh time stamp; the browser then follows the link
+      startPrinting(Date.now());
+    });
+    var st = el("p", "reprint-status");
+    st.setAttribute("role", "status");
+    printer.btn = a; printer.status = st;
+    box.appendChild(a); box.appendChild(st);
+    paintPrint();
+    return box;
+  }
+  function showPrint(text, link) { printer.text = text; printer.link = !!link; paintPrint(); }
+  function paintPrint() {
+    var st = printer.status;
+    if (!st) return;
+    st.textContent = printer.text;
+    if (!printer.link) return;
+    st.appendChild(document.createTextNode(" "));
+    var a = el("a", "", "Open the runs");
+    a.href = ACTIONS_URL; a.target = "_blank"; a.rel = "noopener";
+    st.appendChild(a);
+  }
+  function stopPrinting() {
+    if (printer.timer) clearInterval(printer.timer);
+    printer.timer = null;
+  }
+  function startPrinting(since) {
+    try {
+      stopPrinting();   // only one poller at a time
+      printer.since = since; printer.started = Date.now(); printer.busy = false;
+      showPrint("Printing a new edition… this takes about 2 minutes.");
+      printer.timer = setInterval(pollPrint, PRINT_EVERY);
+    } catch (e) { /* the button must never break the page */ }
+  }
+  function pollPrint() {
+    if (printer.busy) return;
+    printer.busy = true;
+    var done = function (b) {
+      printer.busy = false;
+      if (!printer.timer) return;
+      try {
+        var t = b && typeof b.generated_at === "string" ? Date.parse(b.generated_at) : NaN;
+        if (!isNaN(t) && t >= printer.since - PRINT_SLACK) printReady();
+        else if (Date.now() - printer.started >= PRINT_GIVE_UP) printGiveUp();
+      } catch (e) { /* keep polling */ }
+    };
+    try {
+      fetch("brief.json?v=" + Date.now(), { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .catch(function () { return null; })
+        .then(done);
+    } catch (e) { done(null); }
+  }
+  function printReady() {
+    stopPrinting();
+    showPrint("New edition ready.");
+    if (location.search) location.replace(pageBase() + location.hash);
+    else location.reload();
+  }
+  function printGiveUp() {
+    stopPrinting();
+    showPrint("The new edition has not arrived. Check the run on GitHub.", true);
+  }
+  // Back from the Shortcut: ?printed=<time> means keep waiting for the new edition.
+  function resumePrint() {
+    try {
+      var m = /[?&]printed=([^&]*)/.exec(location.search);
+      if (!m) return;
+      var t = /^\d{1,15}$/.test(m[1]) ? Number(m[1]) : NaN, age = Date.now() - t;
+      history.replaceState(history.state, "", location.pathname + location.hash);
+      if (age >= -PRINT_SLACK && age <= PRINT_RECENT) startPrinting(t);
+    } catch (e) { /* ignore */ }
   }
 
   // ----- small front-page boxes -----
@@ -1956,6 +2055,7 @@
   })();
   loadPrivate();
   loadWeather();
+  resumePrint();
 
   // DEMO SWITCH: null on the live site. A preview copy sets this to sample data.
   var DEMO_DATA = null;

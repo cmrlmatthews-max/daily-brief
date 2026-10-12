@@ -592,6 +592,45 @@ def drop_seen_yesterday(items: list[dict], site_url: str) -> list[dict]:
         return items
 
 
+# ---------- one paper per day ----------
+
+def printed_today(brief: dict | None, now: datetime) -> bool:
+    """True if brief was generated on the same New York calendar day as now. Bad data is False."""
+    try:
+        made = datetime.fromisoformat(brief["generated_at"])
+        if made.tzinfo is None:
+            return False
+        return made.astimezone(TZ).date() == now.astimezone(TZ).date()
+    except Exception:
+        return False
+
+
+def fetch_live_brief(site_url: str) -> dict | None:
+    """The published brief.json, or None on any problem."""
+    try:
+        r = requests.get(site_url.rstrip("/") + "/brief.json", timeout=TIMEOUT,
+                         headers={"User-Agent": USER_AGENT})
+        r.raise_for_status()
+        data = r.json()
+        return data if isinstance(data, dict) else None
+    except Exception:
+        return None
+
+
+def check_today(cfg: dict) -> bool:
+    """Print whether today's paper is out. Write skip=true/false for GitHub Actions. Never fails."""
+    done = printed_today(fetch_live_brief(cfg["site_url"]), datetime.now(TZ))
+    print(f"printed_today={'true' if done else 'false'}")
+    path = os.environ.get("GITHUB_OUTPUT")
+    if path:
+        try:
+            with open(path, "a") as f:
+                f.write(f"skip={'true' if done else 'false'}\n")
+        except OSError:
+            pass
+    return done
+
+
 # ---------- scores ----------
 
 def _score(comp: dict) -> int | None:
@@ -980,9 +1019,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Generate the daily brief.")
     ap.add_argument("--dry-run", action="store_true", help="no network; use fixtures/")
     ap.add_argument("--fetch-only", action="store_true", help="fetch items, write out/items.json, skip Claude")
+    ap.add_argument("--check-today", action="store_true", help="say whether today's paper is already out, then exit")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
+    if args.check_today:
+        check_today(cfg)
+        return 0
     now = datetime.now(TZ)
     today = f"{now:%A, %B} {now.day}, {now.year}"
     errors: list[dict] = []

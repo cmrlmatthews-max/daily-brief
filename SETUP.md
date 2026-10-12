@@ -104,7 +104,7 @@ GitHub saves this choice immediately. There is no save button.
 
 ## Part 5. Run the first brief
 
-The schedule runs every morning at 2:17 AM Eastern (1:17 AM in winter). Run it now one time to test it.
+The main morning run is the 5:00 AM iPhone Shortcut (Part 9). GitHub's schedule is a backup at 6:47 AM Eastern (5:47 AM in winter). It builds only if no paper exists for today. Run it now one time to test it.
 
 1. In the repository, click the **Actions** tab.
 2. In the left list, click **Daily brief**.
@@ -165,3 +165,67 @@ Each run also records its token use at the bottom of `brief.json` on the site. T
 | The brief stops updating after about two months. | GitHub turns off schedules in public repositories after 60 days without changes. GitHub sends an email first. | Open **Actions** > **Daily brief** > **Enable workflow**. Or ask me to add an automatic fix. |
 | One topic is empty. | A source was down that day. | Do nothing. The footer shows "sources skipped" with the names. |
 | You want different sources. | — | Edit `sources.yaml` in the repository, or ask me. |
+
+---
+
+## Part 9. The Print button and the morning run
+
+The button named Print a New Edition is at the bottom of the page. The button runs an Apple Shortcut. An Apple Shortcut is a saved list of actions. An action is one step that the Shortcut runs.
+
+The Shortcut must have this exact name: Print Daily Brief. The Shortcut tells GitHub to build a new paper. To build a paper means to create a new edition of the brief.
+
+The same Shortcut can run automatically each morning. GitHub's own schedule remains turned on as a backup at 6:47 AM. It builds only if no paper exists for today. The button always builds.
+
+**Step A. Make a GitHub token (fine-grained personal access token)**
+
+A token is a secret password. It gives a program limited access to your GitHub account. This step makes a fine-grained personal access token.
+
+1. On github.com, open Settings > Developer settings > Personal access tokens > Fine-grained tokens. Tap "Generate new token".
+2. In the Token name box, type Print Daily Brief.
+3. In Expiration, select the longest time that GitHub offers. Create a calendar reminder for the expiration date.
+4. Under Repository access, select "Only select repositories". Select only the daily-brief repository.
+5. Open Permissions > Repository permissions > Actions. Select "Read and write". Leave all other permissions set to "No access".
+
+> **CAUTION:** Do not put this token in the repository, in a chat, or in a screenshot. A run is one execution of the workflow. Anyone with the token can start a run. Each run spends your API credit. One run costs about $0.10.
+
+6. Tap "Generate token". Copy the token. GitHub shows the token one time only.
+
+**Step B. Build the Shortcut (iPhone; it syncs to Mac with iCloud)**
+
+Use an iPhone for this step. iCloud syncs the Shortcut to your Mac. A URL is a web address. A request is a message that the Shortcut sends to GitHub. A header is one line of extra information in a request.
+
+1. Open the Shortcuts app. Tap +.
+2. Name the Shortcut exactly: Print Daily Brief. The page uses this name.
+3. Add the action Get Contents of URL.
+4. In the URL box, type this URL: `https://api.github.com/repos/cmrlmatthews-max/daily-brief/actions/workflows/daily-brief.yml/dispatches`
+5. Tap the arrow to show more options. Set Method to POST. The POST method sends data to GitHub.
+6. Add three headers:
+   - `Authorization = Bearer YOUR_TOKEN`
+   - `Accept = application/vnd.github+json`
+   - `X-GitHub-Api-Version = 2022-11-28`
+
+   Replace YOUR_TOKEN with the token from Step A. Bearer is a label. It tells GitHub that the value is a token.
+7. Set Request Body to JSON. JSON is a text format for structured data. Add one Text field. Set its key to ref. Set its value to main.
+8. This step is optional. Add the action Show Notification. Set its text to "Printing a new edition".
+9. Tap Done.
+
+**Test:** Tap the Shortcut. After about 2 minutes, reload the page. The Printed time at the bottom of the page changes. If nothing changes, open github.com/cmrlmatthews-max/daily-brief/actions. Look at the newest run.
+
+**Step C. Run the Shortcut each morning**
+
+An automation is a Shortcut that starts automatically. Use an automation to run the Shortcut each morning.
+
+1. In the Shortcuts app, tap Automation. Then tap +.
+2. Choose Time of Day. Set the time to 5:00 AM. Set Repeat to Daily.
+3. Choose Run Immediately. If you do not want a notice, turn off Notify When Run.
+4. Tap Next. Choose Print Daily Brief. Tap Done.
+
+**Note:** The phone must be on and connected to the internet at 5:00 AM. The phone can stay locked.
+
+**Step D. Use the button**
+
+Tap "Print a New Edition" at the bottom of the page. The Shortcuts app opens and runs the Shortcut. Safari opens the page again. The page shows "Printing a new edition". The page reloads automatically when the new paper is ready. This takes about 2 minutes. On a Mac, the button works in Safari if the Shortcut synced with iCloud.
+
+**If the token expires:**
+
+Make a new token (Step A). Paste it into the Authorization header (Step B, item 6).
