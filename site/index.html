@@ -609,6 +609,7 @@
   .like:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
   .like[aria-pressed="true"] { color: var(--accent); }
   .like.sent { cursor: default; opacity: .6; }
+  .nb { white-space: nowrap; }
   .likeline { display: block; margin-top: 4px; font-size: 11.5px; line-height: 1.2; clear: both; }
 
   .likepill {
@@ -636,29 +637,58 @@
   }
   .aux-btn:hover, .aux-btn:focus-visible { background: var(--ink); color: var(--paper-hi); outline: none; }
 
+  /* The Week: a main column (headline, summary, top stories) and a side rail (liked stories, suggestions).
+     The fill script sets --fit, --lh, --ls and --gap on the intro, the story columns and the rail so both sides end on one line. */
+  .week-layout { display: block; margin-bottom: 30px; }
   .week-intro { max-width: 760px; margin: 0 auto 30px; }
   .week-dates { margin: 0 0 12px; text-align: center; font: 500 12px/1.3 var(--f-label); letter-spacing: .26em; text-transform: uppercase; color: var(--accent); }
-  .week-head { margin: 0 auto 16px; text-align: center; font: 700 clamp(28px, 5vw, 46px)/1.04 var(--f-display); text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
-  .week-sum p { margin: 0; font-size: 17px; line-height: 1.4; text-align: justify; hyphens: auto; }
-  .week-sum p + p { margin-top: .75em; }
-  .week-narrow { max-width: 760px; margin: 0 auto 30px; }
+  .week-head { margin: 0 auto calc(16px + var(--gap, 0px) * .5); text-align: center; font: 700 clamp(28px, 5vw, 46px)/1.04 var(--f-display); text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+  .week-sum p { margin: 0; font-size: calc(17px * var(--fit, 1)); line-height: calc(1.4 + var(--lh, 0)); letter-spacing: var(--ls, normal); text-align: left; hyphens: auto; }
+  .week-sum p + p { margin-top: calc(.75em + var(--gap, 0px) * .5); }
+  .week-topcols { display: block; }
+  .week-tcol { --ar: 1.78; min-width: 0; }
+  .week-tcol:empty { display: none; }
+  .week-tcol .item { break-inside: avoid; border-bottom: 1px solid var(--rule-soft); margin-bottom: calc(14px + var(--gap, 0px) * .5); padding-bottom: calc(14px + var(--gap, 0px) * .5); }
+  .week-tcol .item:last-child { border-bottom: 1px solid var(--rule-soft); margin-bottom: 14px; padding-bottom: 14px; }
+  .week-tcol .item .frame.r32 { margin: 0 3px calc(10px + var(--gap, 0px) * .5); }
+  .week-tcol .item .note { text-align: left; hyphens: manual; }
+  .week-tcol .item .hd { font-size: calc(19px * var(--fit, 1)); }
   .week-liked, .week-sugg { list-style: none; margin: 0; padding: 0; }
-  .week-liked li { padding: 9px 2px; border-bottom: 1px dotted var(--rule-soft); }
+  .week-liked li { padding: calc(9px + var(--gap, 0px) * .5) 2px; border-bottom: 1px dotted var(--rule-soft); }
   .week-liked li:last-child { border-bottom: 0; }
-  .week-liked a { display: block; font: 700 18px/1.2 var(--f-head); overflow-wrap: anywhere; }
+  .week-liked a, .week-liked .wtitle { display: block; font: 700 calc(18px * var(--fit, 1))/calc(1.2 + var(--lh, 0) * .5) var(--f-head); letter-spacing: var(--ls, normal); overflow-wrap: anywhere; }
   .week-liked a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
-  .week-liked .wsrc { display: block; margin-top: 3px; font: 500 11.5px/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
-  .week-sugg li { display: grid; grid-template-columns: 2.1em minmax(0, 1fr); gap: 0 6px; padding: 11px 2px; border-bottom: 1px dotted var(--rule-soft); counter-increment: sg; }
+  .week-liked .wsrc { display: block; margin-top: 3px; font: 500 calc(11.5px * var(--fit, 1))/1.2 var(--f-label); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
   .week-sugg { counter-reset: sg; }
+  .week-sugg li { display: grid; grid-template-columns: 2.1em minmax(0, 1fr); gap: 0 6px; padding: calc(11px + var(--gap, 0px) * .5) 2px; border-bottom: 1px dotted var(--rule-soft); counter-increment: sg; font-size: calc(17px * var(--fit, 1)); }
   .week-sugg li:last-child { border-bottom: 0; }
-  .week-sugg li::before { content: counter(sg) "."; font: 900 24px/1.05 var(--f-head); color: var(--accent); text-align: right; }
-  .sg-change { display: block; font: 700 19px/1.25 var(--f-head); overflow-wrap: anywhere; }
-  .sg-reason { display: block; margin-top: 3px; font-style: italic; color: var(--ink-soft); overflow-wrap: anywhere; }
-  .week-note { margin: 14px 0 0; text-align: center; font-size: 15px; font-style: italic; color: var(--ink-soft); }
-  .week-none { margin: 0; text-align: center; font-style: italic; color: var(--ink-soft); }
+  .week-sugg li::before { content: counter(sg) "."; font: 900 calc(24px * var(--fit, 1))/1.05 var(--f-head); color: var(--accent); text-align: right; }
+  .sg-change { display: block; font: 700 calc(19px * var(--fit, 1))/calc(1.25 + var(--lh, 0) * .5) var(--f-head); letter-spacing: var(--ls, normal); overflow-wrap: anywhere; }
+  .sg-reason { display: block; margin-top: 3px; font-style: italic; font-size: calc(16px * var(--fit, 1)); line-height: calc(1.3 + var(--lh, 0)); color: var(--ink-soft); overflow-wrap: anywhere; }
+  .week-note { margin: calc(14px + var(--gap, 0px) * .5) 0 0; text-align: center; font-size: calc(15px * var(--fit, 1)); line-height: calc(1.3 + var(--lh, 0)); font-style: italic; color: var(--ink-soft); }
+  .week-none { margin: 0; text-align: center; font-size: calc(17px * var(--fit, 1)); font-style: italic; color: var(--ink-soft); }
+  /* Tablet and desktop: main column and side rail, with a rule between them. Phones keep one column. */
+  @media (min-width: 720px) {
+    .week-layout { display: grid; grid-template-columns: minmax(0, var(--wr, 1.5fr)) minmax(0, 1fr); gap: 0 22px; align-items: stretch; }
+    .week-main, .week-rail { min-width: 0; }
+    .week-rail { border-left: 1px solid var(--rule-soft); padding-left: 22px; }
+    .week-intro { max-width: none; margin: 0 0 30px; }
+    .week-main .tab-sec:last-child, .week-rail .tab-sec:last-child { margin-bottom: 0; }
+    .week-rail .sec-head { font-size: 17px; letter-spacing: .06em; gap: 4px; }
+    .week-rail .sec-head .orn-img { height: 16px; width: auto; }
+    .week-topcols { display: grid; grid-template-columns: repeat(var(--tn, 2), minmax(0, 1fr)); gap: 0 20px; align-items: start; }
+    .week-tcol + .week-tcol { border-left: 1px solid var(--rule-soft); padding-left: 20px; }
+    .week-tcol .item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  }
+  @media (min-width: 1000px) {
+    .week-layout { grid-template-columns: minmax(0, var(--wr, 2fr)) minmax(0, 1fr); gap: 0 26px; }
+    .week-rail { padding-left: 26px; }
+    .week-topcols { gap: 0 26px; }
+    .week-tcol + .week-tcol { padding-left: 26px; }
+    .week-sum { column-count: 2; column-gap: 26px; column-rule: 1px solid var(--rule-soft); }
+  }
   @media (max-width: 599px) {
     .backbar { font-size: 11px; letter-spacing: .12em; }
-    .week-sum p { text-align: left; }
   }
   @media (max-width: 419px) {
     .tabs.has-week .tab { font-size: 10.5px; letter-spacing: .03em; padding-left: 1px; padding-right: 1px; }
@@ -847,9 +877,22 @@
     if (lb) {
       var line = kickEl || srcEl;
       if (!line) { line = el("span", "likeline"); art.appendChild(line); }
-      line.appendChild(lb);
+      glueLike(line, lb);
     }
     return art;
+  }
+
+  // Put the like star at the end of a text line. The last word and the star share a no-wrap group, so the star never sits alone.
+  function glueLike(line, btn) {
+    var t = line.textContent || "";
+    var m = /^([\s\S]*?)(\S+)\s*$/.exec(t);
+    if (!m || line.children.length) { line.appendChild(btn); return; }
+    while (line.firstChild) line.removeChild(line.firstChild);
+    if (m[1]) line.appendChild(document.createTextNode(m[1]));
+    var tail = el("span", "nb");
+    tail.appendChild(document.createTextNode(m[2]));
+    tail.appendChild(btn);
+    line.appendChild(tail);
   }
 
   function lastName(n) { var p = String(n || "").trim().split(/\s+/); return p[p.length - 1] || ""; }
@@ -967,7 +1010,7 @@
     var leadLike = likeButton(lead);
     if (leadLike) {
       if (!leadLine) { leadLine = el("span", "likeline"); text.appendChild(leadLine); }
-      leadLine.appendChild(leadLike);
+      glueLike(leadLine, leadLike);
     }
     grid.appendChild(text);
 
@@ -1121,7 +1164,7 @@
       if (!isDate(d) || d >= paperDate || seen[d]) return false;
       seen[d] = true;
       return true;
-    }).sort().reverse().slice(0, 7);
+    }).sort().reverse().slice(0, 6);
     var f = document.getElementById("foot");
     if (!older.length || !f) return;
     var old = f.querySelector(".backissues");
@@ -1130,10 +1173,14 @@
     nav.setAttribute("aria-label", "Back issues");
     nav.appendChild(el("span", "idx-label", "Back Issues"));
     older.forEach(function (d, i) {
-      if (i) { txt(nav, " "); nav.appendChild(el("span", "dot", "•")); txt(nav, " "); }
+      // The separator sits inside the no-wrap group of the link after it, so a line never ends with a bullet.
       var a = el("a", null, i === 0 ? "Yesterday’s Paper" : fmtDay(ymd(d)));
       a.href = "?date=" + d;
-      nav.appendChild(a);
+      var grp = el("span", "nb");
+      if (i) { grp.appendChild(el("span", "dot", "•")); grp.appendChild(document.createTextNode(" ")); }
+      grp.appendChild(a);
+      if (i) txt(nav, " ");
+      nav.appendChild(grp);
     });
     f.appendChild(nav);
     Fit.schedule();
@@ -1317,30 +1364,46 @@
     while (host.firstChild) host.removeChild(host.firstChild);
     var page = el("div", "tabpage");
     page.id = "page-week";
+    var layout = el("div", "week-layout");
+    var main = el("div", "week-main");
+    var rail = el("aside", "week-rail");
+    rail.setAttribute("aria-label", "Liked stories and suggestions");
 
     var intro = el("section", "week-intro");
     intro.appendChild(secHead("The Week in Review"));
     if (w.from && w.to) intro.appendChild(el("p", "week-dates", fmtDay(ymd(w.from)) + " to " + fmtDay(ymd(w.to))));
     if (w.headline) intro.appendChild(el("h2", "week-head", w.headline));
+    var mainEnd = intro.lastElementChild;
     if (w.paras.length) {
       var sum = el("div", "week-sum");
       w.paras.forEach(function (t) { sum.appendChild(el("p", null, t)); });
       intro.appendChild(sum);
+      mainEnd = sum;
     }
-    page.appendChild(intro);
+    main.appendChild(intro);
 
+    // Top stories sit in two columns. The columns are plain blocks, one after the other on a phone.
+    // The fill script moves a story from one column to the other when that makes the two end level.
     if (w.top.length) {
       var top = el("section", "tab-sec");
       top.appendChild(secHead("Top Stories of the Week"));
-      var cols = el("div", "tab-cols");
-      w.top.forEach(function (it) {
-        cols.appendChild(story(it, { photo: safeImage(it.image) || (typeof it.video === "string" && VIDEO_ID.test(it.video)) ? "r32" : null, kicker: "source" }));
+      var grid = el("div", "week-topcols");
+      grid.style.setProperty("--tn", String(Math.min(w.top.length, 2)));
+      var colA = el("div", "week-tcol"), colB = el("div", "week-tcol");
+      var half = Math.ceil(w.top.length / 2);
+      w.top.forEach(function (it, i) {
+        (i < half ? colA : colB).appendChild(story(it, { photo: safeImage(it.image) || (typeof it.video === "string" && VIDEO_ID.test(it.video)) ? "r32" : null, kicker: "source" }));
       });
-      top.appendChild(cols);
-      page.appendChild(top);
+      grid.appendChild(colA); grid.appendChild(colB);
+      top.appendChild(grid);
+      main.appendChild(top);
+      mainEnd = grid;
     }
+    if (mainEnd) mainEnd.classList.add("wk-end");
+    layout.appendChild(main);
 
-    var likedBox = el("section", "tab-sec week-narrow");
+    var railEnd = null;
+    var likedBox = el("section", "tab-sec");
     likedBox.appendChild(secHead("Your Most-Liked Stories"));
     var shown = 0;
     if (w.liked.length) {
@@ -1356,12 +1419,13 @@
         shown++;
       });
       likedBox.appendChild(ul);
+      railEnd = ul;
     }
-    if (!shown) likedBox.appendChild(el("p", "week-none", "You liked no stories this week."));
-    page.appendChild(likedBox);
+    if (!shown) { railEnd = el("p", "week-none", "You liked no stories this week."); likedBox.appendChild(railEnd); }
+    rail.appendChild(likedBox);
 
     if (w.sugg.length) {
-      var sg = el("section", "tab-sec week-narrow");
+      var sg = el("section", "tab-sec");
       sg.appendChild(secHead("Suggestions for Your Paper"));
       var ol = el("ol", "week-sugg");
       w.sugg.forEach(function (x) {
@@ -1373,9 +1437,13 @@
         ol.appendChild(li);
       });
       sg.appendChild(ol);
-      sg.appendChild(el("p", "week-note", "Nothing changes on its own. To accept a suggestion, tell Claude its number."));
-      page.appendChild(sg);
+      railEnd = el("p", "week-note", "Nothing changes on its own. To accept a suggestion, tell Claude its number.");
+      sg.appendChild(railEnd);
+      rail.appendChild(sg);
     }
+    if (railEnd) railEnd.classList.add("wk-end");
+    layout.appendChild(rail);
+    page.appendChild(layout);
     host.appendChild(page);
     tabsAvail.week = true;
   }
@@ -1614,11 +1682,11 @@
 
     function lever(c, name, T) {
       var ok = function () { return extent(c) <= T + TOL; };
-      if (name === "fit") maxFit(function (v) { setv(c.el, "--fit", v.toFixed(4)); }, ok, 1, 1.6);
-      else if (name === "lh") maxFit(function (v) { setv(c.el, "--lh", v.toFixed(4)); }, ok, 0, 0.26);
+      if (name === "fit") maxFit(function (v) { setv(c.el, "--fit", v.toFixed(4)); }, ok, 1, c.fitMax || 1.6);
+      else if (name === "lh") maxFit(function (v) { setv(c.el, "--lh", v.toFixed(4)); }, ok, 0, c.lhMax || 0.26);
       else if (name === "ls") maxFit(function (v) { setv(c.el, "--ls", v.toFixed(5) + "em"); }, ok, 0, 0.02);
       else if (name === "ar" && hasPhoto(c)) {
-        maxFit(function (t) { setv(c.el, "--ar", (c.ar0 + t * (1.1 - c.ar0)).toFixed(4)); }, ok, 0, 1);
+        maxFit(function (t) { setv(c.el, "--ar", (c.ar0 + t * ((c.arEnd || 1.1) - c.ar0)).toFixed(4)); }, ok, 0, 1);
       }
     }
 
@@ -1629,7 +1697,7 @@
         if (T - extent(c) <= 1) return;
         lever(c, order[i], T);
       }
-      if (T - extent(c) > TOL) spread(c.el, "--gap", function () { return T - extent(c); }, function () { return extent(c); }, 140);
+      if (T - extent(c) > TOL) spread(c.el, "--gap", function () { return T - extent(c); }, function () { return extent(c); }, c.gapMax || 140);
     }
 
     // Shrink a column that is taller than T: shorten the photo, then scale the type down.
@@ -1677,11 +1745,8 @@
       });
     }
 
-    function run() {
-      timer = null;
-      if (busy || !content.firstElementChild || frontPanel.hidden) return;   // measure only the visible panel
-      busy = true;
-      try {
+    function runFront() {
+      {
         var ears = [document.getElementById("ear-scores"), document.getElementById("ear-wx")];
         ears.forEach(function (e) { if (e) clearVars(e); });
         all(".lead-text, .lead-center, .front-col, .sec, .wcell").forEach(clearVars);
@@ -1708,6 +1773,126 @@
         rows(all(".wcell")).forEach(function (r) {
           equalize(r.map(function (e) { return makeCol(e, ".item"); }));
         });
+      }
+    }
+
+    // ---- The Week panel: top-story columns level, then the main column and the side rail end on one line. ----
+    var WEEK_WIDE = window.matchMedia ? window.matchMedia("(min-width: 720px)") : null;
+
+    // Move a story from one top column to the other while that makes the two columns end closer together.
+    function balanceTop(A, B) {
+      if (!A || !B) return;
+      function h(c) { var e = c.lastElementChild; return e ? rect(e).bottom - rect(c).top : 0; }
+      for (var i = 0; i < 12; i++) {
+        var d = h(A) - h(B);
+        if (Math.abs(d) <= TOL) return;
+        var fromA = d > 0, src = fromA ? A : B;
+        if (src.children.length < 2) return;
+        var node = fromA ? A.lastElementChild : B.firstElementChild;
+        if (fromA) B.insertBefore(node, B.firstChild); else A.appendChild(node);
+        if (Math.abs(h(A) - h(B)) >= Math.abs(d) - 0.5) {   // no better: put it back and stop
+          if (fromA) A.appendChild(node); else B.insertBefore(node, B.firstChild);
+          return;
+        }
+      }
+    }
+
+    function runWeek(host) {
+      var lay = host.querySelector(".week-layout");
+      if (!lay) return;
+      var main = lay.querySelector(".week-main"), rail = lay.querySelector(".week-rail"), intro = lay.querySelector(".week-intro");
+      var tcols = Array.prototype.slice.call(lay.querySelectorAll(".week-tcol"));
+      [intro, rail].concat(tcols).forEach(function (e) { if (e) clearVars(e); });
+      lay.style.removeProperty("--wr");
+      var wide = WEEK_WIDE ? WEEK_WIDE.matches : window.innerWidth >= 720;
+      var mainEnd = main && main.querySelector(".wk-end"), railEnd = rail && rail.querySelector(".wk-end");
+      if (!wide || !mainEnd || !railEnd) return;
+
+      balanceTop(tcols[0], tcols[1]);
+      var live = tcols.filter(function (c) { return c.children.length; }).map(function (c) { return makeCol(c, null, CENTER_ORDER); });
+      // Milder limits than the front page: big type and square photos look wrong in a narrow column.
+      // The photo goes last too: it closes the final few px smoothly.
+      // Story notes never grow past 17px (the summary's base size), and the summary never shrinks below 17px,
+      // so the summary is always at least as large as a story note. Shrinking comes from the stories and photos.
+      live.forEach(function (c) { c.fitMax = 1.05; c.arEnd = 1.4; c.order = ["ar", "fit", "lh", "ls", "ar"]; });
+      var sumCol = intro.querySelector(".week-sum") ? makeCol(intro, ".week-sum", DEFAULT_ORDER) : null;
+      if (sumCol) { sumCol.fitMax = 1.12; sumCol.lhMax = 0.1; }
+      var railCol = makeCol(rail, ".wk-end", DEFAULT_ORDER);
+      railCol.fitMax = 1.5; railCol.gapMax = 260;
+      function mb() { return rect(mainEnd).bottom; }
+      function rb() { return rect(railEnd).bottom; }
+      // Each fit starts from the natural look (all levers cleared), then grows or shrinks the block to T (its extent from its top).
+      function fitCol(c, T, minScale) {
+        clearVars(c.el);
+        if (extent(c) > T + TOL) shrink(c, T, minScale); else grow(c, T);
+      }
+      function clearAll() { [intro, rail].concat(tcols).forEach(function (e) { if (e) clearVars(e); }); }
+      // Bring the main column's bottom to Tm. The summary and the story columns share the change.
+      function setMain(Tm) {
+        [intro].concat(tcols).forEach(function (e) { if (e) clearVars(e); });   // the rail keeps its own fit
+        var nat = mb(), D = Tm - nat;
+        if (D >= 0) {   // grow: the summary takes about half, the story columns take the rest and end level
+          if (sumCol && live.length && D > TOL) fitCol(sumCol, extent(sumCol) + D * 0.5, 1);
+          else if (sumCol && !live.length && D > TOL) fitCol(sumCol, extent(sumCol) + D, 1);
+          live.forEach(function (c) { fitCol(c, Tm - rect(c.el).top, 0.85); });
+          D = Tm - mb();
+          if (D > TOL && sumCol) { fitCol(sumCol, extent(sumCol) + D, 1); live.forEach(function (c) { fitCol(c, Tm - rect(c.el).top, 0.85); }); }
+          return;
+        }
+        D = -D;   // shrink: the story columns take about 60%, the summary the rest
+        if (!live.length) { if (sumCol) fitCol(sumCol, extent(sumCol) - D, 1); return; }
+        var tgt = nat - D * 0.6;
+        live.forEach(function (c) { fitCol(c, tgt - rect(c.el).top, 0.85); });
+        D = mb() - Tm;
+        if (D > TOL && sumCol) fitCol(sumCol, extent(sumCol) - D, 1);
+        D = mb() - Tm;
+        if (D > TOL) { var t2 = mb() - D; live.forEach(function (c) { fitCol(c, t2 - rect(c.el).top, 0.85); }); }
+        var m = Math.max.apply(null, live.map(function (c) { return rect(c.end()).bottom; }));   // level the columns again
+        live.forEach(function (c) { if (m - rect(c.end()).bottom > TOL) fitCol(c, m - rect(c.el).top, 0.85); });
+      }
+      function setRail(Tr) { fitCol(railCol, Tr - rect(rail).top, 0.8); }
+
+      // First lever: the width of the rail. A long summary makes the main column tall; a slightly narrower rail
+      // gives the main column more width (shorter) and the rail less (taller). The ratio stays inside safe limits.
+      var big = window.innerWidth >= 1000, r0 = big ? 2 : 1.5, rLo = big ? 1.6 : 1.2, rHi = big ? 2.7 : 2.1;
+      function setR(r) { lay.style.setProperty("--wr", r.toFixed(3) + "fr"); balanceTop(tcols[0], tcols[1]); }
+      function dif() { return mb() - rb(); }
+      clearAll();
+      if (Math.abs(dif()) > 30) {
+        setR(rHi);
+        if (dif() >= 0) { /* even the narrowest rail leaves main taller: keep rHi */ }
+        else {
+          setR(rLo);
+          if (dif() > 0) {   // main is taller at rLo and shorter at rHi: find the ratio between
+            var lo = rLo, hi = rHi;
+            for (var k = 0; k < 9; k++) { var mid = (lo + hi) / 2; setR(mid); clearAll(); if (dif() > 0) lo = mid; else hi = mid; }
+            setR(hi);
+          }
+        }
+      }
+      clearAll();
+      // Start from the natural look. The longer side gives up about 40% of the difference (a little smaller type,
+      // flatter photos); the shorter side grows to meet it. Then the longer side shrinks more if the shorter could not reach.
+      clearAll();
+      var bm = mb(), br = rb(), D0 = Math.abs(bm - br), T = Math.max(bm, br) - (D0 > 40 ? D0 * 0.4 : 0);
+      setMain(T); setRail(T);
+      for (var i = 0; i < 3; i++) {
+        bm = mb(); br = rb();
+        if (Math.abs(bm - br) <= 6) break;
+        // The longer side shrinks as far as it can; then the shorter side grows to the longer side's final bottom.
+        if (bm > br) { setMain(br); if (mb() > rb() + 3) setRail(mb()); }
+        else { setRail(bm); if (rb() > mb() + 3) setMain(rb()); }
+      }
+    }
+
+    function run() {
+      timer = null;
+      if (busy) return;
+      busy = true;
+      try {
+        if (content.firstElementChild && !frontPanel.hidden) runFront();   // measure only the visible panels
+        var wp = document.getElementById("panel-week");
+        if (wp && !wp.hidden) runWeek(wp);
       } finally {
         busy = false;
       }
@@ -2319,7 +2504,7 @@
     if (opts.persist !== false) store.set(TAB_KEY, id);
     if (opts.hash !== false) setHash(id);
     if (opts.focus) tabButtons[id].focus();
-    if (id === "front") { Fit.run(); Fit.schedule(60); }   // the fit engine only measures the visible panel
+    if (id === "front" || id === "week") { Fit.run(); Fit.schedule(60); }   // the fit engine only measures the visible panel
   }
   // Show the topic tabs that brief.tabs provided, hide the rest, and open a tab that was asked for early.
   function refreshTabs() {
