@@ -181,9 +181,6 @@ topics:
       - name: AEC Magazine
         type: rss
         url: https://aecmag.com/feed/
-      - name: Architosh
-        type: rss
-        url: https://www.architosh.com/feed/
       - name: BIM Pure YouTube   # unverified; skipped if it fails
         type: rss
         url: https://www.youtube.com/feeds/videos.xml?channel_id=UClDb09FCWGuV231Ft3nRxvg

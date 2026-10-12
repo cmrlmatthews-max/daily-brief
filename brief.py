@@ -56,6 +56,8 @@ Rules:
 - Never invent facts. Use only what is in the item title and summary.
 - Refer to items by their id only. Never write URLs.
 - Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
+- A team source also carries stories about other teams and players. Name a team only when the item title
+  or summary names it. Never take the team from the source name.
 - World items must be straight news, never opinion or analysis pieces.
 - Politics items must be news, or a plain description of what a video segment covers.
   Use neutral wording. No adjectives that take a side.
@@ -149,6 +151,8 @@ Rules:
 - Refer to items by id only. Never write URLs.
 - Note: 1 to 2 sentences, at most 35 words, saying what the story is and why it matters to this reader.
 - Sports items only if they are real news (trades, injuries, results, fights) or a plain highlight video.
+- A team source also carries stories about other teams and players. Name a team only when the item title
+  or summary names it. Never take the team from the source name.
 - World items must be straight news, never opinion or analysis pieces.
 - Politics items must be news, or a plain description of what a video segment covers.
 - Notes must be neutral and factual for World and for anything political. No adjectives that take a side.

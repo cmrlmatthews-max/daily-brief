@@ -332,7 +332,7 @@ def test_sources_config():
     assert names["Politics"] == ["The Lever", "Drop Site News", "The Majority Report", "Breaking Points",
                                  "More Perfect Union"]
     assert names["Atlanta"] == ["Rough Draft Atlanta", "Urbanize Atlanta", "SaportaReport"]
-    assert {"AEC Magazine", "Architosh"} <= set(names["Architecture"])
+    assert "AEC Magazine" in names["Architecture"] and "Architosh" not in names["Architecture"]   # Architosh blocks the GitHub runner (403)
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
     assert {"UFC (ESPN)", "Braves highlights", "Rockets highlights",
@@ -1417,3 +1417,8 @@ def test_main_front_model_failure_retries_with_main_model(monkeypatch, tmp_path,
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
     assert seen == [cfg["front_model"], cfg["model"]]
     assert b["lead"]
+
+
+def test_prompts_never_take_the_team_from_the_source_name():
+    for prompt in (brief.SYSTEM_PROMPT, brief.DESK_PROMPT):
+        assert "Never take the team from the source name." in prompt
