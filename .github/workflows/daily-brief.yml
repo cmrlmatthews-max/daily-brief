@@ -19,7 +19,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15   # Sundays add the Opus week review
+    timeout-minutes: 15   # Sundays add the Opus week review. The audio runs in its own job.
     outputs:
       skip: ${{ steps.check.outputs.skip }}
     steps:
@@ -52,21 +52,178 @@ jobs:
           GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
-      - uses: actions/upload-pages-artifact@v3
-        if: steps.check.outputs.skip != 'true'
-        with:
-          path: site
-      # The finished paper, handed to the save job (which files it as a back issue).
+      # The finished paper, handed to the save job (which files it as a back issue). It never has an "audio" key.
       - uses: actions/upload-artifact@v4
         if: steps.check.outputs.skip != 'true'
         with:
           name: paper
           path: site/brief.json
           retention-days: 3
+      # The built site, handed to the audio and assemble jobs. The assemble job publishes it to Pages.
+      - uses: actions/upload-artifact@v4
+        if: steps.check.outputs.skip != 'true'
+        with:
+          name: site
+          path: site
+          retention-days: 1
 
-  deploy:
+  # Daily audio. This job is isolated on purpose: it installs third-party packages and runs a model, so it has
+  # no secrets and read-only access, and it cannot touch the published site. Its only output is the artifact
+  # "audio" (listen.mp3 and audio.json), and the assemble job checks that before it uses it.
+  # If this job fails or runs out of time, the paper is published without audio.
+  audio:
     needs: build
     if: needs.build.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: paper
+          path: in
+      # The model files never change, so the key is fixed.
+      - name: Restore the voice model
+        id: kokoro-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .kokoro
+          key: kokoro-v1.0-fp16
+      # Download into a temp folder and move the files to .kokoro only after the sha256 check passes.
+      # The cache is saved after that, so a partial or bad download can never be cached.
+      - name: Get the voice model
+        id: kokoro-get
+        if: steps.kokoro-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 8
+        run: |
+          set -euo pipefail
+          dl="$RUNNER_TEMP/kokoro-download"
+          base=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+          mkdir -p "$dl"
+          curl -fsSL --max-time 180 "$base/kokoro-v1.0.fp16.onnx" -o "$dl/kokoro-v1.0.fp16.onnx"
+          curl -fsSL --max-time 180 "$base/voices-v1.0.bin" -o "$dl/voices-v1.0.bin"
+          printf '%s  %s\n' \
+            c1610a859f3bdea01107e73e50100685af38fff88f5cd8e5c56df109ec880204 kokoro-v1.0.fp16.onnx \
+            bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d voices-v1.0.bin \
+            > "$dl/SHA256SUMS"
+          (cd "$dl" && sha256sum -c SHA256SUMS)
+          mkdir -p .kokoro
+          mv "$dl/kokoro-v1.0.fp16.onnx" "$dl/voices-v1.0.bin" .kokoro/
+      - name: Save the voice model
+        if: steps.kokoro-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .kokoro
+          key: kokoro-v1.0-fp16
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-audio.txt
+      - run: pip install -r requirements-audio.txt
+      # audio.py always exits 0. It leaves out/listen.mp3 and out/audio.json only when the audio is whole.
+      - name: Make the audio
+        timeout-minutes: 6
+        continue-on-error: true
+        run: python audio.py --brief in/brief.json --out out
+        env:
+          KOKORO_DIR: .kokoro
+      - uses: actions/upload-artifact@v4
+        if: hashFiles('out/listen.mp3') != '' && hashFiles('out/audio.json') != ''
+        with:
+          name: audio
+          path: out
+          retention-days: 1
+
+  # Puts the audio (if it passes the checks) into the site and uploads the site to Pages. This job runs no
+  # repo code and no third-party packages: only the standard library of the runner's Python, inline.
+  assemble:
+    needs: [build, audio]
+    if: always() && needs.build.result == 'success' && needs.build.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+      - uses: actions/download-artifact@v4
+        continue-on-error: true   # no audio today is normal
+        with:
+          name: audio
+          path: audio_in
+      - name: Add the audio if it is good
+        run: |
+          python3 - <<'PY'
+          import json, math, os, re, shutil
+
+          MIN_BYTES, MAX_BYTES = 10_000, 15_000_000
+          mp3, meta = "audio_in/listen.mp3", "audio_in/audio.json"
+
+          def plain_file(path):
+              return os.path.isfile(path) and not os.path.islink(path)
+
+          def check():
+              """The audio entry for brief.json, or a reason (text) why there is none."""
+              if not (plain_file(mp3) and plain_file(meta)):
+                  return None, "no audio files"
+              size = os.path.getsize(mp3)
+              if not MIN_BYTES <= size <= MAX_BYTES:
+                  return None, f"mp3 size {size} is out of range"
+              with open(mp3, "rb") as f:
+                  head = f.read(3)
+              if not (head == b"ID3" or (head[0] == 0xFF and head[1] & 0xE0 == 0xE0)):
+                  return None, "mp3 header is not ID3 or an MPEG frame"
+              if os.path.getsize(meta) > 4096:
+                  return None, "audio.json is too big"
+              with open(meta, encoding="utf-8") as f:
+                  info = json.load(f)
+              if not isinstance(info, dict):
+                  return None, "audio.json is not an object"
+              url, seconds, voice = info.get("url"), info.get("seconds"), info.get("voice")
+              if not (isinstance(url, str) and re.fullmatch(r"listen\.mp3\?v=\d+", url)):
+                  return None, "bad url"
+              if isinstance(seconds, bool) or not isinstance(seconds, (int, float)) \
+                      or not math.isfinite(seconds) or not 1 <= seconds <= 3600:
+                  return None, "bad seconds"
+              if not (isinstance(voice, str) and 1 <= len(voice) <= 40 and voice.isprintable()):
+                  return None, "bad voice"
+              return {"url": url, "seconds": round(seconds, 1), "voice": voice}, ""
+
+          try:
+              entry, why = check()
+              if entry is None:
+                  print("audio: not added,", why)
+              else:
+                  with open("site/brief.json", encoding="utf-8") as f:
+                      brief = json.load(f)
+                  brief["audio"] = entry
+                  shutil.copyfile(mp3, "site/listen.mp3.tmp")
+                  with open("site/brief.json.tmp", "w", encoding="utf-8") as f:
+                      json.dump(brief, f, indent=2, ensure_ascii=False)
+                      f.write("\n")
+                  os.replace("site/listen.mp3.tmp", "site/listen.mp3")
+                  os.replace("site/brief.json.tmp", "site/brief.json")   # last: the page sees audio only when the file is there
+                  print(f"audio: added, {entry['seconds']} s")
+          except Exception as exc:
+              print("audio: not added,", type(exc).__name__)
+          finally:
+              for name in ("site/listen.mp3.tmp", "site/brief.json.tmp"):
+                  if os.path.exists(name):
+                      os.remove(name)
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: assemble
+    if: needs.assemble.result == 'success'
     runs-on: ubuntu-latest
     permissions:
       pages: write

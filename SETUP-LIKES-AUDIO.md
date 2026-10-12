@@ -78,7 +78,11 @@ Your "Print Daily Brief" token already starts a workflow, so it can also start t
 
 ## Part 2. Read Daily Brief
 
-### 2.1 Download a better free voice
+Each morning the paper makes an audio file, `listen.mp3`, read by a natural voice (Kokoro Michael). This one Shortcut plays that file. On a day with no audio file, it speaks the paper with the iPhone voice.
+
+> **CAUTION:** The iPhone keyboard can add a space at the end of a word when you tap a suggestion. A space at the end of an address stops the Shortcut. Type each address by hand. Do not tap the suggestions above the keyboard.
+
+### 2.1 Download a better free voice (for days with no audio)
 
 1. Open **Settings**.
 2. Tap **Accessibility**, then **Spoken Content**, then **Voices**, then **English**.
@@ -89,20 +93,32 @@ Your "Print Daily Brief" token already starts a workflow, so it can also start t
 
 1. Open the **Shortcuts** app. Tap **+**.
 2. Name the Shortcut `Read Daily Brief` exactly.
-3. Add the action **Get Contents of URL**.
-4. Tap the URL. Type `https://cmrlmatthews-max.github.io/daily-brief/brief.json?v=`
-5. Right after `?v=`, insert the variable **Current Date**. This step stops the iPhone from reading an old copy.
-6. Add the action **Get Dictionary Value**. Set it to: Get **Value** for `listen` in `Contents of URL`.
-7. Add the action **Speak Text**. Set it to speak `Dictionary Value`.
-8. Tap the arrow in **Speak Text**. Turn on **Wait Until Finished**. Set **Voice** to the voice from step 2.1.
-9. Tap **Done**.
+3. Add the action **Get Contents of URL**. Tap the URL. Type `https://cmrlmatthews-max.github.io/daily-brief/brief.json?v=`
+4. Right after `?v=`, insert the variable **Current Date**. Tap the variable. Set **Date Format** to **ISO 8601**. This step stops the iPhone from reading an old copy.
+5. Add the action **Get Dictionary Value**. Set it to: Get **Value** for `audio` in `Contents of URL`.
+6. Add the action **If**. Set it to: **If** `Dictionary Value` **has any value**.
+7. Inside the **If**, add the action **Get Contents of URL**. Tap the URL. Type `https://cmrlmatthews-max.github.io/daily-brief/listen.mp3?v=`
+8. Right after `?v=`, insert the variable **Current Date**. Set **Date Format** to **ISO 8601**.
+9. Under it, add the action **Play Sound**. Set it to play `Contents of URL` (the one from step 7).
+10. In the **Otherwise** part, add the action **Get Dictionary Value**. Set it to: Get **Value** for `listen` in the `Contents of URL` from step 3.
+11. Under it, add the action **Speak Text**. Set it to speak `Dictionary Value` (the one from step 10).
+12. Tap the arrow in **Speak Text**. Turn on **Wait Until Finished**. Set **Voice** to the voice from step 2.1.
+13. Tap **Done**.
+
+If you cannot tell the two **Contents of URL** variables apart, tap the variable. The Shortcut shows the action that it comes from.
 
 ### 2.3 Use it
 
 - On the paper, tap **Listen to Today's Paper** in the footer.
 - In the car, say "Hey Siri, Read Daily Brief."
 
-On Sundays, the spoken paper also reads the week in review.
+On Sundays, the audio also reads the week in review.
+
+> **NOTE:** **Play Sound** has no pause button and no skip. To pause or skip, use the audio player on the page.
+
+### 2.4 If there is no audio today
+
+Some mornings the audio job can fail. The paper is still fine. It has no `audio` value, so the **If** goes to **Otherwise**, and the Shortcut speaks the `listen` text with the iPhone voice. You do not need to do anything.
 
 ---
 

@@ -246,3 +246,19 @@ scores:
   - team: San Francisco 49ers
     league_path: football/nfl
     team_id: 25
+
+# Daily audio (audio.py). It runs in its own workflow job after the paper is built. Kokoro reads the "listen" text
+# into listen.mp3. The workflow downloads the model files, checks their sha256, and caches them in model_dir.
+# If anything fails, there is no audio and the paper is unchanged.
+# pronounce: whole-word, case-sensitive spellings for the voice only. The printed text does not change.
+# Built in: "Jr." -> Junior, "Sr." -> Senior, "U.S." -> U S, "&" -> and. Entries here win over the built-in ones.
+# Put quotes around No and Yes (YAML reads them as true and false).
+audio:
+  enabled: true
+  voice: am_michael
+  speed: 1.0
+  lang: en-us
+  model_dir: .kokoro
+  bitrate: 64k
+  pronounce:
+    Mitte: Mitty

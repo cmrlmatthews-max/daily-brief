@@ -941,9 +941,12 @@ def test_workflow_guard_wiring():
     assert steps["check"]["if"] == "github.event_name == 'schedule'"
     assert build["outputs"]["skip"] == "${{ steps.check.outputs.skip }}"
     assert steps["Generate brief"]["if"] == "steps.check.outputs.skip != 'true'"
-    assert any(s.get("uses", "").startswith("actions/upload-pages-artifact") and
+    # the build uploads the finished site as a normal artifact; the assemble job publishes it to Pages
+    assert not any(s.get("uses", "").startswith("actions/upload-pages-artifact") for s in build["steps"])
+    assert any(s.get("uses", "").startswith("actions/upload-artifact") and s["with"]["name"] == "site" and
                s["if"] == "steps.check.outputs.skip != 'true'" for s in build["steps"])
-    assert deploy["if"] == "needs.build.outputs.skip != 'true'"
+    assert any(s.get("uses", "").startswith("actions/upload-pages-artifact") for s in wf["jobs"]["assemble"]["steps"])
+    assert deploy["needs"] == "assemble" and deploy["if"] == "needs.assemble.result == 'success'"
 
 
 def test_page_has_print_button_wiring():

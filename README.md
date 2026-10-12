@@ -51,7 +51,7 @@ Mail uses one more Claude call. It sees sender, subject, and snippet only (never
 
 ## Print a new edition
 
-The foot of the page has a "Print a New Edition" button. It opens the Apple Shortcut named `Print Daily Brief` (set by `SHORTCUT_NAME` in `site/index.html`), which starts the GitHub run. The page then checks `brief.json` every 15 seconds. When a newer edition arrives, it reloads. After 6 minutes it gives up and links to the runs on GitHub. The Shortcut comes back to the page with `?printed=<time>`, and the page keeps waiting from there. The scheduled 2:17 AM run first runs `python brief.py --check-today`. If a paper was already printed that day (New York time), it skips the build and the deploy. Manual runs always build.
+The foot of the page has a "Print a New Edition" button. It opens the Apple Shortcut named `Print Daily Brief` (set by `SHORTCUT_NAME` in `site/index.html`), which starts the GitHub run. The page then checks `brief.json` every 15 seconds. When a newer edition arrives, it reloads. After 12 minutes it gives up and links to the runs on GitHub. The Shortcut comes back to the page with `?printed=<time>`, and the page keeps waiting from there. The scheduled 2:17 AM run first runs `python brief.py --check-today`. If a paper was already printed that day (New York time), it skips the build and the deploy. Manual runs always build.
 
 ## Models
 
@@ -65,7 +65,31 @@ Tap ☆ on a story to star it. Stars stay on the phone until you tap "Send N lik
 
 On Sundays, Opus reads the week's papers and likes. It writes "The Week" tab: a summary, the top stories, your most-liked stories, and suggestions for sources and the reader profile. Nothing changes on its own. You approve each suggestion by hand.
 
-The "Listen to Today's Paper" button runs the Apple Shortcut `Read Daily Brief`, which speaks the `listen` text in `brief.json`. Setup: [SETUP-LIKES-AUDIO.md](SETUP-LIKES-AUDIO.md).
+The "Listen to Today's Paper" button runs the Apple Shortcut `Read Daily Brief`, which plays the audio of the paper (see Audio below). Setup: [SETUP-LIKES-AUDIO.md](SETUP-LIKES-AUDIO.md).
+
+## Audio
+
+Each morning the paper also gets a spoken version. The workflow has three jobs for this:
+
+1. `build` makes the paper as before and uploads it as artifacts (`paper` for the back issue, `site` for Pages).
+2. `audio` runs on its own runner with no secrets and read-only access. It reads the `listen` text of `brief.json` and speaks it with Kokoro (voice `am_michael`, an open voice model that runs on the CPU, no API key). It writes `listen.mp3` (mono, 24 kHz, 64k, written by `soundfile`, no ffmpeg needed) and `audio.json`, and uploads them as the artifact `audio`. The job has `continue-on-error`, a 12 minute limit, and the speech step has a 6 minute limit.
+3. `assemble` runs only the standard library, no repo code. It checks the audio files (a real MP3 of 10 KB to 15 MB, a url like `listen.mp3?v=<time>`, 1 to 3600 seconds). If they pass, it copies `listen.mp3` into the site and adds `"audio": {"url": "listen.mp3?v=<time>", "seconds": 159.5, "voice": "Kokoro Michael"}` to `site/brief.json`. Then it uploads the site to Pages, and `deploy` publishes it.
+
+If the audio job fails, times out or makes bad files, the paper is still published, with no `audio` key. The `listen` text on the page is never changed. The back issue is saved from the `paper` artifact, so it never has an `audio` key, and `listen.mp3` is not kept.
+
+The settings are in the `audio:` block of `sources.yaml`. `pronounce:` lists words that the voice says wrongly, as `Written: Spoken` pairs (whole words, case-sensitive). They change only the text that goes to the voice. Built in: `Jr.`, `Sr.`, `U.S.` and `&`. Put quotes around `No` and `Yes`.
+
+The two model files (about 205 MB) come from the `model-files-v1.0` release of `thewh1teagle/kokoro-onnx`. They are downloaded into a temp folder, checked against pinned sha256 values (also in `audio.py`), and only then moved to `.kokoro` and cached. A partial or bad download is never cached. Packages for this job are pinned in `requirements-audio.txt`; the main build does not need them.
+
+The `Read Daily Brief` Shortcut plays the MP3 when `brief.json` has an `audio` key. Otherwise it speaks the `listen` text, as before.
+
+Local run (needs `pip install -r requirements-audio.txt` and the two model files):
+
+```
+python brief.py --dry-run
+KOKORO_DIR=/path/to/models python audio.py                               # writes site/listen.mp3 and the audio key
+KOKORO_DIR=/path/to/models python audio.py --brief site/brief.json --out out   # the workflow way
+```
 
 ## Images
 

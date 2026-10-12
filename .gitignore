@@ -5,3 +5,6 @@ site/brief.json
 site/private.enc
 site/archive/
 data/
+.kokoro/
+site/listen.mp3
+site/listen.mp3.part
