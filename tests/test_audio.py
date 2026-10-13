@@ -228,7 +228,8 @@ def test_out_mode_writes_only_to_the_out_folder(tmp_path, monkeypatch, capsys):
     before = (inn / "brief.json").read_text()
     out = tmp_path / "out"
     assert audio.main(["--brief", str(inn / "brief.json"), "--out", str(out)]) == 0
-    assert sorted(p.name for p in out.iterdir()) == ["audio.json", "listen.mp3"]
+    assert sorted(p.name for p in out.iterdir()) == ["audio.json", "listen.mp3", "status.txt"]
+    assert (out / "status.txt").read_text().strip() == "made"
     assert json.loads((out / "audio.json").read_text()) == \
         {"url": f"listen.mp3?v={STAMP}", "seconds": 30.0, "voice": "Kokoro Michael"}
     assert (out / "listen.mp3").read_bytes().startswith(b"ID3")
@@ -244,7 +245,8 @@ def test_out_mode_skip_leaves_nothing_and_clears_old_files(tmp_path, monkeypatch
         (out / name).write_bytes(b"old")
     monkeypatch.setattr(audio, "load_config", lambda path=None: dict(audio.DEFAULTS))
     assert audio.main(["--brief", str(inn / "brief.json"), "--out", str(out)]) == 0
-    assert list(out.iterdir()) == [] and "no listen text" in capsys.readouterr().out
+    assert [p.name for p in out.iterdir()] == ["status.txt"] and "no listen text" in capsys.readouterr().out
+    assert "no listen text" in (out / "status.txt").read_text()
 
 
 def test_out_mode_failure_leaves_nothing(tmp_path, monkeypatch, capsys):
@@ -256,7 +258,7 @@ def test_out_mode_failure_leaves_nothing(tmp_path, monkeypatch, capsys):
     real = audio.write_json_atomic
     monkeypatch.setattr(audio, "write_json_atomic", lambda *a, **k: (_ for _ in ()).throw(OSError("disk full")))
     assert audio.main(["--brief", str(inn / "brief.json"), "--out", str(out)]) == 0
-    assert list(out.iterdir()) == [] and "disk full" in capsys.readouterr().out    # the MP3 made before is removed
+    assert [p.name for p in out.iterdir()] == ["status.txt"] and "disk full" in capsys.readouterr().out    # the MP3 made before is removed
     monkeypatch.setattr(audio, "write_json_atomic", real)
 
 
@@ -484,7 +486,7 @@ def test_audio_job_steps_and_cache_saved_only_after_the_sha_check():
     assert make["run"] == "python audio.py --brief in/brief.json --out out" and make["env"] == {"KOKORO_DIR": ".kokoro"}
     up = steps[-1]
     assert up["uses"] == "actions/upload-artifact@v4" and up["with"] == {"name": "audio", "path": "out", "retention-days": 1}
-    assert "hashFiles('out/listen.mp3')" in up["if"] and "hashFiles('out/audio.json')" in up["if"]
+    assert up["if"] == "always() && hashFiles('out/status.txt') != ''"   # the status always reaches brief.json
 
 
 def test_workflow_sha256_values_match_audio_py():
@@ -610,8 +612,11 @@ def test_assemble_rejects_bad_audio_and_leaves_the_paper_alone(tmp_path_factory)
     for label, kw in cases.items():
         folder = tmp_path_factory.mktemp("a")
         out, site = run_assemble(folder, **kw)
-        assert "audio: not added" in out, label
-        assert saved(site) == {"generated_at": "x", "listen": "hi"} and not (site / "listen.mp3").exists(), label
+        assert "audio: added" not in out, label
+        got = saved(site)
+        assert "audio" not in got and not (site / "listen.mp3").exists(), label
+        assert {k: v for k, v in got.items() if k != "audio_status"} == {"generated_at": "x", "listen": "hi"}, label
+        assert got.get("audio_status", "") != "added", label   # a crash in the check leaves brief.json untouched
 
 
 def test_assemble_survives_a_broken_brief_json(tmp_path):
@@ -629,7 +634,19 @@ def test_assemble_works_with_no_audio_folder_at_all(tmp_path):
     (tmp_path / "site").mkdir()
     (tmp_path / "site" / "brief.json").write_text("{}")
     r = subprocess.run([sys.executable, "-I", "-c", assemble_script()], cwd=tmp_path, capture_output=True, text=True)
-    assert r.returncode == 0 and "no audio files" in r.stdout
+    assert r.returncode == 0 and "no result from the audio job" in r.stdout
+    assert json.loads((tmp_path / "site" / "brief.json").read_text()) == {"audio_status": "no result from the audio job"}
+
+
+def test_assemble_copies_the_audio_job_status_into_brief_json(tmp_path):
+    (tmp_path / "audio_in").mkdir()
+    (tmp_path / "audio_in" / "status.txt").write_text("skipped, ImportError: no module named x\x1b[0m\n")
+    (tmp_path / "site").mkdir()
+    (tmp_path / "site" / "brief.json").write_text("{}")
+    r = subprocess.run([sys.executable, "-I", "-c", assemble_script()], cwd=tmp_path, capture_output=True, text=True)
+    assert r.returncode == 0
+    got = json.loads((tmp_path / "site" / "brief.json").read_text())
+    assert got["audio_status"].startswith("skipped, ImportError") and "\x1b" not in got["audio_status"]
 
 
 def test_audio_py_output_passes_the_assemble_check(tmp_path, monkeypatch):

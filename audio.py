@@ -299,17 +299,33 @@ def main(argv: list[str] | None = None) -> int:
     brief_path = Path(args.brief) if args.brief else SITE_DIR / "brief.json"
     out_dir = Path(args.out) if args.out else None
     done = False
+    status = "made"
     try:
         clear_outputs(brief_path, out_dir)   # an old result must never survive a run that makes none
         run(brief_path, out_dir)
         done = True
     except Skip as why:
-        print(f"audio: skipped, {why}")
+        status = f"skipped, {why}"
+        print(f"audio: {status}")
     except Exception as exc:
-        print(f"audio: skipped, {type(exc).__name__}: {str(exc)[:140]}")   # never stop the paper
+        status = f"skipped, {type(exc).__name__}: {str(exc)[:140]}"
+        print(f"audio: {status}")   # never stop the paper
     if not done:
         clear_outputs(brief_path, out_dir)
+    write_status(out_dir, status)
     return 0
+
+
+def write_status(out_dir: Path | None, status: str) -> None:
+    """In out-mode, leave a one-line status for the assemble job (it shows in brief.json as audio_status)."""
+    if out_dir is None:
+        return
+    try:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        line = "".join(c for c in status if c.isprintable())[:200]
+        (out_dir / "status.txt").write_text(line + "\n", encoding="utf-8")
+    except OSError:
+        pass
 
 
 if __name__ == "__main__":

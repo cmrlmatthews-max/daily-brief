@@ -132,7 +132,8 @@ jobs:
         env:
           KOKORO_DIR: .kokoro
       - uses: actions/upload-artifact@v4
-        if: hashFiles('out/listen.mp3') != '' && hashFiles('out/audio.json') != ''
+        # Always upload when there is a status, so the published brief.json says why audio is missing.
+        if: always() && hashFiles('out/status.txt') != ''
         with:
           name: audio
           path: out
@@ -195,21 +196,34 @@ jobs:
                   return None, "bad voice"
               return {"url": url, "seconds": round(seconds, 1), "voice": voice}, ""
 
+          def job_status():
+              """The audio job's own one-line status (printable, at most 200 characters), or a default."""
+              path = "audio_in/status.txt"
+              if not plain_file(path) or os.path.getsize(path) > 1024:
+                  return "no result from the audio job"
+              with open(path, encoding="utf-8", errors="replace") as f:
+                  text = f.read().strip()
+              return "".join(c for c in text if c.isprintable())[:200] or "empty status"
+
           try:
               entry, why = check()
-              if entry is None:
-                  print("audio: not added,", why)
+              with open("site/brief.json", encoding="utf-8") as f:
+                  brief = json.load(f)
+              if entry is not None:
+                  brief["audio_status"] = "added"
+              elif why == "no audio files":
+                  brief["audio_status"] = job_status()
               else:
-                  with open("site/brief.json", encoding="utf-8") as f:
-                      brief = json.load(f)
+                  brief["audio_status"] = f"not added: {why}"
+              if entry is not None:
                   brief["audio"] = entry
                   shutil.copyfile(mp3, "site/listen.mp3.tmp")
-                  with open("site/brief.json.tmp", "w", encoding="utf-8") as f:
-                      json.dump(brief, f, indent=2, ensure_ascii=False)
-                      f.write("\n")
                   os.replace("site/listen.mp3.tmp", "site/listen.mp3")
-                  os.replace("site/brief.json.tmp", "site/brief.json")   # last: the page sees audio only when the file is there
-                  print(f"audio: added, {entry['seconds']} s")
+              with open("site/brief.json.tmp", "w", encoding="utf-8") as f:
+                  json.dump(brief, f, indent=2, ensure_ascii=False)
+                  f.write("\n")
+              os.replace("site/brief.json.tmp", "site/brief.json")   # last: the page sees audio only when the file is there
+              print("audio:", brief["audio_status"])
           except Exception as exc:
               print("audio: not added,", type(exc).__name__)
           finally:
