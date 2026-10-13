@@ -3,64 +3,63 @@
   "tagline": "The Daily Brief",
   "edition": "Atlanta Edition",
   "date_label": "Monday, October 12, 2026",
-  "generated_at": "2026-10-12T19:56:33-04:00",
+  "generated_at": "2026-10-12T20:01:36-04:00",
   "model": "claude-sonnet-5-5",
   "models": {
     "front": "claude-sonnet-5-5",
-    "desk": "claude-haiku-5-5",
-    "videos": "claude-haiku-5-5"
+    "desk": "claude-haiku-5-5"
   },
-  "listen": "Good morning. This is The Daily Brief for Monday, October 12. The lead story is about Katie Zacharia, who has been named the new White House press secretary. NPR reports that she worked for one of Trump's companies and appeared often on conservative-leaning talk shows. The report describes her as a devoted fan of Trump and MAGA. Now to the other front page stories. Nearly 22 million dollars in taxpayer funds has been spent on ads, with about 10 million spent after Trump said a super PAC would fund them. In India, opposition parties marched to the top court as protests over voter list revisions escalate. Authorities have removed more than 130 million names from the voter roll. Ukraine says six energy sites have been hit by Russia since Trump announced an energy ceasefire. And NASA says Antarctic sea ice has reached its 2026 maximum, the third lowest since satellite records began. Now the sections. In Tech and AI, Python 3.15 is out, and Anthropic is expanding its Cyber Verification Program. In Politics, Drop Site News reports on India's crackdown on protesters, and NPR talks with Senator Jeanne Shaheen about the Russian diesel deal. In World, the BBC reports that actor RJ Mitte has died at age 34. Immigration agents searched the home of Congresswoman Ilhan Omar. In Sports, Brendan Allen won the UFC main event by fifth-round submission. The 49ers' Dre Greenlaw was suspended one game. In Atlanta, President Trump will campaign in Dalton on Friday with Rep. Mike Collins and Rick Jackson. Three modern homes are coming to market in Old Fourth Ward. In Architecture, Matterport now supports importing point cloud files, and IES Sync for Revit has launched. In Science and Nature, NASA will send experiments on human health and drug-resistant organisms to the space station. Wildfires on Borneo have left orangutans injured, and rescuers are evacuating them. That is the brief. Have a good day.",
+  "listen": "Good morning. This is The Daily Brief for Monday, October 12, 2026. The lead story is about Russia and Ukraine. President Trump said he had brokered a cease-fire to protect energy infrastructure in both countries. Ukrainian officials say bombs kept falling overnight on gas facilities, wounding 33 people. Ukraine's leader says Russia is ignoring the energy ceasefire. Moscow has said little about the proposal. Now the front page. Saudi Arabia's minister vowed a serious response after Houthi attacks hit Riyadh's international airport and another facility, killing 13 people. Federal agents searched the Washington home of Representative Ilhan Omar. The Justice Department says the warrant was approved as part of an ongoing federal investigation. Omar calls it an attempt to target political enemies. In France, a fourteen-year-old was detained after two teachers were shot at a middle school. And Drop Site News reports on Iran tightening control of the Strait of Hormuz. Now, a sentence for each section. In Tech and AI, Cloudflare is acquiring Deno outright. In Politics, the Justice Department is investigating TV networks for possible antitrust violations. In World, a seafarers' union official says crews are being offered big money to transit the Strait of Hormuz. In Sports, the 49ers say Deebo Samuel will miss at least a couple of weeks with a hamstring injury. In Atlanta, one person died and four were injured on the Goliath rollercoaster at Six Flags Over Georgia. The Atlanta Dream reached the WNBA Finals. In Architecture, Hexagon will acquire Rocscience for 535 million dollars. In Science and Nature, Chinook salmon are returning to the Klamath River after four US dams were removed. That is the brief. Have a good day.",
   "lead": {
-    "title": "New White House press secretary a \"devoted fan\" of Trump and MAGA",
-    "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
-    "source": "NPR News",
+    "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+    "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+    "source": "NPR World",
     "topic": "World",
-    "note": "Katie Zacharia has been named the new White House press secretary, the president's chief spokesperson. According to NPR, she previously worked for one of Trump's companies. She also raised her profile by appearing on conservative-leaning talk shows. The report says she amplified right-wing conspiracy theories. NPR describes her as a devoted fan of Trump and the MAGA movement. The appointment places her as the public voice of the White House press office. Readers following domestic politics should note the background details in the report. The item is a straight news summary and does not include a response from the White House in the available text.",
-    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1857x2928+0+0/resize/1857x2928!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7a%2F27%2F729a84cb46feb05ce8aedc910123%2Fgettyimages-2298850605.jpg",
+    "note": "President Trump said he had brokered a cease-fire to protect energy infrastructure in Russia and Ukraine. Ukrainian officials say bombs kept falling overnight on gas facilities, wounding 33 people. Ukraine's leader says Russia is continuing to attack and is ignoring the energy ceasefire the President declared. A BBC report notes that Moscow has said little about the proposal, while Ukraine's Volodymyr Zelensky suggests he would sign up to a ceasefire on energy infrastructure. An NPR report asks whether either country knew about the partial ceasefire before it was announced. The situation shows how far the announced pause and the reported attacks on the ground still diverge. For a reader following world news, the key question is whether any energy truce takes hold.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2F94%2F4255cf7b412e923699942bef0ba0%2Fap26284505553761.jpg",
     "video": null,
-    "headline": "New White House press secretary is a devoted Trump fan",
+    "headline": "Russia Strikes Ukraine Gas Sites After Trump's Energy Ceasefire",
     "decks": [
-      "Katie Zacharia will serve as the president's chief spokesperson",
-      "Report details her work for a Trump company and talk show appearances",
-      "NPR describes her as a devoted fan of Trump and MAGA"
+      "Trump said he brokered a cease-fire protecting energy infrastructure",
+      "Ukrainian officials say 33 people were wounded in overnight attacks",
+      "Ukraine's leader says Russia is ignoring the declared energy ceasefire"
     ]
   },
   "front": [
     {
-      "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
-      "source": "NPR News",
-      "topic": "World",
-      "note": "Nearly $22 million in taxpayer funds has been spent on ads, about $10 million after Trump said a super PAC would fund them.",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5097x3398+0+0/resize/5097x3398!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F5c%2F3f346e034949b36cd4c8b40fa6ce%2Fgettyimages-2299455893.jpg",
-      "video": null
-    },
-    {
-      "title": "India's opposition parties march to top court as protests over voter lists escalate",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
-      "source": "NPR News",
-      "topic": "World",
-      "note": "Opposition parties marched to India's top court as protests over voter list revisions escalate, with over 130 million names removed.",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fef%2F62%2F26a97c77444bb7c992b54826ba2d%2Fap26285319408274.jpg",
-      "video": null
-    },
-    {
-      "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "topic": "World",
-      "note": "Ukraine says six energy sites have been hit by Russia since Trump announced an energy ceasefire, despite the announcement.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fbda/live/375348b0-c659-11f1-8600-efb62b613ab5.jpg",
+      "note": "Saudi Arabia's minister vowed a serious response after Houthi attacks hit Riyadh's international airport and another facility, killing 13 people.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b82e/live/50a18f00-c629-11f1-a509-ab6554d795a2.jpg",
       "video": null
     },
     {
-      "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
-      "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-      "source": "NASA",
-      "topic": "Science & Nature",
-      "note": "NASA reports Antarctic sea ice reached its 2026 maximum, the third-lowest maximum extent since satellite observations began.",
-      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/antarctic-sea-ice-grows-to-its-2026-maximum/antarctic_nsidc_20260914.jpg?w=720&h=665&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Federal agents searched Rep. Ilhan Omar's Washington home; the Justice Department says the warrant was approved as part of an ongoing investigation, which Omar disputes.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F01%2F8f%2Ff186f19e4526a91ff8b050a1a3a5%2Fimg-0021.jpeg",
+      "video": null
+    },
+    {
+      "title": "Pupil arrested after two teachers shot at French school",
+      "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "A 14-year-old was detained after a middle-school principal and a teacher were shot at a French school, both injured.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c65c/live/757924d0-c621-11f1-b048-6946f232cb95.jpg",
+      "video": null
+    },
+    {
+      "title": "Trump’s Tough Week, Ansarallah Advances Again, Iran Tightens Control on Strait Of Hormuz",
+      "url": "https://www.dropsitenews.com/p/trumps-tough-week-ansarallah-advances",
+      "source": "Drop Site News",
+      "topic": "Politics",
+      "note": "Drop Site News reports on Iran tightening control of the Strait of Hormuz, in its latest War Brief episode.",
+      "image": "https://substackcdn.com/image/fetch/$s_!IAp2!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F220048579%2F9b5b3782-9c82-4116-96ea-28dc63ea62e1%2Ftranscoded-119159.png",
       "video": null
     }
   ],
@@ -69,30 +68,30 @@
       "topic": "Tech & AI",
       "items": [
         {
-          "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-          "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-          "source": "Simon Willison",
-          "topic": "Tech & AI",
-          "note": "Python 3.15 is out, and Simon Willison explains what changes for open source builders who support multiple versions.",
-          "image": "https://static.simonwillison.net/static/2026/profiler-output.webp",
-          "video": null
-        },
-        {
-          "title": "wheresryan22/anatomy",
-          "url": "https://github.com/wheresryan22/anatomy",
-          "source": "GitHub new popular repos",
-          "topic": "Tech & AI",
-          "note": "An agent skill for building detailed isometric illustrations of machines and systems, useful for your diagram and visualization work.",
-          "image": "https://opengraph.githubassets.com/1/wheresryan22/anatomy",
-          "video": null
-        },
-        {
-          "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "title": "Oct 8, 2026 Announcements 2026 Usage Policy update",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
           "source": "Anthropic news",
           "topic": "Tech & AI",
-          "note": "Anthropic is expanding its Cyber Verification Program to qualifying security professionals, a direct update from a company you follow.",
-          "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+          "note": "Anthropic posted an October 8 announcement on a 2026 usage policy update, relevant to your daily Claude work.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "video": null
+        },
+        {
+          "title": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending agent skill that draws editorial diagrams as self-contained HTML and SVG, useful for Claude Code users.",
+          "image": "https://opengraph.githubassets.com/1/cathrynlavery/diagram-design",
+          "video": null
+        },
+        {
+          "title": "Deno is joining Cloudflare",
+          "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Cloudflare is acquiring Deno outright, a notable shift for the JavaScript runtime ecosystem you may follow.",
+          "image": null,
           "video": null
         }
       ]
@@ -101,30 +100,30 @@
       "topic": "Politics",
       "items": [
         {
-          "title": "Lever Weekly: Cleanup On Aisle 2026",
-          "url": "https://www.levernews.com/lever-weekly-cleanup-on-aisle-2026/",
-          "source": "The Lever",
-          "topic": "Politics",
-          "note": "The Lever's weekly roundup covers corporate and political reporting from an independent outlet you follow.",
-          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/LW-Oct11-26.png",
-          "video": null
-        },
-        {
-          "title": "India Uses Overwhelming Force to Quell Delhi Protests",
-          "url": "https://www.dropsitenews.com/p/india-delhi-protests-voter-purge",
-          "source": "Drop Site News",
-          "topic": "Politics",
-          "note": "Drop Site News reports India's crackdown on protesters after the election commission removed over 130 million voters.",
-          "image": "https://substackcdn.com/image/fetch/$s_!_dMp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F916260c9-1e90-40bb-bf44-93a5eb935f57_6707x4471.jpeg",
-          "video": null
-        },
-        {
-          "title": "Democratic senator talks Trump's Russian diesel deal",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5998040/democratic-senator-talks-trumps-russian-diesel-deal",
+          "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
+          "url": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
           "source": "NPR Politics",
           "topic": "Politics",
-          "note": "Senator Jeanne Shaheen discusses Trump's Russian diesel deal and the claimed energy ceasefire that did not materialize.",
+          "note": "The Justice Department is investigating TV networks for possible antitrust violations, escalating a dispute with the press over White House access.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5262x3508+0+0/resize/5262x3508!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F67%2F41db4eea4773be58f06b14e0c2f2%2Fap26284021705014.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump struggles to show voters he's focused on the cost of living",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998073/trump-struggles-to-show-voters-hes-focused-on-the-cost-of-living",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports Trump is struggling to show voters he is focused on cost of living ahead of the midterms, citing a diesel import deal.",
           "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "You Love To See It: Breaking Bad Money",
+          "url": "https://www.levernews.com/you-love-to-see-it-breaking-bad-money/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever's latest roundup covers several domestic stories, from a Southwestern rebellion to UnitedHealth's investigation.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLever-YLTSI-Cactus.png",
           "video": null
         }
       ]
@@ -133,30 +132,30 @@
       "topic": "World",
       "items": [
         {
-          "title": "Breaking Bad actor RJ Mitte dies aged 34",
-          "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+          "title": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "topic": "World",
-          "note": "Actor RJ Mitte, known for playing Walter White Jr in Breaking Bad, has died at age 34, BBC reports.",
-          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d722/live/ce8c0310-c67d-11f1-841c-2105a54cdb08.jpg",
+          "note": "BBC reports Moscow has said little about Trump's energy ceasefire, while Zelensky suggests he would sign on.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6601/live/5861b070-c670-11f1-8c1b-356b863d8549.jpg",
           "video": null
         },
         {
-          "title": "Immigration agents search congresswoman Ilhan Omar's home",
-          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
+          "title": "Seafarer's union official says crews offered big money to transit Strait of Hormuz",
+          "url": "https://www.npr.org/2026/10/11/nx-s1-5995186/seafarers-union-official-says-crews-offered-big-money-to-transit-strait-of-hormuz",
+          "source": "NPR World",
           "topic": "World",
-          "note": "Immigration agents searched the home of Congresswoman Ilhan Omar, who said the search was an attempt to target political enemies.",
-          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc45/live/01c4d970-c64f-11f1-b47f-e3f9cf703bc3.png",
+          "note": "A seafarers' union official says crews are being offered big money to transit the Strait of Hormuz amid mounting attacks on ships.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
           "video": null
         },
         {
-          "title": "Qantas flight grounded after bedbug outbreak",
-          "url": "https://www.bbc.co.uk/news/articles/cr62yzypnw7no?at_medium=RSS&at_campaign=rss",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "topic": "World",
-          "note": "A Qantas flight from Italy to Australia was cancelled after passengers on its previous journey complained of bug bites.",
-          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0319/live/802fd450-c644-11f1-b47f-e3f9cf703bc3.jpg",
+          "note": "Hundreds of French supermarkets were hit by an overnight cyber attack that spoiled food estimated at millions of euros.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg",
           "video": null
         }
       ]
@@ -165,30 +164,30 @@
       "topic": "Sports",
       "items": [
         {
+          "title": "Shanahan says 49ers WR Deebo Samuel to miss time with hamstring injury",
+          "url": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers wide receiver Deebo Samuel is expected to miss at least a couple of weeks with a hamstring injury, per Kyle Shanahan.",
+          "image": "https://a.espncdn.com/photo/2026/1012/r1729823_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
           "title": "Brendan Allen defeats Christian Leroy Duncan with 5th-round submission",
-          "url": "https://www.espn.com/video/clip/_/id/50154138/brendan-allen-defeats-christian-leroy-duncan-5th-round-submission",
+          "url": "https://www.espn.com/video/clip/_/id/50154061/brendan-allen-defeats-christian-leroy-duncan-5th-round-submission",
           "source": "UFC (ESPN)",
           "topic": "Sports",
           "note": "Brendan Allen beat Christian Leroy Duncan by fifth-round rear-naked choke submission in the UFC main event.",
-          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_PH/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_PH.jpg",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_AUS/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_AUS.jpg",
           "video": null
         },
         {
-          "title": "49ers' Dre Greenlaw suspended one game for head-butting helmetless Seahawks LB",
-          "url": "https://www.espn.com/nfl/story/_/id/50167745/49ers-greenlaw-suspended-head-butting-helmetless-jones",
-          "source": "San Francisco 49ers",
+          "title": "Fili secures a first-round KO against Kamaka III",
+          "url": "https://www.espn.com/video/clip/_/id/50154306/fili-secures-first-round-ko-kamaka-iii",
+          "source": "UFC (ESPN)",
           "topic": "Sports",
-          "note": "49ers linebacker Dre Greenlaw was suspended one game without pay for unsportsmanlike conduct against the Seahawks.",
-          "image": "https://a.espncdn.com/photo/2026/1011/r1729427_1296x729_16-9.jpg",
-          "video": null
-        },
-        {
-          "title": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
-          "url": "https://www.espn.com/video/clip/_/id/50156392/game-highlights",
-          "source": "Houston Rockets",
-          "topic": "Sports",
-          "note": "Game highlights from the Dallas Mavericks and Houston Rockets matchup, a team you follow.",
-          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/e1a6103d-4c46-40c0-be2f-e9a712fd036a/e1a6103d-4c46-40c0-be2f-e9a712fd036a.jpg",
+          "note": "Andre Fili scored a first-round knockout over Kai Kamaka III with a head kick.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_UFC_Highlight_Fili_secures_a_first_round_KO_against_Kamaka_III_20261011_PH/dm_261011_UFC_Highlight_Fili_secures_a_first_round_KO_against_Kamaka_III_20261011_PH.jpg",
           "video": null
         }
       ]
@@ -197,30 +196,30 @@
       "topic": "Atlanta",
       "items": [
         {
-          "title": "Trump to campaign in Georgia with Rep. Collins, Rick Jackson",
-          "url": "https://roughdraftatlanta.com/2026/10/12/trump-campaigns-dalton-friday/",
+          "title": "One dead, four injured in Goliath rollercoaster incident at Six Flags Over Georgia",
+          "url": "https://roughdraftatlanta.com/2026/10/12/six-flags-over-georgia-death/",
           "source": "Rough Draft Atlanta",
           "topic": "Atlanta",
-          "note": "President Trump will campaign with Rep. Mike Collins and Rick Jackson in Dalton on Friday, per Channel 2 Action News.",
-          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/07/Trump-WSBTV-600x388.png",
+          "note": "One person died and four were injured in an incident on the Goliath rollercoaster at Six Flags Over Georgia; the coaster was shut down.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-6.57.28-PM-600x375.png",
           "video": null
         },
         {
-          "title": "Old Fourth Ward corner's ultra-modern makeover comes to market",
-          "url": "https://atlanta.urbanize.city/post/old-fourth-ward-corner-ultra-modern-images-for-sale",
+          "title": "The Dream lives on: The Atlanta Dream reach the WNBA Finals, venue yet to be determined",
+          "url": "https://saportareport.com/the-dream-lives-on-the-atlanta-dream-reach-the-wnba-finals-venue-yet-to-be-determined/sections/reports/mark-lannaman/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "The Atlanta Dream swept the New York Liberty to reach the WNBA Finals, facing the Golden State Valkyries.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-8.53.52-AM.png?fit=836%2C897&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Next phase moves forward at 2,000-acre Gwinnett County project",
+          "url": "https://atlanta.urbanize.city/post/rowen-gwinnett-county-next-phase-2000-acre-gwinnett-county-project",
           "source": "Urbanize Atlanta",
           "topic": "Atlanta",
-          "note": "Three modern homes transforming an Old Fourth Ward corner near Ponce City Market are coming to market this month.",
-          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/full%20341%20Fortune%20347%20Fortune.png?itok=krgEFiiY",
-          "video": null
-        },
-        {
-          "title": "Brookhaven residents push for deferral on DeKalb fire station location",
-          "url": "https://roughdraftatlanta.com/2026/10/12/brookhaven-fire-station-delay-petition/",
-          "source": "Rough Draft Atlanta",
-          "topic": "Atlanta",
-          "note": "Brookhaven residents asked the city council to delay a DeKalb fire station agreement at Blackburn Park at the October 13 meeting.",
-          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/alternative-fire-stations-600x482.jpg",
+          "note": "Next phase advances at the 2,000-acre Gwinnett County megaproject, with a European biopharma company's multi-billion-dollar campus planned.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Rowen%20UCB%20U.S.%20Manufacturing%20Rendering.jpg?itok=5N2pKftz",
           "video": null
         }
       ]
@@ -229,30 +228,30 @@
       "topic": "Architecture",
       "items": [
         {
-          "title": "Matterport embraces point clouds",
-          "url": "https://aecmag.com/reality-capture-modelling/matterport-embraces-point-clouds/",
+          "title": "GPT-6 Astra and the future of BIM modelling",
+          "url": "https://aecmag.com/bim/gpt-6-astra-and-the-future-of-bim-modelling/",
           "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "Matterport now supports importing registered E57 point cloud files, relevant to your scan-to-BIM workflow.",
+          "note": "AEC Magazine looks at OpenAI's GPT-6 Astra as a 3D modeller and how it might fit into BIM design processes.",
           "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
           "video": null
         },
         {
-          "title": "IES Sync for Revit launches",
-          "url": "https://aecmag.com/sustainability/ies-sync-for-revit-launches/",
+          "title": "Hexagon to acquire Rocscience for $535m",
+          "url": "https://aecmag.com/news/hexagon-to-acquire-rocscience-for-535m/",
           "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "IES Sync for Revit connects Revit building design to IES VE performance simulation, a direct fit for your BIM work.",
+          "note": "Hexagon will acquire Rocscience for $535 million, linking geotechnical simulation with live monitoring data.",
           "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
           "video": null
         },
         {
-          "title": "Lima House / BLOCO Arquitetos",
-          "url": "https://www.archdaily.com/1032927/lima-house-bloco-arquitetos",
-          "source": "ArchDaily",
+          "title": "Why AI should influence your next AEC workstation purchase",
+          "url": "https://aecmag.com/sponsored-content/why-ai-should-influence-your-next-aec-workstation-purchase/",
+          "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "Lima House in Brasília, built in two phases from 2018 to 2024, is a residential design worth a look.",
-          "image": "https://images.adsttc.com/media/images/688c/1db2/a805/bb75/6625/30c9/newsletter/casa-lima-bloco-arquitetos_1.jpg?1754013122",
+          "note": "AEC Magazine argues AI capability should now factor into AEC workstation purchase decisions alongside CPU and GPU power.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
           "video": null
         }
       ]
@@ -261,30 +260,30 @@
       "topic": "Science & Nature",
       "items": [
         {
-          "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-          "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-          "source": "NASA",
-          "topic": "Science & Nature",
-          "note": "NASA experiments on human health, plant health and drug-resistant organisms will fly to the space station on the CRS-35 mission.",
-          "image": "https://assets.science.nasa.gov/content/dam/science/bps/bps_investigations/wholemiBrainMicroglia_AVATAR_org1.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-          "video": null
-        },
-        {
-          "title": "Wildfires threaten Indonesia’s orangutans as rescuers find injured animals",
-          "url": "https://news.mongabay.com/short-article/2026/10/wildfires-threaten-indonesias-orangutans-as-rescuers-find-injured-animals/",
+          "title": "Chinook salmon return to historical habitat following removal of four US dams",
+          "url": "https://news.mongabay.com/short-article/2026/10/chinook-salmon-return-to-historical-habitat-following-removal-of-four-us-dams/",
           "source": "Mongabay",
           "topic": "Science & Nature",
-          "note": "Wildfires on Borneo have left endangered orangutans injured and stranded, and rescuers are evacuating animals.",
-          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12192432/AP26274690729682-768x512.jpg",
+          "note": "Chinook salmon are returning to historical habitat on the Klamath River after removal of four US dams, a study reports.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12211046/750x500-chinook-salmon.jpg",
           "video": null
         },
         {
-          "title": "When climate change brings the heat, what happens to a mighty redwood?",
-          "url": "https://www.sciencenews.org/article/climate-change-heat-redwood-temperature",
+          "title": "How the Grand Canyon could have lost 1 billion years of geologic history",
+          "url": "https://www.sciencenews.org/article/grand-canyon-lost-history-giant-cliff",
           "source": "Science News",
           "topic": "Science & Nature",
-          "note": "Coast redwoods' photosynthesis slows during heat wave-like temperatures, which may threaten a major carbon store.",
-          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_AS_redwoods_main.jpg?w=800",
+          "note": "A new study suggests a rise and fall of a continent-spanning cliff may help explain a mysterious 1-billion-year gap in Earth's geologic history, relevant to Grand Canyon geology.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100626_LJ_missingbillion_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "First Nation-led effort replants kelp forests in Clayoquot Sound",
+          "url": "https://news.mongabay.com/short-article/2026/10/first-nation-led-effort-replants-kelp-forests-in-clayoquot-sound/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A First Nation-led partnership is replanting kelp forests in Clayoquot Sound, British Columbia, a good ocean story for you.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/02164446/Mongabay-Kelp-Photo-3-Teams-working-with-kelp-in-Clayoquot-Sound-photo-credit-Graeme-Owsianski-768x512.jpg",
           "video": null
         }
       ]
@@ -299,30 +298,12 @@
           "topic": "Politics",
           "items": [
             {
-              "title": "New White House press secretary a \"devoted fan\" of Trump and MAGA",
-              "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
-              "source": "NPR Politics",
+              "title": "Trump’s Tough Week, Ansarallah Advances Again, Iran Tightens Control on Strait Of Hormuz",
+              "url": "https://www.dropsitenews.com/p/trumps-tough-week-ansarallah-advances",
+              "source": "Drop Site News",
               "topic": "Politics",
               "note": "",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1857x2928+0+0/resize/1857x2928!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7a%2F27%2F729a84cb46feb05ce8aedc910123%2Fgettyimages-2298850605.jpg",
-              "video": null
-            },
-            {
-              "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
-              "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
-              "source": "NPR Politics",
-              "topic": "Politics",
-              "note": "",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5097x3398+0+0/resize/5097x3398!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F5c%2F3f346e034949b36cd4c8b40fa6ce%2Fgettyimages-2299455893.jpg",
-              "video": null
-            },
-            {
-              "title": "Democratic senator talks Trump's Russian diesel deal",
-              "url": "https://www.npr.org/2026/10/12/nx-s1-5998040/democratic-senator-talks-trumps-russian-diesel-deal",
-              "source": "NPR Politics",
-              "topic": "Politics",
-              "note": "",
-              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "image": "https://substackcdn.com/image/fetch/$s_!IAp2!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F220048579%2F9b5b3782-9c82-4116-96ea-28dc63ea62e1%2Ftranscoded-119159.png",
               "video": null
             },
             {
@@ -362,12 +343,30 @@
               "video": null
             },
             {
-              "title": "India Uses Overwhelming Force to Quell Delhi Protests",
-              "url": "https://www.dropsitenews.com/p/india-delhi-protests-voter-purge",
-              "source": "Drop Site News",
+              "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
+              "url": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
+              "source": "NPR Politics",
               "topic": "Politics",
               "note": "",
-              "image": "https://substackcdn.com/image/fetch/$s_!_dMp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F916260c9-1e90-40bb-bf44-93a5eb935f57_6707x4471.jpeg",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5262x3508+0+0/resize/5262x3508!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F67%2F41db4eea4773be58f06b14e0c2f2%2Fap26284021705014.jpg",
+              "video": null
+            },
+            {
+              "title": "You Love To See It: Breaking Bad Money",
+              "url": "https://www.levernews.com/you-love-to-see-it-breaking-bad-money/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLever-YLTSI-Cactus.png",
+              "video": null
+            },
+            {
+              "title": "Susan Collins’ Hard-Luck Story Has An Assault-Rifle Twist",
+              "url": "https://www.levernews.com/susan-collins-hard-luck-story-has-an-assault-rifle-twist/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Susan-Collins.png",
               "video": null
             }
           ]
@@ -376,39 +375,12 @@
           "topic": "World",
           "items": [
             {
-              "title": "Breaking Bad actor RJ Mitte dies aged 34",
-              "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World",
+              "title": "Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it?",
+              "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
+              "source": "NPR World",
               "topic": "World",
               "note": "",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d722/live/ce8c0310-c67d-11f1-841c-2105a54cdb08.jpg",
-              "video": null
-            },
-            {
-              "title": "New White House press secretary a \"devoted fan\" of Trump and MAGA",
-              "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1857x2928+0+0/resize/1857x2928!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7a%2F27%2F729a84cb46feb05ce8aedc910123%2Fgettyimages-2298850605.jpg",
-              "video": null
-            },
-            {
-              "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
-              "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5097x3398+0+0/resize/5097x3398!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F5c%2F3f346e034949b36cd4c8b40fa6ce%2Fgettyimages-2299455893.jpg",
-              "video": null
-            },
-            {
-              "title": "Immigration agents search congresswoman Ilhan Omar's home",
-              "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-              "source": "BBC World",
-              "topic": "World",
-              "note": "",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc45/live/01c4d970-c64f-11f1-b47f-e3f9cf703bc3.png",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
               "video": null
             },
             {
@@ -421,21 +393,30 @@
               "video": null
             },
             {
-              "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-              "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+              "title": "Pupil arrested after two teachers shot at French school",
+              "url": "https://www.bbc.co.uk/news/articles/cm2keg7910gvo?at_medium=RSS&at_campaign=rss",
               "source": "BBC World",
               "topic": "World",
               "note": "",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fbda/live/375348b0-c659-11f1-8600-efb62b613ab5.jpg",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c65c/live/757924d0-c621-11f1-b048-6946f232cb95.jpg",
               "video": null
             },
             {
-              "title": "Qantas flight grounded after bedbug outbreak",
-              "url": "https://www.bbc.co.uk/news/articles/cr62yzypnw7no?at_medium=RSS&at_campaign=rss",
+              "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+              "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World",
               "topic": "World",
               "note": "",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0319/live/802fd450-c644-11f1-b47f-e3f9cf703bc3.jpg",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b82e/live/50a18f00-c629-11f1-a509-ab6554d795a2.jpg",
+              "video": null
+            },
+            {
+              "title": "Both Russia and Ukraine are using AI-powered drones on the battlefield",
+              "url": "https://www.npr.org/2026/10/12/nx-s1-5984940/both-russia-and-ukraine-are-using-ai-powered-drones-on-the-battlefield",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
               "video": null
             },
             {
@@ -445,6 +426,24 @@
               "topic": "World",
               "note": "",
               "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6601/live/5861b070-c670-11f1-8c1b-356b863d8549.jpg",
+              "video": null
+            },
+            {
+              "title": "Fridges in French supermarkets hit by cyber attack",
+              "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg",
+              "video": null
+            },
+            {
+              "title": "Federal agents search Rep. Ilhan Omar's DC home, DOJ says it approved the warrant",
+              "url": "https://www.npr.org/2026/10/12/nx-s1-5998856/federal-agents-search-congressperson-home-dc-doj",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F01%2F8f%2Ff186f19e4526a91ff8b050a1a3a5%2Fimg-0021.jpeg",
               "video": null
             }
           ]
@@ -459,12 +458,12 @@
           "topic": "Tech & AI",
           "items": [
             {
-              "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-              "url": "https://www.anthropic.com/news/cyber-verification-program",
+              "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+              "url": "https://www.anthropic.com/news/genesis-mission-commitment",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals access to advanced cyber capabilities and reduced blocking classifiers. Relevant to your Claude work.",
-              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+              "note": "Anthropic's October 8 announcements, including its Cyber Mission and a $100 million engineer training investment, relate directly to Claude and the company's direction.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
               "video": null
             },
             {
@@ -472,17 +471,8 @@
               "url": "https://www.anthropic.com/news/2026-usage-policy-update",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic published a 2026 update to its Usage Policy. Worth reading if you build tools on Claude.",
+              "note": "Anthropic published a 2026 Usage Policy update on October 8, relevant to anyone building personal tools with Claude.",
               "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-              "video": null
-            },
-            {
-              "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
-              "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-              "source": "Anthropic news",
-              "topic": "Tech & AI",
-              "note": "Anthropic describes a commitment to American scientific discovery in its latest announcements. Useful context on where Claude is being directed.",
-              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
               "video": null
             },
             {
@@ -490,44 +480,8 @@
               "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic introduced the Anthropic Cyber Mission. Pairs with its expanded verification program for security work.",
+              "note": "Anthropic announced the Anthropic Cyber Mission on October 8, a new initiative from the company behind Claude.",
               "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2af4f6715cbe9766a47430a24420cfca0a2c588-1200x630.jpg",
-              "video": null
-            },
-            {
-              "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-              "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-              "source": "Simon Willison",
-              "topic": "Tech & AI",
-              "note": "Simon Willison covers the Python 3.15 release and dropping 3.10 for open source projects. Relevant to anyone maintaining Python tools.",
-              "image": "https://static.simonwillison.net/static/2026/profiler-output.webp",
-              "video": null
-            },
-            {
-              "title": "wheresryan22/anatomy",
-              "url": "https://github.com/wheresryan22/anatomy",
-              "source": "GitHub new popular repos",
-              "topic": "Tech & AI",
-              "note": "A popular new agent skill for generating detailed interactive isometric illustrations of machines and systems as SVGs. Fits your Claude tooling and diagram interests.",
-              "image": "https://opengraph.githubassets.com/1/wheresryan22/anatomy",
-              "video": null
-            },
-            {
-              "title": "cathrynlavery/diagram-design",
-              "url": "https://github.com/cathrynlavery/diagram-design",
-              "source": "GitHub trending (daily)",
-              "topic": "Tech & AI",
-              "note": "A trending agent skill that draws editorial diagrams as self-contained HTML and SVG for Claude Code and other agents. Useful for architecture diagramming.",
-              "image": "https://opengraph.githubassets.com/1/cathrynlavery/diagram-design",
-              "video": null
-            },
-            {
-              "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-              "url": "https://www.anthropic.com/news/claude-frontier-academy",
-              "source": "Anthropic news",
-              "topic": "Tech & AI",
-              "note": "Anthropic is investing $100 million to train 10,000 engineers, addressing the enterprise AI talent gap. Relevant to the wider AI industry.",
-              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Build&backgroundColor=heather",
               "video": null
             }
           ]
@@ -542,12 +496,21 @@
           "topic": "Sports",
           "items": [
             {
-              "title": "49ers' Dre Greenlaw suspended one game for head-butting helmetless Seahawks LB",
-              "url": "https://www.espn.com/nfl/story/_/id/50167745/49ers-greenlaw-suspended-head-butting-helmetless-jones",
+              "title": "Shanahan says 49ers WR Deebo Samuel to miss time with hamstring injury",
+              "url": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
               "source": "San Francisco 49ers",
               "topic": "Sports",
               "note": "",
-              "image": "https://a.espncdn.com/photo/2026/1011/r1729427_1296x729_16-9.jpg",
+              "image": "https://a.espncdn.com/photo/2026/1012/r1729823_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Windhorst: Why Cooper Flagg's ascension is starting to feel inevitable",
+              "url": "https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1012/r1729604_1296x729_16-9.jpg",
               "video": null
             },
             {
@@ -603,15 +566,6 @@
               "note": "",
               "image": "https://a.espncdn.com/photo/2026/0927/r1722566_608x342_16-9.jpg",
               "video": null
-            },
-            {
-              "title": "Allen submits Duncan in UFC main event, calls out division's best",
-              "url": "https://www.espn.com/mma/story/_/id/50153985/allen-submits-duncan-ufc-main-event-calls-bigger-fights",
-              "source": "UFC (ESPN)",
-              "topic": "Sports",
-              "note": "",
-              "image": "https://a.espncdn.com/photo/2026/1011/r1729027_600x400_3-2.jpg",
-              "video": null
             }
           ]
         }
@@ -625,12 +579,75 @@
           "topic": "Atlanta",
           "items": [
             {
-              "title": "Brookhaven residents push for deferral on DeKalb fire station location",
-              "url": "https://roughdraftatlanta.com/2026/10/12/brookhaven-fire-station-delay-petition/",
+              "title": "Lasting impact doesn’t happen by accident",
+              "url": "https://saportareport.com/lasting-impact-doesnt-happen-by-accident/thought-leadership/securing-atlantas-future/boys-and-girls-clubs-of-metro-atlanta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Photo-Nov-07-2025-8-39-13-PM_edited-1-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "The Business of Survival",
+              "url": "https://saportareport.com/the-business-of-survival/media/stories-of-atlanta/lancerussell/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/258_Atls-Oldest-Biz.jpg?fit=1024%2C576&ssl=1",
+              "video": null
+            },
+            {
+              "title": "One dead, four injured in Goliath rollercoaster incident at Six Flags Over Georgia",
+              "url": "https://roughdraftatlanta.com/2026/10/12/six-flags-over-georgia-death/",
               "source": "Rough Draft Atlanta",
               "topic": "Atlanta",
-              "note": "placeholder",
-              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/alternative-fire-stations-600x482.jpg",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-6.57.28-PM-600x375.png",
+              "video": null
+            },
+            {
+              "title": "Stray Sandy Springs kitten ‘wheels and deals’ his way to a new home",
+              "url": "https://roughdraftatlanta.com/2026/10/12/kitten-rescued-from-car-wheelwell/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/trapped-cat-2-edited-455x600.jpg",
+              "video": null
+            },
+            {
+              "title": "Street food restaurant Rina closes on the Eastside Beltline but is relocating",
+              "url": "https://roughdraftatlanta.com/2026/10/12/rina-restaurant-eastside-beltline-closes/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/rina-fries-falafelwrap-2-600x480.jpg",
+              "video": null
+            },
+            {
+              "title": "The Dream lives on: The Atlanta Dream reach the WNBA Finals, venue yet to be determined",
+              "url": "https://saportareport.com/the-dream-lives-on-the-atlanta-dream-reach-the-wnba-finals-venue-yet-to-be-determined/sections/reports/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-8.53.52-AM.png?fit=836%2C897&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Next phase moves forward at 2,000-acre Gwinnett County project",
+              "url": "https://atlanta.urbanize.city/post/rowen-gwinnett-county-next-phase-2000-acre-gwinnett-county-project",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Rowen%20UCB%20U.S.%20Manufacturing%20Rendering.jpg?itok=5N2pKftz",
+              "video": null
+            },
+            {
+              "title": "When It Comes to Impact, Atlanta Companies Are Thinking Beyond Volunteering",
+              "url": "https://saportareport.com/when-it-comes-to-impact-atlanta-companies-are-thinking-beyond-volunteering/thought-leadership/corporate-community-impact/corporate-volunteer-council-of-atlanta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/JM-Huber-IMPACT-Innovative-2026low-scaled.jpg?fit=1024%2C683&ssl=1",
               "video": null
             }
           ]
@@ -639,21 +656,21 @@
           "topic": "Architecture",
           "items": [
             {
-              "title": "Lima House / BLOCO Arquitetos",
-              "url": "https://www.archdaily.com/1032927/lima-house-bloco-arquitetos",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "",
-              "image": "https://images.adsttc.com/media/images/688c/1db2/a805/bb75/6625/30c9/newsletter/casa-lima-bloco-arquitetos_1.jpg?1754013122",
-              "video": null
-            },
-            {
               "title": "Why AI should influence your next AEC workstation purchase",
               "url": "https://aecmag.com/sponsored-content/why-ai-should-influence-your-next-aec-workstation-purchase/",
               "source": "AEC Magazine",
               "topic": "Architecture",
               "note": "",
               "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+              "video": null
+            },
+            {
+              "title": "Hōsho House / israelpacheco arquitectos",
+              "url": "https://www.archdaily.com/1186659/hosho-house-israelpacheco-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/newsletter/IMG_9144.jpg?1791744005",
               "video": null
             },
             {
@@ -722,30 +739,21 @@
           "topic": "Science & Nature",
           "items": [
             {
-              "title": "Wildfires threaten Indonesia’s orangutans as rescuers find injured animals",
-              "url": "https://news.mongabay.com/short-article/2026/10/wildfires-threaten-indonesias-orangutans-as-rescuers-find-injured-animals/",
+              "title": "Chinook salmon return to historical habitat following removal of four US dams",
+              "url": "https://news.mongabay.com/short-article/2026/10/chinook-salmon-return-to-historical-habitat-following-removal-of-four-us-dams/",
               "source": "Mongabay",
               "topic": "Science & Nature",
               "note": "",
-              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12192432/AP26274690729682-768x512.jpg",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12211046/750x500-chinook-salmon.jpg",
               "video": null
             },
             {
-              "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-              "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-              "source": "NASA",
-              "topic": "Science & Nature",
-              "note": "",
-              "image": "https://assets.science.nasa.gov/content/dam/science/bps/bps_investigations/wholemiBrainMicroglia_AVATAR_org1.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-              "video": null
-            },
-            {
-              "title": "When climate change brings the heat, what happens to a mighty redwood?",
-              "url": "https://www.sciencenews.org/article/climate-change-heat-redwood-temperature",
+              "title": "Scarred blood vessels may be one clue to APOE4’s Alzheimer’s risk",
+              "url": "https://www.sciencenews.org/article/scar-tissue-blood-vessels-alzheimers",
               "source": "Science News",
               "topic": "Science & Nature",
               "note": "",
-              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_AS_redwoods_main.jpg?w=800",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_RJM_Alzheimers_main_aa1b64.jpg?w=800",
               "video": null
             },
             {
@@ -791,6 +799,15 @@
               "topic": "Science & Nature",
               "note": "",
               "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/11152758/10-High-rise-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Community action to protect Cambodia’s seas: Interview with commune leader Sorn Srenh",
+              "url": "https://news.mongabay.com/2026/10/community-action-to-protect-cambodias-seas-interview-with-commune-leader-sorn-srenh/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/09120806/IMG_9736-Sorn-Srenh-768x512.jpg",
               "video": null
             }
           ]
@@ -863,55 +880,11 @@
   "source_errors": [
     {
       "source": "YouTube",
-      "error": "29 of 34 channels failed: The Majority Report, Breaking Points, Atlanta Braves, Houston Rockets, San Francisco 49ers, UFC, MMA Fighting, The Athletic Football Show, The Pat McAfee Show, Anatomy of a Fighter, BIM Pure, Balkan A"
+      "error": "33 of 34 channels failed: The Majority Report, Breaking Points, More Perfect Union, Atlanta Braves, Houston Rockets, San Francisco 49ers, UFC, MMA Fighting, The Athletic Football Show, The Pat McAfee Show, Anatomy of a Fighter"
     }
   ],
   "usage": {
-    "input_tokens": 49469,
-    "output_tokens": 4393
-  },
-  "videos": [
-    {
-      "group": "News & Politics",
-      "items": [
-        {
-          "title": "LIVE Students vs Billionaires Town Hall with Angie Nixon & Maxwell Frost",
-          "url": "https://www.youtube.com/watch?v=g0BtAFIX3EU",
-          "source": "More Perfect Union",
-          "topic": "News & Politics",
-          "note": "Live campus town hall from Miami with Rep. Angie Nixon and Rep. Maxwell Frost, taking questions from Florida International University students on issues they care about.",
-          "image": "https://i4.ytimg.com/vi/g0BtAFIX3EU/hqdefault.jpg",
-          "video": "g0BtAFIX3EU"
-        }
-      ]
-    },
-    {
-      "group": "Tech & Science",
-      "items": [
-        {
-          "title": "MY NAME IS NOT JERRY",
-          "url": "https://www.youtube.com/watch?v=J3mYd7si0iI",
-          "source": "JerryRigEverything",
-          "topic": "Tech & Science",
-          "note": "Jerry Rig Everything plants a large smiley-face build powered by the Anker SOLIX S5000, a sponsored DIY project shown in the video.",
-          "image": "https://i3.ytimg.com/vi/J3mYd7si0iI/hqdefault.jpg",
-          "video": "J3mYd7si0iI"
-        }
-      ]
-    },
-    {
-      "group": "Make & Cook",
-      "items": [
-        {
-          "title": "10 Cheap Restaurant Tools Home Cooks Are Missing Out On",
-          "url": "https://www.youtube.com/watch?v=F7DtjcjMqgw",
-          "source": "Brian Lagerstrom",
-          "topic": "Make & Cook",
-          "note": "Ten inexpensive restaurant kitchen tools the presenter used daily in professional kitchens, with suggestions for home cooks.",
-          "image": "https://i3.ytimg.com/vi/F7DtjcjMqgw/hqdefault.jpg",
-          "video": "F7DtjcjMqgw"
-        }
-      ]
-    }
-  ]
+    "input_tokens": 46997,
+    "output_tokens": 3934
+  }
 }
