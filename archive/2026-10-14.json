@@ -1,0 +1,1032 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Wednesday, October 14, 2026",
+  "generated_at": "2026-10-14T05:00:22-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Wednesday, October 14, 2026. The lead story: Pope Leo XIV had surgery on Tuesday to remove a cancerous growth in his lung, the Vatican announced. The pope is the head of the Catholic Church. The summary does not give details about his recovery. Other front page stories. Dre Greenlaw, a linebacker for the San Francisco 49ers, will sit out Monday night's game against the Commanders after the NFL denied his appeal. Ukraine's president says Russian strikes left 600,000 people without power, and at least three were killed. A federal judge ruled that the president cannot bar CNN, MS NOW and Politico from White House coverage until a formal trial. Georgia voters began early voting, citing cost of living, taxes and political leadership. Now the sections. Tech and AI: Anthropic describes building its own source control system after a sharp rise in code changes. Politics: Kimberly Guilfoyle has been asked to resign as US ambassador to Greece over allegations she sought payment from a Trump donor for access. World: Saudi-led coalition forces struck a fuel depot near Sanaa, and missiles were intercepted near Riyadh. Sports: Andre Fili won a first-round knockout, and Brendan Allen won by submission in round five. Atlanta: Senators Jon Ossoff and Mike Collins clashed in a heated debate ahead of the November 3 midterm elections. Architecture: Matterport now imports registered point cloud files, useful for scan-to-model workflows. Science and Nature: Mars appears beside the Beehive cluster under an aurora over Sweden, and scientists describe 57 new species in an Argentine deep-sea canyon. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Pope Leo has lung cancer, the Vatican says",
+    "url": "https://www.npr.org/2026/10/14/nx-s1-6000650/pope-leo-has-lung-cancer-the-vatican-says",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Pope Leo XIV had surgery on Tuesday to remove a cancerous growth in his lung, the Vatican announced. The announcement came from the Vatican itself, which confirmed the diagnosis and the surgery. The pope is the head of the Catholic Church, so the news reaches well beyond Rome and the Vatican. The summary does not include details about his recovery or next steps, so those remain unknown from this report. It is the most significant story in today's brief for many readers, and it arrived as a short, direct announcement. Additional coverage may follow as more details are released.",
+    "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+    "video": null,
+    "headline": "Pope Leo XIV Has Lung Cancer, Vatican Says",
+    "decks": [
+      "Vatican says pope had surgery Tuesday to remove cancerous lung growth",
+      "Announcement made public by the Vatican on Tuesday"
+    ]
+  },
+  "front": [
+    {
+      "title": "Niners LB Dre Greenlaw's appeal of suspension rejected, will sit vs. Commanders",
+      "url": "https://www.espn.com/nfl/story/_/id/50178480/niners-lb-dre-greenlaw-appeal-1-game-suspension-rejected",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "Niners linebacker Dre Greenlaw will sit out Monday night's game against the Commanders after the NFL denied his appeal of a one-game suspension.",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730452_600x400_3-2.jpg",
+      "video": null
+    },
+    {
+      "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Ukraine's president says Russian strikes hit critical infrastructure overnight, leaving 600,000 without power, with at least three killed.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8d6b/live/880ad440-c79d-11f1-a64c-550be9e3c66b.jpg",
+      "video": null
+    },
+    {
+      "title": "CNN, MS NOW and Politico prevail against White House — for now",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A federal judge ruled that the president cannot bar CNN, MS NOW and Politico from White House coverage until a formal trial.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe0%2F43%2F782065af4948bc749692b20c1373%2Fgettyimages-2295498318.jpg",
+      "video": null
+    },
+    {
+      "title": "Georgians around the state head to the polls on the first day of early voting",
+      "url": "https://roughdraftatlanta.com/2026/10/13/georgians-around-the-state-head-to-the-polls-on-the-first-day-of-early-voting/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Georgia voters across the state began early voting, citing cost of living, taxation and political leadership as motivations.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Early-Voting-GPB-600x400.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Anthropic describes building its own source control alternative to Git after a sharp rise in code changes, relevant to your Claude work.",
+          "image": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+          "video": null
+        },
+        {
+          "title": "llm-gemini 0.35",
+          "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "llm-gemini 0.35 adds support for the new Gemini 4 Argon model, useful if you compare models in your tooling.",
+          "image": "https://static.simonwillison.net/static/2026/gemini-4-argon-high.webp",
+          "video": null
+        },
+        {
+          "title": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "An open-source project for reverse engineering apps and binaries with agents, a trending repo in your GitHub interests.",
+          "image": "https://opengraph.githubassets.com/1/morluto/rea",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Kimberly Guilfoyle has been asked to resign among corruption allegations",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-6000216/kimberly-guilfoyle-has-been-asked-to-resign-among-corruption-allegations",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Kimberly Guilfoyle has been asked to resign as US ambassador to Greece over allegations she sought payment from a Trump donor for access.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Mike Rogers’s Wife Raked in Lucrative Government Security Contracts While Rogers Served as Intel Chair",
+          "url": "https://www.dropsitenews.com/p/mike-rogers-wife-kristi-military-contracts-aegis-michigan-senate",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports on financial disclosures tied to Michigan Senate candidate Mike Rogers and government security contracts awarded to his wife.",
+          "image": "https://substackcdn.com/image/fetch/$s_!L1dn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F529f1ba6-32a1-4088-b856-a6c6918431a5_4654x3102.jpeg",
+          "video": null
+        },
+        {
+          "title": "Lever Weekly: Cleanup On Aisle 2026",
+          "url": "https://www.levernews.com/lever-weekly-cleanup-on-aisle-2026/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever's weekly roundup of its independent reporting, covering several stories this week.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/LW-Oct11-26.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Pope Leo has lung cancer, the Vatican announces after surgery",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147968/pope-leo-has-lung-cancer-vatican-announces",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Pope Leo XIV had surgery Tuesday to remove a cancerous lung growth, according to a Vatican announcement.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3815x5723+0+0/resize/3815x5723!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F06%2F46%2F562073274bfd95659051d7e199a0%2Fap26286412655901.jpg",
+          "video": null
+        },
+        {
+          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Missiles were intercepted near Riyadh after the Saudi-led coalition struck a fuel depot near Sanaa in Yemen.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump's diesel deal with Putin angers Europe",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Trump's diesel deal with Russia has drawn criticism from Europe, with Zelenskyy questioning Washington's motives.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Fili secures a first-round KO against Kamaka III",
+          "url": "https://www.espn.com/video/clip/_/id/50154306/fili-secures-first-round-ko-kamaka-iii",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Andre Fili scored a first-round knockout of Kai Kamaka III with a head kick, a UFC result.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_UFC_Highlight_Fili_secures_a_first_round_KO_against_Kamaka_III_20261011_PH/dm_261011_UFC_Highlight_Fili_secures_a_first_round_KO_against_Kamaka_III_20261011_PH.jpg",
+          "video": null
+        },
+        {
+          "title": "Brendan Allen defeats Christian Leroy Duncan with 5th-round submission",
+          "url": "https://www.espn.com/video/clip/_/id/50154138/brendan-allen-defeats-christian-leroy-duncan-5th-round-submission",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Brendan Allen won a fifth-round rear naked choke submission over Christian Leroy Duncan.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_PH/dm_261010_UFC_Highlight_Brendan_Allen_defeats_Christian_Leroy_Duncan_with_5th_round_submission_20261011_PH.jpg",
+          "video": null
+        },
+        {
+          "title": "Windhorst: Why Cooper Flagg's ascension is starting to feel inevitable",
+          "url": "https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Rockets-related NBA coverage on Cooper Flagg following the China Games, with the franchise-savior ceiling noted.",
+          "image": "https://a.espncdn.com/photo/2026/1012/r1729604_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Jon Ossoff and Mike Collins clash in second debate ahead of November election",
+          "url": "https://roughdraftatlanta.com/2026/10/13/georgia-us-senate-midterm-clash/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Ossoff and Collins clashed in a heated Senate debate ahead of the November 3 midterm elections.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/collins-ossoff-debate-600x400.jpg",
+          "video": null
+        },
+        {
+          "title": "Five-building, infill corner project pitched for site near downtown ATL",
+          "url": "https://atlanta.urbanize.city/post/mechanicsville-townhomes-five-building-infill-corner-project-near-downtown",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A five-building infill residential proposal is pitched for an empty corner lot just south of downtown in Mechanicsville.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/717%20Pryor%20St.%20SW%20Mechanicsville%201.jpg?itok=5EdT1B31",
+          "video": null
+        },
+        {
+          "title": "Next phase moves forward at 2,000-acre Gwinnett County project",
+          "url": "https://atlanta.urbanize.city/post/rowen-gwinnett-county-next-phase-2000-acre-gwinnett-county-project",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The next phase moves forward on a multi-billion-dollar biopharma campus in the 2,000-acre Gwinnett County Rowen megaproject.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Rowen%20UCB%20U.S.%20Manufacturing%20Rendering.jpg?itok=5N2pKftz",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Shanghai Science and Technology Investment Tower Mixed-Use Development / NBBJ",
+          "url": "https://www.archdaily.com/1186717/shanghai-science-and-technology-investment-tower-mixed-use-development-nbbj",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "NBBJ's mixed-use tower in Zhangjiang Science City, designed to attract AI and tech companies, shows current office design trends.",
+          "image": "https://images.adsttc.com/media/images/6acd/e63d/b2c4/c300/0178/eb8b/newsletter/17__SFAP.jpg?1791878773",
+          "video": null
+        },
+        {
+          "title": "Matterport embraces point clouds",
+          "url": "https://aecmag.com/reality-capture-modelling/matterport-embraces-point-clouds/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Matterport now imports registered E57 point cloud files, useful for scan-to-BIM workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "IES Sync for Revit launches",
+          "url": "https://aecmag.com/sustainability/ies-sync-for-revit-launches/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "IES Sync for Revit connects building design in Revit to IES VE performance simulation, relevant to your BIM work.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Astronomy Picture of the Day shows Mars joining the Beehive cluster under an aurora over Sweden.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/2026_10_10_PZ_Jesličky_01_1500px.png?w=1500&h=1000&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Chinese squid tied to labor abuses finds an easy route into Western markets",
+          "url": "https://news.mongabay.com/2026/10/chinese-squid-tied-to-labor-abuses-finds-an-easy-route-into-western-markets/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Mongabay reports on Chinese squid fleets linked to labor abuses finding routes into Western markets.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12143406/1-fishers-with-squid-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "‘Patrick’ sea star went viral, but Argentine deep-sea canyon held 57 new species",
+          "url": "https://news.mongabay.com/2026/10/patrick-sea-star-went-viral-but-argentine-deep-sea-canyon-held-57-new-species/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Scientists describe 57 new deep-sea species in an Argentine canyon, including a sea cucumber named Loki.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/13154333/10-Deep-Sea-Sea-Star-Patrick-Star-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Former White House ethics lawyer on Kimberly Guilfoyle's alleged ethics violations",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-6000179/former-white-house-ethics-lawyer-on-kimberly-guilfoyles-alleged-ethics-violations",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Mike Rogers’s Wife Raked in Lucrative Government Security Contracts While Rogers Served as Intel Chair",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-wife-kristi-military-contracts-aegis-michigan-senate",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!L1dn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F529f1ba6-32a1-4088-b856-a6c6918431a5_4654x3102.jpeg",
+              "video": null
+            },
+            {
+              "title": "Kimberly Guilfoyle has been asked to resign among corruption allegations",
+              "url": "https://www.npr.org/2026/10/13/nx-s1-6000216/kimberly-guilfoyle-has-been-asked-to-resign-among-corruption-allegations",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Why does Pete Hegseth want to livestream an execution?",
+              "url": "https://www.npr.org/2026/10/13/nx-s1-5996831/why-does-pete-hegseth-want-to-livestream-an-execution",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
+              "url": "https://www.npr.org/2026/10/13/nx-s1-6000055/east-potomac-golf-course-tree-clearing-judge",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2280x1520+0+0/resize/2280x1520!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F19%2Fca%2F1ba2aa7b4d0c9185ab3224827cd7%2F261012-east-potomac-park-trees-turner-08.JPG",
+              "video": null
+            },
+            {
+              "title": "Destruction of Gaza Court System Strips Women of Their Rights",
+              "url": "https://www.dropsitenews.com/p/gaza-women-judiciary-sharia-courts-inheritance-rights",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!HfJj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F538ed84a-a316-4dfb-bfaf-d45da27d4d3b_1179x888.jpeg",
+              "video": null
+            },
+            {
+              "title": "Ansarallah threatens to strike Aramco; Elon Musk pours $276 million into midterms; Russia violated Trump’s “energy ceasefire,” Zelenskyy says",
+              "url": "https://www.dropsitenews.com/p/ansarallah-aramco-yemen-saudi-elon-musk-republican-midterms-russia-ukraine-energy",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!FXyD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86702eb9-bf21-443d-a2b8-eb109277cff0_3920x2613.heic",
+              "video": null
+            },
+            {
+              "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+              "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://www.npr.org/2026/10/13/g-s1-147822/undefined",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-5998697/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Pope Leo has lung cancer, the Vatican says",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-6000650/pope-leo-has-lung-cancer-the-vatican-says",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Turkish police raid opposition TV station, halting live broadcasts",
+              "url": "https://www.bbc.co.uk/news/articles/crx23y3d970vo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e70f/live/ab877350-c7a8-11f1-a624-a3d8608fc192.png",
+              "video": null
+            },
+            {
+              "title": "Russia arrests Japanese journalist on spying charges",
+              "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5c43/live/65eee660-c781-11f1-b999-873e5cdc91d4.png",
+              "video": null
+            },
+            {
+              "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8d6b/live/880ad440-c79d-11f1-a64c-550be9e3c66b.jpg",
+              "video": null
+            },
+            {
+              "title": "CNN, MS NOW and Politico prevail against White House — for now",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-6001398/white-house-media-ban",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe0%2F43%2F782065af4948bc749692b20c1373%2Fgettyimages-2295498318.jpg",
+              "video": null
+            },
+            {
+              "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+              "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg",
+              "video": null
+            },
+            {
+              "title": "Lena Dunham's Girls to return for limited HBO run",
+              "url": "https://www.bbc.co.uk/news/articles/c9m26xp4zp8jo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/243d/live/cb0a4af0-c770-11f1-ab87-2bb7c0d2443c.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Redesigning source control at Anthropic",
+              "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic describes building its own source control alternative to Git after its code change rate rose sharply, with about 2,500 merged changes a month. Directly relevant to your Claude work.",
+              "image": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+              "video": null
+            },
+            {
+              "title": "llm-gemini 0.35",
+              "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "llm-gemini 0.35 adds support for Google's new Gemini 4 Argon model via the Gemini API. Useful if you script against multiple model providers.",
+              "image": "https://static.simonwillison.net/static/2026/gemini-4-argon-high.webp",
+              "video": null
+            },
+            {
+              "title": "llm-meta-ai 0.2",
+              "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "llm-meta-ai 0.2 adds Meta's new Muse Wonder models, which the author describes as Meta's most capable models so far. Relevant to the model landscape you follow.",
+              "image": "https://static.simonwillison.net/static/2026/muse-wonder-max.webp",
+              "video": null
+            },
+            {
+              "title": "onehumanbeing/esp32-iphone-agent",
+              "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A $7 ESP32 lets an AI vision model operate a real iPhone without a Mac or jailbreak. A clever hardware-plus-agent project.",
+              "image": "https://opengraph.githubassets.com/1/onehumanbeing/esp32-iphone-agent",
+              "video": null
+            },
+            {
+              "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+              "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's October 8 announcements include a piece on building on its commitment to American scientific discovery. Relevant to Anthropic news you track.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20DoubleHelix&backgroundColor=heather",
+              "video": null
+            },
+            {
+              "title": "Oct 8, 2026 Announcements 2026 Usage Policy update",
+              "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic published a 2026 Usage Policy update on October 8. Worth reading if you build tools on the Claude platform.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Quoting Geoffrey Huntley",
+              "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A practical pattern for keeping coding agents on your own diagnostics library using a pre-commit hook. Useful for anyone building agent-driven tools.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "The UFC's flyweights are hot again - is Lone'er Kavanagh the next star?",
+              "url": "https://www.espn.com/ufc/story/_/id/50131180/the-ufc-flyweights-hot-again-loneer-kavanagh-next-star",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1008/r1727730_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Niners LB Dre Greenlaw's appeal of suspension rejected, will sit vs. Commanders",
+              "url": "https://www.espn.com/nfl/story/_/id/50178480/niners-lb-dre-greenlaw-appeal-1-game-suspension-rejected",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1014/r1730452_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "2026 NFL Power Rankings: How all 32 teams stack up for Week 6",
+              "url": "https://www.espn.com/nfl/story/_/id/50166454/nfl-power-rankings-week-6-teams-biggest-issue-defense",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1012/nfl_power_rankings_v2_608x342.png",
+              "video": null
+            },
+            {
+              "title": "NBA teams reveal court designs for 2026 NBA Cup tournament",
+              "url": "https://www.espn.com/nba/story/_/id/50174098/2026-nba-cup-tournament-court-designs",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1013/r1730152_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Biggest offseason questions for teams eliminated from MLB playoffs",
+              "url": "https://www.espn.com/mlb/story/_/id/50052092/mlb-playoffs-2026-offseason-eliminated-teams-questions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1011/r1728966_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+              "url": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/0202/r1609489_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "2027 NFL draft order projections for Round 1, chances for top pick, more",
+              "url": "https://www.espn.com/nfl/draft2027/story/_/id/49794361/2027-nfl-draft-order-projections-first-round-picks",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/0601/r1666608_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL Week 6 betting: Odds, lines and totals for every game",
+              "url": "https://www.espn.com/espn/betting/story/_/id/50147670/2026-nfl-week-6-schedule-odds-point-spreads-totals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1010/r1728670_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgians around the state head to the polls on the first day of early voting",
+              "url": "https://roughdraftatlanta.com/2026/10/13/georgians-around-the-state-head-to-the-polls-on-the-first-day-of-early-voting/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Early-Voting-GPB-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Jon Ossoff and Mike Collins clash in second debate ahead of November election",
+              "url": "https://roughdraftatlanta.com/2026/10/13/georgia-us-senate-midterm-clash/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/collins-ossoff-debate-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "🇰🇷 Big Westside dining news",
+              "url": "https://roughdraftatlanta.com/2026/10/13/big-westside-dining-news/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/03/Daily-Newsletter-on-website-8-Family-Meal-2-1-450x375.png",
+              "video": null
+            },
+            {
+              "title": "Five-building, infill corner project pitched for site near downtown ATL",
+              "url": "https://atlanta.urbanize.city/post/mechanicsville-townhomes-five-building-infill-corner-project-near-downtown",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/717%20Pryor%20St.%20SW%20Mechanicsville%201.jpg?itok=5EdT1B31",
+              "video": null
+            },
+            {
+              "title": "Stars to celebrate ‘Rocky Horror’ legacy at ASO on Oct. 18",
+              "url": "https://roughdraftatlanta.com/2026/10/13/rocky-horror-aso-event/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/09/RHPS_2026_Website_ev_760x500_V2-1622d12528-600x395.webp",
+              "video": null
+            },
+            {
+              "title": "Are you feeling that ‘voter confidence’ that changes in the election system were supposed to restore?",
+              "url": "https://saportareport.com/are-you-feeling-that-voter-confidence-that-changes-in-the-election-system-were-supposed-to-restore/columnists/tom/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/ga_vote.jpg?fit=940%2C788&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Taking MLK’s messages of love, peace and understanding to heart",
+              "url": "https://saportareport.com/taking-mlks-messages-of-love-peace-and-understanding-to-heart/columnists/mariasmetro/maria_saporta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Rev.-Durley-Soumaya-Kent-Alexander-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Lasting impact doesn’t happen by accident",
+              "url": "https://saportareport.com/lasting-impact-doesnt-happen-by-accident/thought-leadership/securing-atlantas-future/boys-and-girls-clubs-of-metro-atlanta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Photo-Nov-07-2025-8-39-13-PM_edited-1-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Shanghai Science and Technology Investment Tower Mixed-Use Development / NBBJ",
+              "url": "https://www.archdaily.com/1186717/shanghai-science-and-technology-investment-tower-mixed-use-development-nbbj",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6acd/e63d/b2c4/c300/0178/eb8b/newsletter/17__SFAP.jpg?1791878773",
+              "video": null
+            },
+            {
+              "title": "PH Dickman / PH TIPO CASA",
+              "url": "https://www.archdaily.com/1186772/ph-dickman-ph-tipo-casa",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ace/a0e6/b2c4/c300/0178/ef21/newsletter/21_PH_DICKMAN.jpg?1791927372",
+              "video": null
+            },
+            {
+              "title": "Main House / messina | rivas",
+              "url": "https://www.archdaily.com/1034259/house-sede-messina-rivas",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/68c9/e6d2/d84f/6b73/24ae/379c/newsletter/casa-sede-messina-rivas_36.jpg?1758062302",
+              "video": null
+            },
+            {
+              "title": "KatNap House / Nutum Estudio",
+              "url": "https://www.archdaily.com/1186760/katnap-house-nutum-estudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ace/7c2a/b2c4/c300/0178/ee36/newsletter/DJI_20260824183026_0231_D_copia.jpg?1791917170",
+              "video": null
+            },
+            {
+              "title": "Coral House / Sidney Quintela Architecture + Urban Planning",
+              "url": "https://www.archdaily.com/1032794/coral-house-sidney-quintela-architecture-plus-urban-planning",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/688c/a379/4460/0500/01e0/d202/newsletter/Sidney_Quintela_-_Faf__-_72dpi_-_Foto_Gabriela_Daltro_-_Rev_1--15-min.jpg?1754047408",
+              "video": null
+            },
+            {
+              "title": "AXE / GENS",
+              "url": "https://www.archdaily.com/1186224/axe-gens",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6abf/6dee/07c3/d100/017f/cad1/newsletter/GENS_VIV_11_photo_L.Cerveny.jpg?1790930469",
+              "video": null
+            },
+            {
+              "title": "Urban Agoras: How Skateparks Can Give Public Space Back to the City",
+              "url": "https://www.archdaily.com/1036121/rethinking-public-space-through-a-skateboarders-eyes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/691b/1fc9/a5d4/4801/7edd/471f/newsletter/how-skateboarding-is-redefining-urban-space_36.jpg?1763385304",
+              "video": null
+            },
+            {
+              "title": "Jihlava Municipal Arena / CHYBÍK + KRIŠTOF",
+              "url": "https://www.archdaily.com/1186100/jihlava-municipal-arena-chybik-plus-kristof",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6abd/47bf/961f/6d01/8908/0f78/newsletter/jihlava-municipal-arena-chybik-plus-kristof_3.jpg?1790789629",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Chinese squid tied to labor abuses finds an easy route into Western markets",
+              "url": "https://news.mongabay.com/2026/10/chinese-squid-tied-to-labor-abuses-finds-an-easy-route-into-western-markets/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/12143406/1-fishers-with-squid-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Two rare pregnancies spark hope for Sumatran rhinos — but also concerns about inbreeding",
+              "url": "https://news.mongabay.com/2026/10/two-rare-pregnancies-spark-hope-for-sumatran-rhinos-but-also-concerns-about-inbreeding/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2016/05/01213423/Ratu-and-baby-Sumatran-rhino-514x330.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/2026_10_10_PZ_Jesličky_01_1500px.png?w=1500&h=1000&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Hurricane Simon Lurks Off the Mexican Coast",
+              "url": "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/hurricane-simon-lurks-off-the-mexican-coast/hurricanesimon_vir_20261011.jpg?w=2160&h=1800&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "‘Patrick’ sea star went viral, but Argentine deep-sea canyon held 57 new species",
+              "url": "https://news.mongabay.com/2026/10/patrick-sea-star-went-viral-but-argentine-deep-sea-canyon-held-57-new-species/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/13154333/10-Deep-Sea-Sea-Star-Patrick-Star-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
+              "url": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/christina-koch-release-oct-13.jpg?w=1920",
+              "video": null
+            },
+            {
+              "title": "Solutions to the risks posed by the global pet trade could be enacted quickly",
+              "url": "https://news.mongabay.com/podcast/2026/10/solutions-to-the-risks-posed-by-the-global-pet-trade-could-be-enacted-quickly/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/11/13182036/JMT-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Governors allied with Flávio Bolsonaro set to lead majority of Brazilian Amazon states",
+              "url": "https://news.mongabay.com/short-article/2026/10/governors-allied-with-flavio-bolsonaro-set-to-lead-majority-of-brazilian-amazon-states/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/24115907/l.-Senador-Flavio-Bolsonaro-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "stoic": {
+    "text": "We all work to one effect, some willingly, and with a rational apprehension of what we do: others without any such knowledge.",
+    "credit": "Marcus Aurelius, Meditations (trans. George Long)"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 115–132 vs DAL",
+      "last_date": "Oct 11",
+      "next": "Thu Oct 15 vs OKC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401898400/mavericks-rockets",
+      "recent": [
+        "L 115–132 vs DAL · Oct 11",
+        "W 135–117 at DAL · Oct 9"
+      ],
+      "upcoming": [
+        "Thu Oct 15 vs OKC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 32–29 at SEA",
+      "last_date": "Oct 11",
+      "next": "Mon Oct 19 vs WSH",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
+      "recent": [
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4",
+        "W 36–30 vs ARI · Sep 27"
+      ],
+      "upcoming": [
+        "Mon Oct 19 vs WSH",
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 51329,
+    "output_tokens": 4255
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Eugene Debs WARNING FROM THE GRAVE For Socialist Winners",
+          "url": "https://www.youtube.com/watch?v=-oxdbsZzZuA",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss the life and legacy of Eugene Debs and how his lessons apply today.",
+          "image": "https://i2.ytimg.com/vi/-oxdbsZzZuA/hqdefault.jpg",
+          "video": "-oxdbsZzZuA"
+        },
+        {
+          "title": "Trump's Fascism Is On Full Display",
+          "url": "https://www.youtube.com/watch?v=WyiHUrR96lQ",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report episode on Trump's fascism; the summary is mostly show boilerplate, so the topic is taken from the title alone.",
+          "image": "https://i4.ytimg.com/vi/WyiHUrR96lQ/hqdefault.jpg",
+          "video": "WyiHUrR96lQ"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "The Front Office Report",
+          "url": "https://www.youtube.com/watch?v=HrGi724ywW0",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "Braves President of Baseball Operations Alex Anthopoulos meets the media, with BravesVision analysts reviewing the 2026 season and the future.",
+          "image": "https://i1.ytimg.com/vi/HrGi724ywW0/hqdefault.jpg",
+          "video": "HrGi724ywW0"
+        },
+        {
+          "title": "San Francisco 49ers vs. Seattle Seahawks Highlights | Week 5",
+          "url": "https://www.youtube.com/watch?v=LeqytjCwKvw",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Highlights from the 49ers vs. Seattle Seahawks Week 5 game at Lumen Field.",
+          "image": "https://i1.ytimg.com/vi/LeqytjCwKvw/hqdefault.jpg",
+          "video": "LeqytjCwKvw"
+        },
+        {
+          "title": "Insane Fights From Dana White's Contender Series Episode 10",
+          "url": "https://www.youtube.com/watch?v=4KK5wXHw7Us",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Highlights from Dana White's Contender Series Episode 10, which featured thrilling fights and four UFC contracts.",
+          "image": "https://i1.ytimg.com/vi/4KK5wXHw7Us/hqdefault.jpg",
+          "video": "4KK5wXHw7Us"
+        },
+        {
+          "title": "Pat Freiermuth On Aaron Rodgers, The Steelers Offense & Their BIG Win Over The Colts",
+          "url": "https://www.youtube.com/watch?v=jZjlnaPXKh8",
+          "source": "The Pat McAfee Show",
+          "topic": "Sports",
+          "note": "Pat Freiermuth discusses Aaron Rodgers, the Steelers offense, and their win over the Colts.",
+          "image": "https://i3.ytimg.com/vi/jZjlnaPXKh8/hqdefault.jpg",
+          "video": "jZjlnaPXKh8"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "This AI Decision Matters More Than the Model You Choose for Construction Work",
+          "url": "https://www.youtube.com/watch?v=5pgircJ8X8k",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "A step-by-step guide to implementing AI in a construction business, arguing the surrounding harness matters more than the model chosen.",
+          "image": "https://i2.ytimg.com/vi/5pgircJ8X8k/hqdefault.jpg",
+          "video": "5pgircJ8X8k"
+        },
+        {
+          "title": "GPT-6 Astra for Construction — Take-offs Tested",
+          "url": "https://www.youtube.com/watch?v=NfHwae5adcg",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tests GPT-6 Astra on construction takeoffs, including generating a 3D building model from 2D architectural drawings.",
+          "image": "https://i3.ytimg.com/vi/NfHwae5adcg/hqdefault.jpg",
+          "video": "NfHwae5adcg"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Japanese GHOST Follows Man into Cab! | Strange Evidence| Science Channel",
+          "url": "https://www.youtube.com/watch?v=6DBmRH_qVNE",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "A Science Channel segment on alleged ghost footage from a Japanese taxi stand, with a paranormal investigator's commentary.",
+          "image": "https://i3.ytimg.com/vi/6DBmRH_qVNE/hqdefault.jpg",
+          "video": "6DBmRH_qVNE"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "DRUNKEN SPAGHETTI Might Be the Best Pasta I've Ever Made",
+          "url": "https://www.youtube.com/watch?v=umBdri4x_WI",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes spaghetti and meatballs finished in red wine, with spicy Italian sausage, garlic, shallots, and parmesan.",
+          "image": "https://i2.ytimg.com/vi/umBdri4x_WI/hqdefault.jpg",
+          "video": "umBdri4x_WI"
+        }
+      ]
+    }
+  ]
+}
