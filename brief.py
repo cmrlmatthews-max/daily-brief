@@ -53,6 +53,13 @@ YOUTUBE_FEED = "https://www.youtube.com/feeds/videos.xml?channel_id="
 VIDEO_MAX_TOKENS = 3000   # call 3: at most 12 short notes
 YOUTUBE_RETRY_WAIT = 2.0  # seconds before the one retry of a failed YouTube feed
 YOUTUBE_FOLD_AFTER = 3    # more channel failures than this are folded into one source error
+RECENT_DAYS = 3           # lead and front stories from this many days back count as "seen recently"
+RECENT_LINES = 20         # at most this many recent headlines go to call 1
+REPEAT_STOP = set("a an the and or but of to in on at for by with from as is are was were be been has have had it its "
+                  "this that these those after before over under into about says said say new will would can could "
+                  "not no than more most up out off amid via vs".split())
+REPEAT_MIN_SHARED = 3     # two headlines are one story when they share this many words...
+REPEAT_MIN_RATIO = 0.5    # ...and the shared words are this share of the shorter headline
 
 SYSTEM_PROMPT = """You are the editor of a short personal daily brief, laid out like a newspaper front page, for one reader.
 Pick the few items that are truly worth their attention today, and say why in plain words.
@@ -78,6 +85,12 @@ Rules:
   "decks": 2 or 3 short deck lines, like the summary lines printed under an old newspaper headline.
   Each at most 12 words. Write them only from the item title and summary. Do not invent any facts.
 - "front": 2 to 4 other front-page stories, from any section. Note: 1 sentence, at most 25 words.
+- Items with seen_recently=true were on the front page in the last 3 days.
+  Do not use them for "lead" or "front" unless the item reports a major new development
+  (a new fact, decision, result, or number).
+  When you do use one, fill "whats_new" with one short sentence, at most 15 words, that says what is new.
+  Make the headline (lead) or the note (front) say what is new.
+  They may still go in "sections".
 - "sections": one entry for EVERY topic listed in the message that has items left after "lead" and "front".
   Give 2 to 3 items per topic. No repeats of the lead or front items.
   Use the topic name exactly as listed. Do not leave "sections" empty.
@@ -97,6 +110,12 @@ _NOTE_ITEM = {
     "properties": {"id": {"type": "string"}, "note": {"type": "string"}},
     "required": ["id", "note"],
 }
+
+_WHATS_NEW = {"type": "string",
+              "description": "Only for an item with seen_recently=true: one short sentence on what is new. "
+                             "Else omit."}
+# Front stories may carry whats_new; section notes may not, so they keep _NOTE_ITEM.
+_FRONT_ITEM = {**_NOTE_ITEM, "properties": {**_NOTE_ITEM["properties"], "whats_new": _WHATS_NEW}}
 
 
 def publish_tool(section_names: list[str]) -> dict[str, Any]:
@@ -120,10 +139,11 @@ def publish_tool(section_names: list[str]) -> dict[str, Any]:
                         "decks": {"type": "array", "minItems": 2, "maxItems": 3, "items": {"type": "string"},
                                   "description": "Short deck lines under the headline. Each at most 12 words, "
                                                  "only from the item title and summary, no invented facts."},
+                        "whats_new": _WHATS_NEW,
                     },
                     "required": ["id", "headline", "note", "decks"],
                 },
-                "front": {"type": "array", "minItems": 2, "maxItems": 4, "items": _NOTE_ITEM,
+                "front": {"type": "array", "minItems": 2, "maxItems": 4, "items": _FRONT_ITEM,
                           "description": "Other front-page stories, from any section."},
                 "sections": {
                     "type": "array",
@@ -819,6 +839,60 @@ def drop_seen_yesterday(items: list[dict], site_url: str, old: dict | None = Non
         return items
 
 
+def headline_words(text: Any) -> set[str]:
+    """The words of a headline that carry meaning: lower case, no stop words, no short words, plural 's' cut."""
+    w = re.findall(r"[a-z0-9]+", str(text or "").lower().replace("’", "'").replace("'s", ""))
+    out = set()
+    for x in w:
+        if x in REPEAT_STOP or len(x) < 3:
+            continue
+        if len(x) > 4 and x.endswith("s") and not x.endswith("ss"):
+            x = x[:-1]
+        out.add(x)
+    return out
+
+
+def same_story(a: Any, b: Any) -> bool:
+    """True when two headlines share enough words to be the same story, even from different outlets."""
+    wa, wb = headline_words(a), headline_words(b)
+    if not wa or not wb:
+        return False
+    shared = wa & wb
+    return len(shared) >= REPEAT_MIN_SHARED and len(shared) / min(len(wa), len(wb)) >= REPEAT_MIN_RATIO
+
+
+def recent_front_headlines(folder: Path | str, today: Any, old: dict | None, days: int = RECENT_DAYS) -> list[str]:
+    """Lead title, lead headline and front titles of the papers from `today` back `days` days (archive files),
+    then of the live brief `old`. No repeats, order kept, no blanks. Never raises: any problem gives []."""
+    try:
+        # load_archive_papers starts one day back, so ask from tomorrow to include today's own file (a reprint)
+        papers = [p for _, p in load_archive_papers(folder, today + timedelta(days=1), days + 1)]
+        if isinstance(old, dict):
+            papers.append(old)
+        out: list[str] = []
+        for paper in papers:
+            lead, front = paper.get("lead"), paper.get("front")
+            found = [lead.get("title"), lead.get("headline")] if isinstance(lead, dict) else []
+            found += [f.get("title") for f in front if isinstance(f, dict)] if isinstance(front, list) else []
+            for text in found:
+                text = clean_text(text) if isinstance(text, str) else ""
+                if text and text not in out:
+                    out.append(text)
+        return out
+    except Exception:
+        return []
+
+
+def mark_recent_repeats(items: list[dict], headlines: list[str]) -> list[dict]:
+    """Copies of `items` where each item that tells a story from `headlines` has "seen_recently": True.
+    Never raises: on any problem the items come back unchanged."""
+    try:
+        return [{**i, "seen_recently": True} if any(same_story(i["title"], h) for h in headlines) else i
+                for i in items]
+    except Exception:
+        return items
+
+
 def drop_seen_videos(videos: list[dict], old: dict | None) -> list[dict]:
     """Remove fetched videos that were on yesterday's YouTube tab (old["videos"][*]["items"][*]["url"]).
     Compared by YouTube id when the link has one, else by URL. Ignore any failure."""
@@ -1075,7 +1149,8 @@ def fetch_extras(cfg: dict, now: datetime) -> tuple[list[dict], dict | None, lis
 def slim_items(items: list[dict]) -> list[dict]:
     """The records the model sees. No urls and no image links; only whether a picture exists."""
     return [{**{k: i[k] for k in ("id", "topic", "source", "title", "summary", "published")},
-             "has_image": bool(i.get("image"))} for i in items]
+             "has_image": bool(i.get("image")), **({"seen_recently": True} if i.get("seen_recently") else {})}
+            for i in items]
 
 
 def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int,
@@ -1119,12 +1194,17 @@ def reader_block(cfg: dict, now: datetime | None = None) -> str:
     return text
 
 
-def ask_claude(cfg: dict, items: list[dict], today: str) -> tuple[dict, dict]:
-    """Call 1: the front page (lead, front stories, 2 to 3 items per topic) and the spoken script."""
+def ask_claude(cfg: dict, items: list[dict], today: str, recent: list[str] | None = None) -> tuple[dict, dict]:
+    """Call 1: the front page (lead, front stories, 2 to 3 items per topic) and the spoken script.
+    `recent` are the front-page headlines of the last few days; the model must not repeat them."""
     slim = slim_items(items)
     topics = section_names(cfg, items)
+    lines = [clean_text(h, 140) for h in (recent or []) if isinstance(h, str)]
+    lines = [l for l in lines if l][:RECENT_LINES]
+    seen = (f"Front-page stories from the last {RECENT_DAYS} days (do not repeat them unless there is a major "
+            "new development):\n" + "".join(f"- {l}\n" for l in lines) + "\n") if lines else ""
     user = (f"{reader_block(cfg)}Today is {today}.\n\n"
-            f"Topics (make a section for each): {', '.join(topics)}\n\n"
+            f"Topics (make a section for each): {', '.join(topics)}\n\n{seen}"
             f"Items (JSON):\n{json.dumps(slim, ensure_ascii=False, separators=(',', ':'))}\n\n"
             "Call publish_brief with your picks.")
     return _forced_call(cfg, SYSTEM_PROMPT, publish_tool([t["name"] for t in cfg["topics"]]), user,
@@ -1165,18 +1245,26 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
 
     make = make_story
 
-    def pick(entries: Any, limit: int | None = None) -> list[dict]:
+    def pick(entries: Any, limit: int | None = None, front_page: bool = False) -> list[dict]:
         out = []
         for e in entries if isinstance(entries, list) else []:
             iid = e.get("id") if isinstance(e, dict) else None
             if iid not in by_id or iid in used:
                 continue
+            new = ""
+            if front_page and by_id[iid].get("seen_recently"):
+                new = clean_text(str(e.get("whats_new") or ""), 140)
+                if not new:
+                    continue    # a recent repeat with nothing new stays off the front page (not marked used)
             used.add(iid)
-            out.append(make(by_id[iid], e.get("note")))
+            story = make(by_id[iid], e.get("note"))
+            if new:
+                story["follow_up"] = new
+            out.append(story)
         return out[:limit] if limit else out
 
     raw_lead = choice.get("lead")
-    lead_list = pick([raw_lead], 1)
+    lead_list = pick([raw_lead], 1, front_page=True)
     lead = lead_list[0] if lead_list else None
     if lead:
         lead["note"] = clean_text(str(raw_lead.get("note") or ""), LEAD_NOTE_CHARS)
@@ -1185,7 +1273,11 @@ def build_output(choice: dict, items: list[dict], order: list[str]) -> dict:
         decks = [clean_text(str(d), 100) for d in raw_decks if isinstance(d, str)] \
             if isinstance(raw_decks, list) else []
         lead["decks"] = [d for d in decks if d][:3]
-    front = pick(choice.get("front"), 4)
+    front = pick(choice.get("front"), 4, front_page=True)
+    if lead is None and front and isinstance(raw_lead, dict) and by_id.get(raw_lead.get("id"), {}).get("seen_recently"):
+        # The lead was a repeat with nothing new: the first front story takes its place.
+        lead = {**front.pop(0)}
+        lead["headline"], lead["decks"] = lead["title"], []
 
     # Group by each item's own topic so a section only holds its own sources, then order them.
     buckets: dict[str, list[dict]] = {name: [] for name in order}
@@ -1736,6 +1828,7 @@ def main() -> int:
     today = f"{now:%A, %B} {now.day}, {now.year}"
     errors: list[dict] = []
     video_items: list[dict] = []
+    recent: list[str] = []   # front-page headlines of the last few days (live runs only)
 
     if not (args.dry_run or args.fetch_only or os.environ.get("ANTHROPIC_API_KEY")):
         print("error: ANTHROPIC_API_KEY is not set. Set it, or use --dry-run.", file=sys.stderr)
@@ -1769,6 +1862,9 @@ def main() -> int:
             return 0
         old = fetch_yesterday(cfg["site_url"])   # one live fetch for the news items and the videos
         items = drop_seen_yesterday(items, cfg["site_url"], old)
+        recent = recent_front_headlines(data_dir(), now.astimezone(TZ).date(), old)
+        items = mark_recent_repeats(items, recent)
+        print(f"repeats: {sum(1 for i in items if i.get('seen_recently'))} items seen in the last {RECENT_DAYS} days")
         video_items = drop_seen_videos(video_items, old)
 
     if not items:
@@ -1782,7 +1878,7 @@ def main() -> int:
         usage = {"input_tokens": 0, "output_tokens": 0}
     else:
         try:
-            choice, usage = ask_claude(cfg, items, today)
+            choice, usage = ask_claude(cfg, items, today, recent)
         except Exception as exc:
             print(f"error: Claude call failed: {type(exc).__name__}: {exc}", file=sys.stderr)
             if front_model(cfg) == cfg["model"]:
@@ -1790,7 +1886,7 @@ def main() -> int:
             # The stronger front-page model failed. Print the paper with the main model rather than no paper.
             print(f"front page: retrying with {cfg['model']}", file=sys.stderr)
             try:
-                choice, usage = ask_claude({**cfg, "front_model": cfg["model"]}, items, today)
+                choice, usage = ask_claude({**cfg, "front_model": cfg["model"]}, items, today, recent)
             except Exception as exc2:
                 print(f"error: Claude call failed again: {type(exc2).__name__}: {exc2}", file=sys.stderr)
                 return 1
