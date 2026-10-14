@@ -815,9 +815,10 @@ def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_we
     monkeypatch.setattr(brief, "fetch_yesterday", lambda url: (
         spy.setdefault("yesterday_fetches", []).append(url) if spy is not None else None) or (yesterday or {}))
     monkeypatch.setattr(brief, "resolve_og_images", lambda out, no_image: 0)
-    def front_call(cfg, its, today):
+    def front_call(cfg, its, today, recent=None):
         if spy is not None:
             spy["front"] = list(its)
+            spy["recent"] = recent
         return choice, {"input_tokens": 100, "output_tokens": 10}
 
     def desk_call(cfg, its, today):
@@ -1421,7 +1422,7 @@ def test_main_front_model_failure_retries_with_main_model(monkeypatch, tmp_path,
     desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
     orig_setattr = monkeypatch.setattr
 
-    def flaky(cfg, items, today):
+    def flaky(cfg, items, today, recent=None):
         seen.append(brief.front_model(cfg))
         if brief.front_model(cfg) != cfg["model"]:
             raise RuntimeError("overloaded")
@@ -2065,3 +2066,191 @@ def test_video_fixture_items_are_well_formed():
         assert brief.youtube_id(i["url"]) and i["id"] == brief.item_id(i["url"]) and i["image"].startswith(
             "https://i.ytimg.com/vi/")
         assert not brief.is_short(i["title"], i["url"])
+
+
+# ---------- the same story on two front pages ----------
+
+POPE_BBC = "Pope Leo has lung surgery after cancer diagnosis"
+POPE_NPR = "Pope Leo has lung cancer, the Vatican says"
+
+
+def test_same_story_matches_other_outlets_and_rejects_other_news():
+    assert brief.same_story(POPE_BBC, POPE_NPR)
+    assert brief.same_story(POPE_NPR, "Pope diagnosed with lung cancer but had successful surgery")
+    assert not brief.same_story("Braves beat Mets 5-3", "Braves lose to Mets in extra innings")
+    assert not brief.same_story("Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+                                "Saudi minister vows serious response to Houthi attacks on airports")
+    assert not brief.same_story("", "") and not brief.same_story(POPE_BBC, "") and not brief.same_story(None, POPE_BBC)
+
+
+def test_headline_words_drop_stop_words_short_words_and_plural_s():
+    assert brief.headline_words("The Pope’s lungs say: it is 5 new cats, glass") == {"pope", "lung", "cats", "glass"}
+
+
+def recent_data(tmp_path, dates):
+    arch = tmp_path / "data" / "archive"
+    arch.mkdir(parents=True, exist_ok=True)
+    for d in dates:
+        (arch / f"{d}.json").write_text(json.dumps(paper(d, 2)), encoding="utf-8")
+    return tmp_path / "data"
+
+
+TODAY = datetime(2026, 10, 14).date()
+
+
+def test_recent_front_headlines_reads_three_days_plus_today_and_old(tmp_path):
+    data = recent_data(tmp_path, ["2026-10-10", "2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14"])
+    old = {"lead": {"title": "Live lead", "headline": "Live head"}, "front": [{"title": "Live front"}, {"title": ""}]}
+    got = brief.recent_front_headlines(data, TODAY, old)
+    assert "Story 2026-10-10 0" not in got                                    # four days back is too old
+    assert got[:3] == ["Story 2026-10-11 0", "H", "Story 2026-10-11 1"]       # oldest first; repeated "H" kept once
+    assert "Story 2026-10-14 0" in got and "Story 2026-10-13 2" in got        # today's reprint and yesterday's front
+    assert "Story 2026-10-13 3" not in got                                    # sections are not the front page
+    assert got[-3:] == ["Live lead", "Live head", "Live front"]
+    assert len(got) == len(set(got)) and "" not in got
+    assert brief.recent_front_headlines(data, TODAY, {}) == got[:-3]
+    assert brief.recent_front_headlines(data, TODAY, None) == got[:-3]
+
+
+def test_recent_front_headlines_never_raises(tmp_path):
+    data = recent_data(tmp_path, ["2026-10-13"])
+    (data / "archive" / "2026-10-12.json").write_text("not json", encoding="utf-8")
+    (data / "archive" / "2026-10-11.json").write_text(json.dumps({"lead": 5, "front": "x"}), encoding="utf-8")
+    assert brief.recent_front_headlines(data, TODAY, "bad old")[0] == "Story 2026-10-13 0"
+    assert brief.recent_front_headlines(tmp_path / "missing", TODAY, {}) == []
+    assert brief.recent_front_headlines(data, "not a date", {}) == []
+
+
+def test_mark_recent_repeats_flags_only_matches_and_copies():
+    items = [{"id": "a", "title": POPE_NPR}, {"id": "b", "title": "Braves beat Mets 5-3"}]
+    out = brief.mark_recent_repeats(items, ["Unrelated headline here", POPE_BBC])
+    assert [i.get("seen_recently") for i in out] == [True, None]
+    assert "seen_recently" not in items[0]                                    # the input is not changed
+    assert brief.mark_recent_repeats(items, []) == items
+    bad = [{"id": "c"}]
+    assert brief.mark_recent_repeats(bad, [POPE_BBC]) is bad                  # no title: returned unchanged
+
+
+def test_slim_items_adds_seen_recently_only_when_set():
+    items = items_fixture()
+    items[1]["seen_recently"] = True
+    slim = brief.slim_items(items)
+    assert slim[1]["seen_recently"] is True
+    assert all("seen_recently" not in r for n, r in enumerate(slim) if n != 1)
+    assert list(slim[0]) == ["id", "topic", "source", "title", "summary", "published", "has_image"]
+
+
+def capture_user(monkeypatch):
+    seen = {}
+
+    def fake(cfg, system, tool, user, max_tokens, model=None, **kw):
+        seen.update(system=system, tool=tool, user=user)
+        return {}, {"input_tokens": 0, "output_tokens": 0}
+    monkeypatch.setattr(brief, "_forced_call", fake)
+    return seen
+
+
+def test_ask_claude_lists_recent_front_stories_before_the_items(monkeypatch):
+    monkeypatch.setenv("BRIEF_DATA_DIR", "/nonexistent-data-dir")
+    seen = capture_user(monkeypatch)
+    brief.ask_claude(CFG, items_fixture(), "Tuesday, October 14, 2026", [POPE_BBC, "<b>Bold</b>  story", "x" * 300])
+    user = seen["user"]
+    head = "Front-page stories from the last 3 days (do not repeat them unless there is a major new development):\n"
+    assert head + f"- {POPE_BBC}\n- Bold story\n- " + "x" * 139 + "…\n\n" in user
+    assert user.index(head) < user.index("Items (JSON):")
+    brief.ask_claude(CFG, items_fixture(), "Tuesday, October 14, 2026", [f"Story {n}" for n in range(30)])
+    assert seen["user"].count("\n- Story ") == brief.RECENT_LINES
+    for none in (None, [], [""]):
+        brief.ask_claude(CFG, items_fixture(), "Tuesday, October 14, 2026", none)
+        assert "Front-page stories" not in seen["user"]
+
+
+def test_prompt_and_schema_explain_seen_recently_and_whats_new():
+    for phrase in ("seen_recently=true", "major new development", "whats_new", "at most 15 words", "\"sections\""):
+        assert phrase in brief.SYSTEM_PROMPT
+    props = brief.publish_tool(ORDER)["input_schema"]["properties"]
+    assert props["lead"]["properties"]["whats_new"]["type"] == "string"
+    assert props["front"]["items"]["properties"]["whats_new"]["type"] == "string"
+    assert "whats_new" not in brief._NOTE_ITEM["properties"]
+    assert "whats_new" not in props["sections"]["items"]["properties"]["items"]["items"]["properties"]
+    assert "whats_new" not in props["lead"]["required"] and "whats_new" not in props["front"]["items"]["required"]
+
+
+def repeat_items(*flagged):
+    items = items_fixture()
+    for i in items:
+        if i["id"] in flagged:
+            i["seen_recently"] = True
+    return items
+
+
+def test_repeat_lead_without_whats_new_is_dropped_and_first_front_is_promoted():
+    choice = {"lead": {"id": "id2", "headline": "Old news", "note": "n", "decks": ["a", "b"]},
+              "front": [{"id": "id4", "note": "f1"}, {"id": "id5", "note": "f2"}],
+              "sections": []}
+    for blank in (None, "", "   ", "<b> </b>"):
+        entry_ = {**choice["lead"], **({} if blank is None else {"whats_new": blank})}
+        out = brief.build_output({**choice, "lead": entry_}, repeat_items("id2"), ORDER)
+        assert out["lead"]["title"] == "Title 4" and out["lead"]["headline"] == "Title 4"
+        assert out["lead"]["decks"] == [] and out["lead"]["note"] == "f1"
+        assert [f["title"] for f in out["front"]] == ["Title 5"]
+        assert "follow_up" not in out["lead"]
+        tech = next(s for s in out["sections"] if s["topic"] == "Tech & AI")
+        assert "Title 2" in [i["title"] for i in tech["items"]]            # the fallback may still place it in its section
+
+
+def test_repeat_lead_dropped_with_no_front_leaves_no_lead():
+    out = brief.build_output({"lead": {"id": "id2", "headline": "H", "note": "n"}, "front": [], "sections": []},
+                             repeat_items("id2"), ORDER)
+    assert out["lead"] is None and out["front"] == []
+
+
+def test_repeat_front_without_whats_new_leaves_the_front_but_can_sit_in_its_section():
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n"},
+              "front": [{"id": "id5", "note": "repeat"}, {"id": "id4", "note": "ok"}],
+              "sections": [{"topic": "World", "items": [{"id": "id5", "note": "in section"}, {"id": "id6", "note": "c"}]}]}
+    out = brief.build_output(choice, repeat_items("id5"), ORDER)
+    assert [f["title"] for f in out["front"]] == ["Title 4"]
+    world = next(s for s in out["sections"] if s["topic"] == "World")
+    assert [i["title"] for i in world["items"]] == ["Title 5", "Title 6"]
+    assert world["items"][0]["note"] == "in section" and "follow_up" not in world["items"][0]
+    assert out["lead"]["title"] == "Title 2"                                # an unflagged lead is not replaced
+
+
+def test_repeat_with_whats_new_is_kept_and_carries_follow_up():
+    long = "A new fact " + "w" * 200
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n", "whats_new": "  Surgery was <b>done</b> today.  "},
+              "front": [{"id": "id4", "note": "f", "whats_new": long}, {"id": "id5", "note": "plain"}],
+              "sections": [{"topic": "World", "items": [{"id": "id6", "note": "c", "whats_new": "ignored"}]}]}
+    out = brief.build_output(choice, repeat_items("id2", "id4", "id6"), ORDER)
+    assert out["lead"]["title"] == "Title 2" and out["lead"]["follow_up"] == "Surgery was done today."
+    assert len(out["front"][0]["follow_up"]) <= 140 and out["front"][0]["follow_up"].startswith("A new fact")
+    assert "follow_up" not in out["front"][1]
+    world = next(s for s in out["sections"] if s["topic"] == "World")
+    assert "follow_up" not in world["items"][0]                            # sections never get the key
+
+
+def test_unflagged_items_ignore_whats_new_and_get_no_follow_up():
+    choice = {"lead": {"id": "id2", "headline": "H", "note": "n", "whats_new": "stray"},
+              "front": [{"id": "id4", "note": "f", "whats_new": "stray"}], "sections": []}
+    out = brief.build_output(choice, items_fixture(), ORDER)
+    assert "follow_up" not in out["lead"] and "follow_up" not in out["front"][0]
+    assert [f["title"] for f in out["front"]] == ["Title 4"]
+
+
+def test_main_marks_repeats_sends_recent_headlines_and_drops_a_repeat_lead(monkeypatch, tmp_path, capsys):
+    recent_data(tmp_path, ["2026-10-13"])
+    items = json.loads((ROOT / "fixtures/sample_items.json").read_text())["items"]
+    lead_title = next(i["title"] for i in items if i["id"] == "f4dce0c7ac")
+    yesterday = {"lead": {"title": lead_title + " today", "url": "https://other-outlet.test/haiku"}, "front": []}
+    desk = json.loads((ROOT / "fixtures/sample_desk_response.json").read_text())
+    spy = {}
+    monkeypatch.setattr(brief, "datetime", type("D", (datetime,), {"now": classmethod(
+        lambda cls, tz=None: datetime(2026, 10, 14, 7, 0, tzinfo=brief.TZ))}))
+    b, out = run_main(monkeypatch, tmp_path, capsys, lambda cfg, its, today: (desk, {"input_tokens": 0, "output_tokens": 0}),
+                      spy=spy, yesterday=yesterday)
+    assert "repeats: 1 items seen in the last 3 days" in out
+    assert [i["id"] for i in spy["front"] if i.get("seen_recently")] == ["f4dce0c7ac"]
+    assert spy["recent"][0] == "Story 2026-10-13 0" and spy["recent"][-1] == lead_title + " today"
+    assert b["lead"]["title"] != lead_title and "follow_up" not in b["lead"]   # the repeat lead had no whats_new
+    assert b["lead"]["title"] == "Mixed-use tower proposed beside the Beltline's Eastside Trail"
