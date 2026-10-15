@@ -1,0 +1,1041 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, October 15, 2026",
+  "generated_at": "2026-10-15T05:00:26-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, October 15, 2026. Our lead story: President Trump has forced out Kimberly Guilfoyle, his ambassador to Greece. She faced allegations of misconduct before and during her time at the U.S. Embassy in Athens. She has denied the allegations. The White House publicly asked for her resignation on Tuesday. Now the front page. A school roof collapsed in northwestern Pakistan on Thursday. At least 28 children and a female teacher were killed, and more than 50 people were injured. Pope Leo the Fourteenth has been diagnosed with lung cancer, according to the Vatican. Georgia's early voting opened with nearly 189,000 ballots cast on the first day. Nexus, a new AI supercomputer, has been unveiled at Georgia Tech's data center. In Tech and AI, Claude now offers OpenTelemetry export in beta, for tracing API requests and agent sessions. In Politics, Drop Site News reports on donors linked to Jeffrey Epstein giving to Ashley Moody's Senate campaign. In World, Ukraine says SpaceX's Starshield access has been greatly restricted. In Sports, four men have been arrested over the February shooting of 49ers lineman Keion White. In Atlanta, the Georgia Supreme Court struck down Chatham County's fire service fee. In Architecture, AEC Magazine looks at Motif, an AI-driven BIM platform. In Science and Nature, Voyager 1 will reach one light-day from Earth on November 18. That is the brief. Have a good day.",
+  "lead": {
+    "title": "U.S. Ambassador to Greece Kimberly Guilfoyle resigns following misconduct allegations",
+    "url": "https://www.npr.org/2026/10/14/nx-s1-6000592/u-s-ambassador-to-greece-kimberly-guilfoyle-resigns-following-misconduct-allegations",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "note": "President Trump has forced out Kimberly Guilfoyle, his ambassador to Greece, after allegations of misconduct before and during her tenure at the U.S. Embassy in Athens. The White House publicly asked for her resignation on Tuesday as accusations mounted. Guilfoyle has denied the allegations, according to the report. NPR's coverage includes an interview with a former White House ethics lawyer, Richard Painter, who discussed the ethics allegations facing her. The story is a political one: a senior diplomatic post is vacant after a resignation the White House requested. For readers following the administration, it is a fresh example of personnel decisions tied to conduct questions. Coverage so far has been limited to the allegations, the resignation, and reactions from ethics experts, so further facts may follow.",
+    "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+    "video": null,
+    "follow_up": "The resignation is now confirmed, after the White House publicly asked for it on Tuesday.",
+    "headline": "Trump's Greece ambassador Guilfoyle resigns amid misconduct allegations",
+    "decks": [
+      "White House requested the resignation on Tuesday as accusations mounted",
+      "Guilfoyle denied the allegations, which covered her time in Athens",
+      "NPR interviewed a former White House ethics lawyer on the allegations"
+    ]
+  },
+  "front": [
+    {
+      "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "A school roof collapsed in northwestern Pakistan on Thursday, killing at least 28 children and a female teacher, with more than 50 injured.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2961x1974+0+0/resize/2961x1974!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F42%2Fe4dba5184e8faf43db35f336fef1%2Fap26288241083154.jpg",
+      "video": null
+    },
+    {
+      "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+      "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Pope Leo XIV has been diagnosed with lung cancer, according to the Vatican; earlier coverage reported successful surgery.",
+      "image": "https://www.npr.org/2026/10/14/g-s1-148040/undefined",
+      "video": null,
+      "follow_up": "Reports now say the surgery was successful, according to the Vatican."
+    },
+    {
+      "title": "Georgia voters kick off early voting with nearly 189,000 ballots cast",
+      "url": "https://roughdraftatlanta.com/2026/10/14/georgia-midterm-early-voting-record/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Nearly 189,000 Georgians cast ballots on the first day of early voting, above the 2022 midterm first-day turnout by over 50,000.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/DSC03032-2048x1365-1-600x400.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 14, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-14-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Claude Platform now offers OpenTelemetry export in beta, so API requests and agent sessions can be traced in your observability tools.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=3",
+          "video": null
+        },
+        {
+          "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+          "url": "https://www.anthropic.com/news/2026-us-midterms",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic's policy post on preparing for the 2026 US midterms bears on the election topics you follow.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+          "video": null
+        },
+        {
+          "title": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Context-mode claims a 98% reduction in tool output for AI coding agents, a useful pattern for your Claude workflows.",
+          "image": "https://opengraph.githubassets.com/1/mksglu/context-mode",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "After Ashley Moody Epstein Probe, Donors Linked to Him Poured Money Into her Senate Campaign",
+          "url": "https://www.dropsitenews.com/p/ashley-moody-epstein-work-release-angie-nixon-florida-senate",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that donors linked to Jeffrey Epstein gave to Ashley Moody's Senate campaign after her Epstein probe.",
+          "image": "https://substackcdn.com/image/fetch/$s_!065c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92cb8e3c-1cde-4176-aa70-2eb40a625826_3107x1937.jpeg",
+          "video": null
+        },
+        {
+          "title": "Midterm Madness: Is Kalshi Betting On Bonta?",
+          "url": "https://www.levernews.com/midterm-madness-is-kalshi-betting-on-bonta/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever asks whether Kalshi is betting on California's attorney general, Bonta, given his ties to a former aide now at Kalshi.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--25-.png",
+          "video": null
+        },
+        {
+          "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports a Kansas Senate race could send a Democrat to the Senate for the first time in nearly a century.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0b%2F15%2F18fc484f4ddea3d1bb115343ceba%2Fks-bus-tour.JPG",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Ukraine says its Starshield access has been greatly restricted",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-has-been-greatly-restricted",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Ukraine says SpaceX's Starshield access for its drone operations has been greatly restricted; Elon Musk says the U.S. is responsible for changes.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "September consumer prices rose 3.7% from a year ago, and Social Security benefits will increase next year.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2F61%2Fc0ae826a434f85125c7d6ab98c31%2Fgettyimages-2298003777.jpg",
+          "video": null
+        },
+        {
+          "title": "Aboard an icebreaker, a writer got a closer look at the Arctic's 'Sea Change'",
+          "url": "https://www.npr.org/2026/10/14/nx-s1-6001592/arctic-sea-change-rana-foroohar",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Writer Rana Foroohar describes Arctic shipping lanes opening as polar ice melts, making the region a zone of superpower competition.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1536x864+0+592/resize/1536x864!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2F64%2F667fda7e425eba94a43332b55381%2Fimg-2932.JPEG",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Four men arrested in connection with Feb. shooting of 49ers' Keion White",
+          "url": "https://www.espn.com/nfl/story/_/id/50185071/four-arrested-feb-shooting-49ers-keion-white",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Four men have been arrested over the February nightclub shooting of 49ers defensive lineman Keion White.",
+          "image": "https://a.espncdn.com/photo/2026/0210/r1612987_600x600_1-1.jpg",
+          "video": null
+        },
+        {
+          "title": "NBA Now or Later rankings: Which teams most need to win immediately?",
+          "url": "https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Houston Rockets site ranks all 30 NBA teams by which most need to win immediately with their current cores.",
+          "image": "https://a.espncdn.com/photo/2026/1013/261014_nba_now-or-later-rankings_16x9_608x342.jpg",
+          "video": null
+        },
+        {
+          "title": "The UFC's flyweights are hot again - is Lone'er Kavanagh the next star?",
+          "url": "https://www.espn.com/ufc/story/_/id/50131180/the-ufc-flyweights-hot-again-loneer-kavanagh-next-star",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Britain's Lone'er Kavanagh could move into the UFC flyweight title picture with a breakout win at UFC 333.",
+          "image": "https://a.espncdn.com/photo/2026/1008/r1727730_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Georgia Supreme Court strikes down county’s fire service fee",
+          "url": "https://roughdraftatlanta.com/2026/10/14/georgia-supreme-court-strikes-chatham-fire-fee/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "The Georgia Supreme Court ruled Chatham County's fire service fee was an illegal property tax, requiring about $30 million in refunds.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/04/Capitol-Beatwide-2-1024x539.jpeg",
+          "video": null
+        },
+        {
+          "title": "Construction set to begin on MARTA’s first arterial rapid transit corridor",
+          "url": "https://roughdraftatlanta.com/2026/10/14/marta-art-corridor-construction/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "MARTA construction on its first arterial rapid transit corridor, Cleveland Avenue and Metropolitan Parkway, begins Oct. 26.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/MARTA-Cleveland-ART-rendering-600x260.png",
+          "video": null
+        },
+        {
+          "title": "Collins and Ossoff clash in heated Georgia Senate debate, but did voters learn anything?",
+          "url": "https://saportareport.com/collins-and-ossoff-clash-in-heated-georgia-senate-debate-but-did-voters-learn-anything/columnists/delaney-tarr/delaneytarr/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Ossoff and Collins clashed in a heated Atlanta Press Club Senate debate on Oct. 13.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_7102-scaled.jpg?fit=1024%2C768&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "AEC Magazine September / October 2026",
+          "url": "https://aecmag.com/technology/aec-magazine-september-october-2026/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine's latest issue looks at Motif, an agent-native BIM platform challenging Revit's aging architecture.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/10/mag-post.jpg",
+          "video": null
+        },
+        {
+          "title": "Why AI should influence your next AEC workstation purchase",
+          "url": "https://aecmag.com/sponsored-content/why-ai-should-influence-your-next-aec-workstation-purchase/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine argues AI capability should now factor into CAD and BIM workstation purchases.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "APOD: 2026 October 15 – The Milky Way over Manhattan",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Astronomy Picture of the Day shows the Milky Way over Manhattan.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/Manhattan%20Milkyway.jpg?w=1152&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Belize looks to the deep sea to complete its 30% ocean protection pledge",
+          "url": "https://news.mongabay.com/2026/10/belize-looks-to-the-deep-sea-to-complete-its-30-ocean-protection-pledge/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Belize plans to close its gap to 30% ocean protection by creating three offshore marine protected areas in deep waters.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/13165408/OceanImageBank_ConnorHolland_25-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "Voyager 1 is nearly one light-day from Earth. What’s out there?",
+          "url": "https://www.sciencenews.org/article/voyager-1-light-day-exploration",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Voyager 1 will reach one light-day from Earth on November 18, and is still finding surprises in interstellar space.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/1126_voyager_feat.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "U.S. Ambassador to Greece Kimberly Guilfoyle resigns following misconduct allegations",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-6000592/u-s-ambassador-to-greece-kimberly-guilfoyle-resigns-following-misconduct-allegations",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "President Trump forced out Ambassador to Greece Kimberly Guilfoyle, who faced misconduct allegations she denies. NPR also reports the White House publicly asked for her resignation.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Midterm Madness: Is Kalshi Betting On Bonta?",
+              "url": "https://www.levernews.com/midterm-madness-is-kalshi-betting-on-bonta/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on whether California's attorney general's ties to a former chief of staff, now a lobbyist for Kalshi, raise questions in the midterm context.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--25-.png",
+              "video": null
+            },
+            {
+              "title": "After Ashley Moody Epstein Probe, Donors Linked to Him Poured Money Into her Senate Campaign",
+              "url": "https://www.dropsitenews.com/p/ashley-moody-epstein-work-release-angie-nixon-florida-senate",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that donors linked to Jeffrey Epstein's probe-related figure gave money to Ashley Moody's Senate campaign after she investigated the Epstein work-release program.",
+              "image": "https://substackcdn.com/image/fetch/$s_!065c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92cb8e3c-1cde-4176-aa70-2eb40a625826_3107x1937.jpeg",
+              "video": null
+            },
+            {
+              "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-5995633/kansas-senate-race-hamilton-marshall-tossup",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that Kansas could elect a Democrat to the Senate for the first time in nearly a century, a competitive race that tests the limits of Trump's policies.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0b%2F15%2F18fc484f4ddea3d1bb115343ceba%2Fks-bus-tour.JPG",
+              "video": null
+            },
+            {
+              "title": "Civil rights advocates plan to send thousands of observers to midterm polling places",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-5991802/election-polling-place-observers",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Civil rights groups plan to send thousands of observers to midterm polling places, a larger effort than in past cycles. Relevant to how the midterms are run.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5248x3472+0+0/resize/5248x3472!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2Fcf%2F94f63bcd4b4c985fb82d87b4ae26%2Fgettyimages-2298479519.jpg",
+              "video": null
+            },
+            {
+              "title": "Why does Pete Hegseth want to livestream an execution?",
+              "url": "https://www.npr.org/2026/10/13/nx-s1-5996831/why-does-pete-hegseth-want-to-livestream-an-execution",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Defense Secretary Pete Hegseth has proposed livestreaming the execution of a man convicted in the 2009 Fort Hood attack. Scholars discuss the religious background of the idea.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump’s Tough Week, Ansarallah Advances Again, Iran Tightens Control on Strait Of Hormuz",
+              "url": "https://www.dropsitenews.com/p/trumps-tough-week-ansarallah-advances",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News' War Brief covers Trump's week, Ansarallah's advances, and Iran's tightening control of the Strait of Hormuz.",
+              "image": "https://substackcdn.com/image/fetch/$s_!IAp2!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F220048579%2F9b5b3782-9c82-4116-96ea-28dc63ea62e1%2Ftranscoded-119159.png",
+              "video": null
+            },
+            {
+              "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
+              "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR profiles Republican lawyer Paul Clement as he argues his latest Supreme Court case, which challenges some Trump administration policies.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2F9c%2F8994a1a14e56b3b6ec84f8953f09%2Fgettyimages-1393643528.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "School roof collapse kills at least 29, injures more than 3 dozen in Pakistan",
+              "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A school roof collapsed in northwestern Pakistan, killing at least 28 children and a female teacher and injuring more than 50 people.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2961x1974+0+0/resize/2961x1974!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F42%2Fe4dba5184e8faf43db35f336fef1%2Fap26288241083154.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine says its Starshield access has been greatly restricted",
+              "url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-has-been-greatly-restricted",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Ukraine says SpaceX's Starshield access for its drone operations has been greatly restricted. Elon Musk says the US is responsible for changes to the system.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+              "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Musk says the US government may be behind the slowdown in Ukraine's drone speeds, while Ukraine says Starlink access has improved but still has speed limits.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9f7e/live/76dbc1b0-c848-11f1-94ec-7f952cae1636.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump's ambassador to Greece, Kimberly Guilfoyle, resigns after allegations of improper conduct",
+              "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "US Ambassador to Greece Kimberly Guilfoyle resigned after allegations of improper conduct, following a White House request on Tuesday.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6233x4156+0+0/resize/6233x4156!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb2%2F6e%2F068561e04fb8bda3c3fa25f04001%2Fap26286527763834.jpg",
+              "video": null
+            },
+            {
+              "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+              "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Consumer prices rose 3.7% from a year ago in September, and Social Security benefits will increase next year to keep pace with the cost of living.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2F61%2Fc0ae826a434f85125c7d6ab98c31%2Fgettyimages-2298003777.jpg",
+              "video": null
+            },
+            {
+              "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+              "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Thick orange smog from wildfires has descended on the Indonesian city of Palangka Raya, with residents reporting nowhere to escape the haze.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc6b/live/96412140-c847-11f1-9a39-31b474234113.jpg",
+              "video": null
+            },
+            {
+              "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+              "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Zelenskyy gave NPR an interview as Russia's full-scale invasion nears its 5-year mark. NPR also reports Pope Leo XIV has been diagnosed with lung cancer.",
+              "image": "https://www.npr.org/2026/10/14/g-s1-148040/undefined",
+              "video": null
+            },
+            {
+              "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+              "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "72 retired officers asked the Pentagon to cancel the planned livestream of Nidal Hasan's execution, calling it barbaric.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/491e/live/40de5ca0-c841-11f1-afe1-c9348bd7f501.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 14, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-14-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Platform adds OpenTelemetry export in beta, letting you trace Messages API requests and Managed Agents sessions in your own observability tools. Useful if you build with Claude.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=3",
+              "video": null
+            },
+            {
+              "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+              "url": "https://www.anthropic.com/news/singapore-office-opening",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is opening a Singapore office and signing an MOU with the Government of Singapore. Relevant to tracking Anthropic's expansion and policy relationships.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+              "video": null
+            },
+            {
+              "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+              "url": "https://www.anthropic.com/news/2026-us-midterms",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic published its policy approach for the 2026 US midterms. Relevant to following Anthropic's position on the election and AI policy.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+              "url": "https://www.anthropic.com/news/cyber-verification-program",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals access to advanced cyber capabilities and reduced blocking classifiers.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+              "video": null
+            },
+            {
+              "title": "Tree Appreciator",
+              "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison built a three.js tree game with Claude on the iPhone app. A concrete example of quick personal tool-building with Claude.",
+              "image": "https://static.simonwillison.net/static/2026-10-14/image_crop_1320x2195_w1320_q0.7.webp",
+              "video": null
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Context-mode is a GitHub trending tool that sandboxes AI coding agent tool output and persists session memory via MCP and hooks. Relevant to building with coding agents.",
+              "image": "https://opengraph.githubassets.com/1/mksglu/context-mode",
+              "video": null
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "CLI-Anything is trending on GitHub with a goal of making software agent-native through command-line interfaces. Relevant to AI-driven software tooling.",
+              "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+              "video": null
+            },
+            {
+              "title": "K-Dense-AI/scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Scientific-agent-skills is a trending library of 177 validated skills for turning AI agents into scientific assistants, compatible with Claude Code. Relevant to science and AI tooling.",
+              "image": "https://opengraph.githubassets.com/1/K-Dense-AI/scientific-agent-skills",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Four men arrested in connection with Feb. shooting of 49ers' Keion White",
+              "url": "https://www.espn.com/nfl/story/_/id/50185071/four-arrested-feb-shooting-49ers-keion-white",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Four men were arrested in connection with the February nightclub shooting of 49ers defensive lineman Keion White, officials said Wednesday.",
+              "image": "https://a.espncdn.com/photo/2026/0210/r1612987_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "The UFC's flyweights are hot again - is Lone'er Kavanagh the next star?",
+              "url": "https://www.espn.com/ufc/story/_/id/50131180/the-ufc-flyweights-hot-again-loneer-kavanagh-next-star",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC flyweight Lone'er Kavanagh of Britain could move into the title picture with a breakout win at UFC 333. Relevant to your UFC interest.",
+              "image": "https://a.espncdn.com/photo/2026/1008/r1727730_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Brendan Allen submits his case for moving up in MMA divisional rankings",
+              "url": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Brendan Allen makes his case for a higher spot in UFC and PFL middleweight rankings. Relevant to your UFC interest.",
+              "image": "https://a.espncdn.com/photo/2026/1012/r1729828_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Biggest offseason questions for teams eliminated from MLB playoffs",
+              "url": "https://www.espn.com/mlb/story/_/id/50052092/mlb-playoffs-2026-offseason-eliminated-teams-questions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Chicago's offseason questions after squandering a 2-0 series lead against the Guardians in the MLB playoffs. Relevant to Braves-league context.",
+              "image": "https://a.espncdn.com/photo/2026/1011/r1728966_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Who is this year's Mr. October? Tracking the playoff MVP for 2026",
+              "url": "https://www.espn.com/mlb/story/_/id/50110772/2026-mlb-playoffs-mvp-tracker-wpa-leaderboard-win-probability-added-mr-october",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Braves feed tracks the numbers behind the players most helping their teams in the 2026 MLB playoffs and who could be this year's Mr. October.",
+              "image": "https://a.espncdn.com/photo/2026/1008/r1727946_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "NBA Now or Later rankings: Which teams most need to win immediately?",
+              "url": "https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Houston Rockets-sourced NBA rankings sort all 30 teams by which must win immediately with their current cores. Relevant to your Rockets interest.",
+              "image": "https://a.espncdn.com/photo/2026/1013/261014_nba_now-or-later-rankings_16x9_608x342.jpg",
+              "video": null
+            },
+            {
+              "title": "2026 NBA free agency: Grades for offseason signings, extensions",
+              "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Grades for 2026 NBA offseason signings and extensions, including Payton Pritchard's two-year extension with the Celtics.",
+              "image": "https://a.espncdn.com/photo/2025/0306/r1460219_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL Week 6 latest intel, buzz questions, news, fantasy tips: What we're hearing",
+              "url": "https://www.espn.com/nfl/story/_/id/50173775/week-6-buzz-fantasy-predictions-graziano-fowler-2026",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "NFL Week 6 intel includes the Eagles' three-game slide, remaining unbeaten teams, and possible wide receiver trades.",
+              "image": "https://a.espncdn.com/photo/2026/1013/r1730277_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgia Supreme Court strikes down county’s fire service fee",
+              "url": "https://roughdraftatlanta.com/2026/10/14/georgia-supreme-court-strikes-chatham-fire-fee/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The Georgia Supreme Court ruled Chatham County's fire service fee was an illegal property tax, requiring about $30 million in refunds.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/04/Capitol-Beatwide-2-1024x539.jpeg",
+              "video": null
+            },
+            {
+              "title": "Georgia voters kick off early voting with nearly 189,000 ballots cast",
+              "url": "https://roughdraftatlanta.com/2026/10/14/georgia-midterm-early-voting-record/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Nearly 189,000 Georgia voters cast ballots on the first day of early voting, above the first-day turnout in the 2022 midterms.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/DSC03032-2048x1365-1-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Collins and Ossoff clash in heated Georgia Senate debate, but did voters learn anything?",
+              "url": "https://saportareport.com/collins-and-ossoff-clash-in-heated-georgia-senate-debate-but-did-voters-learn-anything/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Ossoff and Collins clashed at an Atlanta Press Club Senate debate covering abortion and other topics. Relevant to Georgia's Senate race.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_7102-scaled.jpg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Construction set to begin on MARTA’s first arterial rapid transit corridor",
+              "url": "https://roughdraftatlanta.com/2026/10/14/marta-art-corridor-construction/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA begins construction on its first arterial rapid transit corridor along Cleveland Avenue and Metropolitan Parkway on Oct. 26, in phases.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/MARTA-Cleveland-ART-rendering-600x260.png",
+              "video": null
+            },
+            {
+              "title": "Next section of North DeKalb Mall’s replacement officially a go",
+              "url": "https://atlanta.urbanize.city/post/lula-hills-next-development-north-dekalb-mall-replacement-officially-go",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "RangeWater and Nippon Steel Kowa broke ground on the next section of North DeKalb Mall's replacement, a major Atlanta development.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Rendering%20Lulah%20Hills%20overview.jpg?itok=hHF8U3R1",
+              "video": null
+            },
+            {
+              "title": "Supercomputer Expands Atlanta’s Role in the Nation’s Digital Future",
+              "url": "https://saportareport.com/supercomputer-expands-atlantas-role-in-the-nations-digital-future/thought-leadership/higher-education/georgia-institute-of-technology/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Nexus, a next-generation AI supercomputer housed at Georgia Tech's Coda data center, is unveiled as a research resource. Relevant to Atlanta tech and AI.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/DSC_8604-scaled.jpg?fit=1024%2C681&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Photos: Blighted complexes neighboring Beltline fully cleared away",
+              "url": "https://atlanta.urbanize.city/post/photos-beltline-westside-trail-blighted-apartment-complexes-demolished",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "City-led demolition cleared 20 blighted buildings with 92 apartments along a newer Beltline trail segment, leaving large blank parcels.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-03/7%20Westside%20Trail%20Oak%20Valley%20Court%20Apartments%20Azalea%20Gardens%20.jpg?itok=xxxEuEa7",
+              "video": null
+            },
+            {
+              "title": "Old Fourth Ward corner's ultra-modern makeover comes to market",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-corner-ultra-modern-images-for-sale",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A trio of modern homes near Ponce City Market and a landmark park in Old Fourth Ward is coming to market. Relevant to Atlanta architecture and development.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/full%20341%20Fortune%20347%20Fortune.png?itok=krgEFiiY",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "AEC Magazine September / October 2026",
+              "url": "https://aecmag.com/technology/aec-magazine-september-october-2026/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine's latest issue explores Motif, an agent-native BIM platform that challenges Revit. Directly relevant to your BIM work.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/mag-post.jpg",
+              "video": null
+            },
+            {
+              "title": "Why AI should influence your next AEC workstation purchase",
+              "url": "https://aecmag.com/sponsored-content/why-ai-should-influence-your-next-aec-workstation-purchase/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine argues AI capability should now factor into CAD, BIM and visualization workstation purchases alongside CPU and GPU power.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+              "video": null
+            },
+            {
+              "title": "Nakamura Ward Office Complex / Takenaka Corporation",
+              "url": "https://www.archdaily.com/1186234/nakamura-ward-office-complex-takenaka-corporation",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Takenaka's Nakamura Ward Office Complex brings four municipal and private facilities onto a former elementary school site around an open space.",
+              "image": "https://images.adsttc.com/media/images/6abf/9e17/07c3/d100/017f/cbb1/newsletter/06_SS.inc.jpg?1790942835",
+              "video": null
+            },
+            {
+              "title": "Civic Campus Sallarès Deu / JAAS",
+              "url": "https://www.archdaily.com/1186766/sallares-deu-jaas",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "JAAS transforms the former Sallarès Deu textile factory, designed in 1920, into a civic campus in Sabadell, Spain.",
+              "image": "https://images.adsttc.com/media/images/6ace/9845/b2c4/c300/0178/eeb2/newsletter/JAAS_SD_03_Foto_Adria_Goula.jpg?1791924320",
+              "video": null
+            },
+            {
+              "title": "Brumadinho Memorial / Gustavo Penna Arquiteto e Associados",
+              "url": "https://www.archdaily.com/1186835/brumadinho-memorial-gustavo-penna-arquiteto-e-associados",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Brumadinho Memorial honors 272 victims of the Córrego do Feijão dam collapse, designed with the victims' families at the site of the tragedy.",
+              "image": "https://images.adsttc.com/media/images/6acf/8ec6/b2c4/c300/0178/f330/newsletter/02_Pedro_Mascaro_DJI_20250221081134_0859_D.jpg?1791987438",
+              "video": null
+            },
+            {
+              "title": "Padre Luís Cabral Building / Hori-zonte",
+              "url": "https://www.archdaily.com/1186822/padre-luis-cabral-building-hori-zonte",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Hori-zonte's three-story residential building in Porto integrates passive strategies such as solar orientation and cross-ventilation into its layout.",
+              "image": "https://images.adsttc.com/media/images/6ac0/188a/07c3/d100/017f/cd7e/newsletter/hori-zonteCoralFN0000-HEAD.jpg?1790974130",
+              "video": null
+            },
+            {
+              "title": "Zhuozhuo Community / WEI+ Design",
+              "url": "https://www.archdaily.com/1186714/zhuozhuo-community-wei-plus-design",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Zhuozhuo Community by WEI+ Design regenerates existing buildings and alleyways in Jingdezhen's historic district into an open cultural community.",
+              "image": "https://images.adsttc.com/media/images/6ace/0b2a/c599/0e01/8860/1095/newsletter/zhuozhuo-community-wei-plus-design_52.jpg?1791888309",
+              "video": null
+            },
+            {
+              "title": "What Does It Take to Start a Career in Architecture?",
+              "url": "https://www.archdaily.com/1181701/from-architecture-graduate-to-professional-how-yacademy-turns-talent-into-a-career",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily looks at the challenges of moving from an architecture degree into professional practice, including portfolios and office realities.",
+              "image": "https://images.adsttc.com/media/images/6a67/a7de/f4d2/6d01/88b1/6cd2/newsletter/what-comes-after-architecture-school_7.jpg?1785178101",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Voyager 1 is nearly one light-day from Earth. What’s out there?",
+              "url": "https://www.sciencenews.org/article/voyager-1-light-day-exploration",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Voyager 1 will reach one light-day from Earth on November 18 and is still returning findings from interstellar space.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/1126_voyager_feat.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
+              "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation on the International Space Station, at a news conference on Oct. 20.",
+              "image": "https://images-assets.nasa.gov/image/iss075e0011109/iss075e0011109~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+              "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA will update its plans to return American astronauts to the Moon by 2028 at a briefing on Oct. 23 at Kennedy Space Center.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/artemis-announcement-advisory-oct-13.jpg?w=1920",
+              "video": null
+            },
+            {
+              "title": "Belize looks to the deep sea to complete its 30% ocean protection pledge",
+              "url": "https://news.mongabay.com/2026/10/belize-looks-to-the-deep-sea-to-complete-its-30-ocean-protection-pledge/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Belize proposes closing its gap to a 30% ocean protection pledge by establishing three offshore marine protected areas in its deep waters.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/13165408/OceanImageBank_ConnorHolland_25-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Can math stay human in the age of AI?",
+              "url": "https://www.sciencenews.org/article/math-human-ai-age",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News asks whether math stays human as AI produces proofs, following a DeepMind study on what is lost when only answers are focused on.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101326_KH_AImathverification_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Thailand seizes ivory shipment from Zambia, to launch DNA investigation",
+              "url": "https://news.mongabay.com/short-article/2026/10/thailand-seizes-ivory-shipment-from-zambia-to-launch-dna-investigation/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Thailand seized about 400 pieces of African elephant ivory hidden in a timber shipment from Zambia and is running DNA tests to trace the origin.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/15063534/African-elephants-Loxodonta-africana-in-Luangwa-Valley-Zambia-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Scarred blood vessels may be one clue to APOE4’s Alzheimer’s risk",
+              "url": "https://www.sciencenews.org/article/scar-tissue-blood-vessels-alzheimers",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Scarred blood vessel cells may help explain how APOE4 raises Alzheimer's risk, according to new research reported by Science News.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100826_RJM_Alzheimers_main_aa1b64.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 15 – The Milky Way over Manhattan",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-15-the-milky-way-over-manhattan/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows the Milky Way over Manhattan, a striking night-sky image of the cosmos.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/Manhattan%20Milkyway.jpg?w=1152&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Pan Pepin Inc. Issues Allergy Alert of Para Bien Al Grano Due to Undeclared Sesame",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undeclared-sesame",
+      "published": "2026-10-13T18:07:00+00:00"
+    },
+    {
+      "title": "Pan Pepín Inc. Emite Alerta por Alérgenos en el Producto Parabien al Grano Debido a la Presencia de Sésamo No Declarado",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-emite-alerta-por-alergenos-en-el-producto-parabien-al-grano-debido-la-presencia-de",
+      "published": "2026-10-13T18:00:00+00:00"
+    },
+    {
+      "title": "Par Health Issues Voluntary Nationwide Recall of Argatroban Injection Due to the Presence of Particulate Matter",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-argatroban-injection-due-presence-particulate-matter",
+      "published": "2026-10-13T14:52:00+00:00"
+    }
+  ],
+  "stoic": {
+    "text": "As a pig that cries and flings when his throat is cut, fancy to thyself every one to be, that grieves for any worldly thing and takes on.",
+    "credit": "Marcus Aurelius, Meditations (trans. George Long)"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 115–132 vs DAL",
+      "last_date": "Oct 11",
+      "next": "Thu Oct 15 vs OKC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401898400/mavericks-rockets",
+      "recent": [
+        "L 115–132 vs DAL · Oct 11",
+        "W 135–117 at DAL · Oct 9"
+      ],
+      "upcoming": [
+        "Thu Oct 15 vs OKC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 32–29 at SEA",
+      "last_date": "Oct 11",
+      "next": "Mon Oct 19 vs WSH",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
+      "recent": [
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4",
+        "W 36–30 vs ARI · Sep 27"
+      ],
+      "upcoming": [
+        "Mon Oct 19 vs WSH",
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 62478,
+    "output_tokens": 8211
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Anthropic Wanted To Slow The AI Space Race. Then It Filed for a $2 Trillion IPO.",
+          "url": "https://www.youtube.com/watch?v=1bp12w_olDQ",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Investigates Anthropic's reported $2 trillion IPO plans and its AI agent claims, with a profile of CEO Dario Amodei.",
+          "image": "https://i2.ytimg.com/vi/1bp12w_olDQ/hqdefault.jpg",
+          "video": "1bp12w_olDQ"
+        },
+        {
+          "title": "Israel's Elections: Right vs Far Right | Meron Rapoport | TMR",
+          "url": "https://www.youtube.com/watch?v=5i18qZWxcRA",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Meron Rapoport, editor of Local Call and a +972 Magazine writer, discusses the upcoming Israeli elections and the right and far-right parties.",
+          "image": "https://i2.ytimg.com/vi/5i18qZWxcRA/hqdefault.jpg",
+          "video": "5i18qZWxcRA"
+        },
+        {
+          "title": "CPI REPORT: Inflation RISES As Gas Prices SOAR Right Before Midterms",
+          "url": "https://www.youtube.com/watch?v=EVFhUqzYUik",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss the latest CPI inflation report, rising gas prices ahead of the midterms, and a governor race in Vermont.",
+          "image": "https://i2.ytimg.com/vi/EVFhUqzYUik/hqdefault.jpg",
+          "video": "EVFhUqzYUik"
+        },
+        {
+          "title": "Zuckerberg Accidentally Exposes The Ai Scam's Bubble",
+          "url": "https://www.youtube.com/watch?v=ooMIF0u_ldk",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Commentary on Mark Zuckerberg's comments and what the hosts argue they reveal about AI market hype.",
+          "image": "https://i4.ytimg.com/vi/ooMIF0u_ldk/hqdefault.jpg",
+          "video": "ooMIF0u_ldk"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "\"Proper Mike can't beat me\" | UFC Edmonton Media Day",
+          "url": "https://www.youtube.com/watch?v=sp-QtgmsIDc",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Joaquin Buckley and Mike Malott answer press questions at UFC Edmonton media day ahead of their main event matchup.",
+          "image": "https://i4.ytimg.com/vi/sp-QtgmsIDc/hqdefault.jpg",
+          "video": "sp-QtgmsIDc"
+        },
+        {
+          "title": "How Chris Cole & Drew Mestemaker REAFFIRMED Their 2027 NFL Draft Stock",
+          "url": "https://www.youtube.com/watch?v=Ls69tBiN3cs",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Football show on Drew Mestemaker, Georgia prospects Chris Cole, KJ Bolden and Gunner Stockton, and 2027 NFL Draft stock.",
+          "image": "https://i1.ytimg.com/vi/Ls69tBiN3cs/hqdefault.jpg",
+          "video": "Ls69tBiN3cs"
+        },
+        {
+          "title": "CJ Stroud Looks \"F***ing Awesome,\" Bengals Revert Back & Declan Doyle Just HAS IT",
+          "url": "https://www.youtube.com/watch?v=rMxiPrcvVnM",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Recap of Week 5 NFL games, including overtime, scheme changes, a mid-game trade, and young quarterbacks.",
+          "image": "https://i3.ytimg.com/vi/rMxiPrcvVnM/hqdefault.jpg",
+          "video": "rMxiPrcvVnM"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Content Management & AI in Revit | Pirros + Mira AI for Revit Tutorial",
+          "url": "https://www.youtube.com/watch?v=XdK6ib3r13k",
+          "source": "Balkan Architect",
+          "topic": "Architecture & Building",
+          "note": "Revit tutorial showing how Mira AI and Pirros automate tasks, enforce project standards, and check model quality.",
+          "image": "https://i1.ytimg.com/vi/XdK6ib3r13k/hqdefault.jpg",
+          "video": "XdK6ib3r13k"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Coding on the go with Claude Code",
+          "url": "https://www.youtube.com/watch?v=-OH1y7CjIew",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Explains Claude Code cloud sessions: how they run in their own virtual machine, connect to GitHub, and are started and reviewed.",
+          "image": "https://i2.ytimg.com/vi/-OH1y7CjIew/hqdefault.jpg",
+          "video": "-OH1y7CjIew"
+        },
+        {
+          "title": "What If an Asteroid Hit New York City? ☄️ How the Universe Works | Science Channel",
+          "url": "https://www.youtube.com/watch?v=Vi1e81dWUQU",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Explores cosmic catastrophes, including a hypothetical asteroid impact on New York City and the eventual fate of Earth.",
+          "image": "https://i3.ytimg.com/vi/Vi1e81dWUQU/hqdefault.jpg",
+          "video": "Vi1e81dWUQU"
+        },
+        {
+          "title": "The Most INCREDIBLE Marvels of SEASON 1 | Underground Marvels | Science Channel",
+          "url": "https://www.youtube.com/watch?v=GRopYbuV7hY",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Tour of underground marvels from ice caves to military bunkers and data centers, with chapter timestamps.",
+          "image": "https://i4.ytimg.com/vi/GRopYbuV7hY/hqdefault.jpg",
+          "video": "GRopYbuV7hY"
+        }
+      ]
+    }
+  ]
+}
