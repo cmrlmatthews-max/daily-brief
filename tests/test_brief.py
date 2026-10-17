@@ -336,7 +336,7 @@ def test_sources_config():
     assert "AEC Magazine" in names["Architecture"] and "Architosh" not in names["Architecture"]   # Architosh blocks the GitHub runner (403)
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
-    assert names["Sports"] == ["Houston Rockets", "Atlanta Braves", "San Francisco 49ers", "UFC (ESPN)"]
+    assert names["Sports"] == ["Houston Rockets", "Atlanta Braves", "San Francisco 49ers", "MLB.com Braves", "49ers.com", "UFC (ESPN)"]
     every = [s for t in cfg["topics"] for s in t["sources"]]
     assert {s["type"] for s in every} <= set(brief.FETCHERS)
     assert len({s["url"] for s in every}) == len(every)

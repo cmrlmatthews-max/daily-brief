@@ -141,6 +141,14 @@ topics:
       - name: San Francisco 49ers
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=25
+      # Team news from the league and team sites (Oct 2026). NBA.com and NFL.com have no public feeds,
+      # so the Rockets stay on ESPN only and the 49ers use the team site.
+      - name: MLB.com Braves
+        type: rss
+        url: https://www.mlb.com/braves/feeds/news/rss.xml
+      - name: 49ers.com
+        type: rss
+        url: https://www.49ers.com/rss/news
       - name: UFC (ESPN)
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/mma/ufc/news
