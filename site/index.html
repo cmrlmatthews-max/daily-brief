@@ -450,7 +450,7 @@
   .lock .go:disabled { opacity: .6; cursor: wait; }
   .lock-err { min-height: 1.4em; margin: 12px 0 0 !important; color: var(--accent) !important; font-style: italic; }
 
-  /* ---------- Small boxes on the front page (FDA Recalls, Daily Stoic), top of the right-hand column ---------- */
+  /* ---------- Small boxes on the front page (The Week, Words to Live By, FDA Recalls), top of the right-hand column. .aux-stoic is the old Daily Stoic box, still shown on back issues ---------- */
   .aux {
     margin: 4px 4px calc(18px + var(--gap, 0px) * .5); padding: calc(9px * var(--fit, 1)) calc(11px * var(--fit, 1)) calc(9px * var(--fit, 1));
     border: 1px solid var(--rule); outline: 1px solid var(--rule-soft); outline-offset: 3px;
@@ -466,9 +466,10 @@
   .aux-recalls a { font: 700 1.04em/1.2 var(--f-head); overflow-wrap: anywhere; }
   .aux-recalls a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
   .aux-recalls .when { display: block; font: 500 .78em/1.2 var(--f-label); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-top: .12em; }
-  .aux-stoic blockquote { margin: 0; text-align: center; font-style: italic; font-size: 1.1em; line-height: 1.32; }
-  .aux-stoic blockquote p { margin: 0; text-wrap: pretty; }
-  .aux-stoic cite { display: block; margin-top: .55em; font: 500 .8em/1.25 var(--f-label); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); text-align: center; }
+  .aux-stoic blockquote, .aux-quote blockquote { margin: 0; text-align: center; font-style: italic; font-size: 1.1em; line-height: 1.32; }
+  .aux-stoic blockquote p, .aux-quote blockquote p { margin: 0; text-wrap: pretty; }
+  .aux-stoic cite, .aux-quote cite { display: block; margin-top: .55em; font: 500 .8em/1.25 var(--f-label); font-style: normal; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); text-align: center; }
+  .aux-quote .aux-about { display: block; margin-top: .45em; font: normal .82em/1.3 var(--f-body); letter-spacing: normal; text-transform: none; color: var(--ink-soft); text-align: center; }
 
   /* ---------- Weather glyphs and the full weather block (Atlanta tab) ---------- */
   .wx-glyph { font-family: "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", "Noto Sans Symbols 2", "Noto Sans Symbols", sans-serif; color: var(--accent); }
@@ -1096,7 +1097,7 @@
     }
     grid.appendChild(text);
 
-    // Right: the small boxes (Daily Stoic, FDA Recalls), then also on the front page.
+    // Right: the small boxes (The Week, Words to Live By, FDA Recalls), then also on the front page.
     if (front.length || aux.length) {
       var col = el("div", "front-col");
       aux.forEach(function (box) { col.appendChild(box); });
@@ -1582,6 +1583,20 @@
     box.appendChild(ul);
     return box;
   }
+  function quoteBox(q) {
+    if (!q || typeof q !== "object" || typeof q.text !== "string" || !q.text.trim()) return null;
+    var title = typeof q.title === "string" && q.title.trim() ? q.title.trim() : "Words to Live By";
+    var box = el("aside", "aux aux-quote");
+    box.setAttribute("aria-label", title);
+    box.appendChild(el("span", "aux-title", title));
+    var bq = el("blockquote");
+    bq.appendChild(el("p", null, "“" + q.text.trim() + "”"));
+    box.appendChild(bq);
+    if (typeof q.who === "string" && q.who.trim()) box.appendChild(el("cite", null, "— " + q.who.trim()));
+    if (typeof q.about === "string" && q.about.trim()) box.appendChild(el("span", "aux-about", q.about.trim()));
+    return box;
+  }
+  // Back issues made before Words to Live By carry the old brief.stoic {text, credit}; show it as it was.
   function stoicBox(q) {
     if (!q || typeof q !== "object" || typeof q.text !== "string" || !q.text.trim()) return null;
     var box = el("aside", "aux aux-stoic");
@@ -1873,7 +1888,7 @@
     var lead = b.lead && typeof b.lead === "object" ? b.lead : null;
     var front = (Array.isArray(b.front) ? b.front : []).filter(function (x) { return x && typeof x === "object"; });
     if (!lead && front.length) { lead = front[0]; front = front.slice(1); }
-    var aux = [weekBox(week), stoicBox(b.stoic), recallsBox(b.recalls)].filter(Boolean);
+    var aux = [weekBox(week), b.quote ? quoteBox(b.quote) : stoicBox(b.stoic), recallsBox(b.recalls)].filter(Boolean);
     if (lead) renderLead(lead, front, aux);
 
     var sections = (Array.isArray(b.sections) ? b.sections : []).filter(function (s) {

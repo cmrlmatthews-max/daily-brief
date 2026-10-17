@@ -31,10 +31,10 @@ recalls:
   max_items: 3
   max_age_days: 4
 
-# Daily Stoic box. One sentence from this public-domain text, picked by the date (same quote all day).
-stoic:
-  url: https://www.gutenberg.org/cache/epub/2680/pg2680.txt
-  credit: "Marcus Aurelius, Meditations (trans. George Long)"
+# Words to Live By box. One quote a day from the curated local file quotes.yaml (no network; same quote all day).
+quotes:
+  file: quotes.yaml
+  title: "Words to Live By"
 
 # Page title block.
 masthead: "CMRLM"

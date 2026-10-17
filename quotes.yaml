@@ -1,0 +1,48 @@
+# Words to Live By: the curated quotes for the box on the front page.
+#
+# Each entry is one quote:
+#   - text: "..."          required. 20 to 240 characters.
+#     who: "Name"          required. Shown under the quote.
+#     about: "..."         optional. A short line about the person, shown in small type under the name.
+#     source: "..."        optional. Where the quote comes from. Kept for checking, not shown on the page.
+#     ref: "https://..."   optional. A link to check it. Kept for checking, not shown on the page.
+#     group: "stoic"       optional. stoic, thinker or humanitarian. Not shown on the page.
+#
+# Rules:
+#   - The page shows one quote per day (Eastern date), the same all day.
+#   - The whole list is walked in a fixed order, so no quote repeats until every quote has been used.
+#     Keep at least 366 quotes so a full year has no repeat.
+#   - The order is set by the quote text, not by where an entry sits in this file. Two quotes by the same
+#     person are kept apart where possible.
+#   - Adding or removing a quote changes the order from then on.
+#   - An entry with no text, no who, a text outside 20 to 240 characters, or a repeated text is skipped.
+#
+# This is a short stub. The full list of 380 or more quotes replaces it.
+
+- text: "It always seems impossible until it's done."
+  who: "Nelson Mandela"
+  about: "South African leader, prisoner for 27 years"
+  source: "Attributed; widely quoted"
+  ref: "https://en.wikiquote.org/wiki/Nelson_Mandela"
+  group: "humanitarian"
+
+- text: "Education is the most powerful weapon which you can use to change the world."
+  who: "Nelson Mandela"
+  about: "South African leader, prisoner for 27 years"
+  source: "Speech, Mindset Network launch, 2003"
+  ref: "https://en.wikiquote.org/wiki/Nelson_Mandela"
+  group: "humanitarian"
+
+- text: "Waste no more time arguing about what a good man should be. Be one."
+  who: "Marcus Aurelius"
+  about: "Roman emperor and Stoic philosopher"
+  source: "Meditations, Book 10 (Hays translation)"
+  ref: "https://en.wikiquote.org/wiki/Marcus_Aurelius"
+  group: "stoic"
+
+- text: "The only thing I know is that I know nothing."
+  who: "Socrates"
+  about: "Greek philosopher of Athens"
+  source: "Attributed; after Plato, Apology"
+  ref: "https://en.wikiquote.org/wiki/Socrates"
+  group: "thinker"
