@@ -1,0 +1,1052 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, October 17, 2026",
+  "generated_at": "2026-10-17T05:00:21-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, October 17, 2026. The lead story is about Russia sanctions. The U.S. president has temporarily ended many restrictions on Moscow that Congress recently passed, citing national security concerns. The move comes as a dispute between Donald Trump and Ukrainian President Volodymyr Zelenskyy intensifies. Trump has said the Ukrainian leader is more difficult to deal with than Putin. Zelenskyy has been rallying support in the European Union. Now the front page. Masked Israeli settlers attacked Palestinians harvesting olives in the occupied West Bank on Friday. Several people were hurt, including a Washington Post photojournalist. Hot winds are fueling a fast-moving fire in Southern California. It has burned coastal homes, and thousands have been told to evacuate. Ukraine has resumed attacks on Russian oil refineries after a brief truce that Zelenskyy said Moscow had spurned. The FBI and the Postal Inspection Service are investigating suspicious mailings sent to election officials and congressional offices. Now the sections. In Tech and AI, Anthropic's Compliance API now returns saved Claude instructions for Enterprise organizations, in beta. In Politics, White House press secretary Katie Zacharia is transitioning out, less than a week after she started. In World, protests in New Delhi have intensified over a review of voter lists. In Sports, Alexander Volkanovski has called for a superfight against Justin Gaethje. In Atlanta, Donald Trump rallied Republicans in Dalton on Friday. In Architecture, Autodesk is pushing a connected AI assistant. In Science and Nature, Brazil's Amazon deforestation fell 42 percent to a record low. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "The US president has temporarily ended many restrictions on Moscow that Congress recently passed, citing national security concerns. The move comes as a dispute between Donald Trump and Ukrainian President Volodymyr Zelenskyy intensifies. The waiver covers many restrictions, though the summary does not list which ones are affected or for how long beyond the word temporarily. Reporting this week has also described Zelenskyy's growing rift with the United States, Ukraine's renewed strikes on Russian refineries, and Russian strikes that left hundreds of thousands without power in Ukraine. Congress passed the restrictions recently, so the waiver sets the executive branch's position against that legislation. For a reader following world affairs, this is the main development to watch, since it shapes the pressure on Moscow and the relationship between Washington and Kyiv at the same time.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+    "video": null,
+    "headline": "Trump Waives Several Russia Sanctions Amid Zelensky Row",
+    "decks": [
+      "Temporary waiver covers many restrictions Congress recently passed on Moscow",
+      "Trump says Ukraine's leader is more difficult to deal with than Putin",
+      "Zelensky rallies EU support as the row with Washington deepens"
+    ]
+  },
+  "front": [
+    {
+      "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Masked Israeli settlers attacked Palestinians harvesting olives in the occupied West Bank on Friday, injuring several people, including a Washington Post photojournalist.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2F6b%2F6f80e95a4323b7a2bf0a3456ca30%2Fgettyimages-2299901273.jpg",
+      "video": null
+    },
+    {
+      "title": "Coastal homes burn as hot winds fuel California fires",
+      "url": "https://www.npr.org/2026/10/17/g-s1-148569/coastal-homes-burn-in-california-fires",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Hot winds are fueling a fast-moving fire that has burned coastal homes in Southern California and prompted thousands to evacuate.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2Fc2%2F7c93157648a897c328e54e703d4c%2Fap26289837988678.jpg",
+      "video": null
+    },
+    {
+      "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "Ukraine resumed attacks on Russian oil refineries after a brief truce that Zelenskyy said Moscow had spurned, according to officials.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4345x2897+0+0/resize/4345x2897!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F51%2Ffbec51b04d88a0cca148fc9aaf65%2Fap26287608501796.jpg",
+      "video": null
+    },
+    {
+      "title": "Suspicious mailings to election officials, congressional offices under investigation",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
+      "source": "NPR Politics",
+      "topic": "Politics",
+      "note": "The FBI and Postal Inspection Service are investigating suspicious mailings sent to election officials and congressional offices.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8003x5336+0+0/resize/8003x5336!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F37%2F7c03adfa4e89b7205dea8dcf1056%2Fgettyimages-2295968526.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 15, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-15-2026-5",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Compliance API now returns saved Claude instructions for Enterprise organizations, in beta, which matters for your Claude setup.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=3",
+          "video": null
+        },
+        {
+          "title": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Anthropic's official directory of Claude Code plugins, useful for your personal tooling, with a reminder to vet plugins first.",
+          "image": "https://opengraph.githubassets.com/1/anthropics/claude-plugins-official",
+          "video": null
+        },
+        {
+          "title": "feder-cr/git-ai",
+          "url": "https://github.com/feder-cr/git-ai",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "A popular new repo, git-ai, is built as Git designed for AI agents, which fits your interest in trending GitHub projects.",
+          "image": "https://opengraph.githubassets.com/1/feder-cr/git-ai",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "I’ve Spent My Life Fighting Corruption. Finally America Is Going To Vote On It.",
+          "url": "https://www.levernews.com/david-sirota-anti-corruption-election/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever argues that 2026 midterms have become a referendum on corruption, a framing from an independent outlet.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-David-Sirota-Bernie-Sanders.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Katie Zacharia is out as press secretary, White House says",
+          "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "White House press secretary Katie Zacharia is transitioning out less than a week after starting, according to an unnamed official.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+          "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Protests in New Delhi have intensified over a voter list review that critics say threatens to disenfranchise voters; officials deny this.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3707x2471+0+0/resize/3707x2471!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F22%2F24a18ad34ab9afaeee9c49b78d39%2Fap26289462666677.jpg",
+          "video": null
+        },
+        {
+          "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+          "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A teacher fought a 16-year-old school attacker in Oregon before an armed parent shot the suspect, police say.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "UFC champ Alexander Volkanovski proposes 'send-off' superbout vs. Justin Gaethje",
+          "url": "https://www.espn.com/mma/story/_/id/50189696/ufc-champ-volkanovski-proposes-send-superbout-vs-gaethje",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "UFC featherweight champion Alexander Volkanovski has called for a superfight against lightweight champion Justin Gaethje.",
+          "image": "https://a.espncdn.com/photo/2026/0203/r1609874_2_576x324_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "McCaffrey making the most of his touches",
+          "url": "https://www.espn.com/video/clip/_/id/50199405/mccaffrey-making-most-touches",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "San Francisco 49ers coverage of Christian McCaffrey's workload ahead of the Week 6 matchup.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/dm_261016_SC4U_16x9_49ers_IA_10-16/dm_261016_SC4U_16x9_49ers_IA_10-16.jpg",
+          "video": null
+        },
+        {
+          "title": "NLCS history: Winners, key stats on the MLB playoff series",
+          "url": "https://www.espn.com/mlb/story/_/id/41686482/nlcs-history-winners-key-stats-mlb-playoff-series",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "The Los Angeles Dodgers hold the most wins in NLCS history, a useful baseline as the Braves follow the playoffs.",
+          "image": "https://a.espncdn.com/photo/2016/1018/r141274_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Donald Trump rallies Georgia Republicans to boost GOP candidates",
+          "url": "https://roughdraftatlanta.com/2026/10/16/trump-rally-georgia-election/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Donald Trump rallied Republicans in Dalton on Friday for Mike Collins and Rick Jackson ahead of the November elections.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Donald-Trump-Dalton-Ga-600x400.webp",
+          "video": null
+        },
+        {
+          "title": "ARC unveils part two of first-ever regional housing plan",
+          "url": "https://saportareport.com/arc-unveils-part-two-of-first-ever-regional-housing-plan/columnists/delaney-tarr/delaneytarr/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "The Atlanta Regional Commission released 10 housing actions for its first regional housing strategy, aimed at affordable homes by 2035.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-photo-33133733.jpeg?fit=1024%2C575&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Atlanta’s Zoning 2.0 plan faces criticism over complexity and housing goals",
+          "url": "https://roughdraftatlanta.com/2026/10/16/atlanta-zoning-code-critique/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Atlanta's proposed Zoning 2.0 code faces criticism over its complexity and housing goals, after an October 15 work session.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Sara_Bronin_Zoning2-600x331.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Autodesk’s most ambitious AI play yet",
+          "url": "https://aecmag.com/ai/autodesks-most-ambitious-ai-play-yet/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Autodesk is pushing a connected AI Assistant that decides how to solve tasks, a direct development for BIM practice.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "AEC Magazine September / October 2026",
+          "url": "https://aecmag.com/technology/aec-magazine-september-october-2026-out/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine profiles Motif, an agent-native BIM platform positioned against Revit, relevant to your BIM work.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/10/mag-post.jpg",
+          "video": null
+        },
+        {
+          "title": "Central Library at Stevens Ranch / Miller Hull Partnership + Steele Associates Architects",
+          "url": "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A 100,000-square-foot mass-timber central library in Oregon, a design reference for public buildings.",
+          "image": "https://images.adsttc.com/media/images/6acf/e41e/b2c4/c300/0178/f467/newsletter/FyV4SfJA.jpg?1792009345",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "APOD: 2026 October 17 – 3D 67P",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Today's APOD features 3D 67P, the comet imaged in three dimensions, a striking space picture for your morning.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/anaglyph-NAC_2015-07-25T06.28.48.742Z_lamy.jpg?w=2048&h=1884&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Amazon deforestation falls 42% to a record low",
+          "url": "https://news.mongabay.com/short-article/2026/10/amazon-deforestation-falls-42-to-a-record-low/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Brazil's Amazon deforestation fell 42% to a record low over the 12 months ended July 31, 2026, per INPE data.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/16214656/hoatzin_ecuador_235927-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "Artemis II Heat Shield After Splashdown",
+          "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA published Artemis II heat shield imagery and measurements taken after the April 10 splashdown.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Record Israeli attacks on Palestinian olive groves; Teen shooter kills children at Oregon school; Poland scrambles jets following Russian strikes",
+              "url": "https://www.dropsitenews.com/p/israel-settlers-west-bank-olive-oregon-school-shooting-poland-russia-jets",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily covers record Israeli attacks on Palestinian olive groves, a teen shooting at an Oregon school, and Polish jet scrambles after Russian strikes.",
+              "image": "https://substackcdn.com/image/fetch/$s_!wHUs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9370edd-1993-45a3-b3eb-3d0beb253801_8192x5464.heic",
+              "video": null
+            },
+            {
+              "title": "Teen kills 4 at Oregon school. And, DOJ sues California over alleged noncitizens",
+              "url": "https://www.npr.org/2026/10/16/g-s1-148373/up-first-newsletter-bend-oregon-school-shooting-california-doj-voters-presidential-papers",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A teen opened fire at an Oregon elementary school, killing three children and a teacher, and the Justice Department sued California over alleged noncitizen voters.",
+              "image": "https://www.npr.org/2026/10/16/g-s1-148373/undefined",
+              "video": null
+            },
+            {
+              "title": "Suspicious mailings to election officials, congressional offices under investigation",
+              "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "The FBI and Postal Inspection Service are investigating suspicious mailings to election officials and congressional offices, some containing a powdery white substance.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8003x5336+0+0/resize/8003x5336!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F37%2F7c03adfa4e89b7205dea8dcf1056%2Fgettyimages-2295968526.jpg",
+              "video": null
+            },
+            {
+              "title": "Do Americans own the president's papers? Appeals court to weigh in",
+              "url": "https://www.npr.org/2026/10/16/nx-s1-5996836/trump-who-owns-presidential-records-act-appeals-court",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "An appeals court will weigh whether presidential papers created in the White House belong to Donald Trump or the public. The case could reach the Supreme Court.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4134x2757+0+0/resize/4134x2757!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F15%2F4849ace944c487606c6c73212442%2Fgettyimages-2154745048.jpg",
+              "video": null
+            },
+            {
+              "title": "I’ve Spent My Life Fighting Corruption. Finally America Is Going To Vote On It.",
+              "url": "https://www.levernews.com/david-sirota-anti-corruption-election/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on the 2026 midterms and campaign-finance corruption, with Democrats linking it to other issues. This is commentary from an independent outlet.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-David-Sirota-Bernie-Sanders.png",
+              "video": null
+            },
+            {
+              "title": "The $430 Million War Against Taxing The Rich",
+              "url": "https://www.levernews.com/the-430-million-war-against-taxing-the-rich/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that ultrawealthy donors have spent nearly $430 million on November ballot measures to keep taxes low.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--26-.png",
+              "video": null
+            },
+            {
+              "title": "After Ashley Moody Epstein Probe, Donors Linked to Him Poured Money Into her Senate Campaign",
+              "url": "https://www.dropsitenews.com/p/ashley-moody-epstein-work-release-angie-nixon-florida-senate",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that donors linked to Jeffrey Epstein gave money to Ashley Moody's Senate campaign after her Epstein probe as Florida attorney general.",
+              "image": "https://substackcdn.com/image/fetch/$s_!065c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92cb8e3c-1cde-4176-aa70-2eb40a625826_3107x1937.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Katie Zacharia is out as press secretary, White House says",
+              "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Katie Zacharia is leaving her role as White House press secretary less than a week after starting, according to a White House official. The change is a major staffing development.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+              "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Trump has temporarily waived many Russia sanctions passed by Congress, citing national security, amid a intensifying row with Zelensky. The BBC reports the move.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+              "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Ukrainian drones attacked a Russian refinery in Ryazan after Zelenskyy said a brief truce spurned by Moscow was over, NPR reports.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4345x2897+0+0/resize/4345x2897!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F51%2Ffbec51b04d88a0cca148fc9aaf65%2Fap26287608501796.jpg",
+              "video": null
+            },
+            {
+              "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+              "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Protests in New Delhi have intensified over a review of voter lists that critics say threatens to disenfranchise voters. The Election Commission and the government deny the allegations.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3707x2471+0+0/resize/3707x2471!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F22%2F24a18ad34ab9afaeee9c49b78d39%2Fap26289462666677.jpg",
+              "video": null
+            },
+            {
+              "title": "Coastal homes burn as hot winds fuel California fires",
+              "url": "https://www.npr.org/2026/10/17/g-s1-148569/coastal-homes-burn-in-california-fires",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Wind-driven wildfires have burned coastal homes in Southern California and prompted thousands of evacuations, NPR reports.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2Fc2%2F7c93157648a897c328e54e703d4c%2Fap26289837988678.jpg",
+              "video": null
+            },
+            {
+              "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+              "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Masked Israeli settlers attacked Palestinians harvesting olives in the occupied West Bank on Friday, injuring several people including a Washington Post photojournalist.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2F6b%2F6f80e95a4323b7a2bf0a3456ca30%2Fgettyimages-2299901273.jpg",
+              "video": null
+            },
+            {
+              "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+              "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Brazil recorded its lowest Amazon deforestation on record, a fall of 42% in the year to July 31, 2026, ahead of a key election.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg",
+              "video": null
+            },
+            {
+              "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
+              "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Police say a 16-year-old suspect attacked an Oregon school, and a teacher fought him before an armed parent shot him multiple times.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
+              "video": null
+            },
+            {
+              "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+              "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Three men were sentenced to 158 years each for murdering Australian and US surfers during a botched robbery on a surfing trip in Mexico.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+              "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic reportedly told investors quarterly revenue rose nearly 50% to $16.8bn ahead of its IPO, according to an FT report relayed by Simon Willison. Relevant to your Anthropic interest, though details come from sources.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — October 15, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-15-2026-5",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Compliance API can now return the custom instructions members saved in claude.ai and Cowork, in beta for Enterprise organizations. Useful if you manage Claude settings for an organization.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=3",
+              "video": null
+            },
+            {
+              "title": "How the Claude Code team does code review",
+              "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A Hacker News-featured post describing how the Claude Code team handles code review. Directly relevant to how you build tools with Claude.",
+              "image": "https://claude.dev/blog/solving-code-review-at-anthropic/og.png",
+              "video": null
+            },
+            {
+              "title": "Redesigning source control at Anthropic",
+              "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic describes building a custom alternative to Git after its code change rate rose sharply, with about 2,500 merged changes a month in May 2026.",
+              "image": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+              "video": null
+            },
+            {
+              "title": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's official directory of Claude Code plugins is trending on GitHub, with a warning to vet plugins before installing them.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/claude-plugins-official",
+              "video": null
+            },
+            {
+              "title": "feder-cr/git-ai",
+              "url": "https://github.com/feder-cr/git-ai",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "git-ai is a trending repo for version control designed around AI agents. It fits your interest in agent-driven build tools.",
+              "image": "https://opengraph.githubassets.com/1/feder-cr/git-ai",
+              "video": null
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Context-mode trims tool output for AI coding agents and persists session memory across MCP and hooks. A practical tool if you work with Claude Code.",
+              "image": "https://opengraph.githubassets.com/1/mksglu/context-mode",
+              "video": null
+            },
+            {
+              "title": "ruvnet/ruflo",
+              "url": "https://github.com/ruvnet/ruflo",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "ruflo is a trending agent harness supporting Claude Code, with swarm coordination and memory features. Worth a look for multi-agent workflows.",
+              "image": "https://opengraph.githubassets.com/1/ruvnet/ruflo",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "UFC champ Alexander Volkanovski proposes 'send-off' superbout vs. Justin Gaethje",
+              "url": "https://www.espn.com/mma/story/_/id/50189696/ufc-champ-volkanovski-proposes-send-superbout-vs-gaethje",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Alexander Volkanovski, UFC featherweight champion, is calling for a superfight against lightweight champion Justin Gaethje. A real proposal, though not yet a booked bout.",
+              "image": "https://a.espncdn.com/photo/2026/0203/r1609874_2_576x324_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Michael 'Venom' Page: UFC's Dana White 'never really a fan of me'",
+              "url": "https://www.espn.com/ufc/story/_/id/50181160/michael-venom-page-ufc-dana-white-didnt-care-relationship-nonexistent",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Michael Page says his relationship with UFC president Dana White was nonexistent and that White was never really a fan of him.",
+              "image": "https://a.espncdn.com/photo/2023/0717/r1199030_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "The UFC's flyweights are hot again - is Lone'er Kavanagh the next star?",
+              "url": "https://www.espn.com/ufc/story/_/id/50131180/the-ufc-flyweights-hot-again-loneer-kavanagh-next-star",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "A breakout win at UFC 333 could move Lone'er Kavanagh into the flyweight title picture, as the division heats up.",
+              "image": "https://a.espncdn.com/photo/2026/1008/r1727730_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Neeraj Goyat, India's top boxer, to fight ex-UFC champ Anthony Pettis",
+              "url": "https://www.espn.com/boxing/story/_/id/50181642/goyat-india-top-boxer-fight-former-ufc-champ-pettis",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Neeraj Goyat, India's top professional boxer, will face former UFC champion Anthony Pettis on Jan. 23.",
+              "image": "https://a.espncdn.com/photo/2026/1014/r1730627_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "NLCS history: Winners, key stats on the MLB playoff series",
+              "url": "https://www.espn.com/mlb/story/_/id/41686482/nlcs-history-winners-key-stats-mlb-playoff-series",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Los Angeles Dodgers hold the most wins in NLCS history, per Braves coverage of the ongoing playoff series.",
+              "image": "https://a.espncdn.com/photo/2016/1018/r141274_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Biggest offseason questions for teams eliminated from MLB playoffs",
+              "url": "https://www.espn.com/mlb/story/_/id/50052092/mlb-playoffs-2026-offseason-eliminated-teams-questions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Dodgers were swept out of the playoffs by the Brewers, prompting offseason questions for the two-time defending champions.",
+              "image": "https://a.espncdn.com/photo/2026/1016/r1731451_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "McCaffrey making the most of his touches",
+              "url": "https://www.espn.com/video/clip/_/id/50199405/mccaffrey-making-most-touches",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Nick Wagoner discusses Christian McCaffrey's workload and touches ahead of the 49ers' Week 6 matchup.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/dm_261016_SC4U_16x9_49ers_IA_10-16/dm_261016_SC4U_16x9_49ers_IA_10-16.jpg",
+              "video": null
+            },
+            {
+              "title": "2026 NBA free agency: Grades for offseason signings, extensions",
+              "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Grades for major 2026 NBA offseason signings, including Payton Pritchard's two-year extension with the Celtics.",
+              "image": "https://a.espncdn.com/photo/2025/0306/r1460219_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Donald Trump rallies Georgia Republicans to boost GOP candidates",
+              "url": "https://roughdraftatlanta.com/2026/10/16/trump-rally-georgia-election/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Donald Trump rallied Republicans in Dalton, Georgia, on Friday to support Mike Collins and Rick Jackson ahead of the upcoming elections.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Donald-Trump-Dalton-Ga-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Atlanta’s Zoning 2.0 plan faces criticism over complexity and housing goals",
+              "url": "https://roughdraftatlanta.com/2026/10/16/atlanta-zoning-code-critique/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Atlanta officials and a zoning expert debated the complexity and housing goals of the proposed Zoning 2.0 code at an October 15 work session.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Sara_Bronin_Zoning2-600x331.png",
+              "video": null
+            },
+            {
+              "title": "ARC unveils part two of first-ever regional housing plan",
+              "url": "https://saportareport.com/arc-unveils-part-two-of-first-ever-regional-housing-plan/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The Atlanta Regional Commission released 10 proposed housing actions for its first regional housing strategy, aiming for more affordable homes by 2035.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-photo-33133733.jpeg?fit=1024%2C575&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Entrepreneur slams ATL Beltline rail proposal as unfeasibly expensive",
+              "url": "https://atlanta.urbanize.city/post/entrepreneur-slams-atl-beltline-rail-expensive-illogical",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "An entrepreneur calls the proposed Atlanta Beltline rail unfeasibly expensive, as talk of the project revives after city council support.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Beltline%20Transit%20under%20Berne%20Street%20Bridge.png?itok=fpF3Zb3p",
+              "video": null
+            },
+            {
+              "title": "Invest Atlanta board approves Amsterdam Walk incentive, talks TAD audit",
+              "url": "https://saportareport.com/invest-atlanta-board-approves-amsterdam-walk-incentive-talks-tad-audit/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Invest Atlanta approved a $330 million bond for the Amsterdam Walk project, which will lower property taxes for developers over 10 years.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/LPDGAAU4IJER7EB6XMZ4YLNU3M-scaled.jpeg?fit=1024%2C503&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Next section of North DeKalb Mall’s replacement officially a go",
+              "url": "https://atlanta.urbanize.city/post/lula-hills-next-development-north-dekalb-mall-replacement-officially-go",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Another section of the North DeKalb Mall replacement has broken ground, with RangeWater and Nippon Steel Kowa Real Estate as partners.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Rendering%20Lulah%20Hills%20overview.jpg?itok=hHF8U3R1",
+              "video": null
+            },
+            {
+              "title": "College Park denies accommodation request for sober living home",
+              "url": "https://saportareport.com/college-park-denies-accommodation-request-for-sober-living-home/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "College Park council denied a sober living home's request to house eight unrelated residents in a residential neighborhood.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-07-20-at-4.36.57-PM.webp?fit=1024%2C782&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Human trafficking investigation puts spotlight on illegal activity in Sandy Springs",
+              "url": "https://saportareport.com/human-trafficking-investigation-puts-spotlight-on-illegal-activity-in-sandy-springs/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "A police investigation into human trafficking has put a spotlight on illegal activity at Morgan Falls Overlook Park in Sandy Springs.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_0005.jpg?fit=1024%2C757&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "AEC Magazine September / October 2026",
+              "url": "https://aecmag.com/technology/aec-magazine-september-october-2026-out/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine's latest issue covers Motif, an agent-native BIM platform positioned as a challenger to Revit. Directly relevant to your BIM work.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/mag-post.jpg",
+              "video": null
+            },
+            {
+              "title": "Autodesk’s most ambitious AI play yet",
+              "url": "https://aecmag.com/ai/autodesks-most-ambitious-ai-play-yet/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Autodesk describes an AI vision centered on a connected Assistant that decides how to solve tasks, moving beyond faster tools. Relevant to your BIM practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Central Library at Stevens Ranch / Miller Hull Partnership + Steele Associates Architects",
+              "url": "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Central Library at Stevens Ranch, a 100,000-square-foot mass-timber library in Oregon by Miller Hull and Steele Associates.",
+              "image": "https://images.adsttc.com/media/images/6acf/e41e/b2c4/c300/0178/f467/newsletter/FyV4SfJA.jpg?1792009345",
+              "video": null
+            },
+            {
+              "title": "Gondomar Urban Park / Paulo Merlini arquitetos",
+              "url": "https://www.archdaily.com/1186962/gondomar-urban-park-paulo-merlini-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Gondomar Urban Park in Portugal transforms a 20,000 square metre central site into a green recreational space for the city.",
+              "image": "https://images.adsttc.com/media/images/6ad0/ff2f/aadf/a000/01e3/a58c/newsletter/20240524-PAULO-MERLINI-PARQUE-URBANO-GONDOMAR-004.jpg?1792081732",
+              "video": null
+            },
+            {
+              "title": "Transforming Barcelona's Waterfront: A Story of Urban Renewal",
+              "url": "https://www.archdaily.com/1186700/transforming-barcelonas-waterfront-a-story-of-urban-renewal",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily traces how Barcelona's seafront was transformed from a working rail barrier into a promenade over several decades.",
+              "image": "https://images.adsttc.com/media/images/6acd/2a16/7887/fb01/8910/69ed/newsletter/transforming-barcelonas-waterfront-a-historical-overview-of-urban-renewal_7.jpg?1791830558",
+              "video": null
+            },
+            {
+              "title": "Two Multi-Family Housing Units / Aplomb",
+              "url": "https://www.archdaily.com/1186600/two-multi-family-housing-units-aplomb",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Aplomb's two social housing units in Mulhouse, France, are a small-scale multi-family housing project.",
+              "image": "https://images.adsttc.com/media/images/6ac7/f69b/b2c4/c300/0178/e3c9/newsletter/RVB-HD-GP_aplomb_somco_rixheim-1.jpg?1791489953",
+              "video": null
+            },
+            {
+              "title": "Ella House / Studio Memo",
+              "url": "https://www.archdaily.com/1187034/ella-house-studio-memo",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Ella by Studio Memo is organized around a central garden, linked by a ramp path up to a roof garden.",
+              "image": "https://images.adsttc.com/media/images/6acf/d813/b2c4/c300/0178/f42c/newsletter/03_-Casa_Ella_de_Studio_Memo___foto_by_Carolina_Mossin.jpg?1792006227",
+              "video": null
+            },
+            {
+              "title": "HARMAY Changsha Guojin Street Store / STUDIO SPLASH",
+              "url": "https://www.archdaily.com/1186874/harmay-changsha-guojin-street-store-studio-splash",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "HARMAY store by Studio Splash occupies the B1 level of an underground retail spine in Changsha, linking street entrances with transit hubs.",
+              "image": "https://images.adsttc.com/media/images/6ad0/3eb4/b2c4/c300/0178/f5b6/newsletter/07_Interior___Aaron_Shao.jpg?1792032487",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Amazon deforestation falls 42% to a record low",
+              "url": "https://news.mongabay.com/short-article/2026/10/amazon-deforestation-falls-42-to-a-record-low/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Brazil's Amazon deforestation fell 42% over the 12 months to July 31, 2026, to the lowest level on record, according to INPE data.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/16214656/hoatzin_ecuador_235927-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Artemis II Heat Shield After Splashdown",
+              "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA imagery and measurements from Artemis II's heat shield after its April 10, 2026 splashdown, showing how the thermal protection performed.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Artemis II results show how much science people can do at the moon",
+              "url": "https://www.sciencenews.org/article/artemis-ii-human-moon-science",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Artemis II's first science results show what human observers add to lunar science beyond decades of robotic missions.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101426_LG_ArtemisIIupdate_main.jpg?w=777",
+              "video": null
+            },
+            {
+              "title": "This orca destroyed a sunfish and no one is sure why",
+              "url": "https://news.mongabay.com/short-article/2026/10/this-orca-destroyed-a-sunfish-and-no-one-is-sure-why/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Scientists have observed orcas ramming sunfish hard enough to burst them, but the reason for the behavior remains unknown.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/17072642/Mongabay_Thumbnail_Orcas_Featured_600-337x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Horned dinosaurs’ weapons evolved to handle the forces of combat",
+              "url": "https://www.sciencenews.org/article/horned-dinosaur-skull-forces-combat",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "New simulations show which battle moves horned dinosaurs' skulls could withstand and which would have been a bad idea.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100926_JB_horneddino_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA’s Hubble Spies Spiral’s Edge",
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Hubble images the edge-on spiral galaxy NGC 1827, about 37 million light-years away in the constellation Columba.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.jpg?w=2048&h=1986&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Indonesian women cash in on mangrove restoration: Interview with community leader Wisye Sahambangung",
+              "url": "https://news.mongabay.com/2026/10/indonesian-women-cash-in-on-mangrove-restoration-interview-with-community-leader-wisye-sahambangung/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Wisye Sahambangung leads Rhizopora, a women's group in North Sulawesi that restores mangroves and creates income for women.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/16144823/Photo-2-Wisye-Sahambangung-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+              "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA named Stephen Cash director of the Marshall Space Flight Center in Huntsville, effective October 19.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Family Farmstead Dairy Announces Recall of Raw Mild Cheddar Cheese Due to Potential E. coli O26:H11 and O45:H2 Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-due-potential-e-coli-o26h11-and",
+      "published": "2026-10-15T20:04:00+00:00"
+    },
+    {
+      "title": "Pan Pepin Inc. Issues Allergy Alert of Para Bien Al Grano Due to Undeclared Sesame",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undeclared-sesame",
+      "published": "2026-10-13T18:07:00+00:00"
+    },
+    {
+      "title": "Pan Pepín Inc. Emite Alerta por Alérgenos en el Producto Parabien al Grano Debido a la Presencia de Sésamo No Declarado",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-emite-alerta-por-alergenos-en-el-producto-parabien-al-grano-debido-la-presencia-de",
+      "published": "2026-10-13T18:00:00+00:00"
+    }
+  ],
+  "stoic": {
+    "text": "Reason, and rational power, are faculties which content themselves with themselves, and their own proper operations.",
+    "credit": "Marcus Aurelius, Meditations (trans. George Long)"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 116–89 vs OKC",
+      "last_date": "Oct 15",
+      "next": null,
+      "url": "https://www.espn.com/nba/game/_/gameId/401908622/thunder-rockets",
+      "recent": [
+        "W 116–89 vs OKC · Oct 15",
+        "L 115–132 vs DAL · Oct 11",
+        "W 135–117 at DAL · Oct 9"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 32–29 at SEA",
+      "last_date": "Oct 11",
+      "next": "Mon Oct 19 vs WSH",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
+      "recent": [
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4",
+        "W 36–30 vs ARI · Sep 27"
+      ],
+      "upcoming": [
+        "Mon Oct 19 vs WSH",
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 64609,
+    "output_tokens": 8108
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "France’s School Protests | Cole Stangler | TMR",
+          "url": "https://www.youtube.com/watch?v=hAwGFV0JkJ8",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Journalist Cole Stangler discusses the student uprising across France, drawing on his Marseille reporting and international left conversations.",
+          "image": "https://i1.ytimg.com/vi/hAwGFV0JkJ8/hqdefault.jpg",
+          "video": "hAwGFV0JkJ8"
+        },
+        {
+          "title": "Police Departments Are Cancelling Flock Contracts. This Town Shows Why.",
+          "url": "https://www.youtube.com/watch?v=o97GzV0WX9I",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "More Perfect Union investigates police departments cancelling Flock surveillance contracts, using the Pflugerville, Texas case to show data-sharing access beyond what was expected.",
+          "image": "https://i4.ytimg.com/vi/o97GzV0WX9I/hqdefault.jpg",
+          "video": "o97GzV0WX9I"
+        },
+        {
+          "title": "Trump Already Blaming Republicans For Midterm Loses | Ryan Grim | TMR",
+          "url": "https://www.youtube.com/watch?v=UhYfBEe1CnY",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Ryan Grim of Drop Site News recaps the week's major stories and discusses Republican blame for expected midterm losses.",
+          "image": "https://i2.ytimg.com/vi/UhYfBEe1CnY/hqdefault.jpg",
+          "video": "UhYfBEe1CnY"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Brock Purdy Talks Team's 'Locked In' Mindset, Chemistry with Mike Evans and Brandin Cooks | 49ers",
+          "url": "https://www.youtube.com/watch?v=A4BOA4dFzWc",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers quarterback Brock Purdy discusses the team's training camp mindset and his chemistry with receivers Mike Evans and Brandin Cooks.",
+          "image": "https://i2.ytimg.com/vi/A4BOA4dFzWc/hqdefault.jpg",
+          "video": "A4BOA4dFzWc"
+        },
+        {
+          "title": "Morris, Kubiak Talk Brock Purdy’s Fourth Quarter Response and Prep for Commanders | 49ers",
+          "url": "https://www.youtube.com/watch?v=LwL4Lf3Pwoo",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers coordinators Raheem Morris and Klay Kubiak discuss the defense's rush approach and Purdy's fourth-quarter response ahead of the Commanders game.",
+          "image": "https://i1.ytimg.com/vi/LwL4Lf3Pwoo/hqdefault.jpg",
+          "video": "LwL4Lf3Pwoo"
+        },
+        {
+          "title": "Joaquin Buckley: 'Rampage' Jackson, King Green 'MOTIVATED ME,' Previews UFC Edmonton Headliner",
+          "url": "https://www.youtube.com/watch?v=Z3ogv1ckONU",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Joaquin Buckley previews his UFC Edmonton headliner against Mike Malott and discusses recent losses and his streaming career.",
+          "image": "https://i3.ytimg.com/vi/Z3ogv1ckONU/hqdefault.jpg",
+          "video": "Z3ogv1ckONU"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "I Turned Construction Drawings into a 4D Plan with AI",
+          "url": "https://www.youtube.com/watch?v=_u7F_1lTjdg",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Demonstrates a workflow using AI to convert 2D construction drawings into an IFC model for a 4D construction plan.",
+          "image": "https://i4.ytimg.com/vi/_u7F_1lTjdg/hqdefault.jpg",
+          "video": "_u7F_1lTjdg"
+        },
+        {
+          "title": "ChatGPT Space for Construction — 3 Practical Uses",
+          "url": "https://www.youtube.com/watch?v=WFHNc5cUWt4",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Shows three practical ways to use ChatGPT features for construction estimating workflows, with pre-built workflows offered.",
+          "image": "https://i4.ytimg.com/vi/WFHNc5cUWt4/hqdefault.jpg",
+          "video": "WFHNc5cUWt4"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "We’re Creating the Strangest Forest on Earth",
+          "url": "https://www.youtube.com/watch?v=kL3yHJCXG0o",
+          "source": "Planet Wild",
+          "topic": "Tech & Science",
+          "note": "Planet Wild follows efforts to rebuild a unique forest ecosystem on Mexico's Pico de Orizaba, an active volcano.",
+          "image": "https://i4.ytimg.com/vi/kL3yHJCXG0o/hqdefault.jpg",
+          "video": "kL3yHJCXG0o"
+        },
+        {
+          "title": "Inside The Bizarre Sea With No Land",
+          "url": "https://www.youtube.com/watch?v=4ZD5Y5tD9ac",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geography By Geoff explores the Sargasso Sea, a named North Atlantic sea that has no coastline and is filled with floating sargassum layers.",
+          "image": "https://i1.ytimg.com/vi/4ZD5Y5tD9ac/hqdefault.jpg",
+          "video": "4ZD5Y5tD9ac"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Tested 5 Pans to See Which One Cooks Steak Best",
+          "url": "https://www.youtube.com/watch?v=cmTWjyK6-is",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "A side-by-side test of five pans to find which cooks steak best.",
+          "image": "https://i4.ytimg.com/vi/cmTWjyK6-is/hqdefault.jpg",
+          "video": "cmTWjyK6-is"
+        },
+        {
+          "title": "Give Me $13 and 25 Minutes... I'll Feed Your Whole Family!",
+          "url": "https://www.youtube.com/watch?v=L25KltRYRV8",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes a family dinner for 4–6 people in 25 minutes for about $13.",
+          "image": "https://i1.ytimg.com/vi/L25KltRYRV8/hqdefault.jpg",
+          "video": "L25KltRYRV8"
+        }
+      ]
+    }
+  ]
+}
