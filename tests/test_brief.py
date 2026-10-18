@@ -998,7 +998,14 @@ class FakeAnthropic:
     def create(self, **kw):
         from types import SimpleNamespace as NS
         FakeAnthropic.calls.append(kw)
-        block = NS(type="tool_use", input={"sections": []})
+        if kw["model"] in FakeAnthropic.reject_forced and kw["tool_choice"]["type"] in ("tool", "any"):
+            raise RuntimeError("Error code: 400 - tool_choice: type \"tool\" and \"any\" are not supported "
+                               "for this model.")
+        if FakeAnthropic.text_answers:
+            FakeAnthropic.text_answers -= 1
+            return NS(content=[NS(type="text", text="Here is the week.")], stop_reason="end_turn",
+                      usage=NS(input_tokens=3, output_tokens=2))
+        block = NS(type="tool_use", name=kw["tools"][0]["name"], input={"sections": []})
         return NS(content=[block], stop_reason="tool_use", usage=NS(input_tokens=3, output_tokens=2))
 
 
@@ -1006,6 +1013,8 @@ class FakeAnthropic:
 def fake_anthropic(monkeypatch):
     from types import SimpleNamespace
     FakeAnthropic.calls, FakeAnthropic.inits = [], []
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = set(), 0
+    monkeypatch.setattr(brief, "_NO_FORCED_TOOL", set())
     monkeypatch.setitem(sys.modules, "anthropic", SimpleNamespace(Anthropic=FakeAnthropic))
     monkeypatch.setenv("ANTHROPIC_API_KEY", "fake")
     monkeypatch.setenv("BRIEF_DATA_DIR", "/nonexistent-data-dir")
@@ -1021,6 +1030,44 @@ def test_model_per_call(fake_anthropic):
     assert [c["model"] for c in fake_anthropic] == ["m-front", "m-main", "m-week"]
     assert [c["max_tokens"] for c in fake_anthropic] == [6000, 8000, 4000]
     assert [c["tool_choice"]["name"] for c in fake_anthropic] == ["publish_brief", "publish_desk", "publish_week"]
+
+
+def test_model_that_rejects_forced_tool_uses_auto(fake_anthropic, capsys):
+    cfg = {"model": "m-main"}
+    FakeAnthropic.reject_forced = {"m-new"}
+    out, usage = brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10, model="m-new")
+    assert out == {"sections": []}
+    assert [c["tool_choice"]["type"] for c in fake_anthropic] == ["tool", "auto"]
+    assert "Answer only by calling the publish_week tool" in fake_anthropic[1]["system"]
+    assert usage == {"input_tokens": 3, "output_tokens": 2}
+    # The second call in the same run goes straight to auto: no wasted 400.
+    brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10, model="m-new")
+    assert [c["tool_choice"]["type"] for c in fake_anthropic][2:] == ["auto"]
+    # Other models still use the forced tool.
+    brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10)
+    assert fake_anthropic[-1]["tool_choice"] == {"type": "tool", "name": "publish_week"}
+    assert "forced tool_choice not supported" in capsys.readouterr().err
+
+
+def test_auto_mode_asks_again_after_a_text_answer(fake_anthropic):
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = {"m-new"}, 1
+    out, usage = brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10, model="m-new")
+    assert out == {"sections": []} and len(fake_anthropic) == 3
+    assert usage == {"input_tokens": 6, "output_tokens": 4}
+
+
+def test_auto_mode_gives_up_after_two_text_answers(fake_anthropic):
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = {"m-new"}, 2
+    with pytest.raises(RuntimeError, match="no tool call"):
+        brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10, model="m-new")
+
+
+def test_other_errors_are_not_hidden(fake_anthropic, monkeypatch):
+    def boom(self, **kw):
+        raise RuntimeError("Error code: 529 - overloaded")
+    monkeypatch.setattr(FakeAnthropic, "create", boom)
+    with pytest.raises(RuntimeError, match="overloaded"):
+        brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10)
 
 
 def test_models_fall_back_to_the_main_model(fake_anthropic):
@@ -1365,7 +1412,7 @@ def test_main_sunday_edition_adds_week_and_listen(monkeypatch, tmp_path, capsys)
 def test_dry_run_listen_and_week_preview(tmp_path):
     env = {**os.environ, "BRIEF_SITE_DIR": str(tmp_path), "BRIEF_DATA_DIR": str(tmp_path / "nodata")}
     env.pop("BRIEF_PASSPHRASE", None)
-    env.pop("BRIEF_FORCE_WEEK", None)
+    env["BRIEF_FORCE_WEEK"] = "0"   # the first run must not be a Sunday edition, whatever today is
     run = lambda e: subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"],  # noqa: E731
                                    capture_output=True, text=True, env=e)
     r = run(env)
