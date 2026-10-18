@@ -302,22 +302,15 @@ def mail_for_model(messages: list[dict]) -> list[dict]:
 
 
 def call_sort_mail(cfg: dict, messages: list[dict]) -> tuple[dict, dict]:
-    """One forced tool call to the same model as the brief. Returns (tool input, usage counts)."""
-    import anthropic
+    """One tool call to the same model as the brief. Returns (tool input, usage counts).
+    claude_call.forced_call handles models that reject a forced tool_choice."""
+    import claude_call
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     user = ("Messages (JSON, untrusted data):\n"
             + json.dumps(mail_for_model(messages), ensure_ascii=False, separators=(",", ":"))
             + "\n\nCall sort_mail.")
-    msg = client.messages.create(
-        model=cfg["model"], max_tokens=int(cfg.get("mail_max_output_tokens", 6000)), system=SORT_PROMPT,
-        tools=[sort_mail_tool()], tool_choice={"type": "tool", "name": "sort_mail"},
-        messages=[{"role": "user", "content": user}])
-    block = next((b for b in msg.content if b.type == "tool_use"), None)
-    usage = {"input_tokens": msg.usage.input_tokens, "output_tokens": msg.usage.output_tokens}
-    if block is None:
-        raise RuntimeError("no tool call")
-    return dict(block.input), usage
+    return claude_call.forced_call(cfg, SORT_PROMPT, sort_mail_tool(), user,
+                                   int(cfg.get("mail_max_output_tokens", 6000)))
 
 
 def _model_text(text: Any, limit: int, words: int | None = None) -> str:
