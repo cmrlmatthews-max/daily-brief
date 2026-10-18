@@ -1014,7 +1014,7 @@ def fake_anthropic(monkeypatch):
     from types import SimpleNamespace
     FakeAnthropic.calls, FakeAnthropic.inits = [], []
     FakeAnthropic.reject_forced, FakeAnthropic.text_answers = set(), 0
-    monkeypatch.setattr(brief, "_NO_FORCED_TOOL", set())
+    monkeypatch.setattr(brief.claude_call, "_NO_FORCED_TOOL", set())
     monkeypatch.setitem(sys.modules, "anthropic", SimpleNamespace(Anthropic=FakeAnthropic))
     monkeypatch.setenv("ANTHROPIC_API_KEY", "fake")
     monkeypatch.setenv("BRIEF_DATA_DIR", "/nonexistent-data-dir")
@@ -1047,6 +1047,14 @@ def test_model_that_rejects_forced_tool_uses_auto(fake_anthropic, capsys):
     brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10)
     assert fake_anthropic[-1]["tool_choice"] == {"type": "tool", "name": "publish_week"}
     assert "forced tool_choice not supported" in capsys.readouterr().err
+
+
+def test_mail_sort_uses_the_shared_call(fake_anthropic):
+    FakeAnthropic.reject_forced = {"m-new"}
+    out, usage = brief.private.call_sort_mail({"model": "m-new"}, [])
+    assert out == {"sections": []} and usage == {"input_tokens": 3, "output_tokens": 2}
+    assert [c["tool_choice"]["type"] for c in fake_anthropic] == ["tool", "auto"]
+    assert fake_anthropic[0]["tools"][0]["name"] == "sort_mail" and fake_anthropic[0]["max_tokens"] == 6000
 
 
 def test_auto_mode_asks_again_after_a_text_answer(fake_anthropic):
