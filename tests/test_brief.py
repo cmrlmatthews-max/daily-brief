@@ -4,6 +4,7 @@ import os
 import re
 import subprocess
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -335,7 +336,7 @@ def test_sources_config():
     assert "AEC Magazine" in names["Architecture"] and "Architosh" not in names["Architecture"]   # Architosh blocks the GitHub runner (403)
     assert "Urbanize Atlanta" not in names["Architecture"]
     assert names["Science & Nature"] == ["Science News", "NASA", "Mongabay"]
-    assert names["Sports"] == ["Houston Rockets", "Atlanta Braves", "San Francisco 49ers", "UFC (ESPN)"]
+    assert names["Sports"] == ["Houston Rockets", "Atlanta Braves", "San Francisco 49ers", "MLB.com Braves", "49ers.com", "UFC (ESPN)"]
     every = [s for t in cfg["topics"] for s in t["sources"]]
     assert {s["type"] for s in every} <= set(brief.FETCHERS)
     assert len({s["url"] for s in every}) == len(every)
@@ -346,8 +347,8 @@ def test_sources_config():
     assert set(topic for t in cfg["tabs"] for topic in t["topics"]) == set(TOPICS)
     assert cfg["recalls"]["max_items"] == 3 and cfg["recalls"]["max_age_days"] == 4
     assert cfg["recalls"]["url"].startswith("https://www.fda.gov/")
-    assert cfg["stoic"]["url"] == "https://www.gutenberg.org/cache/epub/2680/pg2680.txt"
-    assert "George Long" in cfg["stoic"]["credit"]
+    assert cfg["quotes"] == {"file": "quotes.yaml", "title": "Words to Live By"}
+    assert "stoic" not in cfg
     for word in ("The Lever", "Drop Site News", "UFC", "space", "Atlanta local news"):
         assert word in cfg["reader_profile"]
 
@@ -371,7 +372,7 @@ def test_dry_run_writes_new_schema(tmp_path):
     assert "does-not-exist-123" not in json.dumps(b)
     assert not any(i["video"] for i in every)               # videos live only in the YouTube tab
     assert not any(i["video"] for t in b["tabs"] for s in t["sections"] for i in s["items"])
-    # tabs, recalls, stoic and the longer score lines
+    # tabs, recalls, quote and the longer score lines
     assert [t["id"] for t in b["tabs"]] == ["news", "tech", "sports", "atlanta", "science"]
     for t in b["tabs"]:
         assert t["name"] and t["sections"]
@@ -381,7 +382,8 @@ def test_dry_run_writes_new_schema(tmp_path):
     assert [s["topic"] for s in b["tabs"][3]["sections"]] == ["Atlanta", "Architecture"]
     assert "not-a-real-id" not in json.dumps(b)
     assert len(b["recalls"]) == 3 and all(set(r) == {"title", "url", "published"} for r in b["recalls"])
-    assert b["stoic"]["text"] and b["stoic"]["credit"].startswith("Marcus Aurelius")
+    assert b["quote"]["text"] and b["quote"]["who"] and b["quote"]["title"] == "Words to Live By"
+    assert "stoic" not in b
     for sc in b["scores"]:
         assert len(sc["recent"]) <= 3 and len(sc["upcoming"]) <= 3 and "last" in sc and "next" in sc
     assert b["usage"] == {"input_tokens": 0, "output_tokens": 0}
@@ -685,103 +687,128 @@ def test_fetch_recalls_uses_configured_url():
         brief.fetch_recalls(CFG, NOW_UTC, session=FakeSession(status=500))
 
 
-def test_fetch_extras_fails_soft(monkeypatch):
+def test_fetch_extras_fails_soft(monkeypatch, tmp_path):
     def boom(cfg, now=None, session=None):
         raise brief.requests.ConnectionError("offline")
     monkeypatch.setattr(brief, "fetch_recalls", boom)
-    monkeypatch.setattr(brief, "fetch_stoic", lambda cfg, now, session=None: {"text": "Q", "credit": "C"})
-    recalls, stoic, errors = brief.fetch_extras(CFG, NOW_UTC)
-    assert recalls == [] and stoic == {"text": "Q", "credit": "C"}
+    recalls, quote, errors = brief.fetch_extras(CFG, NOW_UTC)           # the repo's own quotes.yaml
+    assert recalls == [] and quote["text"] and quote["who"] and quote["title"] == "Words to Live By"
     assert [e["source"] for e in errors] == ["Recalls"] and "ConnectionError" in errors[0]["error"]
-    monkeypatch.setattr(brief, "fetch_stoic", boom)
-    recalls, stoic, errors = brief.fetch_extras(CFG, NOW_UTC)
-    assert stoic is None and [e["source"] for e in errors] == ["Recalls", "Stoic"]
+    monkeypatch.setattr(brief, "ROOT", tmp_path)                        # no quotes.yaml here
+    recalls, quote, errors = brief.fetch_extras(CFG, NOW_UTC)
+    assert quote is None and [e["source"] for e in errors] == ["Recalls", "Quotes"]
     assert brief.fetch_extras({"topics": []}, NOW_UTC) == ([], None, [])           # nothing configured: nothing to do
 
 
-# ---------- the daily Stoic quote ----------
-
-BOOK = """The Project Gutenberg eBook of Meditations
-
-CONTENTS
-THE FIRST BOOK
-THE SECOND BOOK
-
-*** START OF THE PROJECT GUTENBERG EBOOK ***
-
-THE FIRST BOOK
-
-I. This sentence is in the book but it starts with a banned word so it is skipped.
-Of my grandfather I have learned good morals and the government of my temper.
-
-II. Short one. Another keeper that is long enough to pass every one of the rules here.
-And this one starts with a linking word although it is long enough to pass otherwise.
-The sentence with 3 digits in it is long enough but must be skipped by the digit rule.
-The footnote mark makes this one long enough but it is dropped [1] because of the bracket.
-the lowercase start is long enough to pass the length rule but fails the capital rule here.
-It starts with a pronoun and so is skipped even though it is long enough to count here.
-Was it right to ask a question that is long enough to pass every single one of the rules?
-Not a sentence at all because it never ends and is long enough to pass the length rule
-
-Words that are _emphasised_ stay readable once the underscores are gone from the line itself.
-Xx. """ + "A very long sentence " * 12 + """ends here.
-
-*** END OF THE PROJECT GUTENBERG EBOOK ***
-
-After the end marker comes licence text that is long enough to pass the rules but must not be used.
-"""
+def test_fetch_extras_loads_the_quote_from_a_local_file(monkeypatch, tmp_path):
+    (tmp_path / "q.yaml").write_text(yaml.safe_dump([
+        {"text": "A quote that is long enough to be kept.", "who": "Someone", "about": "A person"}]))
+    monkeypatch.setattr(brief, "ROOT", tmp_path)
+    cfg = {"quotes": {"file": "q.yaml", "title": "Words"}}
+    assert brief.fetch_extras(cfg, NOW_UTC) == (
+        [], {"text": "A quote that is long enough to be kept.", "who": "Someone", "about": "A person", "title": "Words"}, [])
 
 
-def test_stoic_sentences_filters():
-    got = brief.stoic_sentences(BOOK)
+# ---------- the daily quote (Words to Live By) ----------
+
+def make_quotes(n, people):
+    """n synthetic quotes by `people` names with uneven counts (person 0 has the most)."""
+    return [{"text": f"Synthetic quote number {i:04d} with enough words to pass.",
+             "who": f"Person {int(people * (i / n) ** 2):02d}", "about": "About them", "source": ""}
+            for i in range(n)]
+
+
+def test_load_quotes_keeps_valid_and_drops_bad(tmp_path):
+    long_ok = "x" * 240
+    rows = [
+        {"text": "  A good quote that is long enough.  ", "who": " Ann ", "about": " Writer ", "source": " Book ",
+         "ref": "https://x.test", "group": "stoic", "extra": 1},
+        {"text": "No who on this quote but it is long enough."},
+        {"text": "Blank who on this quote but it is long enough.", "who": "  "},
+        {"text": "Too short", "who": "Bob"},
+        {"text": "y" * 241, "who": "Bob"},
+        {"text": "a good   QUOTE that is\nlong enough.", "who": "Cy"},                  # duplicate of the first
+        {"text": long_ok, "who": "Dee"},
+        {"text": 42, "who": "Eve"},
+        "not a mapping",
+        {"text": "Another fine quote with no extras at all.", "who": "Fay"},
+    ]
+    path = tmp_path / "q.yaml"
+    path.write_text(yaml.safe_dump(rows))
+    got = brief.load_quotes(path)
     assert got == [
-        "Of my grandfather I have learned good morals and the government of my temper.",
-        "Another keeper that is long enough to pass every one of the rules here.",
-        "Was it right to ask a question that is long enough to pass every single one of the rules?",
-        "Words that are emphasised stay readable once the underscores are gone from the line itself."]
-    assert all(brief.STOIC_MIN <= len(s) <= brief.STOIC_MAX for s in got)
-    assert not any(c.isdigit() or c == "[" for s in got for c in s)
-    assert brief.stoic_sentences("no book here at all") == []
-    assert brief.stoic_sentences(BOOK.replace("\n", "\r\n")) == got                # Windows line ends
+        {"text": "A good quote that is long enough.", "who": "Ann", "about": "Writer", "source": "Book"},
+        {"text": long_ok, "who": "Dee", "about": "", "source": ""},
+        {"text": "Another fine quote with no extras at all.", "who": "Fay", "about": "", "source": ""}]
+    assert all(set(q) == {"text", "who", "about", "source"} for q in got)
 
 
-def test_stoic_uses_the_last_first_book_heading_and_stops_at_the_end_marker():
-    text = "THE FIRST BOOK\nA contents line that is long enough to pass the length rule but is not in the body.\n" \
-           "THE FIRST BOOK\n\nThe body sentence is long enough to pass the length rule and every other check here.\n" \
-           "*** END OF THE PROJECT\nThe licence sentence is long enough to pass the length rule but comes after.\n"
-    assert brief.stoic_sentences(text) == ["The body sentence is long enough to pass the length rule and every other check here."]
+def test_load_quotes_raises_on_bad_file(tmp_path):
+    with pytest.raises(FileNotFoundError):
+        brief.load_quotes(tmp_path / "missing.yaml")
+    (tmp_path / "d.yaml").write_text("text: not a list\nwho: x\n")
+    with pytest.raises(ValueError):
+        brief.load_quotes(tmp_path / "d.yaml")
+    (tmp_path / "e.yaml").write_text("")
+    with pytest.raises(ValueError):
+        brief.load_quotes(tmp_path / "e.yaml")
 
 
-def test_pick_stoic_is_stable_per_day_and_varies_across_days():
-    cfg = {"credit": "Marcus Aurelius, Meditations (trans. George Long)"}
-    text = "THE FIRST BOOK\n\n" + "\n\n".join(
-        f"The quote number {chr(65 + n) * 3} is a sentence that is long enough to pass every one of the rules."
-        for n in range(12))
-    day = lambda d: datetime(2026, 10, d, 7, 0, tzinfo=brief.TZ)  # noqa: E731
-    first = brief.pick_stoic(text, cfg, day(11))
-    assert first == brief.pick_stoic(text, cfg, day(11).replace(hour=23))         # the same all day
-    assert first == brief.pick_stoic(text, cfg, day(11).astimezone(timezone.utc))
-    assert set(first) == {"text", "credit"} and first["credit"] == cfg["credit"]
-    assert first["text"] in brief.stoic_sentences(text)                            # only words from the book
-    assert len({brief.pick_stoic(text, cfg, day(d))["text"] for d in range(1, 29)}) > 3
-    assert brief.pick_stoic("THE FIRST BOOK\n\nToo short.", cfg, day(11)) is None
-    assert brief.pick_stoic("", cfg, day(11)) is None
+def test_quote_order_is_deterministic_and_ignores_file_order():
+    import random
+    quotes = make_quotes(120, 20)
+    order = brief.quote_order(quotes)
+    assert sorted(order) == list(range(120)) and order == brief.quote_order(quotes)
+    sequence = [quotes[i]["text"] for i in order]
+    shuffled = quotes[:]
+    random.Random(7).shuffle(shuffled)
+    assert [shuffled[i]["text"] for i in brief.quote_order(shuffled)] == sequence
+    assert brief.quote_order([]) == [] and brief.quote_order(quotes[:1]) == [0]
 
 
-def test_fetch_stoic_downloads_and_picks():
-    s = FakeSession(BOOK)
-    got = brief.fetch_stoic(CFG, NOW_UTC, session=s)
-    assert s.urls == [CFG["stoic"]["url"]]
-    assert got["text"] in brief.stoic_sentences(BOOK) and got["credit"] == CFG["stoic"]["credit"]
-    with pytest.raises(Exception):
-        brief.fetch_stoic(CFG, NOW_UTC, session=FakeSession(boom=brief.requests.ConnectionError("x")))
-    assert brief.fetch_stoic(CFG, NOW_UTC, session=FakeSession("<html>not the book</html>")) is None
+def test_quote_order_separates_same_person_neighbors_including_the_wrap():
+    quotes = make_quotes(400, 70)
+    counts = Counter(q["who"] for q in quotes)
+    assert len(counts) > 50 and max(counts.values()) > 3 * min(counts.values())      # uneven on purpose
+    order = brief.quote_order(quotes)
+    assert sorted(order) == list(range(400))
+    whos = [quotes[i]["who"] for i in order]
+    assert all(whos[i] != whos[(i + 1) % 400] for i in range(400))
 
 
-def test_fixture_stoic_text_yields_a_quote():
-    text = (ROOT / "fixtures/sample_stoic.txt").read_text()
-    got = brief.stoic_sentences(text)
-    assert got and all("licence" not in g.lower() and "[" not in g and "after the end marker" not in g for g in got)
+def test_quote_order_leaves_an_impossible_clash_alone():
+    quotes = make_quotes(6, 1)                                  # one person owns everything
+    assert sorted(brief.quote_order(quotes)) == list(range(6))
+
+
+def test_pick_quote_is_the_same_all_day_and_walks_the_whole_list():
+    quotes = make_quotes(380, 60)
+    cfg = {"title": "Words to Live By"}
+    eastern = lambda h, m, d=11: datetime(2026, 10, d, h, m, tzinfo=brief.TZ)  # noqa: E731
+    first = brief.pick_quote(quotes, cfg, eastern(0, 30))
+    assert first == brief.pick_quote(quotes, cfg, eastern(23, 30))
+    assert first == brief.pick_quote(quotes, cfg, eastern(12, 0).astimezone(timezone.utc))
+    assert first == brief.pick_quote(quotes, cfg, datetime(2026, 10, 12, 2, 0, tzinfo=timezone.utc))   # 22:00 Eastern on the 11th
+    assert set(first) == {"text", "who", "about", "title"} and first["title"] == "Words to Live By"
+    start = datetime(2026, 3, 1, 12, 0, tzinfo=brief.TZ)
+    days = [brief.pick_quote(quotes, cfg, start + timedelta(days=d))["text"] for d in range(366)]
+    assert len(set(days)) == 366
+    assert brief.pick_quote(quotes, cfg, start + timedelta(days=380))["text"] == days[0]    # the cycle restarts
+
+
+def test_pick_quote_title_default_and_empty_list():
+    quotes = make_quotes(5, 5)
+    assert brief.pick_quote(quotes, {}, NOW_UTC)["title"] == "Words to Live By"
+    assert brief.pick_quote(quotes, {"title": "Daily Words"}, NOW_UTC)["title"] == "Daily Words"
+    assert brief.pick_quote([], {}, NOW_UTC) is None
+
+
+def test_real_quotes_file():
+    quotes = brief.load_quotes(ROOT / CFG["quotes"]["file"])
+    assert len(quotes) >= 366
+    assert all(q["who"] and q["about"] for q in quotes)
+    assert max(Counter(q["who"] for q in quotes).values()) <= 15
+    assert len({brief.norm_text(q["text"]) for q in quotes}) == len(quotes)
 
 
 # ---------- main(): two calls, fail-soft desk, summed usage ----------
@@ -811,7 +838,7 @@ def run_main(monkeypatch, tmp_path, capsys, ask_desk, edit_choice=None, force_we
         AssertionError("call 3 was not expected"))))
     monkeypatch.setattr(brief, "fetch_extras", lambda cfg, now: (
         [{"title": "R", "url": "https://fda.test/r", "published": "2026-10-11T00:00:00+00:00"}], None,
-        [{"source": "Stoic", "error": "ConnectionError: x"}]))
+        [{"source": "Quotes", "error": "FileNotFoundError: x"}]))
     monkeypatch.setattr(brief, "fetch_yesterday", lambda url: (
         spy.setdefault("yesterday_fetches", []).append(url) if spy is not None else None) or (yesterday or {}))
     monkeypatch.setattr(brief, "resolve_og_images", lambda out, no_image: 0)
@@ -838,8 +865,8 @@ def test_main_two_calls_sum_usage_and_write_new_keys(monkeypatch, tmp_path, caps
     assert b["usage"] == {"input_tokens": 400, "output_tokens": 80}
     assert "desk: fallback" not in out
     assert [t["id"] for t in b["tabs"]] == ["news", "tech", "sports", "atlanta", "science"]
-    assert b["recalls"][0]["title"] == "R" and b["stoic"] is None
-    assert [e["source"] for e in b["source_errors"]] == ["Bad feed", "Stoic"]
+    assert b["recalls"][0]["title"] == "R" and b["quote"] is None
+    assert [e["source"] for e in b["source_errors"]] == ["Bad feed", "Quotes"]
     assert "private tabs: skipped" in out
 
 
@@ -971,7 +998,14 @@ class FakeAnthropic:
     def create(self, **kw):
         from types import SimpleNamespace as NS
         FakeAnthropic.calls.append(kw)
-        block = NS(type="tool_use", input={"sections": []})
+        if kw["model"] in FakeAnthropic.reject_forced and kw["tool_choice"]["type"] in ("tool", "any"):
+            raise RuntimeError("Error code: 400 - tool_choice: type \"tool\" and \"any\" are not supported "
+                               "for this model.")
+        if FakeAnthropic.text_answers:
+            FakeAnthropic.text_answers -= 1
+            return NS(content=[NS(type="text", text="Here is the week.")], stop_reason="end_turn",
+                      usage=NS(input_tokens=3, output_tokens=2))
+        block = NS(type="tool_use", name=kw["tools"][0]["name"], input={"sections": []})
         return NS(content=[block], stop_reason="tool_use", usage=NS(input_tokens=3, output_tokens=2))
 
 
@@ -979,6 +1013,8 @@ class FakeAnthropic:
 def fake_anthropic(monkeypatch):
     from types import SimpleNamespace
     FakeAnthropic.calls, FakeAnthropic.inits = [], []
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = set(), 0
+    monkeypatch.setattr(brief, "_NO_FORCED_TOOL", set())
     monkeypatch.setitem(sys.modules, "anthropic", SimpleNamespace(Anthropic=FakeAnthropic))
     monkeypatch.setenv("ANTHROPIC_API_KEY", "fake")
     monkeypatch.setenv("BRIEF_DATA_DIR", "/nonexistent-data-dir")
@@ -994,6 +1030,44 @@ def test_model_per_call(fake_anthropic):
     assert [c["model"] for c in fake_anthropic] == ["m-front", "m-main", "m-week"]
     assert [c["max_tokens"] for c in fake_anthropic] == [6000, 8000, 4000]
     assert [c["tool_choice"]["name"] for c in fake_anthropic] == ["publish_brief", "publish_desk", "publish_week"]
+
+
+def test_model_that_rejects_forced_tool_uses_auto(fake_anthropic, capsys):
+    cfg = {"model": "m-main"}
+    FakeAnthropic.reject_forced = {"m-new"}
+    out, usage = brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10, model="m-new")
+    assert out == {"sections": []}
+    assert [c["tool_choice"]["type"] for c in fake_anthropic] == ["tool", "auto"]
+    assert "Answer only by calling the publish_week tool" in fake_anthropic[1]["system"]
+    assert usage == {"input_tokens": 3, "output_tokens": 2}
+    # The second call in the same run goes straight to auto: no wasted 400.
+    brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10, model="m-new")
+    assert [c["tool_choice"]["type"] for c in fake_anthropic][2:] == ["auto"]
+    # Other models still use the forced tool.
+    brief._forced_call(cfg, "sys", brief.week_tool(), "u", 10)
+    assert fake_anthropic[-1]["tool_choice"] == {"type": "tool", "name": "publish_week"}
+    assert "forced tool_choice not supported" in capsys.readouterr().err
+
+
+def test_auto_mode_asks_again_after_a_text_answer(fake_anthropic):
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = {"m-new"}, 1
+    out, usage = brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10, model="m-new")
+    assert out == {"sections": []} and len(fake_anthropic) == 3
+    assert usage == {"input_tokens": 6, "output_tokens": 4}
+
+
+def test_auto_mode_gives_up_after_two_text_answers(fake_anthropic):
+    FakeAnthropic.reject_forced, FakeAnthropic.text_answers = {"m-new"}, 2
+    with pytest.raises(RuntimeError, match="no tool call"):
+        brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10, model="m-new")
+
+
+def test_other_errors_are_not_hidden(fake_anthropic, monkeypatch):
+    def boom(self, **kw):
+        raise RuntimeError("Error code: 529 - overloaded")
+    monkeypatch.setattr(FakeAnthropic, "create", boom)
+    with pytest.raises(RuntimeError, match="overloaded"):
+        brief._forced_call({"model": "m"}, "s", brief.week_tool(), "u", 10)
 
 
 def test_models_fall_back_to_the_main_model(fake_anthropic):
@@ -1338,7 +1412,7 @@ def test_main_sunday_edition_adds_week_and_listen(monkeypatch, tmp_path, capsys)
 def test_dry_run_listen_and_week_preview(tmp_path):
     env = {**os.environ, "BRIEF_SITE_DIR": str(tmp_path), "BRIEF_DATA_DIR": str(tmp_path / "nodata")}
     env.pop("BRIEF_PASSPHRASE", None)
-    env.pop("BRIEF_FORCE_WEEK", None)
+    env["BRIEF_FORCE_WEEK"] = "0"   # the first run must not be a Sunday edition, whatever today is
     run = lambda e: subprocess.run([sys.executable, str(ROOT / "brief.py"), "--dry-run"],  # noqa: E731
                                    capture_output=True, text=True, env=e)
     r = run(env)

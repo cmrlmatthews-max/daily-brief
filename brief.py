@@ -23,7 +23,7 @@ import sys
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -1035,7 +1035,7 @@ def fetch_scores(cfg: dict) -> tuple[list[dict], list[dict]]:
     return scores, errors
 
 
-# ---------- recalls and the daily Stoic quote ----------
+# ---------- recalls and the daily quote ----------
 
 def parse_recalls(content: bytes | str, cfg: dict, now: datetime | None = None) -> list[dict]:
     """FDA recall feed -> [{"title", "url", "published"}], newest first, at most max_items,
@@ -1069,79 +1069,107 @@ def fetch_recalls(cfg: dict, now: datetime | None = None, session: requests.Sess
     return parse_recalls(r.content, cfg["recalls"], now)
 
 
-STOIC_START = re.compile(r"^[ \t]*THE FIRST BOOK[ \t]*$", re.M)
-STOIC_NUMERAL = re.compile(r"^[IVXL]+\.\s+")
-STOIC_SKIP_FIRST = {"and", "but", "for", "or", "nor", "so", "this", "these", "that", "such", "which", "he", "it"}
-STOIC_MIN, STOIC_MAX = 60, 200
+QUOTE_MIN, QUOTE_MAX = 20, 240
+QUOTE_EPOCH = date(2026, 1, 1)   # day 0 of the cycle
 
 
-def stoic_sentences(text: str) -> list[str]:
-    """Usable one-sentence quotes from the Gutenberg text of the Meditations.
-    Keeps only the body (from "THE FIRST BOOK" to "*** END OF"). A sentence must be 60 to 200 characters,
-    start with a capital that is not a linking word (And, But, This ...), end like a sentence, and have
-    no digits or "[" (footnote marks)."""
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    starts = list(STOIC_START.finditer(text))
-    if not starts:
-        return []
-    body = text[starts[-1].end():]          # the last match: the contents list names the books too
-    end = body.find("*** END OF")
-    if end != -1:
-        body = body[:end]
+def norm_text(text: str) -> str:
+    """Case-folded text with runs of whitespace collapsed, used to spot duplicates and to order quotes."""
+    return re.sub(r"\s+", " ", text).strip().casefold()
+
+
+def load_quotes(path: Path) -> list[dict]:
+    """The curated quotes file -> [{"text", "who", "about", "source"}], in file order.
+    An entry needs a text of 20 to 240 characters and a who; anything else is dropped, and so is a repeat of
+    an earlier text (ignoring case and spacing). Raises if the file is missing or is not a YAML list;
+    the caller records that as a skipped source."""
+    data = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError("quotes file is not a list")
     out, seen = [], set()
-    for para in re.split(r"\n\s*\n", body):
-        para = STOIC_NUMERAL.sub("", re.sub(r"\s+", " ", para.replace("_", "")).strip())
-        for sent in re.split(r"(?<=[.!?])\s+(?=[A-Z])", para):
-            sent = sent.strip()
-            first = re.match(r"[A-Za-z']+", sent)
-            if not (STOIC_MIN <= len(sent) <= STOIC_MAX) or not first or not sent[0].isupper():
-                continue
-            if first.group(0).lower() in STOIC_SKIP_FIRST or sent[-1] not in ".!?":
-                continue
-            if "[" in sent or any(c.isdigit() for c in sent) or sent in seen:
-                continue
-            seen.add(sent)
-            out.append(sent)
+    for e in data:
+        if not isinstance(e, dict):
+            continue
+        text, who = e.get("text"), e.get("who")
+        if not isinstance(text, str) or not isinstance(who, str):
+            continue
+        text, who = text.strip(), who.strip()
+        if not who or not (QUOTE_MIN <= len(text) <= QUOTE_MAX):
+            continue
+        key = norm_text(text)
+        if key in seen:
+            continue
+        seen.add(key)
+        about, source = e.get("about"), e.get("source")
+        out.append({"text": text, "who": who,
+                    "about": about.strip() if isinstance(about, str) else "",
+                    "source": source.strip() if isinstance(source, str) else ""})
     return out
 
 
-def pick_stoic(text: str, cfg: dict, now: datetime) -> dict | None:
-    """One quote, chosen by a stable hash of the date, so it stays the same all day. None if nothing qualifies.
-    `cfg` is the `stoic:` block."""
-    sentences = stoic_sentences(text)
-    if not sentences:
+def quote_order(quotes: list[dict]) -> list[int]:
+    """A fixed order for the whole list: indices sorted by the hash of each quote's text, so it does not depend
+    on the order of the file. Then two neighbors with the same `who` (the last and first count as neighbors)
+    are separated by swapping with the nearest later position that fixes it without making a new clash.
+    The last/first pair has no later position, so it swaps with the nearest earlier one. A clash that cannot
+    be fixed (one person owns over half the list) is left alone."""
+    n = len(quotes)
+    who = [q["who"].strip().casefold() for q in quotes]
+    order = sorted(range(n), key=lambda i: (hashlib.sha256(norm_text(quotes[i]["text"]).encode("utf-8")).hexdigest(),
+                                            norm_text(quotes[i]["text"]), who[i]))
+    if n < 3:
+        return order
+
+    def clashes(pairs: set[int]) -> set[int]:    # pair p is positions p and p + 1 (wrapping)
+        return {p for p in pairs if who[order[p]] == who[order[(p + 1) % n]]}
+
+    def try_swap(target: int, k: int, cands: range) -> None:
+        for j in cands:
+            if j == k:
+                continue
+            pairs = {(x - 1) % n for x in (k, j)} | {k % n, j % n}
+            before = clashes(pairs)
+            order[k], order[j] = order[j], order[k]
+            after = clashes(pairs)
+            if target not in after and after <= before:
+                return
+            order[k], order[j] = order[j], order[k]
+
+    for i in range(n - 1):
+        if who[order[i]] == who[order[i + 1]]:
+            try_swap(i, i + 1, range(i + 2, n))
+    if who[order[-1]] == who[order[0]]:
+        try_swap(n - 1, n - 1, range(n - 2, 0, -1))
+    return order
+
+
+def pick_quote(quotes: list[dict], cfg_block: dict, now: datetime) -> dict | None:
+    """Today's quote. One quote per day, walking the whole fixed order, so nothing repeats until the list is used up.
+    The day is the Eastern date, so it stays the same all day. None for an empty list."""
+    if not quotes:
         return None
-    day = now.astimezone(TZ).date().isoformat()
-    n = int(hashlib.sha256(day.encode("utf-8")).hexdigest(), 16)
-    return {"text": sentences[n % len(sentences)], "credit": cfg.get("credit", "")}
-
-
-def fetch_stoic(cfg: dict, now: datetime, session: requests.Session | None = None) -> dict | None:
-    """Download the Meditations and pick today's quote. Raises on network failure; returns None if no
-    sentence qualifies. Quote text always comes from the downloaded book, never from the model."""
-    s = session or requests.Session()
-    if session is None:
-        s.headers["User-Agent"] = USER_AGENT
-    r = s.get(cfg["stoic"]["url"], timeout=TIMEOUT)
-    r.raise_for_status()
-    r.encoding = "utf-8"
-    return pick_stoic(r.text, cfg["stoic"], now)
+    n = (now.astimezone(TZ).date() - QUOTE_EPOCH).days
+    order = quote_order(quotes)
+    q = quotes[order[n % len(order)]]
+    return {"text": q["text"], "who": q["who"], "about": q["about"],
+            "title": (cfg_block or {}).get("title", "Words to Live By")}
 
 
 def fetch_extras(cfg: dict, now: datetime) -> tuple[list[dict], dict | None, list[dict]]:
-    """Recalls and the Stoic quote, each failing soft. Returns (recalls, stoic, source_errors)."""
-    errors, recalls, stoic = [], [], None
+    """Recalls and the daily quote, each failing soft. Returns (recalls, quote, source_errors).
+    The quote comes from the local quotes file, with no network."""
+    errors, recalls, quote = [], [], None
     if cfg.get("recalls"):
         try:
             recalls = fetch_recalls(cfg, now)
         except Exception as exc:
             errors.append({"source": "Recalls", "error": f"{type(exc).__name__}: {exc}"[:140]})
-    if cfg.get("stoic"):
+    if cfg.get("quotes"):
         try:
-            stoic = fetch_stoic(cfg, now)
+            quote = pick_quote(load_quotes(ROOT / cfg["quotes"]["file"]), cfg["quotes"], now)
         except Exception as exc:
-            errors.append({"source": "Stoic", "error": f"{type(exc).__name__}: {exc}"[:140]})
-    return recalls, stoic, errors
+            errors.append({"source": "Quotes", "error": f"{type(exc).__name__}: {exc}"[:140]})
+    return recalls, quote, errors
 
 
 # ---------- Claude ----------
@@ -1156,19 +1184,46 @@ def slim_items(items: list[dict]) -> list[dict]:
 def _forced_call(cfg: dict, system: str, tool: dict, user: str, max_tokens: int,
                  model: str | None = None, timeout: float = 180.0, max_retries: int = 2) -> tuple[dict, dict]:
     """One Claude call that must answer through `tool`. Returns (tool input, usage counts).
-    `model` defaults to cfg["model"]. `timeout` (seconds) and `max_retries` go to the client."""
+    `model` defaults to cfg["model"]. `timeout` (seconds) and `max_retries` go to the client.
+
+    Some models reject a forced tool_choice ("tool" or "any") with a 400. For those models the call uses
+    tool_choice "auto" and a system line that says to call the tool. If the answer still has no tool call,
+    it asks one more time. Usage counts add up over all calls."""
     import anthropic
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=timeout, max_retries=max_retries)
-    msg = client.messages.create(
-        model=model or cfg["model"], max_tokens=max_tokens, system=system,
-        tools=[tool], tool_choice={"type": "tool", "name": tool["name"]},
-        messages=[{"role": "user", "content": user}])
-    block = next((b for b in msg.content if b.type == "tool_use"), None)
-    if block is None:
-        raise RuntimeError(f"no tool call in response (stop_reason={msg.stop_reason})")
-    usage = {"input_tokens": msg.usage.input_tokens, "output_tokens": msg.usage.output_tokens}
-    return dict(block.input), usage
+    model = model or cfg["model"]
+    usage = {"input_tokens": 0, "output_tokens": 0}
+
+    def ask(sys_text: str, choice: dict):
+        msg = client.messages.create(
+            model=model, max_tokens=max_tokens, system=sys_text, tools=[tool], tool_choice=choice,
+            messages=[{"role": "user", "content": user}])
+        usage["input_tokens"] += msg.usage.input_tokens
+        usage["output_tokens"] += msg.usage.output_tokens
+        return next((b for b in msg.content if b.type == "tool_use" and b.name == tool["name"]), None), msg
+
+    if model not in _NO_FORCED_TOOL:
+        try:
+            block, msg = ask(system, {"type": "tool", "name": tool["name"]})
+            if block is None:
+                raise RuntimeError(f"no tool call in response (stop_reason={msg.stop_reason})")
+            return dict(block.input), usage
+        except Exception as exc:
+            if "tool_choice" not in str(exc) or "not supported" not in str(exc):
+                raise
+            _NO_FORCED_TOOL.add(model)
+            print(f"{model}: forced tool_choice not supported, using auto", file=sys.stderr)
+    nudge = f"{system}\n\nAnswer only by calling the {tool['name']} tool. Do not answer in plain text."
+    for _ in range(2):
+        block, msg = ask(nudge, {"type": "auto"})
+        if block is not None:
+            return dict(block.input), usage
+    raise RuntimeError(f"no tool call in response (stop_reason={msg.stop_reason})")
+
+
+# Models that answered a forced tool_choice with a 400 in this run. They use tool_choice "auto".
+_NO_FORCED_TOOL: set[str] = set()
 
 
 def front_model(cfg: dict) -> str:
@@ -1639,8 +1694,11 @@ def week_tool() -> dict[str, Any]:
 
 
 def week_wanted(now: datetime) -> bool:
-    """True on a New York Sunday, or when BRIEF_FORCE_WEEK=1."""
-    return os.environ.get("BRIEF_FORCE_WEEK") == "1" or now.astimezone(TZ).weekday() == 6
+    """True on a New York Sunday, or when BRIEF_FORCE_WEEK=1. BRIEF_FORCE_WEEK=0 turns it off (tests)."""
+    force = os.environ.get("BRIEF_FORCE_WEEK")
+    if force in ("0", "1"):
+        return force == "1"
+    return now.astimezone(TZ).weekday() == 6
 
 
 def load_archive_papers(folder: Path | str, today: Any, days: int = 6) -> list[tuple[str, dict]]:
@@ -1838,12 +1896,12 @@ def main() -> int:
         fixture = json.loads((ROOT / "fixtures/sample_items.json").read_text())
         items, scores = fixture["items"], fixture.get("scores", [])
         recalls = load_recalls_fixture(ROOT / "fixtures/sample_recalls.xml", cfg, now)
-        stoic = pick_stoic((ROOT / "fixtures/sample_stoic.txt").read_text(), cfg["stoic"], now)
+        quote = pick_quote(load_quotes(ROOT / cfg["quotes"]["file"]), cfg["quotes"], now)
         video_items = json.loads((ROOT / "fixtures/sample_videos.json").read_text(encoding="utf-8"))["items"]
     else:
         items, errors = fetch_all(cfg)
         scores, score_errors = fetch_scores(cfg)
-        recalls, stoic, extra_errors = fetch_extras(cfg, now)
+        recalls, quote, extra_errors = fetch_extras(cfg, now)
         errors += score_errors + extra_errors
         try:   # the YouTube channels must never stop the run
             video_items, video_errors = fetch_youtube(cfg)
@@ -1853,7 +1911,7 @@ def main() -> int:
         if args.fetch_only:
             (ROOT / "out").mkdir(exist_ok=True)
             (ROOT / "out/items.json").write_text(json.dumps(
-                {"items": items, "videos": video_items, "scores": scores, "recalls": recalls, "stoic": stoic,
+                {"items": items, "videos": video_items, "scores": scores, "recalls": recalls, "quote": quote,
                  "source_errors": errors}, indent=2, ensure_ascii=False))
             print(f"fetched {len(items)} items, {len(video_items)} videos, {len(scores)} scores, "
                   f"{len(recalls)} recalls, {len(errors)} errors -> out/items.json")
@@ -1953,7 +2011,7 @@ def main() -> int:
              "generated_at": now.isoformat(timespec="seconds"), "model": front_model(cfg), "models": models,
              "listen": listen,
              "lead": lead, "front": front, "sections": sections, "tabs": tabs,
-             "recalls": recalls, "stoic": stoic,
+             "recalls": recalls, "quote": quote,
              "scores": scores, "source_errors": errors, "usage": usage}
     if videos:
         brief["videos"] = videos
@@ -1969,7 +2027,7 @@ def main() -> int:
                    if i.get("image"))
     print(f"wrote {out.name}: lead={'yes' if lead else 'no'}, {len(front)} front, "
           f"{in_sections} in {len(sections)} sections, {with_img} with images, "
-          f"{in_tabs} in {len(tabs)} tabs, {len(recalls)} recalls, stoic={'yes' if stoic else 'no'}, "
+          f"{in_tabs} in {len(tabs)} tabs, {len(recalls)} recalls, quote={'yes' if quote else 'no'}, "
           f"{len(scores)} scores, {len(errors)} sources skipped | "
           f"tokens in={usage['input_tokens']} out={usage['output_tokens']}")
     return 0

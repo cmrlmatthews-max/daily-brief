@@ -31,10 +31,10 @@ recalls:
   max_items: 3
   max_age_days: 4
 
-# Daily Stoic box. One sentence from this public-domain text, picked by the date (same quote all day).
-stoic:
-  url: https://www.gutenberg.org/cache/epub/2680/pg2680.txt
-  credit: "Marcus Aurelius, Meditations (trans. George Long)"
+# Words to Live By box. One quote a day from the curated local file quotes.yaml (no network; same quote all day).
+quotes:
+  file: quotes.yaml
+  title: "Words to Live By"
 
 # Page title block.
 masthead: "CMRLM"
@@ -141,6 +141,14 @@ topics:
       - name: San Francisco 49ers
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=25
+      # Team news from the league and team sites (Oct 2026). NBA.com and NFL.com have no public feeds,
+      # so the Rockets stay on ESPN only and the 49ers use the team site.
+      - name: MLB.com Braves
+        type: rss
+        url: https://www.mlb.com/braves/feeds/news/rss.xml
+      - name: 49ers.com
+        type: rss
+        url: https://www.49ers.com/rss/news
       - name: UFC (ESPN)
         type: espn_news
         url: https://site.api.espn.com/apis/site/v2/sports/mma/ufc/news

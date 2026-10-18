@@ -25,54 +25,77 @@ This Shortcut is a copy of your "Print Daily Brief" Shortcut. It uses the same G
 
 ### 1.2 Change the address
 
-1. Open **Send Daily Brief Likes**.
-2. In the **Get Contents of URL** action, tap the URL.
-3. Replace the URL with this text:
+> **CAUTION:** Do not tap the ▶ button on the tile. The copy still starts a print run until you change the address.
+
+1. Tap the name **Send Daily Brief Likes** to open the editor. If the editor does not open, touch and hold the tile, then tap **Edit**.
+2. In the **Get contents of** block, tap the address. Delete it.
+3. Type this address by hand, with no space at the end:
 
    `https://api.github.com/repos/cmrlmatthews-max/daily-brief/actions/workflows/likes.yml/dispatches`
 
-4. Keep the **Method** as **POST**.
-5. Keep the two **Headers** (Authorization and Accept) as they are.
+### 1.3 Remove the copied 5:00 AM trigger
 
-### 1.3 Change the request body
+The copy also takes the "At 5:00 AM" trigger from "Print Daily Brief."
 
-1. Under **Request Body**, keep **JSON**.
-2. Keep the field `ref` with the text value `main`.
-3. Tap **Add new field**. Tap **Dictionary**. Type the key `inputs`.
-4. Tap the new `inputs` dictionary to open it.
-5. Inside `inputs`, tap **Add new field**. Tap **Text**. Type the key `likes`.
-6. Tap the value box for `likes`. Above the keyboard, tap **Shortcut Input**.
+1. Tap the gray **⊗** at the right end of the **At 5:00 AM** line.
+2. If a menu asks you to confirm, tap **Remove** or **Delete**.
+
+Do this only in the copy. Do not change "Print Daily Brief."
 
 ### 1.4 Let the Shortcut take text
 
-1. Look at the top of the Shortcut. When you inserted **Shortcut Input**, a line "Receive **Any** input from **Nowhere**" appeared.
-2. Tap **Any**. Turn off every type except **Text**.
-3. Leave "from **Nowhere**" as it is. The paper sends the text through a link, so no share sheet is needed.
+Do this step before you add the likes field. Until the Shortcut takes input, the "Shortcut Input" variable does not exist.
 
-### 1.5 Show an error if GitHub says no
+1. At the bottom of the editor, tap the **ⓘ** button.
+2. Turn on **Show in Share Sheet**. Tap **Done**.
+3. A block "Receive **Apps and 18 more** from **Share Sheet**" appears at the top. Tap **Apps and 18 more**.
+4. Turn on **Text** only. Turn off every other type. Tap **Done**.
 
-GitHub sends back nothing when the likes arrive. It sends back a message when something is wrong.
+**You should now see:** "Receive **Text** from **Share Sheet**."
 
-1. Under **Get Contents of URL**, add the action **If**.
-2. Set it to: **If** `Contents of URL` **has any value**.
-3. Inside the If, add **Show Alert**. Type `Likes did not send:` and then insert the `Contents of URL` variable.
-4. Turn on **Show Cancel Button**.
-5. Delete the **Otherwise** part if the app added one. Keep **End If**.
-6. Make sure no action comes after **End If**.
+### 1.5 Change the request body
 
-When an error alert shows, tap **Cancel**. Your stars then stay on the page, and you can send them again later.
+1. In the **Get contents of** block, tap the **›** circle after the address. Method, Headers and Request Body show.
+2. Keep **Method** as **POST** and keep the **Authorization** header as it is.
+3. Under **Request Body**, keep **JSON** and keep the field `ref` with the value `main`.
+4. Tap **Add new field**. Tap **Dictionary**. Type the key `inputs` by hand.
+5. Tap the blue **0 items** on the `inputs` row. A panel opens.
+6. In the panel, tap **Add new field**. Tap **Text**. Type the key `likes` by hand.
+7. Tap the gray value box next to `likes`. In the bar above the keyboard, tap **Shortcut Input**.
 
-### 1.6 Token check
+> **CAUTION:** Do not tap **Select Variable** in this panel. It waits for a pick in the editor behind the panel, so the panel freezes and **Done** turns gray. If that happens, tap the value box again or swipe the panel down. If the panel still does not close, close the Shortcuts app and open it again.
+
+8. Make sure the value is the **Shortcut Input** tag only. If the word "likes" also shows in front of the tag, tap after the word and delete it.
+9. Tap **Done**.
+
+**You should now see:** `inputs` with "1 item," and inside it `likes` with only the blue **Shortcut Input** tag.
+
+### 1.6 Optional: show an error if GitHub says no
+
+GitHub sends back nothing when the likes arrive. It sends back a message when something is wrong. Without this step, a failed send shows no message, but your stars stay on the phone, so you can send them again.
+
+1. Delete the **Stop and output** block that came with the copy.
+2. Under **Get contents of**, add the action **If**.
+3. Set it to: **If** `Contents of URL` **has any value**.
+4. Inside the If, add **Show Alert**. Type `Likes did not send:` and then insert the `Contents of URL` variable.
+5. Turn on **Show Cancel Button**.
+6. Delete the **Otherwise** part if the app added one. Keep **End If**.
+
+When an error alert shows, tap **Cancel**. Your stars then stay on the page.
+
+### 1.7 Token check
 
 Your "Print Daily Brief" token already starts a workflow, so it can also start the likes workflow. If GitHub sends back "Resource not accessible," edit the token on GitHub and give it **Actions: Read and write** for the **daily-brief** repository only. Do not give it access to other repositories.
 
-### 1.7 Test it
+### 1.8 Test it
 
-1. Open the Daily Brief in Safari.
-2. Tap ☆ on two stories. The ☆ changes to ★.
-3. Tap **Send 2 likes** at the bottom of the screen.
-4. Allow Safari to open Shortcuts if it asks.
-5. The Shortcut runs and returns to the paper. The page shows "Likes sent."
+1. Tap the back arrow **‹** to save and leave the editor.
+2. Open the Daily Brief.
+3. Tap ☆ on one story. The ☆ changes to ★.
+4. Tap **Send 1 like** at the bottom of the screen.
+5. If Safari asks to open Shortcuts, tap **Open**.
+
+**You should now see:** the Shortcut runs, the paper comes back, and the page shows "Likes sent." The like shows in `likes.jsonl` on the `data` branch about 10 seconds later.
 
 ---
 

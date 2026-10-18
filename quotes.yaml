@@ -1,0 +1,2327 @@
+# Words to Live By: the curated quotes for the box on the front page.
+#
+# Each entry is one quote:
+#   - text: "..."          required. 20 to 240 characters.
+#     who: "Name"          required. Shown under the quote.
+#     about: "..."         optional. A short line about the person, shown in small type under the name.
+#     source: "..."        optional. Where the quote comes from. Kept for checking, not shown on the page.
+#     ref: "https://..."   optional. A link to check it. Kept for checking, not shown on the page.
+#     group: "stoic"       optional. stoic, thinker or humanitarian. Not shown on the page.
+#
+# Rules:
+#   - The page shows one quote per day (Eastern date), the same all day.
+#   - The whole list is walked in a fixed order, so no quote repeats until every quote has been used.
+#     Keep at least 366 quotes so a full year has no repeat.
+#   - The order is set by the quote text, not by where an entry sits in this file. Two quotes by the same
+#     person are kept apart where possible.
+#   - Adding or removing a quote changes the order from then on.
+#   - An entry with no text, no who, a text outside 20 to 240 characters, or a repeated text is skipped.
+#
+# Checked October 2026: each quote was matched word for word against its Wikiquote page (sourced
+# sections only) or against the named public-domain translation (Project Gutenberg, MIT Classics,
+# LacusCurtius). Deceased people only. Stoic quotes are about one in ten.
+
+- text: In the morning when thou risest unwillingly, let this thought be present—I am rising to the work of a human being.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 5 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.5.five.html
+  group: stoic
+- text: Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 5 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.5.five.html
+  group: stoic
+- text: The best way of avenging thyself is not to become like the wrong doer.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 6 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.6.six.html
+  group: stoic
+- text: If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth by which no man was ever injured.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 6 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.6.six.html
+  group: stoic
+- text: Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 7 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.7.seven.html
+  group: stoic
+- text: The perfection of moral character consists in this, in passing every day as the last, and in being neither violently excited nor torpid nor playing the hypocrite.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 7 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.7.seven.html
+  group: stoic
+- text: The art of life is more like the wrestler's art than the dancer's, in respect of this, that it should stand ready and firm to meet onsets which are sudden and unexpected.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 7 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.7.seven.html
+  group: stoic
+- text: Men exist for the sake of one another. Teach them then or bear with them.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 8 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.8.eight.html
+  group: stoic
+- text: Receive wealth or prosperity without arrogance; and be ready to let it go.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 8 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.8.eight.html
+  group: stoic
+- text: No longer talk at all about the kind of man that a good man ought to be, but be such.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 10 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.10.ten.html
+  group: stoic
+- text: 'If it is not right, do not do it: if it is not true, do not say it.'
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 12 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.12.twelve.html
+  group: stoic
+- text: Practise thyself even in the things which thou despairest of accomplishing.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 12 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.12.twelve.html
+  group: stoic
+- text: A man then must stand erect, not be kept erect by others.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 3 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.3.three.html
+  group: stoic
+- text: Take away thy opinion, and then there is taken away the complaint, "I have been harmed."
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 4 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.4.four.html
+  group: stoic
+- text: While thou livest, while it is in thy power, be good.
+  who: Marcus Aurelius
+  about: Roman emperor and Stoic philosopher
+  source: Meditations, Book 4 (trans. George Long)
+  ref: http://classics.mit.edu/Antoninus/meditations.4.four.html
+  group: stoic
+- text: It is not the man who has too little, but the man who craves more, that is poor.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 2 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: What progress, you ask, have I made? I have begun to be a friend to myself.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 6 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: Welcome those whom you yourself can improve. The process is mutual; for men learn while they teach.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 7 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 13 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: If you would not have a man flinch when the crisis comes, train him before it comes.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 18 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: It is indeed foolish to be unhappy now because you may be unhappy at some future time.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 24 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: You need a change of soul rather than a change of climate.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 28 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: A great pilot can sail even when his canvas is rent.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 30 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: I forbid you to be cast down or depressed. It is not enough if you do not shrink from work; ask for it.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 31 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: Treat your inferiors as you would be treated by your betters.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 47 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: I am endeavouring to live every day as if it were a complete life.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 61 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: Our plans miscarry because they have no aim. When a man does not know what harbour he is making for, no wind is the right wind.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 71 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: As long as you live, keep learning how to live.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 76 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: Therefore, my dear Lucilius, begin at once to live, and count each separate day as a separate life.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: Moral Letters to Lucilius, Letter 101 (trans. Richard M. Gummere)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: He who receives a benefit with gratitude, repays the first installment of it.
+  who: Seneca
+  about: Roman statesman and Stoic philosopher
+  source: On Benefits (De Beneficiis), Book 2, chapter 22 (trans. Aubrey Stewart)
+  ref: https://en.wikiquote.org/wiki/Seneca_the_Younger
+  group: stoic
+- text: Of things some are in our power, and others are not.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 1 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/1
+  group: stoic
+- text: Men are disturbed not by the things which happen, but by the opinions about the things.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 5 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/5
+  group: stoic
+- text: When then we are impeded or disturbed or grieved, let us never blame others, but ourselves, that is, our opinions.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 5 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/5
+  group: stoic
+- text: Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 8 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/8
+  group: stoic
+- text: You can be invincible, if you enter into no contest in which it is not in your power to conquer.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 19 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/19
+  group: stoic
+- text: Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 20 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/20
+  group: stoic
+- text: Immediately prescribe some character and some form to yourself, which you shall observe both when you are alone and when you meet with men.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 33 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/33
+  group: stoic
+- text: 'The condition and characteristic of a philosopher is this: he expects all advantage and all harm from himself.'
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 48 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/48
+  group: stoic
+- text: You, though you are not yet a Socrates, ought to live as one who wishes to be a Socrates.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 51 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/51
+  group: stoic
+- text: Remember that now is the contest, now are the Olympic games, and they cannot be deferred; and that it depends on one defeat and one giving way that progress is either lost or maintained.
+  who: Epictetus
+  about: Greek Stoic teacher
+  source: Enchiridion, chapter 51 (trans. George Long)
+  ref: https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/51
+  group: stoic
+- text: Learning without thought is labour lost; thought without learning is perilous.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 2, chapter 15 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: The wise are free from perplexities; the virtuous from anxiety; and the bold from fear.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 9, chapter 28 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: Virtue is not left to stand alone. He who practises it will have neighbors.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 4, chapter 25 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: To see what is right and not to do it is want of courage.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 2, chapter 24 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: When I walk along with two others, they may serve me as my teachers. I will select their good qualities and follow them, their bad qualities and avoid them.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 7, chapter 21 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: When we see men of worth, we should think of equalling them; when we see men of a contrary character, we should turn inwards and examine ourselves.
+  who: Confucius
+  about: Chinese teacher and philosopher
+  source: Analects, Book 4, chapter 17 (trans. James Legge)
+  ref: https://www.gutenberg.org/cache/epub/3330/pg3330.txt
+  group: thinker
+- text: He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty.
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 33 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 33 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: He who stands on his tiptoes does not stand firm; he who stretches his legs does not walk (easily).
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 24 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step.
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 64 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: The sage does not accumulate (for himself). The more that he expends for others, the more does he possess of his own; the more that he gives to others, the more does he have himself.
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 81 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: To know and yet (think) we do not know is the highest (attainment); not to know (and yet think) we do know is a disease.
+  who: Lao Tzu
+  about: Chinese sage and author of the Tao Te Ching
+  source: Tao Te Ching, chapter 71 (trans. James Legge, 1891)
+  ref: https://sacred-texts.com/tao/taote.htm
+  group: thinker
+- text: 'All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.'
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 1 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 2 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: 'For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.'
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 5 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: 'If a man does what is good, let him do it again; let him delight in it: happiness is the outcome of good.'
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 118 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 223 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: Let a wise man blow off the impurities of his self, as a smith blows off the impurities of silver one by one, little by little, and from time to time.
+  who: The Buddha
+  about: Indian teacher and founder of Buddhism
+  source: Dhammapada, verse 239 (trans. F. Max Müller)
+  ref: https://gutenberg.org/cache/epub/2017/pg2017-images.html
+  group: thinker
+- text: No evil can happen to a good man, either in life or after death.
+  who: Socrates
+  about: Greek philosopher of Athens
+  source: Plato, Apology (trans. Benjamin Jowett)
+  ref: https://www.gutenberg.org/cache/epub/1656/pg1656.txt
+  group: thinker
+- text: The difficulty, my friends, is not to avoid death, but to avoid unrighteousness; for that runs faster than death.
+  who: Socrates
+  about: Greek philosopher of Athens
+  source: Plato, Apology (trans. Benjamin Jowett)
+  ref: https://www.gutenberg.org/cache/epub/1656/pg1656.txt
+  group: thinker
+- text: The beginning is the most important part of any work.
+  who: Plato
+  about: Greek philosopher and student of Socrates
+  source: Republic, Book 2, 377a (trans. Benjamin Jowett)
+  ref: https://en.wikiquote.org/wiki/Plato
+  group: thinker
+- text: One swallow does not make a summer, nor does one day; and so too one day, or a short time, does not make a man blessed and happy.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 1, chapter 7 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.1.i.html
+  group: thinker
+- text: We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 2, chapter 1 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.2.ii.html
+  group: thinker
+- text: Without friends no one would choose to live, though he had all other goods.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 8, chapter 1 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.8.viii.html
+  group: thinker
+- text: The presence of friends, then, seems desirable in all circumstances.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 9, chapter 11 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.9.ix.html
+  group: thinker
+- text: Falsehood is in itself mean and culpable, and truth noble and worthy of praise.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 4, chapter 7 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.4.iv.html
+  group: thinker
+- text: Happiness, then, is something final and self-sufficient, and is the end of action.
+  who: Aristotle
+  about: Greek philosopher and scientist
+  source: Nicomachean Ethics, Book 1, chapter 7 (trans. W. D. Ross)
+  ref: http://classics.mit.edu/Aristotle/nicomachaen.1.i.html
+  group: thinker
+- text: Friendship adds a brighter radiance to prosperity and lessens the burden of adversity by dividing and sharing it.
+  who: Cicero
+  about: Roman statesman and orator
+  source: On Friendship (De Amicitia), section 22 (trans. W. A. Falconer, Loeb, 1923)
+  ref: https://cts.perseids.org/read/latinLit/phi0474/phi052/perseus-eng2/22
+  group: thinker
+- text: What is sweeter than to have someone with whom you may dare discuss anything as if you were communing with yourself?
+  who: Cicero
+  about: Roman statesman and orator
+  source: On Friendship (De Amicitia), section 22 (trans. W. A. Falconer, Loeb, 1923)
+  ref: https://cts.perseids.org/read/latinLit/phi0474/phi052/perseus-eng2/22
+  group: thinker
+- text: Such strength as a man has he should use, and whatever he does should be done in proportion to his strength.
+  who: Cicero
+  about: Roman statesman and orator
+  source: On Old Age (Cato Maior de Senectute), section 27 (Loeb, 1923)
+  ref: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/Cato_Maior_de_Senectute/text*.html
+  group: thinker
+- text: Even if the allotted space of life be short, it is long enough in which to live honourably and well.
+  who: Cicero
+  about: Roman statesman and orator
+  source: On Old Age (Cato Maior de Senectute), section 70 (Loeb, 1923)
+  ref: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/Cato_Maior_de_Senectute/text*.html
+  group: thinker
+- text: Surely there can be no greater pleasure than the pleasures of the mind.
+  who: Cicero
+  about: Roman statesman and orator
+  source: On Old Age (Cato Maior de Senectute), section 50 (Loeb, 1923)
+  ref: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/Cato_Maior_de_Senectute/text*.html
+  group: thinker
+- text: Moral good is a practical stimulus; it is no sooner seen, than it inspires an impulse to practice.
+  who: Plutarch
+  about: Greek biographer and essayist
+  source: Life of Pericles (trans. John Dryden)
+  ref: http://classics.mit.edu/Plutarch/pericles.html
+  group: thinker
+- text: What man actually needs is not a tensionless state but rather the striving and struggling for some goal worthy of him.
+  who: Viktor Frankl
+  about: Austrian psychiatrist and Holocaust survivor
+  source: Man's Search for Meaning (1946)
+  ref: https://en.wikiquote.org/wiki/Viktor_Frankl
+  group: thinker
+- text: Ultimately, man should not ask what the meaning of his life is, but rather must recognize that it is he who is asked.
+  who: Viktor Frankl
+  about: Austrian psychiatrist and Holocaust survivor
+  source: Man's Search for Meaning (1946)
+  ref: https://en.wikiquote.org/wiki/Viktor_Frankl
+  group: thinker
+- text: The salvation of man is through love and in love.
+  who: Viktor Frankl
+  about: Austrian psychiatrist and Holocaust survivor
+  source: Man's Search for Meaning (1946)
+  ref: https://en.wikiquote.org/wiki/Viktor_Frankl
+  group: thinker
+- text: If there is a meaning in life at all, then there must be a meaning in suffering.
+  who: Viktor Frankl
+  about: Austrian psychiatrist and Holocaust survivor
+  source: Man's Search for Meaning (1946)
+  ref: https://en.wikiquote.org/wiki/Viktor_Frankl
+  group: thinker
+- text: For the world is in a bad state, but everything will become still worse unless each of us does his best.
+  who: Viktor Frankl
+  about: Austrian psychiatrist and Holocaust survivor
+  source: Man's Search for Meaning (1984 postscript)
+  ref: https://en.wikiquote.org/wiki/Viktor_Frankl
+  group: thinker
+- text: Man's main task in life is to give birth to himself, to become what he potentially is.
+  who: Erich Fromm
+  about: German-American psychologist and author
+  source: Man for Himself (1947)
+  ref: https://en.wikiquote.org/wiki/Erich_Fromm
+  group: thinker
+- text: Only the person who has faith in himself is able to be faithful to others.
+  who: Erich Fromm
+  about: German-American psychologist and author
+  source: Man for Himself (1947)
+  ref: https://en.wikiquote.org/wiki/Erich_Fromm
+  group: thinker
+- text: The quest for certainty blocks the search for meaning.
+  who: Erich Fromm
+  about: German-American psychologist and author
+  source: Man for Himself (1947)
+  ref: https://en.wikiquote.org/wiki/Erich_Fromm
+  group: thinker
+- text: Human solidarity is the necessary condition for the unfolding of any one individual.
+  who: Erich Fromm
+  about: German-American psychologist and author
+  source: The Art of Loving (1956)
+  ref: https://en.wikiquote.org/wiki/Erich_Fromm
+  group: thinker
+- text: Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.
+  who: William James
+  about: American philosopher and psychologist
+  source: The Will to Believe (1897)
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: Keep the faculty of effort alive in you by a little gratuitous exercise every day.
+  who: William James
+  about: American philosopher and psychologist
+  source: The Principles of Psychology (1890)
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: The art of being wise is the art of knowing what to overlook.
+  who: William James
+  about: American philosopher and psychologist
+  source: The Principles of Psychology (1890)
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: Compared with what we ought to be, we are only half-awake.
+  who: William James
+  about: American philosopher and psychologist
+  source: Memories and Studies (1911), "The Energies of Men"
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: My first act of free will shall be to believe in free will.
+  who: William James
+  about: American philosopher and psychologist
+  source: Diary entry, April 30, 1870
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: The great thing, then, in all education, is to make our nervous system our ally instead of our enemy.
+  who: William James
+  about: American philosopher and psychologist
+  source: The Principles of Psychology (1890)
+  ref: https://en.wikiquote.org/wiki/William_James
+  group: thinker
+- text: I wanted to live deep and suck out all the marrow of life
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Walden (1854)
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: Only that day dawns to which we are awake. There is more day to dawn.
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Walden (1854)
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: Let him step to the music which he hears, however measured or far away.
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Walden (1854)
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: Money is not required to buy one necessity of the soul.
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Walden (1854)
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: How vain it is to sit down to write when you have not stood up to live.
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Journal, August 19, 1851
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: The perception of beauty is a moral test.
+  who: Henry David Thoreau
+  about: American writer who lived two years at Walden Pond
+  source: Journal, June 21, 1852
+  ref: https://en.wikiquote.org/wiki/Henry_David_Thoreau
+  group: thinker
+- text: Life can only be understood backwards; but it must be lived forwards.
+  who: Søren Kierkegaard
+  about: Danish philosopher
+  source: Journals (1843)
+  ref: https://en.wikiquote.org/wiki/S%C3%B8ren_Kierkegaard
+  group: thinker
+- text: Most men pursue pleasure with such breathless haste that they hurry past it.
+  who: Søren Kierkegaard
+  about: Danish philosopher
+  source: Either/Or, Part I (1843)
+  ref: https://en.wikiquote.org/wiki/S%C3%B8ren_Kierkegaard
+  group: thinker
+- text: It belongs to the imperfection of everything human that man can only attain his desire by passing through its opposite.
+  who: Søren Kierkegaard
+  about: Danish philosopher
+  source: Journals (1841)
+  ref: https://en.wikiquote.org/wiki/S%C3%B8ren_Kierkegaard
+  group: thinker
+- text: A free man thinks of death least of all things; and his wisdom is a meditation not of death but of life.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: Ethics (1677), Part IV, Prop. 67
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: But all things excellent are as difficult as they are rare.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: Ethics (1677), Part V, Prop. 42, Scholium
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: Extreme pride or dejection indicates extreme ignorance of self.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: Ethics (1677), Part IV, Prop. 55
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: Peace is not mere absence of war, but is a virtue that springs from force of character.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: Political Treatise (1677), Ch. 5
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: I have laboured carefully, not to mock, lament, or execrate human actions, but to understand them.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: Political Treatise (1677), Ch. 1
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: All happiness or unhappiness solely depends upon the quality of the object to which we are attached by love.
+  who: Baruch Spinoza
+  about: Dutch philosopher who wrote on ethics and freedom
+  source: On the Improvement of the Understanding (written 1662)
+  ref: https://en.wikiquote.org/wiki/Baruch_Spinoza
+  group: thinker
+- text: The good life is one inspired by love and guided by knowledge.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: What I Believe (1925)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: To fear love is to fear life, and those who fear life are already three parts dead.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: Marriage and Morals (1929)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: Thought is great and swift and free, the light of the world, and the chief glory of man.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: Why Men Fight (1917)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: To be without some of the things you want is an indispensable part of happiness.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: The Conquest of Happiness (1930)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: Of all forms of caution, caution in love is perhaps the most fatal to true happiness.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: The Conquest of Happiness (1930)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: The best life is the one in which the creative impulses play the largest part and the possessive impulses the smallest.
+  who: Bertrand Russell
+  about: British philosopher and mathematician
+  source: Political Ideals (1917)
+  ref: https://en.wikiquote.org/wiki/Bertrand_Russell
+  group: thinker
+- text: In the depths of winter, I finally learned that within me there lay an invincible summer.
+  who: Albert Camus
+  about: French-Algerian writer and Nobel laureate
+  source: Return to Tipasa (1954)
+  ref: https://en.wikiquote.org/wiki/Albert_Camus
+  group: thinker
+- text: The struggle itself toward the heights is enough to fill a man's heart.
+  who: Albert Camus
+  about: French-Algerian writer and Nobel laureate
+  source: The Myth of Sisyphus (1942)
+  ref: https://en.wikiquote.org/wiki/Albert_Camus
+  group: thinker
+- text: Real generosity toward the future consists in giving all to the present.
+  who: Albert Camus
+  about: French-Algerian writer and Nobel laureate
+  source: The Rebel (1951)
+  ref: https://en.wikiquote.org/wiki/Albert_Camus
+  group: thinker
+- text: Everything considered, a determined soul will always manage.
+  who: Albert Camus
+  about: French-Algerian writer and Nobel laureate
+  source: The Myth of Sisyphus (1942)
+  ref: https://en.wikiquote.org/wiki/Albert_Camus
+  group: thinker
+- text: Of all the schools of patience and lucidity, creation is the most effective.
+  who: Albert Camus
+  about: French-Algerian writer and Nobel laureate
+  source: The Myth of Sisyphus (1942)
+  ref: https://en.wikiquote.org/wiki/Albert_Camus
+  group: thinker
+- text: Attention is the rarest and purest form of generosity.
+  who: Simone Weil
+  about: French philosopher and writer
+  source: Letter to Joë Bousquet (1942)
+  ref: https://en.wikiquote.org/wiki/Simone_Weil
+  group: thinker
+- text: We do not obtain the most precious gifts by going in search of them but by waiting for them.
+  who: Simone Weil
+  about: French philosopher and writer
+  source: Reflections on the Right Use of School Studies, in Waiting on God (1950)
+  ref: https://en.wikiquote.org/wiki/Simone_Weil
+  group: thinker
+- text: If in our daily life we can smile, if we can be peaceful and happy, not only we, but everyone will profit from it.
+  who: Thich Nhat Hanh
+  about: Vietnamese Zen teacher and peace activist
+  source: Peace Is Every Step (1992)
+  ref: https://en.wikiquote.org/wiki/Thich_Nhat_Hanh
+  group: humanitarian
+- text: Breath is the bridge which connects life to consciousness, which unites your body to your thoughts.
+  who: Thich Nhat Hanh
+  about: Vietnamese Zen teacher and peace activist
+  source: The Miracle of Mindfulness (1999)
+  ref: https://en.wikiquote.org/wiki/Thich_Nhat_Hanh
+  group: humanitarian
+- text: Real strength is not in power, money, or weapons, but in deep, inner peace.
+  who: Thich Nhat Hanh
+  about: Vietnamese Zen teacher and peace activist
+  source: The Sun My Heart (1996)
+  ref: https://en.wikiquote.org/wiki/Thich_Nhat_Hanh
+  group: humanitarian
+- text: The source of a true smile is an awakened mind.
+  who: Thich Nhat Hanh
+  about: Vietnamese Zen teacher and peace activist
+  source: Peace Is Every Step (1992)
+  ref: https://en.wikiquote.org/wiki/Thich_Nhat_Hanh
+  group: humanitarian
+- text: Where we find a difficulty we may always expect that a discovery awaits us.
+  who: C. S. Lewis
+  about: British author and literature professor
+  source: Reflections on the Psalms (1958)
+  ref: https://en.wikiquote.org/wiki/C._S._Lewis
+  group: thinker
+- text: I can't imagine a man really enjoying a book and reading it only once.
+  who: C. S. Lewis
+  about: British author and literature professor
+  source: Letter to Arthur Greeves, February 1932 (They Stand Together, 1979)
+  ref: https://en.wikiquote.org/wiki/C._S._Lewis
+  group: thinker
+- text: This is the real secret of life—to be completely engaged with what you are doing in the here and now.
+  who: Alan Watts
+  about: British-American writer on Eastern philosophy
+  source: The Essence of Alan Watts (1977)
+  ref: https://en.wikiquote.org/wiki/Alan_Watts
+  group: thinker
+- text: We do not "come into" this world; we come out of it, as leaves from a tree.
+  who: Alan Watts
+  about: British-American writer on Eastern philosophy
+  source: The Book on the Taboo Against Knowing Who You Are (1966)
+  ref: https://en.wikiquote.org/wiki/Alan_Watts
+  group: thinker
+- text: Every individual is an expression of the whole realm of nature, a unique action of the total universe.
+  who: Alan Watts
+  about: British-American writer on Eastern philosophy
+  source: The Book on the Taboo Against Knowing Who You Are (1966)
+  ref: https://en.wikiquote.org/wiki/Alan_Watts
+  group: thinker
+- text: There is nothing wrong with meditating just to meditate, in the same way that you listen to music just for the music.
+  who: Alan Watts
+  about: British-American writer on Eastern philosophy
+  source: The Book on the Taboo Against Knowing Who You Are (1966)
+  ref: https://en.wikiquote.org/wiki/Alan_Watts
+  group: thinker
+- text: I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.
+  who: Abraham Maslow
+  about: American psychologist who studied human potential
+  source: 'The Psychology of Science: A Reconnaissance (1966)'
+  ref: https://en.wikiquote.org/wiki/Abraham_Maslow
+  group: thinker
+- text: A mind of slow apprehension is therefore not necessarily a weak mind.
+  who: Immanuel Kant
+  about: German philosopher of the Enlightenment
+  source: Anthropology from a Pragmatic Point of View (1798)
+  ref: https://en.wikiquote.org/wiki/Immanuel_Kant
+  group: thinker
+- text: In all things I saw the passion of life for growth and greatness, the drama of everlasting creation.
+  who: Will Durant
+  about: American historian and philosopher
+  source: Transition (1927)
+  ref: https://en.wikiquote.org/wiki/Will_Durant
+  group: thinker
+- text: It is Life that educates, and perhaps love more than anything else in life.
+  who: Will Durant
+  about: American historian and philosopher
+  source: Fallen Leaves (2014)
+  ref: https://en.wikiquote.org/wiki/Will_Durant
+  group: thinker
+- text: Life is that which is discontent, which struggles and seeks, which suffers and creates.
+  who: Will Durant
+  about: American historian and philosopher
+  source: Fallen Leaves (2014)
+  ref: https://en.wikiquote.org/wiki/Will_Durant
+  group: thinker
+- text: Blessed is he who has found his work; let him ask no other blessedness.
+  who: Thomas Carlyle
+  about: Scottish essayist and historian
+  source: Past and Present (1843), Book III, Ch. 11
+  ref: https://en.wikiquote.org/wiki/Thomas_Carlyle
+  group: thinker
+- text: All work is as seed sown; it grows and spreads, and sows itself anew.
+  who: Thomas Carlyle
+  about: Scottish essayist and historian
+  source: Essay on Boswell's Life of Johnson (1832)
+  ref: https://en.wikiquote.org/wiki/Thomas_Carlyle
+  group: thinker
+- text: The first duty for a man is still that of subduing Fear.
+  who: Thomas Carlyle
+  about: Scottish essayist and historian
+  source: Heroes and Hero-Worship (1840), Lecture I
+  ref: https://en.wikiquote.org/wiki/Thomas_Carlyle
+  group: thinker
+- text: Endurance is nobler than strength, and patience than beauty.
+  who: John Ruskin
+  about: English art critic and social thinker
+  source: The Two Paths (1859)
+  ref: https://en.wikiquote.org/wiki/John_Ruskin
+  group: thinker
+- text: Fine art is that in which the hand, the head, and the heart of man go together.
+  who: John Ruskin
+  about: English art critic and social thinker
+  source: The Two Paths (1859)
+  ref: https://en.wikiquote.org/wiki/John_Ruskin
+  group: thinker
+- text: To make your children capable of honesty is the beginning of education.
+  who: John Ruskin
+  about: English art critic and social thinker
+  source: Time and Tide (1867)
+  ref: https://en.wikiquote.org/wiki/John_Ruskin
+  group: thinker
+- text: An unimaginative person can neither be reverent nor kind.
+  who: John Ruskin
+  about: English art critic and social thinker
+  source: Fors Clavigera, Letter 34 (1873)
+  ref: https://en.wikiquote.org/wiki/John_Ruskin
+  group: thinker
+- text: All of one's life is a music, if one touches the notes rightly and in time.
+  who: John Ruskin
+  about: English art critic and social thinker
+  source: The Ethics of the Dust (1875)
+  ref: https://en.wikiquote.org/wiki/John_Ruskin
+  group: thinker
+- text: Cease conceiving of education as mere preparation for later life, and make it the full meaning of the present life.
+  who: John Dewey
+  about: American philosopher and education reformer
+  source: Self-Realization as the Moral Ideal (1893)
+  ref: https://en.wikiquote.org/wiki/John_Dewey
+  group: thinker
+- text: It is a familiar and significant saying that a problem well-put is half-solved.
+  who: John Dewey
+  about: American philosopher and education reformer
+  source: 'Logic: The Theory of Inquiry (1938)'
+  ref: https://en.wikiquote.org/wiki/John_Dewey
+  group: thinker
+- text: Every great advance in science has issued from a new audacity of imagination.
+  who: John Dewey
+  about: American philosopher and education reformer
+  source: The Quest for Certainty (1929)
+  ref: https://en.wikiquote.org/wiki/John_Dewey
+  group: thinker
+- text: Our dignity is not in what we do, but in what we understand.
+  who: George Santayana
+  about: Spanish-American philosopher and poet
+  source: The Genteel Tradition in American Philosophy (1911)
+  ref: https://en.wikiquote.org/wiki/George_Santayana
+  group: thinker
+- text: The young man who has not wept is a savage, and the old man who will not laugh is a fool.
+  who: George Santayana
+  about: Spanish-American philosopher and poet
+  source: Dialogues in Limbo (1926)
+  ref: https://en.wikiquote.org/wiki/George_Santayana
+  group: thinker
+- text: The truth is cruel, but it can be loved, and it makes free those who have loved it.
+  who: George Santayana
+  about: Spanish-American philosopher and poet
+  source: Little Essays (1921)
+  ref: https://en.wikiquote.org/wiki/George_Santayana
+  group: thinker
+- text: Eternal vigilance is the price of knowledge.
+  who: George Santayana
+  about: Spanish-American philosopher and poet
+  source: The Genteel Tradition in American Philosophy (1911)
+  ref: https://en.wikiquote.org/wiki/George_Santayana
+  group: thinker
+- text: The vitality of thought is in adventure.
+  who: Alfred North Whitehead
+  about: English mathematician and philosopher
+  source: Dialogues of Alfred North Whitehead (1954)
+  ref: https://en.wikiquote.org/wiki/Alfred_North_Whitehead
+  group: thinker
+- text: The art of progress is to preserve order amid change, and to preserve change amid order.
+  who: Alfred North Whitehead
+  about: English mathematician and philosopher
+  source: Process and Reality (1929)
+  ref: https://en.wikiquote.org/wiki/Alfred_North_Whitehead
+  group: thinker
+- text: Knowledge does not keep any better than fish.
+  who: Alfred North Whitehead
+  about: English mathematician and philosopher
+  source: The Aims of Education (1929)
+  ref: https://en.wikiquote.org/wiki/Alfred_North_Whitehead
+  group: thinker
+- text: Without adventure, civilization is in full decay.
+  who: Alfred North Whitehead
+  about: English mathematician and philosopher
+  source: Adventures of Ideas (1933)
+  ref: https://en.wikiquote.org/wiki/Alfred_North_Whitehead
+  group: thinker
+- text: You gain strength, courage and confidence by every experience in which you really stop to look fear in the face.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: You Learn by Living (1960), pp. 29-30
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: You must do the thing you think you cannot do.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: You Learn by Living (1960), pp. 29-30
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: Happiness is not a goal, it is a by-product.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: You Learn by Living (1960), p. 95
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: Life was meant to be lived, and curiosity must be kept alive.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: Preface (December 1960) to The Autobiography of Eleanor Roosevelt (1961), p. xix
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: All you need to do is to be curious, receptive, eager for experience.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: You Learn by Living (1960), p. 14
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: If there is no struggle, there is no progress.
+  who: Frederick Douglass
+  about: Escaped slave who became a leading writer and speaker
+  source: West India Emancipation speech, Canandaigua, New York (3 August 1857)
+  ref: https://en.wikiquote.org/wiki/Frederick_Douglass
+  group: humanitarian
+- text: Power concedes nothing without a demand. It never did and it never will.
+  who: Frederick Douglass
+  about: Escaped slave who became a leading writer and speaker
+  source: West India Emancipation speech, Canandaigua, New York (3 August 1857)
+  ref: https://en.wikiquote.org/wiki/Frederick_Douglass
+  group: humanitarian
+- text: Men might not get all they work for in this world, but they must certainly work for all they get.
+  who: Frederick Douglass
+  about: Escaped slave who became a leading writer and speaker
+  source: West India Emancipation speech, Canandaigua, New York (3 August 1857)
+  ref: https://en.wikiquote.org/wiki/Frederick_Douglass
+  group: humanitarian
+- text: A person is a person because he recognizes others as persons.
+  who: Desmond Tutu
+  about: South African archbishop who fought apartheid peacefully
+  source: Address at his enthronement as Anglican archbishop of Cape Town (7 September 1986)
+  ref: https://en.wikiquote.org/wiki/Desmond_Tutu
+  group: humanitarian
+- text: Without forgiveness there can be no future for a relationship between individuals or within and between nations.
+  who: Desmond Tutu
+  about: South African archbishop who fought apartheid peacefully
+  source: '"Truth and reconciliation", BBC Focus on Africa (January-March 2000)'
+  ref: https://en.wikiquote.org/wiki/Desmond_Tutu
+  group: humanitarian
+- text: Forgiveness is an absolute necessity for continued human existence.
+  who: Desmond Tutu
+  about: South African archbishop who fought apartheid peacefully
+  source: Foreword to Exploring Forgiveness (1998), p. xiii
+  ref: https://en.wikiquote.org/wiki/Desmond_Tutu
+  group: humanitarian
+- text: You and I are created for transcendence, laughter, caring.
+  who: Desmond Tutu
+  about: South African archbishop who fought apartheid peacefully
+  source: Wallenberg Lecture, University of Michigan (29 October 2008)
+  ref: https://en.wikiquote.org/wiki/Desmond_Tutu
+  group: humanitarian
+- text: Resentment and anger are bad for your blood pressure and your digestion.
+  who: Desmond Tutu
+  about: South African archbishop who fought apartheid peacefully
+  source: '"Truth and reconciliation", BBC Focus on Africa (January-March 2000)'
+  ref: https://en.wikiquote.org/wiki/Desmond_Tutu
+  group: humanitarian
+- text: Until he extends the circle of his compassion to all living things, man will not himself find peace.
+  who: Albert Schweitzer
+  about: Doctor who ran a hospital in Africa for decades
+  source: Kulturphilosophie (1923), translated as Philosophy of Civilisation (1949)
+  ref: https://en.wikiquote.org/wiki/Albert_Schweitzer
+  group: humanitarian
+- text: The ethic of Reverence for Life is the ethic of Love widened into universality.
+  who: Albert Schweitzer
+  about: Doctor who ran a hospital in Africa for decades
+  source: 'Out of My Life and Thought: An Autobiography (1933), Ch. 13, p. 188'
+  ref: https://en.wikiquote.org/wiki/Albert_Schweitzer
+  group: humanitarian
+- text: Thus we have each of us cause to think with deep gratitude of those who have lighted the flames within us.
+  who: Albert Schweitzer
+  about: Doctor who ran a hospital in Africa for decades
+  source: Memoirs of Childhood and Youth (1924)
+  ref: https://en.wikiquote.org/wiki/Albert_Schweitzer
+  group: humanitarian
+- text: The great secret of success is to go through life as a man who never gets used up.
+  who: Albert Schweitzer
+  about: Doctor who ran a hospital in Africa for decades
+  source: Memoirs of Childhood and Youth (1924)
+  ref: https://en.wikiquote.org/wiki/Albert_Schweitzer
+  group: humanitarian
+- text: Children are to be respected and I respect them deeply.
+  who: Fred Rogers
+  about: Host of the children's TV show Mister Rogers' Neighborhood
+  source: Interview by Joan Rivers on The Tonight Show (1983)
+  ref: https://en.wikiquote.org/wiki/Fred_Rogers
+  group: humanitarian
+- text: I give an expression of care every day to each child, to help him realize that he is unique.
+  who: Fred Rogers
+  about: Host of the children's TV show Mister Rogers' Neighborhood
+  source: Testimony before a U.S. Senate committee (1 May 1969)
+  ref: https://en.wikiquote.org/wiki/Fred_Rogers
+  group: humanitarian
+- text: I think everybody longs to be loved, and longs to know that he or she is lovable.
+  who: Fred Rogers
+  about: Host of the children's TV show Mister Rogers' Neighborhood
+  source: 'Fred Rogers: America''s Favorite Neighbor (television documentary, 2003)'
+  ref: https://en.wikiquote.org/wiki/Fred_Rogers
+  group: humanitarian
+- text: Civilization is a method of living, an attitude of equal respect for all men.
+  who: Jane Addams
+  about: American social reformer and Nobel Peace Prize winner
+  source: Speech, Honolulu (1933)
+  ref: https://en.wikiquote.org/wiki/Jane_Addams
+  group: humanitarian
+- text: To be true to ourselves, we must be true to others.
+  who: Jimmy Carter
+  about: US president who worked for peace and health after office
+  source: Inaugural Address (20 January 1977)
+  ref: https://en.wikiquote.org/wiki/Jimmy_Carter
+  group: humanitarian
+- text: We must not be selfish or timid if we hope to have a decent world for our children and our grandchildren.
+  who: Jimmy Carter
+  about: US president who worked for peace and health after office
+  source: Address to the Nation on Energy (18 April 1977)
+  ref: https://en.wikiquote.org/wiki/Jimmy_Carter
+  group: humanitarian
+- text: We must not allow fear to stand in our way.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Our March to Freedom Is Irreversible speech (1990)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: I would venture to say that there is something inherently good in all human beings.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Speech at the Zionist Christian Church Easter Conference, Moria (3 April 1994)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: We know it well that none of us acting alone can achieve success.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Inaugural celebration address, Pretoria (10 May 1994)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: I stand here before you not as a prophet but as a humble servant of you, the people.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Speech on the day of his release, Cape Town (11 February 1990)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: We have triumphed in the effort to implant hope in the breasts of the millions of our people.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Inaugural celebration address, Pretoria (10 May 1994)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: The time for the healing of the wounds has come.
+  who: Nelson Mandela
+  about: South African leader, prisoner for 27 years
+  source: Inaugural celebration address, Pretoria (10 May 1994)
+  ref: https://en.wikiquote.org/wiki/Nelson_Mandela
+  group: humanitarian
+- text: Victory attained by violence is tantamount to a defeat, for it is momentary.
+  who: Mahatma Gandhi
+  about: Leader of India's peaceful freedom movement
+  source: Satyagraha Leaflet No. 13 (3 May 1919)
+  ref: https://en.wikiquote.org/wiki/Mahatma_Gandhi
+  group: humanitarian
+- text: The weak can never forgive. Forgiveness is the attribute of the strong.
+  who: Mahatma Gandhi
+  about: Leader of India's peaceful freedom movement
+  source: Interview to the Press, Karachi (23 March 1931)
+  ref: https://en.wikiquote.org/wiki/Mahatma_Gandhi
+  group: humanitarian
+- text: Strength does not come from physical capacity. It comes from an indomitable will.
+  who: Mahatma Gandhi
+  about: Leader of India's peaceful freedom movement
+  source: '"The Doctrine of the Sword", Young India (11 August 1920)'
+  ref: https://en.wikiquote.org/wiki/Mahatma_Gandhi
+  group: humanitarian
+- text: Truth stands, even if there be no public support. It is self sustained.
+  who: Mahatma Gandhi
+  about: Leader of India's peaceful freedom movement
+  source: Young India 1924-1926 (1927)
+  ref: https://en.wikiquote.org/wiki/Mahatma_Gandhi
+  group: humanitarian
+- text: Freedom is not worth having if it does not connote freedom to err.
+  who: Mahatma Gandhi
+  about: Leader of India's peaceful freedom movement
+  source: Young India (12 March 1931)
+  ref: https://en.wikiquote.org/wiki/Mahatma_Gandhi
+  group: humanitarian
+- text: Time is the most precious gift in our possession, for it is the most irrevocable.
+  who: Dietrich Bonhoeffer
+  about: German pastor who stood against the Nazis
+  source: Letters and Papers from Prison (1967), p. 47
+  ref: https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer
+  group: humanitarian
+- text: Civil courage, in fact, can grow only out of the free responsibility of free men.
+  who: Dietrich Bonhoeffer
+  about: German pastor who stood against the Nazis
+  source: '"Civil Courage", Letters and Papers from Prison (1967), p. 5'
+  ref: https://en.wikiquote.org/wiki/Dietrich_Bonhoeffer
+  group: humanitarian
+- text: Until you dig a hole, you plant a tree, you water it and make it survive, you haven't done a thing.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: Speech at Goldman Awards, San Francisco (24 April 2006)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: The challenge is to restore the home of the tadpoles and give back to our children a world of beauty and wonder.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: Interview in TIME (10 October 2004)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: Trees are living symbols of peace and hope.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: Unbowed (2006)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: A tree has roots in the soil yet reaches to the sky.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: Unbowed (2006)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: We all share one planet and are one humanity; there is no escaping this reality.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: The Challenge for Africa (2009)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: I'm very conscious of the fact that you can't do it alone. It's teamwork.
+  who: Wangari Maathai
+  about: Kenyan woman who started a tree-planting movement
+  source: Interview in TIME (10 October 2004)
+  ref: https://en.wikiquote.org/wiki/Wangari_Maathai
+  group: humanitarian
+- text: We have all known the long loneliness and we have learned that the only solution is love and that love comes with community.
+  who: Dorothy Day
+  about: American writer who helped the poor and homeless
+  source: The Long Loneliness (1952), p. 286
+  ref: https://en.wikiquote.org/wiki/Dorothy_Day
+  group: humanitarian
+- text: The best thing to do with the best things in life is to give them up.
+  who: Dorothy Day
+  about: American writer who helped the poor and homeless
+  source: Interview in Time (29 December 1975)
+  ref: https://en.wikiquote.org/wiki/Dorothy_Day
+  group: humanitarian
+- text: The best way to take care of the environment is to take care of the environmentalist.
+  who: Thich Nhat Hanh
+  about: Vietnamese Zen teacher and peace activist
+  source: '"The Sun My Heart", in Engaged Buddhist Reader (1996)'
+  ref: https://en.wikiquote.org/wiki/Thich_Nhat_Hanh
+  group: humanitarian
+- text: The longest day must have its close — the gloomiest night will wear on to a morning.
+  who: Harriet Beecher Stowe
+  about: American author of Uncle Tom's Cabin
+  source: Uncle Tom's Cabin (1852)
+  ref: https://en.wikiquote.org/wiki/Harriet_Beecher_Stowe
+  group: humanitarian
+- text: To do common things perfectly is far better worth our endeavor than to do uncommon things respectably.
+  who: Harriet Beecher Stowe
+  about: American author of Uncle Tom's Cabin
+  source: Household Papers and Stories (1864)
+  ref: https://en.wikiquote.org/wiki/Harriet_Beecher_Stowe
+  group: humanitarian
+- text: Let us persevere and our triumph will be complete.
+  who: William Wilberforce
+  about: British leader who fought to end the slave trade
+  source: Speech before the House of Commons (18 April 1791)
+  ref: https://en.wikiquote.org/wiki/William_Wilberforce
+  group: humanitarian
+- text: My theory is, strong people don't need strong leaders.
+  who: Ella Baker
+  about: American civil rights organizer
+  source: Quoted in her obituary, The New York Times (17 December 1986)
+  ref: https://en.wikiquote.org/wiki/Ella_Baker
+  group: humanitarian
+- text: It is always timely and virtuous to change—to take in all humility a new path.
+  who: Bayard Rustin
+  about: American organizer of the 1963 March on Washington
+  source: Letter "To Local Board No. 63" (16 November 1943)
+  ref: https://en.wikiquote.org/wiki/Bayard_Rustin
+  group: humanitarian
+- text: Were there none who were discontented with what they have, the world would never reach anything better.
+  who: Florence Nightingale
+  about: English nurse who founded modern nursing
+  source: Cassandra (1860)
+  ref: https://en.wikiquote.org/wiki/Florence_Nightingale
+  group: humanitarian
+- text: I believe that the normal human heart is born good.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: This I Believe (1951)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: To eat bread without hope is still slowly to starve to death.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: To My Daughters, With Love (1967)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: The secret of joy in work is contained in one word — excellence.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: The Joy of Children (1966)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: All things are possible until they are proved impossible — and even the impossible may only be so, as of now.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: A Bridge for Passing (1962)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: The person who tries to live alone will not succeed as a human being.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: To My Daughters, With Love (1967)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: Every great mistake has a halfway moment, a split second when it can be recalled and perhaps remedied.
+  who: Pearl S. Buck
+  about: American novelist who helped children in need
+  source: What America Means to Me (1943)
+  ref: https://en.wikiquote.org/wiki/Pearl_S._Buck
+  group: humanitarian
+- text: Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: The Sense of Wonder (1965)
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: A child's world is fresh and new and beautiful, full of wonder and excitement.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: '"Help Your Child to Wonder" (1956)'
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: Hope is definitely not the same thing as optimism.
+  who: Václav Havel
+  about: Czech playwright who became his country's president
+  source: Disturbing the Peace (1986), Ch. 5
+  ref: https://en.wikiquote.org/wiki/V%C3%A1clav_Havel
+  group: humanitarian
+- text: Freedom and democracy include participation and therefore responsibility from us all.
+  who: Václav Havel
+  about: Czech playwright who became his country's president
+  source: New Year's Address to the Nation, Prague (1 January 1990)
+  ref: https://en.wikiquote.org/wiki/V%C3%A1clav_Havel
+  group: humanitarian
+- text: No mortal ever has been, no mortal ever will be like the soul just launched on the sea of life.
+  who: Elizabeth Cady Stanton
+  about: American leader of the women's rights movement
+  source: Address to the U.S. Congress Committee of the Judiciary (18 January 1892)
+  ref: https://en.wikiquote.org/wiki/Elizabeth_Cady_Stanton
+  group: humanitarian
+- text: We often confuse unconditional love with unconditional approval.
+  who: Henri Nouwen
+  about: Dutch priest and writer on compassion
+  source: Bread for the Journey (1996)
+  ref: https://en.wikiquote.org/wiki/Henri_Nouwen
+  group: humanitarian
+- text: Fear makes us run away from each other or cling to each other but does not create true intimacy.
+  who: Henri Nouwen
+  about: Dutch priest and writer on compassion
+  source: Lifesigns (1986), p. 30
+  ref: https://en.wikiquote.org/wiki/Henri_Nouwen
+  group: humanitarian
+- text: The world would never amount to a hill of beans if people didn't use their imaginations to think of the impossible.
+  who: Pete Seeger
+  about: American folk singer who sang for peace and justice
+  source: Pete Seeger's Storytelling Book (2001)
+  ref: https://en.wikiquote.org/wiki/Pete_Seeger
+  group: humanitarian
+- text: The key to the future of the world, is finding the optimistic stories and letting them be known.
+  who: Pete Seeger
+  about: American folk singer who sang for peace and justice
+  source: Quoted in The New York Times obituary (28 January 2014)
+  ref: https://en.wikiquote.org/wiki/Pete_Seeger
+  group: humanitarian
+- text: In a competition of love we'll all share in the victory, no matter who comes first.
+  who: Muhammad Ali
+  about: American boxing champion and humanitarian
+  source: The Soul of a Butterfly (2004), p. xxiv
+  ref: https://en.wikiquote.org/wiki/Muhammad_Ali
+  group: humanitarian
+- text: I set out on a journey of love, seeking truth, peace and understanding.
+  who: Muhammad Ali
+  about: American boxing champion and humanitarian
+  source: The Soul of a Butterfly (2004), p. xix
+  ref: https://en.wikiquote.org/wiki/Muhammad_Ali
+  group: humanitarian
+- text: Instead of always trying to impose our will on Nature we should sometimes be quiet and listen to what she has to tell us.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: Speech at Scripps College (June 1962)
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: There is one quality that characterizes all of us who deal with the sciences of the earth and its life—we are never bored.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: Speech (1954), in Lost Woods (1998)
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: The pleasures, the values of contact with the natural world, are not reserved for the scientists.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: Speech (1954), in Lost Woods (1998)
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: A rainy day is the perfect time for a walk in the woods.
+  who: Rachel Carson
+  about: American marine biologist and nature writer
+  source: The Sense of Wonder (1965)
+  ref: https://en.wikiquote.org/wiki/Rachel_Carson
+  group: thinker
+- text: To me every hour of the light and dark is a miracle.
+  who: Walt Whitman
+  about: American poet of Leaves of Grass
+  source: '"Miracles", Leaves of Grass (in Bartlett''s Familiar Quotations, 1919)'
+  ref: https://en.wikiquote.org/wiki/Walt_Whitman
+  group: thinker
+- text: I sound my barbaric yawp over the roofs of the world.
+  who: Walt Whitman
+  about: American poet of Leaves of Grass
+  source: '"Song of Myself", 52, Leaves of Grass (in Bartlett''s Familiar Quotations, 1919)'
+  ref: https://en.wikiquote.org/wiki/Walt_Whitman
+  group: thinker
+- text: What do you suppose will satisfy the soul except to walk free and own no superior?
+  who: Walt Whitman
+  about: American poet of Leaves of Grass
+  source: '"Laws for Creations", Leaves of Grass (in Bartlett''s Familiar Quotations, 1919)'
+  ref: https://en.wikiquote.org/wiki/Walt_Whitman
+  group: thinker
+- text: I announce a life that shall be copious, vehement, spiritual, bold.
+  who: Walt Whitman
+  about: American poet of Leaves of Grass
+  source: '"So Long!", Leaves of Grass (in Bartlett''s Familiar Quotations, 1919)'
+  ref: https://en.wikiquote.org/wiki/Walt_Whitman
+  group: thinker
+- text: Each of us inevitable; each of us limitless — each of us with his or her right upon the earth.
+  who: Walt Whitman
+  about: American poet of Leaves of Grass
+  source: '"Salut au Monde", 11, Leaves of Grass (in Bartlett''s Familiar Quotations, 1919)'
+  ref: https://en.wikiquote.org/wiki/Walt_Whitman
+  group: humanitarian
+- text: A truth is to be known always, to be uttered sometimes.
+  who: Kahlil Gibran
+  about: Lebanese-American poet and artist
+  source: Sand and Foam (1926)
+  ref: https://en.wikiquote.org/wiki/Kahlil_Gibran
+  group: thinker
+- text: If you sing of beauty though alone in the heart of the desert you will have an audience.
+  who: Kahlil Gibran
+  about: Lebanese-American poet and artist
+  source: Sand and Foam (1926)
+  ref: https://en.wikiquote.org/wiki/Kahlil_Gibran
+  group: thinker
+- text: Not everything that is faced can be changed; but nothing can be changed until it is faced.
+  who: James Baldwin
+  about: American novelist and essayist
+  source: '"As Much Truth As One Can Bear", The New York Times Book Review (14 January 1962)'
+  ref: https://en.wikiquote.org/wiki/James_Baldwin
+  group: thinker
+- text: Everything depends on how relentlessly one forces from this experience the last drop, sweet or bitter, it can possibly give.
+  who: James Baldwin
+  about: American novelist and essayist
+  source: '"Autobiographical Notes" (1952)'
+  ref: https://en.wikiquote.org/wiki/James_Baldwin
+  group: thinker
+- text: I want to be an honest man and a good writer.
+  who: James Baldwin
+  about: American novelist and essayist
+  source: '"Autobiographical Notes" (1952)'
+  ref: https://en.wikiquote.org/wiki/James_Baldwin
+  group: thinker
+- text: One must say Yes to life, and embrace it wherever it is found — and it is found in terrible places.
+  who: James Baldwin
+  about: American novelist and essayist
+  source: Nothing Personal (1964)
+  ref: https://en.wikiquote.org/wiki/James_Baldwin
+  group: thinker
+- text: Thinking is a momentary dismissal of irrelevancies.
+  who: Buckminster Fuller
+  about: American designer, inventor and futurist
+  source: 'Utopia or Oblivion: The Prospects of Humanity (1969)'
+  ref: https://en.wikiquote.org/wiki/Buckminster_Fuller
+  group: thinker
+- text: It is one of our most exciting discoveries that local discovery leads to a complex of further discoveries.
+  who: Buckminster Fuller
+  about: American designer, inventor and futurist
+  source: 'Synergetics: Explorations in the Geometry of Thinking (1975)'
+  ref: https://en.wikiquote.org/wiki/Buckminster_Fuller
+  group: thinker
+- text: There is no joy equal to that of being able to work for all humanity and doing what you're doing well.
+  who: Buckminster Fuller
+  about: American designer, inventor and futurist
+  source: Critical Path (1981)
+  ref: https://en.wikiquote.org/wiki/Buckminster_Fuller
+  group: humanitarian
+- text: To science, not even the bark of a tree or a drop of pond water is dull or a handful of dirt banal.
+  who: Jane Jacobs
+  about: Urbanist and author of city life classics
+  source: Dark Age Ahead (2004), Chapter Four
+  ref: https://en.wikiquote.org/wiki/Jane_Jacobs
+  group: thinker
+- text: In the fields of observation chance favours only the prepared mind.
+  who: Louis Pasteur
+  about: French chemist and microbiologist
+  source: Lecture, University of Lille (7 December 1854)
+  ref: https://en.wikiquote.org/wiki/Louis_Pasteur
+  group: thinker
+- text: Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world.
+  who: Louis Pasteur
+  about: French chemist and microbiologist
+  source: Quoted in Louis Pasteur, Free Lance of Science (1960) by René Dubos, Ch. 3
+  ref: https://en.wikiquote.org/wiki/Louis_Pasteur
+  group: humanitarian
+- text: The greatest danger to our future is apathy.
+  who: Jane Goodall
+  about: Primatologist who studied chimpanzees
+  source: '"The Power of One", Time Magazine (26 August 2002)'
+  ref: https://en.wikiquote.org/wiki/Jane_Goodall
+  group: humanitarian
+- text: My mission is to create a world where we can live in harmony with nature.
+  who: Jane Goodall
+  about: Primatologist who studied chimpanzees
+  source: '"Then & Now: Jane Goodall", CNN (19 June 2005)'
+  ref: https://en.wikiquote.org/wiki/Jane_Goodall
+  group: humanitarian
+- text: Change happens by listening and then starting a dialogue with the people who are doing something you don't believe is right.
+  who: Jane Goodall
+  about: Primatologist who studied chimpanzees
+  source: Reported in Yolanda Brooks, Do Animals Have Rights? (2008)
+  ref: https://en.wikiquote.org/wiki/Jane_Goodall
+  group: humanitarian
+- text: All of us have to learn how to invent our lives, make them up, imagine them.
+  who: Ursula K. Le Guin
+  about: American author of fantasy and science fiction
+  source: The Wave in the Mind (2004)
+  ref: https://en.wikiquote.org/wiki/Ursula_K._Le_Guin
+  group: thinker
+- text: Great artists make the roads; good teachers and good companions can point them out.
+  who: Ursula K. Le Guin
+  about: American author of fantasy and science fiction
+  source: The Language of the Night (1979)
+  ref: https://en.wikiquote.org/wiki/Ursula_K._Le_Guin
+  group: thinker
+- text: The artist deals in what cannot be said in words.
+  who: Ursula K. Le Guin
+  about: American author of fantasy and science fiction
+  source: Introduction to The Left Hand of Darkness (1976)
+  ref: https://en.wikiquote.org/wiki/Ursula_K._Le_Guin
+  group: thinker
+- text: Recreate the world in your own image and make it better for your having been here.
+  who: Ray Bradbury
+  about: American author of Fahrenheit 451
+  source: Speech at Brown University (1995)
+  ref: https://en.wikiquote.org/wiki/Ray_Bradbury
+  group: thinker
+- text: The gift of life is so precious that we should feel an obligation to pay back the universe for the gift of being alive.
+  who: Ray Bradbury
+  about: American author of Fahrenheit 451
+  source: Speech at Eureka College (1997)
+  ref: https://en.wikiquote.org/wiki/Ray_Bradbury
+  group: humanitarian
+- text: I believe the universe created us — we are an audience for miracles.
+  who: Ray Bradbury
+  about: American author of Fahrenheit 451
+  source: AARP Magazine (July-August 2008)
+  ref: https://en.wikiquote.org/wiki/Ray_Bradbury
+  group: thinker
+- text: Mysteries abound where most we seek for answers.
+  who: Ray Bradbury
+  about: American author of Fahrenheit 451
+  source: '"All flesh is one: what matter scores?", When Elephants Last In The Dooryard Bloomed (1973)'
+  ref: https://en.wikiquote.org/wiki/Ray_Bradbury
+  group: thinker
+- text: Science, like art, is not a copy of nature but a re-creation of her.
+  who: Jacob Bronowski
+  about: Mathematician and writer of The Ascent of Man
+  source: Science and Human Values (1956)
+  ref: https://en.wikiquote.org/wiki/Jacob_Bronowski
+  group: thinker
+- text: Almost everything that we do that is worth doing is done in the first place in the mind's eye.
+  who: Jacob Bronowski
+  about: Mathematician and writer of The Ascent of Man
+  source: The Reach of Imagination (1967)
+  ref: https://en.wikiquote.org/wiki/Jacob_Bronowski
+  group: thinker
+- text: Progress is the exploration of our own error.
+  who: Jacob Bronowski
+  about: Mathematician and writer of The Ascent of Man
+  source: The Origins of Knowledge and Imagination (1978)
+  ref: https://en.wikiquote.org/wiki/Jacob_Bronowski
+  group: thinker
+- text: Tell me, what is it you plan to do with your one wild and precious life?
+  who: Mary Oliver
+  about: American poet who wrote about nature
+  source: '"The Summer Day", New and Selected Poems (1992)'
+  ref: https://en.wikiquote.org/wiki/Mary_Oliver
+  group: thinker
+- text: Keep some room in your heart for the unimaginable.
+  who: Mary Oliver
+  about: American poet who wrote about nature
+  source: Evidence (2009)
+  ref: https://en.wikiquote.org/wiki/Mary_Oliver
+  group: thinker
+- text: I don't want to end up simply having visited this world.
+  who: Mary Oliver
+  about: American poet who wrote about nature
+  source: '"When Death Comes", New and Selected Poems, Volume 2 (2005)'
+  ref: https://en.wikiquote.org/wiki/Mary_Oliver
+  group: thinker
+- text: The true perfection of man lies, not in what man has, but in what man is.
+  who: Oscar Wilde
+  about: Irish playwright, poet and essayist
+  source: The Soul of Man Under Socialism (1891)
+  ref: https://en.wikiquote.org/wiki/Oscar_Wilde
+  group: thinker
+- text: When man is happy, he is in harmony with himself and his environment.
+  who: Oscar Wilde
+  about: Irish playwright, poet and essayist
+  source: The Critic as Artist (1891)
+  ref: https://en.wikiquote.org/wiki/Oscar_Wilde
+  group: thinker
+- text: Form ever follows function, and this is the law.
+  who: Louis Sullivan
+  about: American architect, teacher of Frank Lloyd Wright
+  source: The Tall Office Building Artistically Considered (1896)
+  ref: https://en.wikiquote.org/wiki/Louis_Sullivan
+  group: thinker
+- text: A work of art is good if it has grown out of necessity.
+  who: Rainer Maria Rilke
+  about: Austrian-Bohemian poet
+  source: Letter One (17 February 1903), Letters to a Young Poet (1934)
+  ref: https://en.wikiquote.org/wiki/Rainer_Maria_Rilke
+  group: thinker
+- text: 'Believe me: life is in the right, always.'
+  who: Rainer Maria Rilke
+  about: Austrian-Bohemian poet
+  source: Letter Nine (4 November 1904), Letters to a Young Poet (1934)
+  ref: https://en.wikiquote.org/wiki/Rainer_Maria_Rilke
+  group: thinker
+- text: 'Young people, who are beginners in everything, cannot yet know love: they have to learn it.'
+  who: Rainer Maria Rilke
+  about: Austrian-Bohemian poet
+  source: Letter Seven (14 May 1904), Letters to a Young Poet (1934)
+  ref: https://en.wikiquote.org/wiki/Rainer_Maria_Rilke
+  group: humanitarian
+- text: I'm not afraid of storms, for I'm learning how to sail my ship.
+  who: Louisa May Alcott
+  about: American author of Little Women
+  source: Little Women (1868), Ch. 44
+  ref: https://en.wikiquote.org/wiki/Louisa_May_Alcott
+  group: thinker
+- text: Those who don't believe in magic will never find it.
+  who: Roald Dahl
+  about: British author of children's classics
+  source: The Minpins (1991)
+  ref: https://en.wikiquote.org/wiki/Roald_Dahl
+  group: thinker
+- text: It doesn't matter who you are or what you look like so long as somebody loves you.
+  who: Roald Dahl
+  about: British author of children's classics
+  source: The Witches (1983)
+  ref: https://en.wikiquote.org/wiki/Roald_Dahl
+  group: humanitarian
+- text: Knowing a man well never leads to hate and nearly always leads to love.
+  who: John Steinbeck
+  about: American novelist, Nobel Prize winner
+  source: Journal entry (1938)
+  ref: https://en.wikiquote.org/wiki/John_Steinbeck
+  group: humanitarian
+- text: Try to understand men, if you understand each other you will be kind to each other.
+  who: John Steinbeck
+  about: American novelist, Nobel Prize winner
+  source: Journal entry (1938)
+  ref: https://en.wikiquote.org/wiki/John_Steinbeck
+  group: humanitarian
+- text: It is the duty of the writer to lift up, to extend, to encourage.
+  who: John Steinbeck
+  about: American novelist, Nobel Prize winner
+  source: Work diary for East of Eden (28 June 1951)
+  ref: https://en.wikiquote.org/wiki/John_Steinbeck
+  group: humanitarian
+- text: A good writer always works at the impossible.
+  who: John Steinbeck
+  about: American novelist, Nobel Prize winner
+  source: Work diary for East of Eden (29 January 1951)
+  ref: https://en.wikiquote.org/wiki/John_Steinbeck
+  group: thinker
+- text: You study, you learn, but you guard the original naiveté.
+  who: Henri Matisse
+  about: French painter and cut-out artist
+  source: Time magazine (1950)
+  ref: https://en.wikiquote.org/wiki/Henri_Matisse
+  group: thinker
+- text: Drawing is like making an expressive gesture with the advantage of permanence.
+  who: Henri Matisse
+  about: French painter and cut-out artist
+  source: The Christian Science Monitor (1985)
+  ref: https://en.wikiquote.org/wiki/Henri_Matisse
+  group: thinker
+- text: I'd take the awe of understanding over the awe of ignorance any day.
+  who: Douglas Adams
+  about: English author of The Hitchhiker's Guide to the Galaxy
+  source: The Salmon of Doubt (2002)
+  ref: https://en.wikiquote.org/wiki/Douglas_Adams
+  group: thinker
+- text: Equipped with his five senses, man explores the universe around him and calls the adventure Science.
+  who: Edwin Hubble
+  about: American astronomer who found other galaxies
+  source: '"The Exploration of Space", Harper''s Magazine (May 1929)'
+  ref: https://en.wikiquote.org/wiki/Edwin_Hubble
+  group: thinker
+- text: Science is the one human activity that is truly progressive.
+  who: Edwin Hubble
+  about: American astronomer who found other galaxies
+  source: The Realm of the Nebulae (1936)
+  ref: https://en.wikiquote.org/wiki/Edwin_Hubble
+  group: thinker
+- text: If I can stop one heart from breaking, I shall not live in vain.
+  who: Emily Dickinson
+  about: American poet
+  source: Collected Poems (1993), "Life", p. 6
+  ref: https://en.wikiquote.org/wiki/Emily_Dickinson
+  group: humanitarian
+- text: We turn not older with years, but newer every day.
+  who: Emily Dickinson
+  about: American poet
+  source: Letter to Frances and Louise Norcross (late 1872)
+  ref: https://en.wikiquote.org/wiki/Emily_Dickinson
+  group: thinker
+- text: To live is so startling, it leaves but little room for other occupations.
+  who: Emily Dickinson
+  about: American poet
+  source: The Letters of Emily Dickinson (1958)
+  ref: https://en.wikiquote.org/wiki/Emily_Dickinson
+  group: thinker
+- text: “Hope” is the thing with feathers — / That perches in the soul —
+  who: Emily Dickinson
+  about: American poet
+  source: The Complete Poems of Emily Dickinson (1960)
+  ref: https://en.wikiquote.org/wiki/Emily_Dickinson
+  group: thinker
+- text: Life is a luminous halo, a semi-transparent envelope surrounding us from the beginning of consciousness to the end.
+  who: Virginia Woolf
+  about: English novelist and essayist
+  source: The Common Reader (1925)
+  ref: https://en.wikiquote.org/wiki/Virginia_Woolf
+  group: thinker
+- text: Beauty is everywhere, and beauty is only two finger's-breadth from goodness.
+  who: Virginia Woolf
+  about: English novelist and essayist
+  source: The Common Reader (1925)
+  ref: https://en.wikiquote.org/wiki/Virginia_Woolf
+  group: thinker
+- text: No need to hurry. No need to sparkle. No need to be anybody but oneself.
+  who: Virginia Woolf
+  about: English novelist and essayist
+  source: A Room of One's Own (1929)
+  ref: https://en.wikiquote.org/wiki/Virginia_Woolf
+  group: thinker
+- text: Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.
+  who: Virginia Woolf
+  about: English novelist and essayist
+  source: A Room of One's Own (1929)
+  ref: https://en.wikiquote.org/wiki/Virginia_Woolf
+  group: thinker
+- text: Without self-confidence we are as babes in the cradle.
+  who: Virginia Woolf
+  about: English novelist and essayist
+  source: A Room of One's Own (1929)
+  ref: https://en.wikiquote.org/wiki/Virginia_Woolf
+  group: thinker
+- text: Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly.
+  who: Langston Hughes
+  about: American poet of the Harlem Renaissance
+  source: '"Dreams", in Golden Slippers, ed. Arna Bontemps (1941)'
+  ref: https://en.wikiquote.org/wiki/Langston_Hughes
+  group: thinker
+- text: Liberty lends us her wings and Hope guides us by her star.
+  who: Charlotte Brontë
+  about: English novelist, author of Jane Eyre
+  source: Villette (1853), Ch. VI
+  ref: https://en.wikiquote.org/wiki/Charlotte_Bront%C3%AB
+  group: thinker
+- text: We can only see a short distance ahead, but we can see plenty there that needs to be done.
+  who: Alan Turing
+  about: British mathematician and computing pioneer
+  source: Computing Machinery and Intelligence (1950)
+  ref: https://en.wikiquote.org/wiki/Alan_Turing
+  group: thinker
+- text: The only medicine for suffering, crime, and all the other woes of mankind, is wisdom.
+  who: Thomas Henry Huxley
+  about: English biologist and teacher of science
+  source: A Liberal Education and Where to Find It (1868)
+  ref: https://en.wikiquote.org/wiki/Thomas_Henry_Huxley
+  group: thinker
+- text: The great end of life is not knowledge but action.
+  who: Thomas Henry Huxley
+  about: English biologist and teacher of science
+  source: '"Technical Education" (1877)'
+  ref: https://en.wikiquote.org/wiki/Thomas_Henry_Huxley
+  group: thinker
+- text: A great chapter of the history of the world is written in the chalk.
+  who: Thomas Henry Huxley
+  about: English biologist and teacher of science
+  source: On a Piece of Chalk (1868)
+  ref: https://en.wikiquote.org/wiki/Thomas_Henry_Huxley
+  group: thinker
+- text: Logical consequences are the scarecrows of fools and the beacons of wise men.
+  who: Thomas Henry Huxley
+  about: English biologist and teacher of science
+  source: On the Hypothesis that Animals are Automata, and Its History (1874)
+  ref: https://en.wikiquote.org/wiki/Thomas_Henry_Huxley
+  group: thinker
+- text: The man who is all morality and intellect, although he may be good and even great, is, after all, only half a man.
+  who: Thomas Henry Huxley
+  about: English biologist and teacher of science
+  source: Universities, Actual and Ideal (1874)
+  ref: https://en.wikiquote.org/wiki/Thomas_Henry_Huxley
+  group: thinker
+- text: Our imagination is struck only by what is great; but the lover of natural philosophy should reflect equally on little things.
+  who: Alexander von Humboldt
+  about: German naturalist and explorer
+  source: Personal Narrative of Travels to the Equinoctial Regions of America (1814-1829), trans. Thomasina Ross
+  ref: https://en.wikiquote.org/wiki/Alexander_von_Humboldt
+  group: thinker
+- text: Love your Enemies, for they tell you your Faults.
+  who: Benjamin Franklin
+  about: Printer, inventor, and founding statesman
+  source: Poor Richard's Almanack (1756)
+  ref: https://en.wikiquote.org/wiki/Benjamin_Franklin
+  group: thinker
+- text: Sell not virtue to purchase wealth, nor Liberty to purchase power.
+  who: Benjamin Franklin
+  about: Printer, inventor, and founding statesman
+  source: Poor Richard's Almanack (1738)
+  ref: https://en.wikiquote.org/wiki/Benjamin_Franklin
+  group: thinker
+- text: If you desire many things, many things will seem but a few.
+  who: Benjamin Franklin
+  about: Printer, inventor, and founding statesman
+  source: Poor Richard's Almanack (November 1736)
+  ref: https://en.wikiquote.org/wiki/Benjamin_Franklin
+  group: thinker
+- text: For my own Part, when I am employed in serving others, I do not look upon myself as conferring Favours, but as paying Debts.
+  who: Benjamin Franklin
+  about: Printer, inventor, and founding statesman
+  source: Letter to Joseph Huey (6 June 1753)
+  ref: https://en.wikiquote.org/wiki/Benjamin_Franklin
+  group: humanitarian
+- text: Failure is not fatal but failure to change might be.
+  who: John Wooden
+  about: UCLA basketball coach, 10 national titles
+  source: 'Wooden: A Lifetime of Observations and Reflections On and Off the Court (1997)'
+  ref: https://en.wikiquote.org/wiki/John_Wooden
+  group: humanitarian
+- text: The main ingredient of stardom, is the rest of the team.
+  who: John Wooden
+  about: UCLA basketball coach, 10 national titles
+  source: They Call Me Coach (1988)
+  ref: https://en.wikiquote.org/wiki/John_Wooden
+  group: humanitarian
+- text: I'm not concerned with your liking or disliking me. All I ask is that you respect me as a human being.
+  who: Jackie Robinson
+  about: Broke baseball's color barrier with the Dodgers in 1947
+  source: Statement to Brooklyn Dodgers teammates (1947), quoted in The Impact and Legacy Years, 1941, 1947, 1968 (2000) by Fred Pulis
+  ref: https://en.wikiquote.org/wiki/Jackie_Robinson
+  group: humanitarian
+- text: A life is not important except in the impact it has on other lives.
+  who: Jackie Robinson
+  about: Broke baseball's color barrier with the Dodgers in 1947
+  source: 'I Never Had It Made: An Autobiography of Jackie Robinson (1972), Epilogue'
+  ref: https://en.wikiquote.org/wiki/Jackie_Robinson
+  group: humanitarian
+- text: I was part of a team, and I dedicated myself to making that team the best.
+  who: Bill Russell
+  about: Celtics center, 11 NBA titles
+  source: '"I''m Not Involved Anymore," Sports Illustrated (1969)'
+  ref: https://en.wikiquote.org/wiki/Bill_Russell
+  group: humanitarian
+- text: I made the decisions, but I listened an awful lot.
+  who: Bill Russell
+  about: Celtics center, 11 NBA titles
+  source: '"I''m Not Involved Anymore," Sports Illustrated (1969)'
+  ref: https://en.wikiquote.org/wiki/Bill_Russell
+  group: humanitarian
+- text: I consider myself the luckiest man on the face of the earth.
+  who: Lou Gehrig
+  about: Yankees first baseman, the Iron Horse
+  source: Farewell speech, Lou Gehrig Appreciation Day, Yankee Stadium (4 July 1939)
+  ref: https://en.wikiquote.org/wiki/Lou_Gehrig
+  group: humanitarian
+- text: I have been in ballparks for 17 years, and I have never received anything but kindness and encouragement from you fans.
+  who: Lou Gehrig
+  about: Yankees first baseman, the Iron Horse
+  source: Farewell speech, Lou Gehrig Appreciation Day, Yankee Stadium (4 July 1939)
+  ref: https://en.wikiquote.org/wiki/Lou_Gehrig
+  group: humanitarian
+- text: We shall play every game to the hilt with every ounce of fiber we have in our bodies.
+  who: Vince Lombardi
+  about: Green Bay Packers coach, won the first two Super Bowls
+  source: Reported in Donald T. Phillips, Run To Win (2001), p. 16
+  ref: https://en.wikiquote.org/wiki/Vince_Lombardi
+  group: humanitarian
+- text: I have found people treat you like you treat them.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Profile in The Sporting News (1964)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: It is not what you do in baseball or sports, but how hard you try.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Tris Speaker Memorial Award acceptance speech (29 January 1971)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: Accomplishment is something you cannot buy.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Tris Speaker Memorial Award acceptance speech (29 January 1971)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: If we have respect for our fathers and we have respect for our children, we will have a better life.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Tris Speaker Memorial Award acceptance speech (29 January 1971)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: I learned the right way to live from my parents.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Les Biederman, "Clemente, 32, Pays Tribute to Parents," The Sporting News (3 September 1966)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: I want everybody in the world to know that this is the way I play all the time.
+  who: Roberto Clemente
+  about: Pirates outfielder and tireless humanitarian
+  source: Roger Angell, "Some Pirates and Lesser Men," The New Yorker (6 November 1971)
+  ref: https://en.wikiquote.org/wiki/Roberto_Clemente
+  group: humanitarian
+- text: I hold the maxim no less applicable to public than to private affairs, that honesty is always the best policy.
+  who: George Washington
+  about: First U.S. president, led the Continental Army
+  source: Farewell Address (17 September 1796)
+  ref: https://en.wikiquote.org/wiki/George_Washington
+  group: humanitarian
+- text: It is better to offer no excuse than a bad one.
+  who: George Washington
+  about: First U.S. president, led the Continental Army
+  source: Letter to Harriet Washington (30 October 1791)
+  ref: https://en.wikiquote.org/wiki/George_Washington
+  group: humanitarian
+- text: Rise early, that by habit it may become familiar, agreeable, healthy, and profitable.
+  who: George Washington
+  about: First U.S. president, led the Continental Army
+  source: Letter to George Washington Parke Custis (7 January 1798)
+  ref: https://en.wikiquote.org/wiki/George_Washington
+  group: humanitarian
+- text: It is infinitely better to have a few good men than many indifferent ones.
+  who: George Washington
+  about: First U.S. president, led the Continental Army
+  source: Letter to James McHenry (10 August 1798)
+  ref: https://en.wikiquote.org/wiki/George_Washington
+  group: humanitarian
+- text: Example, whether it be good or bad, has a powerful influence.
+  who: George Washington
+  about: First U.S. president, led the Continental Army
+  source: Letter to Lord Stirling (5 March 1780)
+  ref: https://en.wikiquote.org/wiki/George_Washington
+  group: humanitarian
+- text: I set out with high hope, and a fixed purpose, at whatever cost of trouble, to learn how to read.
+  who: Frederick Douglass
+  about: Escaped slave who became a leading writer and speaker
+  source: Narrative of the Life of Frederick Douglass, An American Slave (1845)
+  ref: https://en.wikiquote.org/wiki/Frederick_Douglass
+  group: humanitarian
+- text: I cannot breathe for you, or you for me; I must breathe for myself, and you for yourself.
+  who: Frederick Douglass
+  about: Escaped slave who became a leading writer and speaker
+  source: Letter to Thomas Auld (3 September 1848)
+  ref: https://en.wikiquote.org/wiki/Frederick_Douglass
+  group: humanitarian
+- text: The most important thing in any relationship is not what you get but what you give.
+  who: Eleanor Roosevelt
+  about: US first lady who worked for human rights
+  source: This Is My Story (1937)
+  ref: https://en.wikiquote.org/wiki/Eleanor_Roosevelt
+  group: humanitarian
+- text: Those who are really in earnest must be willing to be anything or nothing in the world's estimation.
+  who: Susan B. Anthony
+  about: Leader who spent her life working for equal rights
+  source: On the Campaign for Divorce Law Reform (1860)
+  ref: https://en.wikiquote.org/wiki/Susan_B._Anthony
+  group: humanitarian
+- text: You just can't beat the person who never gives up.
+  who: Babe Ruth
+  about: Yankees slugger and baseball legend
+  source: '"Bat It Out!," The Rotarian (1940)'
+  ref: https://en.wikiquote.org/wiki/Babe_Ruth
+  group: humanitarian
+- text: Be ashamed to die until you have won some victory for humanity.
+  who: Horace Mann
+  about: Pioneer of free public schools in America
+  source: Address at Antioch College (1859)
+  ref: https://en.wikiquote.org/wiki/Horace_Mann
+  group: thinker
+- text: Resolve to edge in a little reading every day, if it is but a single sentence.
+  who: Horace Mann
+  about: Pioneer of free public schools in America
+  source: The Common School Journal, Vol. V, No. 19 (2 October 1843)
+  ref: https://en.wikiquote.org/wiki/Horace_Mann
+  group: thinker
+- text: Every addition to true knowledge is an addition to human power.
+  who: Horace Mann
+  about: Pioneer of free public schools in America
+  source: Lectures on Education (1855), Lecture 1
+  ref: https://en.wikiquote.org/wiki/Horace_Mann
+  group: thinker
+- text: Books are the windows through which the soul looks out.
+  who: Horace Mann
+  about: Pioneer of free public schools in America
+  source: The Duty of Owning Books (1859)
+  ref: https://en.wikiquote.org/wiki/Horace_Mann
+  group: thinker
+- text: If any man seeks for greatness, let him forget greatness and ask for truth, and he will find both.
+  who: Horace Mann
+  about: Pioneer of free public schools in America
+  source: Journal entry (29 October 1838)
+  ref: https://en.wikiquote.org/wiki/Horace_Mann
+  group: thinker
+- text: I have thought it my duty to exhibit things as they are, not as they ought to be.
+  who: Alexander Hamilton
+  about: Founding Father and first Treasury Secretary
+  source: Letter to Robert Morris (13 August 1782)
+  ref: https://en.wikiquote.org/wiki/Alexander_Hamilton
+  group: thinker
+- text: I never expect to see a perfect work from imperfect man.
+  who: Alexander Hamilton
+  about: Founding Father and first Treasury Secretary
+  source: The Federalist No. 85 (1788)
+  ref: https://en.wikiquote.org/wiki/Alexander_Hamilton
+  group: thinker
+- text: Let us not despair; it is a blessed cause, and success, ere long, will crown our exertions.
+  who: William Wilberforce
+  about: British leader who fought to end the slave trade
+  source: Speech before the House of Commons (18 April 1791)
+  ref: https://en.wikiquote.org/wiki/William_Wilberforce
+  group: humanitarian
+- text: Mind is the great lever of all things; human thought is the process by which human ends are ultimately answered.
+  who: Daniel Webster
+  about: American statesman and famous speaker
+  source: Address on Laying the Cornerstone of the Bunker Hill Monument (17 June 1825)
+  ref: https://en.wikiquote.org/wiki/Daniel_Webster
+  group: thinker
+- text: Knowledge, in truth, is the great sun in the firmament.
+  who: Daniel Webster
+  about: American statesman and famous speaker
+  source: Address on Laying the Cornerstone of the Bunker Hill Monument (17 June 1825)
+  ref: https://en.wikiquote.org/wiki/Daniel_Webster
+  group: thinker
+- text: Justice, sir, is the great interest of man on Earth.
+  who: Daniel Webster
+  about: American statesman and famous speaker
+  source: On Mr. Justice Story (12 September 1845)
+  ref: https://en.wikiquote.org/wiki/Daniel_Webster
+  group: thinker
+- text: Good actions give strength to ourselves, and inspire good actions in others.
+  who: Samuel Smiles
+  about: Scottish author of the classic book Self-Help
+  source: 'Duty: With Illustrations of Courage, Patience, and Endurance (1880), Ch. 2, p. 49'
+  ref: https://en.wikiquote.org/wiki/Samuel_Smiles
+  group: thinker
+- text: Be honest, and remember that honesty counts for nothing unless back of it lie courage and efficiency.
+  who: Theodore Roosevelt
+  about: 26th U.S. president, naturalist and writer
+  source: Address at the Prize Day Exercises at Groton School (May 24, 1904)
+  ref: https://en.wikiquote.org/wiki/Theodore_Roosevelt
+  group: humanitarian
+- text: It is hard to fail, but it is worse never to have tried to succeed.
+  who: Theodore Roosevelt
+  about: 26th U.S. president, naturalist and writer
+  source: 'The Strenuous Life: Essays and Addresses (1900)'
+  ref: https://en.wikiquote.org/wiki/Theodore_Roosevelt
+  group: humanitarian
+- text: In this life we get nothing save by effort.
+  who: Theodore Roosevelt
+  about: 26th U.S. president, naturalist and writer
+  source: 'The Strenuous Life: Essays and Addresses (1900)'
+  ref: https://en.wikiquote.org/wiki/Theodore_Roosevelt
+  group: humanitarian
+- text: We cannot avoid meeting great issues. All that we can determine for ourselves is whether we shall meet them well or ill.
+  who: Theodore Roosevelt
+  about: 26th U.S. president, naturalist and writer
+  source: 'The Strenuous Life: Essays and Addresses (1900)'
+  ref: https://en.wikiquote.org/wiki/Theodore_Roosevelt
+  group: humanitarian
+- text: Without courage we cannot practice any other virtue with consistency.
+  who: Maya Angelou
+  about: Poet, memoirist and civil rights activist
+  source: As quoted in USA Today (5 March 1988)
+  ref: https://en.wikiquote.org/wiki/Maya_Angelou
+  group: humanitarian
+- text: Develop enough courage so that you can stand up for yourself and then stand up for somebody else.
+  who: Maya Angelou
+  about: Poet, memoirist and civil rights activist
+  source: 'Rainbow in the Cloud: The Wisdom and Spirit of Maya Angelou (2014), p. 68'
+  ref: https://en.wikiquote.org/wiki/Maya_Angelou
+  group: humanitarian
+- text: Suffer now, and live the rest of your life as a champion.
+  who: Muhammad Ali
+  about: American boxing champion and humanitarian
+  source: 'On training, quoted in Newsweek, "Ali: Born Again!" (25 September 1978)'
+  ref: https://en.wikiquote.org/wiki/Muhammad_Ali
+  group: humanitarian
+- text: The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life.
+  who: Muhammad Ali
+  about: American boxing champion and humanitarian
+  source: Interview in Playboy magazine (November 1975)
+  ref: https://en.wikiquote.org/wiki/Muhammad_Ali
+  group: thinker
+- text: Fear of something is at the root of hate for others, and hate within will eventually destroy the hater.
+  who: George Washington Carver
+  about: Agricultural scientist and teacher at Tuskegee
+  source: 'Quoted in Linda O. McMurray, George Washington Carver: Scientist and Symbol (1982), p. 107'
+  ref: https://en.wikiquote.org/wiki/George_Washington_Carver
+  group: humanitarian
+- text: Reflect upon your present blessings — of which every man has many — not on your past misfortunes, of which all men have some.
+  who: Charles Dickens
+  about: Victorian novelist who championed the poor
+  source: Sketches by Boz, "A Christmas Dinner" (1836)
+  ref: https://en.wikiquote.org/wiki/Charles_Dickens
+  group: humanitarian
+- text: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+  who: Martin Luther King Jr.
+  about: Baptist minister and civil rights leader
+  source: Loving Your Enemies, sermon (1957)
+  ref: https://en.wikiquote.org/wiki/Martin_Luther_King,_Jr.
+  group: humanitarian
+- text: Hatred paralyzes life; love releases it. Hatred confuses life; love harmonizes it. Hatred darkens life; love illuminates it.
+  who: Martin Luther King Jr.
+  about: Baptist minister and civil rights leader
+  source: Strength to Love (1963)
+  ref: https://en.wikiquote.org/wiki/Martin_Luther_King,_Jr.
+  group: humanitarian
+- text: There can be no deep disappointment where there is not deep love.
+  who: Martin Luther King Jr.
+  about: Baptist minister and civil rights leader
+  source: Letter from Birmingham Jail (1963)
+  ref: https://en.wikiquote.org/wiki/Martin_Luther_King,_Jr.
+  group: humanitarian
+- text: We must either learn to live together as brothers or we are all going to perish together as fools.
+  who: Martin Luther King Jr.
+  about: Baptist minister and civil rights leader
+  source: Speech (1960s)
+  ref: https://en.wikiquote.org/wiki/Martin_Luther_King,_Jr.
+  group: humanitarian
+- text: I am not interested in power for power's sake, but I'm interested in power that is moral, that is right and that is good.
+  who: Martin Luther King Jr.
+  about: Baptist minister and civil rights leader
+  source: Speech (1960s)
+  ref: https://en.wikiquote.org/wiki/Martin_Luther_King,_Jr.
+  group: humanitarian
+- text: Try to become not a man of success, but try rather to become a man of value.
+  who: Albert Einstein
+  about: Physicist who changed how we see space and time
+  source: LIFE magazine (2 May 1955)
+  ref: https://en.wikiquote.org/wiki/Albert_Einstein
+  group: thinker
+- text: Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.
+  who: Albert Einstein
+  about: Physicist who changed how we see space and time
+  source: Interview with G. S. Viereck (1929)
+  ref: https://en.wikiquote.org/wiki/Albert_Einstein
+  group: thinker
+- text: The important thing is not to stop questioning. Curiosity has its own reason for existence.
+  who: Albert Einstein
+  about: Physicist who changed how we see space and time
+  source: LIFE magazine (2 May 1955)
+  ref: https://en.wikiquote.org/wiki/Albert_Einstein
+  group: thinker
+- text: Small is the number of them that see with their own eyes and feel with their own hearts.
+  who: Albert Einstein
+  about: Physicist who changed how we see space and time
+  source: The World As I See It (1949)
+  ref: https://en.wikiquote.org/wiki/Albert_Einstein
+  group: thinker
+- text: Where there's hope, there's life. It fills us with fresh courage and makes us strong again.
+  who: Anne Frank
+  about: Diarist who hid from the Nazis in Amsterdam
+  source: The Diary of a Young Girl (1944 entry)
+  ref: https://en.wikiquote.org/wiki/Anne_Frank
+  group: humanitarian
+- text: We all know that a good example is more effective than advice. So set a good example, and it won't take long for others to follow.
+  who: Anne Frank
+  about: Diarist who hid from the Nazis in Amsterdam
+  source: Tales from the Secret Annex
+  ref: https://en.wikiquote.org/wiki/Anne_Frank
+  group: humanitarian
+- text: How wonderful it is that nobody need wait a single moment before beginning to improve the world!
+  who: Anne Frank
+  about: Diarist who hid from the Nazis in Amsterdam
+  source: Tales from the Secret Annex
+  ref: https://en.wikiquote.org/wiki/Anne_Frank
+  group: humanitarian
+- text: I keep my ideals, because in spite of everything I still believe that people are really good at heart.
+  who: Anne Frank
+  about: Diarist who hid from the Nazis in Amsterdam
+  source: The Diary of a Young Girl (15 July 1944)
+  ref: https://en.wikiquote.org/wiki/Anne_Frank
+  group: humanitarian
+- text: I think I have learned that the best way to lift one's self up is to help someone else.
+  who: Booker T. Washington
+  about: Educator who rose from slavery to found Tuskegee
+  source: The Story of My Life and Work (1900)
+  ref: https://en.wikiquote.org/wiki/Booker_T._Washington
+  group: humanitarian
+- text: Nothing ever comes to me, that is worth having, except as the result of hard work.
+  who: Booker T. Washington
+  about: Educator who rose from slavery to found Tuskegee
+  source: Up From Slavery (1901)
+  ref: https://en.wikiquote.org/wiki/Booker_T._Washington
+  group: humanitarian
+- text: Every new set of discoveries raises a host of questions which we were never before wise enough even to ask.
+  who: Carl Sagan
+  about: Astronomer and science teacher
+  source: Broca's Brain (1979)
+  ref: https://en.wikiquote.org/wiki/Carl_Sagan
+  group: thinker
+- text: For small creatures such as we the vastness is bearable only through love.
+  who: Carl Sagan
+  about: Astronomer and science teacher
+  source: Contact (1985)
+  ref: https://en.wikiquote.org/wiki/Carl_Sagan
+  group: thinker
+- text: Just as man cannot live without dreams, he cannot live without hope. If dreams reflect the past, hope summons the future.
+  who: Elie Wiesel
+  about: Holocaust survivor, author and Nobel Peace laureate
+  source: Hope, Despair, and Memory, Nobel lecture (1986)
+  ref: https://en.wikiquote.org/wiki/Elie_Wiesel
+  group: humanitarian
+- text: For me, every hour is grace. And I feel gratitude in my heart each time I can meet someone and look at his or her smile.
+  who: Elie Wiesel
+  about: Holocaust survivor, author and Nobel Peace laureate
+  source: 'Interview, O: The Oprah Magazine (November 2000)'
+  ref: https://en.wikiquote.org/wiki/Elie_Wiesel
+  group: humanitarian
+- text: Friendship marks a life even more deeply than love.
+  who: Elie Wiesel
+  about: Holocaust survivor, author and Nobel Peace laureate
+  source: The Gates of the Forest (1964)
+  ref: https://en.wikiquote.org/wiki/Elie_Wiesel
+  group: humanitarian
+- text: Optimism is the faith that leads to achievement; nothing can be done without hope.
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: Optimism (1903)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: So long as the memory of certain beloved friends lives in my heart I shall say that life is good.
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: Midstream (1929)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: 'It all comes to this: the simplest way to be happy is to do good.'
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: The Simplest Way to be Happy (1933)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: Although the world is full of suffering, it is full also of the overcoming of it.
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: Optimism (1903)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: Life is either a daring adventure, or nothing.
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: The Open Door (1957)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: I would rather walk with a friend in the dark than walk alone in the light.
+  who: Helen Keller
+  about: Deaf-blind author and activist
+  source: Quoted in Helen and Teacher (1980)
+  ref: https://en.wikiquote.org/wiki/Helen_Keller
+  group: humanitarian
+- text: There is only one enduring happiness in life—to live for others.
+  who: Leo Tolstoy
+  about: Russian novelist of War and Peace
+  source: Family Happiness (1859)
+  ref: https://en.wikiquote.org/wiki/Leo_Tolstoy
+  group: thinker
+- text: To be good and lead a good life means to give to others more than one takes from them.
+  who: Leo Tolstoy
+  about: Russian novelist of War and Peace
+  source: The First Step (1892)
+  ref: https://en.wikiquote.org/wiki/Leo_Tolstoy
+  group: thinker
+- text: It is curious that physical courage should be so common in the world, and moral courage so rare.
+  who: Mark Twain
+  about: American author and humorist
+  source: Mark Twain in Eruption (1940)
+  ref: https://en.wikiquote.org/wiki/Mark_Twain
+  group: thinker
+- text: Thunder is good, thunder is impressive; but it is lightning that does the work.
+  who: Mark Twain
+  about: American author and humorist
+  source: Letter (1908)
+  ref: https://en.wikiquote.org/wiki/Mark_Twain
+  group: thinker
+- text: If you tell the truth you don't have to remember anything.
+  who: Mark Twain
+  about: American author and humorist
+  source: Notebook entry (1894)
+  ref: https://en.wikiquote.org/wiki/Mark_Twain
+  group: thinker
+- text: A wise man never loses anything, if he has himself.
+  who: Michel de Montaigne
+  about: French essayist of the Renaissance
+  source: Essays, Book I
+  ref: https://en.wikiquote.org/wiki/Michel_de_Montaigne
+  group: thinker
+- text: We must not attach knowledge to the mind, we have to incorporate it there.
+  who: Michel de Montaigne
+  about: French essayist of the Renaissance
+  source: Essays, Book I
+  ref: https://en.wikiquote.org/wiki/Michel_de_Montaigne
+  group: thinker
+- text: The hunger for love is much more difficult to remove than the hunger for bread.
+  who: Mother Teresa
+  about: Nun who served the poor of Calcutta
+  source: Remarks (1980s)
+  ref: https://en.wikiquote.org/wiki/Mother_Teresa
+  group: humanitarian
+- text: I have found the paradox that if I love until it hurts, then there is no hurt, but only more love.
+  who: Mother Teresa
+  about: Nun who served the poor of Calcutta
+  source: Remarks (1980s)
+  ref: https://en.wikiquote.org/wiki/Mother_Teresa
+  group: humanitarian
+- text: No man can have society upon his own terms. If he seeks it, he must serve it too.
+  who: Ralph Waldo Emerson
+  about: American essayist and poet
+  source: Journals (1822–1863)
+  ref: https://en.wikiquote.org/wiki/Ralph_Waldo_Emerson
+  group: thinker
+- text: A great soul will be strong to live, as well as strong to think.
+  who: Ralph Waldo Emerson
+  about: American essayist and poet
+  source: The American Scholar (1837)
+  ref: https://en.wikiquote.org/wiki/Ralph_Waldo_Emerson
+  group: thinker
+- text: He who has put forth his total strength in fit actions, has the richest return of wisdom.
+  who: Ralph Waldo Emerson
+  about: American essayist and poet
+  source: The American Scholar (1837)
+  ref: https://en.wikiquote.org/wiki/Ralph_Waldo_Emerson
+  group: thinker
+- text: A very great deal more truth can become known than can be proven.
+  who: Richard Feynman
+  about: Physicist and Nobel laureate
+  source: Nobel lecture (1965)
+  ref: https://en.wikiquote.org/wiki/Richard_Feynman
+  group: thinker
+- text: The better part of one's life consists of his friendships.
+  who: Abraham Lincoln
+  about: 16th U.S. president
+  source: Letter (1849)
+  ref: https://en.wikiquote.org/wiki/Abraham_Lincoln
+  group: humanitarian
+- text: We are not enemies, but friends. We must not be enemies.
+  who: Abraham Lincoln
+  about: 16th U.S. president
+  source: First Inaugural Address (1861)
+  ref: https://en.wikiquote.org/wiki/Abraham_Lincoln
+  group: humanitarian
+- text: I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear.
+  who: Rosa Parks
+  about: Civil rights activist
+  source: Quiet Strength (2000)
+  ref: https://en.wikiquote.org/wiki/Rosa_Parks
+  group: humanitarian
