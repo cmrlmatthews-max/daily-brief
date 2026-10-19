@@ -1,0 +1,1022 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Monday, October 19, 2026",
+  "generated_at": "2026-10-19T05:00:19-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Monday, October 19. Our lead story is about Anthropic. The company says it will commit five percent of its shares to a public benefit fund. The BBC reports that the announcement comes as Anthropic lays the ground for a blockbuster stock market listing. Anthropic's news page also carries a post from October 18 called Investing in the public benefit. Details on how the fund will work have not yet been summarized, so watch for the full terms. In related news, Simon Willison points to a report that Anthropic told investors its quarterly revenue rose nearly fifty percent, to sixteen point eight billion dollars, ahead of the expected public offering. Now to the front page. In football, the 49ers have ruled out Nick Bosa for another week. Mike Evans is still possible, and Kyle Juszczyk will play in Monday's game against the Commanders. In Atlanta, new renderings were shown for The Stitch, the park that will cap part of the Downtown Connector. Work is set to begin in twenty twenty seven, and more funding is still being sought. Now the sections. In tech, a trending project called ai job search is built on Claude Code. Another tool gives coding agents long term memory so work can move between different agents. Anthropic has also opened an office in Singapore. In politics, Drop Site News looks at Trump, Putin, Iran and oil prices. The Lever offers its weekly roundup on the wealth tax and shareholder activity. NPR reports on how Congress has reacted to the president's order exempting Russia from some sanctions. In world news, President Macron denounced weekend violence in a nationwide address after protests over living costs and school conditions turned violent. The World Food Programme will cut the number of people it helps in Gaza from one point six million to one point one million, citing funding shortages. Ukraine and the United States are at odds over access to the Starshield satellite service. In sports, Jasmine Jasudavicius beat Erin Blanchfield by unanimous decision at UFC Fight Night. There are five things to know before the 49ers play Monday night. Kevin Durant and Suns owner Mat Ishbia are trading public comments about Durant's time in Phoenix. In Atlanta, an entrepreneur calls the Beltline rail proposal too expensive. A Hapeville home project has cut prices to sell out. In architecture, AEC Magazine looks at local AI on workstations. ArchDaily revisits Jane Jacobs and eyes on the street. In science, Artemis II has produced its first science results from the moon. Funding is uncertain for Tasmania's fight against kelp eating sea urchins. And nearly ninety percent of countries have biodiversity targets, but most are off track. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Anthropic has said it will commit 5% of its shares to a public benefit fund. BBC World reports the announcement comes as the company lays the ground for a blockbuster stock market listing. The summary gives no further detail on how the fund would be run, who would benefit, or when a listing might happen, so those questions remain open. Anthropic's own news page lists a post dated October 18 titled Investing in the public benefit, which appears to be the company's own account of the move. For a reader who builds tools with Claude, the story matters because it shows how the company is shaping its structure and its public image before it becomes a listed company. It is worth watching for the full terms once the company publishes them.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/87fa/live/537946d0-cb5d-11f1-a1ba-9502012907ad.jpg",
+    "video": null,
+    "headline": "Anthropic Pledges 5% of Shares to Public Fund",
+    "decks": [
+      "Commitment comes as Anthropic prepares a major stock market listing",
+      "Shares would go to a new 'public benefit fund'",
+      "Anthropic news page carries a related post on investing in public benefit"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "Simon Willison highlights a report that Anthropic told investors quarterly revenue rose nearly 50% to $16.8bn, ahead of its expected IPO.",
+      "image": null,
+      "video": null
+    },
+    {
+      "title": "49ers rule out Bosa, still hopeful for Evans; Juszczyk will play",
+      "url": "https://www.espn.com/nfl/story/_/id/50205015/san-francisco-49ers-rule-de-nick-bosa-monday-night",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers rule out Nick Bosa for another week, while Mike Evans is still possible and Kyle Juszczyk will play in Monday's game against the Commanders.",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732188_600x600_1-1.jpg",
+      "video": null
+    },
+    {
+      "title": "New renderings revealed for The Stitch with project set to begin in 2027",
+      "url": "https://roughdraftatlanta.com/2026/10/18/atlanta-stitch-park-construction-starts/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "New renderings of The Stitch, the park capping part of the Downtown Connector, were shown; work begins in 2027 and more funding is still needed.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Phase-1-East-Facing-600x340.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending open-source job search framework built on Claude Code, in the vein of the personal tools you build yourself.",
+          "image": "https://opengraph.githubassets.com/1/MadsLorentzen/ai-job-search",
+          "video": null
+        },
+        {
+          "title": "akitaonrails/ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A tool giving coding agents long-term memory so work can move between Claude Code and OpenAI Codex without re-explaining context.",
+          "image": "https://opengraph.githubassets.com/1/akitaonrails/ai-memory",
+          "video": null
+        },
+        {
+          "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic opens a Singapore office and signs an agreement with the Government of Singapore, a sign of the company's international expansion.",
+          "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Trump Turns to Putin as Interests Align, Iran Forces Oil and Inflation up, Anasrallah Strikes Aramco",
+          "url": "https://www.dropsitenews.com/p/trump-turns-to-putin-as-interests",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News' war brief covers Trump and Putin, Iran's effect on oil and inflation, and a reported strike on Aramco.",
+          "image": "https://substackcdn.com/image/fetch/$s_!Zqjz!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221006088%2F75127bf9-f097-4d33-9a7e-2f14a8a67cbc%2Ftranscoded-1792337380.png",
+          "video": null
+        },
+        {
+          "title": "Lever Weekly: Wall Street Wants You Quiet",
+          "url": "https://www.levernews.com/lever-weekly-wall-street-wants-you-quiet/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever's weekly roundup covers the wealth tax, assault rifles and shareholder activity.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/LW-Oct18-26.png",
+          "video": null
+        },
+        {
+          "title": "Congress reacts to executive order exempting Russia from economic sanctions",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007363/congress-reacts-to-executive-order-exempting-russia-from-economic-sanctions",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports how Congress has reacted to President Trump's executive order exempting Russia from economic sanctions.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "French President Macron decries violent protests in nationwide address",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6007372/french-president-macron-decries-violent-protests-in-nationwide-address",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "President Macron denounced the weekend's violence in a nationwide address after protests over living costs and school conditions turned violent.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Funding shortages will cut the number of people the World Food Programme helps in Gaza from 1.6 million to 1.1 million.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg",
+          "video": null
+        },
+        {
+          "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Zelenskyy says he believes the U.S. government is behind the Ukrainian military losing normal access to the Starshield satellite service.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5101x3401+0+0/resize/5101x3401!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2F9f%2F6ee4e955401a8491a881a8f28365%2Fap26289442815625.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Jasmine Jasudavicius outpoints Erin Blanchfield at UFC Fight Night",
+          "url": "https://www.espn.com/college-football/story/_/id/50207665/jasmine-jasudavicius-outpoints-erin-blanchfield-ufc-fight-night",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Jasmine Jasudavicius beat Erin Blanchfield by unanimous decision at UFC Fight Night, making a case as a women's featherweight contender.",
+          "image": "https://a.espncdn.com/photo/2026/1018/r1732297_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "5 Things to Know: 49ers Week 6 'Monday Night Football' Matchup vs. Commanders & Alumni Weekend",
+          "url": "https://www.49ers.com/news/5-things-to-know-49ers-week-6-matchup-vs-commanders-keena-turner-49ers-hof-induction",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "Five things to know before the 49ers' Monday night game against the Commanders, including the team's undefeated start.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/lsbxlcgpx8uybbil7ocy.png",
+          "video": null
+        },
+        {
+          "title": "Kevin Durant, Mat Ishbia go back and forth over framing of Suns tenure",
+          "url": "https://www.espn.com/nba/story/_/id/50203498/kd-fires-back-mat-isbhia-framing-suns-tenure",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Kevin Durant and Suns owner Mat Ishbia traded public comments over whether acquiring Durant was a mistake for Phoenix.",
+          "image": "https://a.espncdn.com/photo/2026/1017/r1732125_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Entrepreneur slams ATL Beltline rail proposal as unfeasibly expensive",
+          "url": "https://atlanta.urbanize.city/post/entrepreneur-slams-atl-beltline-rail-expensive-illogical",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "An entrepreneur calls the Atlanta Beltline rail proposal unfeasibly expensive as the debate heats up after unanimous city council support.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Beltline%20Transit%20under%20Berne%20Street%20Bridge.png?itok=fpF3Zb3p",
+          "video": null
+        },
+        {
+          "title": "Hapeville standalone-home project cuts prices in long quest for sellout",
+          "url": "https://atlanta.urbanize.city/post/hapeville-stillwood-slashes-prices-standalone-home-project-long-quest-sellout",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Hapeville standalone-home project has cut prices in its long effort to sell out, with homes in the $400,000s.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/price%20cuts%20Stillwood.png?itok=lwQErtgr",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "How local AI is transforming AEC workflows",
+          "url": "https://aecmag.com/sponsored-content/how-local-ai-is-transforming-aec-workflows/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine looks at AI models running on local workstations, helping firms automate workflows while controlling data and costs.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+          "video": null
+        },
+        {
+          "title": "Eyes on the Street: Jane Jacobs’ Concept and Contemporary Residential Architecture in Brazil",
+          "url": "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily revisits Jane Jacobs' idea of eyes on the street and applies it to contemporary residential architecture in Brazil.",
+          "image": "https://images.adsttc.com/media/images/65ea/506e/855b/f264/9e6f/814a/newsletter/os-olhos-da-rua-o-conceito-de-jane-jacobs-e-a-arquitetura-residencial-contemporanea-no-brasil_10.jpg?1709854838",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Artemis II results show how much science people can do at the moon",
+          "url": "https://www.sciencenews.org/article/artemis-ii-human-moon-science",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Artemis II's first science results show what human observers can add to decades of robotic study of the moon.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101426_LG_ArtemisIIupdate_main.jpg?w=777",
+          "video": null
+        },
+        {
+          "title": "Funding uncertainty threatens Tasmania’s gains against kelp-grazing sea urchins",
+          "url": "https://news.mongabay.com/2026/10/funding-uncertainty-threatens-tasmanias-gains-against-kelp-grazing-sea-urchins/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Uncertain funding threatens Tasmania's progress against sea urchins that are destroying kelp forests.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/15150851/giant-kelp-portrait-8_PortDavey_TAS_StefanAndrews-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "Nearly 90% of countries adopt biodiversity targets, but most remain off track",
+          "url": "https://news.mongabay.com/2026/10/nearly-90-of-countries-adopt-biodiversity-targets-but-most-remain-off-track/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Nearly 90% of countries have adopted biodiversity targets, but most remain off track as the U.N. COP17 summit opens in Yerevan.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/10/14035049/andrean-cock-of-the-rock-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Wall Street Wants Your Vote on Autopilot",
+              "url": "https://www.levernews.com/wall-street-wants-your-vote-on-autopilot/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Exxon, Tesla and Goldman Sachs are turning passive investors into an automatic voting bloc. Relevant to corporate influence in politics.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Wall-Street-Wants-Your-Vote-on-Autopilot-Elon-Musk.png",
+              "video": null
+            },
+            {
+              "title": "The $430 Million War Against Taxing The Rich",
+              "url": "https://www.levernews.com/the-430-million-war-against-taxing-the-rich/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports ultrawealthy donors have spent nearly $430 million on ballot measures opposing taxes on the rich this November.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--26-.png",
+              "video": null
+            },
+            {
+              "title": "Congress reacts to executive order exempting Russia from economic sanctions",
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6007363/congress-reacts-to-executive-order-exempting-russia-from-economic-sanctions",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports on how Congress has reacted to an executive order exempting Russia from economic sanctions.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump Turns to Putin as Interests Align, Iran Forces Oil and Inflation up, Anasrallah Strikes Aramco",
+              "url": "https://www.dropsitenews.com/p/trump-turns-to-putin-as-interests",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News' War Brief covers US-Russia ties, Iran's effect on oil and inflation, and strikes on Aramco.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Zqjz!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F221006088%2F75127bf9-f097-4d33-9a7e-2f14a8a67cbc%2Ftranscoded-1792337380.png",
+              "video": null
+            },
+            {
+              "title": "Record Israeli attacks on Palestinian olive groves; Teen shooter kills children at Oregon school; Poland scrambles jets following Russian strikes",
+              "url": "https://www.dropsitenews.com/p/israel-settlers-west-bank-olive-oregon-school-shooting-poland-russia-jets",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily covers Israeli attacks on Palestinian olive groves, a school shooting in Oregon, and Polish jet scrambles after Russian strikes.",
+              "image": "https://substackcdn.com/image/fetch/$s_!wHUs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9370edd-1993-45a3-b3eb-3d0beb253801_8192x5464.heic",
+              "video": null
+            },
+            {
+              "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
+              "url": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports on a Minnesota Senate debate in which fraud, affordability and Trump administration policies were the main points of friction.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+              "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Anthropic says it will commit 5% of its shares to a public benefit fund as it prepares a major stock market listing. Directly relevant to your Claude and Anthropic interest.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/87fa/live/537946d0-cb5d-11f1-a1ba-9502012907ad.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump defers federal diesel taxes to help farmers, but states issue warnings",
+              "url": "https://www.npr.org/2026/10/18/nx-s1-5996662/trump-suspends-federal-diesel-taxes-to-help-farmers-but-states-issue-warnings",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports on Trump's executive order deferring federal diesel taxes to help farmers, and state warnings that drivers may owe taxes later.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "French President Macron decries violent protests in nationwide address",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-6007372/french-president-macron-decries-violent-protests-in-nationwide-address",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "French President Macron denounced weekend violence in a nationwide address after protests over living costs and school conditions turned violent.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Watch: Shops looted and restaurants gutted in Paris riots",
+              "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC video shows shops looted and restaurants damaged in Paris riots during weekend protests that drew more than half a million people.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8791/live/7abdd380-cadd-11f1-bc2e-018d645d8d21.jpg",
+              "video": null
+            },
+            {
+              "title": "Israeli settlers target European diplomats in West Bank attacks",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-6007373/israeli-settlers-target-european-diplomats-in-west-bank-attacks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Israeli settlers in the occupied West Bank have stepped up attacks, this time targeting European diplomats.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+              "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The World Food Programme will cut the number of people it helps in Gaza from 1.6 million to 1.1 million due to funding shortages.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+              "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Zelenskyy says he believes the U.S. government is behind Ukraine's loss of normal access to the Starshield satellite service.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5101x3401+0+0/resize/5101x3401!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2F9f%2F6ee4e955401a8491a881a8f28365%2Fap26289442815625.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+              "url": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Trump endorsed Israeli Prime Minister Benjamin Netanyahu for reelection in a social media post.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4441x2961+0+0/resize/4441x2961!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2Fbd%2Ffcfe0cef471fbc2526b243894172%2Fap26291551891113.jpg",
+              "video": null
+            },
+            {
+              "title": "Pope Leo says he will gradually resume duties after cancer surgery",
+              "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Pope Leo XIV said he will gradually resume his duties after cancer surgery and hospitalization.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1919x1279+0+0/resize/1919x1279!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0b%2F4c%2F028622124a108d72e3827ab507f1%2Fap26291371602024.jpg",
+              "video": null
+            },
+            {
+              "title": "Bomb threat forces Israel to Austria flight into emergency landing",
+              "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A bomb threat forced an Israel-to-Austria flight into an emergency landing in Bulgaria; all aboard were unharmed.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/874b/live/3d27e8a0-cb94-11f1-93a7-b36f3083f4d3.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+              "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "FT report, relayed by Simon Willison, says Anthropic told investors quarterly revenue rose nearly 50% to $16.8bn ahead of its IPO.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Oct 18, 2026 Announcements Investing in the public benefit",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's October 18 announcement on investing in the public benefit, from the company's own news page.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+              "video": null
+            },
+            {
+              "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+              "url": "https://www.anthropic.com/news/2026-us-midterms",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's October 14 policy post on preparing for the 2026 US midterms.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+              "video": null
+            },
+            {
+              "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+              "url": "https://www.anthropic.com/news/singapore-office-opening",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic opens a Singapore office and signs an MOU with the Government of Singapore, per its October 14 announcements.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+              "video": null
+            },
+            {
+              "title": "MadsLorentzen/ai-job-search",
+              "url": "https://github.com/MadsLorentzen/ai-job-search",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending GitHub repo: an AI job application framework built on Claude Code that evaluates postings, tailors CVs and preps interviews. Fits your interest in building personal tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/MadsLorentzen/ai-job-search",
+              "video": null
+            },
+            {
+              "title": "akitaonrails/ai-memory",
+              "url": "https://github.com/akitaonrails/ai-memory",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending GitHub repo offering long-term memory for coding agents, letting work move between Claude Code and other agent vendors without re-explaining context.",
+              "image": "https://opengraph.githubassets.com/1/akitaonrails/ai-memory",
+              "video": null
+            },
+            {
+              "title": "Oct 15, 2026 Announcements An update on independent evaluators",
+              "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's October 15 post with an update on independent evaluators.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Kevin Durant, Mat Ishbia go back and forth over framing of Suns tenure",
+              "url": "https://www.espn.com/nba/story/_/id/50203498/kd-fires-back-mat-isbhia-framing-suns-tenure",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant and Suns owner Mat Ishbia exchanged public remarks over how Phoenix's acquisition of Durant is framed. Relevant to your Rockets interest via Durant's history.",
+              "image": "https://a.espncdn.com/photo/2026/1017/r1732125_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers rule out Bosa, still hopeful for Evans; Juszczyk will play",
+              "url": "https://www.espn.com/nfl/story/_/id/50205015/san-francisco-49ers-rule-de-nick-bosa-monday-night",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers will be without Nick Bosa for at least another week; Mike Evans is hopeful and Kyle Juszczyk will play Monday against Washington.",
+              "image": "https://a.espncdn.com/photo/2026/1017/r1732188_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "McCaffrey making the most of his touches",
+              "url": "https://www.espn.com/video/clip/_/id/50199405/mccaffrey-making-most-touches",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Nick Wagoner discusses Christian McCaffrey's workload ahead of the 49ers' Week 6 matchup against Washington.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/dm_261016_SC4U_16x9_49ers_IA_10-16/dm_261016_SC4U_16x9_49ers_IA_10-16.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Promote DL Ogbo Okoronkwo, Sign LB Eugene Asante, and Make Other Moves",
+              "url": "https://www.49ers.com/news/49ers-promote-dl-ogbo-okoronkwo-sign-lb-eugene-asante-and-make-other-moves",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers promoted DL Ogbo Okoronkwo to the active roster, signed LB Eugene Asante to the practice squad, and opened the practice window for WR Christian Kirk.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/bj6ron5rivhv3btozttg.png",
+              "video": null
+            },
+            {
+              "title": "Jasmine Jasudavicius outpoints Erin Blanchfield at UFC Fight Night",
+              "url": "https://www.espn.com/college-football/story/_/id/50207665/jasmine-jasudavicius-outpoints-erin-blanchfield-ufc-fight-night",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Jasmine Jasudavicius won a unanimous decision over Erin Blanchfield at UFC Fight Night, strengthening her case as a women's featherweight contender.",
+              "image": "https://a.espncdn.com/photo/2026/1018/r1732297_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC champ Alexander Volkanovski proposes 'send-off' superbout vs. Justin Gaethje",
+              "url": "https://www.espn.com/mma/story/_/id/50189696/ufc-champ-volkanovski-proposes-send-superbout-vs-gaethje",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC featherweight champion Alexander Volkanovski is calling for a superfight against lightweight champion Justin Gaethje.",
+              "image": "https://a.espncdn.com/photo/2026/0203/r1609874_2_576x324_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Farid Basharat fails to land new UFC contract despite perfect record",
+              "url": "https://www.espn.com/mma/story/_/id/50190700/ufc-declines-re-sign-undefeated-bantamweight-farid-basharat",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Bantamweight Farid Basharat failed to re-sign with the UFC despite an undefeated record, saying the promotion isn't what it used to be.",
+              "image": "https://a.espncdn.com/photo/2026/1015/r1731273_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Michael 'Venom' Page: UFC's Dana White 'never really a fan of me'",
+              "url": "https://www.espn.com/ufc/story/_/id/50181160/michael-venom-page-ufc-dana-white-didnt-care-relationship-nonexistent",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Michael Page said his relationship with UFC president Dana White was nonexistent.",
+              "image": "https://a.espncdn.com/photo/2023/0717/r1199030_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "New renderings revealed for The Stitch with project set to begin in 2027",
+              "url": "https://roughdraftatlanta.com/2026/10/18/atlanta-stitch-park-construction-starts/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "New renderings were unveiled for The Stitch, the park capping part of the Downtown Connector, with construction set to begin in 2027 pending more funding.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Phase-1-East-Facing-600x340.jpg",
+              "video": null
+            },
+            {
+              "title": "Entrepreneur slams ATL Beltline rail proposal as unfeasibly expensive",
+              "url": "https://atlanta.urbanize.city/post/entrepreneur-slams-atl-beltline-rail-expensive-illogical",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "An entrepreneur criticizes the Atlanta Beltline rail proposal as unfeasibly expensive, following recent city council support for the plan.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Beltline%20Transit%20under%20Berne%20Street%20Bridge.png?itok=fpF3Zb3p",
+              "video": null
+            },
+            {
+              "title": "Hapeville standalone-home project cuts prices in long quest for sellout",
+              "url": "https://atlanta.urbanize.city/post/hapeville-stillwood-slashes-prices-standalone-home-project-long-quest-sellout",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Hapeville standalone-home project cut prices in its long quest for a sellout, a useful signal for the local new-construction market.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/price%20cuts%20Stillwood.png?itok=lwQErtgr",
+              "video": null
+            },
+            {
+              "title": "College Park denies accommodation request for sober living home",
+              "url": "https://saportareport.com/college-park-denies-accommodation-request-for-sober-living-home/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "College Park council denied a reasonable accommodation request for an eight-person sober living home in a residential neighborhood.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-07-20-at-4.36.57-PM.webp?fit=1024%2C782&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Goodwill of North Georgia opens new store and career center in Doraville",
+              "url": "https://roughdraftatlanta.com/2026/10/18/goodwill-doraville-store-opens/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Goodwill of North Georgia opened a new store and career center in Doraville, creating 36 jobs and its first GoodBIZ Market.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Goodwill-of-North-Georgia-Doraville-600x337.webp",
+              "video": null
+            },
+            {
+              "title": "Residents invited to help with Great Dunwoody cleanup on Nov. 14",
+              "url": "https://roughdraftatlanta.com/2026/10/18/dunwoody-cleanup-nov-14/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Dunwoody invites residents to the Great Dunwoody Cleanup on Saturday, Nov. 14, to remove litter and protect waterways.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Great-Dunwoody-Cleanup-public-works-team-2025-Todd-Meadows-Alan-Christie-Cody-Dalls-600x450.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Human trafficking investigation puts spotlight on illegal activity in Sandy Springs",
+              "url": "https://saportareport.com/human-trafficking-investigation-puts-spotlight-on-illegal-activity-in-sandy-springs/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Sandy Springs police are investigating human trafficking and other illegal activity near Morgan Falls Overlook Park.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_0005.jpg?fit=1024%2C757&ssl=1",
+              "video": null
+            },
+            {
+              "title": "DeKalb County School District sees rise in AP exam participation and scores",
+              "url": "https://roughdraftatlanta.com/2026/10/18/dekalb-county-ap-exam-growth/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "DeKalb County School District saw rising AP exam participation and scores during the 2025-2026 school year.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260716_ChambleeHigh_AnsleyKelly_003-600x400.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "How local AI is transforming AEC workflows",
+              "url": "https://aecmag.com/sponsored-content/how-local-ai-is-transforming-aec-workflows/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine reports on AI models running on workstations that help AEC firms automate workflows while keeping data and costs under control. Relevant to your AI and BIM work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+              "video": null
+            },
+            {
+              "title": "Campbelltown Hospital Redevelopment / Billard Leece Partnership",
+              "url": "https://www.archdaily.com/1186447/campbelltown-hospital-redevelopment-billard-leece-partnership",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Billard Leece Partnership's Campbelltown Hospital Stage 2 redevelopment in Sydney, a $632 million project with a community-focused model of care.",
+              "image": "https://images.adsttc.com/media/images/6ac5/5b2b/90e2/9d01/89d2/e579/newsletter/campbelltown-hospital-redevelopment-billard-leece-partnership_3.jpg?1791318845",
+              "video": null
+            },
+            {
+              "title": "Eyes on the Street: Jane Jacobs’ Concept and Contemporary Residential Architecture in Brazil",
+              "url": "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily essay on Jane Jacobs' eyes on the street and contemporary residential architecture in Brazil, relevant to urban design in Atlanta.",
+              "image": "https://images.adsttc.com/media/images/65ea/506e/855b/f264/9e6f/814a/newsletter/os-olhos-da-rua-o-conceito-de-jane-jacobs-e-a-arquitetura-residencial-contemporanea-no-brasil_10.jpg?1709854838",
+              "video": null
+            },
+            {
+              "title": "Martha Tavern / CODOO STUDIO",
+              "url": "https://www.archdaily.com/1187057/martha-tavern-codoo-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CODOO STUDIO's Martha Tavern in Vietnam, a bar designed as a house opened to the public.",
+              "image": "https://images.adsttc.com/media/images/6acf/9078/b2c4/c300/0178/f34b/newsletter/28_Codoo_Martha.jpg?1791987857",
+              "video": null
+            },
+            {
+              "title": "Calm Haven House / ADA Design & Build",
+              "url": "https://www.archdaily.com/1186479/calm-haven-house-ada-design-and-build",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ADA Design & Build's Calm Haven House in the Mekong Delta, built in 2025 for a young couple.",
+              "image": "https://images.adsttc.com/media/images/6ac6/4854/90e2/9d5f/b3dd/dd62/newsletter/calm-haven-house-ada-design-and-build_23.jpg?1791379553",
+              "video": null
+            },
+            {
+              "title": "The Summer Path House / Gieo Architecture",
+              "url": "https://www.archdaily.com/1186687/the-summer-path-house-gieo-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Gieo Architecture's Summer Path House in Vietnam, a residential renovation turning an existing roof into new ground.",
+              "image": "https://images.adsttc.com/media/images/6acc/b94b/b2c4/c300/0178/e9ab/newsletter/The_Summer_Path_5.jpg?1791801713",
+              "video": null
+            },
+            {
+              "title": "House in Belém / Filipe Borges de Macedo",
+              "url": "https://www.archdaily.com/1187047/house-in-belem-filipe-borges-de-macedo",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Filipe Borges de Macedo's house in Belém, Lisbon, a renovation of a 1938 Raul Lino design in a low-cost housing neighborhood.",
+              "image": "https://images.adsttc.com/media/images/6ad2/6b36/aadf/a000/01e3/aba8/newsletter/Nuno_Almendra-Casa_Bel_m-28.jpg?1792175146",
+              "video": null
+            },
+            {
+              "title": "Shift Pc Suyu Office / RVMN",
+              "url": "https://www.archdaily.com/1186432/shift-pc-suyu-office-rvmn",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "RVMN's Shift PC Suyu office, a Korean PC bang reimagined as a gaming lounge combining high-speed internet and social dining.",
+              "image": "https://images.adsttc.com/media/images/6ac5/12e1/07c3/d100/017f/d9a1/newsletter/2Q3A5681_re_1.jpg?1791300417",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Artemis II results show how much science people can do at the moon",
+              "url": "https://www.sciencenews.org/article/artemis-ii-human-moon-science",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports Artemis II's first science results on what human observers add to lunar studies beyond robotic spacecraft.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101426_LG_ArtemisIIupdate_main.jpg?w=777",
+              "video": null
+            },
+            {
+              "title": "Nearly 90% of countries adopt biodiversity targets, but most remain off track",
+              "url": "https://news.mongabay.com/2026/10/nearly-90-of-countries-adopt-biodiversity-targets-but-most-remain-off-track/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Nearly 90% of countries have adopted biodiversity targets, but most remain off track, as COP17 gathers in Yerevan.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/10/14035049/andrean-cock-of-the-rock-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Funding uncertainty threatens Tasmania’s gains against kelp-grazing sea urchins",
+              "url": "https://news.mongabay.com/2026/10/funding-uncertainty-threatens-tasmanias-gains-against-kelp-grazing-sea-urchins/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Funding uncertainty threatens Tasmania's program that pays divers to harvest sea urchins destroying kelp forests.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/15150851/giant-kelp-portrait-8_PortDavey_TAS_StefanAndrews-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "This orca destroyed a sunfish and no one is sure why",
+              "url": "https://news.mongabay.com/short-article/2026/10/this-orca-destroyed-a-sunfish-and-no-one-is-sure-why/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Scientists have observed orcas ramming sunfish with enough force to break them apart, and do not yet know why.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/17072642/Mongabay_Thumbnail_Orcas_Featured_600-337x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day features a treble clef-shaped unusual X-ray and hot radio source.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/trebleclef.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA’s Hubble Spies Spiral’s Edge",
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Hubble image shows the edge-on spiral galaxy NGC 1827, about 37 million light-years away.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/spiral/Hubble_NGC1827_1_flat_FINAL.jpg?w=2048&h=1986&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Brain implants are helping people who’ve lost their voice",
+              "url": "https://www.sciencenews.org/article/brain-implants-restore-voices-injuries",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Brain implants are helping people who lost their voice regain speech, with potential for those with ALS, Parkinson's and brain injuries.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/1126_podcast_feat.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Nigeria drove thousands of gold miners from a national park. But can it keep them out?",
+              "url": "https://news.mongabay.com/2026/10/nigeria-drove-thousands-of-gold-miners-from-a-national-park-but-can-it-keep-them-out/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Nigerian military-backed operation drove more than 4,000 illegal gold miners out of Gashaka-Gumti National Park, but keeping them out is the open question.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/17062107/Kile-mine-2-768x512.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Lidl US Recalls Gelatelli Coffee & Vanilla Gelato Due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-recalls-gelatelli-coffee-vanilla-gelato-due-possible-health-risk",
+      "published": "2026-10-16T04:00:00+00:00"
+    },
+    {
+      "title": "Family Farmstead Dairy Announces Recall of Raw Mild Cheddar Cheese Due to Potential E. coli O26:H11 and O45:H2 Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-due-potential-e-coli-o26h11-and",
+      "published": "2026-10-15T20:04:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "It is infinitely better to have a few good men than many indifferent ones.",
+    "who": "George Washington",
+    "about": "First U.S. president, led the Continental Army",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": null,
+      "last_date": null,
+      "next": "Wed Oct 21 vs DAL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909840/mavericks-rockets",
+      "recent": [],
+      "upcoming": [
+        "Wed Oct 21 vs DAL",
+        "Fri Oct 23 at SA",
+        "Sat Oct 24 at ATL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 32–29 at SEA",
+      "last_date": "Oct 11",
+      "next": "Mon Oct 19 vs WSH",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
+      "recent": [
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4",
+        "W 36–30 vs ARI · Sep 27"
+      ],
+      "upcoming": [
+        "Mon Oct 19 vs WSH",
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 56095,
+    "output_tokens": 8846
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "LIVE Building a Future We Can Afford Town Hall with Pete Buttigieg",
+          "url": "https://www.youtube.com/watch?v=yfwxzCX9UDQ",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Live town hall with Pete Buttigieg taking student questions in North Carolina on issues that matter most, hosted by More Perfect Union.",
+          "image": "https://i2.ytimg.com/vi/yfwxzCX9UDQ/hqdefault.jpg",
+          "video": "yfwxzCX9UDQ"
+        },
+        {
+          "title": "Trump's Losing His Mojo",
+          "url": "https://www.youtube.com/watch?v=jyDCVc5x5B8",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report discussion of President Trump's political standing, with commentary on recent setbacks and public support.",
+          "image": "https://i3.ytimg.com/vi/jyDCVc5x5B8/hqdefault.jpg",
+          "video": "jyDCVc5x5B8"
+        },
+        {
+          "title": "MAGA Diehards Struggle With Trump's Failures",
+          "url": "https://www.youtube.com/watch?v=5xdvflryaaM",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report segment on MAGA supporters' reactions to Trump administration failures, with contact info for ICE rapid response organizing.",
+          "image": "https://i2.ytimg.com/vi/5xdvflryaaM/hqdefault.jpg",
+          "video": "5xdvflryaaM"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "UFC 333 Countdown - Volkanovski vs Evloev",
+          "url": "https://www.youtube.com/watch?v=EV6vnVemKLE",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC 333 countdown previewing Volkanovski vs. Evloev for the featherweight title and Yan vs. Dvalishvili in the bantamweight trilogy.",
+          "image": "https://i2.ytimg.com/vi/EV6vnVemKLE/hqdefault.jpg",
+          "video": "EV6vnVemKLE"
+        },
+        {
+          "title": "Movsar Evloev: Alexander Volkanovski UFC 333 Title Fight Could Be First Finish | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=kQfx0goKjiA",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting interview with Movsar Evloev ahead of UFC 333, on finishing Volkanovski and criticisms of his style.",
+          "image": "https://i4.ytimg.com/vi/kQfx0goKjiA/hqdefault.jpg",
+          "video": "kQfx0goKjiA"
+        },
+        {
+          "title": "Shanahan Previews Commanders Matchup, Injury Updates | 49ers",
+          "url": "https://www.youtube.com/watch?v=Z543WsyPcr0",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers coach Kyle Shanahan gives injury updates and previews the Week 6 matchup against the Commanders.",
+          "image": "https://i3.ytimg.com/vi/Z543WsyPcr0/hqdefault.jpg",
+          "video": "Z543WsyPcr0"
+        },
+        {
+          "title": "Week 6 Recap: Rams DOWN BAD, Texans & Jaguars Put on a Show, Caleb Williams Returns With a BANG",
+          "url": "https://www.youtube.com/watch?v=mEFZR2EWJ-o",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Athletic Football Show recap of Week 6, covering the Rams' loss to the Cardinals and other standout games.",
+          "image": "https://i2.ytimg.com/vi/mEFZR2EWJ-o/hqdefault.jpg",
+          "video": "mEFZR2EWJ-o"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Gemini 4 Argon for Construction — Take-offs Tested",
+          "url": "https://www.youtube.com/watch?v=9iOHzkDl5zc",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley tests Gemini 4 Argon on construction take-off tasks and compares it with Opus 5.5 on real project work.",
+          "image": "https://i2.ytimg.com/vi/9iOHzkDl5zc/hqdefault.jpg",
+          "video": "9iOHzkDl5zc"
+        },
+        {
+          "title": "How to Use ChatGPT Dots for Construction",
+          "url": "https://www.youtube.com/watch?v=KLLxCct0sMo",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of using ChatGPT Dots for construction project management tasks, with pre-built workflows for site work.",
+          "image": "https://i4.ytimg.com/vi/KLLxCct0sMo/hqdefault.jpg",
+          "video": "KLLxCct0sMo"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Tested Every Drywall Anchor I Could Buy",
+          "url": "https://www.youtube.com/watch?v=aZgxZr4ETEo",
+          "source": "Home RenoVision DIY",
+          "topic": "Make & Cook",
+          "note": "Tests drywall anchors from plastic plugs to toggle bolts to see how much weight each holds and which suits which job.",
+          "image": "https://i2.ytimg.com/vi/aZgxZr4ETEo/hqdefault.jpg",
+          "video": "aZgxZr4ETEo"
+        },
+        {
+          "title": "The FASTER, Better Way to Make Chicken Pot Pie",
+          "url": "https://www.youtube.com/watch?v=qNpphONUjJU",
+          "source": "Brian Lagerstrom",
+          "topic": "Make & Cook",
+          "note": "Brian Lagerstrom shares a simplified chicken pot pie recipe, with detailed recipes available on his blog.",
+          "image": "https://i2.ytimg.com/vi/qNpphONUjJU/hqdefault.jpg",
+          "video": "qNpphONUjJU"
+        }
+      ]
+    }
+  ]
+}
