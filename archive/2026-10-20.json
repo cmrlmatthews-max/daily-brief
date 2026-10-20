@@ -1,0 +1,987 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, October 20, 2026",
+  "generated_at": "2026-10-20T05:00:26-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, October 20. Our lead story comes from The Lever. It reports that draft artificial intelligence legislation circulated by Anthropic would permit dozens of projected deaths before government intervention is triggered. The outlet's headline puts the figure at fifty. The summary is short, so the details of the draft are not clear. The company's own position is not included. It is worth checking against the draft text and any response from Anthropic. Now the front page. In Canada, voters in Alberta overwhelmingly backed staying in the country in a referendum. Early results came in Tuesday. They are a boost to Prime Minister Carney's push for national unity. In California, the Justice Department charged twenty eight people with voting crimes. It also asked a federal court to stop the state from processing ballots returned by people on voter rolls the federal government calls likely noncitizens. In football, the San Francisco 49ers beat the Washington Commanders twenty three to seventeen on Monday night. They are now six and zero. They held off a second half rally. In Atlanta, the City Council voted eight to seven to sell the Atlanta City Detention Center to Fulton County for sixty eight million dollars. The debate was chaotic. Now the sections. In tech, Anthropic is expanding its Cyber Verification Program for qualifying security professionals. Simon Willison also shares an essay on what coding agents take from career programmers. In politics, Drop Site News reports that attacks by Israel-backed Palestinian militias in Gaza have grown more frequent over the past year. Separately, a judge criticized the administration's plan to push ahead with a remake of a historic public golf course in Washington. In world news, Australia's prime minister said a federal lawmaker critically injured by a car was hit in an apparent deliberate attack. The driver was arrested. In France, a suspect was arrested after the Limoges city hall was set alight during disorder. In Albania, violent clashes between protesters and police reached a seventh day. In sports, the Houston Rockets host the Dallas Mavericks in their season opener. Mike Evans left the 49ers game with Achilles soreness. And Petr Yan faces Merab Dvalishvili for a third time at UFC three thirty three on Saturday. In Atlanta, Georgia Tech and Emory announced a joint investment of more than one point one billion dollars in AI infrastructure. Centennial Yards has landed a flagship retailer. And Ladybird's Westside warehouse location is days from opening. In architecture, a special report looks at faster graphics performance in Revit and AutoCAD. ArchDaily asks what happens when structure is treated as something the architecture provides. And an arena complex in Yokohama is now complete. In science, Japan's Mars moons mission may also collect some Mars dust. NASA's simulated Mars crew has completed one year in its habitat. And in Nepal, AI is helping prevent tiger attacks. That is the brief. Have a good day.",
+  "lead": {
+    "title": "AI Industry Leader Wants 50 Free Kills",
+    "url": "https://www.levernews.com/ai-leader-wants-50-free-kills/",
+    "source": "The Lever",
+    "topic": "Politics",
+    "note": "The Lever reports that draft artificial intelligence legislation circulated by Anthropic would permit dozens of projected deaths before government intervention is triggered. The outlet's headline puts the figure at 50. The summary is brief, so details of the draft, such as how deaths would be projected and who would decide, are not spelled out here. You follow Anthropic closely and build tools with Claude, and this is a look at how the company approaches AI regulation, as reported by an independent outlet you read. It is also one account, and the company's own position is not included in the summary. Read it as a reporting claim to check against the draft text and any Anthropic response. The subject sits where politics and AI meet, which is why it leads today's paper.",
+    "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--27-.png",
+    "video": null,
+    "headline": "Anthropic's Draft AI Bill Draws Scrutiny",
+    "decks": [
+      "The Lever reports on draft AI legislation circulated by Anthropic",
+      "Draft would permit dozens of projected deaths before government intervention"
+    ]
+  },
+  "front": [
+    {
+      "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Alberta voters overwhelmingly chose to remain in Canada in a referendum, according to early results, a boost to Prime Minister Carney's push for national unity.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6329x4219+0+0/resize/6329x4219!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F58%2Fd3%2F07604eb44312b402a29642da0a3a%2Fap26292784967982.jpg",
+      "video": null
+    },
+    {
+      "title": "DOJ charges 28 in California with voting crimes as election tensions escalate",
+      "url": "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "The Justice Department charged 28 people in California with voting crimes and asked a federal court to stop processing ballots from voters it calls likely noncitizens.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2875+0+0/resize/4800x2875!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2F07%2F5a6e97054f21a7963d525f678dfd%2Fgettyimages-2278611370.jpg",
+      "video": null
+    },
+    {
+      "title": "49ers hold off furious Commanders' second-half rally to go 6-0",
+      "url": "https://www.espn.com/nfl/story/_/id/50222471/mnf-49ers-commanders-brock-purdy",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers beat the Commanders 23-17 on Monday night to go 6-0, holding off a second-half Washington rally.",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733223_1296x729_16-9.jpg",
+      "video": null
+    },
+    {
+      "title": "Atlanta City Council votes to sell detention center to Fulton County for $68 million",
+      "url": "https://roughdraftatlanta.com/2026/10/19/atlanta-council-approves-jail-sale/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Atlanta City Council voted 8-7 to sell the Atlanta City Detention Center to Fulton County for $68 million after a chaotic debate.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Atlanta-City-Dentention-Center-600x338.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals access to advanced cyber capabilities with fewer blocking classifiers.",
+          "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+          "video": null
+        },
+        {
+          "title": "My obituary for programming",
+          "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison highlights an essay on what coding agents take from career programmers who enjoyed coding as a puzzle, relevant to anyone building tools with Claude.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "anomalyco/opencode",
+          "url": "https://github.com/anomalyco/opencode",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "OpenCode, an open source AI coding agent, is trending on GitHub today.",
+          "image": "https://opengraph.githubassets.com/1/anomalyco/opencode",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Israel-Backed Palestinian Militias Terrorize Displaced Families in Gaza",
+          "url": "https://www.dropsitenews.com/p/gaza-israel-backed-palestinian-militias-yellow-line-jabaliya",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that attacks by Israel-backed Palestinian militias in Gaza have grown more frequent over the past year, especially near the so-called yellow line.",
+          "image": "https://substackcdn.com/image/fetch/$s_!k2sQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27070570-29bc-4d99-b13e-e17e3f0c541e_3020x1696.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A judge criticized the administration's plan to proceed with remaking a historic public golf course in Washington, after hundreds of trees were cut despite a court order.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffd%2F8a%2Fe31e842f41f2ba10f448583c2776%2Fgettyimages-2300870866.jpg",
+          "video": null
+        },
+        {
+          "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+          "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Australia's prime minister said a federal independent lawmaker critically injured by a car was hit in an apparent deliberate attack, and the driver was arrested.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7407x4897+0+0/resize/7407x4897!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F8f%2F9597ae5d4a8da98c93d208aecd8d%2Fap26292313653500.jpg",
+          "video": null
+        },
+        {
+          "title": "Suspect arrested after historic town hall set alight during disorder - French media",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A suspect was arrested, French media report, after the Limoges city hall was set alight during disorder and its clock tower spire collapsed.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4edf/live/fff77fe0-cc56-11f1-a64c-550be9e3c66b.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Houston hosts Dallas in season opener",
+          "url": "http://www.espn.com/nba/preview?gameId=401909840",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Houston Rockets host the Dallas Mavericks in their season opener.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909840.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
+          "url": "https://www.espn.com/nfl/story/_/id/50223535/49ers-rule-mike-evans-due-achilles-injury",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Mike Evans left the 49ers' win with Achilles soreness that had kept him out of practice Thursday through Saturday.",
+          "image": "https://a.espncdn.com/photo/2026/1020/r1733220_600x600_1-1.jpg",
+          "video": null
+        },
+        {
+          "title": "Petr Yan vs. Merab Dvalishvili joins rare list of trilogy bouts at UFC 333",
+          "url": "https://www.espn.com/mma/story/_/id/50206478/ufc-333-petr-yan-merab-dvalishvili-join-trilogy-list",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Petr Yan and Merab Dvalishvili meet for a third time at UFC 333 on Saturday.",
+          "image": "https://a.espncdn.com/photo/2026/1016/261019_mma_trilogy-fights_16x9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "$1 billion investment from Georgia Tech and Emory bets big on AI",
+          "url": "https://saportareport.com/1-billion-investment-from-georgia-tech-and-emory-bets-big-on-ai/columnists/mark-lannaman/mark-lannaman/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Georgia Tech and Emory announced a joint investment of more than $1.1 billion in AI infrastructure.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-brett-sayles-4508751-scaled.jpg?fit=1024%2C683&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Centennial Yards lands flagship retail for growing Entertainment District",
+          "url": "https://atlanta.urbanize.city/post/centennial-yards-fanatics-lands-flagship-entertainment-district-growth",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A major sports retailer is set to open flagship retail in the Entertainment District at Centennial Yards.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Centennial%20Yards%20Entertainment%20District.jpg?itok=dqyDahq0",
+          "video": null
+        },
+        {
+          "title": "Ladybird's Westside warehouse remake days from opening",
+          "url": "https://atlanta.urbanize.city/post/ladybird-west-midtown-star-metals-warehouse-remake-days-opening",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Ladybird's West Midtown location in a remade warehouse in the Star Metals District is days from opening after earlier delays.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Ladybird%20Star%20Metals%202.png?itok=hHQwSCJ5",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Boosting graphics performance in Revit and AutoCAD – Special Report",
+          "url": "https://aecmag.com/sponsored-content/boosting-revit-autocad-2027-special-report/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "A special report looks at boosting graphics performance in Revit and AutoCAD with HP workstations, relevant to your BIM workflow.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+          "video": null
+        },
+        {
+          "title": "Getting More From Less: Rethinking Structure Through Form",
+          "url": "https://www.archdaily.com/1185602/getting-more-from-less-rethinking-structure-through-form",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "An ArchDaily piece asks what changes when structure is treated as something architecture itself provides rather than something added.",
+          "image": "https://images.adsttc.com/media/images/6ab2/d64a/e78f/b301/883c/ef24/newsletter/when-less-structure-creates-better-architecture_9.jpg?1790105193",
+          "video": null
+        },
+        {
+          "title": "Yokohama BUNTAI Multipurpose Hub / TAISEI DESIGN Planners Architects & Engineers",
+          "url": "https://www.archdaily.com/1186823/yokohama-buntai-multipurpose-hub-taisei-design-planners-architects-and-engineers",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Yokohama BUNTAI, an arena complex for large sports events and concerts, anchors community development in the Kannai Station area.",
+          "image": "https://images.adsttc.com/media/images/6acf/7fce/7887/fb01/8910/71ba/newsletter/yokohama-buntai-sports-hub-taisei-design-planners-architects-and-engineers_2.jpg?1791983599",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Japan’s sample return mission to Phobos may also collect some Mars dust",
+          "url": "https://www.sciencenews.org/article/japan-mission-mars-moon",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Japan's MMX mission will be the first to visit the moons of Mars and may bring back some Mars dust along with Phobos samples.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101926_MB_mmxmission_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+          "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "The four crew members in NASA's simulated Mars mission have now spent a year in a habitat at Johnson Space Center.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapea-one-year.jpeg",
+          "video": null
+        },
+        {
+          "title": "In Nepal, AI builds on local knowledge to help prevent tiger attacks",
+          "url": "https://news.mongabay.com/2026/10/in-nepal-ai-builds-on-local-knowledge-to-help-prevent-tiger-attacks/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "In Nepal, AI is being built on local knowledge to help prevent tiger attacks.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/20073636/AP21090541435051-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "AI Industry Leader Wants 50 Free Kills",
+              "url": "https://www.levernews.com/ai-leader-wants-50-free-kills/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that draft AI legislation circulated by Anthropic would allow dozens of projected deaths before triggering government intervention. Directly relevant to AI policy.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--27-.png",
+              "video": null
+            },
+            {
+              "title": "Israel-Backed Palestinian Militias Terrorize Displaced Families in Gaza",
+              "url": "https://www.dropsitenews.com/p/gaza-israel-backed-palestinian-militias-yellow-line-jabaliya",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Israel-backed Palestinian militias have increasingly attacked displaced families in Gaza, especially near the expanding yellow line.",
+              "image": "https://substackcdn.com/image/fetch/$s_!k2sQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27070570-29bc-4d99-b13e-e17e3f0c541e_3020x1696.png",
+              "video": null
+            },
+            {
+              "title": "UN cuts food aid to 500,000 Palestinians in Gaza; 7th ICE detainee found dead in Texas this year; France arrests 2,400 in mass protests",
+              "url": "https://www.dropsitenews.com/p/un-food-aid-palestine-gaza-ice-texas-detainee-france-arrests-protests",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site's daily roundup covers UN cuts to food aid for 500,000 Palestinians in Gaza, a seventh ICE detainee found dead in Texas this year, and 2,400 arrests in French protests.",
+              "image": "https://substackcdn.com/image/fetch/$s_!VH9d!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F996310fc-fee9-46ed-bb93-426a12a3a0c0_4785x3190.heic",
+              "video": null
+            },
+            {
+              "title": "I’ve Spent My Life Fighting Corruption. Finally America Is Going To Vote On It.",
+              "url": "https://www.levernews.com/david-sirota-anti-corruption-election/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever frames the 2026 midterms as a referendum on legalized corruption, with Democrats linking it to other crises. Independent political reporting on the campaign.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-David-Sirota-Bernie-Sanders.png",
+              "video": null
+            },
+            {
+              "title": "The real reason it's going to take a while to know who won in some midterm races",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR explains why some midterm races will take a while to call, beyond California's slow counting. Useful context for election night.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5669x3868+0+0/resize/5669x3868!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2Fae%2F1281a3b9443d99ea35ed88de00d1%2Fgettyimages-2280066898.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "DOJ charges 28 in California with voting crimes as election tensions escalate",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The DOJ has charged 28 people in California with voting crimes and sought an emergency court order over ballots from voters the government calls likely noncitizens. Election tensions are rising ahead of November.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2875+0+0/resize/4800x2875!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2F07%2F5a6e97054f21a7963d525f678dfd%2Fgettyimages-2278611370.jpg",
+              "video": null
+            },
+            {
+              "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A judge criticized the administration's plan to overhaul a historic DC public golf course after hundreds of trees were cut down despite a court order.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffd%2F8a%2Fe31e842f41f2ba10f448583c2776%2Fgettyimages-2300870866.jpg",
+              "video": null
+            },
+            {
+              "title": "2026 midterms could be the most expensive on record. And, Macron condemns protests",
+              "url": "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "More than $15 billion has been raised in this year's midterms, possibly the most expensive on record. Macron also condemned violent protests across France.",
+              "image": "https://www.npr.org/2026/10/19/g-s1-148733/undefined",
+              "video": null
+            },
+            {
+              "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+              "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Alberta voters overwhelmingly backed remaining in Canada in an early referendum result, a boost for Prime Minister Carney's national unity push.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6329x4219+0+0/resize/6329x4219!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F58%2Fd3%2F07604eb44312b402a29642da0a3a%2Fap26292784967982.jpg",
+              "video": null
+            },
+            {
+              "title": "Suspect arrested after historic town hall set alight during disorder - French media",
+              "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The spire of the Limoges city hall clock tower collapsed as the historic building burned during disorder on Saturday. A suspect has been arrested, according to French media.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4edf/live/fff77fe0-cc56-11f1-a64c-550be9e3c66b.jpg",
+              "video": null
+            },
+            {
+              "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+              "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A fire at a Canadian military base spread a kilometre in 30 to 60 seconds, killing four men and injuring dozens. The blaze spread with alarming speed, according to accounts.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2ede/live/03f0b480-cbbd-11f1-bc2e-018d645d8d21.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine and Russia exchange strikes, as relations between Trump and Zelenskyy sour",
+              "url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Ukraine and Russia exchanged strikes, with Ukraine launching drone attacks on Russia after deadly Russian attacks on its neighbor over the weekend, as US-Zelenskyy relations soured.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Seventh day of violent clashes between Albanian protesters and police",
+              "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Seven days of violent clashes between Albanian protesters and police have injured almost 300 people, more than half of them police, with no sign of easing.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b732/live/2812da60-cc20-11f1-bc2e-018d645d8d21.jpg",
+              "video": null
+            },
+            {
+              "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+              "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Australian Prime Minister Albanese says an independent lawmaker critically injured after being hit by a car was the target of an apparent deliberate attack. The driver was arrested.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7407x4897+0+0/resize/7407x4897!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F8f%2F9597ae5d4a8da98c93d208aecd8d%2Fap26292313653500.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+              "url": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Trump endorsed Israeli Prime Minister Benjamin Netanyahu for reelection, citing the fight against Iran. Netanyahu is described as embattled.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4441x2961+0+0/resize/4441x2961!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2Fbd%2Ffcfe0cef471fbc2526b243894172%2Fap26291551891113.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+              "url": "https://www.anthropic.com/news/cyber-verification-program",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals access to advanced cyber capabilities and reduced blocking classifiers. Relevant to your work with Claude.",
+              "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+              "video": null
+            },
+            {
+              "title": "My obituary for programming",
+              "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's essay on how coding agents are changing the craft of programming for career developers. A thoughtful read for someone who builds his own tools with Claude.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "anomalyco/opencode",
+              "url": "https://github.com/anomalyco/opencode",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending open-source AI coding agent, opencode, with broad multilingual documentation. Useful to see what other developers are building with agents.",
+              "image": "https://opengraph.githubassets.com/1/anomalyco/opencode",
+              "video": null
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Orca is a desktop, mobile and remote orchestrator for running multiple coding agents such as Claude Code. Fits your interest in agent-based workflows.",
+              "image": "https://opengraph.githubassets.com/1/stablyai/orca",
+              "video": null
+            },
+            {
+              "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+              "url": "https://github.com/golang/go/issues/82345",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Go's standard library will reject certificate chains containing eight distrusted SPKIs. A concrete security change for anyone maintaining Go tools.",
+              "image": "https://opengraph.githubassets.com/e0de7325f0958bc60dbec5dbaa2b9b4590deee095e534c097bf4c3bc57cba2bc/golang/go/issues/82345",
+              "video": null
+            },
+            {
+              "title": "ruvnet/ruflo",
+              "url": "https://github.com/ruvnet/ruflo",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Ruflo is a trending agent harness with native Claude Code support, featuring memory, federation and RAG integration. Directly relevant to Claude-based tooling.",
+              "image": "https://opengraph.githubassets.com/1/ruvnet/ruflo",
+              "video": null
+            },
+            {
+              "title": "feder-cr/git-ai",
+              "url": "https://github.com/feder-cr/git-ai",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "git-ai is a Git designed for AI agents, trending on GitHub. Relevant to anyone managing code written with AI assistants.",
+              "image": "https://opengraph.githubassets.com/1/feder-cr/git-ai",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Purdy and the 49ers build a big lead and hold on to beat the Commanders 23-17",
+              "url": "http://www.espn.com/nfl/recap?gameId=401873008",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Brock Purdy and the 49ers built a big lead and held on to beat Washington 23-17, keeping San Francisco undefeated at 6-0.",
+              "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873008.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Mike Evans unable to finish 49ers' win, exits with Achilles soreness",
+              "url": "https://www.espn.com/nfl/story/_/id/50223535/49ers-rule-mike-evans-due-achilles-injury",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Mike Evans left the 49ers' Monday night win over Washington with Achilles soreness and missed practice Thursday through Saturday. Relevant to his availability.",
+              "image": "https://a.espncdn.com/photo/2026/1020/r1733220_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Houston hosts Dallas in season opener",
+              "url": "http://www.espn.com/nba/preview?gameId=401909840",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Houston Rockets open their season at home against the Dallas Mavericks. Season opener for a team you follow.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909840.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Petr Yan vs. Merab Dvalishvili joins rare list of trilogy bouts at UFC 333",
+              "url": "https://www.espn.com/mma/story/_/id/50206478/ufc-333-petr-yan-merab-dvalishvili-join-trilogy-list",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "ESPN lists UFC trilogy bouts ahead of Petr Yan vs. Merab Dvalishvili 3 at UFC 333 on Saturday.",
+              "image": "https://a.espncdn.com/photo/2026/1016/261019_mma_trilogy-fights_16x9.jpg",
+              "video": null
+            },
+            {
+              "title": "Malott KO's Buckley with a vicious knee to the face",
+              "url": "https://www.espn.com/video/clip/_/id/50207483/malott-ko-buckley-vicious-knee-face",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Mike Malott ended his UFC Edmonton main card bout with a knee KO of Joaquin Buckley.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Cristian Perez sleeps Kyle Nelson with a brutal KO",
+              "url": "https://www.espn.com/video/clip/_/id/50207115/cristian-perez-sleeps-kyle-nelson-brutal-ko",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Cristian Perez knocked out Kyle Nelson in Round 1 at UFC Edmonton, leaving Nelson dazed.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Biggest offseason questions for teams eliminated from MLB playoffs",
+              "url": "https://www.espn.com/mlb/story/_/id/50052092/mlb-playoffs-2026-offseason-eliminated-teams-questions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Braves coverage on the offseason questions facing teams eliminated from the MLB playoffs, including the Cleveland winter after its loss to Tampa Bay.",
+              "image": "https://a.espncdn.com/photo/2026/1020/r1733251_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers hold off furious Commanders' second-half rally to go 6-0",
+              "url": "https://www.espn.com/nfl/story/_/id/50222471/mnf-49ers-commanders-brock-purdy",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers dominated the first half and held off a second-half Commanders rally to go 6-0.",
+              "image": "https://a.espncdn.com/photo/2026/1020/r1733223_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Atlanta City Council votes to sell detention center to Fulton County for $68 million",
+              "url": "https://roughdraftatlanta.com/2026/10/19/atlanta-council-approves-jail-sale/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Atlanta City Council approved the $68 million sale of the Atlanta City Detention Center to Fulton County in an 8-7 vote after hours of debate.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Atlanta-City-Dentention-Center-600x338.jpg",
+              "video": null
+            },
+            {
+              "title": "$1 billion investment from Georgia Tech and Emory bets big on AI",
+              "url": "https://saportareport.com/1-billion-investment-from-georgia-tech-and-emory-bets-big-on-ai/columnists/mark-lannaman/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia Tech and Emory announced a joint $1.1 billion investment in AI infrastructure. Significant for Atlanta's AI research landscape.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-brett-sayles-4508751-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Centennial Yards lands flagship retail for growing Entertainment District",
+              "url": "https://atlanta.urbanize.city/post/centennial-yards-fanatics-lands-flagship-entertainment-district-growth",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Centennial Yards has landed a flagship sports retailer for its growing Entertainment District. A development update for the city's evolving core.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Centennial%20Yards%20Entertainment%20District.jpg?itok=dqyDahq0",
+              "video": null
+            },
+            {
+              "title": "Ladybird's Westside warehouse remake days from opening",
+              "url": "https://atlanta.urbanize.city/post/ladybird-west-midtown-star-metals-warehouse-remake-days-opening",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Ladybird's West Midtown warehouse outpost in the Star Metals District is days from opening. An adaptive reuse project to watch.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Ladybird%20Star%20Metals%202.png?itok=hHQwSCJ5",
+              "video": null
+            },
+            {
+              "title": "Next to busy MARTA station, another public soccer pitch set to open",
+              "url": "https://atlanta.urbanize.city/post/stationsoccer-westside-marta-station-soccer-pitch-set-open",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A new public soccer pitch next to a busy MARTA station is set to open as part of the A League of Stations program. Transit-oriented public space.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/H.E.%20Holmes%20station%20StationSoccer%20final.jpg?itok=jUczQtz1",
+              "video": null
+            },
+            {
+              "title": "Proposed DeKalb County amendment seeks to expand LGBTQ+ non-discrimination laws",
+              "url": "https://roughdraftatlanta.com/2026/10/19/dekalb-ndo-amendment-vote/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "A proposed DeKalb County amendment would expand LGBTQ+ non-discrimination protections in housing and private employment. The commission may vote October 20.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/845354543_1441800931470006_333852945538316803_n-600x501.jpg",
+              "video": null
+            },
+            {
+              "title": "The Galloway School celebrates transformed campus, new academic building",
+              "url": "https://roughdraftatlanta.com/2026/10/19/galloway-school-canopy-house-opens/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The Galloway School held a ribbon-cutting for its transformed Chastain Park campus and new academic building after more than two years across two campuses.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Mayor-Dickens-and-Head-of-School-Amir-Farokhi-cut-the-ribbon-on-the-new-Upper-Learning-Building-10.19-600x338.jpeg",
+              "video": null
+            },
+            {
+              "title": "Atlanta lights up for Dream’s first Finals appearance since 2013",
+              "url": "https://saportareport.com/atlanta-lights-up-for-dreams-first-finals-appearance-since-2013/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta lit up in Dream blue for the team's first WNBA Finals appearance since 2013.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image-7.png?fit=1024%2C576&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Autodesk’s most ambitious AI play yet",
+              "url": "https://aecmag.com/ai/autodesks-most-ambitious-ai-play-yet/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Autodesk outlines an AI vision built around a connected Assistant that decides how to solve tasks. Directly relevant to AI in BIM and your Revit workflow.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Boosting graphics performance in Revit and AutoCAD – Special Report",
+              "url": "https://aecmag.com/sponsored-content/boosting-revit-autocad-2027-special-report/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "A special report on boosting graphics performance in Revit and AutoCAD on HP Z workstations with AMD Ryzen AI Max PRO processors. Useful if you run BIM software.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+              "video": null
+            },
+            {
+              "title": "Getting More From Less: Rethinking Structure Through Form",
+              "url": "https://www.archdaily.com/1185602/getting-more-from-less-rethinking-structure-through-form",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily discusses rethinking structure through form, treating structure as something architecture itself provides. A structural design idea.",
+              "image": "https://images.adsttc.com/media/images/6ab2/d64a/e78f/b301/883c/ef24/newsletter/when-less-structure-creates-better-architecture_9.jpg?1790105193",
+              "video": null
+            },
+            {
+              "title": "Yokohama BUNTAI Multipurpose Hub / TAISEI DESIGN Planners Architects & Engineers",
+              "url": "https://www.archdaily.com/1186823/yokohama-buntai-multipurpose-hub-taisei-design-planners-architects-and-engineers",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Yokohama BUNTAI arena complex was built to host major sports events and concerts, anchoring community development around Kannai Station.",
+              "image": "https://images.adsttc.com/media/images/6acf/7fce/7887/fb01/8910/71ba/newsletter/yokohama-buntai-sports-hub-taisei-design-planners-architects-and-engineers_2.jpg?1791983599",
+              "video": null
+            },
+            {
+              "title": "Casa Canal / Este Norte Estudio",
+              "url": "https://www.archdaily.com/1187072/casa-canal-este-norte-estudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Canal by Este Norte Estudio is a house set in the woods beside a river, shaped by its site. A residential design to study.",
+              "image": "https://images.adsttc.com/media/images/6ad5/df77/8008/f401/8ba5/4279/newsletter/casa-canal-este-norte-estudio_7.jpg?1792401295",
+              "video": null
+            },
+            {
+              "title": "Anja House / iHouse estudio",
+              "url": "https://www.archdaily.com/1187114/anja-house-ihouse-estudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Anja in a Uruguayan pine forest is a holiday retreat that treats existing vegetation as part of the design. Relevant to site-responsive residential work.",
+              "image": "https://images.adsttc.com/media/images/6ad5/f383/aadf/a000/01e3/ae68/newsletter/iHouse_Anja-20.jpg?1792406591",
+              "video": null
+            },
+            {
+              "title": "Tašbik Installation / Wesam Al Asali",
+              "url": "https://www.archdaily.com/1186763/tasbik-wesam-al-asali",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Tašbik is a site-specific installation for the lecture courtyard at Amman Design Week 2026 by architect Wesam Al Asali.",
+              "image": "https://images.adsttc.com/media/images/6ace/9565/b2c4/c300/0178/ee72/newsletter/7-Wesam_Al_Asali_Tas_bik20260930_003_Saifuldeen_Fayez.jpg?1791923617",
+              "video": null
+            },
+            {
+              "title": "FG House / Oficina Conceito Arquitetura",
+              "url": "https://www.archdaily.com/1187138/fg-house-oficina-conceito-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "FG House in Porto Alegre embraces a 16-foot slope and frames the Guaíba River view. A hillside residence with a clear site strategy.",
+              "image": "https://images.adsttc.com/media/images/6ad2/63c6/aadf/a000/01e3/ab60/newsletter/58.jpg?1792173346",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Japan’s sample return mission to Phobos may also collect some Mars dust",
+              "url": "https://www.sciencenews.org/article/japan-mission-mars-moon",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Japan's MMX mission will be the first to visit the moons of Mars and aims to return samples, possibly including some Mars dust.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101926_MB_mmxmission_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "The Human Fingerprint on Earth’s Water Cycle",
+              "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "A new study examines how human activity has become intertwined with how water is distributed across the continents.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-human-fingerprint-on-earth’s-water-cycle/terrestrialwaterstorage_trends.jpg?w=2000&h=1380&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Loss of a rare lake reveals how warming has hit the Canadian Arctic’s ‘planetary fridge’",
+              "url": "https://news.mongabay.com/2026/10/loss-of-a-rare-lake-reveals-how-warming-has-hit-the-canadian-arctics-planetary-fridge/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Warming has destroyed a rare epishelf lake in the Canadian Arctic, a loss of a unique ecosystem linked to the region's cooling role.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/19154023/Polar_Bear_AdF-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Typhoon Champi strengthens to Category 5 but moves away from land; Trudy weakens",
+              "url": "https://news.mongabay.com/short-article/2026/10/typhoon-champi-strengthens-to-category-5-but-moves-away-from-land-trudy-weakens/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Typhoon Champi strengthened to Category 5 with 160 mph winds but moved away from land, while Trudy weakened.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/19172332/AP26288473281669-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By",
+              "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Curiosity's blog reports on watching clouds on Mars at the start of a new Martian year, from the atmospheric science team.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_proj_msl_redops_ods_surface_sol_05037_opgs_edr_ncam_NRB_844669907EDR_S1250558NCAM00543M_.JPG?w=1022&h=1022&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+              "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's simulated Mars crew has spent one year in isolation in a habitat at Johnson Space Center in Houston.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapea-one-year.jpeg",
+              "video": null
+            },
+            {
+              "title": "What 500,000 hours of Yellowstone sound can tell us about wolves",
+              "url": "https://news.mongabay.com/short-article/2026/10/what-500000-hours-of-yellowstone-sound-can-tell-us-about-wolves/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Automated recorders in Yellowstone gather about 500,000 hours of sound a year, and computer models search them for wolf vocalizations.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/16130751/5-Junction-Butte-Pups-Summer-2025-Jeremy-Sunderaj-NPS-PHOTO-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "In Nepal, AI builds on local knowledge to help prevent tiger attacks",
+              "url": "https://news.mongabay.com/2026/10/in-nepal-ai-builds-on-local-knowledge-to-help-prevent-tiger-attacks/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "In Nepal, AI built on local knowledge is being used to help prevent tiger attacks on people. A conservation and AI story.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/20073636/AP21090541435051-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "quote": {
+    "text": "No mortal ever has been, no mortal ever will be like the soul just launched on the sea of life.",
+    "who": "Elizabeth Cady Stanton",
+    "about": "American leader of the women's rights movement",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": null,
+      "last_date": null,
+      "next": "Wed Oct 21 vs DAL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909840/mavericks-rockets",
+      "recent": [],
+      "upcoming": [
+        "Wed Oct 21 vs DAL",
+        "Fri Oct 23 at SA",
+        "Sat Oct 24 at ATL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 23–17 vs WSH",
+      "last_date": "Oct 19",
+      "next": "Sun Oct 25 at ATL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873008/commanders-49ers",
+      "recent": [
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4"
+      ],
+      "upcoming": [
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 60090,
+    "output_tokens": 9983
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "ON THE GROUND: FRANCE Erupts In Riots, Protests",
+          "url": "https://www.youtube.com/watch?v=Mk3PID-spjo",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points hosts discuss protests and riots in France, with reporting from the ground by Cole Stangler.",
+          "image": "https://i2.ytimg.com/vi/Mk3PID-spjo/hqdefault.jpg",
+          "video": "Mk3PID-spjo"
+        },
+        {
+          "title": "I Talked To Workers At Meta, Amazon, & Microsoft About The AI Watching Them",
+          "url": "https://www.youtube.com/watch?v=ca7ufSI1Qxg",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "More Perfect Union talks with workers at Meta, Amazon, and Microsoft about employers using AI to monitor and replace them.",
+          "image": "https://i4.ytimg.com/vi/ca7ufSI1Qxg/hqdefault.jpg",
+          "video": "ca7ufSI1Qxg"
+        },
+        {
+          "title": "Farmers SHOCKED ICE Raids Hurt Their Business",
+          "url": "https://www.youtube.com/watch?v=n0Ve6VoMGQI",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses farmers saying ICE raids have hurt their businesses.",
+          "image": "https://i3.ytimg.com/vi/n0Ve6VoMGQI/hqdefault.jpg",
+          "video": "n0Ve6VoMGQI"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Christian McCaffrey's Best Plays from 2-TD, 117-Yard Game vs. Commanders | Week 6",
+          "url": "https://www.youtube.com/watch?v=Pi-zYF5MAT0",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Highlights of McCaffrey's two-touchdown, 117-yard game against the Washington Commanders in Week 6.",
+          "image": "https://i1.ytimg.com/vi/Pi-zYF5MAT0/hqdefault.jpg",
+          "video": "Pi-zYF5MAT0"
+        },
+        {
+          "title": "49ers Stay PERFECT Despite Late Scare in 23-17 Win Over Commanders",
+          "url": "https://www.youtube.com/watch?v=Pq47g-8Lz2Y",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic hosts break down the 49ers' 23-17 Week 6 win over the Commanders, including its late scare.",
+          "image": "https://i1.ytimg.com/vi/Pq47g-8Lz2Y/hqdefault.jpg",
+          "video": "Pq47g-8Lz2Y"
+        },
+        {
+          "title": "UFC 333: Volkanovski vs Evloev - October 24th | Fight Promo",
+          "url": "https://www.youtube.com/watch?v=Hxm10hI15DA",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Fight promo for UFC 333 in Abu Dhabi, with Volkanovski vs. Evloev as the main event and Yan vs. Dvalishvili as co-main.",
+          "image": "https://i1.ytimg.com/vi/Hxm10hI15DA/hqdefault.jpg",
+          "video": "Hxm10hI15DA"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Orkestra: Managing Dynamo & AI Tools for Revit",
+          "url": "https://www.youtube.com/watch?v=ZrXIbBwJWos",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Introduces Orkestra, a web app for managing Dynamo scripts, and OkPy, an agent that generates Revit ribbon tools.",
+          "image": "https://i3.ytimg.com/vi/ZrXIbBwJWos/hqdefault.jpg",
+          "video": "ZrXIbBwJWos"
+        },
+        {
+          "title": "ChatGPT Skills and Plugins for Construction - Takeoffs and Estimating",
+          "url": "https://www.youtube.com/watch?v=Rq3gdwvUWko",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Demonstrates using ChatGPT construction skills to read drawings and generate a bill of quantities for takeoffs and estimating.",
+          "image": "https://i3.ytimg.com/vi/Rq3gdwvUWko/hqdefault.jpg",
+          "video": "Rq3gdwvUWko"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Only Objects Discovered In the Great Giza Pyramid | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=SlXIbvKZiZs",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel looks at the few objects ever found inside the Great Pyramid of Giza and what modern tech can reveal about them.",
+          "image": "https://i4.ytimg.com/vi/SlXIbvKZiZs/hqdefault.jpg",
+          "video": "SlXIbvKZiZs"
+        }
+      ]
+    }
+  ]
+}
