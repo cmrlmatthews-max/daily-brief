@@ -1,0 +1,1023 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, October 22, 2026",
+  "generated_at": "2026-10-22T05:00:18-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, October 22. Here is what matters today. Our lead story is about PHP. The BBC explains what PHP is and why it set off a global cyber-security scramble. Artificial intelligence uncovered long-hidden programming flaws. That triggered a rare global cyber-security response. If you build software tools, it is worth reading. Now the front page. In basketball, Kevin Durant and Jabari Smith Junior scored thirty points each. The Houston Rockets beat the Dallas Mavericks 128 to 110 in the season opener for both teams. In tech, Claude now works with Google Docs, Sheets and Slides. That is a useful expansion for anyone building workflows around Claude. In world news, the United States ordered some diplomats to leave Saudi Arabia as Houthi attacks escalate. At least three people died in the latest strikes at an airport and an oil field. In politics, AIPAC said it will stop endorsing candidates and giving directly to campaigns. Its affiliated super PAC will continue. Now the sections. In tech, Anthropic released API version 2026-10-21 with new SDK versions. It is also expanding its Cyber Verification Program for qualifying security professionals. And a Cloudflare security audit skill for coding agents is trending on GitHub. In politics, the Justice Department is notifying counties where it wants to monitor elections. Drop Site reports that Iran believes the United States and Israel may strike before the midterms. And The Lever reports on New Hampshire Governor Kelly Ayotte and her shares in Bloom Energy. In world news, Russia freed American Stephen Hubbard after a request from President Trump. Two European aid workers held in Niger for over a year were freed in Libya. And North Korea says it will resume propaganda broadcasts across the border into South Korea. In sports, Raheem Morris returns to Atlanta with a surging 49ers defense. Alexander Volkanovski is preparing for UFC 333. And Khamzat Chimaev wants a rematch with Sean Strickland. In Atlanta, Georgia Tech and Emory announced a joint investment of over one point one billion dollars in AI infrastructure. A new coffee shop is forecast to open on the Beltline in November. And the Michelin Guide to the American South has been released. In architecture, AEC Magazine looks at graphics performance in Revit and AutoCAD. ArchDaily shows a seaside house in Sweden built from brick and wood. It also features a small house in Okayama, Japan. In science, NASA tested an RS-25 engine for future Artemis missions. The Perseverance rover set a new distance record on Mars. And Science News looks at how AI could turn scientific papers into research assistants. That is the brief. Have a good day.",
+  "lead": {
+    "title": "What is PHP and why did it spark a global cyber-security scramble?",
+    "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "A rare global cyber-security response has followed the discovery of long-hidden flaws in PHP. According to the BBC's explainer, artificial intelligence uncovered the programming flaws, and that triggered the scramble. The piece sets out what PHP is and why the discovery set off such a reaction. For a reader who builds software tools, the story matters because it shows a programming technology at the centre of an urgent security effort. It also shows that AI is being used to find weaknesses in code that people had not spotted for a long time. The headline question, what PHP is and why it matters, is one many non-specialists will be asking. The summary does not give technical detail, so the full article is the place to learn how the response worked and what developers are being asked to do.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/15df/live/bbb61e90-cddc-11f1-bc2e-018d645d8d21.jpg",
+    "video": null,
+    "headline": "AI Finds Hidden PHP Flaws, Sparking Global Scramble",
+    "decks": [
+      "AI uncovered long-hidden programming flaws in PHP",
+      "The discovery triggered a rare global cyber-security response",
+      "BBC explains what PHP is and why it matters"
+    ]
+  },
+  "front": [
+    {
+      "title": "Durant and Smith each score 30 points to power the Rockets past the Mavericks 128-110 in the opener",
+      "url": "http://www.espn.com/nba/recap?gameId=401909840",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Kevin Durant and Jabari Smith Jr. scored 30 points each as the Houston Rockets beat the Dallas Mavericks 128-110 in both teams' season opener.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909840.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source": "Hacker News front page",
+      "topic": "Tech & AI",
+      "note": "Claude now works with Google Docs, Sheets and Slides, a practical expansion for anyone building personal workflows around Claude.",
+      "image": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides/opengraph-image/og",
+      "video": null
+    },
+    {
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "The US ordered some diplomats to leave Saudi Arabia as Houthi attacks escalate, with at least three people killed in strikes at an airport and an oil field.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6998/live/cec97250-cdb1-11f1-bc2e-018d645d8d21.jpg",
+      "video": null
+    },
+    {
+      "title": "AIPAC halts endorsements and direct contributions to candidates",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "AIPAC said it will stop endorsing candidates and giving directly to campaigns, though its affiliated super PAC will continue.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3712+0+0/resize/5568x3712!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2Fe6%2F985cf07241b6ae9eb89ad92cd0a6%2Fgettyimages-1731538579.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 21, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-21-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Anthropic released API version 2026-10-21 along with new major SDK versions, which matters if your personal tools call the Claude API.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals advanced cyber capabilities and fewer blocking classifiers.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "video": null
+        },
+        {
+          "title": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending Cloudflare coding-agent skill runs multi-phase security audits with independently verified findings, timely given this week's PHP flaws.",
+          "image": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The War Tehran Believes Is Coming",
+          "url": "https://www.dropsitenews.com/p/iran-war-israel-netanyahu-trump-hormuz-mohsen-rezaei",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site reports Iran believes the U.S. and Israel may strike before the midterms, citing security official Gen. Mohsen Rezaei.",
+          "image": "https://substackcdn.com/image/fetch/$s_!0rTg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc6456af-4234-4e0d-b7e4-815d054d4fac_7860x5240.jpeg",
+          "video": null
+        },
+        {
+          "title": "Kelly Ayotte’s Data Center Reversal Has A Potential Million-Dollar Footnote",
+          "url": "https://www.levernews.com/kelly-ayottes-data-center-reversal-has-a-potential-million-dollar-footnote/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports New Hampshire Gov. Kelly Ayotte helped deregulate data center power providers after serving on Bloom Energy's board, and shares she held could be worth seven figures.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--30--1.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "The Justice Department begins notifying counties where it wants to monitor elections",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "The Justice Department is notifying counties where it wants to monitor elections, raising new concerns about its role this year.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6588x4394+0+0/resize/6588x4394!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2Ffd%2Fa1fa97464ee0821043d09f47e117%2Fgettyimages-2283490165.jpg",
+          "video": null
+        },
+        {
+          "title": "Putin releases American Stephen Hubbard from Russian prison",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Russia freed 74-year-old American Stephen Hubbard from prison after a request from President Trump.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Two European women held captive for more than a year in Niger freed in Libya",
+          "url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Two aid workers from Switzerland and Austria, held in Niger for over a year, were freed in Libya and are due home Thursday.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Raheem Morris is back in Atlanta -- and he's bringing his surging 49ers defense",
+          "url": "https://www.espn.com/nfl/story/_/id/50238009/san-francisco-49ers-raheem-morris-atlanta-falcons-return",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Raheem Morris returns to Atlanta for the first time since being fired as head coach, now leading a surging 49ers defense.",
+          "image": "https://a.espncdn.com/photo/2026/1021/r1733921_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Retirement doesn't scare Alexander Volkanovski, but neither does fighting at 40",
+          "url": "https://www.espn.com/mma/story/_/id/50223020/alexander-volkanovski-ufc-333",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Alexander Volkanovski says he will deliver one of his best performances at UFC 333, despite thoughts of retirement.",
+          "image": "https://a.espncdn.com/photo/2026/1020/r1733207_1296x518_5-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Khamzat Chimaev pushes for Sean Strickland rematch",
+          "url": "https://www.espn.com/mma/story/_/id/50245442/khamzat-chimaev-sean-strickland-rematch",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Khamzat Chimaev is pushing for a rematch with Sean Strickland, saying he should still be middleweight champion.",
+          "image": "https://a.espncdn.com/photo/2026/0511/r1656524_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "$1 billion investment from Georgia Tech and Emory bets big on AI",
+          "url": "https://saportareport.com/1-billion-investment-from-georgia-tech-and-emory-bets-big-on-ai/columnists/mark-lannaman/mark-lannaman/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Georgia Tech and Emory announced a joint investment of over $1.1 billion in AI infrastructure.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-brett-sayles-4508751-scaled.jpg?fit=1024%2C683&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Images: Next pitstop on Beltline's Eastside Trail forecasts Nov. debut",
+          "url": "https://atlanta.urbanize.city/post/beltline-eastside-trail-milk-maple-next-pitstop-images-november-opening-coffeehouse",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Milk & Maple Coffeehouse is forecast to debut in November on the Beltline's Eastside Trail, in a converted Virginia-Highland building.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Milk%20%26%20Maple%20Coffeehouse%20map.png?itok=UxnahAvF",
+          "video": null
+        },
+        {
+          "title": "2026 Michelin Guide to the American South features these Atlanta restaurants",
+          "url": "https://roughdraftatlanta.com/2026/10/21/2026-michelin-guide-american-south-atlanta-restaurants/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "The 2026 Michelin Guide to the American South is out, with the full list of recognized Atlanta restaurants.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/michelinamericansouth26-kirkgibson-2-600x462.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Boosting graphics performance in Revit and AutoCAD – Special Report",
+          "url": "https://aecmag.com/sponsored-content/boosting-revit-autocad-2027-special-report/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine's special report looks at boosting graphics performance in Revit and AutoCAD with HP workstations and AMD processors.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+          "video": null
+        },
+        {
+          "title": "How Seaside House Explores the Relationship Between Brick, Wood, and the Coastal Landscape",
+          "url": "https://www.archdaily.com/1186838/how-seaside-house-explores-the-relationship-between-brick-wood-and-the-coastal-landscape",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Seaside House in southern Sweden uses brick and wood to relate a home to its coastal landscape.",
+          "image": "https://images.adsttc.com/media/images/6acf/beb9/51c8/2d01/89ac/0585/newsletter/how-seaside-house-explores-the-relationship-between-brick-wood-and-the-coastal-landscape_4.jpg?1791999699",
+          "video": null
+        },
+        {
+          "title": "House in Minamigata / Yutaka Yoshida Architect & Associates",
+          "url": "https://www.archdaily.com/1186226/house-in-minamigata-yutaka-yoshida-architect-and-associates",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A small house in Okayama, Japan, sits between rail lines near a greenway, a study in compact urban living.",
+          "image": "https://images.adsttc.com/media/images/6abf/778d/07c3/d100/017f/caf7/newsletter/01.jpg?1790932904",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+          "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA fired an RS-25 engine for about 500 seconds at Stennis in support of future Artemis missions.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947h.jpg?w=1024",
+          "video": null
+        },
+        {
+          "title": "Tracks Along the Longest Drive on Another World",
+          "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Perseverance's odometer reached 45.22 kilometers on Mars, a new record for the longest drive on another world.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&h=968&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "AI could turn scientific papers into research assistants",
+          "url": "https://www.sciencenews.org/article/ai-scientific-papers-research-assistant",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "An AI virtual author could help scientists apply a paper's methods to new data, though it won't match a human author's expertise.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101426_KH_virtualauthor_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Why Are Democrats The Party Of No?",
+              "url": "https://www.levernews.com/medicare-for-none/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever argues that Democratic leaders are resisting public policy demands weeks before the midterms. A perspective piece on party strategy.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--8-.jpg",
+              "video": null
+            },
+            {
+              "title": "The War Tehran Believes Is Coming",
+              "url": "https://www.dropsitenews.com/p/iran-war-israel-netanyahu-trump-hormuz-mohsen-rezaei",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that Iran believes the U.S. and Israel may strike before the midterms, citing Gen. Mohsen Rezaei on new Iranian targets.",
+              "image": "https://substackcdn.com/image/fetch/$s_!0rTg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc6456af-4234-4e0d-b7e4-815d054d4fac_7860x5240.jpeg",
+              "video": null
+            },
+            {
+              "title": "Kelly Ayotte’s Data Center Reversal Has A Potential Million-Dollar Footnote",
+              "url": "https://www.levernews.com/kelly-ayottes-data-center-reversal-has-a-potential-million-dollar-footnote/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that New Hampshire Governor Kelly Ayotte helped deregulate data center power providers after serving on Bloom Energy's board, and that her shares could be worth seven figures.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--30--1.png",
+              "video": null
+            },
+            {
+              "title": "How Trump's attacks on voting system integrity might affect upcoming elections",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6010463/how-trumps-attacks-on-voting-system-integrity-might-affect-upcoming-elections",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Election law expert Rick Hasen explains how Trump's attacks on voting system integrity could affect the upcoming elections, including threats to local officials.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "AIPAC halts endorsements and direct contributions to candidates",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "AIPAC says it will stop endorsing candidates and giving directly to campaigns, while its affiliated super PAC will continue. A notable change in campaign funding.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5568x3712+0+0/resize/5568x3712!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2Fe6%2F985cf07241b6ae9eb89ad92cd0a6%2Fgettyimages-1731538579.jpg",
+              "video": null
+            },
+            {
+              "title": "The Justice Department begins notifying counties where it wants to monitor elections",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The Justice Department has begun notifying counties where it plans to monitor elections, amid concerns about federal involvement in the 2026 vote.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6588x4394+0+0/resize/6588x4394!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2Ffd%2Fa1fa97464ee0821043d09f47e117%2Fgettyimages-2283490165.jpg",
+              "video": null
+            },
+            {
+              "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A new poll shows record support for Democratic congressional candidates, with voters trusting Democrats more on top issues. Relevant to the midterm landscape.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdb%2F63%2Fd779a1c14ad9885a895acb202701%2Fgettyimages-2285931973.jpg",
+              "video": null
+            },
+            {
+              "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The top Democrats on the House and Senate intelligence committees say they are preparing for Trump to allege foreign meddling in the midterms.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4050x2700+0+0/resize/4050x2700!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3d%2Fc3%2F3121b42a43e38191535a1defcc71%2Fgettyimages-2301237711.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/10/22/nx-s1-6003503/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR's morning brief covers the midterm campaign, U.S. and Israeli planning for a possible post-midterm attack on Iran, and Musk's comments on a possible SpaceX-Tesla merger.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Putin releases American Stephen Hubbard from Russian prison",
+              "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Russian President Vladimir Putin released American Stephen Hubbard, 74, from a Russian prison following a request from President Trump.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Two European women held captive for more than a year in Niger freed in Libya",
+              "url": "https://www.bbc.co.uk/news/articles/cq62y0v7434yo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Two European aid workers held captive in Niger for more than a year were freed in Libya and are due to fly home from Libya on Thursday, per reports.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9aa6/live/1aa67a70-1416-11f1-9120-a910fc22c6ac.jpg",
+              "video": null
+            },
+            {
+              "title": "Bukele says military operation launched to rescue Salvadorans held by gangs in Haiti",
+              "url": "https://www.npr.org/2026/10/22/nx-s1-6012029/bukele-military-operation-haiti",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "El Salvador's President Nayib Bukele said he launched a military operation to rescue four Salvadoran aviation technicians kidnapped by gangs in Haiti.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7047x4698+0+0/resize/7047x4698!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdc%2F54%2F0a18db8044b7960268707e05b79c%2Fap26292630777492.jpg",
+              "video": null
+            },
+            {
+              "title": "North Korea says it will resume propaganda broadcasts across border into South Korea",
+              "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "North Korea says it will resume anti-Seoul propaganda broadcasts across the heavily armed border, reviving a psychological warfare campaign.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3945x2630+0+0/resize/3945x2630!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fec%2F6a%2F866ff2c5475aae0dd07d8803c15f%2Fap26292393583122.jpg",
+              "video": null
+            },
+            {
+              "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+              "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The U.S. has ordered some diplomats to leave Saudi Arabia as Houthi attacks escalate, with at least three people killed in strikes on an airport and an oil field.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6998/live/cec97250-cdb1-11f1-bc2e-018d645d8d21.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 21, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-21-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic released API version 2026-10-21 with new SDK versions across several languages. Useful for anyone building with Claude, since the update includes a migration guide.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+              "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Claude now works inside Google Docs, Sheets, and Slides, according to Claude's own article. Relevant to your daily Claude workflow.",
+              "image": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides/opengraph-image/og",
+              "video": null
+            },
+            {
+              "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+              "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A PHP security release fixes two remote code execution holes across the PHP 8.x line, with exploits reported circulating. Urgent if you run any PHP software.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "simbasjungles/free-my-tv",
+              "url": "https://github.com/simbasjungles/free-my-tv",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "An open-source, ad-free home screen for Google TV, built with Claude Code, with a one-button undo. A practical personal-tool project in the style you like.",
+              "image": "https://opengraph.githubassets.com/1/simbasjungles/free-my-tv",
+              "video": null
+            },
+            {
+              "title": "DietrichGebert/ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A coding-agent plugin aimed at reducing code, time, and token cost, with reported percentage gains. Relevant to how you build tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/DietrichGebert/ponytail",
+              "video": null
+            },
+            {
+              "title": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A coding-agent skill for multi-phase security audits with machine-readable findings. A useful pattern for checking code you generate with AI.",
+              "image": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+              "video": null
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Orca is a desktop, mobile, and remote runtime for running a fleet of coding agents, including Claude Code, with your own subscription.",
+              "image": "https://opengraph.githubassets.com/1/stablyai/orca",
+              "video": null
+            },
+            {
+              "title": "My obituary for programming",
+              "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A essay on how coding agents are changing the work of career programmers, from the puzzle of writing code to directing it. Reflective and relevant to your practice.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
+              "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Rockets reserve Tari Eason was ejected in the first quarter of the Mavericks game after shoving P.J. Washington in the back.",
+              "image": "https://a.espncdn.com/photo/2026/1022/r1734368_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Durant and Smith each score 30 points to power the Rockets past the Mavericks 128-110 in the opener",
+              "url": "http://www.espn.com/nba/recap?gameId=401909840",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant and Jabari Smith Jr. each scored 30 as the Rockets beat the Mavericks 128-110 in the season opener for both teams.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909840.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Kyrie Irving hounded by Rockets in return, held in check in Mavs' blowout loss",
+              "url": "https://www.espn.com/nba/story/_/id/50245548/kyrie-irving-held-check-rockets-mavs-blowout-loss",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kyrie Irving scored 15 in his first regular-season game since March 2025 as the Rockets trapped him and the Mavericks lost 128-110.",
+              "image": "https://a.espncdn.com/photo/2026/1022/r1734393_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "What the 49ers and Commanders Had to Say After Week 6",
+              "url": "https://www.49ers.com/news/what-the-49ers-and-commanders-had-to-say-after-week-6",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Kyle Shanahan, Brock Purdy, Fred Warner, and others reflect on the 49ers' Week 6 win over the Commanders, which the 49ers won 23-17.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/qgo3uivvfppi8ptlxf6g.png",
+              "video": null
+            },
+            {
+              "title": "Raheem Morris is back in Atlanta -- and he's bringing his surging 49ers defense",
+              "url": "https://www.espn.com/nfl/story/_/id/50238009/san-francisco-49ers-raheem-morris-atlanta-falcons-return",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Raheem Morris returns to Atlanta for the first time since being fired as Falcons head coach, now leading a surging 49ers defense as coordinator.",
+              "image": "https://a.espncdn.com/photo/2026/1021/r1733921_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Fantasy football buzz: What to expect from J.J. McCarthy in first Giants start",
+              "url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The Giants start J.J. McCarthy, acquired by trade weeks ago, against the Texans, a notable early test for the new quarterback.",
+              "image": "https://a.espncdn.com/photo/2026/1021/r1734058_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Khamzat Chimaev pushes for Sean Strickland rematch",
+              "url": "https://www.espn.com/mma/story/_/id/50245442/khamzat-chimaev-sean-strickland-rematch",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Khamzat Chimaev says he should still be UFC middleweight champion and wants a Sean Strickland rematch.",
+              "image": "https://a.espncdn.com/photo/2026/0511/r1656524_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Volkanovski I sacrificed a lot of myself to be where I am",
+              "url": "https://www.espn.com/video/clip/_/id/50242989/volkanovski-sacrificed-lot-be-where-am",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Featherweight champion Alexander Volkanovski reflects on the sacrifice required to stay at the top of the UFC ahead of UFC 333.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/dm_261021_MMA_Interview_Volkanovski_I_sacrificed_a_lot_of_myself_to_be_where_I_am_20261022/dm_261021_MMA_Interview_Volkanovski_I_sacrificed_a_lot_of_myself_to_be_where_I_am_20261022.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "$1 billion investment from Georgia Tech and Emory bets big on AI",
+              "url": "https://saportareport.com/1-billion-investment-from-georgia-tech-and-emory-bets-big-on-ai/columnists/mark-lannaman/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia Tech and Emory announced a joint investment of over $1.1 billion in AI infrastructure, a major local research commitment.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-brett-sayles-4508751-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Atlanta to keep Doug Voss on as permanent Parks and Rec commissioner",
+              "url": "https://saportareport.com/atlanta-to-keep-doug-voss-on-as-permanent-parks-and-rec-commissioner/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Mayor Andre Dickens named interim Parks and Recreation Commissioner Doug Voss as the permanent head of Atlanta's park system.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_5098-scaled.jpg?fit=1024%2C557&ssl=1",
+              "video": null
+            },
+            {
+              "title": "E-bike, e-scooter deaths ‘surging’ in Georgia, national analysis finds",
+              "url": "https://atlanta.urbanize.city/post/e-bike-e-scooter-deaths-surging-georgia-national-analysis-finds",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A national analysis finds e-bike and e-scooter deaths are surging in Georgia, relevant to street safety in the city.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-01/Atlanta%20e-bike%20rebate.png?itok=XtXpZoAC",
+              "video": null
+            },
+            {
+              "title": "18 photos: Closer look at Athens' people-first downtown street redo",
+              "url": "https://atlanta.urbanize.city/post/athens-college-square-18-photos-closer-look-pedestrian-plaza-downtown-street-redo",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Athens unveiled the first major update in 45 years to College Square, a people-first downtown street redesign near the University of Georgia.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Athens%20College%20Square%20October%202026%2020.jpg?itok=-ZfaBPkF",
+              "video": null
+            },
+            {
+              "title": "Images: Next pitstop on Beltline's Eastside Trail forecasts Nov. debut",
+              "url": "https://atlanta.urbanize.city/post/beltline-eastside-trail-milk-maple-next-pitstop-images-november-opening-coffeehouse",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Milk & Maple Coffeehouse is forecast to open in November on the Beltline's Eastside Trail, part of the trend of converting older buildings to Beltline retail.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Milk%20%26%20Maple%20Coffeehouse%20map.png?itok=UxnahAvF",
+              "video": null
+            },
+            {
+              "title": "In Candler Park, rebirth nearly finished for historic retail buildings",
+              "url": "https://atlanta.urbanize.city/post/midi-atl-candler-park-rebirth-nearly-finished-historic-retail-buildings",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Renovations of historic retail buildings along McLendon Avenue in Candler Park are nearly finished, with tenant changes underway.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-04/3%20McLendon%20Avenue%20Candler%20Park%20.jpg?itok=xbxsy6a8",
+              "video": null
+            },
+            {
+              "title": "2026 Michelin Guide to the American South features these Atlanta restaurants",
+              "url": "https://roughdraftatlanta.com/2026/10/21/2026-michelin-guide-american-south-atlanta-restaurants/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The 2026 Michelin Guide to the American South lists Atlanta restaurants with stars and Bib Gourmands.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/michelinamericansouth26-kirkgibson-2-600x462.jpg",
+              "video": null
+            },
+            {
+              "title": "Killer Mike to host Atlanta screening of documentary ‘Cycle’ on Oct. 23",
+              "url": "https://roughdraftatlanta.com/2026/10/21/killer-mike-to-host-atlanta-screening-of-documentary-cycle-on-oct-23/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Killer Mike will host an Atlanta screening of the documentary Cycle on Oct. 23, about the family of Ty'Rese West, who was shot by a Wisconsin police officer in 2019.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/CYCLE_Still_01-600x246.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "How Seaside House Explores the Relationship Between Brick, Wood, and the Coastal Landscape",
+              "url": "https://www.archdaily.com/1186838/how-seaside-house-explores-the-relationship-between-brick-wood-and-the-coastal-landscape",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Seaside House by Koistinen Hellborg Architects in Höllviken, Sweden, explores how brick and wood relate to the coastal landscape.",
+              "image": "https://images.adsttc.com/media/images/6acf/beb9/51c8/2d01/89ac/0585/newsletter/how-seaside-house-explores-the-relationship-between-brick-wood-and-the-coastal-landscape_4.jpg?1791999699",
+              "video": null
+            },
+            {
+              "title": "House in Minamigata / Yutaka Yoshida Architect & Associates",
+              "url": "https://www.archdaily.com/1186226/house-in-minamigata-yutaka-yoshida-architect-and-associates",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House in Minamigata by Yutaka Yoshida Architect & Associates is a small house on a corner lot in a Japanese town near rail lines and a greenway.",
+              "image": "https://images.adsttc.com/media/images/6abf/778d/07c3/d100/017f/caf7/newsletter/01.jpg?1790932904",
+              "video": null
+            },
+            {
+              "title": "Boosting graphics performance in Revit and AutoCAD – Special Report",
+              "url": "https://aecmag.com/sponsored-content/boosting-revit-autocad-2027-special-report/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine special report on boosting graphics performance in Revit and AutoCAD with HP Z workstations, relevant to your BIM workflow.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png",
+              "video": null
+            },
+            {
+              "title": "Bahia House / Patricia Martinez Arquitetura",
+              "url": "https://www.archdaily.com/1187298/bahia-house-patricia-martinez-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Bahia House by Patricia Martinez Arquitetura is a summer home in Brazil built as an exercise in essentiality.",
+              "image": "https://images.adsttc.com/media/images/6ad7/9ca9/aadf/a000/01e3/b91f/newsletter/_DSF6680.jpg?1792515265",
+              "video": null
+            },
+            {
+              "title": "Plaza Pochote Commercial Center / FAMM Arquitectura",
+              "url": "https://www.archdaily.com/1187198/plaza-pochote-commercial-center-famm-arquitectura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Plaza Pochote by FAMM Arquitectura is a commercial center in Santa Teresa, Costa Rica, responding to linear roadside development.",
+              "image": "https://images.adsttc.com/media/images/6ad7/43fd/aadf/a000/01e3/b56e/newsletter/FAMM_Nantipa_09.jpg?1792492577",
+              "video": null
+            },
+            {
+              "title": "T-237 House / UNO MÁS UNO Arquitectos",
+              "url": "https://www.archdaily.com/1187266/t-237-house-uno-mas-uno-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "T-237 House by UNO MÁS UNO Arquitectos is a compact rectangular house on a southern boundary, oriented to a northern courtyard.",
+              "image": "https://images.adsttc.com/media/images/6ad8/7432/db5c/2001/882c/f25d/newsletter/casa-t-237-uno-mas-uno-arquitectos_6.jpg?1792570441",
+              "video": null
+            },
+            {
+              "title": "Poliedro I House / Volume Architecture Lisbon Studio",
+              "url": "https://www.archdaily.com/1187146/poliedro-i-house-volume-architecture-lisbon-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Poliedro I House by Volume Architecture Lisbon Studio is a house designed for a dense urban fabric of narrow plots.",
+              "image": "https://images.adsttc.com/media/images/6ad8/bc0a/db5c/206d/c644/6ef6/newsletter/poliedro-i-house-volume-architecture-lisbon-studio_28.jpg?1792588823",
+              "video": null
+            },
+            {
+              "title": "Making Room for Rest in Residential Interiors",
+              "url": "https://www.archdaily.com/1182304/integrating-wellness-into-residential-interiors",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "An ArchDaily piece on designing rest and wellbeing into residential interiors, including LEMI's Home Spa Collection.",
+              "image": "https://images.adsttc.com/media/images/6a74/47b6/5c0b/ae01/8ae4/b58c/newsletter/integrating-wellness-into-residential-interiors_1.jpg?1786005454",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 October 22 – The First Green Star, WD J1330+6435",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day covers WD J1330+6435, described as the first green star, a white dwarf image.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/green_wd_mark-garlick_annotated2.jpg?w=1280&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Tracks Along the Longest Drive on Another World",
+              "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Perseverance rover reached a new odometer record of 45.22 kilometers on Mars, the longest drive on another world.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&h=968&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+              "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA tested RS-25 engine No. 10001 for about 500 seconds at Stennis, matching launch firing time for future Artemis missions.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947h.jpg?w=1024",
+              "video": null
+            },
+            {
+              "title": "Seabird guano and native trees keep islands above rising seas: Study",
+              "url": "https://news.mongabay.com/2026/10/seabird-guano-and-native-trees-keep-islands-above-rising-seas-study/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A study finds seabird guano and native forests may help tropical atoll islands keep pace with rising seas.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/21114336/3-red-footed-booby_Jon-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Extractive industries threaten global goal to protect 30% of nature by 2030, report finds",
+              "url": "https://news.mongabay.com/2026/10/extractive-industries-threaten-global-goal-to-protect-30-of-nature-by-2030-report-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A report finds more than 61.5 million hectares of protected areas overlap with oil and gas blocks in tropical countries, threatening the 30 by 2030 goal.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/21144245/alain-bonnardeaux-CeaBZ2F49x4-unsplash-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Fires Char New Guinea",
+              "url": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA satellite data show unusually high emissions from human-set fires burning across New Guinea in a drought-parched landscape.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/new-guinea-on-fire/papuanewguinea_vir_20261011.jpg?w=2048&h=1460&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "These tiny snakes cartwheel to escape danger",
+              "url": "https://www.sciencenews.org/article/tiny-snakes-cartwheel-escape-video",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "New videos show tiny Southeast Asian snakes performing cartwheels to escape danger, a rare escape behavior.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101526_MT_cartwheelingsnake_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "What can minerals tell us about Earth’s past? This geologist is finding out",
+              "url": "https://www.sciencenews.org/article/minerals-earth-geology-gabriela-farfan",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Smithsonian geologist Gabriela Farfan uses corals and minerals to study changing oceans and environments in Earth's past.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_sn10-farfan_main.jpg?w=800",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary Medications Within Expiry Due to Potential Potency Issues",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+      "published": "2026-10-21T20:24:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Each of us inevitable; each of us limitless — each of us with his or her right upon the earth.",
+    "who": "Walt Whitman",
+    "about": "American poet of Leaves of Grass",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 128–110 vs DAL",
+      "last_date": "Oct 21",
+      "next": "Fri Oct 23 at SA",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909840/mavericks-rockets",
+      "recent": [
+        "W 128–110 vs DAL · Oct 21"
+      ],
+      "upcoming": [
+        "Fri Oct 23 at SA",
+        "Sat Oct 24 at ATL",
+        "Mon Oct 26 vs ATL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 23–17 vs WSH",
+      "last_date": "Oct 19",
+      "next": "Sun Oct 25 at ATL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873008/commanders-49ers",
+      "recent": [
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4"
+      ],
+      "upcoming": [
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 68814,
+    "output_tokens": 10242
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Why California's Billionaire Tax Is Crucial | Dave Regan | TMR",
+          "url": "https://www.youtube.com/watch?v=8OAys8s1bzc",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Dave Regan of SEIU-UHW discusses California's Prop 40, a proposed one-time 5% tax on billionaires.",
+          "image": "https://i1.ytimg.com/vi/8OAys8s1bzc/hqdefault.jpg",
+          "video": "8OAys8s1bzc"
+        },
+        {
+          "title": "We Found The Man Who Shaped How You Pay Taxes (And Why The Rich Don't)",
+          "url": "https://www.youtube.com/watch?v=IGb2210QyJw",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Grover Norquist discusses his anti-tax pledge, Social Security, and how the tax system treats high earners.",
+          "image": "https://i2.ytimg.com/vi/IGb2210QyJw/hqdefault.jpg",
+          "video": "IGb2210QyJw"
+        },
+        {
+          "title": "CORNERED Bibi Eyes CANCELLING ELECTIONS",
+          "url": "https://www.youtube.com/watch?v=BQ4J3NYMSzo",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss Israel's upcoming elections and Prime Minister Netanyahu's political position ahead of the vote.",
+          "image": "https://i3.ytimg.com/vi/BQ4J3NYMSzo/hqdefault.jpg",
+          "video": "BQ4J3NYMSzo"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Kyle Shanahan Previews Week 7 Matchup vs. Falcons | 49ers",
+          "url": "https://www.youtube.com/watch?v=ppEA6KgvZ7g",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan previews the 49ers' Week 7 game against the Atlanta Falcons.",
+          "image": "https://i1.ytimg.com/vi/ppEA6KgvZ7g/hqdefault.jpg",
+          "video": "ppEA6KgvZ7g"
+        },
+        {
+          "title": "McCaffrey, Warner Preview Falcons, Talk Team’s Preparation | 49ers",
+          "url": "https://www.youtube.com/watch?v=emh4vO_tEh8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "McCaffrey and Warner preview the Falcons game and discuss the team's preparation on a short week.",
+          "image": "https://i2.ytimg.com/vi/emh4vO_tEh8/hqdefault.jpg",
+          "video": "emh4vO_tEh8"
+        },
+        {
+          "title": "ANATOMY OF UFC 333: Alexander Volkanovski vs. Movsar Evloev | Episode 1",
+          "url": "https://www.youtube.com/watch?v=ZCdjkHmSTt4",
+          "source": "Anatomy of a Fighter",
+          "topic": "Sports",
+          "note": "Behind-the-scenes episode of UFC 333 fight week, featuring featherweight title challenger Movsar Evloev.",
+          "image": "https://i3.ytimg.com/vi/ZCdjkHmSTt4/hqdefault.jpg",
+          "video": "ZCdjkHmSTt4"
+        },
+        {
+          "title": "From the Trenches: 49ers Hold Off the Commanders at Levi's® Stadium in Week 6 | 49ers",
+          "url": "https://www.youtube.com/watch?v=Ed9kl_XYos8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Players' on-field view of the 49ers' 23-17 Week 6 win over the Washington Commanders.",
+          "image": "https://i2.ytimg.com/vi/Ed9kl_XYos8/hqdefault.jpg",
+          "video": "Ed9kl_XYos8"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How to Use ChatGPT in Your Construction Business",
+          "url": "https://www.youtube.com/watch?v=wlFdpqPyVQ4",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of using ChatGPT to turn 2D construction drawings into a 3D warehouse model, relevant to BIM workflows.",
+          "image": "https://i4.ytimg.com/vi/wlFdpqPyVQ4/hqdefault.jpg",
+          "video": "wlFdpqPyVQ4"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Introducing Claude Duet",
+          "url": "https://www.youtube.com/watch?v=Fb-68zqcSVs",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic introduces Claude Duet, a research-preview app where Claude monitors tasks, decides what needs attention, and checks before acting.",
+          "image": "https://i3.ytimg.com/vi/Fb-68zqcSVs/hqdefault.jpg",
+          "video": "Fb-68zqcSVs"
+        },
+        {
+          "title": "How to Build a Smartphone - Full Factory Tour",
+          "url": "https://www.youtube.com/watch?v=Cvep_Ut7gok",
+          "source": "JerryRigEverything",
+          "topic": "Tech & Science",
+          "note": "Factory tour showing how an Oppo smartphone is manufactured, from start of production onward.",
+          "image": "https://i4.ytimg.com/vi/Cvep_Ut7gok/hqdefault.jpg",
+          "video": "Cvep_Ut7gok"
+        },
+        {
+          "title": "The Absolute Strangest THINGS of ALL TIME | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=TZbmUxynDrQ",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Compilation of historical oddities and strange inventions, each with its own timestamped segment.",
+          "image": "https://i1.ytimg.com/vi/TZbmUxynDrQ/hqdefault.jpg",
+          "video": "TZbmUxynDrQ"
+        }
+      ]
+    }
+  ]
+}
