@@ -1,0 +1,1042 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, October 23, 2026",
+  "generated_at": "2026-10-23T05:00:23-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, October 23. Here is what matters today. Our lead story is about Iran. The United States and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections. A person briefed on war planning told NPR this. Iran has said it is prepared. The report describes planning for a possible attack, not a final decision. Now the front page. Anthropic is donating the Agent Skills standard to the Agentic AI Foundation, under the Linux Foundation. The company says it will stay open, community driven and vendor neutral. In architecture, Revizto's MCP server comes packaged with reusable Claude skills. They are modelled on how project teams actually work. In politics, a federal judge restricted Department of Homeland Security field operations that look for noncitizen voters. The judge found they likely violated the Voting Rights Act, which bars voter intimidation. And the San Francisco 49ers visit Atlanta on Sunday. Defensive coordinator Raheem Morris returns to the city. His undefeated team will try to pressure Falcons quarterback Michael Penix Junior. Now the sections. In tech, Claude Models on Google Cloud has launched, and Anthropic's knowledge work plugins bring role-based skills to Claude Cowork. In politics, Drop Site News reports on leaked documents about a UAE project to list Facebook users. NPR reports that the administration is considering moving the White House press corps out of the White House. In world news, a study says record heat in Europe this summer helped kill more than 50,000 people. Typhoon Champi shut down Taiwan, with hundreds of flights cancelled. And officials say the Ebola patients in Nigeria and Kenya both passed through Entebbe airport on October third. In sports, the Rockets held Kyrie Irving to 15 points in a 128 to 110 win over Dallas. UFC 333 in Abu Dhabi features two title fights. And this year's World Series will crown a first-time winner. In Atlanta, Urbanize Atlanta looks at the city's newest baseball venue as it takes shape. Investment continues near the city's historically Black colleges. And a new lawsuit makes corruption allegations against College Park and two council members. In architecture, AEC Magazine looks at AI tools for building code compliance. Qonic is edging toward full BIM authoring. And Arcadis is automating engineering reviews with Nomic. In science, satellite records now let researchers compare this year's El Niño with the strongest ones before it. Hubble is preparing the way for the Roman Space Telescope. And googly-eyed buoys are helping keep seabirds out of fishing nets. That is the brief. Have a good day.",
+  "lead": {
+    "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+    "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
+    "source": "NPR World",
+    "topic": "World",
+    "note": "The United States and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections. That is according to a person briefed on war planning, who spoke to NPR. Iran has said it is prepared. The report describes planning for a possible attack, not a decision to carry one out. The timing, after the midterms, is the central detail in the account. For a reader who wants a short, neutral read on major world news, this is the item most likely to shape the wider picture in the coming weeks, because it involves two governments and a possible military action. It is worth watching for any official confirmation, denial or response from the governments named, since the report rests on a single source briefed on the planning.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F49%2F98%2F9041826c489783e12ef6068beb87%2Fgettyimages-2300727417.jpg",
+    "video": null,
+    "headline": "US, Israel Plan Possible Iran Attack",
+    "decks": [
+      "Plans point to early November, after U.S. midterm elections.",
+      "A person briefed on war planning told NPR.",
+      "Iran says it is prepared."
+    ]
+  },
+  "front": [
+    {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, saying it will stay open and vendor-neutral.",
+      "image": null,
+      "video": null
+    },
+    {
+      "title": "Revizto: putting the ‘I’ in BIM to work",
+      "url": "https://aecmag.com/collaboration/revizto-putting-the-i-in-bim-to-work/",
+      "source": "AEC Magazine",
+      "topic": "Architecture",
+      "note": "Revizto's MCP server ships with reusable Claude skills modelled on how project teams work, a direct link between Claude and BIM.",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "video": null
+    },
+    {
+      "title": "Federal judge restricts DHS field operations looking for noncitizen voters",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A federal judge restricted DHS field operations seeking noncitizen voters, finding they likely violated the Voting Rights Act's bar on voter intimidation.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2986+0+0/resize/4800x2986!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F95%2F62%2F92593bf2437cb45b7aa4fd9393d3%2Fgettyimages-2278767542.jpg",
+      "video": null
+    },
+    {
+      "title": "Morris returns to Atlanta, leading a 49ers defense that will try to pressure Falcons QB Penix",
+      "url": "http://www.espn.com/nfl/preview?gameId=401873017",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "Raheem Morris returns to Atlanta on Sunday as defensive coordinator of the undefeated 49ers, who will try to pressure Falcons quarterback Michael Penix Jr.",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873017.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 22, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-22-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Claude Models on Google Cloud launched, with access through Google Cloud IAM, Marketplace billing, and fast mode for Claude Opus 5.5.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Anthropic's open-source plugins turn Claude into a specialist for a given role in Cowork, and also work with Claude Code.",
+          "image": "https://opengraph.githubassets.com/1/anthropics/knowledge-work-plugins",
+          "video": null
+        },
+        {
+          "title": "simbasjungles/free-my-tv",
+          "url": "https://github.com/simbasjungles/free-my-tv",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "An open-source, ad-free Google TV home screen built with Claude Code is a useful example of a personal tool built with Claude.",
+          "image": "https://opengraph.githubassets.com/1/simbasjungles/free-my-tv",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "UAE Paid Swiss Intelligence Firm to Compile Database of “Hostile” Facebook Users",
+          "url": "https://www.dropsitenews.com/p/uae-alp-services-facebook-crackdown",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports leaked documents on a UAE-funded project to list residents by Facebook likes of articles critical of the government.",
+          "image": "https://substackcdn.com/image/fetch/$s_!rgcD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce03193-f70d-4175-a2ff-ff1d433bbf67_4800x3201.jpeg",
+          "video": null
+        },
+        {
+          "title": "Trump's attacks on the press have become a war",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6012340/trumps-attacks-on-the-press-have-become-a-war",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR cites a New York Times report that the administration is considering moving the White House press corps out of the White House.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump's redistricting gave Republicans a head start, now it goes to the voters",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6004891/trump-redistricting-advantage-midterms",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Mid-decade redistricting prompted by President Trump gave Republicans a head start for holding the House, and voters now decide whether it works.",
+          "image": "https://www.npr.org/2026/10/22/nx-s1-6004891/undefined",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Europe's heat claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149498/europe-heat-deaths",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A new study says record heat in Europe this summer helped kill more than 50,000 people, with nearly two-thirds of deaths blamed on human-caused climate change.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7d%2F87%2Fbc9fc723445b893b3d073c2da611%2Fap26295686426422.jpg",
+          "video": null
+        },
+        {
+          "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+          "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Typhoon Champi shut down Taiwan with hundreds of flights cancelled, and one person died after being swept away by waves on Liuqiu island.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/75ce/live/a509a7d0-ceb2-11f1-ae9c-0303957c36f8.jpg",
+          "video": null
+        },
+        {
+          "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Officials say the Ebola patients in Nigeria and Kenya both travelled through Entebbe airport in Uganda on 3 October.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc0c/live/cdfdf700-ce98-11f1-a6ca-3fa3d92134e2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Kyrie Irving hounded by Rockets in return, held in check in Mavs' blowout loss",
+          "url": "https://www.espn.com/nba/story/_/id/50245548/kyrie-irving-held-check-rockets-mavs-blowout-loss",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Rockets trapped Kyrie Irving into 15 points in his first regular-season game since March 2025, and Dallas lost 128-110.",
+          "image": "https://a.espncdn.com/photo/2026/1022/r1734393_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "UFC 333 preview and picks for featherweight, men's bantamweight titles",
+          "url": "https://www.espn.com/mma/story/_/id/50238314/ufc-333-preview-picks",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "UFC 333 in Abu Dhabi has two title fights, at featherweight and men's bantamweight, and this preview has the matchups and expert picks.",
+          "image": "https://a.espncdn.com/photo/2026/1021/r1733959_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Where 2026 ranks among best World Series matchups since 2000",
+          "url": "https://www.espn.com/mlb/story/_/id/50223790/ranking-best-world-series-matchups-2000",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "This year's World Series will crown a first-time winner, and the piece ranks the matchup against others since 2000.",
+          "image": "https://a.espncdn.com/photo/2026/1020/r1733255_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Photos: How baseball venue in shadow of downtown ATL is shaping up",
+          "url": "https://atlanta.urbanize.city/post/georgia-state-university-baseball-park-photos-summerhill-downtown-atl-shaping",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Urbanize Atlanta shows progress on Atlanta's newest baseball venue near downtown as the World Series begins.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/October%202026%20Georgia%20State%20University%20baseball%20stadium%202.jpg?itok=GhZITRde",
+          "video": null
+        },
+        {
+          "title": "At doorstep of Atlanta HBCUs, ‘transformative’ project full speed ahead",
+          "url": "https://atlanta.urbanize.city/post/morehouse-spelman-hbcu-%24147M-transformative-project-groundbreaking-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New housing and large-scale investment continue near Atlanta's historically Black colleges, with leaders from Morehouse and Spelman involved.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/courtyard%20850%20West%20End%20Ave.%20The%20Den%20at%20Eight50%20West%20_0.png?itok=s7zem3Ly",
+          "video": null
+        },
+        {
+          "title": "College Park officials accused of attempted bribery, extortion, racketeering in new lawsuit",
+          "url": "https://saportareport.com/college-park-officials-accused-of-attempted-bribery-extortion-racketeering-in-new-lawsuit/columnists/adrianne-murchison/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "A new lawsuit accuses College Park and two council members of bribery, extortion and racketeering, which are allegations and not findings.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2025/05/Screenshot-2025-05-08-at-3.35.57%E2%80%AFPM.png?fit=1024%2C655&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Compliance software in AEC",
+          "url": "https://aecmag.com/cad/compliance-software-in-aec/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine surveys AI tools that help professionals navigate building codes and regulations, relevant to everyday architectural practice.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Qonic edges towards BIM authoring",
+          "url": "https://aecmag.com/bim/qonic-edges-towards-bim-authoring/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Qonic is moving toward BIM authoring, letting users begin building complete BIM models from scratch.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "AI’s next bottleneck is the engineer’s desk",
+          "url": "https://aecmag.com/automation/ais-next-bottleneck-is-the-engineers-desk/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Nomic is helping Arcadis automate engineering reviews, and the article argues checking may be AI's next bottleneck.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/10/Andrij.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "El Niño Then and Now",
+          "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "A 35-year satellite altimetry record lets scientists compare this year's El Niño with the strongest earlier ones.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
+          "video": null
+        },
+        {
+          "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Hubble gravitational lensing images are preparing the ground for science with the new Nancy Grace Roman Space Telescope.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_Gravitational-Lens_DES%20J194.5345+03.5358_callout.jpg?w=2048&h=1583&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Googly-eyed buoys and kites help keep seabirds out of fishing nets, study finds",
+          "url": "https://news.mongabay.com/2026/10/googly-eyed-buoys-and-kites-help-keep-seabirds-out-of-fishing-nets-study-finds/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Googly-eyed buoys and kites off Cornwall helped keep seabirds out of fishing nets, according to a study.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/23043242/FISHTEK-LEB-stills-1-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Angie Nixon's Battle Cry Against Corporate Power",
+              "url": "https://www.levernews.com/angie-nixons-battle-cry-against-corporate-power/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/746_LEVER-TIME_WEB.jpg",
+              "video": null
+            },
+            {
+              "title": "UAE Paid Swiss Intelligence Firm to Compile Database of “Hostile” Facebook Users",
+              "url": "https://www.dropsitenews.com/p/uae-alp-services-facebook-crackdown",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!rgcD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce03193-f70d-4175-a2ff-ff1d433bbf67_4800x3201.jpeg",
+              "video": null
+            },
+            {
+              "title": "Trump's attacks on the press have become a war",
+              "url": "https://www.npr.org/2026/10/22/nx-s1-6012340/trumps-attacks-on-the-press-have-become-a-war",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Rahm Emanuel’s Plan Is Exactly How Dems Will Keep Losing",
+              "url": "https://www.levernews.com/rahm-emanuels-plan-is-exactly-how-dems-will-keep-losing/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Rahm-Emanuel.png",
+              "video": null
+            },
+            {
+              "title": "Federal judge restricts DHS field operations looking for noncitizen voters",
+              "url": "https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2986+0+0/resize/4800x2986!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F95%2F62%2F92593bf2437cb45b7aa4fd9393d3%2Fgettyimages-2278767542.jpg",
+              "video": null
+            },
+            {
+              "title": "The Blue-State Democrats Fighting To Shield Billionaires From Taxes",
+              "url": "https://www.levernews.com/the-blue-state-democrats-fighting-to-shield-billionaires-from-taxes/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Polis-Newsom.png",
+              "video": null
+            },
+            {
+              "title": "Exclusive: UN abandons Rafah crossing; PHP flaws expose websites; AIPAC ends endorsements",
+              "url": "https://www.dropsitenews.com/p/un-rafah-gaza-israel-php-flaws-websites-aipac-end-endorsements",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!zviS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41892a8f-33e8-46df-996b-e199e0ff31d7_4032x3024.heic",
+              "video": null
+            },
+            {
+              "title": "What’s So Radical About Angie Nixon?",
+              "url": "https://www.levernews.com/whats-so-radical-about-angie-nixon/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Angie-Nixon.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan",
+              "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/75ce/live/a509a7d0-ceb2-11f1-ae9c-0303957c36f8.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6003504/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+              "url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg",
+              "video": null
+            },
+            {
+              "title": "Europe's heat claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+              "url": "https://www.npr.org/2026/10/23/g-s1-149498/europe-heat-deaths",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7d%2F87%2Fbc9fc723445b893b3d073c2da611%2Fap26295686426422.jpg",
+              "video": null
+            },
+            {
+              "title": "Europe's heat claims 50,000 lives. Climate change blamed for two-thirds of deaths",
+              "url": "https://www.npr.org/2026/10/23/g-s1-149498/europe-heat-deaths",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7d%2F87%2Fbc9fc723445b893b3d073c2da611%2Fap26295686426422.jpg",
+              "video": null
+            },
+            {
+              "title": "Nigeria and Kenya Ebola patients may have crossed paths at Uganda airport, officials say",
+              "url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc0c/live/cdfdf700-ce98-11f1-a6ca-3fa3d92134e2.jpg",
+              "video": null
+            },
+            {
+              "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
+              "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3273/live/7b7caf00-ceb4-11f1-ae9c-0303957c36f8.png",
+              "video": null
+            },
+            {
+              "title": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+              "url": "https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a379/live/0b1863f0-ce1c-11f1-906e-e3128518d85d.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 22, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-22-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Models are now available on Google Cloud, with access controlled by Google Cloud IAM and billing through Google Cloud Marketplace. Fast mode is available for Claude Opus 5.5.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — October 20, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-20-2026-2",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's October 20 release notes: inference hooks leave beta for Enterprise organizations, and new user profiles let API requests be tagged by end customer.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Donating Agent Skills to the Agentic AI Foundation",
+              "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, to keep it open and vendor-neutral.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's open-source plugins turn Claude Cowork and Claude Code into specialists for particular roles and teams. Relevant to your daily tool-building.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/knowledge-work-plugins",
+              "video": null
+            },
+            {
+              "title": "luongnv89/claude-howto",
+              "url": "https://github.com/luongnv89/claude-howto",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A trending visual guide to Claude Code, from basic concepts to advanced agents, with copy-paste templates for practical use.",
+              "image": "https://opengraph.githubassets.com/1/luongnv89/claude-howto",
+              "video": null
+            },
+            {
+              "title": "simbasjungles/free-my-tv",
+              "url": "https://github.com/simbasjungles/free-my-tv",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "An open-source, ad-free home screen for Google TV, built with Claude Code, with a one-button undo. A useful example of a personal tool built with Claude.",
+              "image": "https://opengraph.githubassets.com/1/simbasjungles/free-my-tv",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Will Christian Kirk play vs. Falcons",
+              "url": "https://www.espn.com/video/clip/_/id/50255312/will-christian-kirk-play-vs-falcons",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/dm_261023_16x9_49ers_IA/dm_261023_16x9_49ers_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "Watch Braves prospects in Arizona Fall League action",
+              "url": "https://www.mlb.com/braves/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/kdikhgkw7v8w8wdorlio.jpg",
+              "video": null
+            },
+            {
+              "title": "What are the longest field goals in NFL history?",
+              "url": "https://www.espn.com/nfl/story/_/id/40994229/what-longest-field-goals-nfl-history",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2025/0810/r1529808_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL Week 7 uniforms: Alternates galore as Texans go battle red, Lions all-black",
+              "url": "https://www.espn.com/nfl/story/_/id/50240486/nfl-week-7-uniforms",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1021/16x9.jpg",
+              "video": null
+            },
+            {
+              "title": "Morris returns to Atlanta, leading a 49ers defense that will try to pressure Falcons QB Penix",
+              "url": "http://www.espn.com/nfl/preview?gameId=401873017",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873017.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Bears QB Caleb Williams leads NFL Week 7's best arrivals",
+              "url": "https://www.espn.com/nfl/story/_/id/50252261/nfl-week-7-fashionable-arrivals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1022/r1734769_800x450_16-9.png",
+              "video": null
+            },
+            {
+              "title": "Fantasy football buzz: Notable names you can bench in tough matchups this week",
+              "url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1022/r1734485_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Olson wins 6th Fielding Bible Award",
+              "url": "https://www.mlb.com/braves/news/fielding-bible-award-winners-for-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/uu88gvkhrx20whyhcxif.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Reporter’s Notebook: South Fulton playground, DeKalb climate film festival, Truist Park Sleep Out",
+              "url": "https://saportareport.com/reporters-notebook-south-fulton-playground-dekalb-climate-film-festival-truist-park-sleep-out/reporters-notebook/derek/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-10.24.08-PM-scaled.png?fit=1024%2C533&ssl=1",
+              "video": null
+            },
+            {
+              "title": "This week at the Farmers Market",
+              "url": "https://roughdraftatlanta.com/2026/10/22/this-week-at-the-farmers-market-120/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/sesame-harvest-bruschetta-600x355.png",
+              "video": null
+            },
+            {
+              "title": "Schools are now on the frontline of youth mental health",
+              "url": "https://saportareport.com/schools-are-now-on-the-frontline-of-youth-mental-health/columnists/guestcolumn/melinda-sylvester/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-pixabay-256491-scaled.jpg?fit=1024%2C576&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Tulsa Welding School and Dress for Success Georgia help women prepare for careers in skilled trades",
+              "url": "https://saportareport.com/tulsa-welding-school-and-dress-for-success-georgia-help-women-prepare-for-careers-in-skilled-trades/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image-10.png?fit=768%2C1024&ssl=1",
+              "video": null
+            },
+            {
+              "title": "From margin to mainstream: Asian Americans celebrate victories and address challenges",
+              "url": "https://saportareport.com/from-margin-to-mainstream-asian-americans-celebrate-victories-and-address-challenges/sections/reports/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image2.jpeg?fit=640%2C480&ssl=1",
+              "video": null
+            },
+            {
+              "title": "College Park officials accused of attempted bribery, extortion, racketeering in new lawsuit",
+              "url": "https://saportareport.com/college-park-officials-accused-of-attempted-bribery-extortion-racketeering-in-new-lawsuit/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2025/05/Screenshot-2025-05-08-at-3.35.57%E2%80%AFPM.png?fit=1024%2C655&ssl=1",
+              "video": null
+            },
+            {
+              "title": "☮️ Mental health minder",
+              "url": "https://roughdraftatlanta.com/2026/10/22/mental-health-minder/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/03/Daily-Newsletter-on-website-6-Yalla-2-600x600.png?crop=1",
+              "video": null
+            },
+            {
+              "title": "Photos: How baseball venue in shadow of downtown ATL is shaping up",
+              "url": "https://atlanta.urbanize.city/post/georgia-state-university-baseball-park-photos-summerhill-downtown-atl-shaping",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/October%202026%20Georgia%20State%20University%20baseball%20stadium%202.jpg?itok=GhZITRde",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Ibiza House / Studio Metamorphosis",
+              "url": "https://www.archdaily.com/1187189/ibiza-house-studio-metamorphosis",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6a8e/b1ba/4253/0500/01ca/0e05/newsletter/17-Casa_Ibiza-_Metamorphosis.jpg?1787736541",
+              "video": null
+            },
+            {
+              "title": "Blu Pizzeria Jeddah / movs studio",
+              "url": "https://www.archdaily.com/1187269/blu-pizzeria-jeddah-movs-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ad8/b475/3271/8400/01d0/d862/newsletter/_MOVS_BLU_cover.jpg?1792586895",
+              "video": null
+            },
+            {
+              "title": "Shenzhen Bay MixC Phase II / Ippolito Fleitz Group",
+              "url": "https://www.archdaily.com/1184408/shenzhen-bay-mixc-phase-ii-ippolito-fleitz-group",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ad0/f488/c720/ac01/8896/23a4/newsletter/shenzhen-bay-mixc-phase-ii-ippolito-fleitz-group_40.jpg?1792078993",
+              "video": null
+            },
+            {
+              "title": "Mirador House / Rodrigo de la Cerda Arquitecto",
+              "url": "https://www.archdaily.com/1187341/mirador-house-rodrigo-de-la-cerda-arquitecto",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ad8/7913/3271/8400/01d0/d734/newsletter/30_Casa_Mirador.jpg?1792571711",
+              "video": null
+            },
+            {
+              "title": "Compliance software in AEC",
+              "url": "https://aecmag.com/cad/compliance-software-in-aec/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "AI’s next bottleneck is the engineer’s desk",
+              "url": "https://aecmag.com/automation/ais-next-bottleneck-is-the-engineers-desk/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/Andrij.jpg",
+              "video": null
+            },
+            {
+              "title": "Revizto: putting the ‘I’ in BIM to work",
+              "url": "https://aecmag.com/collaboration/revizto-putting-the-i-in-bim-to-work/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Qonic edges towards BIM authoring",
+              "url": "https://aecmag.com/bim/qonic-edges-towards-bim-authoring/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Ahead of landmark climate trial in Canada, Indigenous youth eye impacts in the North",
+              "url": "https://news.mongabay.com/2026/10/ahead-of-landmark-climate-trial-in-canada-indigenous-youth-eye-impacts-in-the-north/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22223723/All-plaintifs-case-filing-day-2019-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "World Snow Leopard Day: Community action and new science foster coexistence with humans",
+              "url": "https://news.mongabay.com/short-article/2026/10/world-snow-leopard-day-community-action-and-new-science-foster-coexistence-with-humans/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/23062110/snow-leopard-WWF-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Googly-eyed buoys and kites help keep seabirds out of fishing nets, study finds",
+              "url": "https://news.mongabay.com/2026/10/googly-eyed-buoys-and-kites-help-keep-seabirds-out-of-fishing-nets-study-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/23043242/FISHTEK-LEB-stills-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Mass sloth deaths prompt US bill calling for import ban",
+              "url": "https://news.mongabay.com/short-article/2026/10/mass-sloth-deaths-prompt-us-bill-calling-for-import-ban/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2020/04/28114256/SLOTH_TW_034450_JWeditA-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/APOD_Lucy.jpg?w=2048&h=1368&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "El Niño Then and Now",
+              "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-then-and-now/elninocomp_sen6_19971013.jpg",
+              "video": null
+            },
+            {
+              "title": "Scorched sanctuaries: The race to save Borneo’s orangutans from fires",
+              "url": "https://news.mongabay.com/2026/10/scorched-sanctuaries-the-race-to-save-borneos-orangutans-from-fires/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22223758/55-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
+              "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2019/11/nasa_meatball.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Natural Grocers Recalls Natural Grocers Brand Organic 2 Pound Mung Beans Due to Potential Presence of Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+      "published": "2026-10-22T22:59:00+00:00"
+    },
+    {
+      "title": "WinCo Foods LLC Issues Allergy Alert on Undeclared Sesame in Hoagie Rolls",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+      "published": "2026-10-22T19:42:00+00:00"
+    },
+    {
+      "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary Medications Within Expiry Due to Potential Potency Issues",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+      "published": "2026-10-21T20:24:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "For small creatures such as we the vastness is bearable only through love.",
+    "who": "Carl Sagan",
+    "about": "Astronomer and science teacher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 128–110 vs DAL",
+      "last_date": "Oct 21",
+      "next": "Fri Oct 23 at SA",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909840/mavericks-rockets",
+      "recent": [
+        "W 128–110 vs DAL · Oct 21"
+      ],
+      "upcoming": [
+        "Fri Oct 23 at SA",
+        "Sat Oct 24 at ATL",
+        "Mon Oct 26 vs ATL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 23–17 vs WSH",
+      "last_date": "Oct 19",
+      "next": "Sun Oct 25 at ATL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873008/commanders-49ers",
+      "recent": [
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4"
+      ],
+      "upcoming": [
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 70389,
+    "output_tokens": 7438
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Trump's Republican Civil War Is Destroying The GOP",
+          "url": "https://www.youtube.com/watch?v=s1iOj93XyHA",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Ryan Grim of Drop Site News joins the Majority Report to recap the week's major stories and the Republican party's internal divisions.",
+          "image": "https://i4.ytimg.com/vi/s1iOj93XyHA/hqdefault.jpg",
+          "video": "s1iOj93XyHA"
+        },
+        {
+          "title": "WORST HOUSING MARKET ON RECORD",
+          "url": "https://www.youtube.com/watch?v=jFT-OhNaC1U",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss the US housing market, where sellers far outnumber buyers amid high interest rates.",
+          "image": "https://i3.ytimg.com/vi/jFT-OhNaC1U/hqdefault.jpg",
+          "video": "jFT-OhNaC1U"
+        },
+        {
+          "title": "MAGA POLLSTER: 'ITS OVER' GOP Doomsday Is Here",
+          "url": "https://www.youtube.com/watch?v=DdaeDUorPFs",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss the state of GOP polling heading into the midterms, including a pollster's assessment of the party's prospects.",
+          "image": "https://i1.ytimg.com/vi/DdaeDUorPFs/hqdefault.jpg",
+          "video": "DdaeDUorPFs"
+        },
+        {
+          "title": "LIVE Students v. Billionaires Town Hall with AOC & Troy Jackson",
+          "url": "https://www.youtube.com/watch?v=aqlUm-Ye42U",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "A live town hall from Portland, Maine with AOC and Troy Jackson taking student questions on issues that matter most.",
+          "image": "https://i2.ytimg.com/vi/aqlUm-Ye42U/hqdefault.jpg",
+          "video": "aqlUm-Ye42U"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Forty Niner Way: 'Playing at the Standard' | Week 6 Recap vs. Washington Commanders",
+          "url": "https://www.youtube.com/watch?v=kQntGJUqq94",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Official 49ers recap of the Week 6 win over the Washington Commanders, with behind-the-scenes footage of the game.",
+          "image": "https://i4.ytimg.com/vi/kQntGJUqq94/hqdefault.jpg",
+          "video": "kQntGJUqq94"
+        },
+        {
+          "title": "Purdy Explains Offseason Footwork Focus, Breaks Down WR Chemistry | 49ers",
+          "url": "https://www.youtube.com/watch?v=NUnDs2mVA9k",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Brock Purdy discusses refining his footwork this offseason and building chemistry with new receivers Christian Kirk and Brandin Cooks.",
+          "image": "https://i3.ytimg.com/vi/NUnDs2mVA9k/hqdefault.jpg",
+          "video": "NUnDs2mVA9k"
+        },
+        {
+          "title": "Arman Tsarukyan ATTACKS Dillon Danis, BRAWL ENSUES Ahead RAF 14 | Full Press Conference",
+          "url": "https://www.youtube.com/watch?v=Cou_prMbI9Q",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Arman Tsarukyan and Dillon Danis brawl at the RAF 14 press conference, which followed a comment about Khamzat Chimaev.",
+          "image": "https://i4.ytimg.com/vi/Cou_prMbI9Q/hqdefault.jpg",
+          "video": "Cou_prMbI9Q"
+        },
+        {
+          "title": "Anatomy of UFC 333: Alexander Volkanovski vs. Movsar Evloev | Episode 3",
+          "url": "https://www.youtube.com/watch?v=wY-qxPfTe2w",
+          "source": "Anatomy of a Fighter",
+          "topic": "Sports",
+          "note": "Episode 3 of the fight-week series profiling Alexander Volkanovski ahead of UFC 333 against Movsar Evloev in Abu Dhabi.",
+          "image": "https://i4.ytimg.com/vi/wY-qxPfTe2w/hqdefault.jpg",
+          "video": "wY-qxPfTe2w"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "A Simple Way to Build Your Own Construction Software",
+          "url": "https://www.youtube.com/watch?v=aL7OKqm8osc",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Shows how to build a simple AI-assisted construction tracker that links drawings to installation status, without writing code.",
+          "image": "https://i2.ytimg.com/vi/aL7OKqm8osc/hqdefault.jpg",
+          "video": "aL7OKqm8osc"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Why Siberia Is Earth's Strangest Place",
+          "url": "https://www.youtube.com/watch?v=5v0S-yJZv_0",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Explores why Siberia is considered one of Earth's most unusual regions, covering its size and its harsh, sparsely inhabited landscape.",
+          "image": "https://i2.ytimg.com/vi/5v0S-yJZv_0/hqdefault.jpg",
+          "video": "5v0S-yJZv_0"
+        },
+        {
+          "title": "1 month with the Final iPhone",
+          "url": "https://www.youtube.com/watch?v=kOe8s_8LHbA",
+          "source": "Byte Review",
+          "topic": "Tech & Science",
+          "note": "A month-long review of the iPhone 18 Pro Max covering camera, battery, and performance testing.",
+          "image": "https://i4.ytimg.com/vi/kOe8s_8LHbA/hqdefault.jpg",
+          "video": "kOe8s_8LHbA"
+        }
+      ]
+    }
+  ]
+}
