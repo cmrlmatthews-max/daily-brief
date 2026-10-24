@@ -1,0 +1,1048 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, October 24, 2026",
+  "generated_at": "2026-10-24T05:00:15-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, October 24. Here is what matters today. Our lead story is from Sudan. Drop Site News reports that a drone strike on a market in the disputed Abyei region killed more than 150 people. The report describes it as part of a wave of large scale attacks by the Sudanese army. The figures come from one outlet, so treat them with care. Now the front page. In the NBA, Amen Thompson blocked Victor Wembanyama's game-tying layup with less than a second left. The Rockets beat the Spurs 114 to 110 and are now 2 and 0. In the NFL, the 49ers have ruled out receivers Mike Evans and Deebo Samuel, and defensive end Nick Bosa, for Sunday's game against the Falcons. Receiver Christian Kirk may return. At Anthropic, the company is committing a portion of its shares to a new Public Benefit Fund. Its structure increases the stake as the company grows. In space, NASA says Artemis Three will launch in 2027. It will test future Moon lander operations before astronauts return to the lunar surface. Now the sections. In tech, a new Claude API version dated October 21 is out, with new SDK releases. Anthropic is also expanding its Cyber Verification Program for qualifying security professionals. And Cloudflare's security audit skill is trending on GitHub. In politics, a congressional watchdog report says some Pentagon AI projects do not always follow the agency's own guidelines. NPR says Ohio could decide Senate control, with rural voters key. Drop Site's daily briefing covers a West Bank lockdown and Brent crude at 114 dollars. In world news, Ukraine and Russia have confirmed a truce in the occupied city of Oleshky. Authorities are investigating whether the first Ebola cases in Kenya and Nigeria crossed paths. And France is preparing for a day of protest, with more than 70,000 police officers to be deployed. In sports, ESPN previews the third fight between Yan and Dvalishvili. Matt Olson of the Braves won his sixth Fielding Bible Award. In Atlanta, a letter to the editor weighs in on the proposed Beltline rail project. The city's first bike park is nearly finished on the Westside. And a vote on demolishing the home where Michael Hardwick was arrested in 1982 has been delayed until November. In architecture, ArchDaily features Álvaro Siza Vieira's Colien House. AEC Magazine looks at what comes after automated drawings. And VAILLO and Architects renovated the Basque Museum in Bilbao. In science, NASA's Swift Observatory has ended its science mission. Researchers suggest an ancient virus may have shaped chimp brain evolution. And in Poland, scientists say wetlands could act as natural defences for an ancient forest. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Sudanese Army Drone Strikes Kill Scores of Civilians in Crowded Market",
+    "url": "https://www.dropsitenews.com/p/sudan-saf-army-drone-strikes-abyei-market-kordofan",
+    "source": "Drop Site News",
+    "topic": "Politics",
+    "note": "A drone strike on a market in the disputed Abyei region of Sudan killed more than 150 people, according to Drop Site News. The report describes the strike as part of a wave of large scale attacks by the Sudanese army. Its headline says the strikes killed scores of civilians in a crowded market. The strike took place in Abyei, a region described in the report as disputed. The summary gives no further detail on the victims, the timing or any response, so those points are not yet clear from this item. For a reader following world news, it is a report of high civilian casualties that deserves attention today. Readers should treat the figures as those given by one outlet until other sources confirm them.",
+    "image": "https://substackcdn.com/image/fetch/$s_!kGt_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26724287-3488-4f24-b082-d83b12c569d8_4080x3060.jpeg",
+    "video": null,
+    "headline": "Drone Strike on Sudan Market Kills 150-Plus",
+    "decks": [
+      "Over 150 people killed in the disputed Abyei region",
+      "Strike is part of a wave of large scale army attacks",
+      "Civilians were gathered in a crowded market"
+    ]
+  },
+  "front": [
+    {
+      "title": "Amen Thompson blocks Wembanyama in final second as the Rockets beat the Spurs 114-110 in Austin",
+      "url": "http://www.espn.com/nba/recap?gameId=401909096",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Amen Thompson blocked Victor Wembanyama's game-tying layup with under a second left, and the Rockets beat the Spurs 114-110 to start 2-0.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909096.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
+      "url": "https://www.espn.com/nfl/story/_/id/50260609/49ers-wr-evans-de-bosa-wr-samuel-vs-atlanta-wr-kirk-return",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers have ruled out Mike Evans, Deebo Samuel Sr. and Nick Bosa for Sunday's game against the Falcons; Christian Kirk may return.",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733220_600x400_3-2.jpg",
+      "video": null
+    },
+    {
+      "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund, structured so its stake increases as the company grows.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "video": null
+    },
+    {
+      "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "source": "NASA",
+      "topic": "Science & Nature",
+      "note": "NASA's Artemis III, launching in 2027, will test future Moon lander operations before astronauts return to the lunar surface, with a named crew.",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 21, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-21-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "A new Claude API version, 2026-10-21, ships with major new SDK versions and the ant CLI, which matters if you build your own tools.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+          "url": "https://www.anthropic.com/news/cyber-verification-program",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its Cyber Verification Program, giving qualifying security professionals advanced cyber capabilities with fewer blocking classifiers.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "video": null
+        },
+        {
+          "title": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Cloudflare's trending skill turns a coding agent into a multi-phase security auditor with independently verified findings, a pattern worth borrowing.",
+          "image": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Netanyahu orders full lockdown of West Bank after shooting; Bombshell report on Kushner’s $2B slush fund; Brent crude hits $114",
+          "url": "https://www.dropsitenews.com/p/netanyahu-west-bank-hebron-kushner-slush-fund-brent-crude-iran-trump",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site's daily briefing covers a West Bank lockdown, a report on a Kushner fund, and Brent crude reaching $114.",
+          "image": "https://substackcdn.com/image/fetch/$s_!7Kna!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c89f1a8-204f-4a8c-94d6-157c6d4d1894_3000x2001.heic",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A congressional watchdog report says some Pentagon AI-enabled weapons and projects do not always closely follow the agency's own responsible AI guidelines.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1127x1192+0+0/resize/1127x1192!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2F35%2F5c968cba4fdfa34765d346214ab1%2Fgao-ai.jpg",
+          "video": null
+        },
+        {
+          "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Ohio is competitive this year and could decide Senate control, with rural voters who have backed Republicans central to the Democratic path.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5a%2Ffa%2F435be5024106ae3ca19a04e44f45%2Fchrisgibbs-selects-kc-3-edit.jpg",
+          "video": null
+        },
+        {
+          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Ukraine and Russia confirmed a truce in Russian-occupied Oleshky, where residents have been eating garden weeds to survive; the White House credits Melania Trump.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "After two opposite fights, what should be expected from Yan vs. Dvalishvili 3",
+          "url": "https://www.espn.com/mma/story/_/id/50257331/petr-yan-merab-dvalishvili-trilogy",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "ESPN looks at how Yan and Dvalishvili have adjusted their strategies ahead of their third fight.",
+          "image": "https://a.espncdn.com/photo/2026/1023/r1734959_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Olson wins 6th Fielding Bible Award",
+          "url": "https://www.mlb.com/braves/news/fielding-bible-award-winners-for-2026",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "Matt Olson won his sixth Fielding Bible Award, a Braves note for the offseason.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/uu88gvkhrx20whyhcxif.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Letter to Editor: Atlanta’s 1 percent fiercely opposes Beltline rail. Why?",
+          "url": "https://atlanta.urbanize.city/post/letter-editor-beltline-rail-atl-1-percent-fiercely-opposes-rail-why",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A letter to the editor weighs in on the proposed $3.5-billion Beltline rail project, which Urbanize Atlanta continues to cover.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Beltline%20Transit%20under%20Berne%20Street%20Bridge.png?itok=fpF3Zb3p",
+          "video": null
+        },
+        {
+          "title": "Images: Atlanta's first bike park set to open soon on Westside",
+          "url": "https://atlanta.urbanize.city/post/images-atl-first-bike-park-westside-set-open-soon-shirley-franklin-park",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Atlanta's first bike park, on the Westside, is nearly finished after breaking ground in January.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/recent%202%20Shirley%20Clarke%20Franklin%20SFP%20Bike%20Park%20Diagram%201.jpg?itok=DLTC99jV",
+          "video": null
+        },
+        {
+          "title": "Vote delayed on demolition of LGBTQ+ historic site",
+          "url": "https://roughdraftatlanta.com/2026/10/23/npu-f-defers-hardwick-site-vote/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "A neighborhood planning unit deferred until November its vote on demolishing the home where Michael Hardwick was arrested in 1982.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/streetview-e1792767332288-600x361.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Colien House / Álvaro Siza Vieira",
+          "url": "https://www.archdaily.com/1019867/colien-house-alvaro-siza-vieira-plus-alvaro-fonseca",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Álvaro Siza Vieira's Colien House steps a compact volume down a slope while acting only on the essentials of the site.",
+          "image": "https://images.adsttc.com/media/images/66b3/f1b1/aa19/b92a/a75f/dd49/newsletter/casa-colien-alvaro-siza-vieira-plus-alvaro-fonseca_42.jpg?1723068871",
+          "video": null
+        },
+        {
+          "title": "Ten conceptual designs before lunch…",
+          "url": "https://aecmag.com/cad/ten-conceptual-designs-before-lunch/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine argues that automating drawing production is only the start of what AI can offer design workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Basque Museum Bilbao / VAILLO + ARCHITECTS",
+          "url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "VAILLO + ARCHITECTS' competition-winning renovation of the Basque Museum in Bilbao is a case study in rehabilitating a historic city block.",
+          "image": "https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Swift Observatory has ended its science mission as its orbit decayed below 171 miles, leaving behind a large scientific record.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
+          "url": "https://www.sciencenews.org/article/human-chimp-brains-different-virus-dna",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Researchers suggest an ancient viral infection may have influenced chimp brain evolution through leftover DNA in the genome.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102326_JB_ancientvirus_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Can a swamp stop an army?",
+          "url": "https://news.mongabay.com/short-article/2026/10/can-a-swamp-stop-an-army/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Scientists say wetlands and dense forest in Poland's Białowieża Forest could act as natural military defences while also helping the forest.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/24074353/Mongabay_Thumbnail_PollandWar_Vertical_Featured-338x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Netanyahu orders full lockdown of West Bank after shooting; Bombshell report on Kushner’s $2B slush fund; Brent crude hits $114",
+              "url": "https://www.dropsitenews.com/p/netanyahu-west-bank-hebron-kushner-slush-fund-brent-crude-iran-trump",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports Netanyahu ordered a full lockdown of the West Bank after a shooting, and a report on Kushner's $2 billion fund. Brent crude reached $114.",
+              "image": "https://substackcdn.com/image/fetch/$s_!7Kna!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c89f1a8-204f-4a8c-94d6-157c6d4d1894_3000x2001.heic",
+              "video": null
+            },
+            {
+              "title": "America’s Most Fascist Candidate, Brought To You By Big Oil",
+              "url": "https://www.levernews.com/americas-most-fascist-candidate-brought-to-you-by-big-oil/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on a Texas candidate with white-nationalist politics who has won backing from oil interests he promises to deregulate.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Bo-French-Texas.png",
+              "video": null
+            },
+            {
+              "title": "Mike Rogers Puts Spotlight on Failed Benghazi Probe in Final Weeks of Senate Race",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-puts-spotlight-on-failed-benghazi",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports Rep. Mike Rogers is spotlighting the Benghazi probe in the final weeks of the Senate race, along with a legal threat against Drop Site.",
+              "image": "https://substackcdn.com/image/fetch/$s_!gcll!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd47c560-b454-4c3e-87e4-a6fc7b280a95_869x578.png",
+              "video": null
+            },
+            {
+              "title": "Lindsay Owens: Who Is Your AI Shopping Agent Working For?",
+              "url": "https://www.levernews.com/lindsay-owens-ai-surveillance-pricing/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Lindsay Owens writes in The Lever that surveillance pricing, driven by AI shopping agents, is angering swing voters.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/lindsay-live.png",
+              "video": null
+            },
+            {
+              "title": "Kelly Ayotte’s Data Center Reversal Has A Potential Million-Dollar Footnote",
+              "url": "https://www.levernews.com/kelly-ayottes-data-center-reversal-has-a-potential-million-dollar-footnote/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that New Hampshire Gov. Kelly Ayotte helped deregulate data center power providers after serving on Bloom Energy's board, and that her shares could be worth seven figures.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--30--1.png",
+              "video": null
+            },
+            {
+              "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+              "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Military reinforcements are moving to the Middle East and some personnel have left the region, pointing to a potential attack on Iran. Millions of Americans have voted early in the midterms.",
+              "image": "https://www.npr.org/2026/10/23/g-s1-149514/undefined",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A congressional watchdog report finds Pentagon AI weapons and projects don't always follow the agency's own responsible AI guidelines. Relevant to your AI interest.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1127x1192+0+0/resize/1127x1192!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2F35%2F5c968cba4fdfa34765d346214ab1%2Fgao-ai.jpg",
+              "video": null
+            },
+            {
+              "title": "A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6010488/east-potomac-trump-golf-hains-point",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Trump's plan for East Potomac Park would add a large golf course and remove grassy areas and a road locals use, prompting grassroots pushback in D.C.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7981x5321+0+0/resize/7981x5321!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F9e%2Fa7feccc04514986c699822c53319%2Fgettyimages-2297967883-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
+              "url": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Two former FBI employees have been charged with lying to Congress over inquiries into Hunter Biden.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3275x2183+0+0/resize/3275x2183!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9b%2F51%2Fdb84d9874b77b9f268aad78e4268%2Fgettyimages-2160497887.jpg",
+              "video": null
+            },
+            {
+              "title": "Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels",
+              "url": "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Taiz, Yemen faces a severe water crisis as Houthi rebels backed by Iran tighten their encirclement of the city.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2463x1383+0+0/resize/2463x1383!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F48%2Ff2%2Fbed4f4df43b197d5bb5247c6c0e3%2Fap26296551585852.jpg",
+              "video": null
+            },
+            {
+              "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+              "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The White House says Melania Trump brokered a truce in the Russian-occupied Ukrainian city of Oleshky, which Ukraine and Russia have confirmed.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg",
+              "video": null
+            },
+            {
+              "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
+              "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Nigeria recorded its first Ebola case in the current outbreak, which has spread from Congo to several African countries. Authorities are investigating whether the first Kenya and Nigeria cases were linked.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4200x2800+0+0/resize/4200x2800!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F12%2Fed%2Fbaea41c84e6dbf969ba20837a5ec%2Fgettyimages-2300888082.jpg",
+              "video": null
+            },
+            {
+              "title": "Severe flooding hits Four Corners region, more expected through the weekend",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Intense rainfall has flooded rivers in the Four Corners region, with towns declaring evacuations and emergencies, and more rain expected through the weekend.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1536+0+0/resize/2048x1536!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe7%2F3c%2F1efa4a1d4835830ab225ffe1eeeb%2Fap26296544937366.jpg",
+              "video": null
+            },
+            {
+              "title": "France prepares for day of protest a week after nationwide riots",
+              "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "France expects hundreds of thousands to protest, with more than 70,000 police deployed, a week after nationwide riots.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8f26/live/2a059180-cf74-11f1-aaa0-39a3560003e9.jpg",
+              "video": null
+            },
+            {
+              "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Israeli soldiers killed two men near Hebron after an alleged attack, and Israel ordered closure of the West Bank; at least five people were injured.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F57%2F02b3f2a94bc8be8d87ea0b7696e6%2Fap26296215624787.jpg",
+              "video": null
+            },
+            {
+              "title": "How Brazil's changing working class is reshaping the presidential race",
+              "url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Brazil's presidential runoff on Sunday pits President Lula against a Bolsonaro heir, with the working class shaping the race.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2d48/live/69127510-cef6-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, with a structure that increases the stake as the company grows. Directly relevant to your Claude and Anthropic interest.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+              "url": "https://www.anthropic.com/news/cyber-verification-program",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is launching an expanded Cyber Verification Program giving qualifying security professionals access to advanced cyber capabilities and reduced blocking classifiers.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — October 21, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-21-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Platform released API version 2026-10-21, with new versions of its client SDKs, including Python, TypeScript and Go. Useful if you build tools against the API.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Introducing Kimi K3.1 Pro",
+              "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Moonshot released Kimi K3.1 Pro through its API, with a promise that full model weights will follow by Nov. 4, 2026. A notable open-weights model release to watch.",
+              "image": "https://static.simonwillison.net/static/2026-10-23/image-2.png",
+              "video": null
+            },
+            {
+              "title": "Quick Study",
+              "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A developer built a Claude artifact that paints a photo onto a canvas with a simulated brush in seconds. A practical example of what you can build with Claude in the browser.",
+              "image": "https://static.simonwillison.net/static/2026/heron-oil.webp",
+              "video": null
+            },
+            {
+              "title": "NVIDIA/OpenShell",
+              "url": "https://github.com/NVIDIA/OpenShell",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "NVIDIA's OpenShell is a runtime for autonomous AI agents focused on safety and isolation, with a new 0.1.x release cadence. Relevant to agent tooling you build.",
+              "image": "https://opengraph.githubassets.com/1/NVIDIA/OpenShell",
+              "video": null
+            },
+            {
+              "title": "SnailSploit/Claude-Red",
+              "url": "https://github.com/SnailSploit/Claude-Red",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "claude-red is a curated library of offensive security skills for the Claude skills system, each a structured SKILL.md file. Relevant to Claude skill design.",
+              "image": "https://opengraph.githubassets.com/1/SnailSploit/Claude-Red",
+              "video": null
+            },
+            {
+              "title": "OpenBMB/VoxCPM",
+              "url": "https://github.com/OpenBMB/VoxCPM",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "VoxCPM2 is an open-source tokenizer-free text-to-speech model with multilingual generation and voice cloning. A popular trending repo.",
+              "image": "https://opengraph.githubassets.com/1/OpenBMB/VoxCPM",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Amen Thompson blocks Wembanyama in final second as the Rockets beat the Spurs 114-110 in Austin",
+              "url": "http://www.espn.com/nba/recap?gameId=401909096",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Amen Thompson blocked Victor Wembanyama's game-tying attempt in the final second as the Rockets beat the Spurs 114-110 in Austin.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909096.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
+              "url": "https://www.espn.com/nfl/story/_/id/50260609/49ers-wr-evans-de-bosa-wr-samuel-vs-atlanta-wr-kirk-return",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Mike Evans, Deebo Samuel and Nick Bosa are among 49ers ruled out for Sunday's game against the Falcons, with Christian Kirk listed as possibly returning.",
+              "image": "https://a.espncdn.com/photo/2026/1020/r1733220_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Khamzat Chimaev pushes for Sean Strickland rematch",
+              "url": "https://www.espn.com/mma/story/_/id/50245442/khamzat-chimaev-sean-strickland-rematch",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Khamzat Chimaev says he should still be UFC middleweight champion and wants a Sean Strickland rematch.",
+              "image": "https://a.espncdn.com/photo/2026/0511/r1656524_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "After two opposite fights, what should be expected from Yan vs. Dvalishvili 3",
+              "url": "https://www.espn.com/mma/story/_/id/50257331/petr-yan-merab-dvalishvili-trilogy",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "A preview of Yan vs. Dvalishvili 3, looking at how Dvalishvili has adjusted his fight plan and Yan's all-in approach.",
+              "image": "https://a.espncdn.com/photo/2026/1023/r1734959_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Volkanovski I sacrificed a lot of myself to be where I am",
+              "url": "https://www.espn.com/video/clip/_/id/50242989/volkanovski-sacrificed-lot-be-where-am",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Alexander Volkanovski reflects on the sacrifice required to stay a UFC champion ahead of UFC 333.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/dm_261021_MMA_Interview_Volkanovski_I_sacrificed_a_lot_of_myself_to_be_where_I_am_20261022/dm_261021_MMA_Interview_Volkanovski_I_sacrificed_a_lot_of_myself_to_be_where_I_am_20261022.jpg",
+              "video": null
+            },
+            {
+              "title": "Atlanta plays Houston for out-of-conference matchup",
+              "url": "http://www.espn.com/nba/preview?gameId=401909856",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (1-0) face the Hawks (2-0) in an out-of-conference matchup.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909856.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Olson wins 6th Fielding Bible Award",
+              "url": "https://www.mlb.com/braves/news/fielding-bible-award-winners-for-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Third baseman Matt Olson won his sixth Fielding Bible Award.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/uu88gvkhrx20whyhcxif.jpg",
+              "video": null
+            },
+            {
+              "title": "Blanchfield out, Suarez and Jandiroba move up in pound-for-pound rankings",
+              "url": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Kayla Harrison-era roster shifts: Blanchfield is out of the pound-for-pound rankings, with Suarez and Jandiroba moving up after Silva's women's flyweight title win.",
+              "image": "https://a.espncdn.com/photo/2026/1006/r1726812_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Civil rights activist and former MLK aide Tom Houck dies at 79",
+              "url": "https://roughdraftatlanta.com/2026/10/23/civil-rights-activist-tom-houck-dies/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Civil rights activist and former journalist Tom Houck, once an aide to Martin Luther King Jr., has died at age 79.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/tom-houck.jpg",
+              "video": null
+            },
+            {
+              "title": "Vote delayed on demolition of LGBTQ+ historic site",
+              "url": "https://roughdraftatlanta.com/2026/10/23/npu-f-defers-hardwick-site-vote/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Neighborhood Planning Unit F deferred until November its vote on demolishing the home where Michael Hardwick was arrested in 1982, a case that led to overturning Georgia's anti-sodomy laws.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/streetview-e1792767332288-600x361.jpg",
+              "video": null
+            },
+            {
+              "title": "Letter to Editor: Atlanta’s 1 percent fiercely opposes Beltline rail. Why?",
+              "url": "https://atlanta.urbanize.city/post/letter-editor-beltline-rail-atl-1-percent-fiercely-opposes-rail-why",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A letter to the editor from Industrial Media defends opposition to the proposed $3.5-billion Beltline rail project, in Urbanize's ongoing coverage.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/Beltline%20Transit%20under%20Berne%20Street%20Bridge.png?itok=fpF3Zb3p",
+              "video": null
+            },
+            {
+              "title": "Images: Atlanta's first bike park set to open soon on Westside",
+              "url": "https://atlanta.urbanize.city/post/images-atl-first-bike-park-westside-set-open-soon-shirley-franklin-park",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Atlanta's first bike park on the Westside is nearly finished and set to open soon, a new intown destination.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/recent%202%20Shirley%20Clarke%20Franklin%20SFP%20Bike%20Park%20Diagram%201.jpg?itok=DLTC99jV",
+              "video": null
+            },
+            {
+              "title": "Friday fun bag: What will Atlanta look like in 10 years?",
+              "url": "https://atlanta.urbanize.city/post/friday-fun-bag-what-will-atl-look-10-years-now",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize looks at how Atlanta's Centennial Yards, South Downtown and greenspace have changed since 2016 and what the city may look like in 10 years.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Drone%20tour%20Skyline%20King%20New%20City%20Old%20Fourth%20Ward.jpg?itok=aPdGU1NS",
+              "video": null
+            },
+            {
+              "title": "Infill Buckhead project near Phipps Plaza sniffs sellout, at last",
+              "url": "https://atlanta.urbanize.city/post/buckhead-peachtree-project-near-phipps-plaza-sniffs-sellout",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "An infill townhome project near Phipps Plaza in Buckhead, in development since Kasim Reed's time as mayor, is nearing sellout.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Belvedere%20on%20Peachtree%2C%203667%20Peachtree%20Road%20map%201.png?itok=Q-HJTfur",
+              "video": null
+            },
+            {
+              "title": "Images: Next pitstop on Beltline's Eastside Trail forecasts Nov. debut",
+              "url": "https://atlanta.urbanize.city/post/beltline-eastside-trail-milk-maple-next-pitstop-images-november-opening-coffeehouse",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The next pitstop on the Beltline's Eastside Trail, a Virginia-Highland coffeehouse, forecasts a November debut.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Milk%20%26%20Maple%20Coffeehouse%20map.png?itok=UxnahAvF",
+              "video": null
+            },
+            {
+              "title": "🗳️ Annexation on the ballot",
+              "url": "https://roughdraftatlanta.com/2026/10/23/annexation-on-the-ballot/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Tucker has an annexation measure on the ballot, with early voting ending Oct. 30 and Election Day on Nov. 3.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/07/Tucker-Logo-600x450.png?crop=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Basque Museum Bilbao / VAILLO + ARCHITECTS",
+              "url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "VAILLO + ARCHITECTS won a competition to renovate and rehabilitate the Euskal Museoa Bilbao, the Ethnographic Museum of Basque Culture, on a historic city block.",
+              "image": "https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535",
+              "video": null
+            },
+            {
+              "title": "Colien House / Álvaro Siza Vieira",
+              "url": "https://www.archdaily.com/1019867/colien-house-alvaro-siza-vieira-plus-alvaro-fonseca",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Álvaro Siza Vieira's Colien House is a compact volume that steps down the slope, organized around the site's topography and vegetation.",
+              "image": "https://images.adsttc.com/media/images/66b3/f1b1/aa19/b92a/a75f/dd49/newsletter/casa-colien-alvaro-siza-vieira-plus-alvaro-fonseca_42.jpg?1723068871",
+              "video": null
+            },
+            {
+              "title": "Ten conceptual designs before lunch…",
+              "url": "https://aecmag.com/cad/ten-conceptual-designs-before-lunch/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine on automating drawing production and how AI can generate conceptual designs quickly. Relevant to your BIM and AI interests.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "CitySquash / Gluck+",
+              "url": "https://www.archdaily.com/1187044/citysquash-gluck-plus",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Gluck+ designed CitySquash, a new center for an after-school athletics, academics and mentorship program serving Bronx and Brooklyn youth.",
+              "image": "https://images.adsttc.com/media/images/6ad2/5d83/aadf/a000/01e3/ab29/newsletter/1806-PRO-03-HANA-L1720946.jpg?1792171471",
+              "video": null
+            },
+            {
+              "title": "Success Academy Bronx K–12 Campus / SOM",
+              "url": "https://www.archdaily.com/1187400/success-academy-bronx-k-12-campus-som",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "SOM's Success Academy Bronx K-12 Campus is a new school for a charter network of 22,000 students across 60 New York City schools.",
+              "image": "https://images.adsttc.com/media/images/6ada/4c6d/db5c/2001/882c/fba0/newsletter/success-academy-bronx-k-12-campus-som_18.jpg?1792691345",
+              "video": null
+            },
+            {
+              "title": "Lele Hotel / The Lab Evn",
+              "url": "https://www.archdaily.com/1187167/lele-hotel",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Lele Hotel in Armenia's Vayots Dzor is designed for continuity with its mountainous terrain through materials, proportions and relations to the landscape.",
+              "image": "https://images.adsttc.com/media/images/6ad7/1a31/aadf/a000/01e3/b410/newsletter/011_Lele_Hotel.jpg?1792481900",
+              "video": null
+            },
+            {
+              "title": "Architectural competition for the design and supervision of the construction of the project “Limassol Arts Centre”",
+              "url": "https://www.archdaily.com/1187254/architectural-competition-for-the-design-and-supervision-of-the-construction-of-the-project-limassol-arts-centre",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A competition brief for a Limassol Arts Centre aimed at a flexible, sustainable cultural facility under the city's 2024–2034 strategy.",
+              "image": "https://images.adsttc.com/media/images/6ad8/8e79/3271/8400/01d0/d7d3/newsletter/architectural-competition-EN-1800x600.jpg?1792577151",
+              "video": null
+            },
+            {
+              "title": "Veja São Paulo Store / Roberto Somlo Arquitetura",
+              "url": "https://www.archdaily.com/1187436/veja-sao-paulo-store-roberto-somlo-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Roberto Somlo Arquitetura transforms an existing Oscar Freire Street building in São Paulo into the first VEJA store in Brazil.",
+              "image": "https://images.adsttc.com/media/images/6ad6/7503/aadf/a000/01e3/b350/newsletter/MVB_LojaVeja_D5A9010.jpg?1792439578",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+              "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA and SpaceX and Blue Origin have streamlined designs and operations for crewed lunar landers aimed at 2028 Moon missions.",
+              "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+              "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Artemis III, launching in 2027, will test future Moon lander operations with a crew that includes Randy Bresnik, Frank Rubio and Andre Douglas.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "RS-25 Engine Tests at NASA Stennis",
+              "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Stennis Space Center hot-fired RS-25 engine No. 10001 for about 500 seconds, matching the duration of an SLS launch burn.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+              "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Swift observatory has ended its science mission as its orbit dropped below 275 km, leaving a large body of scientific results.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg?w=2048&h=1084&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
+              "url": "https://www.sciencenews.org/article/human-chimp-brains-different-virus-dna",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "A viral infection from millions of years ago may have influenced chimp brain evolution through DNA leftovers, offering a clue to why human brains surpassed theirs.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102326_JB_ancientvirus_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Restoring a 12,000-year-old forest to help defend Poland’s border",
+              "url": "https://news.mongabay.com/video/2026/10/restoring-a-12000-year-old-forest-to-help-defend-polands-border/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports on restoring Białowieża Forest, one of Europe's last primeval forests, to help defend the Poland-Belarus border.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22110303/Mongabay_Thumbnail_PolandWar_Featured-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Can a swamp stop an army?",
+              "url": "https://news.mongabay.com/short-article/2026/10/can-a-swamp-stop-an-army/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Scientists say wetlands and dense forests in Poland's Białowieża Forest could act as natural military defenses, which may also benefit the forest.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/24074353/Mongabay_Thumbnail_PollandWar_Vertical_Featured-338x512.jpg",
+              "video": null
+            },
+            {
+              "title": "World Kangaroo Day: How climate change impacts Australia’s macropods",
+              "url": "https://news.mongabay.com/2026/10/world-kangaroo-day-how-climate-change-impacts-australias-macropods/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "On World Kangaroo Day, Mongabay examines how climate change, amid a super El Niño, is affecting Australia's macropods.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22124702/14582525532_c6239de35c_o-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Natural Grocers Recalls Natural Grocers Brand Organic 2 Pound Mung Beans Due to Potential Presence of Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+      "published": "2026-10-22T22:59:00+00:00"
+    },
+    {
+      "title": "WinCo Foods LLC Issues Allergy Alert on Undeclared Sesame in Hoagie Rolls",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+      "published": "2026-10-22T19:42:00+00:00"
+    },
+    {
+      "title": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary Medications Within Expiry Due to Potential Potency Issues",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
+      "published": "2026-10-21T20:24:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "I announce a life that shall be copious, vehement, spiritual, bold.",
+    "who": "Walt Whitman",
+    "about": "American poet of Leaves of Grass",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 114–110 at SA",
+      "last_date": "Oct 23",
+      "next": "Sat Oct 24 at ATL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909096/rockets-spurs",
+      "recent": [
+        "W 114–110 at SA · Oct 23",
+        "W 128–110 vs DAL · Oct 21"
+      ],
+      "upcoming": [
+        "Sat Oct 24 at ATL",
+        "Mon Oct 26 vs ATL",
+        "Wed Oct 28 at MIL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 23–17 vs WSH",
+      "last_date": "Oct 19",
+      "next": "Sun Oct 25 at ATL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873008/commanders-49ers",
+      "recent": [
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4"
+      ],
+      "upcoming": [
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 68221,
+    "output_tokens": 10630
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Hawaii Just Made Citizens United Irrelevant. Your State Could Be Next",
+          "url": "https://www.youtube.com/watch?v=1WfOvFwmIdA",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Explains Montana's I-194 ballot initiative, which would bar corporations and other artificial persons from contributing to campaigns, as an alternative to overturning Citizens United.",
+          "image": "https://i2.ytimg.com/vi/1WfOvFwmIdA/hqdefault.jpg",
+          "video": "1WfOvFwmIdA"
+        },
+        {
+          "title": "TX Voters OVERWHELM Polls w HUGE Turnout",
+          "url": "https://www.youtube.com/watch?v=92UhuMC6t1I",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Discusses early voting turnout in Texas ahead of the November 3 midterm elections.",
+          "image": "https://i2.ytimg.com/vi/92UhuMC6t1I/hqdefault.jpg",
+          "video": "92UhuMC6t1I"
+        },
+        {
+          "title": "Sam Altman Issues DIRE WARNING Over Disaster He Unleashed",
+          "url": "https://www.youtube.com/watch?v=2Ze6he-3F74",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points crew discusses reported AI-enabled hacking incidents in the US and Sam Altman's comments on them.",
+          "image": "https://i3.ytimg.com/vi/2Ze6he-3F74/hqdefault.jpg",
+          "video": "2Ze6he-3F74"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "49ers are 6-0: Commanders Thriller, Falcons Preview, & More | The Saloon",
+          "url": "https://www.youtube.com/watch?v=cqfYuK9L-04",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Recaps the 49ers' 23-17 win over Washington to go 6-0 and previews the Week 7 game against the Atlanta Falcons.",
+          "image": "https://i4.ytimg.com/vi/cqfYuK9L-04/hqdefault.jpg",
+          "video": "cqfYuK9L-04"
+        },
+        {
+          "title": "Kyle Shanahan Shares Final Updates Ahead of Week 7 Game vs. Falcons | 49ers",
+          "url": "https://www.youtube.com/watch?v=sCM8oVzJWDU",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan gives final updates before the 49ers' Week 7 game against the Atlanta Falcons.",
+          "image": "https://i4.ytimg.com/vi/sCM8oVzJWDU/hqdefault.jpg",
+          "video": "sCM8oVzJWDU"
+        },
+        {
+          "title": "Answering Seven of the MOST PRESSING Questions About the 2026 Season",
+          "url": "https://www.youtube.com/watch?v=kFEMdtubQkY",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic panel revisits seven pre-season questions for each team six weeks into the 2026 NFL season.",
+          "image": "https://i4.ytimg.com/vi/kFEMdtubQkY/hqdefault.jpg",
+          "video": "kFEMdtubQkY"
+        },
+        {
+          "title": "UFC 333: Fighter Face-offs",
+          "url": "https://www.youtube.com/watch?v=oAiglpaghJI",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Official UFC 333 fighter face-offs ahead of the event.",
+          "image": "https://i4.ytimg.com/vi/oAiglpaghJI/hqdefault.jpg",
+          "video": "oAiglpaghJI"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "8 Ways to Build Better Claude Skills for Construction",
+          "url": "https://www.youtube.com/watch?v=QcHXYhlcyNg",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley outlines eight practices for building effective Claude skills for construction contractors and workflows.",
+          "image": "https://i2.ytimg.com/vi/QcHXYhlcyNg/hqdefault.jpg",
+          "video": "QcHXYhlcyNg"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "How Factory is building autonomous software with Claude",
+          "url": "https://www.youtube.com/watch?v=N6FkmdL0Lg0",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic's Kai Gill interviews Factory CEO Matan Grinberg about building autonomous software engineering agents with Claude.",
+          "image": "https://i3.ytimg.com/vi/N6FkmdL0Lg0/hqdefault.jpg",
+          "video": "N6FkmdL0Lg0"
+        },
+        {
+          "title": "iPhone Duo Durability: Destroyed",
+          "url": "https://www.youtube.com/watch?v=5laDGy4INB0",
+          "source": "JerryRigEverything",
+          "topic": "Tech & Science",
+          "note": "JerryRigEverything puts the new folding iPhone Duo through a durability test covering dust, burns, bends and scratches.",
+          "image": "https://i2.ytimg.com/vi/5laDGy4INB0/hqdefault.jpg",
+          "video": "5laDGy4INB0"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Made Erling Haaland's Favorite Food",
+          "url": "https://www.youtube.com/watch?v=ivBsqNblpFU",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "ThatDudeCanCook makes a dish he says is Erling Haaland's favorite food.",
+          "image": "https://i2.ytimg.com/vi/ivBsqNblpFU/hqdefault.jpg",
+          "video": "ivBsqNblpFU"
+        },
+        {
+          "title": "This Mexican Shrimp Recipe BLOWS Shrimp Scampi Away!",
+          "url": "https://www.youtube.com/watch?v=89XLHuH83WY",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy presents a Mexican-inspired garlic butter shrimp recipe as an alternative to shrimp scampi.",
+          "image": "https://i1.ytimg.com/vi/89XLHuH83WY/hqdefault.jpg",
+          "video": "89XLHuH83WY"
+        }
+      ]
+    }
+  ]
+}
