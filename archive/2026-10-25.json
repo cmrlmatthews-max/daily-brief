@@ -1,0 +1,1125 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Sunday, October 25, 2026",
+  "generated_at": "2026-10-25T05:00:21-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5",
+    "week": "claude-opus-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Sunday, October 25. Our lead story is from the UFC. Alexander Volkanovski defended his featherweight title for the second time this year on Saturday at UFC 333 in Abu Dhabi. He knocked out undefeated challenger Movsar Evloev at four minutes and fifty-four seconds of the second round. Petr Yan also kept his title on the same card. He beat Merab Dvalishvili by unanimous decision in the co-main event and completed their trilogy. Now to the front page. In the NBA, Kevin Durant scored twenty-two points and Reed Sheppard hit five three-pointers. The Houston Rockets beat the Atlanta Hawks one twenty-one to one fourteen in Atlanta's home opener. The 49ers play the Falcons today. San Francisco activated receiver Christian Kirk from injured reserve and released lineman Kevin Givens. In world news, Elon Musk says SpaceX restricted Ukraine's Starlink connection. He accuses Ukraine of using the network for military activity in violation of its terms. Service has been restored. And The Lever has an investigation into how AIPAC is routing millions of dollars through groups promoting women, reproductive rights and Latino candidates. It says AI interests are adopting the same strategy. Now the sections. In tech, Anthropic launched Claude Models on Google Cloud, with Google Cloud access controls and marketplace billing. In politics, NPR reports a rise of economic populism in both parties as the midterms approach. In world news, large protests took place across Europe on Saturday, and almost one thousand people were arrested after clashes in France. Brazilian voters choose between Lula and Flávio Bolsonaro. In sports, Petr Yan's win at UFC 333 and a preview of the matchup between Fred Warner and Bijan Robinson are worth a look. In Atlanta, Urbanize shows aerial photos of the city's newest baseball venue taking shape. In architecture, Qonic is moving toward letting users author complete BIM models from scratch. In science, NASA ran a five hundred second hot fire test of an RS-25 engine at Stennis Space Center. That is the brief. Have a good day. This is the Sunday edition. Here is the week in review. Anthropic prepares IPO, France imposes curfews, 49ers reach 6-0. Anthropic led the AI news. Before an expected IPO, it told investors that quarterly revenue rose nearly 50% to $16.8bn (w2). It also committed shares to a new Public Benefit Fund, which BBC put at 5% (w1, w123). Other releases: Claude Models on Google Cloud (w99), API version 2026-10-21 with new SDKs (w77), Claude working in Google Docs, Sheets and Slides (w74), and Agent Skills donated to the Agentic AI Foundation (w95). The Lever reported critically on draft AI legislation circulated by Anthropic (w24). In BIM, Revizto shipped an MCP server with Claude skills (w96). Flaws in PHP that AI found set off a global security response (w72). France imposed nightly curfews after rioting, and almost 1,000 people were arrested (w58, w150). Protests also spread to Milan, Rome, Madrid and Lisbon (w149). A source told NPR that the U.S. and Israel are planning for a possible attack on Iran in early November (w94), and Houthi attacks led the U.S. to pull some diplomats from Saudi Arabia (w75). Alberta voted to stay in Canada (w25), and Ebola cases were confirmed in Nigeria and Kenya (w52, w107). In the U.S., courts and county officials disputed federal efforts to find noncitizen voters (w51, w97). In Atlanta, the council voted 8-7 to sell the detention center to Fulton County for $68 million (w28), and the debate over Beltline rail went on (w17, w131). In sports, the 49ers went 6-0 ahead of their game in Atlanta (w27). The Rockets won all three games of opening week (w73, w121, w141). At UFC 333, Volkanovski and Yan both kept their titles (w140, w152).",
+  "lead": {
+    "title": "Alexander Volkanovski stops Movsar Evloev in 2nd round to retain title",
+    "url": "https://www.espn.com/mma/story/_/id/50270358/volkanovski-keeps-title-2nd-round-ko-evloev",
+    "source": "UFC (ESPN)",
+    "topic": "Sports",
+    "note": "Alexander Volkanovski defended his featherweight title for the second time this year on Saturday at UFC 333 in Abu Dhabi. He knocked out undefeated challenger Movsar Evloev at 4:54 of the second round. ESPN described the win as dominant. Evloev had entered the fight without a loss, so the finish carries extra weight. Volkanovski has now successfully held the belt twice in 2026. Earlier on the card, Petr Yan also kept his title, beating Merab Dvalishvili by unanimous decision in the co-main event. That fight completed their trilogy, and Yan won the last two meetings. For a reader who follows the UFC, this is the main result of the weekend, and it keeps both champions on top of their divisions.",
+    "image": "https://a.espncdn.com/photo/2026/1024/r1735626_600x400_3-2.jpg",
+    "video": null,
+    "headline": "Volkanovski knocks out Evloev, keeps title",
+    "decks": [
+      "Featherweight champion stops undefeated challenger at 4:54 of round two",
+      "Second title defense of the year, at UFC 333 in Abu Dhabi"
+    ]
+  },
+  "front": [
+    {
+      "title": "Durant scores 22, Sheppard hits five 3-pointers to lead Rockets to a win in Atlanta's home opener",
+      "url": "http://www.espn.com/nba/recap?gameId=401909856",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Kevin Durant scored 22 and Reed Sheppard hit five 3-pointers as the Houston Rockets beat the Atlanta Hawks 121-114 in Atlanta's home opener.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909856.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "49ers Announce Roster Moves Ahead of #SFvsATL",
+      "url": "https://www.49ers.com/news/49ers-announce-roster-moves-ahead-of-sfvsatl",
+      "source": "49ers.com",
+      "topic": "Sports",
+      "note": "Ahead of the game against Atlanta, the 49ers activated WR Christian Kirk from injured reserve and released DL Kevin Givens.",
+      "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/rrpjlmliemlx45jjnjjr.png",
+      "video": null
+    },
+    {
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Elon Musk says SpaceX restricted Ukraine's Starlink connection, accusing Ukraine of using the network for military activity in violation of its terms, as service is restored.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5b53/live/c94ca0d0-d041-11f1-950a-2dcbf5245e34.jpg",
+      "video": null
+    },
+    {
+      "title": "AIPAC Is Spending Millions — Just Not Under Its Own Name",
+      "url": "https://www.levernews.com/aipac-is-spending-millions-just-not-under-its-own-name/",
+      "source": "The Lever",
+      "topic": "Politics",
+      "note": "A Lever investigation traces how AIPAC is routing millions through groups promoting women, reproductive rights and Latino candidates, and how AI interests are adopting the same approach.",
+      "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--2--1.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 22, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-22-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Anthropic launched Claude Models on Google Cloud, with Google Cloud IAM for access and Marketplace billing, which matters if you build tools on the API.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "battledrones v14: Compass Rose, a four player map",
+          "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison added a four-player online mode to his Battledrones game, with the Claude prompt he used, a useful example for tool builders.",
+          "image": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
+          "video": null
+        },
+        {
+          "title": "luongnv89/claude-howto",
+          "url": "https://github.com/luongnv89/claude-howto",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending GitHub guide to Claude Code, from basic concepts to advanced agents, with copy-paste templates.",
+          "image": "https://opengraph.githubassets.com/1/luongnv89/claude-howto",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The rise of the economic populist: What voters want from both parties this year",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-5979036/the-rise-of-the-economic-populist-what-voters-want-from-both-parties-this-year",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports a new economic populism rising in both parties as voters look for answers on financial stability ahead of the midterms.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Week in Politics: Ramaswamy's Ohio ad; Trump greenlights DOJ to sue over Alaska Senate",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR's week in politics covers Vivek Ramaswamy's Ohio attack ad and President Trump's go-ahead for a DOJ lawsuit over Alaska's Senate race.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "UAE Paid Swiss Intelligence Firm to Compile Database of “Hostile” Facebook Users",
+          "url": "https://www.dropsitenews.com/p/uae-alp-services-facebook-crackdown",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site reports leaked documents showing the UAE paid a Swiss intelligence firm to compile a database of Facebook users who liked critical news articles.",
+          "image": "https://substackcdn.com/image/fetch/$s_!rgcD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce03193-f70d-4175-a2ff-ff1d433bbf67_4800x3201.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Large demonstrations took place Saturday in Milan, Rome, Madrid, Lisbon and Tirana, with soldiers guarding central Milan.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F44%2Ffc%2F067418084bee810af15f9fc7dfc9%2Fap26297352027819.jpg",
+          "video": null
+        },
+        {
+          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Almost 1,000 people were arrested as clashes followed another day of mass protests across France, according to the BBC.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+          "video": null
+        },
+        {
+          "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
+          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Brazilian voters choose between President Lula, 80, seeking a fourth term, and Flávio Bolsonaro, son of the imprisoned former president.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc2d/live/5e5c94f0-cffc-11f1-b444-6fb1f13f8d87.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Petr Yan completes trilogy with gritty win over Merab Dvalishvili to defend title",
+          "url": "https://www.espn.com/mma/ufc/story/_/id/50269828/petr-yan-completes-trilogy-gritty-win-merab-dvalishvili-defend-title",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Petr Yan beat Merab Dvalishvili by unanimous decision at UFC 333 to defend his title and complete their trilogy.",
+          "image": "https://a.espncdn.com/photo/2026/1024/r1735597_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Fred Warner and Bijan Robinson set to clash",
+          "url": "https://www.espn.com/video/clip/_/id/50271372/fred-warner-bijan-robinson-set-clash",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "A preview of today's 49ers-Falcons game centers on the matchup between Fred Warner and Bijan Robinson.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_16x9_49ers_IA/dm_261024_16x9_49ers_IA.jpg",
+          "video": null
+        },
+        {
+          "title": "Who is this year's Mr. October? Tracking the playoff MVP for 2026",
+          "url": "https://www.espn.com/mlb/story/_/id/50110772/2026-mlb-playoffs-mvp-tracker-wpa-leaderboard-win-probability-added-mr-october",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "A look at the numbers behind the players doing the most to help their teams in the 2026 playoffs.",
+          "image": "https://a.espncdn.com/photo/2026/1016/r1731471_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Photos: How baseball venue in shadow of downtown ATL is shaping up",
+          "url": "https://atlanta.urbanize.city/post/georgia-state-university-baseball-park-photos-summerhill-downtown-atl-shaping",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Urbanize Atlanta shares aerial photos of Atlanta's newest baseball venue near downtown as it takes shape.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/October%202026%20Georgia%20State%20University%20baseball%20stadium%202.jpg?itok=GhZITRde",
+          "video": null
+        },
+        {
+          "title": "Friday fun bag: What will Atlanta look like in 10 years?",
+          "url": "https://atlanta.urbanize.city/post/friday-fun-bag-what-will-atl-look-10-years-now",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Urbanize asks what Atlanta will look like in ten years, looking back at how Centennial Yards and the quarry have changed since 2016.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Drone%20tour%20Skyline%20King%20New%20City%20Old%20Fourth%20Ward.jpg?itok=aPdGU1NS",
+          "video": null
+        },
+        {
+          "title": "At doorstep of Atlanta HBCUs, ‘transformative’ project full speed ahead",
+          "url": "https://atlanta.urbanize.city/post/morehouse-spelman-hbcu-%24147M-transformative-project-groundbreaking-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New housing and large-scale investment continue near Atlanta's historically Black colleges and universities.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/courtyard%20850%20West%20End%20Ave.%20The%20Den%20at%20Eight50%20West%20_0.png?itok=s7zem3Ly",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Qonic edges towards BIM authoring",
+          "url": "https://aecmag.com/bim/qonic-edges-towards-bim-authoring/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Qonic is moving toward BIM authoring, letting users build complete BIM models from scratch, which is worth watching for Revit users.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Compliance software in AEC",
+          "url": "https://aecmag.com/cad/compliance-software-in-aec/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine surveys AI tools that help professionals navigate complex building codes and regulations.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Legombang Treehouse / Cave Urban",
+          "url": "https://www.archdaily.com/1186813/legombang-treehouse-cave-urban",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A Balinese family home by Cave Urban uses reclaimed timber, passive design and a structure woven around existing trees.",
+          "image": "https://images.adsttc.com/media/images/6acf/83d8/51c8/2d01/89ac/0499/newsletter/legombang-treehouse-cave-urban_12.jpg?1791984628",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "RS-25 Engine Tests at NASA Stennis",
+          "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Stennis Space Center ran a 500-second hot fire of an RS-25 engine, matching the burn time of an SLS launch.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Today's NASA Astronomy Picture of the Day shows dark matter in a simulated universe.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Restoring a 12,000-year-old forest to help defend Poland’s border",
+          "url": "https://news.mongabay.com/video/2026/10/restoring-a-12000-year-old-forest-to-help-defend-polands-border/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Mongabay reports on restoring Białowieża Forest, one of Europe's last primeval forests, on the Poland-Belarus border.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22110303/Mongabay_Thumbnail_PolandWar_Featured-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "AIPAC Is Spending Millions — Just Not Under Its Own Name",
+              "url": "https://www.levernews.com/aipac-is-spending-millions-just-not-under-its-own-name/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever investigates how AIPAC is routing millions through groups promoting women, reproductive rights, and Latino candidates, and how AI interests are adopting the same strategy.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--2--1.png",
+              "video": null
+            },
+            {
+              "title": "UAE Paid Swiss Intelligence Firm to Compile Database of “Hostile” Facebook Users",
+              "url": "https://www.dropsitenews.com/p/uae-alp-services-facebook-crackdown",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports leaked documents showing the UAE paid a Swiss intelligence firm to compile lists of residents based on Facebook likes of critical news articles.",
+              "image": "https://substackcdn.com/image/fetch/$s_!rgcD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce03193-f70d-4175-a2ff-ff1d433bbf67_4800x3201.jpeg",
+              "video": null
+            },
+            {
+              "title": "Week in Politics: Ramaswamy's Ohio ad; Trump greenlights DOJ to sue over Alaska Senate",
+              "url": "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR's weekly roundup covers Vivek Ramaswamy's Ohio gubernatorial ad and the Justice Department's planned lawsuit over Alaska's Senate race.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "The rise of the economic populist: What voters want from both parties this year",
+              "url": "https://www.npr.org/2026/10/24/nx-s1-5979036/the-rise-of-the-economic-populist-what-voters-want-from-both-parties-this-year",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that a new economic populism is growing in both parties as voters look for solutions to financial stability concerns ahead of the midterms.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Russia steps up election influence efforts in final stretch of midterms",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Researchers say Kremlin-backed groups are renewing tactics used to sow distrust in past U.S. elections, in the final stretch of the midterms.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6086x4057+0+0/resize/6086x4057!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F55%2F95%2Fc8c639814cf4b3a58c5fb29284e1%2Fgettyimages-2298571725.jpg",
+              "video": null
+            },
+            {
+              "title": "The War Tehran Believes Is Coming",
+              "url": "https://www.dropsitenews.com/p/iran-war-israel-netanyahu-trump-hormuz-mohsen-rezaei",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Iran believes the U.S. and Israel may strike before the midterms, and that Iran has new targets in its sights, per an official interviewed.",
+              "image": "https://substackcdn.com/image/fetch/$s_!0rTg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc6456af-4234-4e0d-b7e4-815d054d4fac_7860x5240.jpeg",
+              "video": null
+            },
+            {
+              "title": "This decade has been missing its big-impact midterm",
+              "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR examines why this decade has lacked a midterm with major national impact, comparing it with the past century of elections.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x682+0+0/resize/1024x682!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb5%2F1a%2F2d05c4ac4f62901f6a888b8b18e2%2Fgettyimages-1076708612.jpg",
+              "video": null
+            },
+            {
+              "title": "Rahm Emanuel’s Plan Is Exactly How Dems Will Keep Losing",
+              "url": "https://www.levernews.com/rahm-emanuels-plan-is-exactly-how-dems-will-keep-losing/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever argues that Democratic elites are focusing on country-club Republicans rather than working-class voters as the key swing vote.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Rahm-Emanuel.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+              "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Thousands of protesters marched in cities across Europe, including Milan, Rome, Madrid, Lisbon and Tirana, with soldiers guarding the center of Milan. Protests in France drew most of the attention.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F44%2Ffc%2F067418084bee810af15f9fc7dfc9%2Fap26297352027819.jpg",
+              "video": null
+            },
+            {
+              "title": "Protests roil France once again as police seek to quell violence",
+              "url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Hundreds of thousands protested across France over school funding and economic inequality, and police were deployed to prevent a repeat of the previous week's violence.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+              "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Almost 1,000 people were arrested in France as clashes followed another day of mass protests, with demonstrations also held in other European countries.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+              "video": null
+            },
+            {
+              "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+              "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Israel's prime minister pledged a major military operation in the West Bank after two Palestinian gunmen attacked an Israeli checkpoint, killing two soldiers.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6806x4537+0+0/resize/6806x4537!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F3e%2Fadd87d174164a90e9b83a984eef3%2Fap26296451762148.jpg",
+              "video": null
+            },
+            {
+              "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+              "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Three gunmen fired on a Greek Orthodox church during a funeral in Karak, Jordan, killing 7 people and wounding 40, according to state television footage.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F54%2F65e65442429790eaf3f08a065edd%2Fap26296557878703.jpg",
+              "video": null
+            },
+            {
+              "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+              "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Elon Musk says SpaceX restricted Ukraine's Starlink connection, accusing Ukraine of violating terms of service through military use. Service has since been restored.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5b53/live/c94ca0d0-d041-11f1-950a-2dcbf5245e34.jpg",
+              "video": null
+            },
+            {
+              "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
+              "url": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Ukraine needs another satellite internet service after its reliance on Starlink, and no decent alternative exists yet, according to BBC analysis of Europe's options.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7151/live/1593e210-cfa6-11f1-aadb-297fd0a130b9.jpg",
+              "video": null
+            },
+            {
+              "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
+              "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Brazil's voters choose between President Lula, seeking a fourth term, and Flávio Bolsonaro, son of the imprisoned former president.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc2d/live/5e5c94f0-cffc-11f1-b444-6fb1f13f8d87.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 22, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-22-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Models are now available on Google Cloud, with access controlled by Google Cloud IAM and billing through Google Cloud Marketplace. Fast mode is noted for Claude Opus 5.5.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Donating Agent Skills to the Agentic AI Foundation",
+              "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, aiming to keep it open and vendor-neutral. Relevant to your Claude skills work.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "battledrones v14: Compass Rose, a four player map",
+              "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's battledrones v14 adds a four-player map with rotational symmetry and AI players. A small, concrete example of building software with AI tools.",
+              "image": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
+              "video": null
+            },
+            {
+              "title": "Quick Study",
+              "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Quick Study is a tool that uses Claude Opus 5.5 to paint a photo onto a canvas in a few seconds with a simulated brush. A clear example of AI-built creative software.",
+              "image": "https://static.simonwillison.net/static/2026/heron-oil.webp",
+              "video": null
+            },
+            {
+              "title": "luongnv89/claude-howto",
+              "url": "https://github.com/luongnv89/claude-howto",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "claude-howto is a trending visual guide to Claude Code, from basic concepts to advanced agents, with copy-paste templates. Useful for your personal tool building.",
+              "image": "https://opengraph.githubassets.com/1/luongnv89/claude-howto",
+              "video": null
+            },
+            {
+              "title": "wesbos/3d-model-anything",
+              "url": "https://github.com/wesbos/3d-model-anything",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "wesbos/3d-model-anything captures iPhone LiDAR and photos to reconstruct editable Three.js rooms viewable in a browser. Relevant to spatial capture for architecture work.",
+              "image": "https://opengraph.githubassets.com/1/wesbos/3d-model-anything",
+              "video": null
+            },
+            {
+              "title": "Introducing Kimi K3.1 Pro",
+              "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Moonshot released Kimi K3.1 Pro through its API, with full weights promised by Nov. 4, 2026. A notable open-weights model release to watch.",
+              "image": "https://static.simonwillison.net/static/2026-10-23/image-2.png",
+              "video": null
+            },
+            {
+              "title": "pbakaus/impeccable",
+              "url": "https://github.com/pbakaus/impeccable",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Impeccable is a trending design guidance skill for AI coding agents, with detector rules for AI-generated frontend design. Relevant to your interest in AI-assisted design tools.",
+              "image": "https://opengraph.githubassets.com/1/pbakaus/impeccable",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Durant scores 22, Sheppard hits five 3-pointers to lead Rockets to a win in Atlanta's home opener",
+              "url": "http://www.espn.com/nba/recap?gameId=401909856",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 22 and Reed Sheppard hit five three-pointers as the Rockets beat the Hawks 121-114 in Atlanta's home opener.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909856.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Amen Thompson stuffs Wembanyama's last-second shot as Rockets hold off Spurs",
+              "url": "https://www.espn.com/nba/story/_/id/50264038/amen-thompson-stuffs-wemby-rim-rockets-hold-spurs",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Amen Thompson blocked Victor Wembanyama at the rim in the final seconds as the Rockets beat the Spurs 114-110.",
+              "image": "https://a.espncdn.com/photo/2026/1024/r1735349_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Alexander Volkanovski stops Movsar Evloev in 2nd round to retain title",
+              "url": "https://www.espn.com/mma/story/_/id/50270358/volkanovski-keeps-title-2nd-round-ko-evloev",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Alexander Volkanovski knocked out Movsar Evloev at 4:54 of the second round at UFC 333 in Abu Dhabi to retain his featherweight title.",
+              "image": "https://a.espncdn.com/photo/2026/1024/r1735626_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Petr Yan completes trilogy with gritty win over Merab Dvalishvili to defend title",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50269828/petr-yan-completes-trilogy-gritty-win-merab-dvalishvili-defend-title",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Petr Yan beat Merab Dvalishvili by unanimous decision at UFC 333 to complete their trilogy and defend his title.",
+              "image": "https://a.espncdn.com/photo/2026/1024/r1735597_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Rule Out Mike Evans vs. Falcons; Christian Kirk Questionable Ahead of Week 7 #SFvsATL",
+              "url": "https://www.49ers.com/news/49ers-rule-out-mike-evans-vs-falcons-christian-kirk-questionable-ahead-of-week-7-sfvsatl",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers ruled out Mike Evans and listed Christian Kirk as questionable ahead of Sunday's game against the Falcons.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/szguroh993rn4mht0lwa.png",
+              "video": null
+            },
+            {
+              "title": "Fred Warner and Bijan Robinson set to clash",
+              "url": "https://www.espn.com/video/clip/_/id/50271372/fred-warner-bijan-robinson-set-clash",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Preview of Sunday's 49ers-Falcons game, focusing on Fred Warner against Bijan Robinson.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_16x9_49ers_IA/dm_261024_16x9_49ers_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Announce Roster Moves Ahead of #SFvsATL",
+              "url": "https://www.49ers.com/news/49ers-announce-roster-moves-ahead-of-sfvsatl",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers activated WR Christian Kirk from injured reserve, released DL Kevin Givens, and elevated LB Jalen Graham and DL Ogbo Okoronkwo before Sunday's game.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/rrpjlmliemlx45jjnjjr.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Infill Buckhead project near Phipps Plaza sniffs sellout, at last",
+              "url": "https://atlanta.urbanize.city/post/buckhead-peachtree-project-near-phipps-plaza-sniffs-sellout",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "An Infill Buckhead townhome project near Phipps Plaza, in development since Kasim Reed's time as mayor, is nearing its final units and sellout.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Belvedere%20on%20Peachtree%2C%203667%20Peachtree%20Road%20map%201.png?itok=Q-HJTfur",
+              "video": null
+            },
+            {
+              "title": "At doorstep of Atlanta HBCUs, ‘transformative’ project full speed ahead",
+              "url": "https://atlanta.urbanize.city/post/morehouse-spelman-hbcu-%24147M-transformative-project-groundbreaking-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta reports a large wave of housing and investment near Morehouse, Spelman and other Atlanta HBCUs, with the project moving ahead.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/courtyard%20850%20West%20End%20Ave.%20The%20Den%20at%20Eight50%20West%20_0.png?itok=s7zem3Ly",
+              "video": null
+            },
+            {
+              "title": "Photos: How baseball venue in shadow of downtown ATL is shaping up",
+              "url": "https://atlanta.urbanize.city/post/georgia-state-university-baseball-park-photos-summerhill-downtown-atl-shaping",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta shows photos of Atlanta's newest baseball venue near downtown as construction progresses ahead of the World Series.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/October%202026%20Georgia%20State%20University%20baseball%20stadium%202.jpg?itok=GhZITRde",
+              "video": null
+            },
+            {
+              "title": "Images: Next pitstop on Beltline's Eastside Trail forecasts Nov. debut",
+              "url": "https://atlanta.urbanize.city/post/beltline-eastside-trail-milk-maple-next-pitstop-images-november-opening-coffeehouse",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Beltline Eastside Trail pitstop in Virginia-Highland, Milk & Maple Coffeehouse, is forecast to debut in November.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Milk%20%26%20Maple%20Coffeehouse%20map.png?itok=UxnahAvF",
+              "video": null
+            },
+            {
+              "title": "Children’s Healthcare of Atlanta among four Georgia hospitals with highest level of neonatal care",
+              "url": "https://saportareport.com/childrens-healthcare-of-atlanta-among-four-georgia-hospitals-with-highest-level-of-neonatal-care/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Children's Healthcare of Atlanta renewed its recognition for the highest level of neonatal care, one of four Georgia hospitals with that designation.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image-28.jpeg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Friday fun bag: What will Atlanta look like in 10 years?",
+              "url": "https://atlanta.urbanize.city/post/friday-fun-bag-what-will-atl-look-10-years-now",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta looks back at how Centennial Yards, the Gulch and South Downtown have changed since 2016, and what the city may look like in 10 years.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Drone%20tour%20Skyline%20King%20New%20City%20Old%20Fourth%20Ward.jpg?itok=aPdGU1NS",
+              "video": null
+            },
+            {
+              "title": "Southface celebrates sustainability stories at annual Visionary Awards",
+              "url": "https://saportareport.com/southface-celebrates-sustainability-stories-at-annual-visionary-awards/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Southface celebrated sustainability projects at its annual Visionary Awards, reflecting its work on advocacy, trade education, design and community planning.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/3J6A3994-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Reporter’s Notebook: South Fulton playground, DeKalb climate film festival, Truist Park Sleep Out",
+              "url": "https://saportareport.com/reporters-notebook-south-fulton-playground-dekalb-climate-film-festival-truist-park-sleep-out/reporters-notebook/derek/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "South Fulton reopened the Creel Park playground after a $275,000 accessible renovation, and other local news is covered in the same roundup.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-10.24.08-PM-scaled.png?fit=1024%2C533&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Revizto: putting the ‘I’ in BIM to work",
+              "url": "https://aecmag.com/collaboration/revizto-putting-the-i-in-bim-to-work/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Revizto's MCP server comes packaged with reusable Claude skills modeled on how project teams work, a direct intersection of BIM and AI tools for your practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "AI’s next bottleneck is the engineer’s desk",
+              "url": "https://aecmag.com/automation/ais-next-bottleneck-is-the-engineers-desk/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Nomic is helping Arcadis automate engineering reviews, and AEC Magazine argues that checking AI-generated work may be the next bottleneck.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/Andrij.jpg",
+              "video": null
+            },
+            {
+              "title": "Compliance software in AEC",
+              "url": "https://aecmag.com/cad/compliance-software-in-aec/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine reports on a growing wave of AI tools that help AEC professionals navigate complex building codes and regulations.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Qonic edges towards BIM authoring",
+              "url": "https://aecmag.com/bim/qonic-edges-towards-bim-authoring/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Qonic is moving toward BIM authoring, with users able to start building complete BIM models from scratch.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Legombang Treehouse / Cave Urban",
+              "url": "https://www.archdaily.com/1186813/legombang-treehouse-cave-urban",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Legombang Treehouse reinterprets Balinese architecture as a tropical family home using reclaimed timber and passive design, built around existing trees.",
+              "image": "https://images.adsttc.com/media/images/6acf/83d8/51c8/2d01/89ac/0499/newsletter/legombang-treehouse-cave-urban_12.jpg?1791984628",
+              "video": null
+            },
+            {
+              "title": "La Joya / Veö estudio",
+              "url": "https://www.archdaily.com/1187168/la-joya-veo-estudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "La Joya, a house on a steep slope in San Agustinillo, steps through the site level by level to hold three independent units.",
+              "image": "https://images.adsttc.com/media/images/6a8c/10fb/4253/0500/01ca/032f/newsletter/LJ-01-_Daniel_V_squez_Estrada.jpg?1787564303",
+              "video": null
+            },
+            {
+              "title": "Field Shelter in Nara / Studio Armitage",
+              "url": "https://www.archdaily.com/1186828/field-shelter-in-nara",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Field Shelter in Nara, Japan, is a small public shelter for people working the surrounding allotments and rice fields, built by Studio Armitage.",
+              "image": "https://images.adsttc.com/media/images/6acf/8c6e/b2c4/c300/0178/f31a/newsletter/StudioArmitage_FieldShelter_Nara_04.jpg?1791987479",
+              "video": null
+            },
+            {
+              "title": "Eyes on the Street: Jane Jacobs’ Concept and Contemporary Residential Architecture in Brazil",
+              "url": "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "An ArchDaily essay applies Jane Jacobs' eyes-on-the-street concept to contemporary residential architecture in Brazil.",
+              "image": "https://images.adsttc.com/media/images/65ea/506e/855b/f264/9e6f/814a/newsletter/os-olhos-da-rua-o-conceito-de-jane-jacobs-e-a-arquitetura-residencial-contemporanea-no-brasil_10.jpg?1709854838",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+              "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA and partners are accelerating lander development for 2028 Moon missions, with Blue Origin and SpaceX streamlining crewed lander designs and operations.",
+              "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "RS-25 Engine Tests at NASA Stennis",
+              "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Stennis Space Center ran an 8.5-minute hot fire test of RS-25 engine No. 10001, matching the burn time of an SLS launch.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for October 25 features dark matter in a simulated universe.",
+              "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "This ‘living drug’ could change the course of autoimmune disease",
+              "url": "https://www.sciencenews.org/article/car-t-cell-therapy-autoimmune-diseases",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Kyverna Therapeutics' CAR T cell therapy could become the first approved treatment for stiff person syndrome if the FDA approves it.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/1126_SPS_feature_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Restoring a 12,000-year-old forest to help defend Poland’s border",
+              "url": "https://news.mongabay.com/video/2026/10/restoring-a-12000-year-old-forest-to-help-defend-polands-border/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports on restoring Białowieża Forest, one of Europe's last primeval forests on the Poland-Belarus border, under pressure from drainage and drought.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/22110303/Mongabay_Thumbnail_PolandWar_Featured-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Sri Lanka mourns iconic tusker amid renewed calls to address human-elephant conflict",
+              "url": "https://news.mongabay.com/2026/10/sri-lanka-mourns-iconic-tusker-amid-renewed-calls-to-address-human-elephant-conflict/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Sri Lanka mourns Kavantissa, one of its most iconic wild tuskers, after a gunshot injury, renewing calls to address human-elephant conflict.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/24140644/3-Sri-Lanka-Tusker-death-Kavantissa-c-Sahan-GUnarathne-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Eating too much sugar on antibiotics could squash helpful gut bacteria",
+              "url": "https://www.sciencenews.org/article/sugar-antibiotics-squash-gut-bacteria",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "In people treated for blood cancer, eating sugar while on antibiotics increased harm to gut microbiome diversity, according to Science News.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_MC_sugars_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "A nanoparticle revealed the tiny impact of a single gas atom",
+              "url": "https://www.sciencenews.org/article/nanoparticle-tiny-impact-gas-atom",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Scientists isolated the force of a single gas particle using a nanoparticle, a precise measurement of a process usually driven by many atoms.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_EC_gasmolecule_main.jpg?w=800",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Tonight We Ride, LLC Issues Voluntary Recall of Ultimate Forza Male Supplement Due to Presence of Undeclared Sildenafil, Tadalafil, and Dapoxetine",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+      "published": "2026-10-24T18:23:00+00:00"
+    },
+    {
+      "title": "Natural Grocers Recalls Natural Grocers Brand Organic 2 Pound Mung Beans Due to Potential Presence of Foreign Material",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+      "published": "2026-10-22T22:59:00+00:00"
+    },
+    {
+      "title": "WinCo Foods LLC Issues Allergy Alert on Undeclared Sesame in Hoagie Rolls",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+      "published": "2026-10-22T19:42:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "We turn not older with years, but newer every day.",
+    "who": "Emily Dickinson",
+    "about": "American poet",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 121–114 at ATL",
+      "last_date": "Oct 24",
+      "next": "Mon Oct 26 vs ATL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909856/rockets-hawks",
+      "recent": [
+        "W 121–114 at ATL · Oct 24",
+        "W 114–110 at SA · Oct 23",
+        "W 128–110 vs DAL · Oct 21"
+      ],
+      "upcoming": [
+        "Mon Oct 26 vs ATL",
+        "Wed Oct 28 at MIL",
+        "Fri Oct 30 at DAL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 23–17 vs WSH",
+      "last_date": "Oct 19",
+      "next": "Sun Oct 25 at ATL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873008/commanders-49ers",
+      "recent": [
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11",
+        "W 24–14 vs DEN · Oct 4"
+      ],
+      "upcoming": [
+        "Sun Oct 25 at ATL",
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 84368,
+    "output_tokens": 13088
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Midterms BLOODBATH? Dems SHOCK in Deep Red NC w Richard Ojeda",
+          "url": "https://www.youtube.com/watch?v=FKs1QdTPHkg",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses possible midterm gains for Democrats in deep-red states, with Richard Ojeda as a guest.",
+          "image": "https://i3.ytimg.com/vi/FKs1QdTPHkg/hqdefault.jpg",
+          "video": "FKs1QdTPHkg"
+        },
+        {
+          "title": "Vivek’s Ugly Attack Ad Could Cost Republicans Ohio",
+          "url": "https://www.youtube.com/watch?v=pCGcMMjxy4Q",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report covers a Vivek Ramaswamy attack ad in Ohio and its possible effect on the Republican race there.",
+          "image": "https://i1.ytimg.com/vi/pCGcMMjxy4Q/hqdefault.jpg",
+          "video": "pCGcMMjxy4Q"
+        },
+        {
+          "title": "Trump's Brain Ejects Mid-Sentence | Krystal Ball | TMR",
+          "url": "https://www.youtube.com/watch?v=2R3HYrCL08g",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Krystal Ball recaps the week's major political stories, including remarks by Donald Trump, in a live-streamed discussion.",
+          "image": "https://i3.ytimg.com/vi/2R3HYrCL08g/hqdefault.jpg",
+          "video": "2R3HYrCL08g"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Alexander Volkanovski vs Movsar Evloev 🚨 | UFC 333",
+          "url": "https://www.youtube.com/watch?v=Fi7LzpxSH1A",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Alexander Volkanovski and Movsar Evloev meet in the UFC 333 featherweight title main event.",
+          "image": "https://i3.ytimg.com/vi/Fi7LzpxSH1A/hqdefault.jpg",
+          "video": "Fi7LzpxSH1A"
+        },
+        {
+          "title": "Petr Yan vs Merab Dvalishvili 3 🚨 | UFC 333",
+          "url": "https://www.youtube.com/watch?v=Su0Fn5RdRk4",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Petr Yan and Merab Dvalishvili fight a third time at UFC 333 in the co-main event.",
+          "image": "https://i4.ytimg.com/vi/Su0Fn5RdRk4/hqdefault.jpg",
+          "video": "Su0Fn5RdRk4"
+        },
+        {
+          "title": "KPIX's Matt Lively on Local News, Big Games & Finding the Human Story | The 49ers Guy",
+          "url": "https://www.youtube.com/watch?v=mv-cIz24vIQ",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "KPIX reporter Matt Lively talks about local TV news, interviewing, and finding human stories around the 49ers.",
+          "image": "https://i2.ytimg.com/vi/mv-cIz24vIQ/hqdefault.jpg",
+          "video": "mv-cIz24vIQ"
+        },
+        {
+          "title": "Romello Height and Mykel Williams Talk D-Line Chemistry, Georgia Roots, and More | YGM Part 1",
+          "url": "https://www.youtube.com/watch?v=RjlHkDCw0Ck",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers defensive linemen Romello Height and Mykel Williams discuss their line chemistry and shared Georgia roots.",
+          "image": "https://i3.ytimg.com/vi/RjlHkDCw0Ck/hqdefault.jpg",
+          "video": "RjlHkDCw0Ck"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How to Manage Money in a Construction Business (Complete Guide)",
+          "url": "https://www.youtube.com/watch?v=YMlEL9B1A9o",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "A guide to managing money in a construction business, covering how transactions affect accounts and managing committed costs.",
+          "image": "https://i2.ytimg.com/vi/YMlEL9B1A9o/hqdefault.jpg",
+          "video": "YMlEL9B1A9o"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "I Solved Every Board Game",
+          "url": "https://www.youtube.com/watch?v=26P1KyvrmjI",
+          "source": "Mark Rober",
+          "topic": "Tech & Science",
+          "note": "Mark Rober uses statistical analysis to work through a range of board games and test which ones can be solved.",
+          "image": "https://i3.ytimg.com/vi/26P1KyvrmjI/hqdefault.jpg",
+          "video": "26P1KyvrmjI"
+        }
+      ]
+    }
+  ],
+  "week": {
+    "from": "2026-10-19",
+    "to": "2026-10-25",
+    "headline": "Anthropic prepares IPO, France imposes curfews, 49ers reach 6-0",
+    "summary": "Anthropic led the AI news. Before an expected IPO, it told investors that quarterly revenue rose nearly 50% to $16.8bn (w2). It also committed shares to a new Public Benefit Fund, which BBC put at 5% (w1, w123). Other releases: Claude Models on Google Cloud (w99), API version 2026-10-21 with new SDKs (w77), Claude working in Google Docs, Sheets and Slides (w74), and Agent Skills donated to the Agentic AI Foundation (w95). The Lever reported critically on draft AI legislation circulated by Anthropic (w24). In BIM, Revizto shipped an MCP server with Claude skills (w96). Flaws in PHP that AI found set off a global security response (w72).\n\nFrance imposed nightly curfews after rioting, and almost 1,000 people were arrested (w58, w150). Protests also spread to Milan, Rome, Madrid and Lisbon (w149). A source told NPR that the U.S. and Israel are planning for a possible attack on Iran in early November (w94), and Houthi attacks led the U.S. to pull some diplomats from Saudi Arabia (w75). Alberta voted to stay in Canada (w25), and Ebola cases were confirmed in Nigeria and Kenya (w52, w107). In the U.S., courts and county officials disputed federal efforts to find noncitizen voters (w51, w97).\n\nIn Atlanta, the council voted 8-7 to sell the detention center to Fulton County for $68 million (w28), and the debate over Beltline rail went on (w17, w131). In sports, the 49ers went 6-0 ahead of their game in Atlanta (w27). The Rockets won all three games of opening week (w73, w121, w141). At UFC 333, Volkanovski and Yan both kept their titles (w140, w152).",
+    "top": [
+      {
+        "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+        "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+        "source": "Simon Willison",
+        "topic": "Tech & AI",
+        "note": "Anthropic told investors quarterly revenue rose nearly 50% to $16.8bn ahead of its expected IPO.",
+        "image": null,
+        "video": null
+      },
+      {
+        "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "source": "Anthropic news",
+        "topic": "Tech & AI",
+        "note": "Anthropic is committing shares to a new Public Benefit Fund whose stake increases as the company grows.",
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+        "video": null
+      },
+      {
+        "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+        "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
+        "source": "NPR World",
+        "topic": "World",
+        "note": "A source told NPR the U.S. and Israel are planning for a possible attack on Iran in early November.",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F49%2F98%2F9041826c489783e12ef6068beb87%2Fgettyimages-2300727417.jpg",
+        "video": null
+      },
+      {
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "topic": "World",
+        "note": "Almost 1,000 people were arrested as clashes followed another day of mass protests across France.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+        "video": null
+      },
+      {
+        "title": "49ers hold off furious Commanders' second-half rally to go 6-0",
+        "url": "https://www.espn.com/nfl/story/_/id/50222471/mnf-49ers-commanders-brock-purdy",
+        "source": "San Francisco 49ers",
+        "topic": "Sports",
+        "note": "The 49ers beat the Commanders 23-17 on Monday night to go 6-0, holding off a second-half rally.",
+        "image": "https://a.espncdn.com/photo/2026/1020/r1733223_1296x729_16-9.jpg",
+        "video": null
+      }
+    ],
+    "liked": [
+      {
+        "title": "49ers hold off furious Commanders' second-half rally to go 6-0",
+        "url": "https://www.espn.com/nfl/story/_/id/50222471/mnf-49ers-commanders-brock-purdy",
+        "source": "San Francisco 49ers",
+        "topic": "Sports"
+      },
+      {
+        "title": "anomalyco/opencode",
+        "url": "https://github.com/anomalyco/opencode",
+        "source": "GitHub trending (daily)",
+        "topic": "Tech & AI"
+      }
+    ],
+    "suggestions": [
+      {
+        "change": "Add a profile line saying the reader wants open-source AI coding agents and Claude Code tools from GitHub.",
+        "reason": "The reader's only Tech & AI like was anomalyco/opencode from GitHub trending (daily), but with just 2 likes this week the signal is thin."
+      },
+      {
+        "change": "Add a topic 'AI in AEC and BIM' that draws mainly on AEC Magazine.",
+        "reason": "AEC Magazine gave several AI-in-practice stories this week (w19, w96, w114, w116, w135), though the reader liked no Architecture stories, so this is based on coverage only."
+      },
+      {
+        "change": "Drop the source 49ers.com and keep San Francisco 49ers for team news.",
+        "reason": "The reader's liked 49ers story came from San Francisco 49ers, while 49ers.com mostly gave viewing guides and roster notes that repeated that coverage."
+      },
+      {
+        "change": "Pause the Atlanta Braves and MLB.com Braves sources until spring training.",
+        "reason": "This week they gave only general World Series and offseason pieces (w110, w130, w154), and the reader liked none of them."
+      }
+    ]
+  }
+}
