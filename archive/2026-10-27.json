@@ -1,0 +1,944 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, October 27, 2026",
+  "generated_at": "2026-10-27T05:00:22-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, October 27. Our lead story today is Israel's election. Polls are open in what many view as one of the most pivotal elections in the country's history. The campaign has been defined by security and democracy. It is the first national vote since the Hamas-led attacks of 2023 set off a chain of conflicts across the region. Netanyahu is vying for reelection. Many fear that neither of the two leading blocs will win enough seats for a majority. That could mean weeks or months of political wrangling before a government forms. Now the front page. Anthropic has filed an S-1 with the SEC for a proposed initial public offering. That is a significant step for the company behind Claude. In Ukraine, a local ceasefire took effect in the south ahead of a humanitarian mission brokered by Melania Trump. Missile attacks resumed in Kyiv. In the NBA, Alperen Sengun had twenty-nine points, nine assists and nine rebounds. The Houston Rockets stayed unbeaten with a 120 to 110 win over the Atlanta Hawks. And Science News reports that Anthropic says Claude helped a scientist plan potentially risky bird flu research. It raises questions about the role of AI in biology. Now the sections. In tech, OpenAI released GPT-6.1 Terra, with an emphasis on visual reasoning and computer use. A new repository from t3dotgg collects agent skills that work with Claude Code. NVIDIA's SkillSpector scans agent skills for security risks before you install them. In politics, The Lever discusses its investigation into how millions of dollars tied to the Israel lobby are being routed through other groups. Drop Site reports that Pakistan removed the country's last opposition provincial government. And the administration is trying to prosecute James Comey over what it calls a decade-old leak. His lawyers say the effort is invalid and outside the time limit. In world news, NPR has a quick guide to Israel's election. China's party plenum began Monday, about a year before Xi is expected to secure a fourth term. Jordan carried out a strike in Syria in retaliation for a church attack. In sports, the four and oh Rockets host the Bucks tonight, looking for a fifth straight win. ESPN looks at what could be next for Alexander Volkanovski after UFC 333. And Kyle Shanahan gave an injury update on Christian McCaffrey after the 49ers' game against the Falcons. In Atlanta, MARTA has begun construction on its Cleveland-Metropolitan rapid transit project. Plans are taking shape for the Atlanta Prison Farm site as a large public park. And a new residential project has topped out in Avondale Estates. In architecture, Casa 9 is a tropical retreat under a big A-frame roof. Santa Rosa Social Housing looks at housing in Santiago. And Ironwood Retreat sits beside Oak Creek in Sedona. In science, Perseverance measured Martian dust on spacesuit materials. The iceberg A-81 has reached South Georgia. And Science News looks at how volcanoes shaped human history. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Israel heads to polls for pivotal election defined by security and democracy",
+    "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Israel is voting today in what many view as one of the most pivotal elections in the country's history. The campaign has been defined by questions of security and democracy. It is the first national vote since the Hamas-led attacks of 2023 set off a chain of conflicts across the region. Netanyahu is vying for reelection as polls open. Many fear that neither of the two leading political blocs will win enough seats for a majority. If that happens, weeks or months of political wrangling may lie ahead. That means a clear winner may not emerge quickly once the votes are counted. NPR has published a quick guide to the key players, issues and when to expect a result. Readers can watch for coalition talks rather than a single election-night verdict.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9543/live/7b21c3e0-d1cc-11f1-837e-832a94a7445c.png",
+    "video": null,
+    "headline": "Israel Votes in Pivotal Election",
+    "decks": [
+      "Israel votes in first election since the 2023 Hamas-led attacks",
+      "Neither leading bloc may win enough seats for a majority",
+      "Weeks or months of political wrangling may follow"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, a significant step for the company behind Claude.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "video": null
+    },
+    {
+      "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A local ceasefire between Ukraine and Russia took effect in southern Ukraine ahead of a humanitarian mission brokered by Melania Trump, as missile attacks resumed in Kyiv.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3228x2152+0+0/resize/3228x2152!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2Fc5%2Ff2474865439294dcfc51ebea89a5%2Fap26287677889466.jpg",
+      "video": null
+    },
+    {
+      "title": "Sengun has 29 points as Rockets stay unbeaten with 120-110 win over Hawks",
+      "url": "http://www.espn.com/nba/recap?gameId=401909874",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Alperen Sengun had 29 points, nine assists and nine rebounds as the Houston Rockets stayed unbeaten with a 120-110 win over the Atlanta Hawks.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909874.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Claude helped plan risky bird flu research. What did the AI add?",
+      "url": "https://www.sciencenews.org/article/claude-bird-flu-research-ai-biology",
+      "source": "Science News",
+      "topic": "Science & Nature",
+      "note": "Anthropic says Claude helped a scientist plan potentially risky bird flu research, raising questions about AI's growing role in biology.",
+      "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100926_SB_AIdanger_main.jpg?w=800",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "GPT-6.1 Terra",
+          "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "OpenAI's GPT-6.1 Terra release stresses visual reasoning and computer use, which Simon Willison flags as notable for tool builders.",
+          "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+          "video": null
+        },
+        {
+          "title": "t3dotgg/tstack",
+          "url": "https://github.com/t3dotgg/tstack",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "A popular new repository of daily-use agent skills that works with Claude Code and Codex, useful for anyone building personal tools.",
+          "image": "https://opengraph.githubassets.com/1/t3dotgg/tstack",
+          "video": null
+        },
+        {
+          "title": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "NVIDIA's SkillSpector scans Claude Code, Codex and MCP skills for vulnerabilities and prompt injection before you install them.",
+          "image": "https://opengraph.githubassets.com/1/NVIDIA/SkillSpector",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Lever Live: Behind AIPAC’s $13.1M Money Trail",
+          "url": "https://www.levernews.com/lever-live-behind-aipacs-money-trail/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever's reporters discuss their investigation into how millions of dollars tied to the Israel lobby are being routed through other groups.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/aipac-passthrough-live--2-.png",
+          "video": null
+        },
+        {
+          "title": "Violent Crackdown in Northwest Pakistan Aims to Neutralize Party of Imran Khan",
+          "url": "https://www.dropsitenews.com/p/pakistan-imran-khan-emergency-rule-khyber-pakhtunkhwa",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site reports Pakistan's government removed the country's last opposition provincial government, a new stage in its confrontation with Imran Khan.",
+          "image": "https://substackcdn.com/image/fetch/$s_!fJjd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26375b2b-8fa2-4b9e-9d9d-fe760d9517fd_5306x3538.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Trump administration attempting to prosecute former FBI Director James Comey again",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6018628/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "The administration is attempting to prosecute James Comey over what it calls a decade-old leak; his lawyers say the effort is invalid and out of time.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6e%2Fdb%2Fd43a11834387b865a850cdb42ba2%2Fap26299802807324.jpg",
+          "video": null
+        },
+        {
+          "title": "A quick guide to Israel's high-stakes elections",
+          "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A quick guide to the key players, issues and timing of results in Israel's first election since the 2023 attacks.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7651x5101+0+0/resize/7651x5101!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2Fad%2F99c4e08c4a928de603e31a885436%2Fap26299327514576.jpg",
+          "video": null
+        },
+        {
+          "title": "What to know about China's plenum as Xi seeks stronger party discipline",
+          "url": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "A closed-door Chinese party plenum began Monday, about a year before Xi is expected to secure a fourth term.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1907x1271+0+0/resize/1907x1271!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2F05%2Fd96abcf14fcdbaf53bb9a4ac9da1%2Fap26298151344068.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Rockets face the Bucks, look for 5th straight victory",
+          "url": "http://www.espn.com/nba/preview?gameId=401909887",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The 4-0 Rockets, first in the West, face the Bucks tonight seeking a fifth straight win.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909887.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Alexander Volkanovski could face a new challenge after UFC 333",
+          "url": "https://www.espn.com/mma/story/_/id/50279491/ufc-333-next-alexander-volkanovski-petr-yan-more",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "After Volkanovski and Petr Yan kept their titles at UFC 333, ESPN looks at who might move to a new division.",
+          "image": "https://a.espncdn.com/photo/2026/1025/r1736052_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "After Further Review: Shanahan Provides McCaffrey Injury Update, Breaks Down Week 7 Game",
+          "url": "https://www.49ers.com/news/after-further-review-shanahan-provides-mccaffrey-injury-update-breaks-down-week-7-game",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "Kyle Shanahan gave an injury update on McCaffrey and broke down the 49ers' Week 7 game against the Falcons.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/kvrbrzium2zv1m7odr1c.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "MARTA kicks off construction of next new transit lines",
+          "url": "https://atlanta.urbanize.city/post/marta-starts-construction-art-next-new-transit-line-arterial-rapid",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "MARTA has begun construction on the Cleveland-Metropolitan Arterial Rapid Transit project, which it calls a new type of transportation for Atlantans.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/MARTA%20ART_rendering%201.jpg?itok=mnkdtTjB",
+          "video": null
+        },
+        {
+          "title": "Activation plans coming into focus for historic Atlanta Prison Farm site",
+          "url": "https://atlanta.urbanize.city/post/atl-prison-farm-activation-plans-come-focus-historic-site-final-presentation",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Plans are taking shape for the historic Atlanta Prison Farm site, which would become one of the city's largest public parks.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Atlanta%20Prison%20Farm%20flyer.png?itok=mPfDS_ti",
+          "video": null
+        },
+        {
+          "title": "Images: Development tops out as new Avondale Estates gateway",
+          "url": "https://atlanta.urbanize.city/post/avondale-estates-overlook-images-development-tops-out-new-downtown-gateway",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A TBG Residential project has topped out as a new gateway between Decatur and downtown Avondale Estates.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/The%20Overlook%20at%20Avondale%20Estates%202.png?itok=TeTnNlY8",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Casa 9 / Hoang GK",
+          "url": "https://www.archdaily.com/1187495/casa-9-hoang-gk",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Casa 9 uses a large spreading A-frame roof as primary shelter for a tropical weekend retreat.",
+          "image": "https://images.adsttc.com/media/images/6adf/52f4/db5c/2001/882d/04c7/newsletter/casa-9-hoang-gk_20.jpg?1793020676",
+          "video": null
+        },
+        {
+          "title": "Santa Rosa Social Housing / FAR frohn&rojas",
+          "url": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Santa Rosa Social Housing responds to rising land prices that push Santiago's social housing to the urban periphery.",
+          "image": "https://images.adsttc.com/media/images/6adf/0555/20d6/d801/8852/1031/newsletter/santa-rosa-social-housing-far-frohn-and-rojas_1.jpg?1793000800",
+          "video": null
+        },
+        {
+          "title": "Ironwood Retreat / The Ranch Mine",
+          "url": "https://www.archdaily.com/1187398/ironwood-the-ranch-mine",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Ironwood Retreat sits along Oak Creek in Sedona, one of Arizona's few streams that flows year-round.",
+          "image": "https://images.adsttc.com/media/images/6ada/4994/3271/8400/01d0/e232/newsletter/The_Ranch_Mine_-_Ironwood_-_2.jpg?1792690682",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+          "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Perseverance measured fine Martian dust on spacesuit material samples, findings meant to help protect future crews from dust that can reach the lungs.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "A-81 Reaches South Georgia",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "The Antarctic iceberg A-81 has reached South Georgia after leaving the Weddell Sea, then slowing at the island's underwater shelf.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-81-reaches-south-georgia/iceberga81_tmo_20261020.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Volcanoes lurk behind the scenes of human history",
+          "url": "https://www.sciencenews.org/article/volcanoes-impact-human-history-climate",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Science News explores how volcanic eruptions and the cold spells that followed may have spurred famine, disease and revolts.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/101626_CW_volcanoes_main_rev.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "How Far Will The AI Sector Go?",
+              "url": "https://www.levernews.com/how-far-will-the-ai-sector-go/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Test your AI legislation knowledge from The Lever, covering AI policy and dark money groups. Useful background on how AI regulation is being shaped.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/LEVERMIND-QUIZ-How-Far-Will-The-AI-Sector-Go.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6012225/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Why it could take time for a new Israeli government to form",
+              "url": "https://www.bbc.co.uk/news/videos/c574p31l1l2no?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1cfd/live/7eff31e0-d1dc-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+              "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af90/live/ca109650-d1b0-11f1-93f3-e3ba7480d857.jpg",
+              "video": null
+            },
+            {
+              "title": "'A dream come true' - Harry Kane on his Ballon d'Or win",
+              "url": "https://www.bbc.co.uk/news/videos/cm9wznvx1l17o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c551/live/acd0cb80-d1d5-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "Major Chinese brands drop Mbappé as backlash grows over Mao joke",
+              "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
+              "video": null
+            },
+            {
+              "title": "Harry Kane becomes first Englishman in 25 years to win Ballon d'Or",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019097/harry-kane-alexia-putellas-ballon-dor",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8287x5525+0+0/resize/8287x5525!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2Fe3%2Fb5a8cc5f42d9b7be982457f52bda%2Fap26299809937762.jpg",
+              "video": null
+            },
+            {
+              "title": "Jay-Z picks himself to headline the Super Bowl halftime show in Southern California",
+              "url": "https://www.npr.org/2026/10/27/g-s1-150043/super-bowl-halftime-jay-z",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1490x993+0+0/resize/1490x993!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F84%2F11%2F6d3ba5b34694acc9050a1ee6526b%2Fap26300053956965.jpg",
+              "video": null
+            },
+            {
+              "title": "Brewers rout the Rays 10-1 to move within a win of their first World Series title",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019094/mlb-world-series-tuesday",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5643x3762+0+0/resize/5643x3762!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa6%2F3b%2F7af236a74c8ea8e48ad2280c8e6d%2Fap26300068621772.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "GPT-6.1 Terra",
+              "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "OpenAI released GPT-6.1 Terra, a fast model emphasizing visual reasoning and computer use. Relevant to your interest in AI tools that interpret images and drawings.",
+              "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+              "video": null
+            },
+            {
+              "title": "Quick Study",
+              "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A Claude Opus prompt that builds an artifact painting photos with a simulated brush on canvas. A concrete example of Claude building small personal tools.",
+              "image": "https://static.simonwillison.net/static/2026/heron-oil.webp",
+              "video": null
+            },
+            {
+              "title": "JustAResearcher/gpu-unlock-ada",
+              "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Placeholder",
+              "image": "https://opengraph.githubassets.com/1/JustAResearcher/gpu-unlock-ada",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Rockets face the Bucks, look for 5th straight victory",
+              "url": "http://www.espn.com/nba/preview?gameId=401909887",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909887.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Sengun has 29 points as Rockets stay unbeaten with 120-110 win over Hawks",
+              "url": "http://www.espn.com/nba/recap?gameId=401909874",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909874.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Atlanta Hawks vs. Houston Rockets: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50293882/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/91e030da-fe63-44c9-99d6-fb06d2a9f908/91e030da-fe63-44c9-99d6-fb06d2a9f908.jpg",
+              "video": null
+            },
+            {
+              "title": "Jay-Z's road to the Super Bowl: Were the clues there all along?",
+              "url": "https://www.espn.com/nfl/story/_/id/50244728/jay-z-super-bowl-half-hints",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1026/r1736436_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "After Further Review: Shanahan Provides McCaffrey Injury Update, Breaks Down Week 7 Game",
+              "url": "https://www.49ers.com/news/after-further-review-shanahan-provides-mccaffrey-injury-update-breaks-down-week-7-game",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/kvrbrzium2zv1m7odr1c.png",
+              "video": null
+            },
+            {
+              "title": "What the 49ers and Falcons Had to Say After Week 7",
+              "url": "https://www.49ers.com/news/what-the-49ers-and-falcons-had-to-say-after-week-7",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/wjlxshtnhmhao52mvfgc.png",
+              "video": null
+            },
+            {
+              "title": "Watch Braves prospects in Arizona Fall League action",
+              "url": "https://www.mlb.com/braves/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/kdikhgkw7v8w8wdorlio.jpg",
+              "video": null
+            },
+            {
+              "title": "Steelers Aaron Rodgers, QB room lead NFL Week 7's best arrivals",
+              "url": "https://www.espn.com/nfl/story/_/id/50252261/nfl-week-7-fashionable-arrivals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1025/r1735940_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Brant Frost IV sentenced to 15 years for $140 million Ponzi scheme",
+              "url": "https://roughdraftatlanta.com/2026/10/26/frost-ponzi-scheme-prison/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/First-Liberty-building-600x450.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Trump’s message in Perry: I can give, and I can take away",
+              "url": "https://saportareport.com/trumps-message-in-perry-i-can-give-and-i-can-take-away/columnists/tom/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/tomphoto2-1.png?fit=940%2C788&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Former College Park police chief files federal lawsuit against city",
+              "url": "https://saportareport.com/former-college-park-police-chief-files-federal-lawsuit-against-city/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2025/12/IMG_2272.jpg?fit=1024%2C749&ssl=1",
+              "video": null
+            },
+            {
+              "title": "7 things to know about Arts Capital | Atlanta’s arts fund",
+              "url": "https://roughdraftatlanta.com/2026/10/26/7-things-to-know-about-arts-capital-atlantas-arts-fund/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/IMG_7352-3-450x600.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Before going to the Aspen Institute, Angel Cabrera reflects on Georgia Tech and Atlanta",
+              "url": "https://saportareport.com/before-going-to-the-aspen-institute-angel-cabrera-reflects-on-georgia-tech-and-atlanta/columnists/mariasmetro/maria_saporta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/Cabrera-with-Tech-admin-building-scaled.jpeg?fit=1024%2C801&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Monsters, myths and magic take over Atlanta’s Beltline for ‘Where the Weird Things Are’",
+              "url": "https://saportareport.com/monsters-myths-and-magic-take-over-atlantas-beltline-for-where-the-weird-things-are/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image-38.jpeg?fit=1024%2C554&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Images: Development tops out as new Avondale Estates gateway",
+              "url": "https://atlanta.urbanize.city/post/avondale-estates-overlook-images-development-tops-out-new-downtown-gateway",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-04/The%20Overlook%20at%20Avondale%20Estates%202.png?itok=TeTnNlY8",
+              "video": null
+            },
+            {
+              "title": "The Dr. is Out",
+              "url": "https://saportareport.com/the-dr-is-out/media/stories-of-atlanta/lancerussell/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/209_Dr-J.jpg?fit=1024%2C576&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Casa 9 / Hoang GK",
+              "url": "https://www.archdaily.com/1187495/casa-9-hoang-gk",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6adf/52f4/db5c/2001/882d/04c7/newsletter/casa-9-hoang-gk_20.jpg?1793020676",
+              "video": null
+            },
+            {
+              "title": "Village de Ananti / SKM Architects",
+              "url": "https://www.archdaily.com/1187384/village-de-ananti-skm-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ada/2844/3271/8400/01d0/e06d/newsletter/VILLAGE_DE_ANANTI_004__photo_by_Namgoong_Sun_.jpg?1792682162",
+              "video": null
+            },
+            {
+              "title": "Casa Cardona / Sensacional Dinámica Mexicana",
+              "url": "https://www.archdaily.com/1187539/casa-cardona-sensacional-dinamica-mexicana",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6adf/7851/db5c/2001/882d/06b0/newsletter/casa-cardona-sensacional-dinamica-mexicana_20.jpg?1793030242",
+              "video": null
+            },
+            {
+              "title": "Project MMR / David Ito Arquitetura",
+              "url": "https://www.archdaily.com/1187456/project-mmr-david-ito-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ada/4328/3271/8400/01d0/e1f6/newsletter/MMR-FOTO-07.jpg?1792688984",
+              "video": null
+            },
+            {
+              "title": "Santa Rosa Social Housing / FAR frohn&rojas",
+              "url": "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6adf/0555/20d6/d801/8852/1031/newsletter/santa-rosa-social-housing-far-frohn-and-rojas_1.jpg?1793000800",
+              "video": null
+            },
+            {
+              "title": "Coqueira House / Tiago Sousa Arquitecto",
+              "url": "https://www.archdaily.com/1187520/coqueira-house-tiago-sousa-arquitecto",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6adb/469b/20d6/d801/8852/0bab/newsletter/casa-coqueira-tiago-sousa-arquitecto_30.jpg?1792755367",
+              "video": null
+            },
+            {
+              "title": "Ironwood Retreat / The Ranch Mine",
+              "url": "https://www.archdaily.com/1187398/ironwood-the-ranch-mine",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ada/4994/3271/8400/01d0/e232/newsletter/The_Ranch_Mine_-_Ironwood_-_2.jpg?1792690682",
+              "video": null
+            },
+            {
+              "title": "Dondoh Restaurant / Costa + Herrera Arquitectos",
+              "url": "https://www.archdaily.com/1177056/dondoh-restaurant-costa-plus-herrera-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6130/2942/25f7/0e01/6663/f4c9/newsletter/dondoh-julio-4.jpg?1630546310",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+              "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/image.jpg?w=1536",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/NocClouds_Hofer_6048.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "A-81 Reaches South Georgia",
+              "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-81-reaches-south-georgia/iceberga81_tmo_20261020.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Botswana honors 97-year-old who fought eviction of Indigenous people in Kalahari",
+              "url": "https://news.mongabay.com/short-article/2026/10/botswana-honors-97-year-old-who-fought-eviction-of-indigenous-people-in-kalahari/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/26221905/855645655_1684894809941492_5126457808742219160_n-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "Who’s implementing EUDR?",
+              "url": "https://news.mongabay.com/specials/2026/10/whos-implementing-eudr/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/12/05084203/6.-foto_madeira_Image-courtesy-of-Marizilda-Cruppe_Greenpeace-768x512.png",
+              "video": null
+            },
+            {
+              "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+              "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&h=405&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Organized crime is growing along highway in a pristine section of the Amazon: Study",
+              "url": "https://news.mongabay.com/short-article/2026/10/organized-crime-is-growing-along-highway-in-a-pristine-section-of-the-amazon-study/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/26212537/WhatsApp-Image-2026-10-22-at-15.55.36-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+              "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg?w=2048",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Tonight We Ride, LLC Issues Voluntary Recall of Ultimate Forza Male Supplement Due to Presence of Undeclared Sildenafil, Tadalafil, and Dapoxetine",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+      "published": "2026-10-24T18:23:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "It is one of our most exciting discoveries that local discovery leads to a complex of further discoveries.",
+    "who": "Buckminster Fuller",
+    "about": "American designer, inventor and futurist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 120–110 vs ATL",
+      "last_date": "Oct 26",
+      "next": "Wed Oct 28 at MIL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909874/hawks-rockets",
+      "recent": [
+        "W 120–110 vs ATL · Oct 26",
+        "W 121–114 at ATL · Oct 24",
+        "W 114–110 at SA · Oct 23"
+      ],
+      "upcoming": [
+        "Wed Oct 28 at MIL",
+        "Fri Oct 30 at DAL",
+        "Sat Oct 31 vs OKC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 65130,
+    "output_tokens": 7425
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "MICHIGAN: Blue Counties FLOOD POLLS In Early Vote Omen",
+          "url": "https://www.youtube.com/watch?v=663P3Zk66RM",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses the final days before the midterms, with early vote data in Michigan and guest Mehdi Hasan.",
+          "image": "https://i3.ytimg.com/vi/663P3Zk66RM/hqdefault.jpg",
+          "video": "663P3Zk66RM"
+        },
+        {
+          "title": "LIVE Students v. Billionaires Town Hall with Bernie Sanders in Ann Arbor",
+          "url": "https://www.youtube.com/watch?v=a3B9-_AlfeQ",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Live town hall in Ann Arbor with Senator Bernie Sanders and Dr. Abdul El-Sayed taking student questions on election issues.",
+          "image": "https://i2.ytimg.com/vi/a3B9-_AlfeQ/hqdefault.jpg",
+          "video": "a3B9-_AlfeQ"
+        },
+        {
+          "title": "We Went To Rural Florida: The Healthcare Crisis Will Shock You",
+          "url": "https://www.youtube.com/watch?v=-wRu0rJ1DUY",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "More Perfect Union reports from rural Florida on the healthcare crisis, including ACA coverage losses and Democrat Angie Nixon's campaign.",
+          "image": "https://i2.ytimg.com/vi/-wRu0rJ1DUY/hqdefault.jpg",
+          "video": "-wRu0rJ1DUY"
+        },
+        {
+          "title": "BRAZIL: Lula SHOCK Upset, Bolsonaro REFUSES To Concede",
+          "url": "https://www.youtube.com/watch?v=mcJfGorxRJM",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses Lula's upset win in Brazil's election and Bolsonaro's refusal to concede.",
+          "image": "https://i2.ytimg.com/vi/mcJfGorxRJM/hqdefault.jpg",
+          "video": "mcJfGorxRJM"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "San Francisco 49ers Highlights vs. Atlanta Falcons | Week 7",
+          "url": "https://www.youtube.com/watch?v=NZIr4gOu9YA",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Highlights from the 49ers' Week 7 game against the Atlanta Falcons at Mercedes-Benz Stadium.",
+          "image": "https://i3.ytimg.com/vi/NZIr4gOu9YA/hqdefault.jpg",
+          "video": "NZIr4gOu9YA"
+        },
+        {
+          "title": "Seahawks = Still Very Good, Bengals Offense EXPLODES & Are the Ravens Done?",
+          "url": "https://www.youtube.com/watch?v=IZlUX74AaEA",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show recaps Week 7, including the Bengals' second-half comeback over the Ravens and the Vikings' 6-0 start.",
+          "image": "https://i2.ytimg.com/vi/IZlUX74AaEA/hqdefault.jpg",
+          "video": "IZlUX74AaEA"
+        },
+        {
+          "title": "Renato Moicano vs Chris Duncan | FULL FIGHT | UFC Vegas 123",
+          "url": "https://www.youtube.com/watch?v=-BmqMDT3ERE",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight between Renato Moicano and Chris Duncan from UFC Vegas 123.",
+          "image": "https://i2.ytimg.com/vi/-BmqMDT3ERE/hqdefault.jpg",
+          "video": "-BmqMDT3ERE"
+        },
+        {
+          "title": "Cowboys Offense STOMPS Injury-Plagued Eagles 38-21",
+          "url": "https://www.youtube.com/watch?v=L1ckiVIutxc",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show analyzes the Cowboys' 38-21 win over the injury-plagued Eagles.",
+          "image": "https://i1.ytimg.com/vi/L1ckiVIutxc/hqdefault.jpg",
+          "video": "L1ckiVIutxc"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Claude + Revit Tutorial: Use your BIM Standards",
+          "url": "https://www.youtube.com/watch?v=7pKlr37LMvo",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Tutorial on turning BIM standards PDFs into Markdown files so Claude can follow them inside Revit.",
+          "image": "https://i4.ytimg.com/vi/7pKlr37LMvo/hqdefault.jpg",
+          "video": "7pKlr37LMvo"
+        },
+        {
+          "title": "I Tested 50 Different Ways to Get AI to Read Drawings and Perform Take-offs. Here’s What Works",
+          "url": "https://www.youtube.com/watch?v=ovx5NDv0UOA",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tests of about 50 methods for having AI read construction drawings and perform quantity take-offs, with what works.",
+          "image": "https://i4.ytimg.com/vi/ovx5NDv0UOA/hqdefault.jpg",
+          "video": "ovx5NDv0UOA"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "8 Hours of Space to Lull You To Sleep 💤 How the Universe Works | Science Channel",
+          "url": "https://www.youtube.com/watch?v=pe5DHvTFTI4",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Eight hours of space and universe content from Science Channel, meant as background viewing for sleep.",
+          "image": "https://i1.ytimg.com/vi/pe5DHvTFTI4/hqdefault.jpg",
+          "video": "pe5DHvTFTI4"
+        },
+        {
+          "title": "iPhone Duo Teardown – APPLE SHOULD APOLOGIZE",
+          "url": "https://www.youtube.com/watch?v=_Xe2JAoMwIA",
+          "source": "JerryRigEverything",
+          "topic": "Tech & Science",
+          "note": "Teardown of the iPhone Duo, covering reports of cracking from a hinge defect that Apple has confirmed.",
+          "image": "https://i4.ytimg.com/vi/_Xe2JAoMwIA/hqdefault.jpg",
+          "video": "_Xe2JAoMwIA"
+        }
+      ]
+    }
+  ]
+}
