@@ -1,0 +1,973 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Wednesday, October 28, 2026",
+  "generated_at": "2026-10-28T05:00:22-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Wednesday, October 28. Our lead story today is the Israeli election. The BBC reports that the two main blocs appear to have too few seats to form the next government without relying on Arab parties. Netanyahu and Eisenkot are both set to fall short of victory. That means Arab parties could hold the key to any coalition. Now the front page. The Lever has read the paperwork for Anthropic's proposed public offering. It says the filing reveals key weaknesses, including a blackmail warning. Separately, Anthropic says it is committing a portion of its shares to a new entity called the Anthropic Public Benefit Fund. Its stake increases as the company grows. In football, the 49ers have traded for defensive tackle DeForest Buckner, continuing a run of reunions with former players. And in health news, the Ebola outbreak that began in the Democratic Republic of Congo has now counted ten thousand patients. It has spread with great speed. Now the sections. In tech, Anthropic is expanding its partnership with the General Services Administration to bring Claude to all levels of government. A trending framework called Superpowers offers a development method for coding agents. And Simon Willison has been hacking on a conference badge at GitHub Universe. In politics, Drop Site News reports that groups aligned with AIPAC are spending seven hundred eighty five thousand dollars on late attack ads in a California House race. A new NPR poll shows Democrats with an edge a week before Election Day. And a federal judge has barred more work at a Washington golf course site, while President Trump says he will appeal. In world news, a ceasefire has been extended across Ukraine's Kherson region. The United States will issue visas to Flávio Bolsonaro and his family. And a cruise ship has ended its long voyage over fuel costs. In sports, one analysis grades the Buckner trade and other deals ahead of the NFL deadline. A UFC Fight Night in Sydney will feature Quillan Salkilld against Benoît Saint Denis. And ESPN looks back at the first week of the NBA season. In Atlanta, ground has broken on another Beltline segment. A historic Westside movie theater is moving ahead with a mixed-use revival. And Georgia's early voting has passed two million. In architecture, AEC Magazine asks how far Autodesk wants to own the new computing stack. There is also a mass timber pavilion in Los Angeles, and reflections from the Buenos Aires biennial. In science, Curiosity is preparing to drill at a site called Nazca. Brain implants are turning attempted speech into words. And four volunteers will leave a yearlong Mars simulation on Saturday. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Arab parties could hold key as Netanyahu and Eisenkot set to fall short of victory",
+    "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Israel's election has not produced a clear winner. The BBC reports that the two main blocs appear to have too few seats to form the next government without relying on Arab parties. Netanyahu and Eisenkot are both set to fall short of victory, according to the report. That places Arab parties in a position that could prove decisive in any attempt to put a coalition together. No seat counts are given, so the exact balance between the blocs is not yet clear. For a reader following world news, the key point is that the vote has left the question of who governs open, and the talks that follow will matter as much as the ballots themselves. It is worth watching how the bloc negotiations develop in the coming days.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c2b/live/e44a9b80-d299-11f1-b255-6fc3b99d1334.jpg",
+    "video": null,
+    "headline": "Israel's Vote Leaves No Clear Winner",
+    "decks": [
+      "Netanyahu and Eisenkot both appear set to fall short of victory.",
+      "Neither main bloc has enough seats without Arab parties.",
+      "Arab parties could hold the key to forming a government."
+    ]
+  },
+  "front": [
+    {
+      "title": "The Blackmail Warning In Anthropic’s $2 Trillion IPO",
+      "url": "https://www.levernews.com/the-blackmail-warning-in-anthropics-2-trillion-ipo/",
+      "source": "The Lever",
+      "topic": "Politics",
+      "note": "The Lever reads Anthropic's IPO paperwork and says it reveals key weaknesses, including a blackmail warning, as the company seeks a historic listing.",
+      "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--36-.png",
+      "video": null
+    },
+    {
+      "title": "49ers continue reunion tour, trade for DeForest Buckner",
+      "url": "https://www.espn.com/video/clip/_/id/50303698/49ers-continue-reunion-tour-trade-deforest-buckner",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers have traded for defensive tackle DeForest Buckner, continuing a run of reunions with former players.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/dm_261027_SC4U_16x9_49ers_IA_10-27/dm_261027_SC4U_16x9_49ers_IA_10-27.jpg",
+      "video": null
+    },
+    {
+      "title": "The Ebola outbreak is breaking records -- and just marked a grim milestone",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "The Ebola outbreak that began in the Democratic Republic of Congo has now counted 10,000 patients and has spread with great speed.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7086x4724+0+0/resize/7086x4724!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F93%2F4ffae611409290d5b15eef9a5f72%2Febola-slideshow-10k-cases-2300979920.jpg",
+      "video": null
+    },
+    {
+      "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, whose stake increases as the company grows.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic expands its partnership with the GSA to bring Claude to all levels of government, relevant to anyone building on Claude.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "video": null
+        },
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending agentic skills framework and development methodology for coding agents, useful for anyone building personal tools with Claude.",
+          "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+          "video": null
+        },
+        {
+          "title": "Game Boy Color on My Conference Badge",
+          "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison hacks on a color-screen conference badge at GitHub Universe, and a fellow attendee worked with Gemini to get an NES emulator running.",
+          "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "AIPAC-Aligned Groups Gift Doris Matsui a $785k Blitz of Last-Minute Attack Ads",
+          "url": "https://www.dropsitenews.com/p/aipac-aligned-groups-gift-doris-matsui",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports AIPAC-aligned groups are spending $785,000 on late attack ads against Mai Vang, who is challenging Rep. Doris Matsui in California's 7th district.",
+          "image": "https://substackcdn.com/image/fetch/$s_!Y4FI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F063084c1-3962-4696-90e1-7c02bd7b6489_3822x2548.jpeg",
+          "video": null
+        },
+        {
+          "title": "Democrats still poised to make gains, but poll shows warning signs for just how many",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "A new NPR/PBS News/Marist poll shows Democrats with significant advantages before Election Day, though lagging enthusiasm among key groups suggests gains may not come easily.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7840x5226+0+0/resize/7840x5226!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5a%2F10%2F089d329642839ddddebed0c9025a%2Fgettyimages-2302148894.jpg",
+          "video": null
+        },
+        {
+          "title": "A judge halted D.C. golf course renovations. Trump says they'll still start next month",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019192/east-potomac-golf-course-renovations-blocked-appeal",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "A federal judge barred further tree clearing in D.C.'s East Potomac Park without notice; Trump says work will still start next month and the administration will appeal.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7754x5169+0+0/resize/7754x5169!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2F90%2F879403b2402aa1608d41ebaa8131%2Fgettyimages-2283193092.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A ceasefire originally planned for stranded residents of Oleshky has been extended across Ukraine's Kherson region, with no breaches reported by Russia or Ukraine.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97b7/live/fc424bf0-d23c-11f1-904a-5b90e72e87ff.jpg",
+          "video": null
+        },
+        {
+          "title": "U.S. to issue visas to Flávio Bolsonaro as his whereabouts remain unclear",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Washington agrees to issue visas to Flávio Bolsonaro and his family as he leaves Brazil amid a money-laundering probe; his whereabouts are unclear.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5200x3467+0+0/resize/5200x3467!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2f%2Fc4%2F5c6df56f45859d8965e53baba456%2Fgettyimages-2301579295.jpg",
+          "video": null
+        },
+        {
+          "title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A cruise ship on a three-year voyage has ended its trip over fuel costs, leaving long-term resident passengers without their homes.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6734x4490+0+0/resize/6734x4490!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F44%2F23%2F0881c66f4de09635a457c6f93b45%2Fap26301261674111.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
+          "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Grades on the Buckner trade and other deals ahead of the NFL's November deadline, including the question of whether Buckner lifts the 49ers' Super Bowl hopes.",
+          "image": "https://a.espncdn.com/photo/2026/1027/r1737239_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Salkilld, Saint Denis to headline UFC Fight Night in Sydney",
+          "url": "https://www.espn.com/mma/story/_/id/50302428/australia-quillan-salkilld-headline-ufc-fight-night-sydney-benoit-saint-denis-february",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Quillan Salkilld will headline a UFC Fight Night lightweight bout against Benoît Saint Denis in Sydney in February.",
+          "image": "https://a.espncdn.com/photo/2026/0809/r1699397_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "NBA season 2026-27: Best and worst from the first week",
+          "url": "https://www.espn.com/nba/story/_/id/50260679/nba-first-week-best-worst-moments-2026-27",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "ESPN insiders review standout moments and big questions from the first week of the 2026-27 NBA season.",
+          "image": "https://a.espncdn.com/photo/2026/1023/r1735228_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Images: Another segment of Atlanta Beltline officially breaks ground",
+          "url": "https://atlanta.urbanize.city/post/atl-beltline-northwest-trail-section-officially-breaks-ground-peachtree-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Ground has officially broken on another Atlanta Beltline segment that will link to a major Buckhead commercial corridor.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Northwest%20Trail%202A%20Groundbreaking_Photo%20by%20Erin%20Sintos_2026-10-22%2056.jpg?itok=Uq_xItH4",
+          "video": null
+        },
+        {
+          "title": "Images: Historic, 1940s Atlanta theater's mixed-use revival is a go",
+          "url": "https://atlanta.urbanize.city/post/grove-theatre-historic-1940s-atl-movie-house-mixed-use-revival-go",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "After nearly a decade, the mixed-use revival of a landmark 1940s Westside movie theater is set to break ground next month.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Grove%20Theatre%20rendering%20Grant%20Park%20Fountation%202025.png?itok=hN7UtNN-",
+          "video": null
+        },
+        {
+          "title": "Georgia’s early voting total surpasses two million",
+          "url": "https://roughdraftatlanta.com/2026/10/27/georgia-early-voting-surpasses-two-million/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Georgia's in-person early voting passed two million on Oct. 27, up 22% from the 2022 total of 1,640,652.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/IMG_6042-2048x1365-1-600x400.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Autodesk: beyond the seat, the meter",
+          "url": "https://aecmag.com/ai/autodesk-beyond-the-seat-the-meter/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine asks how much of the new AEC computing stack Autodesk intends to own, and how many usage meters it plans to attach.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/12/Autodesk-meter-1.jpg",
+          "video": null
+        },
+        {
+          "title": "CS3 - Event & Sports Pavilion / HA+MA",
+          "url": "https://www.archdaily.com/1187143/cs3-event-and-sports-pavilion-ha-plus-ma",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A mass timber event and sports pavilion in Los Angeles by HA+MA, offering spaces for sports, outdoor activities and social events.",
+          "image": "https://images.adsttc.com/media/images/6ad6/4dae/aadf/a000/01e3/b12f/newsletter/HCC_Building_Exterior_12.jpg?1792429551",
+          "video": null
+        },
+        {
+          "title": "Inhabiting as Inquiry: Threads from the 20th Buenos Aires International Architecture Biennial",
+          "url": "https://www.archdaily.com/1187226/inhabiting-as-inquiry-threads-from-the-20th-buenos-aires-international-architecture-biennial",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily gathers threads from the 20th Buenos Aires International Architecture Biennial on inhabiting as a subject of architectural inquiry.",
+          "image": "https://images.adsttc.com/media/images/6ad8/a0f3/20d6/d801/8852/013d/newsletter/how-architecture-shapes-the-way-we-inhabit-reflections-and-debates-from-the-20th-buenos-aires-architecture-biennial_20.jpg?1792581887",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Curiosity is preparing its next drill campaign at 'Nazca', after finishing the Basque Lakes drill campaign.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg?w=1584&h=1184&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "How brain implants turn thoughts into speech",
+          "url": "https://www.sciencenews.org/article/brain-implants-thoughts-speech-podcast",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "New brain-computer interfaces turn attempted speech into words and can speak them in a voice resembling the user's own.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_LS_TDE_S2E4_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Four volunteers will leave NASA's simulated Mars habitat in Houston on Oct. 31 after 378 days of isolation.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2.jpg?w=2048",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Corporate Dems Lost Red States. Can Populists Win Them Back?",
+              "url": "https://www.levernews.com/corporate-dems-lost-red-states-can-populist-dems-win-them-back/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that populist candidates in Texas, Florida and Nebraska are backing tax-the-rich platforms as Democrats seek to win back red states.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Corporate-Dems-Lost-Red-States-Can-Populist-Dems-Win-Them-Back.png",
+              "video": null
+            },
+            {
+              "title": "AIPAC-Aligned Groups Gift Doris Matsui a $785k Blitz of Last-Minute Attack Ads",
+              "url": "https://www.dropsitenews.com/p/aipac-aligned-groups-gift-doris-matsui",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that AIPAC-aligned groups spent $785k on last-minute attack ads against Rep. Doris Matsui in California's 7th district.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Y4FI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F063084c1-3962-4696-90e1-7c02bd7b6489_3822x2548.jpeg",
+              "video": null
+            },
+            {
+              "title": "A judge halted D.C. golf course renovations. Trump says they'll still start next month",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019192/east-potomac-golf-course-renovations-blocked-appeal",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A federal judge barred clearing trees or other alterations at D.C.'s East Potomac Park without proper notice; Trump says the administration will appeal.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7754x5169+0+0/resize/7754x5169!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2F90%2F879403b2402aa1608d41ebaa8131%2Fgettyimages-2283193092.jpg",
+              "video": null
+            },
+            {
+              "title": "How congressional Democrats are preparing for claims of election fraud by Trump",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6013555/congressional-democrats-are-forming-a-task-force-to-protect-election-results",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Congressional Democrats are preparing for possible claims of election fraud by Trump or his allies after the midterms.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "How Far Will The AI Sector Go?",
+              "url": "https://www.levernews.com/how-far-will-the-ai-sector-go/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's quiz tests knowledge of AI legislation and dark money groups, relevant to your AI interest.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/LEVERMIND-QUIZ-How-Far-Will-The-AI-Sector-Go.png",
+              "video": null
+            },
+            {
+              "title": "Data centers are a hot-button issue for Ohioans as midterms near",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-5989174/candidates-work-to-ease-concerns-as-data-centers-become-hot-button-issue-for-ohioans",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Ohio voters are displeased with rapid data center buildout, making it a midterm issue for candidates of both parties.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "As campaign rhetoric escalates, Michigan voters say they're burned out",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6018541/michigan-voters-election-fatigue-campaign-rhetoric",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Michigan voters tell NPR they are worried about everyday costs and frustrated with the two-party system.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2Fe6%2Fff41fb3d48b6b104e509e6b05a14%2Fgettyimages-2289104918-1.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+              "url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A NPR/PBS News/Marist poll shows Democrats with a slight edge with Election Day a week away.",
+              "image": "https://www.npr.org/2026/10/27/g-s1-150052/undefined",
+              "video": null
+            },
+            {
+              "title": "Israel's voter turnout soars as Netanyahu faces a tight election",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Israelis voted in their highest numbers in over two decades in an election to decide whether to keep Netanyahu's coalition; no clear winner yet.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5690x3794+0+0/resize/5690x3794!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1e%2F36%2F656c559549cf9619280cbd15338c%2Fap26300712696528.jpg",
+              "video": null
+            },
+            {
+              "title": "Bolsonaro's party accepts Brazil election defeat, but he refuses to concede",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Brazil's opposition party accepts Lula's election victory, but Flávio Bolsonaro has not conceded, while Trump calls the vote rigged without evidence.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5102x3401+0+0/resize/5102x3401!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2F22%2F9ee7f26144c5b7a185360da6adb8%2Fap26299745358738.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its partnership with the GSA to bring Claude to all levels of government. Relevant to your Claude and Anthropic interest.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "Donating Agent Skills to the Agentic AI Foundation",
+              "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is donating Agent Skills to the Agentic AI Foundation, a move that could shape how skills for coding agents are shared.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows as the company grows.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+              "video": null
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Superpowers is a trending skills framework and development methodology for coding agents, close to your Claude-based tool building.",
+              "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+              "video": null
+            },
+            {
+              "title": "elayadesign/ai-design-skills",
+              "url": "https://github.com/elayadesign/ai-design-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A trending collection of design skills for Claude Code, Cursor and Codex, including a landing page skill, useful for your building workflow.",
+              "image": "https://opengraph.githubassets.com/1/elayadesign/ai-design-skills",
+              "video": null
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "ECC is a trending agent harness with skills, memory and security for Claude Code and other coding agents.",
+              "image": "https://opengraph.githubassets.com/1/affaan-m/ECC",
+              "video": null
+            },
+            {
+              "title": "nightly-labs/openbot",
+              "url": "https://github.com/nightly-labs/openbot",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "OpenBot is a local-first desktop workspace for persistent AI agents, including Claude, with task queues and agent collaboration.",
+              "image": "https://opengraph.githubassets.com/1/nightly-labs/openbot",
+              "video": null
+            },
+            {
+              "title": "webframe: evaluated as a scraper and a sandbox",
+              "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A research write-up evaluating webframe as both a scraper and a sandbox for running web pages like programs.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Colts trade DT DeForest Buckner to 49ers in another major move",
+              "url": "https://www.espn.com/nfl/story/_/id/50301125/colts-trade-de-deforest-buckner-49ers",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The Colts traded DT DeForest Buckner to the 49ers for a 2027 fourth-round pick.",
+              "image": "https://a.espncdn.com/photo/2026/1027/r1737191_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Rockets face the Hawks on 3-game win streak",
+              "url": "http://www.espn.com/nba/preview?gameId=401909874",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Houston Rockets face the Atlanta Hawks as the Rockets look to extend a three-game win streak.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909874.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Alex Volkanovski defends his title at UFC 333",
+              "url": "https://www.espn.com/video/clip/_/id/50271635/alex-volkanovski-defends-title-ufc-333",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Alex Volkanovski knocked out Movsar Evloev in Round 2 at UFC 333 to retain his featherweight title.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_UFC_Highlight_Alex_Volkanovski_defends_his_title_at_UFC_333_20261025_PH_ONLY/dm_261024_UFC_Highlight_Alex_Volkanovski_defends_his_title_at_UFC_333_20261025_PH_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Announce Practice Squad Moves",
+              "url": "https://www.49ers.com/news/49ers-announce-practice-squad-moves-x6844",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers signed DL Kevin Givens to the practice squad and released WR Malik Turner from it.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/qf9rf2t0hgyvyy512nvo.png",
+              "video": null
+            },
+            {
+              "title": "Salkilld, Saint Denis to headline UFC Fight Night in Sydney",
+              "url": "https://www.espn.com/mma/story/_/id/50302428/australia-quillan-salkilld-headline-ufc-fight-night-sydney-benoit-saint-denis-february",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Quillan Salkilld will headline a UFC Fight Night lightweight bout against Benoît Saint Denis in Sydney in February.",
+              "image": "https://a.espncdn.com/photo/2026/0809/r1699397_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "McCaffrey Climbs the Charts, Black Records First Career Touchdown; Stats and Facts from #SFvsATL",
+              "url": "https://www.49ers.com/news/mccaffrey-climbs-the-charts-black-records-first-career-touchdown-stats-and-facts-from-sfvsatl",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Key stats from the 49ers' Week 7 matchup against the Falcons, including McCaffrey's climb in the charts.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/dp8hirexcq8c0rlx44vn.jpg",
+              "video": null
+            },
+            {
+              "title": "Watch Braves prospects in Arizona Fall League action",
+              "url": "https://www.mlb.com/braves/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Braves prospects are playing in the Arizona Fall League.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/kdikhgkw7v8w8wdorlio.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgia’s early voting total surpasses two million",
+              "url": "https://roughdraftatlanta.com/2026/10/27/georgia-early-voting-surpasses-two-million/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia's early in-person voting surpassed two million on Oct. 27, well above the 2022 pace.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/IMG_6042-2048x1365-1-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Fulton elections officials say they’re not concerned about DOJ poll watchers",
+              "url": "https://roughdraftatlanta.com/2026/10/27/doj-sending-poll-watchers-georgia/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton County election officials say they have no concerns about 1,000 DOJ poll watchers, some of whom will be deployed to Fulton.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/img_6229-600x362.jpg",
+              "video": null
+            },
+            {
+              "title": "Images: Another segment of Atlanta Beltline officially breaks ground",
+              "url": "https://atlanta.urbanize.city/post/atl-beltline-northwest-trail-section-officially-breaks-ground-peachtree-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Another Atlanta Beltline segment, linking to a Buckhead commercial corridor, has officially broken ground.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Northwest%20Trail%202A%20Groundbreaking_Photo%20by%20Erin%20Sintos_2026-10-22%2056.jpg?itok=Uq_xItH4",
+              "video": null
+            },
+            {
+              "title": "Images: Historic, 1940s Atlanta theater's mixed-use revival is a go",
+              "url": "https://atlanta.urbanize.city/post/grove-theatre-historic-1940s-atl-movie-house-mixed-use-revival-go",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Mixed-use revival of a 1940s Westside movie theater, the Grove Theatre, is set to move forward next month.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Grove%20Theatre%20rendering%20Grant%20Park%20Fountation%202025.png?itok=hN7UtNN-",
+              "video": null
+            },
+            {
+              "title": "Peoplestown kicks off three-year Four Corners Park makeover",
+              "url": "https://saportareport.com/peoplestown-kicks-off-three-year-four-corners-park-makeover/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Peoplestown launched a nearly $10 million, three-year makeover of Four Corners Park funded by a $9.4 million grant.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_7477-scaled.jpg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Ambitious, 40-mile ‘Flint Riverway’ concept builds momentum",
+              "url": "https://atlanta.urbanize.city/post/flint-riverway-ambitious-40-mile-flint-river-concept-builds-momentum",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A 40-mile Flint Riverway trail concept south of downtown is gaining momentum in planning.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Flint%20Riverway%20ARC3_Three%20Plans%20Board.jpg?itok=g9cwdcSZ",
+              "video": null
+            },
+            {
+              "title": "White Coat Grady Gala raises record $2 million as Haupert prepares to exit",
+              "url": "https://roughdraftatlanta.com/2026/10/27/grady-gala-raises-record-funds/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "White Coat Grady Gala raised a record $2 million as outgoing CEO John Haupert prepares to retire.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/John-Haupert-600x401.webp",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Autodesk: beyond the seat, the meter",
+              "url": "https://aecmag.com/ai/autodesk-beyond-the-seat-the-meter/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Autodesk's AEC computing strategy and how many seats and meters it plans to attach, relevant to your BIM and AI interests.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/12/Autodesk-meter-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Inhabiting as Inquiry: Threads from the 20th Buenos Aires International Architecture Biennial",
+              "url": "https://www.archdaily.com/1187226/inhabiting-as-inquiry-threads-from-the-20th-buenos-aires-international-architecture-biennial",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Threads from the 20th Buenos Aires International Architecture Biennial on inhabiting as a form of architectural inquiry.",
+              "image": "https://images.adsttc.com/media/images/6ad8/a0f3/20d6/d801/8852/013d/newsletter/how-architecture-shapes-the-way-we-inhabit-reflections-and-debates-from-the-20th-buenos-aires-architecture-biennial_20.jpg?1792581887",
+              "video": null
+            },
+            {
+              "title": "CS3 - Event & Sports Pavilion / HA+MA",
+              "url": "https://www.archdaily.com/1187143/cs3-event-and-sports-pavilion-ha-plus-ma",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CS3, a mass timber event and sports pavilion in Los Angeles, relevant to your timber and building interests.",
+              "image": "https://images.adsttc.com/media/images/6ad6/4dae/aadf/a000/01e3/b12f/newsletter/HCC_Building_Exterior_12.jpg?1792429551",
+              "video": null
+            },
+            {
+              "title": "House between Gardens / Studio BHD",
+              "url": "https://www.archdaily.com/1187394/house-between-gardens-studio-bhd",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House Between Gardens in the Paarl Winelands, a family home shaped by landscape and climate.",
+              "image": "https://images.adsttc.com/media/images/6ada/2ef6/3271/8400/01d0/e1bc/newsletter/BHD_VALDIEVIE___PARISB_14_HR.jpg?1792683789",
+              "video": null
+            },
+            {
+              "title": "Cibeles House / Taller Síntesis",
+              "url": "https://www.archdaily.com/1187616/cibeles-house-taller-sintesis",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Cibeles House in Colombia, a home designed around open landscape and native vegetation.",
+              "image": "https://images.adsttc.com/media/images/6ae0/aeed/20d6/d81f/7e85/a4e4/newsletter/casa-cibeles-taller-sintesis_12.jpg?1793109791",
+              "video": null
+            },
+            {
+              "title": "Claranet Portugal Headquarters / PROMONTORIO",
+              "url": "https://www.archdaily.com/1187397/claranet-portugal-headquarters-promontorio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Claranet's Portuguese headquarters, designed on a former military depot site.",
+              "image": "https://images.adsttc.com/media/images/6ada/45e8/3271/8400/01d0/e219/newsletter/00_Site_Instagram_Claranet_03.jpg?1792689684",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "NASA’s Neo Surveyor Sunshade",
+              "url": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA shows the sunshade for the NEO Surveyor infrared telescope, which will search for near-Earth objects.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+              "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Four volunteers exit a yearlong simulated Mars mission at Johnson Space Center on Oct. 31 after 378 days of isolation.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "After the dinosaurs died, the massive ‘D. rex’ fungus ruled the woods",
+              "url": "https://www.sciencenews.org/article/d-rex-fungus-mushroom-dinosaurs-china",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Researchers describe the giant fungus Dianjunus rex, found in Yunnan, whose mushrooms stand half a meter tall.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_JB_giantfungus_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "As the sea swallows a Nigerian community, migratory bird habitat disappears",
+              "url": "https://news.mongabay.com/2026/10/as-the-sea-swallows-a-nigerian-community-migratory-bird-habitat-disappears/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Rising seas are swallowing a Nigerian community and wetland that serves as a migratory bird stopover.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/28070226/EurasianWhimbrel.Numenius.phaeopus_KalaibiamiIRiversNigeria_AdedotunAjibadeINaturalist_BY-NC4.0-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "How brain implants turn thoughts into speech",
+              "url": "https://www.sciencenews.org/article/brain-implants-thoughts-speech-podcast",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "New brain-computer interfaces turn attempted speech into words and can speak them in a voice resembling the user's own.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_LS_TDE_S2E4_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+              "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Curiosity rover is preparing to drill at Nazca on Mars as part of its next campaign.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg?w=1584&h=1184&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Artificial nests help Hong Kong’s rare cockatoos cope with a ‘housing crisis’",
+              "url": "https://news.mongabay.com/short-article/2026/10/artificial-nests-help-hong-kongs-rare-cockatoos-cope-with-a-housing-crisis/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Artificial nest boxes help the critically endangered yellow-crested cockatoo in Hong Kong's urban landscape.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/28051436/WSK_20251019_1005-scaled-1-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+      "published": "2026-10-27T18:18:00+00:00"
+    },
+    {
+      "title": "HAIFA SMOKED FISH Recalls Cold Smoked Sprats Due to Potential Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+      "published": "2026-10-27T15:15:00+00:00"
+    },
+    {
+      "title": "Tonight We Ride, LLC Issues Voluntary Recall of Ultimate Forza Male Supplement Due to Presence of Undeclared Sildenafil, Tadalafil, and Dapoxetine",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+      "published": "2026-10-24T18:23:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Even if the allotted space of life be short, it is long enough in which to live honourably and well.",
+    "who": "Cicero",
+    "about": "Roman statesman and orator",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 120–110 vs ATL",
+      "last_date": "Oct 26",
+      "next": "Wed Oct 28 at MIL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909874/hawks-rockets",
+      "recent": [
+        "W 120–110 vs ATL · Oct 26",
+        "W 121–114 at ATL · Oct 24",
+        "W 114–110 at SA · Oct 23"
+      ],
+      "upcoming": [
+        "Wed Oct 28 at MIL",
+        "Fri Oct 30 at DAL",
+        "Sat Oct 31 vs OKC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 60419,
+    "output_tokens": 10159
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Feds Prepare For 'ELECTION DOOMSDAY' If Republicans Lose",
+          "url": "https://www.youtube.com/watch?v=3TOwnX0AnsE",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss reported federal preparations for a possible election-related scenario if Republicans lose the midterms.",
+          "image": "https://i4.ytimg.com/vi/3TOwnX0AnsE/hqdefault.jpg",
+          "video": "3TOwnX0AnsE"
+        },
+        {
+          "title": "Anthropic REVEALS MASSIVE LOSSES In IPO Filing",
+          "url": "https://www.youtube.com/watch?v=cO9NY1PeBZg",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses Anthropic's financial losses as disclosed in its IPO filing, ahead of the company's planned listing.",
+          "image": "https://i4.ytimg.com/vi/cO9NY1PeBZg/hqdefault.jpg",
+          "video": "cO9NY1PeBZg"
+        },
+        {
+          "title": "LIVE Fed Up & Priced Out: A Town Hall with Todd Achilles",
+          "url": "https://www.youtube.com/watch?v=tKtXt7zokh8",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "A More Perfect Union town hall with Todd Achilles, taking student questions on housing affordability and other local issues.",
+          "image": "https://i1.ytimg.com/vi/tKtXt7zokh8/hqdefault.jpg",
+          "video": "tKtXt7zokh8"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "UFC Journey: Moicano vs Nolan",
+          "url": "https://www.youtube.com/watch?v=P8yDtEUaCEA",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC Journey preview of the Renato Moicano vs Tom Nolan lightweight matchup and what each fighter's momentum means for a title path.",
+          "image": "https://i1.ytimg.com/vi/P8yDtEUaCEA/hqdefault.jpg",
+          "video": "P8yDtEUaCEA"
+        },
+        {
+          "title": "The Night Movsar Evloev Lost His Undefeated Record | The Window",
+          "url": "https://www.youtube.com/watch?v=IGeeKwJl3sQ",
+          "source": "Anatomy of a Fighter",
+          "topic": "Sports",
+          "note": "Anatomy of a Fighter reflects on Movsar Evloev's first career loss to Alexander Volkanovski at UFC 333 in Abu Dhabi.",
+          "image": "https://i2.ytimg.com/vi/IGeeKwJl3sQ/hqdefault.jpg",
+          "video": "IGeeKwJl3sQ"
+        },
+        {
+          "title": "How Has the Steelers Offense SURPRISED Everyone? Plus, Bo Nix's Best Game & Raiders Flaws Exposed",
+          "url": "https://www.youtube.com/watch?v=9bFUCs13c4w",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show analyzes the Steelers' surprising offense and Bo Nix's best game, plus Raiders weaknesses exposed.",
+          "image": "https://i2.ytimg.com/vi/9bFUCs13c4w/hqdefault.jpg",
+          "video": "9bFUCs13c4w"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Revit Plug-in for 3D Site Data in Minutes | PlaceMaker for Revit Tutorial",
+          "url": "https://www.youtube.com/watch?v=KW3Z4U10wTI",
+          "source": "Balkan Architect",
+          "topic": "Architecture & Building",
+          "note": "Revit tutorial on PlaceMaker, showing how to import terrain, imagery, roads, buildings, and trees to build site context quickly.",
+          "image": "https://i4.ytimg.com/vi/KW3Z4U10wTI/hqdefault.jpg",
+          "video": "KW3Z4U10wTI"
+        },
+        {
+          "title": "AC 070 - Dimensions \"Min\" vs \"Max\": which to use?",
+          "url": "https://www.youtube.com/watch?v=DfdSbOkJ928",
+          "source": "archicorner",
+          "topic": "Architecture & Building",
+          "note": "Archicorner explains why \"clear\" rather than \"minimum\" is the correct dimensioning term, and when to use each.",
+          "image": "https://i1.ytimg.com/vi/DfdSbOkJ928/hqdefault.jpg",
+          "video": "DfdSbOkJ928"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Why The World's Second Largest Country is Out of Room",
+          "url": "https://www.youtube.com/watch?v=-z1Cc8vH0Go",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geography By Geoff examines why Canada, the second largest country by area, is running out of usable room.",
+          "image": "https://i2.ytimg.com/vi/-z1Cc8vH0Go/hqdefault.jpg",
+          "video": "-z1Cc8vH0Go"
+        },
+        {
+          "title": "The 9,000 Year Old Jericho Head! | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=fWZOSLZ4qmw",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel looks at the 9,000-year-old plastered skull found at Jericho and the imaging used to study it.",
+          "image": "https://i3.ytimg.com/vi/fWZOSLZ4qmw/hqdefault.jpg",
+          "video": "fWZOSLZ4qmw"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "Trust Me on This…",
+          "url": "https://www.youtube.com/watch?v=RE-eipdL68k",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes a pumpkin mac and cheese with bacon, onions, and a sage breadcrumb topping.",
+          "image": "https://i3.ytimg.com/vi/RE-eipdL68k/hqdefault.jpg",
+          "video": "RE-eipdL68k"
+        }
+      ]
+    }
+  ]
+}
