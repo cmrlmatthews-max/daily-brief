@@ -1,0 +1,1030 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, October 29, 2026",
+  "generated_at": "2026-10-29T05:00:23-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, October 29. Our lead story is from Spain. The country is dealing with its second deadly high-speed rail crash this year. One train struck another from behind, and sixty-eight people were killed. The crash has raised fresh concerns about the safety of the rail network. It comes ahead of a national election in Spain. Now the front page. GitHub announced its twenty twenty-six Octoverse report at its Universe event. Simon Willison, who attended, says the numbers show the impact of agentic engineering. In sports, the Houston Rockets stayed unbeaten. They beat the Milwaukee Bucks one hundred thirty-two to one hundred. Fred VanVleet scored twenty-four points and Amen Thompson added twenty-three. In politics, a judge denied the Justice Department's bid to stop processing California ballots. The federal government has already filed notice that it will appeal. Also, a hacktivist group says it exposed the identities of more than forty thousand Department of Homeland Security employees. The group says the government's lack of transparency made it fair play. Now the sections. In tech, a Hacker News post claims Claude Code regularly sends each background agent's transcript to its model. It drew a lot of discussion. Simon Willison also writes that October is an inflection point for vibe game development. In politics, The Lever reports that the Democratic left is betting it can win more by working with the House Speaker. NPR reports that three new polls show support for President Trump falling among white evangelicals. In world news, Flavio Bolsonaro, the defeated Brazilian candidate, arrived in Miami after authorities ordered him to surrender his passport. El Salvador is sending two thousand troops to Haiti to recover four missing soldiers. In sports, Christian McCaffrey may have a hamstring issue during the 49ers' bye week. Alexander Volkanovski jumps in ESPN's pound-for-pound rankings at age thirty-eight. The Rockets, now five and oh, face the Mavericks on Friday. In Atlanta, Alpharetta's Ronara Villas project continues the push toward density. A retail overhaul has begun on a historic Virginia-Highland strip. A forty-mile Flint Riverway trail concept is gaining momentum. In architecture, Allplan Max brings engineering AI across its portfolio. Chaos is adding live BIM data insights to Enscape. David Baker Architects completed fifty-nine affordable homes in Oakland. In science, the Artemis Three core stage has been joined with its boosters at Kennedy Space Center. A new estimate suggests seventy-five percent of NFL players may develop CTE. And new marine protected areas in Pemba show the value of collaboration. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+    "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Spain is dealing with its second high-speed rail disaster this year. In the latest crash, one train struck another from behind, and 68 people were killed. The accident has raised fresh concerns about the safety of the country's rail network. It comes ahead of a national election, so the question of rail safety arrives at a politically sensitive moment. For a reader who follows engineering and infrastructure, the story is a reminder of how much depends on the systems that keep large transport networks running safely. The summary does not give a cause, so the established facts are the death toll, the type of collision, and the fact that this is the second major crash of the year. Further reporting should show what investigators find and how officials respond.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F1b%2Ffc55045444e8a8a6c2ea0c7dabd7%2Fap26301639562528.jpg",
+    "video": null,
+    "headline": "Spain Reels After Second Deadly Train Crash",
+    "decks": [
+      "One train struck another from behind, killing 68 people",
+      "Second high-speed rail disaster in Spain this year",
+      "Safety concerns grow ahead of the national election"
+    ]
+  },
+  "front": [
+    {
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "GitHub announced its 2026 Octoverse report at Universe, with numbers Simon Willison reads as a stark sign of agentic engineering's impact.",
+      "image": "https://static.simonwillison.net/static/2026/github-numbers.jpg",
+      "video": null
+    },
+    {
+      "title": "Fred VanVleet and Amen Thompson lift undefeated Rockets past Bucks, 132-100",
+      "url": "http://www.espn.com/nba/recap?gameId=401909887",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Houston stayed undefeated with a 132-100 win over Milwaukee, led by Fred VanVleet's 24 points and Amen Thompson's 23.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909887.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Judge denies the Justice Department's bid to stop processing California ballots",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A judge denied the Justice Department's bid to stop processing California ballots, though the government has filed notice that it will appeal.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5174x3449+0+0/resize/5174x3449!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F25%2Fd40732b945ed8595ec5440a31a39%2Fgettyimages-2301932288.jpg",
+      "video": null
+    },
+    {
+      "title": "Hackers expose the identities of more than 40,000 DHS employees",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A hacktivist group says it exposed the identities of more than 40,000 DHS employees, citing the government's lack of transparency.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5645x3764+0+0/resize/5645x3764!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F3b%2Fb2930acc42bd8331d22f0213005a%2Fgettyimages-2255143488.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Code regularly sends each background agent’s transcript to its model",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "source": "Hacker News front page",
+          "topic": "Tech & AI",
+          "note": "A Hacker News post claiming Claude Code sends background agent transcripts to its model drew heavy discussion, relevant to anyone building tools on it.",
+          "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+          "video": null
+        },
+        {
+          "title": "The October inflection point for vibe game development",
+          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison argues October marks another inflection point, this time for game development with coding agents.",
+          "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+          "video": null
+        },
+        {
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending repo offering a design vocabulary for coding agents, meant to catch AI-looking output before it ships.",
+          "image": "https://opengraph.githubassets.com/1/pbakaus/impeccable",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The Progressive Revolt Stops At Hakeem Jeffries",
+          "url": "https://www.levernews.com/the-progressive-revolt-stops-at-hakeem-jeffries/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports the Democratic left is betting on working with the House Speaker, and says that choice could carry costs.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Hakeem-Jeffries.png",
+          "video": null
+        },
+        {
+          "title": "Support for Trump among white evangelicals has plummeted, polls reveal",
+          "url": "https://www.npr.org/2026/10/29/nx-s1-6012410/support-for-trump-among-white-evangelicals-has-plummeted-polls-reveal",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Three new polls suggest President Trump is losing ground among white evangelicals, raising questions about the midterms.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Defeated Brazilian candidate Flavio Bolsonaro arrived in Miami after authorities ordered him to surrender his passport; he faces multiple investigations.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+          "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "El Salvador is sending 2,000 troops to Haiti to recover four soldiers missing after an ambush near Port-au-Prince.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/846b/live/2e1cb430-d355-11f1-a772-cb496d11fa15.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "CMC dealing with hamstring issues during bye week",
+          "url": "https://www.espn.com/video/clip/_/id/50312244/cmc-dealing-hamstring-issues-bye-week",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Christian McCaffrey may be dealing with a hamstring injury from Week 7 during the 49ers' bye week.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_Niners_CMC_IA/dm_261028_Niners_CMC_IA.jpg",
+          "video": null
+        },
+        {
+          "title": "It's still the age of Volkanovski in MMA pound-for-pound rankings",
+          "url": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "At 38, UFC featherweight champion Alexander Volkanovski makes a big jump in ESPN's pound-for-pound top 10.",
+          "image": "https://a.espncdn.com/photo/2026/1027/r1737130_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Mavericks and Rockets meet Friday in NBA Cup group stage",
+          "url": "http://www.espn.com/nba/preview?gameId=401909283",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The 5-0 Rockets meet the Mavericks on Friday in NBA Cup group play.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909283.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Images: Alpharetta's Ronara Villas project continues densification trend",
+          "url": "https://atlanta.urbanize.city/post/alpharetta-ronara-villas-for-sale-project-images-continues-densification-trend",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Alpharetta's Ronara Villas project continues the area's trend toward denser development.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-02/Ronara%20site%202022.png?itok=94qYWwGO",
+          "video": null
+        },
+        {
+          "title": "Retail overhaul along storied Virginia-Highland strip kicks off",
+          "url": "https://atlanta.urbanize.city/post/virginia-highland-atkins-park-overhaul-retail-strip-begins",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A multi-property retail renovation has begun along a historic stretch of Virginia-Highland.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Atkins%20Park%20Collection%202.png?itok=phZHomNZ",
+          "video": null
+        },
+        {
+          "title": "Ambitious, 40-mile ‘Flint Riverway’ concept builds momentum",
+          "url": "https://atlanta.urbanize.city/post/flint-riverway-ambitious-40-mile-flint-river-concept-builds-momentum",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A 40-mile Flint Riverway trail concept south of downtown is building momentum, modeled on the thinking behind the Beltline.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Flint%20Riverway%20ARC3_Three%20Plans%20Board.jpg?itok=g9cwdcSZ",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Allplan Max delivers engineering AI across portfolio",
+          "url": "https://aecmag.com/bim/allplan-max-delivers-engineering-ai-across-portfolio/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Allplan Max brings engineering AI across its portfolio, aiming to automate repetitive work and offer expert guidance.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Chaos continues to expand Enscape beyond arch viz",
+          "url": "https://aecmag.com/visualisation/chaos-continues-to-expand-enscape-beyond-arch-viz/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Chaos is adding live BIM data insights to Enscape through its Vyssuals acquisition, widening the tool beyond visualization.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Coliseum Place Affordable Housing / David Baker Architects",
+          "url": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "David Baker Architects' Coliseum Place in Oakland has 59 affordable homes and social services across six levels.",
+          "image": "https://images.adsttc.com/media/images/6751/8dfd/3080/cf00/0100/d010/newsletter/21503_ColiseumPlace_BruceDamonte_02.jpg?1733398062",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+          "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Artemis III SLS core stage has been joined with its twin boosters at Kennedy Space Center.",
+          "image": "https://images-assets.nasa.gov/image/KSC-20261022-PH-SNC01_0001/KSC-20261022-PH-SNC01_0001~large.jpg?w=1920&h=1371&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Three-quarters of NFL football players may end up with CTE",
+          "url": "https://www.sciencenews.org/article/football-nfl-players-cte-brain-disease",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "A first estimate of CTE prevalence across the NFL suggests 75 percent of players may be affected.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102826_AC_cte-estimate_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Pemba’s new marine protected areas show the power of collaboration to meet 30×30 goal",
+          "url": "https://news.mongabay.com/2026/10/pembas-new-marine-protected-areas-show-the-power-of-collaboration-to-meet-30x30-goal/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Pemba's new marine protected areas show how collaboration can help meet the 30 by 30 ocean conservation goal.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/29063925/DSC04884_AdrianPonsardWCS-scaled-1-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Support for Trump among white evangelicals has plummeted, polls reveal",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6012410/support-for-trump-among-white-evangelicals-has-plummeted-polls-reveal",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Hackers expose the identities of more than 40,000 DHS employees",
+              "url": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5645x3764+0+0/resize/5645x3764!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F3b%2Fb2930acc42bd8331d22f0213005a%2Fgettyimages-2255143488.jpg",
+              "video": null
+            },
+            {
+              "title": "Judge denies the Justice Department's bid to stop processing California ballots",
+              "url": "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5174x3449+0+0/resize/5174x3449!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F25%2Fd40732b945ed8595ec5440a31a39%2Fgettyimages-2301932288.jpg",
+              "video": null
+            },
+            {
+              "title": "“Mediacide”: Francesca Albanese on Israel’s War on Journalism",
+              "url": "https://www.dropsitenews.com/p/mediacide-francesca-albanese-on-israels",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!8IUG!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F222563829%2F2a2f6b01-e911-4d19-a3bb-58ada0930d56%2Ftranscoded-1793226546.png",
+              "video": null
+            },
+            {
+              "title": "A breakthrough for the group on the trail of Chinese hackers",
+              "url": "https://www.npr.org/2026/10/28/nx-s1-6019538/a-breakthrough-for-the-group-on-the-trail-of-chinese-hackers",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Company Linked to Darline Graham’s Husband Was Sanctioned for Arming Russia Against Ukraine",
+              "url": "https://www.dropsitenews.com/p/darline-graham-lindsey-husband-russia-ukraine-sanctions",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!IkQ-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5b6b592-f634-455b-90ce-76370e3ceebc_4267x2845.jpeg",
+              "video": null
+            },
+            {
+              "title": "The Progressive Revolt Stops At Hakeem Jeffries",
+              "url": "https://www.levernews.com/the-progressive-revolt-stops-at-hakeem-jeffries/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Hakeem-Jeffries.png",
+              "video": null
+            },
+            {
+              "title": "Midterm Madness: Big Business Wants To Delete Your Tax Cut",
+              "url": "https://www.levernews.com/midterm-madness-big-business-wants-to-delete-your-tax-cut/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--38-.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6012227/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "What we know so far about deadly Spain train crash",
+              "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/81f7/live/e4acc800-d302-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+              "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3ae0/live/865a2400-d343-11f1-ad8b-790d6224b426.jpg",
+              "video": null
+            },
+            {
+              "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+              "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/846b/live/2e1cb430-d355-11f1-a772-cb496d11fa15.jpg",
+              "video": null
+            },
+            {
+              "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F1b%2Ffc55045444e8a8a6c2ea0c7dabd7%2Fap26301639562528.jpg",
+              "video": null
+            },
+            {
+              "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F1b%2Ffc55045444e8a8a6c2ea0c7dabd7%2Fap26301639562528.jpg",
+              "video": null
+            },
+            {
+              "title": "Brewers beat the Rays to win the first World Series title in franchise history",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6021953/brewers-win-first-world-series-title",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8429x5619+0+0/resize/8429x5619!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F0e%2Ff7122b0e495eb717cdcfbe986bac%2Fap26302136813805.jpg",
+              "video": null
+            },
+            {
+              "title": "Hackers expose the identities of more than 40,000 DHS employees",
+              "url": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5645x3764+0+0/resize/5645x3764!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F3b%2Fb2930acc42bd8331d22f0213005a%2Fgettyimages-2255143488.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to a reader who follows Claude and Anthropic closely.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Claude Code regularly sends each background agent’s transcript to its model",
+              "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A Hacker News post reports that Claude Code sends each background agent's transcript to its model, according to a linked gist. Relevant for anyone building with Claude Code.",
+              "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+              "video": null
+            },
+            {
+              "title": "GPT-6.1 Terra",
+              "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "OpenAI released GPT-6.1 Terra, a model emphasizing visual reasoning and computer use. Useful context on where competing models are heading.",
+              "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+              "video": null
+            },
+            {
+              "title": "GitHub Octoverse 2026",
+              "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "GitHub's Octoverse 2026 report highlights the impact of agentic engineering on developer activity, based on figures presented at GitHub Universe.",
+              "image": "https://static.simonwillison.net/static/2026/github-numbers.jpg",
+              "video": null
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Hallmark is an open design skill for Claude Code, Codex and Cursor that aims to produce non-AI-looking designs. Fits the reader's interest in building tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/Nutlope/hallmark",
+              "video": null
+            },
+            {
+              "title": "The October inflection point for vibe game development",
+              "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A Simon Willison post argues October marked a new inflection point for vibe game development with coding agents. Relevant to AI-assisted software building.",
+              "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Mavericks and Rockets meet Friday in NBA Cup group stage",
+              "url": "http://www.espn.com/nba/preview?gameId=401909283",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909283.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Way-Too-Early 2027 MLB Power Rankings: Who's No. 1?",
+              "url": "https://www.espn.com/mlb/story/_/id/50292274/early-2027-season-power-rankings",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1027/mlb_power_rankings_16x9_608x342.jpg",
+              "video": null
+            },
+            {
+              "title": "Watch Braves prospects in Arizona Fall League action",
+              "url": "https://www.mlb.com/braves/news/watch-top-prospects-in-arizona-fall-league-winter-ball-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/kdikhgkw7v8w8wdorlio.jpg",
+              "video": null
+            },
+            {
+              "title": "Biggest offseason questions for teams eliminated from MLB playoffs",
+              "url": "https://www.espn.com/mlb/story/_/id/50052092/mlb-playoffs-2026-offseason-eliminated-teams-questions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1027/r1737045_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Houston Rockets vs. Milwaukee Bucks: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50313575/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/450ddedf-3559-4e2e-85e4-b5550d533e39/450ddedf-3559-4e2e-85e4-b5550d533e39.jpg",
+              "video": null
+            },
+            {
+              "title": "Fred VanVleet and Amen Thompson lift undefeated Rockets past Bucks, 132-100",
+              "url": "http://www.espn.com/nba/recap?gameId=401909887",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909887.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "CMC dealing with hamstring issues during bye week",
+              "url": "https://www.espn.com/video/clip/_/id/50312244/cmc-dealing-hamstring-issues-bye-week",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_Niners_CMC_IA/dm_261028_Niners_CMC_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "The 49ers Acquire DL DeForest Buckner",
+              "url": "https://www.49ers.com/news/the-49ers-acquire-dl-deforest-buckner",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ho3ntc917fe37l6vxrew.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Images: Alpharetta's Ronara Villas project continues densification trend",
+              "url": "https://atlanta.urbanize.city/post/alpharetta-ronara-villas-for-sale-project-images-continues-densification-trend",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-02/Ronara%20site%202022.png?itok=94qYWwGO",
+              "video": null
+            },
+            {
+              "title": "Breaking silos: The Atlanta Regional Collaborative for Health Improvement announces strides in collective action",
+              "url": "https://saportareport.com/breaking-silos-the-atlanta-regional-collaborative-for-health-improvement-announces-strides-in-collective-action/uncategorized/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_1608-scaled.jpg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Manhattan Cafe in Athens prominently displays a unique piece of vintage Highwaymen art",
+              "url": "https://roughdraftatlanta.com/2026/10/28/manhattan-cafe-athens-highwaymen-art-jesus-trucker-painting/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/261016_VelvetJesus_AnsleyKelly_001-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Retail overhaul along storied Virginia-Highland strip kicks off",
+              "url": "https://atlanta.urbanize.city/post/virginia-highland-atkins-park-overhaul-retail-strip-begins",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-03/Atkins%20Park%20Collection%202.png?itok=phZHomNZ",
+              "video": null
+            },
+            {
+              "title": "Norcross mayor targets affordability and growth in annual address",
+              "url": "https://roughdraftatlanta.com/2026/10/28/norcross-state-of-the-city-growth/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Norcross-State-of-the-City-600x450.jpeg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Tucker’s Infinite Realities to host comic book convention Nov. 7-8",
+              "url": "https://roughdraftatlanta.com/2026/10/28/infinite-realities-comicopia-convention/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-28-at-12.56.03-PM-600x529.png",
+              "video": null
+            },
+            {
+              "title": "Openings: One of Atlantic Station’s anchor spaces is vacant no more",
+              "url": "https://atlanta.urbanize.city/post/nordstrom-rack-open-atlantic-station-images-anchor-spaces-vacant-no-more",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/Nordstrom%20Rack%201.jpg?itok=A2nPmIB3",
+              "video": null
+            },
+            {
+              "title": "Peoplestown kicks off three-year Four Corners Park makeover",
+              "url": "https://saportareport.com/peoplestown-kicks-off-three-year-four-corners-park-makeover/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_7477-scaled.jpg?fit=1024%2C768&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Yakisugi House / Estudio Mazara",
+              "url": "https://www.archdaily.com/1187678/yakisugi-house-estudio-mazara",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ae2/0593/db5c/2001/882d/0f2b/newsletter/yakisugi-house-estudio-mazara_18.jpg?1793197464",
+              "video": null
+            },
+            {
+              "title": "MIAA - Iberian Museum of Archaeology and Art / Carrilho da Graça Arquitectos",
+              "url": "https://www.archdaily.com/1187725/miaa-iberian-museum-of-archaeology-and-art-carrilho-da-graca-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ae0/fcee/3271/8400/01d0/f38e/newsletter/RitaBurmester_CG_MIAA_0220_2208.jpg?1793129753",
+              "video": null
+            },
+            {
+              "title": "Allplan Max delivers engineering AI across portfolio",
+              "url": "https://aecmag.com/bim/allplan-max-delivers-engineering-ai-across-portfolio/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "A Geometric Ruin / 00L",
+              "url": "https://www.archdaily.com/1187661/a-geometric-ruin",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ae1/c375/db5c/2001/882d/0dd7/newsletter/a-geometric-ruin_15.jpg?1793180611",
+              "video": null
+            },
+            {
+              "title": "MAS House / SUITE",
+              "url": "https://www.archdaily.com/1187546/mas-house-suite",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ad1/15b0/aadf/a000/01e3/a5f2/newsletter/Suite_MAS_SF_Fotos_Pedro_Ocanhas__96__2.jpg?1792087552",
+              "video": null
+            },
+            {
+              "title": "Goldring Woldenberg Riverfront Park / Eskew+Dumez+Ripple",
+              "url": "https://www.archdaily.com/1187234/goldring-woldenberg-riverfront-park-eskew-plus-dumez-plus-ripple",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ad7/9927/aadf/a000/01e3/b903/newsletter/_Tim_Hursley_TH060226_EDR_GWP_DR003.jpg?1792514452",
+              "video": null
+            },
+            {
+              "title": "Chaos continues to expand Enscape beyond arch viz",
+              "url": "https://aecmag.com/visualisation/chaos-continues-to-expand-enscape-beyond-arch-viz/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Coliseum Place Affordable Housing / David Baker Architects",
+              "url": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6751/8dfd/3080/cf00/0100/d010/newsletter/21503_ColiseumPlace_BruceDamonte_02.jpg?1733398062",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Fires and weak monitoring hinder reforestation efforts in Mozambique",
+              "url": "https://news.mongabay.com/2026/10/fires-and-weak-monitoring-hinder-reforestation-efforts-in-mozambique/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/28154204/cenario-de-floresta-queimada-2-Foto-de-Far-Vubil-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Pemba’s new marine protected areas show the power of collaboration to meet 30×30 goal",
+              "url": "https://news.mongabay.com/2026/10/pembas-new-marine-protected-areas-show-the-power-of-collaboration-to-meet-30x30-goal/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/29063925/DSC04884_AdrianPonsardWCS-scaled-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "India’s forgotten vegetables offer a glimpse into what global diets are missing",
+              "url": "https://news.mongabay.com/short-article/2026/10/indias-forgotten-vegetables-offer-a-glimpse-into-what-global-diets-are-missing/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/29055318/Chocolate-Cherry-Tomato-1-1200x800-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Fishing cat rescue-and-release offers potential model for conservation in Bangladesh",
+              "url": "https://news.mongabay.com/short-article/2026/10/fishing-cat-rescue-and-release-offers-potential-model-for-conservation-in-bangladesh/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/29054627/61-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Fishers in eastern Indonesia struggle as rough seas keep them ashore",
+              "url": "https://news.mongabay.com/2026/10/fishers-in-eastern-indonesia-struggle-as-rough-seas-keep-them-ashore/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/29045302/WhatsApp-Image-2026-10-22-at-09.37.32-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "APOD: 29 October 2026 – The Horns of Venus",
+              "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/venus_20261024a.jpg?w=744&h=744&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Arnab Strikes India",
+              "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/arnab-strikes-india/typhoonarnab_vir_20261026.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+              "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg?w=2048",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+      "published": "2026-10-27T18:18:00+00:00"
+    },
+    {
+      "title": "HAIFA SMOKED FISH Recalls Cold Smoked Sprats Due to Potential Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+      "published": "2026-10-27T15:15:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+    "who": "Marcus Aurelius",
+    "about": "Roman emperor and Stoic philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 132–100 at MIL",
+      "last_date": "Oct 28",
+      "next": "Fri Oct 30 at DAL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909887/rockets-bucks",
+      "recent": [
+        "W 132–100 at MIL · Oct 28",
+        "W 120–110 vs ATL · Oct 26",
+        "W 121–114 at ATL · Oct 24"
+      ],
+      "upcoming": [
+        "Fri Oct 30 at DAL",
+        "Sat Oct 31 vs OKC",
+        "Mon Nov 2 vs BOS"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66165,
+    "output_tokens": 6554
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "LIVE Students v. Billionaires Town Hall with Bernie Sanders in Ann Arbor",
+          "url": "https://www.youtube.com/watch?v=a3B9-_AlfeQ",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Live town hall in Ann Arbor with Bernie Sanders and Dr. Abdul El-Sayed taking student questions on issues in the current election.",
+          "image": "https://i2.ytimg.com/vi/a3B9-_AlfeQ/hqdefault.jpg",
+          "video": "a3B9-_AlfeQ"
+        },
+        {
+          "title": "We Went Back To Arkansas. The Farm Crisis Has Gotten Much Worse...",
+          "url": "https://www.youtube.com/watch?v=_Ar-wej-FEg",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Reporting from Arkansas on the Senate race, farm economy strains, and Republican ad spending ahead of the election.",
+          "image": "https://i4.ytimg.com/vi/_Ar-wej-FEg/hqdefault.jpg",
+          "video": "_Ar-wej-FEg"
+        },
+        {
+          "title": "Kushner THREATENS LAWSUIT Over EXPLOSIVE Bribery Allegations",
+          "url": "https://www.youtube.com/watch?v=qydWq6V9WVg",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points interview with Matthew Cole on his reporting on Kushner's alleged dealings involving the UAE and Saudi Arabia.",
+          "image": "https://i2.ytimg.com/vi/qydWq6V9WVg/hqdefault.jpg",
+          "video": "qydWq6V9WVg"
+        },
+        {
+          "title": "Tech Billionaires Are Funding The Far Right",
+          "url": "https://www.youtube.com/watch?v=6f1bJEijaEU",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report interview with economist Isabella Weber on tech billionaires funding far-right politics and her book on affordability.",
+          "image": "https://i3.ytimg.com/vi/6f1bJEijaEU/hqdefault.jpg",
+          "video": "6f1bJEijaEU"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Tom Nolan vs Charlie Campbell | FULL FIGHT | UFC Vegas 123",
+          "url": "https://www.youtube.com/watch?v=eJFY7ywrvcg",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight between Tom Nolan and Charlie Campbell, the undercard matchup ahead of Nolan's UFC Vegas 123 main event against Moicano.",
+          "image": "https://i2.ytimg.com/vi/eJFY7ywrvcg/hqdefault.jpg",
+          "video": "eJFY7ywrvcg"
+        },
+        {
+          "title": "Renato Moicano WANTS 'TO BE A FREE AGENT,' Talks Justin Gaethje vs. Alexander Volkanovski",
+          "url": "https://www.youtube.com/watch?v=iFnd7LGM5xk",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Renato Moicano previews his UFC Vegas 123 headliner against Tom Nolan and discusses Gaethje and Volkanovski.",
+          "image": "https://i2.ytimg.com/vi/iFnd7LGM5xk/hqdefault.jpg",
+          "video": "iFnd7LGM5xk"
+        },
+        {
+          "title": "Tatum Bethune on Importance of Family, Work Mentality, and Growth | 49ers",
+          "url": "https://www.youtube.com/watch?v=O4sUXAoxZLg",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers linebacker Tatum Bethune talks family, work mentality, and personal growth in a Cut Different episode.",
+          "image": "https://i4.ytimg.com/vi/O4sUXAoxZLg/hqdefault.jpg",
+          "video": "O4sUXAoxZLg"
+        },
+        {
+          "title": "Which Receivers Are Flying Up NFL Draft Boards?",
+          "url": "https://www.youtube.com/watch?v=CvjGftohYzk",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic breaks down which wide receivers are rising on NFL draft boards for the 2027 class.",
+          "image": "https://i4.ytimg.com/vi/CvjGftohYzk/hqdefault.jpg",
+          "video": "CvjGftohYzk"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Build a Construction Project Dashboard in ChatGPT",
+          "url": "https://www.youtube.com/watch?v=DrDgxfbANG8",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Step-by-step walkthrough of building a construction project dashboard using ChatGPT Sites to share with a project team.",
+          "image": "https://i1.ytimg.com/vi/DrDgxfbANG8/hqdefault.jpg",
+          "video": "DrDgxfbANG8"
+        },
+        {
+          "title": "How to Grow Your Construction Business",
+          "url": "https://www.youtube.com/watch?v=z3Y0td1UAFY",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Framework for contractors to evaluate their market position, align market selection with profitable bidding, and scale their firm.",
+          "image": "https://i3.ytimg.com/vi/z3Y0td1UAFY/hqdefault.jpg",
+          "video": "z3Y0td1UAFY"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Invisible Forces that Shape Our Reality ⚛️ How the Universe Works | Science Channel",
+          "url": "https://www.youtube.com/watch?v=dZBBcfvXutg",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel overview of invisible forces shaping the universe, including dark matter, neutrinos, quasars, and black holes.",
+          "image": "https://i1.ytimg.com/vi/dZBBcfvXutg/hqdefault.jpg",
+          "video": "dZBBcfvXutg"
+        },
+        {
+          "title": "A How It's Made Halloween! | How It's Made | Science Channel",
+          "url": "https://www.youtube.com/watch?v=XvcyBSf_bXw",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel How It's Made episode covering how Halloween candies, props, and horror film items are manufactured.",
+          "image": "https://i1.ytimg.com/vi/XvcyBSf_bXw/hqdefault.jpg",
+          "video": "XvcyBSf_bXw"
+        }
+      ]
+    }
+  ]
+}
