@@ -1,0 +1,1031 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, October 30, 2026",
+  "generated_at": "2026-10-30T05:00:16-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, October 30. Our lead story is a major crypto hack. Binance has been hit by a hack worth six point three billion dollars. It is suspected to be the largest in history. Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor. The BBC has also published an explainer on what is known so far. The size and the attribution are still described as suspected, so expect more detail to follow. Now the front page. The Atlanta Braves exercised Ronald Acuña Junior's seventeen million dollar option. They also exercised a seven million dollar option on second baseman Ozzie Albies. In architecture tech, Snaptrude has launched an AI agent for BIM workflows. It covers concept design, BIM modelling, MEP and construction documentation. For Claude builders, the Claude Platform added a beta Usage and Cost Analytics API. It reports token usage and cost for Console and Enterprise organizations. In national news, grand jury subpoenas were sent to election workers in Los Angeles. They come amid rising tension between the Trump administration and California officials over the state's voter rolls. Now the sections. In tech and AI, Simon Willison notes OpenAI's new API credits benefit for eligible ChatGPT subscriptions. In politics, The Lever reports that Texas candidate Gina Hinojosa is campaigning against the established Democratic approach. Drop Site News reports on the arrest of Bolivia's attorney general. In world news, the United States and Japan agreed to set up a Japanese facility for joint missile production. China also elevated a military general to the Politburo. In sports, a set of trade deadline grades looks at the DeForest Buckner deal. The 49ers are sticking with kicker Eddy Pineiro despite his struggles. And in the UFC, Quillan Salkilld will face Benoît Saint Denis in Sydney in February. In Atlanta, a veteran homebuilder sees Blue Ridge as the next frontier for metro Atlanta housing. Star Community Bar will close on December thirty first after thirty five years in Little Five Points. In architecture, AEC Magazine asks how many meters Autodesk wants to attach to its computing stack. ArchDaily also marks one hundred years since the birth of Brazilian architect Assis Reis. In science and nature, GPS tracking shows seabirds get jet lag on fast east-west flights. NASA-funded scientists also dated a Mars meteorite to more than four point one billion years old. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+    "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Crypto giant Binance has been hit by a hack worth $6.3 billion, which is suspected to be the largest in history. Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor. The BBC has also published an explainer on what is known so far, written by business reporter Archana Shukla. The attribution comes from analytics firms, and the size of the hack is described as suspected, not confirmed. For this reader, who follows technology closely, the story shows how large the sums moving through crypto platforms have become, and how quickly a single incident can reach into the billions. The summaries do not say how the breach happened, so further reporting is likely to fill in the details.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6a4c/live/ee32b970-d406-11f1-b5d5-035446124886.jpg",
+    "video": null,
+    "headline": "Binance Hit by Suspected Record $6.3bn Hack",
+    "decks": [
+      "Two analytics firms attribute the incident to TraderTraitor",
+      "Suspected to be the largest hack in history",
+      "North Korean hacking unit named by analysts"
+    ]
+  },
+  "front": [
+    {
+      "title": "Braves exercise options on Ronald Acuña Jr., Ozzie Albies",
+      "url": "https://www.espn.com/mlb/story/_/id/50323937/braves-exercise-options-ronald-acuna-jr-ozzie-albies",
+      "source": "Atlanta Braves",
+      "topic": "Sports",
+      "note": "The Braves exercised Ronald Acuña Jr.'s $17 million option and Ozzie Albies' $7 million option, keeping both in place.",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738408_600x400_3-2.jpg",
+      "video": null
+    },
+    {
+      "title": "Snaptrude Agent launches for BIM workflows",
+      "url": "https://aecmag.com/bim/snaptrude-agent-launches-for-bim-workflows/",
+      "source": "AEC Magazine",
+      "topic": "Architecture",
+      "note": "Snaptrude has launched an AI agent covering BIM workflows, from concept design and modelling to MEP and construction documentation.",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "video": null
+    },
+    {
+      "title": "Claude Platform release notes — October 29, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-29-2026",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "Claude Platform added a beta Usage and Cost Analytics API reporting token usage and cost for Console and Enterprise organizations.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+      "video": null
+    },
+    {
+      "title": "Justice Department issues subpoenas to California election workers",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6022560/doj-subpoenas-california-election",
+      "source": "NPR Politics",
+      "topic": "Politics",
+      "note": "Grand jury subpoenas were sent to Los Angeles election workers amid rising tension between the Trump administration and California officials over voter rolls.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2Ffc%2Fd4ca16f24853b57a60be0622c0f5%2Fgettyimages-2278798144.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "API credits benefit for eligible ChatGPT subscriptions",
+          "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison notes OpenAI's new API credits benefit for eligible ChatGPT subscriptions, following a similar Anthropic benefit for Max and Team plans.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "Building a multiplayer game world with autonomous Fable-class models",
+          "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "A write-up on building a multiplayer game world with autonomous frontier models, a look at what agentic engineering can do now.",
+          "image": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
+          "video": null
+        },
+        {
+          "title": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending repo that keeps context across agent sessions and works with Claude Code, useful for anyone building personal tools.",
+          "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Gina Hinojosa Flips Off Corporate Democrats",
+          "url": "https://www.levernews.com/gina-hinojosa-explains-the-democratic-divide/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that Texas gubernatorial candidate Gina Hinojosa is campaigning against the established Democratic approach.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Gina.png",
+          "video": null
+        },
+        {
+          "title": "Bolivian Attorney General Was Arrested After Investigating Trump-Aligned Operative",
+          "url": "https://www.dropsitenews.com/p/bolivia-attorney-general-arrest-fernando-cerimedo",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports Bolivia's attorney general was arrested after investigating a Trump-aligned operative, and says drug-trafficking accusations are used selectively.",
+          "image": "https://substackcdn.com/image/fetch/$s_!H0dG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5566e92-1e67-4bb1-8e20-b2da957cefcb_5500x3667.jpeg",
+          "video": null
+        },
+        {
+          "title": "Court rules man should be resentenced after AI video of victim was shown in court",
+          "url": "https://www.npr.org/2026/10/30/nx-s1-6017962/court-rules-man-should-be-resentenced-after-ai-video-of-victim-was-shown-in-court",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "A court ruled a man should be resentenced after an AI-generated video of a victim was shown in an Arizona courtroom.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "US and Japan agree to establish a Japanese facility for joint missile production",
+          "url": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "The US and Japan agreed to set up a Japanese facility for joint missile production, citing concern over China's growing assertiveness.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F04%2F54%2F8ac4fc1f4626be23c3b532cfb1ea%2Fap26301341519312.jpg",
+          "video": null
+        },
+        {
+          "title": "China elevates a military general to the Politburo and seeks to strengthen party discipline",
+          "url": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "China elevated a military general to the Politburo and called for stronger party discipline, about a year before Xi Jinping's expected fourth term.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3422x2282+0+0/resize/3422x2282!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcc%2Fcc%2F5481abda4bb2a1f0f3d355fbfd5f%2Fap26302467609122.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "NFL trade deadline grades: Jeffery Simmons, DeForest Buckner, Quenton Nelson",
+          "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Trade deadline grades cover the Jeffery Simmons, DeForest Buckner and Quenton Nelson deals, including how the Colts fared.",
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738080_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers sticking with Pineiro despite struggles",
+          "url": "https://www.espn.com/video/clip/_/id/50322863/49ers-sticking-pineiro-struggles",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers are letting kicker Eddy Pineiro work through his slump rather than make a change.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/dm_261029_Niners_kickers_IA/dm_261029_Niners_kickers_IA.jpg",
+          "video": null
+        },
+        {
+          "title": "Salkilld, Saint Denis to headline UFC Fight Night in Sydney",
+          "url": "https://www.espn.com/mma/story/_/id/50302428/australia-quillan-salkilld-headline-ufc-fight-night-sydney-benoit-saint-denis-february",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Quillan Salkilld will face Benoît Saint Denis in a lightweight main event at UFC Fight Night in Sydney in February.",
+          "image": "https://a.espncdn.com/photo/2026/0809/r1699397_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Builder: Blue Ridge is next frontier for metro Atlanta housing boom",
+          "url": "https://atlanta.urbanize.city/post/morganton-blue-ridge-homebuilder-next-frontier-metro-atl-housing-boom",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Traton Homes sees Blue Ridge, well north of the traditional suburbs, as the next frontier for metro Atlanta housing growth.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/LaRuche%20-%20Traton%20Homes%20-%20Blue%20Crk%20Rd%20-%20Blue%20Ridge13.jpg?itok=ovisttKt",
+          "video": null
+        },
+        {
+          "title": "Multifaceted proposal GuildHouse scores Develop Fulton's backing",
+          "url": "https://atlanta.urbanize.city/post/guildhouse-uppper-westside-proposal-scores-develop-fulton-backing",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The GuildHouse proposal for hundreds of homes and commercial space along Marietta Boulevard won backing from Develop Fulton.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/10.27.26%20GuildHouse%201051%20Marietta%20Boulevard%20Aerial%20Rendering%203%20Cropped%20%281%29.jpg?itok=ALvDVYkd",
+          "video": null
+        },
+        {
+          "title": "Star Community Bar is closing after 35 years in Little Five Points",
+          "url": "https://roughdraftatlanta.com/2026/10/29/star-bar-closing-little-five-points-red-light-cafe-taking-over/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Star Community Bar will close Dec. 31 after 35 years in Little Five Points, with Red Light Café moving in January 2027.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/star-community-bar-600x375.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Autodesk: beyond the seat, the meter",
+          "url": "https://aecmag.com/ai/autodesk-beyond-the-seat-the-meter/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine asks how much of the new AEC computing stack Autodesk wants to own, and how many usage meters it plans to attach.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Modern Architecture in Bahia: Climate and Culture in the Work of Assis Reis",
+          "url": "https://www.archdaily.com/1187788/modern-architecture-in-bahia-climate-and-culture-in-the-work-of-assis-reis",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily marks the centenary of Brazilian architect Assis Reis, whose work in Salvador, Bahia responded to climate and culture.",
+          "image": "https://images.adsttc.com/media/images/6ae3/99b5/a04f/d001/89cd/3ef0/newsletter/centenario-de-assis-reis-a-celebracao-de-um-legado-moderno-regional_13.jpg?1793300930",
+          "video": null
+        },
+        {
+          "title": "Wood Structure on top of Brick Structure / corpo atelier",
+          "url": "https://www.archdaily.com/1187639/wood-structure-on-top-of-brick-structure-corpo-atelier",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A corner building layers a wood structure over a brick one, with each level using its own structural system and materials.",
+          "image": "https://images.adsttc.com/media/images/6ae0/fba4/3271/8400/01d0/f37b/newsletter/4.jpg?1793129450",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Seabirds get jet lag, too — and it can throw them a bit off course",
+          "url": "https://www.sciencenews.org/article/seabird-jet-lag-navigation-off-course",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "GPS tracking shows seabirds get jet lag on fast east-west flights, which skews their sense of direction.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102826_AM_bird-jetlag_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+          "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA-funded scientists dated a Sahara meteorite to more than 4.1 billion years ago, making it one of the oldest Mars meteorites found.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "A striking Mars cloud may be born from surprising physics",
+          "url": "https://www.sciencenews.org/article/mars-cloud-homogenous-nucleation",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Computer models suggest Mars' Arsia Mons Elongated Cloud may form through physics different from Earth clouds.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_AS_strangeMarscloud_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Alaska's Senate race faces allegations of spoiler candidate",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6022301/alaskas-senate-race-faces-allegations-of-spoiler-candidate",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Alaska's tight Senate race is in its final days after allegations that Democrats tried to prop up a spoiler candidate. Relevant as a close national contest.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Alaska's all-important Senate race is roiled by a report on alleged spoiler candidate",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6022069/alaskas-all-important-senate-race-is-roiled-by-report-on-alleged-spoiler-candidate",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "New reporting on alleged Democratic efforts to boost a spoiler candidate has roiled Alaska's Senate race. Same story as the NPR report, with more detail on its impact.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff7%2F1a%2Fc97b4483418a9b95444c9b8028d1%2Fap26296659159433.jpg",
+              "video": null
+            },
+            {
+              "title": "Gina Hinojosa Flips Off Corporate Democrats",
+              "url": "https://www.levernews.com/gina-hinojosa-explains-the-democratic-divide/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Texas gubernatorial candidate Gina Hinojosa is campaigning against the Corporate Democrats' approach, from The Lever. Covers an independent-media view of the party's direction.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Gina.png",
+              "video": null
+            },
+            {
+              "title": "He Helped Make Karen Bass Mayor. Now He’s Funding Her Defeat.",
+              "url": "https://www.levernews.com/he-helped-make-karen-bass-mayor-now-hes-funding-her-defeat/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "A longtime establishment donor is backing Nithya Raman over Los Angeles Mayor Karen Bass, per The Lever. Shows how donor support is shifting in a major city race.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews---He-Helped-Make-Karen-Bass-Mayor---Now-He---s-Funding-Her-Defeat.png",
+              "video": null
+            },
+            {
+              "title": "Corporate Dems Lost Red States. Can Populists Win Them Back?",
+              "url": "https://www.levernews.com/corporate-dems-lost-red-states-can-populist-dems-win-them-back/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports populist candidates in Texas, Florida and Nebraska are gaining support, asking whether they can win back red states for Democrats.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews-Corporate-Dems-Lost-Red-States-Can-Populist-Dems-Win-Them-Back.png",
+              "video": null
+            },
+            {
+              "title": "AIPAC-Aligned Groups Gift Doris Matsui a $785k Blitz of Last-Minute Attack Ads",
+              "url": "https://www.dropsitenews.com/p/aipac-aligned-groups-gift-doris-matsui",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports AIPAC-aligned groups spent $785k on last-minute attack ads against Mai Vang, who is challenging Rep. Doris Matsui in California's 7th district.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Y4FI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F063084c1-3962-4696-90e1-7c02bd7b6489_3822x2548.jpeg",
+              "video": null
+            },
+            {
+              "title": "Justice Department issues subpoenas to California election workers",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6022560/doj-subpoenas-california-election",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Grand jury subpoenas have been sent to Los Angeles election workers amid escalating tensions between the Trump administration and California over voter rolls.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2Ffc%2Fd4ca16f24853b57a60be0622c0f5%2Fgettyimages-2278798144.jpg",
+              "video": null
+            },
+            {
+              "title": "Republicans' redistricting efforts fuel turnout among young Black voters",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6019604/republicans-redistricting-efforts-fuel-turnout-among-young-black-voters",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Republican redistricting across the South is cited as one reason more young Black voters are mobilizing this year, according to NPR.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+              "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Two analytics firms attribute the $6.3bn Binance hack, suspected to be the largest in history, to a North Korean unit called TraderTraitor.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6a4c/live/ee32b970-d406-11f1-b5d5-035446124886.jpg",
+              "video": null
+            },
+            {
+              "title": "What we know about Binance's $6.3bn hack",
+              "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC business reporter Archana Shukla explains what is known about the $6.3bn Binance hack, which is suspected to be the largest in history.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4bf2/live/c8fa3060-d439-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "US and Japan agree to establish a Japanese facility for joint missile production",
+              "url": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The US and Japan agreed to establish a Japanese facility for joint missile production, responding to concerns about China's growing assertiveness in Asia.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F04%2F54%2F8ac4fc1f4626be23c3b532cfb1ea%2Fap26301341519312.jpg",
+              "video": null
+            },
+            {
+              "title": "China elevates a military general to the Politburo and seeks to strengthen party discipline",
+              "url": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "China has elevated a military general to the Politburo as Xi emphasizes party discipline, about a year before his expected fourth five-year term.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3422x2282+0+0/resize/3422x2282!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcc%2Fcc%2F5481abda4bb2a1f0f3d355fbfd5f%2Fap26302467609122.jpg",
+              "video": null
+            },
+            {
+              "title": "What killed 500-plus penguins? How scientists solved the mystery",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6020451/avian-flu-penguins-pathogen-antarctica-cholera",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Researchers identified the cause of deaths of more than 500 penguins on Antarctica's Danger Islands, with avian flu the prime suspect.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F63%2F04%2Fc5dc45604e3b8d741917e4b6b3ec%2Fadelie-penguins-c-ralph-vanstreels-uc-davis-12.jpg",
+              "video": null
+            },
+            {
+              "title": "How AI drones are influencing the course of the Ukraine war",
+              "url": "https://www.npr.org/2026/10/29/g-s1-147496/ukraine-ai-drones-war-russia",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Russia and Ukraine both use AI-powered drones, and Zelenskyy has warned AI could lead battlefield decisions as soon as next year.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7405x4939+0+0/resize/7405x4939!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2F48%2F5d01825b44dab72b81f4d1cdcad4%2Fnpr-droneukraine001.jpg",
+              "video": null
+            },
+            {
+              "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+              "url": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Syrians face soaring prices after the end of subsidies, testing public support for Ahmed al-Sharaa's government during post-Assad recovery.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/329d/live/be5913a0-d435-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "Even birds get jet lagged, study shows",
+              "url": "https://www.npr.org/2026/10/29/nx-s1-6019228/manx-shearwater-jet-lag-birds",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A seabird species appears disoriented on flights back to its nest because of shifting time zones, according to a new study.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4827x3218+0+0/resize/4827x3218!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F92%2Fde%2F64a796b940969f070d5662ee43ba%2Fgettyimages-2286434113.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 29, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-29-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Usage and Cost Analytics API is in beta, reporting token usage and cost for Claude Console and Enterprise organizations. Useful for anyone tracking Claude spend programmatically.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — October 28, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-28-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "The Claude API's maximum request size for the Messages and Token Counting APIs rose from 32 MB to 128 MB. Relevant for large-document workflows.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "API credits benefit for eligible ChatGPT subscriptions",
+              "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic offered Max and Team subscribers API credits equal to their monthly plan price, and OpenAI has announced a similar benefit for ChatGPT subscriptions.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Quoting Ted Sanders",
+              "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Commentary arguing that model size explains much of the variation in LLM performance across tasks. Useful background on how capability scales.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Motionsites-AI/claude-skill",
+              "url": "https://github.com/Motionsites-AI/claude-skill",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A free Claude skill that guides Claude to build cinematic landing pages. Directly relevant to your interest in personal tools built with Claude.",
+              "image": "https://opengraph.githubassets.com/1/Motionsites-AI/claude-skill",
+              "video": null
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending open-source tool that persists context across Claude Code and other agent sessions by compressing and reinjecting prior work.",
+              "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+              "video": null
+            },
+            {
+              "title": "Wasmer (YC S19) Is Hiring OS/Hypervisor Experts in Europe",
+              "url": "https://www.workatastartup.com/jobs/98722",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Wasmer is hiring OS and hypervisor experts in Europe. Brief listing with little detail.",
+              "image": "https://www.workatastartup.com/images/original/missing.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Braves exercise options on Ronald Acuña Jr., Ozzie Albies",
+              "url": "https://www.espn.com/mlb/story/_/id/50323937/braves-exercise-options-ronald-acuna-jr-ozzie-albies",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Braves exercised their $17 million option on Ronald Acuña Jr. and a $7 million option on Ozzie Albies, a clear roster decision for next season.",
+              "image": "https://a.espncdn.com/photo/2026/1030/r1738408_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "The 49ers Acquire DL DeForest Buckner",
+              "url": "https://www.49ers.com/news/the-49ers-acquire-dl-deforest-buckner",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers acquired DL DeForest Buckner from the Colts for a 2027 fourth-round pick and released CB Jack Jones to make roster room.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ho3ntc917fe37l6vxrew.png",
+              "video": null
+            },
+            {
+              "title": "NFL trade deadline grades: Jeffery Simmons, DeForest Buckner, Quenton Nelson",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Grades on the NFL trade deadline deals for Jeffery Simmons, DeForest Buckner and Quenton Nelson, including how the Bears and Colts fared.",
+              "image": "https://a.espncdn.com/photo/2026/1029/r1738080_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers sticking with Pineiro despite struggles",
+              "url": "https://www.espn.com/video/clip/_/id/50322863/49ers-sticking-pineiro-struggles",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers are sticking with kicker Eddy Pineiro as he works through a slump, per a breakdown of the team's decision.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1029/dm_261029_Niners_kickers_IA/dm_261029_Niners_kickers_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "Salkilld, Saint Denis to headline UFC Fight Night in Sydney",
+              "url": "https://www.espn.com/mma/story/_/id/50302428/australia-quillan-salkilld-headline-ufc-fight-night-sydney-benoit-saint-denis-february",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Quillan Salkilld will headline a UFC Fight Night lightweight bout against Benoît Saint Denis in Sydney in February.",
+              "image": "https://a.espncdn.com/photo/2026/0809/r1699397_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Alexander Volkanovski could face a new challenge after UFC 333",
+              "url": "https://www.espn.com/mma/story/_/id/50279491/ufc-333-next-alexander-volkanovski-petr-yan-more",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Volkanovski and Yan defended titles at UFC 333, and the piece asks whether Volkanovski could move to a new division.",
+              "image": "https://a.espncdn.com/photo/2026/1025/r1736052_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Houston Rockets vs. Milwaukee Bucks: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50313575/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Highlights from the Houston Rockets' game against the Milwaukee Bucks.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/450ddedf-3559-4e2e-85e4-b5550d533e39/450ddedf-3559-4e2e-85e4-b5550d533e39.jpg",
+              "video": null
+            },
+            {
+              "title": "NBA Power Rankings: How all 30 teams stack up after one week",
+              "url": "https://www.espn.com/nba/story/_/id/50290392/nba-power-rankings-30-teams-rank-one-week-stat-trend",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Early NBA Power Rankings for all 30 teams after one week of the 2026-27 season, including the Rockets' standing.",
+              "image": "https://a.espncdn.com/photo/2026/1027/nba_power_rankings_26_10_28_16x9_1296x729.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Neighbors push for four-way stop at ‘deadly’ Summerhill intersection",
+              "url": "https://atlanta.urbanize.city/post/summerhill-neighbors-rally-four-way-stop-deadly-intersection-midtown-14th-street-bike-lanes",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Neighbors and Clark Atlanta leaders are pushing for a four-way stop at a Summerhill intersection after a student's death this month.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/November%202025%20Glenn%20Street%20SW%20and%20Hank%20Aaron%20Drive%20.png?itok=L4DJSvmE",
+              "video": null
+            },
+            {
+              "title": "Builder: Blue Ridge is next frontier for metro Atlanta housing boom",
+              "url": "https://atlanta.urbanize.city/post/morganton-blue-ridge-homebuilder-next-frontier-metro-atl-housing-boom",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Traton Homes is betting that areas far north of traditional outer-perimeter suburbs are the next frontier for metro Atlanta housing growth.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/LaRuche%20-%20Traton%20Homes%20-%20Blue%20Crk%20Rd%20-%20Blue%20Ridge13.jpg?itok=ovisttKt",
+              "video": null
+            },
+            {
+              "title": "Multifaceted proposal GuildHouse scores Develop Fulton's backing",
+              "url": "https://atlanta.urbanize.city/post/guildhouse-uppper-westside-proposal-scores-develop-fulton-backing",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton County's economic development authority backed GuildHouse's plan for hundreds of homes and commercial space along Marietta Boulevard.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/10.27.26%20GuildHouse%201051%20Marietta%20Boulevard%20Aerial%20Rendering%203%20Cropped%20%281%29.jpg?itok=ALvDVYkd",
+              "video": null
+            },
+            {
+              "title": "Images: Another segment of Atlanta Beltline officially breaks ground",
+              "url": "https://atlanta.urbanize.city/post/atl-beltline-northwest-trail-section-officially-breaks-ground-peachtree-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Demolition has begun on another Beltline segment that will link to a major Buckhead commercial corridor.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Northwest%20Trail%202A%20Groundbreaking_Photo%20by%20Erin%20Sintos_2026-10-22%2056.jpg?itok=Uq_xItH4",
+              "video": null
+            },
+            {
+              "title": "Images: Historic, 1940s Atlanta theater's mixed-use revival is a go",
+              "url": "https://atlanta.urbanize.city/post/grove-theatre-historic-1940s-atl-movie-house-mixed-use-revival-go",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The mixed-use revival of a 1940s Westside movie theater, the Grove Theatre, is set to move forward next month with a groundbreaking.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Grove%20Theatre%20rendering%20Grant%20Park%20Fountation%202025.png?itok=hN7UtNN-",
+              "video": null
+            },
+            {
+              "title": "Openings: One of Atlantic Station’s anchor spaces is vacant no more",
+              "url": "https://atlanta.urbanize.city/post/nordstrom-rack-open-atlantic-station-images-anchor-spaces-vacant-no-more",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Nordstrom Rack opened a 28,000-square-foot store at Atlantic Station, filling one of its vacant anchor spaces.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-10/Nordstrom%20Rack%201.jpg?itok=A2nPmIB3",
+              "video": null
+            },
+            {
+              "title": "Atlanta State of Downtown report shows growing residency, infrastructure investment",
+              "url": "https://roughdraftatlanta.com/2026/10/29/atlanta-downtown-revitalization-growth/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The 2026 State of Downtown report shows growing residency and infrastructure investment, with downtown visitation at 85% of pre-pandemic levels.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/jason_winston_andre_dickens_brian_blake-600x450.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Norcross says state will repave Holcomb Bridge Road in coming weeks",
+              "url": "https://roughdraftatlanta.com/2026/10/29/holcomb-bridge-road-resurfacing/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "GDOT will begin resurfacing Holcomb Bridge Road in Norcross from South Peachtree Street to Atlantic Boulevard within weeks.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/Norcross-paving-600x400.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Snaptrude Agent launches for BIM workflows",
+              "url": "https://aecmag.com/bim/snaptrude-agent-launches-for-bim-workflows/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Snaptrude Agent launches as an AI agent for BIM workflows, covering concept design, BIM modelling, MEP and construction documentation.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Autodesk: beyond the seat, the meter",
+              "url": "https://aecmag.com/ai/autodesk-beyond-the-seat-the-meter/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine questions how much of the new AEC computing stack Autodesk intends to own and how it will charge for it.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Vaastavya Residence / Space Agency",
+              "url": "https://www.archdaily.com/1187510/vaastavya-residence-space-agency",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Vaastavya Residence, a compact urban house for a three-generation family, explores vertical living and controlled privacy on a dense plot.",
+              "image": "https://images.adsttc.com/media/images/6adf/421b/3271/8400/01d0/ea04/newsletter/SJP7440.jpg?1793016383",
+              "video": null
+            },
+            {
+              "title": "House in Ibiza, The Roca Views / Fran Silvestre Arquitectos",
+              "url": "https://www.archdaily.com/1187789/house-in-ibiza-the-roca-views-fran-silvestre-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A house on a hillside in Ibiza uses a 15-centimetre-thick plane that folds along the slope while meeting local regulations.",
+              "image": "https://images.adsttc.com/media/images/6ae3/8e14/a8ed/4118/c6b5/a793/newsletter/house-in-ibiza-the-roca-views-fran-silvestre-arquitectos_1.jpg?1793297957",
+              "video": null
+            },
+            {
+              "title": "Cottage / Archicraft",
+              "url": "https://www.archdaily.com/1187551/cottage-archicraft",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Cottage by Archicraft rebuilds on the original footprint under strict local rules, limited to one floor plus a residential attic.",
+              "image": "https://images.adsttc.com/media/images/6adf/83f8/3271/8400/01d0/ebf3/newsletter/COTTAGE_03.jpg?1793033225",
+              "video": null
+            },
+            {
+              "title": "Wood Structure on top of Brick Structure / corpo atelier",
+              "url": "https://www.archdaily.com/1187639/wood-structure-on-top-of-brick-structure-corpo-atelier",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Wood Structure on top of Brick Structure by corpo atelier, a corner building where each level has its own structural system and materials.",
+              "image": "https://images.adsttc.com/media/images/6ae0/fba4/3271/8400/01d0/f37b/newsletter/4.jpg?1793129450",
+              "video": null
+            },
+            {
+              "title": "Modern Architecture in Bahia: Climate and Culture in the Work of Assis Reis",
+              "url": "https://www.archdaily.com/1187788/modern-architecture-in-bahia-climate-and-culture-in-the-work-of-assis-reis",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A look at Salvador, Bahia architect Assis Reis, marking the centenary of his birth, and how climate and culture shaped his work.",
+              "image": "https://images.adsttc.com/media/images/6ae3/99b5/a04f/d001/89cd/3ef0/newsletter/centenario-de-assis-reis-a-celebracao-de-um-legado-moderno-regional_13.jpg?1793300930",
+              "video": null
+            },
+            {
+              "title": "Photography Studio as Local Infrastructure / ArchTank",
+              "url": "https://www.archdaily.com/1186440/photography-studio-as-local-infrastructure-archtank",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A flood-damaged Japanese photo studio was rebuilt as a civic space with a café, observatory and retail, reinterpreting a neighborhood building type.",
+              "image": "https://images.adsttc.com/media/images/6ac5/4c1f/90e2/9d10/2520/8b91/newsletter/hinomarusyasinkan-archtank_1.jpg?1791314991",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "A striking Mars cloud may be born from surprising physics",
+              "url": "https://www.sciencenews.org/article/mars-cloud-homogenous-nucleation",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Computer models suggest the Arsia Mons Elongated Cloud on Mars forms through surprising physics rather than the salt or dust that seed Earth clouds.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_AS_strangeMarscloud_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+              "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA-funded scientists age-dated a Sahara-found meteorite to over 4.1 billion years, confirming it is one of the oldest known Mars rocks.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Comets probably didn’t deliver life’s building blocks to Earth",
+              "url": "https://www.sciencenews.org/article/comet-chemistry-life-earth-speed-sharp",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "A new study suggests most comets would have hit Earth too fast and at too steep an angle for life's building blocks to survive.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102826_SW_comets-prebiotic-chem_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Some of the world’s biggest bats are getting smaller",
+              "url": "https://www.sciencenews.org/article/bats-get-smaller-madagascan-flying-fox",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Madagascan flying foxes, among the world's biggest bats, have shrunk over 150 years, possibly from selective hunting or other human impacts.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_JB_bats_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+              "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows a haunting view of the Cepheus Flare, a dark nebula region of the sky.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/CepheusFlare_Tondinelli.jpg?w=2048&h=1391&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "How brain implants turn thoughts into speech",
+              "url": "https://www.sciencenews.org/article/brain-implants-thoughts-speech-podcast",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "New brain-computer interfaces turn attempted speech into words and can speak them in a voice resembling the user's own.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_LS_TDE_S2E4_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Bat Week: Celebrating ecologically important, poorly understood mammals",
+              "url": "https://news.mongabay.com/short-article/2026/10/bat-week-celebrating-ecologically-important-poorly-understood-mammals/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Bat Week runs Oct. 24-31, celebrating bats, which make up 20% of mammals and provide pollination, seed dispersal and mosquito control.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/05/19162609/new-zealand-bat-1-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+      "published": "2026-10-29T21:26:00+00:00"
+    },
+    {
+      "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+      "published": "2026-10-27T18:18:00+00:00"
+    },
+    {
+      "title": "HAIFA SMOKED FISH Recalls Cold Smoked Sprats Due to Potential Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+      "published": "2026-10-27T15:15:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Without adventure, civilization is in full decay.",
+    "who": "Alfred North Whitehead",
+    "about": "English mathematician and philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 132–100 at MIL",
+      "last_date": "Oct 28",
+      "next": "Fri Oct 30 at DAL",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909887/rockets-bucks",
+      "recent": [
+        "W 132–100 at MIL · Oct 28",
+        "W 120–110 vs ATL · Oct 26",
+        "W 121–114 at ATL · Oct 24"
+      ],
+      "upcoming": [
+        "Fri Oct 30 at DAL",
+        "Sat Oct 31 vs OKC",
+        "Mon Nov 2 vs BOS"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66919,
+    "output_tokens": 10174
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "We Found The Most Surprising Election In America. It's Not Where You Think.",
+          "url": "https://www.youtube.com/watch?v=aoBaKIEXYG8",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Covers Tyson's Nebraska plant closure and Independent Dan Osborn's Senate campaign, which he frames around working people.",
+          "image": "https://i2.ytimg.com/vi/aoBaKIEXYG8/hqdefault.jpg",
+          "video": "aoBaKIEXYG8"
+        },
+        {
+          "title": "Nate Silver: Trump Era Is OVER",
+          "url": "https://www.youtube.com/watch?v=d986a8Nd0GU",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss recent shock polls in South Carolina and Kansas and what they mean for Republicans in the midterms.",
+          "image": "https://i1.ytimg.com/vi/d986a8Nd0GU/hqdefault.jpg",
+          "video": "d986a8Nd0GU"
+        },
+        {
+          "title": "Bill Gates: 20 Years Of CHAOS COMING From AI",
+          "url": "https://www.youtube.com/watch?v=Ku3hwyd51aw",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Bill Gates's warning about the next few decades of AI advancement.",
+          "image": "https://i4.ytimg.com/vi/Ku3hwyd51aw/hqdefault.jpg",
+          "video": "Ku3hwyd51aw"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Quenton Nelson, DeForest Buckner & An NFL Trade Deadline PRIMER",
+          "url": "https://www.youtube.com/watch?v=H2bmESYbhk4",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Covers the NFL trade deadline, including the Colts' trade of DeForest Buckner to San Francisco and Quenton Nelson to Seattle.",
+          "image": "https://i1.ytimg.com/vi/H2bmESYbhk4/hqdefault.jpg",
+          "video": "H2bmESYbhk4"
+        },
+        {
+          "title": "BTL | UFC 333 Fallout, Justin Gaethje vs. Alexander Volkanovski Chatter, UFC 336 Title Fights",
+          "url": "https://www.youtube.com/watch?v=iD8MJ1pdXUQ",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Recaps UFC 333 and looks ahead to Justin Gaethje vs. Alexander Volkanovski chatter and the UFC 336 title fights.",
+          "image": "https://i2.ytimg.com/vi/iD8MJ1pdXUQ/hqdefault.jpg",
+          "video": "iD8MJ1pdXUQ"
+        },
+        {
+          "title": "Packers HANDLE Panthers, 27-19",
+          "url": "https://www.youtube.com/watch?v=pWv1glYDlrw",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Recap of the Green Bay Packers' 27-19 win over the Carolina Panthers in Week 8, with analysis of the defense and Jordan Love.",
+          "image": "https://i1.ytimg.com/vi/pWv1glYDlrw/hqdefault.jpg",
+          "video": "pWv1glYDlrw"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "5D Construction Planning with AI - 3D Model + Cost + Schedule",
+          "url": "https://www.youtube.com/watch?v=ylHwByRVjzI",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walks through a 5D construction planning workflow that uses AI to turn 2D drawings into 3D models with cost and schedule data.",
+          "image": "https://i2.ytimg.com/vi/ylHwByRVjzI/hqdefault.jpg",
+          "video": "ylHwByRVjzI"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Claude's new mobile app updates are here",
+          "url": "https://www.youtube.com/watch?v=SkpwzfR4A1E",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Summarizes this week's Claude mobile app updates, including side-by-side artifacts on iPad, multiple accounts, and faster voice mode.",
+          "image": "https://i4.ytimg.com/vi/SkpwzfR4A1E/hqdefault.jpg",
+          "video": "SkpwzfR4A1E"
+        },
+        {
+          "title": "Why Everyone Misunderstands America's Largest Desert",
+          "url": "https://www.youtube.com/watch?v=qJGrMKGb-lc",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Explains common misconceptions about America's largest desert, with a geography-focused look at its landscape and features.",
+          "image": "https://i2.ytimg.com/vi/qJGrMKGb-lc/hqdefault.jpg",
+          "video": "qJGrMKGb-lc"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Found a Better Way to Roast Brussels Sprouts",
+          "url": "https://www.youtube.com/watch?v=Bajxg18B5GM",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "A cook shows a different technique for roasting Brussels sprouts, with cooking tips and a sponsor segment at the start.",
+          "image": "https://i3.ytimg.com/vi/Bajxg18B5GM/hqdefault.jpg",
+          "video": "Bajxg18B5GM"
+        }
+      ]
+    }
+  ]
+}
