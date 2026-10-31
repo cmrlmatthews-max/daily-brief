@@ -1,0 +1,1040 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, October 31, 2026",
+  "generated_at": "2026-10-31T05:00:21-04:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, October 31. Here is what matters today. Our lead story is the hack at Binance. The world's biggest cryptocurrency exchange reported on Thursday that approximately 6.3 billion dollars was impacted in an apparent hack. Blockchain intelligence firms now link North Korea to the incident. That link comes from those firms. More detail is expected as the exchange and outside analysts say more. Now the front page. Anthropic has filed a registration statement on Form S-1 with the Securities and Exchange Commission. It relates to a proposed initial public offering of its Class A common stock. In basketball, the Dallas Mavericks beat the Houston Rockets 116 to 111 in an NBA Cup opener. It was the Rockets' first loss of the season. Houston had started five and zero. In Washington, a federal judge has opened a formal inquiry into whether Trump officials misled the court about their plans for the East Potomac municipal golf course. And in Ukraine, hundreds of people were evacuated from Russian-occupied Oleshky during a rare ceasefire. Hundreds more are understood to have stayed in the front-line town. Now the sections. In tech and AI, fast mode for Claude Opus 4.8 is deprecated, with removal on November 30. Users should migrate to Claude Opus 5.5. In politics, Drop Site News reports that record-high heating oil prices are a closing issue in Maine's Senate race. In world news, Israel's election has ended in deadlock, with neither side able to claim a majority. In sports, UFC welterweight champion Islam Makhachev says his next fight will be one of the last of his career. In Atlanta, the Beltline has revealed five options for connecting its trail and transit to MARTA rail. In architecture, Allplan Max brings engineering AI across the company's portfolio. In science and nature, the Vera Rubin Observatory is shedding new light on the far regions beyond Neptune. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+    "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "The world's biggest cryptocurrency exchange, Binance, reported on Thursday that approximately $6.3 billion was impacted in an apparent hack. Blockchain intelligence firms now link North Korea to the incident. That link comes from the firms' analysis, and the summary does not say that any government or court has confirmed it. The word apparent matters here too, because the exchange's own description is still cautious. For a reader who builds software tools, the story is a plain reminder of how much value can sit behind a single platform's security. The scale of the figure, in the billions, explains why it is drawing attention well beyond the crypto world. More detail is expected as the exchange and outside analysts say more.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4e%2F43296d994303a3c15ef19703ff2e%2Fap26302822880513.jpg",
+    "video": null,
+    "headline": "North Korea Linked to $6.3B Binance Hack",
+    "decks": [
+      "Blockchain intelligence firms point to North Korea in the apparent hack",
+      "Binance reported Thursday that about $6.3 billion was impacted",
+      "World's biggest crypto exchange describes the incident as an apparent hack"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic filed a registration statement on Form S-1 with the SEC for a proposed initial public offering of its Class A common stock.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "video": null
+    },
+    {
+      "title": "Irving scores 35 and Flagg adds 33 as Mavericks hand Rockets 1st loss of season 116-111",
+      "url": "http://www.espn.com/nba/recap?gameId=401909283",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Dallas beat Houston 116-111 in an NBA Cup opener, handing the Rockets their first loss of the season after a 5-0 start.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909283.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A federal judge opened a formal inquiry into whether Trump officials misled the court about plans for the East Potomac municipal golf course.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4892x3261+0+0/resize/4892x3261!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2F1b%2F4e9d99dd4c48acbc2ad3971e4d9a%2Fap26299783559314.jpg",
+      "video": null
+    },
+    {
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Hundreds were evacuated from Russian-occupied Oleshky during a rare ceasefire in Ukraine, though hundreds more are understood to have stayed in the front-line town.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 30, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-30-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Claude Opus 4.8 fast mode is deprecated and will be removed November 30; anyone using it needs to migrate to Claude Opus 5.5.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "heydamir/unslop",
+          "url": "https://github.com/heydamir/unslop",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "A popular new Claude skill aims to turn vibecoded, AI-looking interfaces into designed ones, relevant to anyone building personal tools with Claude.",
+          "image": "https://opengraph.githubassets.com/1/heydamir/unslop",
+          "video": null
+        },
+        {
+          "title": "dbreunig/nesformer",
+          "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "A working NES CPU emulator was baked into the weights of Qwen3.5-4B, a quirky look at what model weights can hold.",
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Record-High Heating Oil Prices Are Closing Argument in Maine Senate Race",
+          "url": "https://www.dropsitenews.com/p/maine-heating-oil-prices-senate-susan-collins-troy-jackson",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports record-high heating oil prices tied to the Iran War are a closing issue in Maine's Senate race.",
+          "image": "https://substackcdn.com/image/fetch/$s_!o9b2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b5e62c4-3ee2-4b41-9175-d91ff53e84fb_8192x5464.jpeg",
+          "video": null
+        },
+        {
+          "title": "Big Tech To Democrats: Investigate Trump, Not Us",
+          "url": "https://www.levernews.com/big-tech-to-democrats-investigate-trump-not-us/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports a group is urging Democrats to investigate Trump but not the Big Tech companies that backed and benefited from his presidency.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews---Big-Tech-To-Democrats-Investigate-Trump-Not-Us.png",
+          "video": null
+        },
+        {
+          "title": "Republican Senators Took Campaign Cash from Trump Nominees They Backed",
+          "url": "https://www.dropsitenews.com/p/blackburn-hagery-tuberville-campaign-cash-trump-nominees-tennesee-valley-authority",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports three Republican senators took campaign donations from nominees to the Tennessee Valley Authority board whom they backed.",
+          "image": "https://substackcdn.com/image/fetch/$s_!Jm3l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde8729e1-baa3-4066-b867-c7429092ce8b_6490x4327.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Israel is in a political deadlock. What comes next?",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Israel's election ended in deadlock with neither side able to claim a majority; NPR looks at what happens next.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2F18%2F8e58944048e5971d83b0b522aef2%2Fap26302670775856.jpg",
+          "video": null
+        },
+        {
+          "title": "Spain train disaster clouds Sánchez chances of re-election",
+          "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Spain's prime minister faces a series of crises, including a train disaster, weeks before a snap general election.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a970/live/20e78ee0-d4ed-11f1-93e1-3b657b665bcf.jpg",
+          "video": null
+        },
+        {
+          "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
+          "url": "https://www.bbc.co.uk/news/articles/cr3wv311dwnlo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "BBC looks at what Joseph Kabila launching a new rebel movement could mean for DR Congo.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a56b/live/5a0952f0-d487-11f1-80bc-6d398902272f.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "UFC's Islam Makhachev: Next fight will be 'one of the last' of career",
+          "url": "https://www.espn.com/mma/story/_/id/50330401/islam-makhachev-my-next-fight-one-last-my-career",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "UFC welterweight champion Islam Makhachev says his next fight will be one of the last of his career.",
+          "image": "https://a.espncdn.com/photo/2025/1116/r1576326_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Niners could see star players return soon",
+          "url": "https://www.espn.com/video/clip/_/id/50332524/niners-see-star-players-return-soon",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "ESPN details which 49ers players could return in Week 9 against the Raiders.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1030/dm_261030_Niners_could_see_star_players_return_soon_2/dm_261030_Niners_could_see_star_players_return_soon_2.jpg",
+          "video": null
+        },
+        {
+          "title": "2026-27 MLB offseason: Best fits for top free agents",
+          "url": "https://www.espn.com/mlb/story/_/id/50319156/offseason-best-fits-top-free-agents",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "MLB free agency opens at 5 p.m. ET on November 2, and this piece pairs top free agents with teams.",
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738173_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Beltline reveals 5 options for connecting trail, transit to MARTA rail",
+          "url": "https://atlanta.urbanize.city/post/marta-infill-station-beltline-murphy-crossing-reveals-5-options-connecting-trail-transit-rail",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The Beltline revealed five options for connecting its trail and transit to MARTA rail, where the first of four promised new stations may go.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/today%20Murphy%20Crossing%20Infill%20station%20MARTA.png?itok=GzXyQEce",
+          "video": null
+        },
+        {
+          "title": "Fresh visuals emerge for mixed-use Buckhead Village proposal",
+          "url": "https://atlanta.urbanize.city/post/buckhead-village-mixed-use-proposal-village-design-within-reach",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Virginia-based developer released fresh visuals for a mixed-use Buckhead Village proposal that would replace a police precinct and several businesses.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Screenshot%202026-10-30%20at%202.10.52%E2%80%AFPM.png?itok=1379nCc-",
+          "video": null
+        },
+        {
+          "title": "Images: Striking new UGA building called fresh blueprint for campus life",
+          "url": "https://atlanta.urbanize.city/post/images-striking-new-uga-building-called-fresh-blueprint-campus-life",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A new University of Georgia building with a strong architectural pedigree aims to improve student retention, social interaction and well-being.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Lead%20University%20of%20Georgia%20West%20Campus%20Dining%2C%20Learning%2C%20and%20Well-Being%20Center_0.jpg?itok=PMTPK36c",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Allplan Max delivers engineering AI across portfolio",
+          "url": "https://aecmag.com/bim/allplan-max-delivers-engineering-ai-across-portfolio/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Allplan Max brings engineering AI across Allplan's portfolio, aiming to automate repetitive work and offer expert guidance.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Chaos continues to expand Enscape beyond arch viz",
+          "url": "https://aecmag.com/visualisation/chaos-continues-to-expand-enscape-beyond-arch-viz/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Chaos plans to add live BIM data insights to Enscape through its Vyssuals acquisition, widening Enscape beyond architectural visualization.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This Halloween, amateur astronomers may be in for a dwarf planet treat",
+          "url": "https://www.sciencenews.org/article/halloween-astronomers-dwarf-planet",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "The Vera Rubin Observatory is shedding new light on regions near and beyond Neptune, including possible solar system building blocks.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_LG_newdwarfplanet_main_3a6163.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA’s Swift telescope will face a fiery demise after a failed rescue",
+          "url": "https://www.sciencenews.org/article/nasa-swift-telescope-gamma-ray-burst",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "NASA's Swift Observatory will meet a fiery end after a failed rescue attempt.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_MB_RIPSwift_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+          "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "The James Webb Space Telescope captured a mid-infrared view of the Cat's Head Nebula.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Record-High Heating Oil Prices Are Closing Argument in Maine Senate Race",
+              "url": "https://www.dropsitenews.com/p/maine-heating-oil-prices-senate-susan-collins-troy-jackson",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Record-high heating oil prices in Maine are becoming a central issue days before the U.S. Senate election, which Drop Site News ties to the Iran War.",
+              "image": "https://substackcdn.com/image/fetch/$s_!o9b2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b5e62c4-3ee2-4b41-9175-d91ff53e84fb_8192x5464.jpeg",
+              "video": null
+            },
+            {
+              "title": "Republican Senators Took Campaign Cash from Trump Nominees They Backed",
+              "url": "https://www.dropsitenews.com/p/blackburn-hagery-tuberville-campaign-cash-trump-nominees-tennesee-valley-authority",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Sens. Blackburn, Hagerty, and Tuberville received campaign donations from nominees to the Tennessee Valley Authority board that they backed.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Jm3l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde8729e1-baa3-4066-b867-c7429092ce8b_6490x4327.jpeg",
+              "video": null
+            },
+            {
+              "title": "Big Tech To Democrats: Investigate Trump, Not Us",
+              "url": "https://www.levernews.com/big-tech-to-democrats-investigate-trump-not-us/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports the Chamber of Progress is urging Democrats to investigate Trump, but not Big Tech companies that funded and benefited from his presidency.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/TheLeverNews---Big-Tech-To-Democrats-Investigate-Trump-Not-Us.png",
+              "video": null
+            },
+            {
+              "title": "GOP’s Corporate Funders Target Minnesota Attorney General",
+              "url": "https://www.dropsitenews.com/p/minnesota-keith-ellison-ron-schutz-republicans",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports corporate GOP funders are targeting Minnesota Attorney General Keith Ellison over ICE resistance, antitrust enforcement, and a state fraud scandal.",
+              "image": "https://substackcdn.com/image/fetch/$s_!YQbG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3234d2cc-1b8e-4536-83fc-2b1d849d509e_3000x2000.jpeg",
+              "video": null
+            },
+            {
+              "title": "Big Business Wants To Delete Your Tax Cut",
+              "url": "https://www.levernews.com/midterm-madness-big-business-wants-to-delete-your-tax-cut/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports corporate interests are seeking to keep tax reform off the ballot.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--38-.png",
+              "video": null
+            },
+            {
+              "title": "Democrats seek to weaken the Republican lead in state legislatures",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6022353/midterms-state-legislatures-pennsylvania",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Republicans control 10 more state legislatures than Democrats, and Democrats are working to narrow that lead before the midterms.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5731x3813+0+0/resize/5731x3813!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F79%2F4a0cbb3f4a748640d9ee736215eb%2Fap25188569427694.jpg",
+              "video": null
+            },
+            {
+              "title": "Prediction Markets Are Shaping Elections — And Getting Them Wrong",
+              "url": "https://www.levernews.com/prediction-markets-are-shaping-elections-and-getting-them-wrong/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever questions whether Kalshi prediction market odds favor the establishment and how they are shaping coverage of elections.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/10/HERO-Images--1-.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A federal judge opened a formal inquiry into whether Trump officials misled the court about plans for the municipal golf course in the East Potomac case.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4892x3261+0+0/resize/4892x3261!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2F1b%2F4e9d99dd4c48acbc2ad3971e4d9a%2Fap26299783559314.jpg",
+              "video": null
+            },
+            {
+              "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+              "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Blockchain intelligence firms link North Korea to a hack that affected about $6.3 billion at Binance, the world's largest cryptocurrency exchange.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4e%2F43296d994303a3c15ef19703ff2e%2Fap26302822880513.jpg",
+              "video": null
+            },
+            {
+              "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+              "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Hundreds of people were evacuated from the Russian-occupied town of Oleshky during a rare Ukraine ceasefire, while some stayed in the front-line town.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "Spain train disaster clouds Sánchez chances of re-election",
+              "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Spain's Prime Minister Sánchez faces a series of crises, including a train disaster, weeks before a snap general election.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a970/live/20e78ee0-d4ed-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "Israel is in a political deadlock. What comes next?",
+              "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Israel's election ended in deadlock, with neither side able to claim a majority after 90% of votes were counted.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2F18%2F8e58944048e5971d83b0b522aef2%2Fap26302670775856.jpg",
+              "video": null
+            },
+            {
+              "title": "Despite concerns, the Trump administration still sends pregnant migrant minors to south Texas",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6022578/minors-pregnant-migrant-texas-trump",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The Trump administration continues sending pregnant migrant minors to south Texas, where some have had to leave the state for care including abortions.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x1067+0+0/resize/1600x1067!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2Ff2%2F1cc219344eb78f0fd180bd72871e%2F20251105-urbanstrategy-pl-01-1.JPG",
+              "video": null
+            },
+            {
+              "title": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
+              "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A century-old Quebec paper mill is indefinitely closed after 50% U.S. tariffs on its products, putting hundreds out of work.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b7be/live/dab6afd0-d223-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
+              "url": "https://www.bbc.co.uk/news/articles/cr3wv311dwnlo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Joseph Kabila has launched a new rebel movement, raising questions about what it means for DR Congo.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a56b/live/5a0952f0-d487-11f1-80bc-6d398902272f.jpg",
+              "video": null
+            },
+            {
+              "title": "ICE activity is surging ahead of midterms. So is voter turnout.",
+              "url": "https://www.npr.org/2026/10/30/nx-s1-6023331/ice-activity-surge-midterms",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Reports of heightened ICE activity across the country are occurring alongside surging voter turnout ahead of the midterms.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x5464+0+0/resize/8192x5464!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2F18%2F99a9b98e4d66ad72a0ae53b74782%2Fgettyimages-2298640808.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 30, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-30-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026. Requests using speed fast will error after that; the notes point to migrating to Claude Opus 5.5.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — October 28, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-28-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "The Claude Platform raised the maximum request size for the Messages and Token Counting APIs from 32 MB to 128 MB on the first-party Claude API.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "heydamir/unslop",
+              "url": "https://github.com/heydamir/unslop",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A Claude skill that turns vibecoded, AI-looking interfaces into designed ones. Relevant to your interest in Claude tools and popular new repos.",
+              "image": "https://opengraph.githubassets.com/1/heydamir/unslop",
+              "video": null
+            },
+            {
+              "title": "pbakaus/impeccable",
+              "url": "https://github.com/pbakaus/impeccable",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Impeccable is a design vocabulary for coding agents, with commands to polish, critique, and catch AI-generated UI before it ships. Fits your interest in AI-assisted design work.",
+              "image": "https://opengraph.githubassets.com/1/pbakaus/impeccable",
+              "video": null
+            },
+            {
+              "title": "GitHub Octoverse 2026",
+              "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "GitHub's Octoverse 2026 report highlights the growing impact of agentic engineering on developer activity.",
+              "image": "https://static.simonwillison.net/static/2026/github-numbers.jpg",
+              "video": null
+            },
+            {
+              "title": "dbreunig/nesformer",
+              "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A developer baked a working NES 6502 CPU emulator into the weights of Qwen3.5-4B, so NES ROMs can run inside the model, slowly.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "The October inflection point for vibe game development",
+              "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "An argument that October marked a new inflection point for coding agents in vibe game development, following the November 2025 shift for software engineering.",
+              "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Irving scores 35 and Flagg adds 33 as Mavericks hand Rockets 1st loss of season 116-111",
+              "url": "http://www.espn.com/nba/recap?gameId=401909283",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Irving scored 35 and Flagg added 33 as Dallas beat Houston 116-111 in an NBA Cup opener, the Rockets' first loss of the season.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909283.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Houston and Oklahoma City meet for conference showdown",
+              "url": "http://www.espn.com/nba/preview?gameId=401909902",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (5-1) host the Thunder (4-1) in a Western Conference showdown, a key early test for Houston.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909902.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "UFC's Islam Makhachev: Next fight will be 'one of the last' of career",
+              "url": "https://www.espn.com/mma/story/_/id/50330401/islam-makhachev-my-next-fight-one-last-my-career",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC's Islam Makhachev, the reigning welterweight champion, says his next fight will be one of the last of his career.",
+              "image": "https://a.espncdn.com/photo/2025/1116/r1576326_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "The 49ers Acquire DL DeForest Buckner",
+              "url": "https://www.49ers.com/news/the-49ers-acquire-dl-deforest-buckner",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers acquired DL DeForest Buckner from the Colts for a 2027 fourth-round pick and released CB Jack Jones to make roster room.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ho3ntc917fe37l6vxrew.png",
+              "video": null
+            },
+            {
+              "title": "Niners could see star players return soon",
+              "url": "https://www.espn.com/video/clip/_/id/50332524/niners-see-star-players-return-soon",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Nick Wagoner details which 49ers players could return for Week 9 against the Raiders.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1030/dm_261030_Niners_could_see_star_players_return_soon_2/dm_261030_Niners_could_see_star_players_return_soon_2.jpg",
+              "video": null
+            },
+            {
+              "title": "Braves exercise club options on Acuña and Albies",
+              "url": "https://www.mlb.com/braves/news/ronald-acuna-jr-ozzie-albies-club-options-exercised-by-braves",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "The Braves exercised club options on Ronald Acuña Jr. and Ozzie Albies.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/xev3dycl2i3croqw5blp.jpg",
+              "video": null
+            },
+            {
+              "title": "It's still the age of Volkanovski in MMA pound-for-pound rankings",
+              "url": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Volkanovski, the UFC featherweight champion at age 38, makes a big jump in ESPN's pound-for-pound top 10.",
+              "image": "https://a.espncdn.com/photo/2026/1027/r1737130_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Kevin Durant reflects on his eight seasons with the Oklahoma City Thunder",
+              "url": "https://www.espn.com/nba/story/_/id/50308763/kevin-durant-oklahoma-city-thunder-reflection",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant reflects on his eight seasons with the Oklahoma City Thunder after what he calls the most acrimonious exit of his career.",
+              "image": "https://a.espncdn.com/photo/2026/1026/r1736528_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Beltline reveals 5 options for connecting trail, transit to MARTA rail",
+              "url": "https://atlanta.urbanize.city/post/marta-infill-station-beltline-murphy-crossing-reveals-5-options-connecting-trail-transit-rail",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Beltline has revealed five options for connecting the trail and transit to MARTA rail, with the first new station location coming into focus.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/today%20Murphy%20Crossing%20Infill%20station%20MARTA.png?itok=GzXyQEce",
+              "video": null
+            },
+            {
+              "title": "Fresh visuals emerge for mixed-use Buckhead Village proposal",
+              "url": "https://atlanta.urbanize.city/post/buckhead-village-mixed-use-proposal-village-design-within-reach",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "New visuals show a Virginia-based developer's mixed-use proposal for Buckhead Village, which would replace an APD precinct and several businesses.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Screenshot%202026-10-30%20at%202.10.52%E2%80%AFPM.png?itok=1379nCc-",
+              "video": null
+            },
+            {
+              "title": "APS celebrates completion of $18M renovation at South Atlanta High School",
+              "url": "https://roughdraftatlanta.com/2026/10/30/aps-south-atlanta-high-renovation/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "APS completed an $18 million renovation at South Atlanta High School, funded by E-SPLOST, with a ribbon-cutting on Oct. 28.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/South-Atlanta-High-School-ribbon-cutting-600x366.png",
+              "video": null
+            },
+            {
+              "title": "The U.S. may change a 60-year-old historic preservation law. Why does it matter?",
+              "url": "https://saportareport.com/the-u-s-may-change-a-60-year-old-historic-preservation-law-why-does-it-matter/uncategorized/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Preservationists warn that a change to Section 106 of a 60-year-old law could sharply reduce historic preservation nationwide, and the Georgia Trust is leading opposition.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_9230.webp?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "New study finds ‘forever chemicals’ in the lakes, rivers and streams of least 40 states",
+              "url": "https://saportareport.com/new-study-finds-forever-chemicals-in-the-lakes-rivers-and-streams-of-least-40-states/sections/reports/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "A Georgia-based report finds PFAS forever chemicals persisting in the state's lakes, rivers, and streams.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-jose-rodriguez-ortega-2189823-27007129-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Images: Striking new UGA building called fresh blueprint for campus life",
+              "url": "https://atlanta.urbanize.city/post/images-striking-new-uga-building-called-fresh-blueprint-campus-life",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta covers a new University of Georgia building designed to improve student retention, social interaction, and well-being.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Lead%20University%20of%20Georgia%20West%20Campus%20Dining%2C%20Learning%2C%20and%20Well-Being%20Center_0.jpg?itok=PMTPK36c",
+              "video": null
+            },
+            {
+              "title": "Neighbors push for four-way stop at ‘deadly’ Summerhill intersection",
+              "url": "https://atlanta.urbanize.city/post/summerhill-neighbors-rally-four-way-stop-deadly-intersection-midtown-14th-street-bike-lanes",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Neighbors are pushing for a four-way stop at a Summerhill intersection after a fatal incident involving a Clark Atlanta University student.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/November%202025%20Glenn%20Street%20SW%20and%20Hank%20Aaron%20Drive%20.png?itok=L4DJSvmE",
+              "video": null
+            },
+            {
+              "title": "Pulitzer Prize winner Brian Goldstone brings Atlanta’s hidden homelessness crisis to Decatur Book Festival",
+              "url": "https://saportareport.com/pulitzer-prize-winner-brian-goldstone-brings-atlantas-hidden-homelessness-crisis-to-decatur-book-festival/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Pulitzer winner Brian Goldstone spoke at the Decatur Book Festival about hidden homelessness among working families in Atlanta.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/image-45.jpeg?fit=1024%2C766&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Allplan Max delivers engineering AI across portfolio",
+              "url": "https://aecmag.com/bim/allplan-max-delivers-engineering-ai-across-portfolio/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Allplan Max adds engineering AI across its portfolio to automate repetitive work, relevant to your interest in AI in BIM practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Chaos continues to expand Enscape beyond arch viz",
+              "url": "https://aecmag.com/visualisation/chaos-continues-to-expand-enscape-beyond-arch-viz/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Chaos is acquiring Vyssuals to add live BIM data insights to Enscape, extending the visualization tool into architectural design.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "The Turquoise House / SUPRBLK Studio",
+              "url": "https://www.archdaily.com/1187611/the-turquoise-house-suprblk-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Turquoise House fits a family home, studio, and apartment on a narrow Halifax lot using gabled volumes and courtyards to keep light and privacy.",
+              "image": "https://images.adsttc.com/media/images/6ae0/b3f7/3271/8400/01d0/f115/newsletter/SUPRBLK_-_TURQUOISE_-_21_Doublespace.jpg?1793111165",
+              "video": null
+            },
+            {
+              "title": "Rotiers - Renovation of 46 housing units in Brussels / MULTIPLE Architecture & Urbanism",
+              "url": "https://www.archdaily.com/1187565/rotiers-renovation-of-46-housing-units-in-brussels-multiple-architecture-and-urbanism",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "MULTIPLE Architecture renovates a 1960s social housing building at the edge of the Sonian Forest in Brussels, relating it closely to its landscape.",
+              "image": "https://images.adsttc.com/media/images/6adf/8efb/3271/8400/01d0/ecee/newsletter/Rotiers_08_Bruno_Dias_Ventura.jpg?1793036122",
+              "video": null
+            },
+            {
+              "title": "House in Vinhedo / Apiacás Arquitetos",
+              "url": "https://www.archdaily.com/1036541/house-in-vinhedo-apiacas-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Apiacás Arquitetos designs a 250 m² house in Vinhedo, Brazil, maximizing the link between covered and outdoor areas on a flat site.",
+              "image": "https://images.adsttc.com/media/images/6901/00f7/243c/4d00/01f8/145a/newsletter/_07A0126_27_28_29_30.jpg?1761673510",
+              "video": null
+            },
+            {
+              "title": "AEME Building / Paz Arquitectura",
+              "url": "https://www.archdaily.com/994469/edificio-aeme-paz-arquitectura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Paz Arquitectura's AEME building in Guatemala City combines commercial, office, and restaurant floors with a street connection through a double-height entry.",
+              "image": "https://images.adsttc.com/media/images/63ab/2234/adb1/7440/9e70/d1c9/newsletter/aeme-paz-arquitectura_7.jpg?1672159805",
+              "video": null
+            },
+            {
+              "title": "Hotel MS Collection Arouca / MiMool Arquitectura & Design de Interiores",
+              "url": "https://www.archdaily.com/1187879/hotel-ms-collection-arouca-mimool-arquitectura-and-design-de-interiores",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A rehabilitation converts part of the Monastery of Santa Maria de Arouca, a National Monument, into a five-star hotel.",
+              "image": "https://images.adsttc.com/media/images/6ae3/22be/20d6/d801/8852/1f28/newsletter/ms-collection-arouca-mimool-arquitectura-and-design-de-interiores_5.jpg?1793270502",
+              "video": null
+            },
+            {
+              "title": "Villa Moderne: In Search of Hong Kong Modern Homes",
+              "url": "https://www.archdaily.com/1187844/villa-moderne-in-search-of-hong-kong-modern-homes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A book recreating Hong Kong's modern villas from the 1930s to 1980s and tracing their role in the city's neighborhoods.",
+              "image": "https://images.adsttc.com/media/images/6ae4/8ae9/bfbd/4c00/01ee/588b/newsletter/____cover_3D.jpg?1793362694",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "This Halloween, amateur astronomers may be in for a dwarf planet treat",
+              "url": "https://www.sciencenews.org/article/halloween-astronomers-dwarf-planet",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "The Vera Rubin Observatory is shedding new light on dwarf planets and possible building blocks beyond Neptune, relevant to amateur astronomers.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_LG_newdwarfplanet_main_3a6163.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+              "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Webb telescope released a mid-infrared view of the Cat's Head Nebula, with structures sculpted by ultraviolet radiation and stellar winds.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA’s Swift telescope will face a fiery demise after a failed rescue",
+              "url": "https://www.sciencenews.org/article/nasa-swift-telescope-gamma-ray-burst",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "NASA's Swift Observatory, which contributed to many discoveries, will face a fiery reentry after a failed rescue attempt.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_MB_RIPSwift_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Leaders grapple with finance and harmful subsidies at UN’s COP17 biodiversity conference",
+              "url": "https://news.mongabay.com/2026/10/leaders-grapple-with-finance-and-harmful-subsidies-at-uns-cop17-biodiversity-conference/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Leaders at the UN biodiversity conference COP17 in Yerevan are grappling with finance and harmful subsidies.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/31062001/DSC_9185-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "Some of the world’s biggest bats are getting smaller",
+              "url": "https://www.sciencenews.org/article/bats-get-smaller-madagascan-flying-fox",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Madagascan flying foxes have shrunk over the past 150 years, possibly from selective hunting or other human impacts.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_JB_bats_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+              "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA issued a Request for Information on commercial in-space servicing for the Hubble Space Telescope.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg?w=1536&h=1020&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Aztec methods and crocodiles: How biologists are restoring mangroves in Mexico",
+              "url": "https://news.mongabay.com/2026/10/aztec-techniques-and-crocodiles-how-biologists-are-restoring-mangroves-in-mexico/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Biologists are restoring mangroves in Veracruz's Alvarado Lagoons using Aztec methods alongside work on Morelet's crocodiles.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/30152724/Cocodrilo4-Morelets-crocodile--768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "November’s Night Sky Notes: Light-Day Away",
+              "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's November sky notes cover the Voyager twins, launched in 1977 during a rare planetary alignment.",
+              "image": "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg?w=1200",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide Due to Potential Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+      "published": "2026-10-30T16:16:00+00:00"
+    },
+    {
+      "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+      "published": "2026-10-29T21:26:00+00:00"
+    },
+    {
+      "title": "Taylor Farms Issues Recall for H-E-B Backyard BBQ Chop Salad Kit Due to the Potential Undeclared Soy and Tree Nuts(Almonds)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+      "published": "2026-10-27T18:18:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "If you tell the truth you don't have to remember anything.",
+    "who": "Mark Twain",
+    "about": "American author and humorist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 111–116 at DAL",
+      "last_date": "Oct 30",
+      "next": "Sat Oct 31 vs OKC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909283/rockets-mavericks",
+      "recent": [
+        "L 111–116 at DAL · Oct 30",
+        "W 132–100 at MIL · Oct 28",
+        "W 120–110 vs ATL · Oct 26"
+      ],
+      "upcoming": [
+        "Sat Oct 31 vs OKC",
+        "Mon Nov 2 vs BOS",
+        "Wed Nov 4 vs MIN"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66518,
+    "output_tokens": 9803
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Ben Shapiro Panics Over Israeli Election Results",
+          "url": "https://www.youtube.com/watch?v=ZYlFShlDN4Q",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report discusses reactions to the Israeli election results, with commentary from hosts and guests.",
+          "image": "https://i3.ytimg.com/vi/ZYlFShlDN4Q/hqdefault.jpg",
+          "video": "ZYlFShlDN4Q"
+        },
+        {
+          "title": "Establishment Dems Beg For AIPAC Support in Calif Races",
+          "url": "https://www.youtube.com/watch?v=H6fM5g4sgIU",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses establishment Democrats seeking AIPAC support in California races ahead of the election.",
+          "image": "https://i1.ytimg.com/vi/H6fM5g4sgIU/hqdefault.jpg",
+          "video": "H6fM5g4sgIU"
+        },
+        {
+          "title": "BIGGEST HEIST IN HISTORY 6 Billion Hacked From Bitcoin",
+          "url": "https://www.youtube.com/watch?v=ADFNTTxkz7o",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points covers a large cryptocurrency theft, with billions reportedly stolen from Bitcoin, in a discussion of the tech-space heist.",
+          "image": "https://i2.ytimg.com/vi/ADFNTTxkz7o/hqdefault.jpg",
+          "video": "ADFNTTxkz7o"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Vikings & Lions Highlight the MOST LOADED Slate of the 2026 Season",
+          "url": "https://www.youtube.com/watch?v=-JSky_A5pDI",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show previews Week 8 NFL games, including Vikings-Lions, Ravens-Bills, and Chiefs-Broncos.",
+          "image": "https://i2.ytimg.com/vi/-JSky_A5pDI/hqdefault.jpg",
+          "video": "-JSky_A5pDI"
+        },
+        {
+          "title": "Tom Nolan On Alexander Volkanovski's MASSIVE Title Win, Renato Moicano Headliner | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=mtZpL7TSpY8",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting interviews Tom Nolan ahead of his UFC Vegas 123 headliner against Renato Moicano and discusses Volkanovski's title win.",
+          "image": "https://i2.ytimg.com/vi/mtZpL7TSpY8/hqdefault.jpg",
+          "video": "mtZpL7TSpY8"
+        },
+        {
+          "title": "UFC Fight Night Preview Show | Moicano vs Nolan",
+          "url": "https://www.youtube.com/watch?v=O5fcspeeKr8",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC's Fight Night preview show looks ahead to the Moicano vs Nolan main event at UFC Vegas 123.",
+          "image": "https://i4.ytimg.com/vi/O5fcspeeKr8/hqdefault.jpg",
+          "video": "O5fcspeeKr8"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Construction Marketing Strategies",
+          "url": "https://www.youtube.com/watch?v=dHobeR5O7-g",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley outlines a step-by-step construction marketing strategy, including how to implement AI to build a sustainable firm pipeline.",
+          "image": "https://i1.ytimg.com/vi/dHobeR5O7-g/hqdefault.jpg",
+          "video": "dHobeR5O7-g"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Unlocking the Secrets of Ur's Wooden Box | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=TW4LDZsVKgQ",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel examines an ancient wooden box from the city of Ur, using imaging technology to interpret its mosaic images.",
+          "image": "https://i1.ytimg.com/vi/TW4LDZsVKgQ/hqdefault.jpg",
+          "video": "TW4LDZsVKgQ"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Made the HELLFIRE BURGER… and Immediately Regretted It",
+          "url": "https://www.youtube.com/watch?v=Bp2r-gleRws",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes a double bacon cheeseburger with pepper jack, roasted jalapeños, hot honey, and roasted habanero garlic mayo.",
+          "image": "https://i3.ytimg.com/vi/Bp2r-gleRws/hqdefault.jpg",
+          "video": "Bp2r-gleRws"
+        }
+      ]
+    }
+  ]
+}
