@@ -1,0 +1,1022 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Monday, November 2, 2026",
+  "generated_at": "2026-11-02T05:00:21-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Monday, November 2. Here is what matters today. Our lead story is a deadly plane crash in South Florida. Nine people are dead after a business jet crashed into a neighborhood. U.S. Transportation Secretary Duffy says all nine people aboard died. NPR reports the jet nosedived and erupted into a fireball near a busy roadway. The aircraft had left Austin, Texas, and was headed to the Bahamas. No cause has been given in the summary. Now the front page. In the Gulf, Qatar has led intense mediation for the past 72 hours. The aim is to stave off possible new U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the whole region on edge. In Michigan, Representative Haley Stevens endorsed Republican Mike Rogers in the Senate race. She had been due to attend a unity event with Abdul El-Sayed, who beat her in the Democratic primary. And the FBI says North Korean hackers are behind the theft of six point three billion dollars from the Binance crypto exchange. In tech, Anthropic has deprecated fast mode for Claude Opus 4.8. It will be removed on November 30. Users should move to Claude Opus 5.5. Also worth a look is a popular new repo with a Claude skill that turns AI-looking interfaces into designed ones. In politics, NPR says some key races look very close on the last day before Election Day. Drop Site News reports that two people working on the Rogers campaign are also registered agents for the government of Israel. In world news, the several-day ceasefire in a Russian-occupied Ukrainian city has ended. Hundreds of residents were able to evacuate. Separately, the UN peacekeeping mission in Western Sahara ended after 35 years. In sports, the Rockets, now six and one, host the Celtics and look for a fourth straight home win. Braves first baseman Matt Olson won his fourth Gold Glove. And Jauan Jennings reportedly wanted to stay with the Vikings after the 49ers tried to trade for him. In Atlanta, the Beltline has revealed five options for connecting its trail and transit to MARTA rail. Georgia also set a midterm record with 2.8 million early ballots. In architecture, a house in Shimane Prefecture explores how a building can respond to the landscape through bodily experience. Another is a lakeside home designed for a single owner. In science, the Vera Rubin Observatory is shedding new light on the region beyond Neptune. And computer models suggest a striking cloud on Mars may form through surprising physics. That is the brief. Have a good day.",
+  "lead": {
+    "title": "9 dead as jet nosedives and erupts into fireball near busy roadway in South Florida",
+    "url": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Nine people are dead after a business jet crashed into a neighborhood in South Florida. U.S. Transportation Secretary Duffy said all nine people aboard the aircraft died. NPR reports that the jet nosedived and erupted into a fireball near a busy roadway. The aircraft had departed from Austin, Texas, and was headed to the Bahamas. The summary does not give a cause for the crash. For now, the facts are limited to the deaths, the location and the flight path. Further detail on who was aboard and what went wrong will likely come in the days ahead. It is the largest loss of life in today's news, arriving on the last morning before Tuesday's midterm elections.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2669x1779+0+0/resize/2669x1779!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2Fd5%2F813e13f34a83b78f1e98b83979da%2Fap26305758176767.jpg",
+    "video": null,
+    "headline": "Nine Dead After Jet Crashes Into Florida Neighborhood",
+    "decks": [
+      "All nine people aboard the business jet died, Transportation Secretary Duffy says",
+      "Aircraft nosedived near a busy roadway in South Florida",
+      "Flight left Austin, Texas, bound for the Bahamas"
+    ]
+  },
+  "front": [
+    {
+      "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "Qatar has led mediation for 72 hours to head off possible new U.S. attacks on Iran after Tuesday's midterms, leaving Gulf states on edge.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    },
+    {
+      "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Rep. Haley Stevens endorsed Republican Mike Rogers in Michigan's Senate race instead of attending a unity event with Democratic nominee Abdul El-Sayed.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2614x1741+0+0/resize/2614x1741!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F9b%2F8dd4ff984429b0392a7b2129803a%2Fap26305624303454.jpg",
+      "video": null
+    },
+    {
+      "title": "FBI says North Korean hackers are behind the theft of $6.3B from Binance",
+      "url": "https://www.npr.org/2026/11/02/nx-s1-6023424/fbi-says-north-korean-hackers-are-behind-the-theft-of-6-3b-from-binance",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "The FBI attributes the $6.3 billion theft from the Binance exchange to North Korean hackers, a formal attribution of the hack.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — October 30, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#october-30-2026",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Fast mode for Claude Opus 4.8 is deprecated and removed November 30; anyone using it must migrate to Claude Opus 5.5 to avoid errors.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "heydamir/unslop",
+          "url": "https://github.com/heydamir/unslop",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "A popular new repo offering a Claude skill that turns AI-looking interfaces into designed ones, relevant to anyone building personal tools with Claude.",
+          "image": "https://opengraph.githubassets.com/1/heydamir/unslop",
+          "video": null
+        },
+        {
+          "title": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Trending repo that sets up Claude Code as a coordinated game studio with 49 agents and dozens of workflow skills.",
+          "image": "https://opengraph.githubassets.com/1/Donchitos/Claude-Code-Game-Studios",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "With Election Day just hours away, some key races appear to be very close",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023834/with-election-day-just-hours-away-some-key-races-appear-to-be-very-close",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "With Election Day close, early voting, polling and ad spending suggest the House and Senate maps are broader than expected.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Mike Rogers Campaign Spokesperson Is a Registered Agent for Israel, Documents Show",
+          "url": "https://www.dropsitenews.com/p/mike-rogers-campaign-spokesperson",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that two people working on Mike Rogers's Senate campaign are also registered agents for the government of Israel.",
+          "image": "https://substackcdn.com/image/fetch/$s_!AQVs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7425e0f7-88ca-4c58-b2a4-14d534ee0e3e_4545x3030.jpeg",
+          "video": null
+        },
+        {
+          "title": "Cancer, Water, and Big Ag: What Rural America Is Voting On",
+          "url": "https://www.dropsitenews.com/p/cancer-water-and-big-ag-what-rural",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News looks at the issues rural voters face as control of Congress is decided on Tuesday.",
+          "image": "https://substackcdn.com/image/fetch/$s_!EbZN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F223048054%2F1fb6a184-8edf-4ad2-b5f4-a45019b3a931%2Ftranscoded-1793549331.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Hundreds evacuate city during temporary ceasefire between Russia and Ukraine",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "The several-day ceasefire in a Russian-occupied Ukrainian city has ended after hundreds of residents were able to evacuate.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "The UN peacekeeping mission in disputed Western Sahara ceased operations Sunday after 35 years; Morocco and the Polisario Front both claim the territory.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8351x5567+0+0/resize/8351x5567!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F4e%2Fde1f3e074a53adb6510217f3e291%2Fap26305659609431.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Houston faces Boston, aims for 4th straight home win",
+          "url": "http://www.espn.com/nba/preview?gameId=401909916",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The 6-1 Rockets host the 5-1 Celtics, seeking a fourth straight home win.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909916.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Red Sox, Diamondbacks lead Gold Glove winners with 3 apiece",
+          "url": "https://www.espn.com/mlb/story/_/id/50354739/2026-gold-glove-award-winners",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "Braves first baseman Matt Olson won his fourth Gold Glove on Sunday.",
+          "image": "https://a.espncdn.com/photo/2026/1102/r1739930_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Source: Jauan Jennings wanted to stay with Vikings amid 49ers trade talks",
+          "url": "https://www.espn.com/nfl/story/_/id/50350048/source-jennings-wanted-stay-vikings-amid-49ers-talks",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Jauan Jennings reportedly wanted to stay with the Vikings after the 49ers tried to reacquire him in trade talks.",
+          "image": "https://a.espncdn.com/photo/2026/1101/r1739639_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Beltline reveals 5 options for connecting trail, transit to MARTA rail",
+          "url": "https://atlanta.urbanize.city/post/marta-infill-station-beltline-murphy-crossing-reveals-5-options-connecting-trail-transit-rail",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The Beltline has revealed five options for linking its trail and transit to MARTA rail, the first of the promised new stations.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/today%20Murphy%20Crossing%20Infill%20station%20MARTA.png?itok=GzXyQEce",
+          "video": null
+        },
+        {
+          "title": "Fresh visuals emerge for mixed-use Buckhead Village proposal",
+          "url": "https://atlanta.urbanize.city/post/buckhead-village-mixed-use-proposal-village-design-within-reach",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New visuals show a mixed-use Buckhead Village proposal that would replace an Atlanta Police Department precinct and several businesses.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Screenshot%202026-10-30%20at%202.10.52%E2%80%AFPM.png?itok=1379nCc-",
+          "video": null
+        },
+        {
+          "title": "Georgia’s early vote totals please Democrats, leave Republicans nervous",
+          "url": "https://roughdraftatlanta.com/2026/11/01/georgia-midterm-early-ballot-record/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Georgia recorded 2.8 million early ballots, a midterm record, ahead of Tuesday's election.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/georgia-i-voted-stickers-fulton-early-voting-600x450.webp?crop=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "House in Yakami / enter-archi",
+          "url": "https://www.archdaily.com/1186481/house-in-yakami-enter-archi",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A Shimane Prefecture house that responds to its mountain setting through bodily experience rather than treating the landscape as a view.",
+          "image": "https://images.adsttc.com/media/images/6ac6/49e3/07c3/d100/017f/dd09/newsletter/01_House-in-YAKAMI_Main_Yoshikatsu-Iriguchi.jpg?1791379963",
+          "video": null
+        },
+        {
+          "title": "Minimalist House / FORM/Kouichi Kimura Architects",
+          "url": "https://www.archdaily.com/1186735/minimalist-house-form-kouichi-kimura-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A lakeside hillside home for a single owner, designed to bring the lake view into daily life.",
+          "image": "https://images.adsttc.com/media/images/6ace/1336/b2c4/c300/0178/ec1f/newsletter/ogoto_Re06.jpg?1791890257",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This Halloween, amateur astronomers may be in for a dwarf planet treat",
+          "url": "https://www.sciencenews.org/article/halloween-astronomers-dwarf-planet",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "The Vera Rubin Observatory is shedding new light on the region beyond Neptune, including possible solar system building blocks.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_LG_newdwarfplanet_main_3a6163.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "A striking Mars cloud may be born from surprising physics",
+          "url": "https://www.sciencenews.org/article/mars-cloud-homogenous-nucleation",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Computer models suggest Mars's Arsia Mons Elongated Cloud may form through surprising physics, not the salt or dust that seeds Earth clouds.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_AS_strangeMarscloud_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA’s Swift telescope will face a fiery demise after a failed rescue",
+          "url": "https://www.sciencenews.org/article/nasa-swift-telescope-gamma-ray-burst",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "NASA's Swift telescope will face a fiery demise after a failed rescue attempt.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_MB_RIPSwift_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Mike Rogers Campaign Spokesperson Is a Registered Agent for Israel, Documents Show",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-campaign-spokesperson",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that two Mike Rogers Senate campaign staffers have worked as registered agents for the Israeli government. The item gives dates for their roles on both sides.",
+              "image": "https://substackcdn.com/image/fetch/$s_!AQVs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7425e0f7-88ca-4c58-b2a4-14d534ee0e3e_4545x3030.jpeg",
+              "video": null
+            },
+            {
+              "title": "Cancer, Water, and Big Ag: What Rural America Is Voting On",
+              "url": "https://www.dropsitenews.com/p/cancer-water-and-big-ag-what-rural",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News looks at cancer, water and agriculture as rural voters weigh in on Tuesday's congressional races, which will determine the balance of power.",
+              "image": "https://substackcdn.com/image/fetch/$s_!EbZN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F223048054%2F1fb6a184-8edf-4ad2-b5f4-a45019b3a931%2Ftranscoded-1793549331.png",
+              "video": null
+            },
+            {
+              "title": "Record-High Heating Oil Prices Are Closing Argument in Maine Senate Race",
+              "url": "https://www.dropsitenews.com/p/maine-heating-oil-prices-senate-susan-collins-troy-jackson",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports record-high heating oil prices in Maine, which it links to the Iran war, as a central issue in the U.S. Senate race days before the election.",
+              "image": "https://substackcdn.com/image/fetch/$s_!o9b2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b5e62c4-3ee2-4b41-9175-d91ff53e84fb_8192x5464.jpeg",
+              "video": null
+            },
+            {
+              "title": "Republican Senators Took Campaign Cash from Trump Nominees They Backed",
+              "url": "https://www.dropsitenews.com/p/blackburn-hagery-tuberville-campaign-cash-trump-nominees-tennesee-valley-authority",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Sens. Blackburn, Hagerty and Tuberville received campaign donations from nominees to the Tennessee Valley Authority board they backed.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Jm3l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde8729e1-baa3-4066-b867-c7429092ce8b_6490x4327.jpeg",
+              "video": null
+            },
+            {
+              "title": "GOP’s Corporate Funders Target Minnesota Attorney General",
+              "url": "https://www.dropsitenews.com/p/minnesota-keith-ellison-ron-schutz-republicans",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports on attacks from GOP-aligned corporate funders on Minnesota Attorney General Keith Ellison, tied to ICE resistance and antitrust enforcement.",
+              "image": "https://substackcdn.com/image/fetch/$s_!YQbG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3234d2cc-1b8e-4536-83fc-2b1d849d509e_3000x2000.jpeg",
+              "video": null
+            },
+            {
+              "title": "Haley Stevens’ Betrayal Is A Warning: Corporate Dems Are MAGA’s Enablers",
+              "url": "https://www.levernews.com/haley-stevens-mike-rogers-endorsement/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever argues that Democrat Haley Stevens endorsing Republican Mike Rogers, after losing the Michigan primary, shows the party's corporate faction. This is an opinion piece.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HaleyStevensMikeRogersEndorse.png",
+              "video": null
+            },
+            {
+              "title": "Second trial for man accused of starting deadly Palisades fire to begin",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6019291/second-trial-for-man-accused-of-starting-deadly-palisades-fire-to-begin",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A second trial begins for a man accused of starting the Palisades fire, after a June trial ended in a mistrial.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Rep. Haley Stevens endorsed Republican Mike Rogers in the Michigan Senate race instead of attending a unity event with Abdul El-Sayed, who beat her in the primary.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2614x1741+0+0/resize/2614x1741!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F9b%2F8dd4ff984429b0392a7b2129803a%2Fap26305624303454.jpg",
+              "video": null
+            },
+            {
+              "title": "Gulf region on edge over possibility of renewed U.S. attacks against Iran",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6023485/gulf-region-on-edge-over-possibility-of-renewed-u-s-attacks-against-iran",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Gulf states fear renewed U.S. military action against Iran after the midterms. The concern is high across the region as diplomacy continues.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+              "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Qatar is leading mediation with Iran over the past 72 hours to head off possible new U.S. attacks after Tuesday's midterm elections.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Hundreds evacuate city during temporary ceasefire between Russia and Ukraine",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Hundreds of residents evacuated a Russian-occupied Ukrainian city during a ceasefire of several days, which has now ended.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "FBI says North Korean hackers are behind the theft of $6.3B from Binance",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6023424/fbi-says-north-korean-hackers-are-behind-the-theft-of-6-3b-from-binance",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The FBI attributes the theft of $6.3 billion from the Binance exchange to North Korean hackers, according to NPR.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "9 dead as jet nosedives and erupts into fireball near busy roadway in South Florida",
+              "url": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Nine people died when a business jet crashed into a South Florida neighborhood near a busy roadway; the flight had departed from Austin and was headed to the Bahamas.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2669x1779+0+0/resize/2669x1779!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2Fd5%2F813e13f34a83b78f1e98b83979da%2Fap26305758176767.jpg",
+              "video": null
+            },
+            {
+              "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The U.N. peacekeeping mission in disputed Western Sahara ceased operations Sunday after 35 years. Morocco and the Polisario Front both claim the territory.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8351x5567+0+0/resize/8351x5567!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F4e%2Fde1f3e074a53adb6510217f3e291%2Fap26305659609431.jpg",
+              "video": null
+            },
+            {
+              "title": "Ryanair may freeze workers' pay and raise airfares",
+              "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Ryanair says it may freeze workers' pay and raise airfares, citing a possible €2bn rise in fuel costs in 2028 unless the US-Israel war with Iran ends.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/895b/live/a85523b0-d691-11f1-8f56-0b6ab08f384e.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump makes final campaign push in final weekend before election",
+              "url": "https://www.bbc.co.uk/news/articles/c3j47gjx29vro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Trump rallied in states Republicans previously won in a final campaign push before Tuesday's elections, which could determine control of Congress.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cb59/live/6d764030-d650-11f1-ada6-c195ef2b6417.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — October 30, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#october-30-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic deprecated fast mode for Claude Opus 4.8, with removal set for November 30, 2026; requests will error after that, and the notes point to migrating to Claude Opus 5.5. Directly relevant to your Claude-based builds.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. The filing itself is the only detail given so far.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "storytold/craft-anything",
+              "url": "https://github.com/storytold/craft-anything",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Craft Anything, a popular new Rust repository for understanding how software works and building your own. Fits your interest in personal tools.",
+              "image": "https://opengraph.githubassets.com/1/storytold/craft-anything",
+              "video": null
+            },
+            {
+              "title": "If in doubt, delete the uv.lock file",
+              "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's practical note on fixing confusing Python dependency errors after moving to Python 3.15: delete the uv.lock file when in doubt, and why libraries usually omit it.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "heydamir/unslop",
+              "url": "https://github.com/heydamir/unslop",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A Claude skill that turns AI-looking UI into a designed interface. A direct match for building personal tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/heydamir/unslop",
+              "video": null
+            },
+            {
+              "title": "Donchitos/Claude-Code-Game-Studios",
+              "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code setup that organizes many agents and workflow skills into a game studio structure. Useful as a look at multi-agent coordination.",
+              "image": "https://opengraph.githubassets.com/1/Donchitos/Claude-Code-Game-Studios",
+              "video": null
+            },
+            {
+              "title": "lightpanda-io/browser",
+              "url": "https://github.com/lightpanda-io/browser",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Lightpanda, a headless browser written in Zig and built for AI agents and automation rather than as a Chromium fork.",
+              "image": "https://opengraph.githubassets.com/1/lightpanda-io/browser",
+              "video": null
+            },
+            {
+              "title": "datasette-llm 0.1a9",
+              "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "datasette-llm 0.1a9 picks up the default model used by LLM, so Datasette Agent can be used without extra setup. A small but practical release.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Houston faces Boston, aims for 4th straight home win",
+              "url": "http://www.espn.com/nba/preview?gameId=401909916",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Houston Rockets (6-1) host the Boston Celtics (5-1) aiming for a fourth straight home win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909916.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Houston and Oklahoma City meet for conference showdown",
+              "url": "http://www.espn.com/nba/preview?gameId=401909902",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (5-1) and Thunder (4-1) meet in a Western Conference showdown, a matchup you will want to follow.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909902.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Irving scores 35 and Flagg adds 33 as Mavericks hand Rockets 1st loss of season 116-111",
+              "url": "http://www.espn.com/nba/recap?gameId=401909283",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Dallas rallied for a 116-111 win over Houston, ending the Rockets' unbeaten start; Kyrie Irving scored 35 and Cooper Flagg added 33.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909283.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Braves exercise options on Ronald Acuña Jr., Ozzie Albies",
+              "url": "https://www.espn.com/mlb/story/_/id/50323937/braves-exercise-options-ronald-acuna-jr-ozzie-albies",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Braves exercised their $17 million option on Ronald Acuña Jr. and a $7 million option on Ozzie Albies, a notable roster decision.",
+              "image": "https://a.espncdn.com/photo/2026/1030/r1738408_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Olson, Dubón both win 2nd straight Gold Gloves",
+              "url": "https://www.mlb.com/braves/news/matt-olson-mauricio-dubon-braves-2026-gold-glove-awards",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Matt Olson of the Braves won his second straight Gold Glove at first base.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/fcduyzga5o0gmmdxzjdj.jpg",
+              "video": null
+            },
+            {
+              "title": "Nolan knocks out Moicano in Round 3",
+              "url": "https://www.espn.com/video/clip/_/id/50344111/nolan-knocks-moicano-round-3",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tom Nolan knocked out Renato Moicano in Round 3 at UFC Vegas 123, extending his winning streak to six fights.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC's Islam Makhachev: Next fight will be 'one of the last' of career",
+              "url": "https://www.espn.com/mma/story/_/id/50330401/islam-makhachev-my-next-fight-one-last-my-career",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Islam Makhachev says his next fight will be one of the last of his career, per ESPN's UFC coverage.",
+              "image": "https://a.espncdn.com/photo/2025/1116/r1576326_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Source: Jauan Jennings wanted to stay with Vikings amid 49ers trade talks",
+              "url": "https://www.espn.com/nfl/story/_/id/50350048/source-jennings-wanted-stay-vikings-amid-49ers-talks",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "A source says Jauan Jennings wanted to stay with the Vikings amid 49ers trade talks, which the 49ers had pursued to reacquire him.",
+              "image": "https://a.espncdn.com/photo/2026/1101/r1739639_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgia’s early vote totals please Democrats, leave Republicans nervous",
+              "url": "https://roughdraftatlanta.com/2026/11/01/georgia-midterm-early-ballot-record/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia recorded about 2.8 million early ballots, a midterm record, with almost a third cast by Black voters, according to Rough Draft Atlanta.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/georgia-i-voted-stickers-fulton-early-voting-600x450.webp?crop=1",
+              "video": null
+            },
+            {
+              "title": "Fresh visuals emerge for mixed-use Buckhead Village proposal",
+              "url": "https://atlanta.urbanize.city/post/buckhead-village-mixed-use-proposal-village-design-within-reach",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "New visuals show a mixed-use Buckhead Village proposal from a Virginia developer that would replace an Atlanta Police precinct and several businesses.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Screenshot%202026-10-30%20at%202.10.52%E2%80%AFPM.png?itok=1379nCc-",
+              "video": null
+            },
+            {
+              "title": "Multifaceted proposal GuildHouse scores Develop Fulton's backing",
+              "url": "https://atlanta.urbanize.city/post/guildhouse-uppper-westside-proposal-scores-develop-fulton-backing",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "GuildHouse's plan for hundreds of new homes and commercial space on Marietta Boulevard won backing from Develop Fulton, a development boost for the corridor.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/10.27.26%20GuildHouse%201051%20Marietta%20Boulevard%20Aerial%20Rendering%203%20Cropped%20%281%29.jpg?itok=ALvDVYkd",
+              "video": null
+            },
+            {
+              "title": "Beltline reveals 5 options for connecting trail, transit to MARTA rail",
+              "url": "https://atlanta.urbanize.city/post/marta-infill-station-beltline-murphy-crossing-reveals-5-options-connecting-trail-transit-rail",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Beltline has five options for connecting its trail to MARTA rail, which is the first step toward one of Mayor Dickens' promised new stations.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/today%20Murphy%20Crossing%20Infill%20station%20MARTA.png?itok=GzXyQEce",
+              "video": null
+            },
+            {
+              "title": "The U.S. may change a 60-year-old historic preservation law. Why does it matter?",
+              "url": "https://saportareport.com/the-u-s-may-change-a-60-year-old-historic-preservation-law-why-does-it-matter/uncategorized/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Preservationists warn that a proposed change to Section 106 could sharply reduce historic preservation nationwide; the Georgia Trust is leading opposition.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/IMG_9230.webp?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Brookhaven produces booklet to help illustrate proposed 2027 budget",
+              "url": "https://roughdraftatlanta.com/2026/11/01/brookhaven-releases-budget-booklet/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Brookhaven released a 24-page booklet explaining its $45.6 million proposed 2027 budget, with public hearings on November 3 and 17.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/02/CityCentre-new-edited-600x450.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "New study finds ‘forever chemicals’ in the lakes, rivers and streams of least 40 states",
+              "url": "https://saportareport.com/new-study-finds-forever-chemicals-in-the-lakes-rivers-and-streams-of-least-40-states/sections/reports/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "A study finds PFAS forever chemicals persisting in Georgia's lakes, rivers and streams, with links to health problems.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/10/pexels-jose-rodriguez-ortega-2189823-27007129-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Images: Striking new UGA building called fresh blueprint for campus life",
+              "url": "https://atlanta.urbanize.city/post/images-striking-new-uga-building-called-fresh-blueprint-campus-life",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A new multifaceted UGA building aims at student retention and campus life, presented by Urbanize Atlanta with images.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Lead%20University%20of%20Georgia%20West%20Campus%20Dining%2C%20Learning%2C%20and%20Well-Being%20Center_0.jpg?itok=PMTPK36c",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "SE House / Kantor Gunawan Gunawan",
+              "url": "https://www.archdaily.com/1187664/se-house-kantor-gunawan-gunawan",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "SE House in Surabaya uses a courtyard and tropical design principles to create an urban oasis, a useful reference for courtyard-based residential planning.",
+              "image": "https://images.adsttc.com/media/images/6ae1/f40a/db5c/2001/882d/0ea7/newsletter/se-house-kantor-gunawan-gunawan_17.jpg?1793193026",
+              "video": null
+            },
+            {
+              "title": "House in Yakami / enter-archi",
+              "url": "https://www.archdaily.com/1186481/house-in-yakami-enter-archi",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House in Yakami addresses how architecture can respond to a landscape through bodily experience rather than only as a view.",
+              "image": "https://images.adsttc.com/media/images/6ac6/49e3/07c3/d100/017f/dd09/newsletter/01_House-in-YAKAMI_Main_Yoshikatsu-Iriguchi.jpg?1791379963",
+              "video": null
+            },
+            {
+              "title": "The House of Courtyards / Studio VDGA",
+              "url": "https://www.archdaily.com/1018550/the-house-of-courtyards-studio-vdga",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The House of Courtyards in Dubai resolves a villa design among very diverse local architectural languages.",
+              "image": "https://images.adsttc.com/media/images/6688/1f6d/483c/b323/d80e/7b86/newsletter/the-house-of-courtyards-studio-vdga_1.jpg?1720197040",
+              "video": null
+            },
+            {
+              "title": "Hotel Casa Cuenca / Taller Ivan Esqueda + Gala Sánchez-Renero Estudio + Mara Sánchez-Renero",
+              "url": "https://www.archdaily.com/1187900/hotel-casa-cuenca-taller-ivan-esqueda-plus-gala-sanchez-renero-estudio-plus-mara-sanchez-renero",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Cuenca is a ten-room boutique hotel in Mexico City's Condesa neighborhood, designed by Taller Ivan Esqueda with Gala Sánchez-Renero Estudio.",
+              "image": "https://images.adsttc.com/media/images/6aa2/e0fa/05b6/9900/01b5/3aab/newsletter/20CASA_CUENCA-_DIEGO_PADILLA_MAGALLANES.jpg?1789059409",
+              "video": null
+            },
+            {
+              "title": "U-shaped store / MANERA",
+              "url": "https://www.archdaily.com/1187442/u-shaped-store-manera",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "MANERA's U-shaped children's store organizes retail space around a central void, exploring how scenography and architecture relate.",
+              "image": "https://images.adsttc.com/media/images/6adb/8d91/3271/8400/01d0/e5b6/newsletter/04_U-shaped_store_Medellin_Colombia_MANERA__Juan_Camilo_Roa.jpg?1792773553",
+              "video": null
+            },
+            {
+              "title": "Minimalist House / FORM/Kouichi Kimura Architects",
+              "url": "https://www.archdaily.com/1186735/minimalist-house-form-kouichi-kimura-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A minimalist house by FORM/Kouichi Kimura Architects on a lakeside hill is designed to bring the lake view into daily life for a single occupant.",
+              "image": "https://images.adsttc.com/media/images/6ace/1336/b2c4/c300/0178/ec1f/newsletter/ogoto_Re06.jpg?1791890257",
+              "video": null
+            },
+            {
+              "title": "Escola Sant Ignasi-Jesuïtes de Sarrià / Aquidos",
+              "url": "https://www.archdaily.com/1187783/escola-sant-ignasi-jesuites-de-sarria-aquidos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Aquidos's renovation of the 1892 Sant Ignasi school in Barcelona, a Joan Martorell building organized around a central axis.",
+              "image": "https://images.adsttc.com/media/images/6ae3/7638/495d/0300/01a7/652a/newsletter/archdaily_SantIgnasi_1.jpg?1793291853",
+              "video": null
+            },
+            {
+              "title": "Temple of Togetherness / Bunga Design Atelier",
+              "url": "https://www.archdaily.com/1187417/temple-of-togetherness-bunga-design-atelier",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Bunga Design Atelier's rambu(T) temple is a space designed to honor togetherness, a community-focused architectural concept.",
+              "image": "https://images.adsttc.com/media/images/6adf/759a/20d6/d801/8852/13bd/newsletter/temple-of-togetherness-bunga-design-atelier_28.jpg?1793029540",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 2 shows a long cloud on Mars.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MonsCloud_MarsExpress_1920.jpg?w=1920&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+              "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's James Webb Space Telescope released a mid-infrared view of the Cat's Head Nebula, showing structures sculpted by ultraviolet radiation and stellar winds.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png?w=2048",
+              "video": null
+            },
+            {
+              "title": "This Halloween, amateur astronomers may be in for a dwarf planet treat",
+              "url": "https://www.sciencenews.org/article/halloween-astronomers-dwarf-planet",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "The Vera Rubin Observatory is revealing more about dwarf planets and possible building blocks beyond Neptune, useful for amateur astronomers.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_LG_newdwarfplanet_main_3a6163.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "A striking Mars cloud may be born from surprising physics",
+              "url": "https://www.sciencenews.org/article/mars-cloud-homogenous-nucleation",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Computer models suggest Mars' Arsia Mons Elongated Cloud forms through different physics than clouds on Earth.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102026_AS_strangeMarscloud_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA’s Swift telescope will face a fiery demise after a failed rescue",
+              "url": "https://www.sciencenews.org/article/nasa-swift-telescope-gamma-ray-burst",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "NASA's Swift telescope will be destroyed in a fiery re-entry after a failed rescue attempt, ending a mission that contributed to many discoveries.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102926_MB_RIPSwift_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "November’s Night Sky Notes: Light-Day Away",
+              "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's November sky notes recount the Voyager twins' 1977 launch during a rare planetary alignment and their Grand Tour.",
+              "image": "https://science.nasa.gov/wp-content/uploads/2024/04/grand-tour.jpg?w=1200",
+              "video": null
+            },
+            {
+              "title": "Experts warn of long-term health risks as Indonesia’s wildfire haze takes a growing toll",
+              "url": "https://news.mongabay.com/2026/11/experts-warn-of-long-term-health-risks-as-indonesias-wildfire-haze-takes-a-growing-toll/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Wildfire haze in Indonesia is causing long-term health risks, with a child in Balikpapan diagnosed with pneumonia, according to Mongabay.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/10131647/warga-Kalsel-saat-kabut-asap-1200x800-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "World Lemur Day: How can we save these primates’ forest homes?",
+              "url": "https://news.mongabay.com/short-article/2026/10/world-lemur-day-how-can-we-save-these-primates-forest-homes/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "World Lemur Day spotlights Madagascar's lemurs, among the most threatened primates, and the forest habitats they need.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/09/15104055/Verreauxs-Sifaka-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide Due to Potential Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+      "published": "2026-10-30T16:16:00+00:00"
+    },
+    {
+      "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+      "published": "2026-10-29T21:26:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Therefore, my dear Lucilius, begin at once to live, and count each separate day as a separate life.",
+    "who": "Seneca",
+    "about": "Roman statesman and Stoic philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 119–98 vs OKC",
+      "last_date": "Oct 31",
+      "next": "Mon Nov 2 vs BOS",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909902/thunder-rockets",
+      "recent": [
+        "W 119–98 vs OKC · Oct 31",
+        "L 111–116 at DAL · Oct 30",
+        "W 132–100 at MIL · Oct 28"
+      ],
+      "upcoming": [
+        "Mon Nov 2 vs BOS",
+        "Wed Nov 4 vs MIN",
+        "Sat Nov 7 at PHX"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 60110,
+    "output_tokens": 9959
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Progressives' Evil Plot For Total Domination | David Dayen | TMR",
+          "url": "https://www.youtube.com/watch?v=VJ_H1EZw95k",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "David Dayen recaps the week's major stories and looks ahead to Tuesday's midterm elections, in a conversation covering the political landscape.",
+          "image": "https://i3.ytimg.com/vi/VJ_H1EZw95k/hqdefault.jpg",
+          "video": "VJ_H1EZw95k"
+        },
+        {
+          "title": "Vivek Ramaswamy Set His Campaign On Fire",
+          "url": "https://www.youtube.com/watch?v=bz2hwZY3sVU",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "A battleground Senate race preview with David Weigel, a politics reporter at Semafor, covering midterm races in Maine and other states.",
+          "image": "https://i3.ytimg.com/vi/bz2hwZY3sVU/hqdefault.jpg",
+          "video": "bz2hwZY3sVU"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Ciryl Gane vs Alex Pereira | FULL FIGHT | Polymarket UFC 334",
+          "url": "https://www.youtube.com/watch?v=ILPWCCLb16E",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight between Ciryl Gane and Alex Pereira, shown ahead of Gane's title defense against Josh Hokit at UFC 334.",
+          "image": "https://i2.ytimg.com/vi/ILPWCCLb16E/hqdefault.jpg",
+          "video": "ILPWCCLb16E"
+        },
+        {
+          "title": "Week 8 Recap: Broncos STUNNER, WTF Bengals & Another Lost Ravens Season",
+          "url": "https://www.youtube.com/watch?v=QJsC4HnHY8o",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Recap of Week 8 NFL games, including the Broncos' comeback win over the Chiefs that moved Denver to the top of the AFC West.",
+          "image": "https://i2.ytimg.com/vi/QJsC4HnHY8o/hqdefault.jpg",
+          "video": "QJsC4HnHY8o"
+        },
+        {
+          "title": "UFC Vegas 123: Moicano vs. Nolan LIVE People's Pre-Fight Show | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=9vCZrcBNrMM",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Pre-fight show answering fan questions before the UFC Vegas 123 main event between Renato Moicano and Tom Nolan.",
+          "image": "https://i2.ytimg.com/vi/9vCZrcBNrMM/hqdefault.jpg",
+          "video": "9vCZrcBNrMM"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "New in BIM Pure Plugin v0.5: Rooms Creator & Scriptorium",
+          "url": "https://www.youtube.com/watch?v=e7HWOLRodOE",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of BIM Pure's Revit plugin v0.5, featuring tools to create rooms from Excel files and specs on sheets from DOC files.",
+          "image": "https://i2.ytimg.com/vi/e7HWOLRodOE/hqdefault.jpg",
+          "video": "e7HWOLRodOE"
+        },
+        {
+          "title": "Construction Estimating & Bidding – Complete Step-by-Step Guide",
+          "url": "https://www.youtube.com/watch?v=ix8DUxIMejo",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Step-by-step guide to construction estimating and bidding, covering project packages, pricing strategy, and refining the bid process.",
+          "image": "https://i2.ytimg.com/vi/ix8DUxIMejo/hqdefault.jpg",
+          "video": "ix8DUxIMejo"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Terrifying UNSOLVED Paranormal Events That'll Make You Scream! | Strange Evidence | Science Channel",
+          "url": "https://www.youtube.com/watch?v=Za_GquTeY_8",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Compilation of unsolved paranormal events from the Science Channel's Strange Evidence series, timed by segment for Halloween viewing.",
+          "image": "https://i3.ytimg.com/vi/Za_GquTeY_8/hqdefault.jpg",
+          "video": "Za_GquTeY_8"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Finally Made NYC's Famous Halal Cart Chicken & Rice",
+          "url": "https://www.youtube.com/watch?v=VsyM8UbF4D0",
+          "source": "Brian Lagerstrom",
+          "topic": "Make & Cook",
+          "note": "A homemade take on NYC's famous halal cart chicken and rice, with a link to detailed recipes on the creator's blog.",
+          "image": "https://i3.ytimg.com/vi/VsyM8UbF4D0/hqdefault.jpg",
+          "video": "VsyM8UbF4D0"
+        }
+      ]
+    }
+  ]
+}
