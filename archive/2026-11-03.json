@@ -1,0 +1,1007 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, November 3, 2026",
+  "generated_at": "2026-11-03T05:00:22-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, November 3. Here is what matters today. Our lead story. The United States has struck Qeshm Island in Iran, just ahead of the midterm elections, according to the BBC. US officials described the attacks as limited and defensive. The BBC cites CBS, its US partner. Few other details are available yet, so the scale of the strikes is not clear. Now the front page. In tech, the Claude Platform release notes from November second describe message threads for the Messages API, in beta. The server keeps the conversation, so each later request sends only the new messages. The result is smaller requests and a lower time to first token in long conversations and agent loops. In basketball, Alperen Sengun had 26 points, 10 assists and seven rebounds. The Rockets beat the Celtics 109 to 93 and moved into first place in the West. In politics, The Lever reports that a super PAC network funded by Big AI became politically toxic. It stopped donating in the most competitive Congressional races. In Ukraine, Kyiv says Russian bombing killed 29 people at an aid centre in a southern village. Officials say at least nine very large aerial bombs hit the village. Now the sections. In tech, a trending command line tool called agent desktop lets AI agents operate desktop apps. Anthropic also says it is committing a portion of its shares to a new Public Benefit Fund. In politics, The Lever reports that Abdul El-Sayed raised a seven-figure sum after Haley Stevens endorsed Republican Mike Rogers. The Supreme Court also turned down a Justice Department request to step into its dispute with California over voter rolls. In world news, Israel's election was inconclusive, though Prime Minister Netanyahu won the largest number of votes. Also, a US and Russia impasse at the United Nations ended the peacekeeping mission in Western Sahara after 35 years. In sports, Brandon Aiyuk has hired agent Drew Rosenhaus and hopes to return to the NFL. In the UFC, Tom Nolan knocked out Renato Moicano in the third round. In Atlanta, a multifamily project in Blandtown is nearing the end of construction. Georgia also set a midterm record, with more than 2.8 million early votes. In architecture, AEC Magazine asks how to make AI-built software for the building industry safe and accountable. ArchDaily looks at designing for neurodivergent ways of perceiving space. In science, NASA's November skywatching guide covers meteor showers, Mars near Jupiter, and a supermoon. Researchers also report that thawing permafrost has created a new type of large landslide. That is the brief. Have a good day.",
+  "lead": {
+    "title": "US strikes Iranian island ahead of midterm elections",
+    "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "The United States has struck Qeshm Island in Iran, just ahead of the midterm elections, according to the BBC. US officials described the attacks as limited and defensive, the BBC reports, citing CBS, its US partner. Defensive, in this context, is the officials' own word, not an independent finding. The summary gives few other details, so the scale of the strikes and any damage are not yet clear from this item. The timing is what makes the story notable for today, since Americans are voting while military action is in the news. Readers should watch for further official statements and for any response from Tehran, which this item does not describe. For now, the account rests on how US officials characterised the strikes and on reporting from a partner network.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/935d/live/479e54b0-d745-11f1-b441-2b33b063138f.jpg",
+    "video": null,
+    "headline": "US Strikes Iranian Island Before Midterms",
+    "decks": [
+      "US officials call the attacks on Qeshm Island limited and defensive",
+      "Strikes come ahead of the midterm elections",
+      "Report relies on CBS, the BBC's US partner"
+    ]
+  },
+  "front": [
+    {
+      "title": "Claude Platform release notes — November 2, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-2-2026",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "The Messages API gets message threads in beta. The server keeps the conversation, so each request sends only new messages, with a lower time to first token.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+      "video": null
+    },
+    {
+      "title": "Alperen Sengun leads Rockets past Celtics 109-93 as Houston moves into first in West",
+      "url": "http://www.espn.com/nba/recap?gameId=401909916",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Alperen Sengun had 26 points, 10 assists and seven rebounds as the Rockets beat the Celtics 109-93 and moved into first place in the West.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909916.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Big AI’s $140 Million Election Machine Stalls Out",
+      "url": "https://www.levernews.com/big-ais-140-million-election-machine-stalls-out/",
+      "source": "The Lever",
+      "topic": "Politics",
+      "note": "The Lever reports a Big AI-funded super PAC network became politically toxic and stopped donating in the most competitive Congressional races.",
+      "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--4-.jpg",
+      "video": null
+    },
+    {
+      "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Kyiv says Russian bombing killed 29 people at an aid centre in a southern Ukrainian village, with at least nine 3,000kg aerial bombs reported.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ee1e/live/8480acc0-d6eb-11f1-a741-236ee91c2e25.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending CLI lets AI agents read and operate desktop apps through the accessibility tree on macOS, Windows and Linux, useful for your own tool-building.",
+          "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-desktop",
+          "video": null
+        },
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows as the company grows.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+          "video": null
+        },
+        {
+          "title": "patch-gg/pixelfx",
+          "url": "https://github.com/patch-gg/pixelfx",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "A popular new repo of 244 pixel art effects, each a small piece of code, plus a Claude Code skill for making your own.",
+          "image": "https://opengraph.githubassets.com/1/patch-gg/pixelfx",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "El-Sayed Posts Seven-Figure Haul After Stevens’ Betrayal",
+          "url": "https://www.levernews.com/el-sayed-posts-seven-figure-haul-after-stevens-betrayal/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports Abdul El-Sayed raised a seven-figure sum after Haley Stevens endorsed Republican Mike Rogers, including 29,000 first-time donors.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--2-.jpg",
+          "video": null
+        },
+        {
+          "title": "The Supreme Court rejects a DOJ push to separate California ballots",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "The Supreme Court denied a last-minute Justice Department request to step into its dispute with California over the state's voter rolls.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8028x5352+0+0/resize/8028x5352!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F17%2F2b3a2cb44c0a80d5324b88c83698%2Fgettyimages-2299615393.jpg",
+          "video": null
+        },
+        {
+          "title": "\"This is Catastrophic\": Gaza Hit Hard by UN Food Cuts and Lack of Humanitarian Aid",
+          "url": "https://www.dropsitenews.com/p/gaza-wfp-food-cuts-hunger-tents-winter",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports World Food Programme cuts are worsening hunger in Gaza as winter approaches and people prepare tents and damaged homes.",
+          "image": "https://substackcdn.com/image/fetch/$s_!d1Uo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd35b36-c6ae-4748-9d91-87744392f6f5_3020x1696.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Netanyahu's fear campaign won large share of support in inconclusive election",
+          "url": "https://www.npr.org/2026/11/03/nx-s1-6026413/netanyahus-fear-campaign-won-large-share-of-support-in-inconclusive-election",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Israel's election was inconclusive, though Prime Minister Netanyahu still won the largest number of votes, NPR reports.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Why a US-Russia showdown left Morocco celebrating",
+          "url": "https://www.bbc.co.uk/news/articles/cqp8genleg2ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A US-Russia impasse at the UN ended its peacekeeping mission in Western Sahara after 35 years.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3276/live/8e9ad0f0-d6c8-11f1-ac20-7783925c811f.jpg",
+          "video": null
+        },
+        {
+          "title": "Major test for Australia's social media ban begins in High Court",
+          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Reddit and a digital rights group are challenging Australia's social media ban for children in the High Court, a major test of the policy.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2ab0/live/69114010-d75b-11f1-8f6b-d71817972456.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Brandon Aiyuk hires Drew Rosenhaus as agent, eyes return to NFL",
+          "url": "https://www.espn.com/nfl/story/_/id/50360681/brandon-aiyuk-hires-drew-rosenhaus-agent-eyes-return-nfl",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Brandon Aiyuk hired agent Drew Rosenhaus, who says he is working on getting him back to playing in the NFL.",
+          "image": "https://a.espncdn.com/photo/2024/0829/r1379504_2_600x600_1-1.jpg",
+          "video": null
+        },
+        {
+          "title": "Nolan knocks out Moicano in Round 3",
+          "url": "https://www.espn.com/video/clip/_/id/50344147/nolan-knocks-moicano-round-3",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Tom Nolan knocked out Renato Moicano in Round 3 at UFC Vegas 123, extending his winning streak to six fights.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_AUS_ONLY/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_AUS_ONLY.jpg",
+          "video": null
+        },
+        {
+          "title": "Olson, Dubón both win 2nd straight Gold Gloves",
+          "url": "https://www.mlb.com/braves/news/matt-olson-mauricio-dubon-braves-2026-gold-glove-awards",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "Olson and Dubón each won a second straight Gold Glove, an item from your baseball feed.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/fcduyzga5o0gmmdxzjdj.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Images: Huff Road development enters construction home stretch",
+          "url": "https://atlanta.urbanize.city/post/novel-blandtown-huff-road-development-images-enters-construction-home-stretch",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A multifamily project in Blandtown, two years after demolition began, is nearing completion, per Urbanize Atlanta.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/NOVEL%20Blandtown%20October%202026%203.jpg?itok=ATnTdy6q",
+          "video": null
+        },
+        {
+          "title": "Atlanta City Council approves resolution to begin landmark designation process for LGBTQ+ historic site",
+          "url": "https://roughdraftatlanta.com/2026/11/02/atlanta-council-landmark-lgbtq-home/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "City Council unanimously approved starting the landmark designation process for a Virginia-Highland home tied to LGBTQ+ history.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/streetview-e1792767332288-600x361.jpg",
+          "video": null
+        },
+        {
+          "title": "How Georgia’s 2026 early vote numbers compare with 2022: dashboard",
+          "url": "https://saportareport.com/how-georgias-2026-early-vote-numbers-compare-with-2022-dashboard/columnists/mark-lannaman/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Georgia set a midterm early-voting record with over 2.8 million ballots cast before Election Day.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.43.26-AM.png?fit=1024%2C898&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "The home brew estate: Q&A with AMC Bridge",
+          "url": "https://aecmag.com/ai/the-home-brew-estate-qa-with-amc-bridge/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine's Q&A with AMC Bridge asks how to make AI-built AEC software safe, supportable and accountable, a live question for personal tool builders.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Architecture and Neurodivergence: Designing for Different Ways of Perceiving Space",
+          "url": "https://www.archdaily.com/1187145/architecture-and-neurodivergence-designing-for-different-ways-of-perceiving-space",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily looks at how sensory conditions such as light, sound and layout shape how neurodivergent people use buildings.",
+          "image": "https://images.adsttc.com/media/images/6ad6/5a14/8008/f401/8ba5/45de/newsletter/architecture-and-neurodivergence-designing-for-different-ways-of-perceiving-space_12.jpg?1792432690",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's November skywatching guide covers Taurid and Leonid meteors, Mars near Jupiter, Voyager 1's light-day milestone and a supermoon.",
+          "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "Melting permafrost has birthed a new type of large landslide",
+          "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Thawing permafrost has produced a new type of large landslide, in which slabs of frozen earth thaw from below and slide downhill.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102626_NO_frozenlandslides_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+          "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's four-person CHAPEA crew ended its year-plus simulated Mars journey on October 31.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg?w=2048",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Mike Rogers Earned $420,000 From Firm Now Helping Hegseth Plan Iran War‘s Next Phase",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-senate-michigan-iran-war-hegseth",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Mike Rogers received $420,000 in board fees from MITRE, a consultancy Pete Hegseth tapped to help plan the future of warfare.",
+              "image": "https://substackcdn.com/image/fetch/$s_!nPVL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41ad8f66-0159-4680-bebd-f54c8f7901fe_5333x3555.jpeg",
+              "video": null
+            },
+            {
+              "title": "Big AI’s $140 Million Election Machine Stalls Out",
+              "url": "https://www.levernews.com/big-ais-140-million-election-machine-stalls-out/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that a super PAC network funded by AI money stopped donating in the most competitive Congressional races after becoming politically toxic.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--4-.jpg",
+              "video": null
+            },
+            {
+              "title": "\"This is Catastrophic\": Gaza Hit Hard by UN Food Cuts and Lack of Humanitarian Aid",
+              "url": "https://www.dropsitenews.com/p/gaza-wfp-food-cuts-hunger-tents-winter",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that UN food cuts and limited humanitarian aid are leaving Gaza's Palestinians facing rising hunger as winter approaches.",
+              "image": "https://substackcdn.com/image/fetch/$s_!d1Uo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fddd35b36-c6ae-4748-9d91-87744392f6f5_3020x1696.png",
+              "video": null
+            },
+            {
+              "title": "El-Sayed Posts Seven-Figure Haul After Stevens’ Betrayal",
+              "url": "https://www.levernews.com/el-sayed-posts-seven-figure-haul-after-stevens-betrayal/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Abdul El-Sayed raised seven figures after Haley Stevens endorsed Republican Mike Rogers, with 29,000 donations from first-time givers.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--2-.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump offered a closing message to voters by touting his D.C. renovations",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6026399/trump-offered-a-closing-message-to-voters-by-touting-his-d-c-renovations",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports President Trump delivered a closing message touting his D.C. renovations ahead of the midterms, urging voters to support Republicans.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports millions of Americans use AI chatbots for election information, but the chatbots are getting voting facts wrong and recommending candidates.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F38%2F09ecdec14eff88fe2fc14345fc06%2Fgettyimages-2302583503.jpg",
+              "video": null
+            },
+            {
+              "title": "Coal no longer king in Navajo Nation presidential election",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6019547/coal-no-longer-king-in-navajo-nation-presidential-election",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "For the first time in decades, no pro-coal candidate is running for Navajo Nation president, as voter sentiment shifts away from the coal economy.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "California's Scott Wiener Has a Record of Opposing Gaza Ceasefire, Despite Recent Claim",
+              "url": "https://www.dropsitenews.com/p/scott-wiener-congress-israel-gaza",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports California's Scott Wiener, running in the 11th District, said he backed a 2023 Gaza ceasefire, but records show he lobbied against a local ceasefire resolution.",
+              "image": "https://substackcdn.com/image/fetch/$s_!6HDd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70c9faea-6599-4859-9c64-ca79fa52ae42_4464x2976.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "US strikes Iranian island ahead of midterm elections",
+              "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "US officials describe strikes on Qeshm Island in Iran as limited and defensive, according to CBS via the BBC, as midterm elections approach.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/935d/live/479e54b0-d745-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "Netanyahu's fear campaign won large share of support in inconclusive election",
+              "url": "https://www.npr.org/2026/11/03/nx-s1-6026413/netanyahus-fear-campaign-won-large-share-of-support-in-inconclusive-election",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Israel's elections were inconclusive, with Benjamin Netanyahu's party winning the most votes after a campaign against Arab political parties.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Americans head to the polls for elections that could define Trump's closing chapter",
+              "url": "https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Americans head to the polls in midterms that will shape Congress for the final years of Trump's presidency, according to a BBC analysis.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5c2d/live/2dcbeb40-d76a-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+              "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Officials say Russian bombing of a southern Ukrainian village killed 29 people at an aid centre, with at least nine 3,000kg aerial bombs hitting the site.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ee1e/live/8480acc0-d6eb-11f1-a741-236ee91c2e25.png",
+              "video": null
+            },
+            {
+              "title": "North Korea denies being behind record $6.3bn Binance hack",
+              "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "North Korea denies being behind a record $6.3bn Binance hack, which US agencies and cyber analysts have blamed on Pyongyang.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7a90/live/75145840-d727-11f1-b237-93d5595d4291.jpg",
+              "video": null
+            },
+            {
+              "title": "Why a US-Russia showdown left Morocco celebrating",
+              "url": "https://www.bbc.co.uk/news/articles/cqp8genleg2ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A US-Russia impasse at the UN ended the peacekeeping mission in Western Sahara after 35 years, BBC reports.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3276/live/8e9ad0f0-d6c8-11f1-ac20-7783925c811f.jpg",
+              "video": null
+            },
+            {
+              "title": "Major test for Australia's social media ban begins in High Court",
+              "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Lawyers for Reddit and a digital rights group argue in Australia's High Court that the world-leading social media ban for children violates free communication rights.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2ab0/live/69114010-d75b-11f1-8f6b-d71817972456.jpg",
+              "video": null
+            },
+            {
+              "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+              "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The 2027 Asian Cup in Saudi Arabia has been postponed after a series of deadly attacks in the host country, BBC reports.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9647/live/0ce22d10-d754-11f1-8bf4-5f3ca896096e.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 2, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#november-2-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's November 2 platform release adds message threads to the Messages API in beta, letting long conversations send smaller requests with the server keeping history. Relevant to anyone building with Claude.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "storytold/craft-anything",
+              "url": "https://github.com/storytold/craft-anything",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Craft Anything is a popular new Rust repo that explains how software works and lets you build your own. A good fit for someone who builds personal tools.",
+              "image": "https://opengraph.githubassets.com/1/storytold/craft-anything",
+              "video": null
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "claude-mem is a trending tool that keeps context across agent sessions by compressing what agents do and injecting it back later. Works with Claude Code.",
+              "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+              "video": null
+            },
+            {
+              "title": "vercel-labs/agent-desktop",
+              "url": "https://github.com/vercel-labs/agent-desktop",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Vercel Labs' agent-desktop is a trending CLI that lets AI agents operate desktop apps through the OS accessibility tree on macOS, Windows and Linux.",
+              "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-desktop",
+              "video": null
+            },
+            {
+              "title": "patch-gg/pixelfx",
+              "url": "https://github.com/patch-gg/pixelfx",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Pixelfx is a popular repo of 244 pixel art effects, each a small piece of code, with a Claude Code skill for making your own.",
+              "image": "https://opengraph.githubassets.com/1/patch-gg/pixelfx",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. A significant step for the company behind Claude.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Nvidia – open-source auto-ontology",
+              "url": "https://github.com/NVIDIA/auto-ontology",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "NVIDIA has open-sourced auto-ontology, a tool relevant to structuring knowledge and data, which connects to BIM and building information work.",
+              "image": "https://opengraph.githubassets.com/1/NVIDIA/auto-ontology",
+              "video": null
+            },
+            {
+              "title": "wangzan101/Mika",
+              "url": "https://github.com/wangzan101/Mika",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Mika is a popular open-source on-device AI agent for Android that operates apps and the web on the user's behalf.",
+              "image": "https://opengraph.githubassets.com/1/wangzan101/Mika",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Alperen Sengun leads Rockets past Celtics 109-93 as Houston moves into first in West",
+              "url": "http://www.espn.com/nba/recap?gameId=401909916",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Alperen Sengun had 26 points and 10 assists as the Rockets beat the Celtics 109-93, moving Houston into first place in the West.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909916.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Jabari Smith Jr. scores 30 points, Rockets beat Thunder 119-98",
+              "url": "http://www.espn.com/nba/recap?gameId=401909902",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Jabari Smith Jr. scored 30 points as the Rockets beat the Thunder 119-98 on Saturday, with Marcus Smart adding 24.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909902.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Brandon Aiyuk hires Drew Rosenhaus as agent, eyes return to NFL",
+              "url": "https://www.espn.com/nfl/story/_/id/50360681/brandon-aiyuk-hires-drew-rosenhaus-agent-eyes-return-nfl",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "49ers receiver Brandon Aiyuk has hired agent Drew Rosenhaus and is working toward a return to the NFL, per ESPN's Adam Schefter.",
+              "image": "https://a.espncdn.com/photo/2024/0829/r1379504_2_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "The 49ers Sign WR KhaDarel Hodge to Practice Squad",
+              "url": "https://www.49ers.com/news/the-49ers-sign-wr-khadarel-hodge-to-practice-squad",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers signed WR KhaDarel Hodge to the practice squad.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/x1fxynziiz97t5evqmzc.png",
+              "video": null
+            },
+            {
+              "title": "UFC's Islam Makhachev: Next fight will be 'one of the last' of career",
+              "url": "https://www.espn.com/mma/story/_/id/50330401/islam-makhachev-my-next-fight-one-last-my-career",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC champion Islam Makhachev says his next fight will be one of the last of his career.",
+              "image": "https://a.espncdn.com/photo/2025/1116/r1576326_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Nolan knocks out Moicano in Round 3",
+              "url": "https://www.espn.com/video/clip/_/id/50344147/nolan-knocks-moicano-round-3",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tom Nolan knocked out Renato Moicano in the third round at UFC Vegas 123, extending his winning streak to six fights.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_AUS_ONLY/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Luana Santos defeats Yana Santos by unanimous decision at UFC Fight Night",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50343853/luana-santos-wins-4th-straight-match-defeats-yana-santos",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Luana Santos won a unanimous decision over fifth-ranked Yana Santos at UFC Fight Night, her fourth straight win.",
+              "image": "https://a.espncdn.com/photo/2026/1101/r1739316_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "How NBA title, MVP race has become wide open in two weeks",
+              "url": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Injuries and surprises have made the NBA title and MVP races wide open just two weeks into the season.",
+              "image": "https://a.espncdn.com/photo/2026/0414/r1643510_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Atlanta City Council approves resolution to begin landmark designation process for LGBTQ+ historic site",
+              "url": "https://roughdraftatlanta.com/2026/11/02/atlanta-council-landmark-lgbtq-home/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Atlanta City Council unanimously approved a resolution to begin the landmark designation process for a Virginia-Highland home tied to LGBTQ+ history.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/streetview-e1792767332288-600x361.jpg",
+              "video": null
+            },
+            {
+              "title": "Images: Huff Road development enters construction home stretch",
+              "url": "https://atlanta.urbanize.city/post/novel-blandtown-huff-road-development-images-enters-construction-home-stretch",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta reports the Huff Road multifamily project in Blandtown is entering its construction home stretch, two years after demolition began.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/NOVEL%20Blandtown%20October%202026%203.jpg?itok=ATnTdy6q",
+              "video": null
+            },
+            {
+              "title": "ATL exurban project; Medley’s leasing win; Interlock books; more!",
+              "url": "https://atlanta.urbanize.city/post/atl-exurban-project-medley-leasing-interlock-books",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta reports Hillpointe finished a 312-unit garden-style project along the I-75 exurban corridor between Atlanta and Chattanooga.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Pointe%20Grand%20Cassville%20Cartersville%202.jpg?itok=01XDtHuR",
+              "video": null
+            },
+            {
+              "title": "How Georgia’s 2026 early vote numbers compare with 2022: dashboard",
+              "url": "https://saportareport.com/how-georgias-2026-early-vote-numbers-compare-with-2022-dashboard/columnists/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia set a midterm early voting record with over 2.8 million early votes; SaportaReport compares 2026 totals with 2022 county by county.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-11-02-at-7.43.26-AM.png?fit=1024%2C898&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Former ICE detainee spreads the message of Folkston’s hunger strike",
+              "url": "https://saportareport.com/a-former-ice-detainee-spreads-the-message-of-folkstons-hunger-strike/sections/reports/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport reports on a former ICE detainee spreading word of the hunger strike at Folkston Processing Center after a detainee's death in custody.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/matthew-ansley-ihl2Q5F-VYA-unsplash-scaled.jpg?fit=1024%2C656&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Images: Striking new UGA building called fresh blueprint for campus life",
+              "url": "https://atlanta.urbanize.city/post/images-striking-new-uga-building-called-fresh-blueprint-campus-life",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta shows a new University of Georgia campus building designed to improve student interaction and well-being.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/Lead%20University%20of%20Georgia%20West%20Campus%20Dining%2C%20Learning%2C%20and%20Well-Being%20Center_0.jpg?itok=PMTPK36c",
+              "video": null
+            },
+            {
+              "title": "Fox Gives awards $500,000 to historic Georgia theaters and landmarks",
+              "url": "https://roughdraftatlanta.com/2026/11/02/fox-gives-theater-grants/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Fox Gives awarded 12 grants totaling $500,000 to historic Georgia theaters and landmarks, supporting projects and operations.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Plaza-Theatre-Horizontal-Exterior-Photo-450x297.png",
+              "video": null
+            },
+            {
+              "title": "A decline of women directors at Georgia’s public companies",
+              "url": "https://saportareport.com/a-decline-of-women-directors-at-georgias-public-companies/columnists/mariasmetro/maria_saporta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport reports the share of women directors at Georgia's public companies fell this year, according to the nonprofit OnBoard.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_6855-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "The home brew estate: Q&A with AMC Bridge",
+              "url": "https://aecmag.com/ai/the-home-brew-estate-qa-with-amc-bridge/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine's Q&A with AMC Bridge covers the risks of AI-built AEC software: making it safe, supportable and accountable. Directly relevant to your tool-building work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Architecture and Neurodivergence: Designing for Different Ways of Perceiving Space",
+              "url": "https://www.archdaily.com/1187145/architecture-and-neurodivergence-designing-for-different-ways-of-perceiving-space",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily looks at designing for neurodivergent perception, including how lighting, sound and layout affect whether people can use a building's spaces.",
+              "image": "https://images.adsttc.com/media/images/6ad6/5a14/8008/f401/8ba5/45de/newsletter/architecture-and-neurodivergence-designing-for-different-ways-of-perceiving-space_12.jpg?1792432690",
+              "video": null
+            },
+            {
+              "title": "Akartz House / Ápiron",
+              "url": "https://www.archdaily.com/1187965/akartz-house-apiron",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Akartz House by Ápiron is built from independent volumes arranged for solar orientation, irregular site geometry and topography.",
+              "image": "https://images.adsttc.com/media/images/6ae8/40e1/bcbc/3500/01ae/acff/newsletter/_piron_Casa_Akatz_014.jpg?1793605993",
+              "video": null
+            },
+            {
+              "title": "House Up in the Clouds / Hennessey Architecture",
+              "url": "https://www.archdaily.com/1187896/up-in-the-clouds-hennessey-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Hennessey Architecture's renovation of a 1962 Eichler in San Francisco adds a fourth level for a growing family, on a foggy hillside site.",
+              "image": "https://images.adsttc.com/media/images/6ae4/eedf/bfbd/4c00/01ee/5c52/newsletter/hennessey-architecture-up-in-the-clouds-01.jpg?1793388281",
+              "video": null
+            },
+            {
+              "title": "Vishram Vadi Nu Ghar / Ikshhana Design Studio",
+              "url": "https://www.archdaily.com/1187587/vishram-vadi-nu-ghar-ikshhana-design-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Vishram Vadi Nu Ghar by Ikshhana Design Studio is a riverside farmhouse that integrates with its landscape near Navsari.",
+              "image": "https://images.adsttc.com/media/images/6ae0/9089/3271/8400/01d0/ef9f/newsletter/Front_Elevation_of_Farm_House_Manan_Surti.jpg?1793102309",
+              "video": null
+            },
+            {
+              "title": "Tiny House Razzi / Stanaćev Granados",
+              "url": "https://www.archdaily.com/1187869/tiny-house-razzi",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Tiny House Razzi by Stanaćev Granados is a 35 m² cabin prototype with a loft, designed with a French contractor in Chile.",
+              "image": "https://images.adsttc.com/media/images/6ae8/5bdb/62dc/0e01/8725/7292/newsletter/tiny-house-razzi-stanacev-granados_32.jpg?1793612831",
+              "video": null
+            },
+            {
+              "title": "House in Dahiya / Studio Toggle",
+              "url": "https://www.archdaily.com/1187668/house-in-dahiya-studio-toggle",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House in Dahiya by Studio Toggle is a stepped concrete house in Kuwait City that closes its facades to the street.",
+              "image": "https://images.adsttc.com/media/images/6ae1/ebf1/20d6/d839/1bac/0ac5/newsletter/house-in-dahiya-studio-toggle_11.jpg?1793190914",
+              "video": null
+            },
+            {
+              "title": "Country House / Arquipélago Arquitetos",
+              "url": "https://www.archdaily.com/1036417/country-house-arquipelago-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Country House by Arquipélago Arquitetos sits on a steep slope of Atlantic forest in Paraty, Brazil.",
+              "image": "https://images.adsttc.com/media/images/68fb/e5ee/8950/3400/0167/82f8/newsletter/0401.arquipelago.CasaQuinta-PKOK2228.jpg?1761338887",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "NASA’s CHAPEA Crew “Returns” to Earth",
+              "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's CHAPEA crew emerged after a simulated Mars mission ended Oct. 31, 2026, the first time they posed outside in more than a year.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Hubble studied 37 nearby dwarf galaxies and found much of the oxygen they were expected to contain is missing.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg?w=1536&h=990&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 3 shows Comet PanSTARRs and a rainbow meteor.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/CometMeteor_Metais_1934.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+              "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's November skywatching guide covers Taurid and Leonid meteors, a Mars and Jupiter pairing, and a supermoon.",
+              "image": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Melting permafrost has birthed a new type of large landslide",
+              "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports a new type of large landslide, where permafrost slabs thaw from below and slide downhill.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102626_NO_frozenlandslides_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Diverse forests can better withstand extreme weather events, study finds. Here’s why",
+              "url": "https://news.mongabay.com/2026/11/diverse-forests-can-better-withstand-extreme-weather-events-study-finds-heres-why/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A Nature Communications study finds that diverse forests better withstand extreme weather, a finding relevant to forest resilience.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/02164751/andy-holmes-TxkisEuUs7w-unsplash-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Indigenous peoples and local communities solidify decision-making powers at COP17",
+              "url": "https://news.mongabay.com/short-article/2026/11/indigenous-peoples-and-local-communities-solidify-decision-making-powers-at-cop17/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Indigenous peoples and local communities strengthened their decision-making role at COP17 with a new subsidiary body under the Convention on Biological Diversity.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/03/31072953/Sami-Indigenous-people-tends-a-reindeer-in-Sweden-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Do not ‘engage formally’: UK officials advised against billionaire-run zoo ahead of CITES meeting",
+              "url": "https://news.mongabay.com/2026/11/do-not-engage-formally-uk-officials-advised-against-billionaire-run-zoo-ahead-of-cites-meeting/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Documents obtained by Mongabay and The Guardian show UK officials advised ministers not to engage formally with the Vantara zoo ahead of a CITES meeting.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/02032118/77_UKZookInvestigation_05-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Once Upon A Farm Recalls All Lots and Varieties of Tractor Wheels Organic Toddler Soft-Baked Bars Due to Potential Choking Hazard",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/once-upon-farm-recalls-all-lots-and-varieties-tractor-wheels-organic-toddler-soft-baked-bars-due",
+      "published": "2026-10-30T23:59:00+00:00"
+    },
+    {
+      "title": "Vitality Works Inc. Recalls 365 Whole Foods Market Ashwagandha Capsules Sold Nationwide Due to Potential Salmonella Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+      "published": "2026-10-30T16:16:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Thinking is a momentary dismissal of irrelevancies.",
+    "who": "Buckminster Fuller",
+    "about": "American designer, inventor and futurist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 109–93 vs BOS",
+      "last_date": "Nov 2",
+      "next": "Wed Nov 4 vs MIN",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909916/celtics-rockets",
+      "recent": [
+        "W 109–93 vs BOS · Nov 2",
+        "W 119–98 vs OKC · Oct 31",
+        "L 111–116 at DAL · Oct 30"
+      ],
+      "upcoming": [
+        "Wed Nov 4 vs MIN",
+        "Sat Nov 7 at PHX",
+        "Mon Nov 9 vs DEN"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 60027,
+    "output_tokens": 9801
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "We Investigated Why Big Tech Is Handing Out $10,000 Checks To This Small Town",
+          "url": "https://www.youtube.com/watch?v=kEpW-O0A400",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Investigation into how Amazon and other Big Tech firms are offering payments and buyouts to residents near planned data centers, including a Pennsylvania town.",
+          "image": "https://i4.ytimg.com/vi/kEpW-O0A400/hqdefault.jpg",
+          "video": "kEpW-O0A400"
+        },
+        {
+          "title": "ELECTION EVE! Haley Stevens Ratf**ks El-Sayed; GOP Panics Over Florida | MR Live",
+          "url": "https://www.youtube.com/watch?v=WYIijrXFXa8",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Preview of the US midterm elections the day before voting, with Emma Vigeland discussing the races and expectations.",
+          "image": "https://i4.ytimg.com/vi/WYIijrXFXa8/hqdefault.jpg",
+          "video": "WYIijrXFXa8"
+        },
+        {
+          "title": "EARLY VOTE DISASTER For GOP IN TX, Florida",
+          "url": "https://www.youtube.com/watch?v=vUsn3IAtY4I",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss early voting data in Texas and Florida and what it may signal for Republicans in the midterms.",
+          "image": "https://i3.ytimg.com/vi/vUsn3IAtY4I/hqdefault.jpg",
+          "video": "vUsn3IAtY4I"
+        },
+        {
+          "title": "LIVE A Future Florida Can Afford: Town Hall with Angie Nixon, Maxwell Frost, and Anna Eskamani",
+          "url": "https://www.youtube.com/watch?v=ppjVPbfZbyE",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Town hall with Florida Democrats Angie Nixon, Maxwell Frost, and Anna Eskamani on affordability and policy in Florida.",
+          "image": "https://i1.ytimg.com/vi/ppjVPbfZbyE/hqdefault.jpg",
+          "video": "ppjVPbfZbyE"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "DeForest Buckner Talks Return to the 49ers, Reflects on His Time With the Team",
+          "url": "https://www.youtube.com/watch?v=J27DoEbv53Q",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "San Francisco 49ers defensive lineman DeForest Buckner discusses his return to the team and his history with the franchise.",
+          "image": "https://i3.ytimg.com/vi/J27DoEbv53Q/hqdefault.jpg",
+          "video": "J27DoEbv53Q"
+        },
+        {
+          "title": "Bears, Jeffery Simmons DOMINATE Seahawks, 34-17",
+          "url": "https://www.youtube.com/watch?v=YaqVgbNmOrw",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Recap of the Chicago Bears' 34-17 win over the Seattle Seahawks, with Jeffery Simmons and the defense leading the way.",
+          "image": "https://i2.ytimg.com/vi/YaqVgbNmOrw/hqdefault.jpg",
+          "video": "YaqVgbNmOrw"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "GPT-6.1 Terra for Construction — The Best AI at Reading Drawings?",
+          "url": "https://www.youtube.com/watch?v=HoDyKWDVVU8",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tests GPT-6.1 Terra on construction drawings, quantity take-offs, and 3D modelling, comparing results with other models and noting its mistakes.",
+          "image": "https://i1.ytimg.com/vi/HoDyKWDVVU8/hqdefault.jpg",
+          "video": "HoDyKWDVVU8"
+        }
+      ]
+    }
+  ]
+}
