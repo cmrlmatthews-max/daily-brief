@@ -1,0 +1,1021 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Wednesday, November 4, 2026",
+  "generated_at": "2026-11-04T05:00:22-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Wednesday, November 4. Our lead story is the election. Democrats have won full control of Congress, according to NPR News. The wins in the House and Senate return the party to control of both chambers for the first time since 2023. NPR says this deepens the expected friction with President Trump, and calls it a new era of divided government. Now the front page. Anthropic has filed a registration statement on Form S-1 with the Securities and Exchange Commission. It relates to a proposed initial public offering of its Class A common stock. In Georgia, former Atlanta Mayor Keisha Lance Bottoms defeated Republican Rick Jackson. She is the first Democrat elected Georgia governor in more than twenty years. And Iran's chief negotiator said Americans voted no to war. Donald Trump acknowledged the conflict's role in the Republican Party's defeat. Now the sections. In tech, Simon Willison tests a Qwen model on his laptop against a new paper on language models reading and writing neural network weights. Worktrunk, a tool for managing Git worktrees for parallel AI agent workflows, is trending on GitHub. Anthropic also announced an expanded partnership with GSA to bring Claude to all levels of government. In politics, Democrats flipped the Texas Senate seat with James Talarico, and Gina Hinojosa ousted Governor Greg Abbott. In South Carolina, Annie Andrews defeated Senator Darline Graham. The Lever begins a series asking whether Democrats will deliver the change it says voters wanted. In world news, the death toll from the Russian strike on a Ukrainian aid site reached twenty nine, with forty eight still missing. India's navy rescued twenty crew from an Iranian fishing boat hijacked off Somalia. In sports, DeForest Buckner says it is Super Bowl or bust after returning to the 49ers by trade. Houston, seven and one, hosts Minnesota. And Tom Nolan knocked out Renato Moicano at UFC Vegas 123. In Atlanta, Democrats gained control of the Georgia Public Service Commission for the first time in decades. Senator Jon Ossoff won a second term. A civil rights landmark on the Westside has reopened as housing. In architecture, Autom8Labs launched skills that guide AI agents through tasks in Revit and other tools. nCircle Tech launched an AI app builder called nVibe. ArchDaily looks at the Drill Hall in Johannesburg. In science, a study found microplastics in nearly two thirds of corals in a Malaysian marine protected area. NASA shared a photo from the October twenty ninth spacewalk. And hawkmoths have evolved three ways to jam bat sonar. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Democrats win full control of Congress, ushering in a new era of divided government",
+    "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Democrats have won full control of Congress, according to NPR News. The victories in the House and Senate return the party to control of both chambers for the first time since 2023. The report says the result deepens the level of expected friction between Congress and President Trump, and it describes the outcome as a new era of divided government. For a reader following domestic politics, this matters because a Democratic Congress will now face President Trump directly. Many of today's other stories, from Georgia to Texas to South Carolina, are results from the same election night. The politics and Atlanta sections carry those state and local outcomes, and the front page has the Georgia governor's race. The summary gives no seat counts, so the exact margins are still to be confirmed elsewhere.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5644x3755+0+0/resize/5644x3755!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F74%2F5fb6a19f49719ca547f373fd6902%2Fap26154491239623.jpg",
+    "video": null,
+    "headline": "Democrats Win Full Control of Congress",
+    "decks": [
+      "Victories in House and Senate end divided control since 2023",
+      "Friction with President Trump is expected to deepen",
+      "NPR calls it a new era of divided government"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic has filed a registration statement on Form S-1 with the SEC for a proposed initial public offering of its Class A common stock.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "video": null
+    },
+    {
+      "title": "Keisha Lance Bottoms will be Georgia’s next governor in historic win",
+      "url": "https://roughdraftatlanta.com/2026/11/04/keisha-lance-bottoms-georgia-governor-historic-win/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Former Atlanta Mayor Keisha Lance Bottoms beat Republican Rick Jackson to become Georgia's first Democratic governor in more than 20 years.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/keisha-lance-bottoms-rally-obama-ossoff-2026-600x400.webp",
+      "video": null
+    },
+    {
+      "title": "Iran's chief negotiator says Americans voted 'no to war'",
+      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Iran's chief negotiator said Americans voted 'no to war,' and Donald Trump acknowledged the conflict's role in the Republican Party's defeat.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd62/live/d825bb50-d82f-11f1-a701-fddedf244c16.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+          "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison tests a Qwen model on his laptop against a new paper on language models reading and writing neural network weights.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "max-sixty/worktrunk",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Worktrunk is a command-line tool for Git worktree management, built for parallel AI agent workflows, and is trending on GitHub today.",
+          "image": "https://opengraph.githubassets.com/1/max-sixty/worktrunk",
+          "video": null
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic announces an expanded partnership with GSA to bring Claude to all levels of government.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Texas turns blue with U.S. Senate and gubernatorial wins",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6027323/texas-turns-blue-with-u-s-senate-and-gubernatorial-wins",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Democrats flipped the Texas U.S. Senate seat with James Talarico, and Gina Hinojosa ousted Republican Gov. Greg Abbott, according to NPR.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Democrat Annie Andrews wins South Carolina Senate race in major upset",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028579/democrat-annie-andrews-wins-south-carolina-senate-race-in-major-upset",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Democrat Annie Andrews defeated GOP Sen. Darline Graham in South Carolina, in a state President Trump won by nearly 18 points in 2024.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Democrats Won. Let’s Make Sure They Don’t F#*k It Up.",
+          "url": "https://www.levernews.com/democrats-won-now-dont-f-k-it-up/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever opens a series asking whether Democrats will deliver the change it says voters asked for in the midterms.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/DFIUD-Post.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "The death toll from the Russian strike on a Ukrainian aid site reached 29, with 48 still missing, according to the report.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1333+0+0/resize/2000x1333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F00%2Fe7174a5c406193d73990b753ec8d%2Fap26307327730564.jpg",
+          "video": null
+        },
+        {
+          "title": "Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "India's navy rescued 20 crew from an Iranian fishing boat hijacked off Somalia, amid a resurgence of piracy in the region.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5374x3583+0+0/resize/5374x3583!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe2%2Fba%2F5cd335e14641858a2bac61820420%2Fap26305460227873.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Why DeForest Buckner says it's 'Super Bowl or bust' with 49ers",
+          "url": "https://www.espn.com/video/clip/_/id/50374809/why-deforest-buckner-says-super-bowl-bust-49ers",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "DeForest Buckner explains why it is 'Super Bowl or bust' after returning to the 49ers via trade.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/dm_261103_Why_DeForest_Buckner_says_its_Super_Bowl_or_bust_with_49ers/dm_261103_Why_DeForest_Buckner_says_its_Super_Bowl_or_bust_with_49ers.jpg",
+          "video": null
+        },
+        {
+          "title": "Houston takes home win streak into matchup with Minnesota",
+          "url": "http://www.espn.com/nba/preview?gameId=401909930",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Houston, 7-1 and first in the West, hosts Minnesota, 5-3 and eighth, in a matchup of Western Conference teams.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Nolan knocks out Moicano in Round 3",
+          "url": "https://www.espn.com/video/clip/_/id/50344111/nolan-knocks-moicano-round-3",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Tom Nolan knocked out Renato Moicano in Round 3 at UFC Vegas 123, extending his winning streak to six fights.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Democrats gain control of Georgia board that regulates utilities for first time in decades",
+          "url": "https://roughdraftatlanta.com/2026/11/04/democrats-control-georgia-public-service-commission/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Democrats gain control of the Georgia Public Service Commission, which regulates utilities, for the first time in decades.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/georgia-psc-hubbard-edwards-2026-600x480.webp",
+          "video": null
+        },
+        {
+          "title": "U.S. Sen. Jon Ossoff wins reelection in Georgia and coasts to a second term",
+          "url": "https://roughdraftatlanta.com/2026/11/04/jon-ossoff-wins-reelection-georgia-senate/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Sen. Jon Ossoff won a second term in Georgia, defeating Republican Congressman Mike Collins.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/jon-ossoff-rally-south-atlanta-2026-600x400.webp",
+          "video": null
+        },
+        {
+          "title": "Images: Civil rights landmark's conversion to housing has delivered",
+          "url": "https://atlanta.urbanize.city/post/heritage-village-west-lake-project-civil-rights-landmarks-conversion-housing",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Westside civil rights landmark from the Jim Crow era has reopened as housing, with images from Urbanize Atlanta.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-04/Heritage%20Village%20at%20West%20Lake%2C%20January%202025.png?itok=aeprbNr8",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Autom8Labs launches AEC skills for AI agents",
+          "url": "https://aecmag.com/automation/autom8labs-launches-aec-skills-for-ai-agents/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Autom8Labs launches skills that guide AI agents through tasks in Revit, AutoCAD, Grasshopper, 3ds Max and more.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "nCircle Tech launches nVibe AI app builder",
+          "url": "https://aecmag.com/automation/ncircletech-launches-nvibe-ai-app-builder/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "nCircle Tech launches nVibe, an AI app builder where AEC professionals describe a workflow and the platform builds the app.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "The Work of Keeping a Public Building Public: The Drill Hall in Johannesburg",
+          "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily looks at what keeps a public building public after construction, using the Drill Hall in Johannesburg.",
+          "image": "https://images.adsttc.com/media/images/6ae6/28d4/a04f/d001/89cd/45b6/newsletter/the-work-of-keeping-a-public-building-public-keleketla-s-occupation-of-drill-hall-johannesburg_1.jpg?1793468651",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Microplastics pollute nearly two-thirds of corals in Malaysia’s marine protected area, study finds",
+          "url": "https://news.mongabay.com/2026/11/microplastics-pollute-nearly-two-thirds-of-corals-in-malaysias-marine-protected-area-study-finds/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A study found microplastics in the skeletons of nearly two-thirds of corals in a Malaysian marine protected area.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04090518/coral-sampling-by-SCUBA-diving-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "Astronaut and Earth",
+          "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA shares a photo from the Oct. 29 spacewalk, when astronauts installed a new roll-out solar array on the space station.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "How hawkmoths turned their genitals into bat-busting weapons",
+          "url": "https://www.sciencenews.org/article/hawkmoth-genitals-bat-weapon",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Hawkmoths have evolved three distinct ways to make bat-jamming ultrasound using their genitalia, in an arms race with bats.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110326_ED_hawkmoth_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Texas turns blue with U.S. Senate and gubernatorial wins",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6027323/texas-turns-blue-with-u-s-senate-and-gubernatorial-wins",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Democrat James Talarico flipped Texas's U.S. Senate seat and Gina Hinojosa defeated Governor Greg Abbott, according to NPR. Part of the midterm results that gave Democrats control of Congress.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrat Annie Andrews wins South Carolina Senate race in major upset",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6028579/democrat-annie-andrews-wins-south-carolina-senate-race-in-major-upset",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Democrat Annie Andrews defeated Republican Sen. Darline Graham in South Carolina, a state Trump won by nearly 18 points in 2024.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Mike Rogers Earned $420,000 From Firm Now Helping Hegseth Plan Iran War‘s Next Phase",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-senate-michigan-iran-war-hegseth",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports Mike Rogers received $420,000 in board fees from MITRE after leaving Congress, and MITRE is helping Pete Hegseth plan future warfare. Independent reporting on the Iran conflict.",
+              "image": "https://substackcdn.com/image/fetch/$s_!nPVL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41ad8f66-0159-4680-bebd-f54c8f7901fe_5333x3555.jpeg",
+              "video": null
+            },
+            {
+              "title": "Mike Rogers Campaign Spokesperson Is a Registered Agent for Israel, Documents Show",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-campaign-spokesperson",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that a spokesperson for Mike Rogers's Senate campaign is a registered agent for Israel while working on the campaign.",
+              "image": "https://substackcdn.com/image/fetch/$s_!AQVs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7425e0f7-88ca-4c58-b2a4-14d534ee0e3e_4545x3030.jpeg",
+              "video": null
+            },
+            {
+              "title": "Musk’s Half-Billion-Dollar Midterms Bet To Stay Out Of Trouble",
+              "url": "https://www.levernews.com/musks-half-billion-dollar-midterms-bet-to-stay-out-of-trouble/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Elon Musk is spending heavily on the midterms and faces new scrutiny from Congress. Independent reporting on money in politics.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--6-.jpg",
+              "video": null
+            },
+            {
+              "title": "U.S. bombs Iranian island; Israel blocks aid through Rafah; Turkey strikes Al-Shabaab in Somalia",
+              "url": "https://www.dropsitenews.com/p/us-iran-qeshm-gaza-israel-rafah-aid-turkey-somalia-shabaab",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site's daily roundup covers a U.S. strike on an Iranian island, Israel restricting aid through Rafah, and a Turkish strike on Al-Shabaab in Somalia.",
+              "image": "https://substackcdn.com/image/fetch/$s_!C-NM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa71330a2-628a-4beb-ba5d-b1198e059870_9429x5303.heic",
+              "video": null
+            },
+            {
+              "title": "Will The Blue Wave Come For Schumer?",
+              "url": "https://www.levernews.com/would-a-blue-wave-put-schumers-leadership-on-the-line/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever looks at whether progressive wins on Election Day could pressure Senate Democratic leader Chuck Schumer. Relevant to how the new Congress will function.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--5-.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6022215/morning-news-brief",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR's morning brief says Democrats flipped control of the House and Senate, and that Trump blamed others after GOP losses. Core summary of the election result.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
+              "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A short ceasefire in Ukraine's Kherson region let residents return to cafes and shopping. Straight news on daily life during a pause in fighting.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2Ff0%2F0adc6b7e4d569f8d03e0096fc60b%2Funtitled-1350936.jpg",
+              "video": null
+            },
+            {
+              "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+              "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Death toll reached 29 after a Russian strike on a Ukrainian aid site, with 48 still missing. Russia launched 289 drones, 17 ballistic missiles and 59 cruise missiles across nine regions.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1333+0+0/resize/2000x1333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F00%2Fe7174a5c406193d73990b753ec8d%2Fap26307327730564.jpg",
+              "video": null
+            },
+            {
+              "title": "Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia",
+              "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The Indian navy rescued 20 crew from an Iranian fishing boat hijacked off Somalia. The incident followed a resurgence of piracy in the Gulf of Aden and western Indian Ocean.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5374x3583+0+0/resize/5374x3583!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe2%2Fba%2F5cd335e14641858a2bac61820420%2Fap26305460227873.jpg",
+              "video": null
+            },
+            {
+              "title": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+              "url": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Ties between Russia and Japan are at their worst in decades amid the Ukraine war, and Tokyo is seeking more U.S. support. Straight news on regional security.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+              "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A Ethiopian-born U.S. citizen admitted sharing dozens of classified documents with senior Ethiopian officials, which helped in killing Tigray fighters, according to BBC.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bfa5/live/65242520-d810-11f1-bc0e-b5a9e0785e4b.jpg",
+              "video": null
+            },
+            {
+              "title": "Iran's chief negotiator says Americans voted 'no to war'",
+              "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Iran's chief negotiator Mohammed Bagher Ghalibaf said Americans voted 'no to war', and Trump acknowledged the conflict's role in the Republican defeat. Relevant to Iran policy and U.S. politics.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd62/live/d825bb50-d82f-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+              "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The UN peacekeeping mission in Western Sahara ended Sunday after 35 years. Morocco and the Polisario Front both claim the disputed territory.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8351x5567+0+0/resize/8351x5567!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F4e%2Fde1f3e074a53adb6510217f3e291%2Fap26305659609431.jpg",
+              "video": null
+            },
+            {
+              "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+              "url": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Delhi's air quality index reached 377, in the 'very poor' category, as firework restrictions took effect ahead of Diwali.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f657/live/383e2830-d810-11f1-bc0e-b5a9e0785e4b.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 3, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#november-3-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Platform release notes for November 3 cover watermarking of generated text and a Sonnet 4.6 sampling-parameter issue. Relevant to your daily Claude work.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "max-sixty/worktrunk",
+              "url": "https://github.com/max-sixty/worktrunk",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Worktrunk, a git worktree CLI built for parallel AI agent workflows, is trending on GitHub. Useful if you run multiple agent sessions.",
+              "image": "https://opengraph.githubassets.com/1/max-sixty/worktrunk",
+              "video": null
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "claude-mem captures agent session activity, compresses it with AI, and injects context into later sessions. Directly relevant to Claude Code workflows.",
+              "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+              "video": null
+            },
+            {
+              "title": "heydamir/unslop",
+              "url": "https://github.com/heydamir/unslop",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A Claude skill that turns AI-looking UI into a designed interface. Popular on GitHub and a practical tool for Claude-built front ends.",
+              "image": "https://opengraph.githubassets.com/1/heydamir/unslop",
+              "video": null
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Matt Pocock's agent skills for real engineering workflows, trending on GitHub. Relevant to your interest in building with Claude.",
+              "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its partnership with GSA to bring Claude to all levels of U.S. government. The announcement contains no further details in the summary.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of Class A common stock. Core company news for a Claude user.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "floci-io/floci",
+              "url": "https://github.com/floci-io/floci",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Floci is a free, local AWS emulator trending on GitHub, useful for developing cloud-connected tools without a cloud account.",
+              "image": "https://opengraph.githubassets.com/1/floci-io/floci",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Why DeForest Buckner says it's 'Super Bowl or bust' with 49ers",
+              "url": "https://www.espn.com/video/clip/_/id/50374809/why-deforest-buckner-says-super-bowl-bust-49ers",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "DeForest Buckner says the goal is a Super Bowl after his trade back to the 49ers. Direct news on a team you follow.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/dm_261103_Why_DeForest_Buckner_says_its_Super_Bowl_or_bust_with_49ers/dm_261103_Why_DeForest_Buckner_says_its_Super_Bowl_or_bust_with_49ers.jpg",
+              "video": null
+            },
+            {
+              "title": "Boston Celtics vs. Houston Rockets: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50365182/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Game highlights from the Boston Celtics vs. Houston Rockets matchup. Relevant to your Rockets interest.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/59120439-b144-4241-bd0f-1ffd4413acda/59120439-b144-4241-bd0f-1ffd4413acda.jpg",
+              "video": null
+            },
+            {
+              "title": "Houston takes home win streak into matchup with Minnesota",
+              "url": "http://www.espn.com/nba/preview?gameId=401909930",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (7-1) enter a matchup with the Timberwolves on a win streak, sitting first in the West. Preview of the next Rockets game.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "The 49ers Sign DL Beal Jr. to Practice Squad",
+              "url": "https://www.49ers.com/news/the-49ers-sign-dl-beal-jr-to-practice-squad",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers signed DL Robert Beal Jr. to the practice squad. Minor roster move for a team you follow.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/newrmrolctv3jwotvmqy.png",
+              "video": null
+            },
+            {
+              "title": "The 49ers Sign WR KhaDarel Hodge to Practice Squad",
+              "url": "https://www.49ers.com/news/the-49ers-sign-wr-khadarel-hodge-to-practice-squad",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers signed WR KhaDarel Hodge to the practice squad. Minor roster move for a team you follow.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/x1fxynziiz97t5evqmzc.png",
+              "video": null
+            },
+            {
+              "title": "Luana Santos defeats Yana Santos by unanimous decision at UFC Fight Night",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50343853/luana-santos-wins-4th-straight-match-defeats-yana-santos",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Luana Santos won a unanimous decision over Yana Santos at UFC Fight Night, her fourth straight win. Results from the UFC.",
+              "image": "https://a.espncdn.com/photo/2026/1101/r1739316_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Nolan knocks out Moicano in Round 3",
+              "url": "https://www.espn.com/video/clip/_/id/50344111/nolan-knocks-moicano-round-3",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tom Nolan knocked out Renato Moicano in Round 3 at UFC Vegas 123, extending his winning streak to six fights.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY/dm_261031_MMA_Highlight_Nolan_knocks_out_Moicano_in_Round_3_20261101_PH_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Red Sox, Diamondbacks lead Gold Glove winners with 3 apiece",
+              "url": "https://www.espn.com/mlb/story/_/id/50354739/2026-gold-glove-award-winners",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Matt Olson of Atlanta and Christian Walker of Houston each won their fourth Gold Glove, with Red Sox and Diamondbacks players leading the winners. Braves and Rockets-area news.",
+              "image": "https://a.espncdn.com/photo/2026/1102/r1739930_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Keisha Lance Bottoms will be Georgia’s next governor in historic win",
+              "url": "https://roughdraftatlanta.com/2026/11/04/keisha-lance-bottoms-georgia-governor-historic-win/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Keisha Lance Bottoms won the Georgia governor's race, becoming the first Democrat elected governor in more than 20 years and the first Black woman governor in the nation.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/keisha-lance-bottoms-rally-obama-ossoff-2026-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "U.S. Sen. Jon Ossoff wins reelection in Georgia and coasts to a second term",
+              "url": "https://roughdraftatlanta.com/2026/11/04/jon-ossoff-wins-reelection-georgia-senate/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Jon Ossoff won reelection to the U.S. Senate, defeating Republican Mike Collins.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/jon-ossoff-rally-south-atlanta-2026-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Democrats gain control of Georgia board that regulates utilities for first time in decades",
+              "url": "https://roughdraftatlanta.com/2026/11/04/democrats-control-georgia-public-service-commission/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Democrats Peter Hubbard and Shelia Edwards won seats, giving Democrats control of the Georgia Public Service Commission for the first time in decades. This board regulates utilities.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/georgia-psc-hubbard-edwards-2026-600x480.webp",
+              "video": null
+            },
+            {
+              "title": "Reader poll: What's your take on Atlanta's $9B express toll-lanes plan?",
+              "url": "https://atlanta.urbanize.city/post/I-285-express-toll-lanes-reader-poll-9-billion-construction-plan",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta asks readers for their view on the $9 billion express toll-lanes plan for north Atlanta. Directly relevant to Atlanta transportation and development.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/three%20phases%20I-285%20East%20Express%20Lanes%20.png?itok=0vTvKsZS",
+              "video": null
+            },
+            {
+              "title": "Images: Civil rights landmark's conversion to housing has delivered",
+              "url": "https://atlanta.urbanize.city/post/heritage-village-west-lake-project-civil-rights-landmarks-conversion-housing",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Heritage Village, a Westside landmark tied to Jim Crow-era Atlanta, has been converted to housing and reopened. Relevant to Atlanta architecture and development.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-04/Heritage%20Village%20at%20West%20Lake%2C%20January%202025.png?itok=aeprbNr8",
+              "video": null
+            },
+            {
+              "title": "Downtown Atlanta finally, officially has a dog park",
+              "url": "https://atlanta.urbanize.city/post/dog-park-woodruff-downtown-images-finally-officially-has-dog-park",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Downtown Atlanta now has an official off-leash dog park in one of its historic greenspaces, per Urbanize Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Woodruff%20Park%20DOG%20PARK%20OPENING.jpg?itok=Eaae_4sg",
+              "video": null
+            },
+            {
+              "title": "ATL exurban project; Medley’s leasing win; Interlock books; more!",
+              "url": "https://atlanta.urbanize.city/post/atl-exurban-project-medley-leasing-interlock-books",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Hillpointe has opened a 312-unit garden-style multifamily project in the I-75 corridor between Atlanta and Chattanooga. Exurban development news.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Pointe%20Grand%20Cassville%20Cartersville%202.jpg?itok=01XDtHuR",
+              "video": null
+            },
+            {
+              "title": "Former ICE detainee spreads the message of Folkston’s hunger strike",
+              "url": "https://saportareport.com/a-former-ice-detainee-spreads-the-message-of-folkstons-hunger-strike/sections/reports/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "A former ICE detainee describes the hunger strike at the Folkston Processing Center in Georgia, after a detainee died in custody on Oct. 23.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/matthew-ansley-ihl2Q5F-VYA-unsplash-scaled.jpg?fit=1024%2C656&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Autom8Labs launches AEC skills for AI agents",
+              "url": "https://aecmag.com/automation/autom8labs-launches-aec-skills-for-ai-agents/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Autom8Labs launched AEC skills that guide AI agents through tasks in Revit, AutoCAD, Grasshopper and 3ds Max. Directly relevant to your AI and BIM interests.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "nCircle Tech launches nVibe AI app builder",
+              "url": "https://aecmag.com/automation/ncircletech-launches-nvibe-ai-app-builder/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "nCircle Tech launched nVibe, an AI app builder for AEC professionals. Relevant to AI tools in architecture practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "The Work of Keeping a Public Building Public: The Drill Hall in Johannesburg",
+              "url": "https://www.archdaily.com/1187924/the-work-of-keeping-a-public-building-public-the-drill-hall-in-johannesburg",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "An essay on how a public building in Johannesburg stays public after construction, through the activities and relationships it supports.",
+              "image": "https://images.adsttc.com/media/images/6ae6/28d4/a04f/d001/89cd/45b6/newsletter/the-work-of-keeping-a-public-building-public-keleketla-s-occupation-of-drill-hall-johannesburg_1.jpg?1793468651",
+              "video": null
+            },
+            {
+              "title": "Understory House / Gluck+",
+              "url": "https://www.archdaily.com/1187903/understory-house-gluck-plus",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Understory House by Gluck+ sits in the Catskill foothills, suspended in the midstory of the forest. A residential design with a strong site response.",
+              "image": "https://images.adsttc.com/media/images/6ae4/f532/bfbd/4c00/01ee/5cfd/newsletter/1902-PRO-01-HANA-DSC07618.jpg?1793389965",
+              "video": null
+            },
+            {
+              "title": "Funamoto Dental Clinic / STUDIO ALUC",
+              "url": "https://www.archdaily.com/1187279/funamoto-dental-clinic-studio-aluc",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "STUDIO ALUC designed a dental clinic in Uchinada, Japan, responding to Sea of Japan winds and Hokuriku weather. Architecture from a coastal climate.",
+              "image": "https://images.adsttc.com/media/images/6ad8/e595/3271/8400/01d0/d9f0/newsletter/Funamoto_Dental_Clinic_high-2.jpg?1792599492",
+              "video": null
+            },
+            {
+              "title": "The Vineyard HOUSE? / Lauti Esain",
+              "url": "https://www.archdaily.com/1188001/the-vineyard-house-lauti-esain",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Lauti Esain's personal account of designing and building his own house over several years, from groundbreaking to completion. Relevant to home-building interests.",
+              "image": "https://images.adsttc.com/media/images/6adf/4130/3271/8400/01d0/e9ed/newsletter/13.jpg?1793016146",
+              "video": null
+            },
+            {
+              "title": "House Around a Column / fala",
+              "url": "https://www.archdaily.com/1187983/house-around-a-column-fala",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House Around a Column by fala works within a compact, skewed urban plot using a set of geometric rules. Residential design with a clear method.",
+              "image": "https://images.adsttc.com/media/images/6ae8/f8ee/62dc/0e01/8725/786e/newsletter/casa-ao-redor-de-uma-coluna-fala_23.jpg?1793653036",
+              "video": null
+            },
+            {
+              "title": "Hotel Amares / Cel-Ras Arquitectura",
+              "url": "https://www.archdaily.com/1187993/amares-cel-ras-arquitectura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Hotel Amares is a beachfront hotel in the Dominican Republic designed within a tropical coastal landscape. Architecture case study.",
+              "image": "https://images.adsttc.com/media/images/6ae9/a52d/bcbc/3500/01ae/b0d1/newsletter/JPG_HD_Amares_color-0062.jpg?1793697101",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "How hawkmoths turned their genitals into bat-busting weapons",
+              "url": "https://www.sciencenews.org/article/hawkmoth-genitals-bat-weapon",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Hawkmoths have evolved three distinct ways to make ultrasound with their genitalia to jam bat sonar. A clear example of evolutionary arms-race research.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110326_ED_hawkmoth_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "A drug-free diabetes treatment? An implant lowers blood sugar in mice",
+              "url": "https://www.sciencenews.org/article/diabetes-device-experiment-blood-sugar",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "A wireless implant lowered blood sugar and helped mice lose weight on demand. The work is in mice and could one day inform diabetes treatment.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102826_II_diabetes-treatment_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Astronomy Picture of the Day features the galaxy IC 342, with an explanation of the image. Good for your space interest.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/ic342.png?w=2048&h=1395&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Astronaut and Earth",
+              "url": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA photo from the Oct. 29 spacewalk by CSA astronaut Joshua Kutryk, above the South Atlantic as crews installed a new solar array.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Microplastics pollute nearly two-thirds of corals in Malaysia’s marine protected area, study finds",
+              "url": "https://news.mongabay.com/2026/11/microplastics-pollute-nearly-two-thirds-of-corals-in-malaysias-marine-protected-area-study-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A study finds microplastics embedded in the skeletons of corals in a Malaysian marine protected area. Relevant to your ocean interests.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04090518/coral-sampling-by-SCUBA-diving-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "High expectations but no agreement on Antarctic marine protection, krill fishing",
+              "url": "https://news.mongabay.com/2026/11/high-expectations-but-no-agreement-on-antarctic-marine-protection-krill-fishing/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The Antarctic Commission reached no agreement on new marine protected areas or krill-fishing rules at its annual meeting. Relevant to ocean governance.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/03115956/Penguin_in_Antarctica_jumping_out_of_the_water-edit-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Human-wildlife coexistence with wolves in Europe requires a holistic approach",
+              "url": "https://news.mongabay.com/podcast/2026/11/human-wildlife-coexistence-with-wolves-in-europe-requires-a-holistic-approach/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay examines how wolves recovered across Western and Central Europe and what coexistence with people requires. Nature and wildlife story.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/30014002/1920px-Loup_gris_Canis_lupus_-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+              "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Johnson Space Center marks 65 years, with a look at its role from Mercury through Artemis. Houston space history.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/s63-11625.jpg?w=1536",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Snack Right Super Foods, Inc. dba Brad's Raw Chips Recalls Brad's Crunchy Kale & Veggie Chips Due to Potential Thallium Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+      "published": "2026-11-02T17:19:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "The salvation of man is through love and in love.",
+    "who": "Viktor Frankl",
+    "about": "Austrian psychiatrist and Holocaust survivor",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 109–93 vs BOS",
+      "last_date": "Nov 2",
+      "next": "Wed Nov 4 vs MIN",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909916/celtics-rockets",
+      "recent": [
+        "W 109–93 vs BOS · Nov 2",
+        "W 119–98 vs OKC · Oct 31",
+        "L 111–116 at DAL · Oct 30"
+      ],
+      "upcoming": [
+        "Wed Nov 4 vs MIN",
+        "Sat Nov 7 at PHX",
+        "Mon Nov 9 vs DEN"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 63069,
+    "output_tokens": 10260
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Trump Is Totally Detached From Reality",
+          "url": "https://www.youtube.com/watch?v=2Rae4VI7VY4",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Sam Seder and guests discuss former President Trump's statements and his approach to reality, as covered in the Majority Report's commentary.",
+          "image": "https://i3.ytimg.com/vi/2Rae4VI7VY4/hqdefault.jpg",
+          "video": "2Rae4VI7VY4"
+        },
+        {
+          "title": "BP 2026 Midterm Election LIVE COVERAGE!",
+          "url": "https://www.youtube.com/watch?v=7GXwxSgnftk",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal, Saagar, Ryan and Emily break down the 2026 US midterm elections in a live coverage episode.",
+          "image": "https://i4.ytimg.com/vi/7GXwxSgnftk/hqdefault.jpg",
+          "video": "7GXwxSgnftk"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "DeForest Bucker Speaks with Media | 49ers",
+          "url": "https://www.youtube.com/watch?v=SZf3HqfY3jg",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers defensive lineman DeForest Buckner speaks to media after arriving in the Bay Area following his trade.",
+          "image": "https://i4.ytimg.com/vi/SZf3HqfY3jg/hqdefault.jpg",
+          "video": "SZf3HqfY3jg"
+        },
+        {
+          "title": "Johnny Walker vs Mick Parkin | FULL FIGHT | UFC Vegas 124",
+          "url": "https://www.youtube.com/watch?v=08n1cUfer0Q",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight video of Johnny Walker versus Mick Parkin from UFC Vegas 124, ahead of Walker's main event.",
+          "image": "https://i1.ytimg.com/vi/08n1cUfer0Q/hqdefault.jpg",
+          "video": "08n1cUfer0Q"
+        },
+        {
+          "title": "Kayla Harrison vs Julianna Peña | FULL FIGHT | Polymarket UFC 334",
+          "url": "https://www.youtube.com/watch?v=uI-16Z5c3Ds",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight video of Kayla Harrison versus Julianna Peña from UFC 334, ahead of Harrison's title defense against Amanda Nunes.",
+          "image": "https://i2.ytimg.com/vi/uI-16Z5c3Ds/hqdefault.jpg",
+          "video": "uI-16Z5c3Ds"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Claude 2.0 for Construction — 12 New Features Explained",
+          "url": "https://www.youtube.com/watch?v=fs4PGGZmp_0",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of twelve new features in the rebuilt Claude desktop app, demonstrated through a warehouse construction tender example.",
+          "image": "https://i3.ytimg.com/vi/fs4PGGZmp_0/hqdefault.jpg",
+          "video": "fs4PGGZmp_0"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "The Insane Plan To Fix Kenya’s Geography",
+          "url": "https://www.youtube.com/watch?v=tx3LlBlEm9w",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Looks at a plan to address Kenya's population concentration in the south and the geography behind it.",
+          "image": "https://i1.ytimg.com/vi/tx3LlBlEm9w/hqdefault.jpg",
+          "video": "tx3LlBlEm9w"
+        },
+        {
+          "title": "What Caused this TERRIFYING Flaming Fog?! | Strange Evidence | Science Channel",
+          "url": "https://www.youtube.com/watch?v=bfHRS6NAQFo",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Examines a mysterious fog and explosion, using modern tech to investigate what caused them.",
+          "image": "https://i3.ytimg.com/vi/bfHRS6NAQFo/hqdefault.jpg",
+          "video": "bfHRS6NAQFo"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Can't Believe 4 Ingredients Make THIS!",
+          "url": "https://www.youtube.com/watch?v=K-WfZ-VaKgc",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Shows how store-bought pizza dough, French onion soup mix, butter and cheese combine into a baked dish.",
+          "image": "https://i4.ytimg.com/vi/K-WfZ-VaKgc/hqdefault.jpg",
+          "video": "K-WfZ-VaKgc"
+        }
+      ]
+    }
+  ]
+}
