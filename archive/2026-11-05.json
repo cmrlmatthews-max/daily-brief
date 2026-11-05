@@ -1,0 +1,1016 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, November 5, 2026",
+  "generated_at": "2026-11-05T05:00:27-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, November 5. Here is what matters today. Our lead story is from Georgia. Democrats have won control of the Georgia House of Representatives for the first time in 22 years. That is according to reporting from the Atlanta Journal-Constitution, relayed by Rough Draft Atlanta. The win was part of a so-called blue wave that has transformed Georgia's politics overnight. Democrats swept the top seats. Fuller results should come in over the next few days. Now the front page. In Hong Kong, activist Joshua Wong has been jailed for ten years. He is thirty years old. He is one of hundreds of people detained under the national security law. In football, Brandon Aiyuk has filed to be reinstated. His agent says he plans to report to the San Francisco 49ers on Friday. In architecture technology, Qonic has launched AI agents inside its BIM platform. They let users find, check, fix and create BIM data using plain language. Now the sections. In tech and AI, Anthropic says it is committing a portion of its shares to a new Anthropic Public Benefit Fund. Also, a trending tool called claude-mem stores what an agent does and feeds context back into later sessions. In politics, NPR's morning brief covers Democratic agenda planning and ballots still being counted in some races. The Lever reports that voters in deep-red areas approved a plan to ban corporate political spending. In world news, Kyiv says bodycam video shows a double-tap Russian bombing of a village that killed at least forty people. Separately, the BBC reports unusually wild typhoon weather across East Asia, linked to El Niño. In sports, the Houston Rockets lost to the Minnesota Timberwolves, one hundred seventeen to one hundred seven. Kyle Shanahan says Jauan Jennings told him he is happy with the Vikings. And Atlanta's Matt Olson won his fourth Gold Glove. In Atlanta, a Microsoft-backed pocket park in East Point has set its official opening date. The Atlanta Regional Commission also launched a major economic mobility effort called Opportunity Rising. In architecture, Mach9 added aerial LiDAR and photogrammetry support to its AI CAD software. AEC Magazine also has a Q and A on making AI-built software safe and accountable. In science and nature, NASA unveiled a new experimental aircraft called the X-70 Fractal. NASA leaders also shared plans for returning Americans to the Moon in 2028. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Report: Democrats take Georgia House of Representatives",
+    "url": "https://roughdraftatlanta.com/2026/11/04/democrats-win-georgia-house/",
+    "source": "Rough Draft Atlanta",
+    "topic": "Atlanta",
+    "note": "Democrats have won control of the Georgia House of Representatives for the first time in 22 years. The report comes from Rough Draft Atlanta, which cites reporting by the Atlanta Journal-Constitution. The outcome was part of what the summary calls a so-called blue wave. That wave, it says, has transformed Georgia's politics overnight, with Democrats sweeping the top seats. For a reader in Atlanta, the change matters because the state House is where much of the state's legislation is shaped, and control of the chamber has not changed hands in more than two decades. The item is a short report and is attributed to the newspaper, so details such as seat counts are not given here. It is worth following as fuller results and analysis come in over the coming days.",
+    "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260626_StateCapitol_AnsleyKelly_004-400x600.jpg",
+    "video": null,
+    "headline": "Democrats Take Georgia House After 22 Years",
+    "decks": [
+      "Democrats win the chamber for the first time in 22 years",
+      "Report cites the Atlanta Journal-Constitution",
+      "Part of a wave that swept Georgia's top seats"
+    ]
+  },
+  "front": [
+    {
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Hong Kong activist Joshua Wong, 30, was jailed for 10 years, one of hundreds detained under the national security law.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg",
+      "video": null
+    },
+    {
+      "title": "Brandon Aiyuk files to be reinstated, plans to report to 49ers on Friday",
+      "url": "https://www.espn.com/nfl/story/_/id/50378691/brandon-aiyuk-applies-reinstated-plans-report-49ers",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "Brandon Aiyuk has filed for reinstatement, and his agent says he plans to report to the 49ers on Friday.",
+      "image": "https://a.espncdn.com/photo/2026/0608/r1669910_1296x729_16-9.jpg",
+      "video": null
+    },
+    {
+      "title": "Qonic AI launches inside BIM platform",
+      "url": "https://aecmag.com/bim/qonic-ai-launches-inside-bim-platform/",
+      "source": "AEC Magazine",
+      "topic": "Architecture",
+      "note": "Qonic has launched AI agents inside its BIM platform that let users find, check, fix and create model data using plain language.",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic says it is committing a portion of its shares to a new Public Benefit Fund, whose stake grows as the company grows.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+          "video": null
+        },
+        {
+          "title": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending tool that stores and compresses what an agent does, then feeds context back into later sessions, including Claude Code ones.",
+          "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+          "video": null
+        },
+        {
+          "title": "datasette-agent 0.5a0",
+          "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Datasette Agent adds a panel that keeps the agent chat beside Datasette pages, useful for anyone building personal tools with LLMs.",
+          "image": "https://static.simonwillison.net/static/2026/datasette-agent-panel.webp",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Morning news brief",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6023116/morning-news-brief",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR's morning brief covers Democratic agenda planning, ballots still being counted in some races, and Trump's comments on Republican midterm losses.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "It’s A Bad Day For Dark Money And Data Centers",
+          "url": "https://www.levernews.com/its-a-bad-day-for-dark-money-and-data-centers/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that voters in deep-red areas approved a plan to ban corporate political spending, which it calls a possible blueprint.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/Screenshot-2026-11-04-at-4.48.44---PM.png",
+          "video": null
+        },
+        {
+          "title": "Israel's 11-Day Escalated Assault on Hebron",
+          "url": "https://www.dropsitenews.com/p/hebron-forced-displacement-israeli-operation",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports thousands of Palestinians faced forced displacement during an 11-day Israeli military operation in Hebron.",
+          "image": "https://substackcdn.com/image/fetch/$s_!8uzr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe7cc0f3-034c-4aa1-8bff-64bcce05ba86_6720x4480.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Kyiv says bodycam video shows a double-tap Russian bombing of a village that killed at least 40 people, with about 30 more possibly under rubble.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png",
+          "video": null
+        },
+        {
+          "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+          "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "BBC reports unusually wild typhoon weather across East Asia in recent months, linked to El Niño warming in the Pacific.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/30ea/live/eaa602a0-d75b-11f1-8f6b-d71817972456.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Dosunmu scores 21 and Kuminga sparks late surge in Timberwolves’ 117-107 win over Rockets",
+          "url": "http://www.espn.com/nba/recap?gameId=401909930",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets lost 117-107 to the Timberwolves, who pulled away in the fourth quarter behind Dosunmu's 21 points and Kuminga.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Niners' Kyle Shanahan says Jauan Jennings told him he's 'happy' with Vikings",
+          "url": "https://www.espn.com/nfl/story/_/id/50382895/niners-shanahan-says-jennings-told-happy-vikings",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan says Jauan Jennings told him he is happy with the Vikings after a FaceTime talk.",
+          "image": "https://a.espncdn.com/photo/2026/1101/r1739639_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Red Sox, Diamondbacks lead Gold Glove winners with 3 apiece",
+          "url": "https://www.espn.com/mlb/story/_/id/50354739/2026-gold-glove-award-winners",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "Matt Olson of Atlanta won his fourth Gold Glove at first base.",
+          "image": "https://a.espncdn.com/photo/2026/1102/r1739930_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Microsoft-backed pocket park project sets official opening date",
+          "url": "https://atlanta.urbanize.city/post/microsoft-east-point-pocket-park-project-opening-date-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Microsoft-backed pocket park in East Point has set its official opening date, days away.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/East%20Point%20Ben%20Hill%20Road%20Pocket%20Park%20overview.png?itok=CJDA0ldZ",
+          "video": null
+        },
+        {
+          "title": "‘Metro Atlanta’s time has come:’ ARC launches major economic mobility initiative, Opportunity Rising",
+          "url": "https://saportareport.com/metro-atlantas-time-has-come-arc-launches-major-economic-mobility-initiative-opportunity-rising/uncategorized/delaneytarr/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "The Atlanta Regional Commission launched Opportunity Rising, an economic mobility coalition, at the annual State of the Region.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/annaroach2-scaled.jpeg?fit=1024%2C683&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Sandy Springs to replace 20-year-old system with Salesforce",
+          "url": "https://roughdraftatlanta.com/2026/11/04/sandy-springs-approves-salesforce-contract/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Sandy Springs approved contracts with Salesforce and StackNexus to replace a 20-year-old resident services system with an AI-integrated one.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260619_SandySpringsCityHall_AnsleyKelly_004-600x400.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Mach9 adds aerial LiDAR and photogrammetry support",
+          "url": "https://aecmag.com/civil-engineering/mach9-adds-aerial-lidar-and-photogrammetry-support/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Mach9's AI CAD software now supports aerial LiDAR and photogrammetry for survey workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "The home brew estate: Q&A with AMC Bridge",
+          "url": "https://aecmag.com/ai/the-home-brew-estate-qa-with-amc-bridge/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AMC Bridge Q&A on how AI makes AEC software easy to build, but not necessarily safe, supportable or accountable.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Homes Around Trees / architectureRED",
+          "url": "https://www.archdaily.com/1187952/homes-around-trees-architecturered",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily profiles architectureRED's housing in India, which responds to land scarcity and market pressure by building homes around trees.",
+          "image": "https://images.adsttc.com/media/images/6ae8/9487/62dc/0e01/8725/753d/newsletter/homes-around-trees-architecturered_1.jpg?1793627329",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA unveiled the X-70 Fractal, a new experimental aircraft meant to speed up testing of advanced aviation technologies.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/nasa-x-70-image.png?w=1672",
+          "video": null
+        },
+        {
+          "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+          "url": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA leaders shared the path toward returning Americans to the lunar surface in 2028 under accelerated Artemis plans.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "How a ‘living breakwater’ in Hawai‘i aims to create coral habitat and protect coastline",
+          "url": "https://news.mongabay.com/2026/11/how-a-living-breakwater-in-hawaii-aims-to-create-coral-habitat-and-protect-coastline/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A living breakwater in Hawai'i aims to create coral habitat and protect coastline after Hurricane Lowell's waves.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04123831/a-hybrid-reef-system--768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "American voters demand end to Iran war as Democrats sweep midterms",
+              "url": "https://www.dropsitenews.com/p/us-trump-midterms-democrats-senate-house-iran",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that American voters are demanding an end to the Iran war as Democrats sweep the midterms, with the daily brief covering related developments.",
+              "image": "https://substackcdn.com/image/fetch/$s_!zUaw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ddd8f21-b848-4676-a449-51a73f1642f2_4006x2441.heic",
+              "video": null
+            },
+            {
+              "title": "Democrats Took Congress. Can Populists Make It Count?",
+              "url": "https://www.levernews.com/democrats-took-congress-can-populists-make-it-count/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's post-election analysis looks at Texas flipping, El-Sayed's win and what the new Congress could do with populist pressure.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--7-.jpg",
+              "video": null
+            },
+            {
+              "title": "The Myth Of Red Texas Just Died",
+              "url": "https://www.levernews.com/the-myth-of-red-texas-just-died/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on Texas voters returning an anti-oligarchy movement that helped swing Democrats into power, a shift with statewide implications.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--8-.jpg",
+              "video": null
+            },
+            {
+              "title": "It’s A Bad Day For Dark Money And Data Centers",
+              "url": "https://www.levernews.com/its-a-bad-day-for-dark-money-and-data-centers/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that deep-red voters approved a plan to ban corporate political spending, a ballot result on campaign money worth following.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/Screenshot-2026-11-04-at-4.48.44---PM.png",
+              "video": null
+            },
+            {
+              "title": "Mike Rogers Earned $420,000 From Firm Now Helping Hegseth Plan Iran War‘s Next Phase",
+              "url": "https://www.dropsitenews.com/p/mike-rogers-senate-michigan-iran-war-hegseth",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that former Rep. Mike Rogers received board fees from MITRE, a firm now helping Pentagon planning for the Iran war's next phase.",
+              "image": "https://substackcdn.com/image/fetch/$s_!nPVL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41ad8f66-0159-4680-bebd-f54c8f7901fe_5333x3555.jpeg",
+              "video": null
+            },
+            {
+              "title": "Democrats will take control of Congress next year. What does it mean for the economy?",
+              "url": "https://www.npr.org/2026/11/05/nx-s1-6029304/democrats-will-take-control-of-congress-next-year-what-does-it-mean-for-the-economy",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports on what Democratic control of Congress means for the economy, with analysts saying the overall outlook should be steady.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump blames GOP candidates and Fox News for midterm losses",
+              "url": "https://www.npr.org/2026/11/05/nx-s1-6028845/trump-blames-gop-candidates-and-fox-news-for-midterm-losses",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that President Trump has blamed GOP candidates and Fox News for the midterm losses.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Musk’s Half-Billion-Dollar Midterms Bet To Stay Out Of Trouble",
+              "url": "https://www.levernews.com/musks-half-billion-dollar-midterms-bet-to-stay-out-of-trouble/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Elon Musk faces new congressional scrutiny after spending heavily on the midterms.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--6-.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+              "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that Hong Kong pro-democracy figure Joshua Wong, 30, was jailed for 10 years under the national security law, among hundreds detained under it.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+              "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports Joshua Wong received a 10-year sentence for his second conviction under the Beijing-imposed national security law.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4831x3221+0+0/resize/4831x3221!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F35%2Ff545dd5f49fa81ca441084046476%2Fap26307388068594.jpg",
+              "video": null
+            },
+            {
+              "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+              "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that typhoons have battered East Asia as El Niño warms the Pacific, with unusually wild weather over recent months.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/30ea/live/eaa602a0-d75b-11f1-8f6b-d71817972456.jpg",
+              "video": null
+            },
+            {
+              "title": "For Ukraine's Kherson region, a short ceasefire meant a momentary return to normal life",
+              "url": "https://www.npr.org/2026/11/03/g-s1-151238/ukraine-russia-ceasefire-oleshky-kherson",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports that a short ceasefire in Ukraine's Kherson region let residents return briefly to normal life, with cafes and shops busy.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2Ff0%2F0adc6b7e4d569f8d03e0096fc60b%2Funtitled-1350936.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+              "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that Ukraine says bodycam video shows a Russian double-tap bombing that killed at least 40 people in a village attack on Monday.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png",
+              "video": null
+            },
+            {
+              "title": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+              "url": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports on Japan's diplomatic bind as ties with Russia reach their worst in decades and Tokyo seeks more support from Washington.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
+              "url": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports on how governments in Kyiv, Moscow, Tehran and Tel Aviv are reacting to the Democratic midterm win and a flipped Congress.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7132x4755+0+0/resize/7132x4755!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2Fe7%2F6bf4ec7a43cf9693e3010dbda1c3%2Fap26308464195125.jpg",
+              "video": null
+            },
+            {
+              "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+              "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that Vice-President Vance publicly blamed the Iran war for the Republican election defeat, a rare break with the sitting president.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3c74/live/1d4cf850-d8e5-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 2, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#november-2-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Messages API now supports message threads, keeping conversation state on the server so later requests send only new messages. Relevant to anyone building agent loops with Claude.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 3, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#november-3-2026",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Platform release notes for November 3 cover the text watermark on generated content and a Sonnet 4.6 issue with non-default sampling settings. Useful for anyone calling the API.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "datasette-agent 0.5a0",
+              "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's datasette-agent 0.5a0 adds a chat panel that sits beside Datasette pages, pairing with datasette-apps for prompting over data.",
+              "image": "https://static.simonwillison.net/static/2026/datasette-agent-panel.webp",
+              "video": null
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "claude-mem gives Claude Code and other agents persistent context across sessions by compressing and reinjecting past work. A trending tool for anyone building with agents.",
+              "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem",
+              "video": null
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "mattpocock/skills is a trending set of agent skills for structured, spec-driven engineering with coding agents, a practical read for a tool builder.",
+              "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+              "video": null
+            },
+            {
+              "title": "mromidev/claude-animated-shorts",
+              "url": "https://github.com/mromidev/claude-animated-shorts",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A free Claude skill that generates animated story shorts using three.js and Remotion, a popular new repo that shows what skills can do beyond code.",
+              "image": "https://opengraph.githubassets.com/1/mromidev/claude-animated-shorts",
+              "video": null
+            },
+            {
+              "title": "NVIDIA/auto-ontology",
+              "url": "https://github.com/NVIDIA/auto-ontology",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "NVIDIA's auto-ontology is a Python framework for graph-based reasoning layers over data, aimed at more reliable retrieval for LLM and agent workflows.",
+              "image": "https://opengraph.githubassets.com/1/NVIDIA/auto-ontology",
+              "video": null
+            },
+            {
+              "title": "floci-io/floci",
+              "url": "https://github.com/floci-io/floci",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "floci is a free, lightweight local AWS emulator run with docker compose, useful for testing cloud-connected tools without an account.",
+              "image": "https://opengraph.githubassets.com/1/floci-io/floci",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Brandon Aiyuk files to be reinstated, plans to report to 49ers on Friday",
+              "url": "https://www.espn.com/nfl/story/_/id/50378691/brandon-aiyuk-applies-reinstated-plans-report-49ers",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Brandon Aiyuk has filed for reinstatement and plans to report to the 49ers on Friday, according to ESPN, ending his suspension.",
+              "image": "https://a.espncdn.com/photo/2026/0608/r1669910_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Niners' Kyle Shanahan says Jauan Jennings told him he's 'happy' with Vikings",
+              "url": "https://www.espn.com/nfl/story/_/id/50382895/niners-shanahan-says-jennings-told-happy-vikings",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Kyle Shanahan says Jauan Jennings is happy with the Vikings after a FaceTime talk, settling why he did not return to San Francisco.",
+              "image": "https://a.espncdn.com/photo/2026/1101/r1739639_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning Report: 49ers Roster Moves, DL DeForest Buckner Talks Return 🗞️",
+              "url": "https://www.49ers.com/news/morning-reports/morning-report-49ers-roster-moves-dl-deforest-buckner-talks-return",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers' morning report covers DeForest Buckner's talk about his return from injury, relevant to the team's defensive line.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/iihkfrnj2ukkurfm65ec.jpg",
+              "video": null
+            },
+            {
+              "title": "Minnesota Timberwolves vs. Houston Rockets: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50385130/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Highlights from the Timberwolves' 117-107 win over the Houston Rockets, a result from the reader's team.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/aaa6f976-5f10-4fce-96ca-84c131eee524/aaa6f976-5f10-4fce-96ca-84c131eee524.jpg",
+              "video": null
+            },
+            {
+              "title": "Dosunmu scores 21 and Kuminga sparks late surge in Timberwolves’ 117-107 win over Rockets",
+              "url": "http://www.espn.com/nba/recap?gameId=401909930",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Ayo Dosunmu scored 21 and Jonathan Kuminga led a fourth-quarter run as Minnesota beat Houston 117-107 on Wednesday.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Red Sox, Diamondbacks lead Gold Glove winners with 3 apiece",
+              "url": "https://www.espn.com/mlb/story/_/id/50354739/2026-gold-glove-award-winners",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Matt Olson of Atlanta won his fourth Gold Glove at first base, part of the league's Gold Glove announcements.",
+              "image": "https://a.espncdn.com/photo/2026/1102/r1739930_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Rankings, contract projections: Top 50 2026-27 MLB free agents",
+              "url": "https://www.espn.com/mlb/story/_/id/50359247/rankings-contract-projections-top-mlb-free-agents",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Kiley McDaniel ranks and projects contracts for the top 50 MLB free agents, showing what the Braves could face this winter.",
+              "image": "https://a.espncdn.com/photo/2026/1030/mlb_ranking_the_top_50_free_agents_16x9_608x342.jpg",
+              "video": null
+            },
+            {
+              "title": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
+              "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Houston and Philadelphia's fast starts have shortened their NBA title odds, according to updated odds for the Rockets.",
+              "image": "https://a.espncdn.com/photo/2026/1104/r1741195_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Report: Democrats take Georgia House of Representatives",
+              "url": "https://roughdraftatlanta.com/2026/11/04/democrats-win-georgia-house/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Democrats have won control of the Georgia House for the first time in 22 years, according to reporting from the Atlanta Journal-Constitution.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260626_StateCapitol_AnsleyKelly_004-400x600.jpg",
+              "video": null
+            },
+            {
+              "title": "Magic City fosters civic joy and celebration on historic election night",
+              "url": "https://saportareport.com/magic-city-fosters-a-night-of-civic-joy-and-celebration-on-historic-election-night/sections/reports/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport describes the election night celebration at Magic City after Keisha Lance Bottoms was elected Georgia's first Black female governor.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_2202-scaled.jpg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "New Fulton County leaders echo Bottoms’ election-night message: Everyone matters",
+              "url": "https://saportareport.com/new-fulton-county-leaders-echo-bottoms-election-night-message-everyone-matters/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Mo Ivory, who won 75% of the vote, will lead the Fulton County Board of Commissioners from January with a promise of results.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0375.jpg?fit=1024%2C758&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Microsoft-backed pocket park project sets official opening date",
+              "url": "https://atlanta.urbanize.city/post/microsoft-east-point-pocket-park-project-opening-date-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Microsoft-backed pocket park in East Point has set an official opening date, a new greenspace for the southside city.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/East%20Point%20Ben%20Hill%20Road%20Pocket%20Park%20overview.png?itok=CJDA0ldZ",
+              "video": null
+            },
+            {
+              "title": "Downtown Atlanta finally, officially has a dog park",
+              "url": "https://atlanta.urbanize.city/post/dog-park-woodruff-downtown-images-finally-officially-has-dog-park",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Downtown Atlanta has officially opened an off-leash dog park in one of its historic greenspaces.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Woodruff%20Park%20DOG%20PARK%20OPENING.jpg?itok=Eaae_4sg",
+              "video": null
+            },
+            {
+              "title": "Growth spurt on tap for Sandy Springs’ made-from-scratch downtown",
+              "url": "https://atlanta.urbanize.city/post/city-springs-sandy-springs-second-phase-made-scratch-downtown-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Sandy Springs plans a growth phase for its made-from-scratch City Springs downtown, a development story close to the reader's field.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/recent%20aerial%20City%20Springs%2C%20Sandy%20Springs%20%20.png?itok=L950hrY5",
+              "video": null
+            },
+            {
+              "title": "Images: Huff Road development enters construction home stretch",
+              "url": "https://atlanta.urbanize.city/post/novel-blandtown-huff-road-development-images-enters-construction-home-stretch",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Huff Road multifamily project in Blandtown is entering its construction home stretch, two years after demolition began.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/NOVEL%20Blandtown%20October%202026%203.jpg?itok=ATnTdy6q",
+              "video": null
+            },
+            {
+              "title": "Reader poll: What's your take on Atlanta's $9B express toll-lanes plan?",
+              "url": "https://atlanta.urbanize.city/post/I-285-express-toll-lanes-reader-poll-9-billion-construction-plan",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta asks readers for their view on the $9 billion express toll-lanes plan for north Atlanta, a major transportation decision.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/three%20phases%20I-285%20East%20Express%20Lanes%20.png?itok=0vTvKsZS",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Qonic AI launches inside BIM platform",
+              "url": "https://aecmag.com/bim/qonic-ai-launches-inside-bim-platform/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Qonic AI launches agents inside a BIM platform that find, check, fix and create model data through plain language, directly relevant to BIM work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Mach9 adds aerial LiDAR and photogrammetry support",
+              "url": "https://aecmag.com/civil-engineering/mach9-adds-aerial-lidar-and-photogrammetry-support/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Mach9 adds aerial LiDAR and photogrammetry support to its AI CAD software, combining feature extraction with point cloud editing for survey workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "The home brew estate: Q&A with AMC Bridge",
+              "url": "https://aecmag.com/ai/the-home-brew-estate-qa-with-amc-bridge/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AMC Bridge discusses building AEC software with AI and keeping it safe, supportable and accountable, a useful read on home-brewed tools.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "House in Beloura / ARX Portugal Arquitectos",
+              "url": "https://www.archdaily.com/1035360/house-in-beloura-arx-portugal-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ARX Portugal's House in Beloura responds to a sea horizon and privacy needs, a residential design with clear site reasoning.",
+              "image": "https://images.adsttc.com/media/images/68fa/b1e6/66e5/d600/015e/8b35/newsletter/0014.jpg?1761260141",
+              "video": null
+            },
+            {
+              "title": "French Creek Workshops House / Wittman Estes",
+              "url": "https://www.archdaily.com/1035169/french-creek-workshops-house-wittman-estes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Wittman Estes' French Creek house sits beside a wetland as a retreat for a retired couple, designed around seasonal comfort.",
+              "image": "https://images.adsttc.com/media/images/68f2/69bd/9662/4104/5dae/ca68/newsletter/french-creek-workshops-house-wittman-estes_25.jpg?1760717339",
+              "video": null
+            },
+            {
+              "title": "Tabasco 267 Apartment / CAAM Arquitectos",
+              "url": "https://www.archdaily.com/1188090/tabasco-267-apartment-caam-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CAAM Arquitectos renovated a 90 m² Mexico City apartment by using existing conditions as the raw material for the redesign.",
+              "image": "https://images.adsttc.com/media/images/6ae8/619e/bcbc/3500/01ae/ad80/newsletter/_S__CAAM_TABASCO_267_ZAICKZ_MOZ_01.jpg?1793614258",
+              "video": null
+            },
+            {
+              "title": "Sewing Atelier Studio / Atelier 77 + Matéria Base",
+              "url": "https://www.archdaily.com/1034969/sewing-atelier-studio-atelier-77-plus-materia-base",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Atelier 77 builds a sewing studio on a platform over a 200-year-old stone retaining wall in Rio de Janeiro's Santa Teresa.",
+              "image": "https://images.adsttc.com/media/images/68e8/f28c/7f27/f83e/d9e7/d82b/newsletter/atelie-de-costura-atelier-77-plus-materia-base_23.jpg?1760096918",
+              "video": null
+            },
+            {
+              "title": "Homes Around Trees / architectureRED",
+              "url": "https://www.archdaily.com/1187952/homes-around-trees-architecturered",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "architectureRED's Homes Around Trees explores urban housing in India and the pressures of land scarcity on the idea of home.",
+              "image": "https://images.adsttc.com/media/images/6ae8/9487/62dc/0e01/8725/753d/newsletter/homes-around-trees-architecturered_1.jpg?1793627329",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows Enceladus in silhouette, a striking image of Saturn's icy moon.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/PIA17144EnceladusPandora.png?w=982&h=575&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+              "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's SPLICE navigation payload flew on an Alta-X drone, showing autonomous guidance to safe landing sites for future Moon and planetary missions.",
+              "image": "https://images-assets.nasa.gov/image/AFRC2026-0152-30/AFRC2026-0152-30~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+              "url": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's update on accelerating Artemis aims to return Americans to the lunar surface in 2028.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Artificial mangrove roots offer temporary shield for Thailand’s eroding coastline",
+              "url": "https://news.mongabay.com/short-article/2026/11/artificial-mangrove-roots-offer-temporary-shield-for-thailands-eroding-coastline/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports that artificial mangrove roots are being tested near Bangkok to slow severe erosion along the Gulf of Thailand coast.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04102237/mangrove-thailand-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "How a ‘living breakwater’ in Hawai‘i aims to create coral habitat and protect coastline",
+              "url": "https://news.mongabay.com/2026/11/how-a-living-breakwater-in-hawaii-aims-to-create-coral-habitat-and-protect-coastline/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A living breakwater in Hawai'i aims to build coral habitat and protect coastline after Hurricane Lowell's waves.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04123831/a-hybrid-reef-system--768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Scientists call on Ecuador to stop the rising trafficking of Galápagos iguanas",
+              "url": "https://news.mongabay.com/2026/11/scientists-call-on-ecuador-to-stop-the-rising-trafficking-of-galapagos-iguanas/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Scientists are calling on Ecuador to stop trafficking of endemic Galápagos marine iguanas after 32 were seized at Quito airport.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/04115037/Marine-iguana-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "A drug-free diabetes treatment? An implant lowers blood sugar in mice",
+              "url": "https://www.sciencenews.org/article/diabetes-device-experiment-blood-sugar",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "A wireless implant lowered blood sugar and helped mice lose weight on demand, a research step toward diabetes and obesity treatment.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102826_II_diabetes-treatment_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Melting permafrost has birthed a new type of large landslide",
+              "url": "https://www.sciencenews.org/article/melting-permafrost-new-type-landslide",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports melting permafrost has produced a new type of large landslide, slabs of frozen ground sliding downhill after thawing from below.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/102626_NO_frozenlandslides_main.jpg?w=800",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Snack Right Super Foods, Inc. dba Brad's Raw Chips Recalls Brad's Crunchy Kale & Veggie Chips Due to Potential Thallium Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+      "published": "2026-11-02T17:19:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Compared with what we ought to be, we are only half-awake.",
+    "who": "William James",
+    "about": "American philosopher and psychologist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 107–117 vs MIN",
+      "last_date": "Nov 4",
+      "next": "Sat Nov 7 at PHX",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909930/timberwolves-rockets",
+      "recent": [
+        "L 107–117 vs MIN · Nov 4",
+        "W 109–93 vs BOS · Nov 2",
+        "W 119–98 vs OKC · Oct 31"
+      ],
+      "upcoming": [
+        "Sat Nov 7 at PHX",
+        "Mon Nov 9 vs DEN",
+        "Wed Nov 11 vs GS"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66877,
+    "output_tokens": 9973
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "DATA Centers 0-41 AT BALLOT BOX",
+          "url": "https://www.youtube.com/watch?v=UGrNGM_SuZU",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss data centers losing local ballot measures in the midterms, drawing on election results from the previous night.",
+          "image": "https://i2.ytimg.com/vi/UGrNGM_SuZU/hqdefault.jpg",
+          "video": "UGrNGM_SuZU"
+        },
+        {
+          "title": "Breaking Points REACTS TO HISTORIC DEM VICTORIES",
+          "url": "https://www.youtube.com/watch?v=pAYoOSJobpw",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points reacts to Democratic midterm wins and what they mean, based on the show's commentary on the election results.",
+          "image": "https://i1.ytimg.com/vi/pAYoOSJobpw/hqdefault.jpg",
+          "video": "pAYoOSJobpw"
+        },
+        {
+          "title": "Trump, MAGA SELF IMPLODE After MASSIVE LOSS",
+          "url": "https://www.youtube.com/watch?v=8OPxecFpTaU",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Hosts discuss Trump and allies' reaction to their midterm losses, in a commentary segment on the election outcome.",
+          "image": "https://i1.ytimg.com/vi/8OPxecFpTaU/hqdefault.jpg",
+          "video": "8OPxecFpTaU"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Bosa, Warner, and McCaffrey Talk Buckner's return, Staying healthy, and the Raiders Matchup | 49ers",
+          "url": "https://www.youtube.com/watch?v=SdlmgukWvdc",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Bosa, Warner and McCaffrey discuss DeForest Buckner's return, injury recovery after the bye week, and the upcoming Raiders matchup.",
+          "image": "https://i4.ytimg.com/vi/SdlmgukWvdc/hqdefault.jpg",
+          "video": "SdlmgukWvdc"
+        },
+        {
+          "title": "Kyle Shanahan Talks DeForest Buckner Trade, WR Search Ahead of Deadline | 49ers",
+          "url": "https://www.youtube.com/watch?v=pb6-G63jccQ",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan explains the Buckner trade, the wide receiver search before the trade deadline, and injury updates ahead of Sunday's game.",
+          "image": "https://i1.ytimg.com/vi/pb6-G63jccQ/hqdefault.jpg",
+          "video": "pb6-G63jccQ"
+        },
+        {
+          "title": "\"I WILL Knock him out!\" | UFC Vegas 124 Media Day",
+          "url": "https://www.youtube.com/watch?v=3kFQSL4UpUE",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Waldo Cortes Acosta and Johnny Walker answer press questions ahead of their UFC Vegas 124 fight.",
+          "image": "https://i4.ytimg.com/vi/3kFQSL4UpUE/hqdefault.jpg",
+          "video": "3kFQSL4UpUE"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How to Use Microsoft Copilot for Construction",
+          "url": "https://www.youtube.com/watch?v=rQynvHYzqNo",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "A walkthrough of using Microsoft Copilot's Chat, Cowork and Copilot Studio on sample construction projects, including SharePoint project documents.",
+          "image": "https://i3.ytimg.com/vi/rQynvHYzqNo/hqdefault.jpg",
+          "video": "rQynvHYzqNo"
+        },
+        {
+          "title": "How to Save a Revit File to an Older Version (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=dDPIVNc1TQ0",
+          "source": "Balkan Architect",
+          "topic": "Architecture & Building",
+          "note": "Shows a tool for saving a Revit 2027 project back to Revit 2023 and checks whether the model holds up after conversion.",
+          "image": "https://i1.ytimg.com/vi/dDPIVNc1TQ0/hqdefault.jpg",
+          "video": "dDPIVNc1TQ0"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Collaborate on artifacts in Claude",
+          "url": "https://www.youtube.com/watch?v=kJA3fQnntpY",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Shows how to share Claude artifacts with teammates and set viewer, editor, commenter and contributor access levels.",
+          "image": "https://i4.ytimg.com/vi/kJA3fQnntpY/hqdefault.jpg",
+          "video": "kJA3fQnntpY"
+        }
+      ]
+    }
+  ]
+}
