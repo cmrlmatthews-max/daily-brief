@@ -1,0 +1,1057 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, November 6, 2026",
+  "generated_at": "2026-11-06T05:00:21-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, November 6. Our lead story is about the markets. Technology stocks fell sharply after the midterm elections. The loss in value was about two trillion dollars. The tech-heavy Nasdaq dropped more than five percent. Investors reacted with fear that a Democratic Congress, and states across the country, would crack down on artificial intelligence and data centers. This is a market reaction. It is not a new law. Now the front page. A judge has blocked construction of Trump's arch for fourteen days. The order came just after a federal panel approved the project late Thursday. In Paraguay, lawmakers voted to impeach President Santiago Peña minutes after he resigned. A digital bank tied to his government collapsed, and millions of people's savings were frozen. The Lever reports on a 181-page plan urging Democrats to put tech executives, Wall Street landlords and price gougers under oath. Corporate Democrats are pushing back. And in Atlanta, vertical construction has begun on the next Buckhead Village tower, after deep foundation work wrapped. Now the sections. In tech, Claude Console has a new beta IP allowlist. It limits where a leaked API key can be used. In politics, The Lever says the Democratic landslide strengthens Hakeem Jeffries' bid for speaker. In world news, Pope Leo the Fourteenth began a three-nation Latin America tour in Uruguay. That comes three weeks after lung cancer surgery. In sports, the Rockets, now seven and two, play the Suns, who are two and five. The 49ers are getting wide receivers back from injury as the trade deadline nears. In Atlanta, Atlanta Housing is close to its goal of ten thousand affordable homes. It reports nine thousand seven hundred seventy-six created or preserved since July 2022. In architecture, Autom8Labs launched skills that guide AI agents through tasks in Revit, AutoCAD and Grasshopper. In science, lab octopuses showed the moves they use to squeeze through tiny holes. The finding could inspire soft robot designs. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+    "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Technology stocks fell sharply after the midterm elections, with a loss in value of about two trillion dollars. The tech-heavy Nasdaq dropped more than 5 percent. According to the report, investors reacted with fear that a Democratic Congress, along with states across the country, would crack down on artificial intelligence and data centers. The story is about a market reaction, not a policy change. It describes what investors expect, not any law that has passed. For a reader who builds tools with AI and follows the industry, it shows how closely markets now link the future of AI companies to election results and regulation. It is worth watching whether the fear turns into specific proposals on AI or data centers in the months ahead. The summary does not say which companies lost the most or which measures might come first.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3575x2378+0+0/resize/3575x2378!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F8a%2F246fd1f04d62b6c6e0b904447992%2Fgettyimages-2303241458.jpg",
+    "video": null,
+    "headline": "Tech stocks lose $2 trillion on AI fears",
+    "decks": [
+      "Nasdaq falls more than 5 percent after the midterm elections",
+      "Investors fear a Democratic Congress and states will target AI",
+      "Worry centers on possible limits for AI and data centers"
+    ]
+  },
+  "front": [
+    {
+      "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A judge ordered a 14-day halt to construction of Trump's arch just after a federal panel approved it late Thursday.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5722x3815+0+0/resize/5722x3815!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fad%2F519ddb20452ca88d55aff277fc30%2Fgettyimages-2303244303.jpg",
+      "video": null
+    },
+    {
+      "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Paraguay's lawmakers voted to impeach President Santiago Peña minutes after he resigned, following the collapse of a digital bank that froze millions of people's savings.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5850x3900+0+0/resize/5850x3900!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2Fc3%2F2acc7a024feb8dfff1833ba2e996%2Fap26308842915508.jpg",
+      "video": null
+    },
+    {
+      "title": "The Fight Over Dems’ Subpoena List",
+      "url": "https://www.levernews.com/the-fight-over-dems-subpoena-list/",
+      "source": "The Lever",
+      "topic": "Politics",
+      "note": "The Lever reports on a 181-page plan urging Democrats to put tech executives, Wall Street landlords and price gougers under oath, with pushback from corporate Democrats.",
+      "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--11-.jpg",
+      "video": null
+    },
+    {
+      "title": "Crane Watch: Vertical climb begins for next Buckhead tower",
+      "url": "https://atlanta.urbanize.city/post/elyse-buckhead-condo-tower-vertical-climb-begins-crane-watch",
+      "source": "Urbanize Atlanta",
+      "topic": "Atlanta",
+      "note": "Vertical construction has begun on the next Buckhead Village tower after Kolter Urban Development finished deep foundation work.",
+      "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Elyse%20Buckhead%20construction%20October%202026%203.png?itok=J1YMRff0",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — November 5, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#ip-allowlisting",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Claude Console now has a beta IP allowlist, limiting where a leaked API key can be used. Useful for anyone running personal tools on the API.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending GitHub repo packages a Claude Code setup as a set of role-based tools, relevant to anyone building with coding agents.",
+          "image": "https://opengraph.githubassets.com/1/garrytan/gstack",
+          "video": null
+        },
+        {
+          "title": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Trending skills repo from Matt Pocock shares agent skills for everyday engineering work, a possible source of ideas for your own agent setups.",
+          "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The Blue Wave Might Have Washed Away Progressives’ Leverage",
+          "url": "https://www.levernews.com/did-the-blue-wave-wash-away-progressives-leverage/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever says the Democratic landslide strengthens Hakeem Jeffries' bid for speaker and may reduce progressive insurgents' bargaining power.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--13-.jpg",
+          "video": null
+        },
+        {
+          "title": "Voters under 30 helped drive Tuesday's blue wave",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030627/voters-under-30-helped-drive-tuesdays-blue-wave",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports that voters under 30 backed Democrats at much higher rates than in 2024, a key part of the midterm result.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "GOP infighting begins; Civil-society groups propose delaying fight over Iran war until 2027; Saudi-Syria defense deal",
+          "url": "https://www.dropsitenews.com/p/gop-infighting-trump-hegseth-civil-society-iran-saudi-syria-defense",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site's daily covers GOP infighting, a proposal to delay the Iran war fight until 2027, and a Saudi-Syria defense deal.",
+          "image": "https://substackcdn.com/image/fetch/$s_!KbCT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4042a78-bdf7-449c-abb6-971b29de70c3_8381x5588.heic",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "After cancer surgery, Pope Leo embarks on Latin America trip",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Pope Leo XIV began a three-nation Latin America tour in Uruguay, three weeks after lung cancer surgery.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7102x4734+0+0/resize/7102x4734!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fc6%2Faed69d4f4f5b93b8f124f571db12%2Fap26309594274044.jpg",
+          "video": null
+        },
+        {
+          "title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A six-day pause from the Russian-occupied city of Oleshky was announced as the US administration pushes for an agreement to end the war in Ukraine.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4943x3295+0+0/resize/4943x3295!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F48%2F47%2F2b0ce1bb4a2d829d15fd15e5bab2%2Fgettyimages-2303676947.jpg",
+          "video": null
+        },
+        {
+          "title": "Somalia's top court rejects president's term extension amid political crisis",
+          "url": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Somalia's top court rejected the president's term extension, putting next year's first nationwide elections since 1969 in doubt.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/679b/live/77438af0-d9b1-11f1-bbc7-9574ed12e2df.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Phoenix plays Houston in conference showdown",
+          "url": "http://www.espn.com/nba/preview?gameId=401909943",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets, 7-2 and third in the West, face the 2-5 Suns in a conference game.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909943.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Where the 49ers stand at WR ahead of Week 9 and the trade deadline",
+          "url": "https://www.espn.com/video/clip/_/id/50394711/where-49ers-stand-wr-ahead-week-9-trade-deadline",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "A look at the 49ers' wide receivers returning from injury as the trade deadline nears.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Niners_WRs_IA/dm_261105_Niners_WRs_IA.jpg",
+          "video": null
+        },
+        {
+          "title": "Olson nominated for Silver Slugger, seeks 2nd win with Braves",
+          "url": "https://www.mlb.com/braves/news/2026-silver-slugger-award-finalists",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "Matt Olson is nominated for a Silver Slugger, a Braves item for the offseason.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/wv5gzxiistlapslthvqo.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Cobb County home development sells out—interest rates be damned",
+          "url": "https://atlanta.urbanize.city/post/marietta-cobb-county-home-development-sells-out-interest-rates-be-damned",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Cobb County home development near Marietta sold out even as high interest rates keep much of metro Atlanta's housing market stagnant.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Freestone%20Station%20Holbrook%20Reserve%20Hillside%20farmhouse-great.png?itok=62uHEEAB",
+          "video": null
+        },
+        {
+          "title": "Atlanta Housing nears 10,000 affordable homes goal as redevelopment projects advance",
+          "url": "https://saportareport.com/atlanta-housing-nears-10000-affordable-homes-goal-as-redevelopment-projects-advance/columnists/gabi-hart/gabriella-hart/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Atlanta Housing reports 9,776 affordable homes created or preserved since July 2022, close to its 10,000-home goal.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-3.jpeg?fit=1024%2C766&ssl=1",
+          "video": null
+        },
+        {
+          "title": "MARTA: We're prepared for massive downtown concerts all week",
+          "url": "https://atlanta.urbanize.city/post/marta-usher-chris-brown-five-concerts-prepared-massive-downtown-weekend",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "MARTA says it is prepared for large downtown concerts this week, after the escalator collapse that followed a 2025 stadium concert.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-06/MARTA%20Station%20World%20Cup%20Atlanta%208_IMG_0419.JPG?itok=7UKu868c",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Autom8Labs launches AEC skills for AI agents",
+          "url": "https://aecmag.com/automation/autom8labs-launches-aec-skills-for-ai-agents/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Autom8Labs launched AEC skills that guide AI agents through tasks in Revit, AutoCAD, Grasshopper and 3ds Max, directly relevant to BIM work.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "LightYX connects layout and verification",
+          "url": "https://aecmag.com/construction/lightyx-connects-layout-and-verification/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "LightYX combines laser-guided layout, verification and visual documentation in one connected workflow.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/11/LightYX2.jpg",
+          "video": null
+        },
+        {
+          "title": "Backyard Townhouses / Behin Ha",
+          "url": "https://www.archdaily.com/1188061/backyard-townhouses-behin-ha",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Behin Ha's Jersey City project restores a nearly 150-year-old house and adds three townhouses on a stalled demolition site.",
+          "image": "https://images.adsttc.com/media/images/6aeb/1ba1/1f37/4900/010d/103b/newsletter/Behin_Ha_-_11_Beacon_Avenue_-_PH_F_08_rev_-_photo___StudioSZ___Justin_Szeremeta_LR_3000_PX.jpg?1793792956",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "How octopuses squeeze through tiny openings, step by step",
+          "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Lab octopuses used specific moves to squeeze through tiny holes, a finding that could inspire soft robot designs.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_nb_octopus-squeeze_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Record-low temperature created on China’s space station",
+          "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Atoms on China's space station reached about 10 trillionths of a kelvin, a record-low temperature helped by reduced gravity effects.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_EC_coldest-temp_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "India repatriates seized orangutan, raising hopes for five more",
+          "url": "https://news.mongabay.com/short-article/2026/11/india-repatriates-seized-orangutan-raising-hopes-for-five-more/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A juvenile orangutan seized in Mumbai in 2024 was returned to Indonesia, raising hopes for five more.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06091523/8842369283_700f24853d_4k-1200x800-1-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "The Blue Wave Might Have Washed Away Progressives’ Leverage",
+              "url": "https://www.levernews.com/did-the-blue-wave-wash-away-progressives-leverage/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Democrats' midterm landslide strengthened Hakeem Jeffries's bid for House speaker and weakened progressive leverage, even as Senate allies challenge Chuck Schumer.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--13-.jpg",
+              "video": null
+            },
+            {
+              "title": "The Fight Over Dems’ Subpoena List",
+              "url": "https://www.levernews.com/the-fight-over-dems-subpoena-list/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on a 181-page Democratic plan urging subpoenas for tech executives, Wall Street landlords and price gougers, and pushback from corporate Democrats.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--11-.jpg",
+              "video": null
+            },
+            {
+              "title": "Big Tech Lost The Election. Now Comes The Gaslighting.",
+              "url": "https://www.levernews.com/big-tech-lost-the-election-now-comes-the-gaslighting/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that as Democrats prepare to investigate Silicon Valley, the tech industry's lobby is pushing back on voters' rejection of Big Tech in the election.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Big-Tech-Lost-The-Election.-Now-Comes-The-Gaslighting..png",
+              "video": null
+            },
+            {
+              "title": "Voters under 30 helped drive Tuesday's blue wave",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6030627/voters-under-30-helped-drive-tuesdays-blue-wave",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports voters under 30 voted Democratic at much higher rates than in 2024, helping drive the midterm results.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Encircled and Besieged, Taiz City Is a Refuge for Displaced Yemenis Fleeing War",
+              "url": "https://www.dropsitenews.com/p/taiz-yemen-displaced-ansarallah-saudi-siege",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports over 50,000 people have arrived in Taiz city in Yemen in recent weeks as fighting rages around it, according to local officials.",
+              "image": "https://substackcdn.com/image/fetch/$s_!i0Eg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3de6d2cd-cc2e-49c8-8885-87b29db9d886_3802x2688.jpeg",
+              "video": null
+            },
+            {
+              "title": "The Blue Dogs Were Once Majority Makers—This Cycle They Haven't Barked",
+              "url": "https://www.dropsitenews.com/p/blue-dogs-midterms-spending-democrats",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports the center-right Blue Dogs are largely absent from midterm spending, despite once being pitched as a winning battleground coalition.",
+              "image": "https://substackcdn.com/image/fetch/$s_!KLT_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F929e3572-c9e5-4599-9e87-ac86cb8cd87d_6466x4312.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A federal judge blocked construction of Trump's arch for 14 days shortly after a federal panel approved it.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5722x3815+0+0/resize/5722x3815!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fad%2F519ddb20452ca88d55aff277fc30%2Fgettyimages-2303244303.jpg",
+              "video": null
+            },
+            {
+              "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+              "url": "https://www.npr.org/2026/11/05/nx-s1-6031719/north-carolina-democrats-flip-house-seats-republican-districts",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports North Carolina Democrats flipped several House seats in districts redrawn in 2023 to favor Republicans.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2Fef%2Fa25ad9054b3d939aa5dd496f3862%2Fgettyimages-2303012466.jpg",
+              "video": null
+            },
+            {
+              "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+              "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Paraguay's lawmakers impeached President Santiago Peña minutes after his resignation, as a digital bank tied to his government collapsed and froze millions of people's savings.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5850x3900+0+0/resize/5850x3900!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2Fc3%2F2acc7a024feb8dfff1833ba2e996%2Fap26308842915508.jpg",
+              "video": null
+            },
+            {
+              "title": "After cancer surgery, Pope Leo embarks on Latin America trip",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Pope Leo XIV begins a three-nation Latin America trip in Uruguay, three weeks after lung cancer surgery that had put the trip in question.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7102x4734+0+0/resize/7102x4734!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fc6%2Faed69d4f4f5b93b8f124f571db12%2Fap26309594274044.jpg",
+              "video": null
+            },
+            {
+              "title": "'Several victims' after bus crashes in France, officials say",
+              "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Several people were reported as victims after a bus left the road and hit a tree in a ditch in France, with students involved, officials say.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
+              "video": null
+            },
+            {
+              "title": "Somalia's top court rejects president's term extension amid political crisis",
+              "url": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Somalia's top court rejected the president's term extension, leaving the country's first nationwide elections since 1969, due next year, in doubt.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/679b/live/77438af0-d9b1-11f1-bbc7-9574ed12e2df.jpg",
+              "video": null
+            },
+            {
+              "title": "Tanzanian opposition leader found guilty of incitement",
+              "url": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A Tanzanian opposition leader was found guilty of incitement and acquitted of treason after being detained since April last year.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c804/live/6a70d320-d8e7-11f1-8a29-751f921d505b.jpg",
+              "video": null
+            },
+            {
+              "title": "Macau jails pro-democracy campaigner in city's first national security case",
+              "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A Macau court sentenced pro-democracy campaigner Au Kam San to 12 years and six months for subversion, the city's first national security case.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg",
+              "video": null
+            },
+            {
+              "title": "Hong Kong activist Joshua Wong is sentenced to 10 more years in prison",
+              "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Hong Kong activist Joshua Wong was sentenced to 10 more years in prison in his second conviction under the national security law.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4831x3221+0+0/resize/4831x3221!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0a%2F35%2Ff545dd5f49fa81ca441084046476%2Fap26307388068594.jpg",
+              "video": null
+            },
+            {
+              "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports satellite images suggest digging and new buildings near Iran missile bases, with imagery taken in November.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5589/live/461d3e00-d879-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 5, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#ip-allowlisting",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Console now supports an IP allowlist in beta, refusing requests from addresses not on the list, which limits where a leaked API key can be used. Useful for anyone building on the Claude Platform.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 5, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#admin-api-sign-out",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Admins can now sign a Claude Enterprise member out of Claude everywhere via the Admin API, in beta. The member can sign in again later.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement with the SEC for its proposed initial public offering of Class A common stock.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic announced an expanded partnership with the GSA to bring Claude to all levels of government.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "NVIDIA/auto-ontology",
+              "url": "https://github.com/NVIDIA/auto-ontology",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "NVIDIA's Auto Ontology is a Python framework for graph-based semantic reasoning layers that aim to make LLM and agent queries more reliable and explainable.",
+              "image": "https://opengraph.githubassets.com/1/NVIDIA/auto-ontology",
+              "video": null
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Matt Pocock's repository of agent skills for engineering workflows, trending on GitHub, relevant to building software tools with coding agents.",
+              "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+              "video": null
+            },
+            {
+              "title": "garrytan/gstack",
+              "url": "https://github.com/garrytan/gstack",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "gstack configures Claude Code with a set of role-based tools, a trending repo for anyone building personal tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/garrytan/gstack",
+              "video": null
+            },
+            {
+              "title": "vercel-labs/agent-desktop",
+              "url": "https://github.com/vercel-labs/agent-desktop",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "vercel-labs agent-desktop gives AI agents computer use through the OS accessibility tree rather than screenshots, trending on GitHub.",
+              "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-desktop",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Minnesota Timberwolves vs. Houston Rockets: Game Highlights",
+              "url": "https://www.espn.com/video/clip/_/id/50385130/game-highlights",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Game highlights from the Minnesota Timberwolves versus Houston Rockets matchup.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/aaa6f976-5f10-4fce-96ca-84c131eee524/aaa6f976-5f10-4fce-96ca-84c131eee524.jpg",
+              "video": null
+            },
+            {
+              "title": "Phoenix plays Houston in conference showdown",
+              "url": "http://www.espn.com/nba/preview?gameId=401909943",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Houston (7-2) hosts Phoenix (2-5) in a Western Conference matchup, with the Rockets off to a fast start.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909943.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
+              "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Bobby Marks lists 12 players on expiring contracts whose decisions could shape the trade deadline and summer 2027, relevant to Rockets watchers.",
+              "image": "https://a.espncdn.com/photo/2026/1104/nba_bmarks-allstar-contracts2_16x9.jpg",
+              "video": null
+            },
+            {
+              "title": "Jonny Parsons: 'Definitely look up to Manny Pacquiao'",
+              "url": "https://www.espn.com/video/clip/_/id/50394446/definitely-look-manny-pacquiao",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC fighter Jonny Parsons returns to the Octagon for the first time since July 2023, his first bout in over three years.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/Int_261105_MMA_Interview_Jonny_Parsons_Definitely_look_up_to_Manny_Pacquiao_2026116/Int_261105_MMA_Interview_Jonny_Parsons_Definitely_look_up_to_Manny_Pacquiao_2026116.jpg",
+              "video": null
+            },
+            {
+              "title": "The Philippine legend who keeps Jonny Parsons going",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50394210/ufc-fight-night-cortes-acosta-vs-walker-philippine-legend-keeps-jonny-parsons-going",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Jonny Parsons says a Philippine historical story carries personal meaning for him before each fight, as he returns to the Octagon.",
+              "image": "https://a.espncdn.com/photo/2026/1106/r1741824_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Where the 49ers stand at WR ahead of Week 9 and the trade deadline",
+              "url": "https://www.espn.com/video/clip/_/id/50394711/where-49ers-stand-wr-ahead-week-9-trade-deadline",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Nick Wagoner examines which injured wide receivers the 49ers are getting back ahead of Week 9 and the trade deadline.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Niners_WRs_IA/dm_261105_Niners_WRs_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning Report: Head Coach Kyle Shanahan Talks Trade Deadline and More 🗞️",
+              "url": "https://www.49ers.com/news/morning-reports/morning-report-head-coach-kyle-shanahan-talks-trade-deadline-and-more",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Kyle Shanahan discusses the trade deadline and other 49ers news in the morning report.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/wjelyhybazutsdslmncn.jpg",
+              "video": null
+            },
+            {
+              "title": "Grading bold 2026 season predictions for all 30 MLB teams",
+              "url": "https://www.espn.com/mlb/story/_/id/50359998/grading-bold-2026-season-predictions",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Braves news: a look back at how the team's 2026 season predictions held up, with implications for 2027.",
+              "image": "https://a.espncdn.com/photo/2026/1102/r1740166_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Crane Watch: Vertical climb begins for next Buckhead tower",
+              "url": "https://atlanta.urbanize.city/post/elyse-buckhead-condo-tower-vertical-climb-begins-crane-watch",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Kolter Urban Development's next Buckhead tower has finished deep foundation work and begun its vertical climb, adding to the Buckhead Village skyline.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Elyse%20Buckhead%20construction%20October%202026%203.png?itok=J1YMRff0",
+              "video": null
+            },
+            {
+              "title": "Brookhaven voters approve property tax relief for seniors and disabled homeowners",
+              "url": "https://roughdraftatlanta.com/2026/11/05/brookhaven-voters-approve-senior-tax-relief/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Brookhaven voters approved a property tax reduction for qualifying seniors and disabled homeowners, starting January 1, 2027.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260528_BrookhavenCityHall_AnsleyKelly_002-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Making history, Mo Ivory outlines her vision for Fulton County in first post-election interview",
+              "url": "https://saportareport.com/making-history-mo-ivory-outlines-her-vision-for-fulton-county-in-first-post-election-interview/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Mo Ivory, elected the first Black woman and first Latina chair of the Fulton County Board of Commissioners, outlines her vision in an interview.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-1.jpeg?fit=768%2C1024&ssl=1",
+              "video": null
+            },
+            {
+              "title": "College Park tourism dispute called ‘heartbreaking,’ hurting city’s reputation",
+              "url": "https://saportareport.com/college-park-tourism-dispute-called-heartbreaking-hurting-citys-reputation/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The ATL Airport District president calls College Park's decision not to renew its destination marketing contract heartbreaking and damaging to the city's reputation.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2024/09/IMG_7544-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "MARTA: We're prepared for massive downtown concerts all week",
+              "url": "https://atlanta.urbanize.city/post/marta-usher-chris-brown-five-concerts-prepared-massive-downtown-weekend",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA says it is prepared for massive downtown concerts all week, after a reader raised concerns about crowd capacity.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-06/MARTA%20Station%20World%20Cup%20Atlanta%208_IMG_0419.JPG?itok=7UKu868c",
+              "video": null
+            },
+            {
+              "title": "Cobb County home development sells out—interest rates be damned",
+              "url": "https://atlanta.urbanize.city/post/marietta-cobb-county-home-development-sells-out-interest-rates-be-damned",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Cobb County home development southwest of downtown Marietta sold out despite high interest rates, an exception in the metro market.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Freestone%20Station%20Holbrook%20Reserve%20Hillside%20farmhouse-great.png?itok=62uHEEAB",
+              "video": null
+            },
+            {
+              "title": "Growth spurt on tap for Sandy Springs’ made-from-scratch downtown",
+              "url": "https://atlanta.urbanize.city/post/city-springs-sandy-springs-second-phase-made-scratch-downtown-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Sandy Springs plans a growth phase for its City Springs downtown, a made-from-scratch civic center now expanding.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/recent%20aerial%20City%20Springs%2C%20Sandy%20Springs%20%20.png?itok=L950hrY5",
+              "video": null
+            },
+            {
+              "title": "Images: Civil rights landmark's conversion to housing has delivered",
+              "url": "https://atlanta.urbanize.city/post/heritage-village-west-lake-project-civil-rights-landmarks-conversion-housing",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Westside civil rights-era landmark has been converted to housing and reopened, Heritage Village, per Urbanize Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-04/Heritage%20Village%20at%20West%20Lake%2C%20January%202025.png?itok=aeprbNr8",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Chun’an Distillery / PRA",
+              "url": "https://www.archdaily.com/1186996/chunan-distillery-pra",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "PRA's Chun'an Distillery in Zhejiang's Qiandao Lake region draws on Hui-style white walls and dark eaves, a regional-heritage design example.",
+              "image": "https://images.adsttc.com/media/images/6ad1/c359/aadf/a000/01e3/a7f2/newsletter/Roof_close_up_.jpg?1792132013",
+              "video": null
+            },
+            {
+              "title": "Atlântica House / Felipe Hess Arquitetos",
+              "url": "https://www.archdaily.com/1068562/atlantica-house-felipe-hess-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Felipe Hess Arquitetos' Atlântica House in São Paulo fits an art collection and family life on a narrow, deep urban lot.",
+              "image": "https://images.adsttc.com/media/images/68e5/4363/9f15/2801/89b4/4e33/newsletter/casa-atlantica-felipe-hess-arquitetos_19.jpg?1759855469",
+              "video": null
+            },
+            {
+              "title": "Backyard Townhouses / Behin Ha",
+              "url": "https://www.archdaily.com/1188061/backyard-townhouses-behin-ha",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Behin Ha's Backyard Townhouses in Jersey City turn a stalled demolition into three townhouses and a restored 150-year-old house, a densification case study.",
+              "image": "https://images.adsttc.com/media/images/6aeb/1ba1/1f37/4900/010d/103b/newsletter/Behin_Ha_-_11_Beacon_Avenue_-_PH_F_08_rev_-_photo___StudioSZ___Justin_Szeremeta_LR_3000_PX.jpg?1793792956",
+              "video": null
+            },
+            {
+              "title": "Shimizu Clinic / Yano Aoyama Architecture Design",
+              "url": "https://www.archdaily.com/1186233/shimizu-clinic-yano-aoyama-architecture-design",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Yano Aoyama Architecture merges two clinics into one volume on a corner site in suburban Matsuyama, a compact mixed-use brief.",
+              "image": "https://images.adsttc.com/media/images/6abf/9d08/07c3/d100/017f/cb9f/newsletter/009_Exterior_vegetal_filtering.jpg?1790942515",
+              "video": null
+            },
+            {
+              "title": "Autom8Labs launches AEC skills for AI agents",
+              "url": "https://aecmag.com/automation/autom8labs-launches-aec-skills-for-ai-agents/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Autom8Labs launched AEC skills that guide AI agents through tasks in Revit, AutoCAD and Grasshopper, directly relevant to BIM practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "LightYX connects layout and verification",
+              "url": "https://aecmag.com/construction/lightyx-connects-layout-and-verification/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "LightYX combines laser-guided layout, verification and documentation in one connected workflow for construction teams.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/11/LightYX2.jpg",
+              "video": null
+            },
+            {
+              "title": "nCircle Tech launches nVibe AI app builder",
+              "url": "https://aecmag.com/automation/ncircletech-launches-nvibe-ai-app-builder/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "nCircle Tech launched nVibe, an AI app builder for AEC professionals, with the workflow described by early users.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Santo António Primary School Requalification and Modernization Project / BFJ Arquitectos",
+              "url": "https://www.archdaily.com/1188048/santo-antonio-primary-school-requalification-and-modernization-project-bfj-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "BFJ Arquitectos is requalifying a 1950s Lisbon primary school in the Alvalade neighbourhood, a modernization of a neighbourhood-unit landmark.",
+              "image": "https://images.adsttc.com/media/images/6aea/9288/1f37/4900/010d/0eee/newsletter/0044.jpg?1793757862",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Record-low temperature created on China’s space station",
+              "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Atoms on China's space station reached about 10 trillionths of a kelvin, a record low temperature with gravity's effects mitigated.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_EC_coldest-temp_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "How octopuses squeeze through tiny openings, step by step",
+              "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Lab observations show how octopuses squeeze arms and bodies through tiny openings, which could inspire soft robot body plans.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_nb_octopus-squeeze_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry",
+              "url": "https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A World Bank report finds rising temperatures in Bangladesh create an occupational health crisis for 4.2 million garment workers.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06063915/27667697283_b9fb7bf878_k-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "India repatriates seized orangutan, raising hopes for five more",
+              "url": "https://news.mongabay.com/short-article/2026/11/india-repatriates-seized-orangutan-raising-hopes-for-five-more/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A juvenile orangutan seized in Mumbai in 2024 has been repatriated to Indonesia and moved to a Sumatra rescue facility.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06091523/8842369283_700f24853d_4k-1200x800-1-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Amazon mapping shows cacao expansion without deforestation in Brazil",
+              "url": "https://news.mongabay.com/2026/11/amazon-mapping-shows-cacao-expansion-without-deforestation-in-brazil/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Amazon mapping shows Brazilian cacao expansion on reviving degraded pastures rather than cleared rainforest.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/05082501/1_Cacao_expansion_Para_degraded_land_Embrapa-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 6 – A Farewell to Swift",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day marks a farewell to the Swift observatory.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Swift_Millionth_Image_Mosaic.jpg?w=2048&h=1460&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Taking a Gander at Utah’s Goosenecks",
+              "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA imagery shows the San Juan River's deep, curving goosenecks carved into Utah's desert landscape.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah’s-goosenecks/ISS075-E-188830.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Scientists confirm horseshoe crabs in a second Philippine province, urge conservation",
+              "url": "https://news.mongabay.com/short-article/2026/11/scientists-confirm-horseshoe-crabs-in-a-second-philippine-province-urge-conservation/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Researchers confirmed horseshoe crabs in Tawi-Tawi, a second Philippine province, and urge conservation.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06071257/1920px-Mangrove_Horseshoe_Crab_Carcinoscorpius_rotundicauda_6707310189-768x512.jpeg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Snack Right Super Foods, Inc. dba Brad's Raw Chips Recalls Brad's Crunchy Kale & Veggie Chips Due to Potential Thallium Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+      "published": "2026-11-02T17:19:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "So long as the memory of certain beloved friends lives in my heart I shall say that life is good.",
+    "who": "Helen Keller",
+    "about": "Deaf-blind author and activist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 107–117 vs MIN",
+      "last_date": "Nov 4",
+      "next": "Sat Nov 7 at PHX",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909930/timberwolves-rockets",
+      "recent": [
+        "L 107–117 vs MIN · Nov 4",
+        "W 109–93 vs BOS · Nov 2",
+        "W 119–98 vs OKC · Oct 31"
+      ],
+      "upcoming": [
+        "Sat Nov 7 at PHX",
+        "Mon Nov 9 vs DEN",
+        "Wed Nov 11 vs GS"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 68820,
+    "output_tokens": 10170
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Ro Khanna PRESSED ON Hakeem Jeffries For Speaker",
+          "url": "https://www.youtube.com/watch?v=WiYDH5V6lrI",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal Ball and Saagar Enjar discuss Democratic leadership and the Speaker race with Rep. Ro Khanna following the midterm elections.",
+          "image": "https://i4.ytimg.com/vi/WiYDH5V6lrI/hqdefault.jpg",
+          "video": "WiYDH5V6lrI"
+        },
+        {
+          "title": "'LAWYER UP': DEMS Plan Historic Corruption Investigation",
+          "url": "https://www.youtube.com/watch?v=Oa8KSOpDLRQ",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses Democrats planning a series of corruption investigations after winning the midterms, with attorney Isaac Saul appearing.",
+          "image": "https://i4.ytimg.com/vi/Oa8KSOpDLRQ/hqdefault.jpg",
+          "video": "Oa8KSOpDLRQ"
+        },
+        {
+          "title": "The Reality Of Blue Texas | David Griscom | TMR",
+          "url": "https://www.youtube.com/watch?v=2YN6ZM5BX1E",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "David Griscom joins The Majority Report on election night to discuss Texas politics, drawing on his writing and his Substack publication The Rattler.",
+          "image": "https://i3.ytimg.com/vi/2YN6ZM5BX1E/hqdefault.jpg",
+          "video": "2YN6ZM5BX1E"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Kittle, Williams Talk Buckner’s Return and Getting Back to 49ers Football After the Bye | 49ers",
+          "url": "https://www.youtube.com/watch?v=vGE4ovWBIb8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kittle and Trent Williams discuss DeForest Buckner's leadership, the Raiders' Brock Bowers, and getting back to 49ers football after the bye.",
+          "image": "https://i3.ytimg.com/vi/vGE4ovWBIb8/hqdefault.jpg",
+          "video": "vGE4ovWBIb8"
+        },
+        {
+          "title": "Kubiak, Morris Preview Raiders, Talk Buckner’s Return to the Fold | 49ers",
+          "url": "https://www.youtube.com/watch?v=FAeCsL09FE8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Offensive coordinator Klay Kubiak and defensive coordinator Raheem Morris preview the Raiders game and discuss Buckner's return and versatility.",
+          "image": "https://i3.ytimg.com/vi/FAeCsL09FE8/hqdefault.jpg",
+          "video": "FAeCsL09FE8"
+        },
+        {
+          "title": "BTL | Referee Controversy Steals Headlines, Jake Paul Gets Opponent, Buckley vs. EVERYONE",
+          "url": "https://www.youtube.com/watch?v=YNQqrGKeu18",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting discusses the referee controversy in the Moicano vs. Nolan UFC main event and related news in the MMA community.",
+          "image": "https://i2.ytimg.com/vi/YNQqrGKeu18/hqdefault.jpg",
+          "video": "YNQqrGKeu18"
+        },
+        {
+          "title": "Jaguars CRUISE in 33-10 win over Ravens",
+          "url": "https://www.youtube.com/watch?v=v6xBSbfg6a0",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Robert Mays and Derrik Klassen break down the Jacksonville Jaguars' 33-10 win over the Baltimore Ravens.",
+          "image": "https://i3.ytimg.com/vi/v6xBSbfg6a0/hqdefault.jpg",
+          "video": "v6xBSbfg6a0"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "I Replaced Paid Construction Software with Free Tools",
+          "url": "https://www.youtube.com/watch?v=1we3WgfIqlE",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "A walkthrough of free construction software for PDF markups, 3D modelling, estimating, and scheduling on construction projects.",
+          "image": "https://i2.ytimg.com/vi/1we3WgfIqlE/hqdefault.jpg",
+          "video": "1we3WgfIqlE"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Introducing Personal Finance in Claude",
+          "url": "https://www.youtube.com/watch?v=UTubvRLX2j4",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic introduces Personal Finance in Claude, a beta where users can connect accounts for read-only explanations of spending, bills, and balances.",
+          "image": "https://i2.ytimg.com/vi/UTubvRLX2j4/hqdefault.jpg",
+          "video": "UTubvRLX2j4"
+        },
+        {
+          "title": "Why The Delmarva Peninsula Is America's Strangest Place",
+          "url": "https://www.youtube.com/watch?v=Zjl4iQPBZ3Y",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geoff explains why the Delmarva Peninsula is an unusual place in the United States, covering its geography and history.",
+          "image": "https://i3.ytimg.com/vi/Zjl4iQPBZ3Y/hqdefault.jpg",
+          "video": "Zjl4iQPBZ3Y"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "This Chicken Recipe Ruined Restaurants For Me",
+          "url": "https://www.youtube.com/watch?v=-oxzoIR5ofQ",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "A chicken recipe with seasoned breast pieces and a Florentine sauce, shared with ingredient and preparation details in the description.",
+          "image": "https://i2.ytimg.com/vi/-oxzoIR5ofQ/hqdefault.jpg",
+          "video": "-oxzoIR5ofQ"
+        }
+      ]
+    }
+  ]
+}
