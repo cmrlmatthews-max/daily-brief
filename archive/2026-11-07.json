@@ -1,0 +1,1091 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, November 7, 2026",
+  "generated_at": "2026-11-07T05:00:17-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, November 7. Our top story is a change at the White House. Stephen Miller will replace Susie Wiles as chief of staff to President Trump. The change comes after sweeping Republican losses in the midterm elections. The report gives few details on the reasons behind the choice. Now the other front page stories. In Israel, the election was inconclusive. The center-right opposition has a chance to unseat Prime Minister Netanyahu. But the backing of Arab-led parties will be key. In markets, AI stocks climbed after trillions were wiped from market values. Investors had sold tech shares partly over concerns that the Democratic election victory would mean slower AI development. In Atlanta, Governor-elect Keisha Lance Bottoms announced her transition team. Georgia Democrats are preparing to run state government. She won by more than eight percentage points. And in football, the 49ers will have a healthy Nick Bosa for the first time since Week 2. Christian McCaffrey is also good to go against the Raiders. Now the sections. In tech, Anthropic is committing a portion of its shares to a new Public Benefit Fund. It is also expanding its partnership with the General Services Administration to bring Claude to all levels of government. In politics, Drop Site reports that recent U.S. strikes near Qeshm Island hit fishermen. The Lever reports that a billionaire-backed group of Democrats is blocking its reporters after they exposed its funding. In world news, Pope Leo has begun a twelve day tour of Uruguay, Argentina and Peru. It is his first South American trip since lung cancer surgery. Paraguay's president, Santiago Peña, was impeached and is under house arrest after a banking crisis. In sports, the Rockets lost to the Timberwolves, one hundred seventeen to one hundred seven. Brandon Aiyuk met with the 49ers and says he is healthy and wants to be reinstated. In Atlanta, new visuals show MARTA's Five Points redevelopment, which is over budget and behind schedule. The zoning board also approved demolition of the Hardwick house despite a pending historic designation effort. In architecture, Chaos is bringing more AI into V-Ray and into Enscape. Alison Brooks Architects has completed the Cadence tower at King's Cross. In science, imaging of a 115-million-year-old dinosaur fossil points to blood cells, though some researchers are not convinced. Scientists also found a previously unknown baby right whale off Canada. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Stephen Miller will replace Susie Wiles as Trump's chief of staff",
+    "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "note": "Stephen Miller will replace Susie Wiles as chief of staff to President Trump. The report ties the change directly to the midterm elections, saying it comes after sweeping Republican losses. The chief of staff is the top aide who runs the White House for the president, so a change in that job is a notable shift at the center of the administration. The summary is brief and does not say why the president made the choice or what Miller plans to do in the role. The timing matters for the reader, because the midterm results have changed the political picture in Washington. Further details on the reasoning and on how the new arrangement will work have not yet been given in this item, so more reporting is likely to follow in the coming days.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4845x3231+0+0/resize/4845x3231!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F40%2F1c511ae2416e9d70791a8143dfb6%2Fgettyimages-2301644366.jpg",
+    "video": null,
+    "headline": "Stephen Miller to replace Wiles as chief of staff",
+    "decks": [
+      "Change follows sweeping Republican losses in the midterm elections",
+      "Miller will take the post now held by Susie Wiles"
+    ]
+  },
+  "front": [
+    {
+      "title": "Israel's Arab-led parties in spotlight after inconclusive election",
+      "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "After an inconclusive Israeli election, the center-right opposition has a chance to unseat Netanyahu, but the backing of Arab-led parties will be key.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8069x5380+0+0/resize/8069x5380!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F6c%2F50cd0c0a4ea1b5b817c6d594d7b6%2Fap26300479457875.jpg",
+      "video": null
+    },
+    {
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "AI stocks climbed after trillions were wiped from market values, as investors had sold tech shares partly on concerns that the Democratic election victory would slow AI development.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+      "video": null
+    },
+    {
+      "title": "Bottoms announces transition team as ascendent Georgia Democrats prepare to run state government",
+      "url": "https://roughdraftatlanta.com/2026/11/06/keisha-lance-bottoms-transition-team/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Governor-elect Keisha Lance Bottoms announced her transition team, as Georgia Democrats prepare to run state government after her win by more than 8 percentage points.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/DSC_6047-2048x1365-1-600x400.jpg",
+      "video": null
+    },
+    {
+      "title": "Nick Bosa back, Christian McCaffrey good to go for Niners",
+      "url": "https://www.espn.com/nfl/story/_/id/50402463/nick-bosa-back-christian-mccaffrey-good-go-niners",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers will have a healthy Nick Bosa for the first time since Week 2, and Christian McCaffrey is good to go against the Raiders.",
+      "image": "https://a.espncdn.com/photo/2026/0701/r1682817_1296x729_16-9.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, whose stake grows as the company grows.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+          "video": null
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its partnership with the GSA to bring Claude to all levels of government.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "video": null
+        },
+        {
+          "title": "Claude Platform release notes — November 5, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#admin-api-sign-out",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "A new beta Admin API capability lets you sign a Claude Enterprise member out everywhere, useful if you build tools on the platform.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Latest U.S. Strikes on Qeshm Island Hit Fishermen Who Clung to Wreckage for Hours",
+          "url": "https://www.dropsitenews.com/p/iran-qeshm-island-hormuz-us-strikes-trump-midterms",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site reports that recent U.S. strikes near Qeshm Island hit fishermen, coming on the eve of midterm elections seen as a rebuke of the war.",
+          "image": "https://substackcdn.com/image/fetch/$s_!xh2N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F349fc620-841c-442b-8b10-50c27e75b250_6000x4000.jpeg",
+          "video": null
+        },
+        {
+          "title": "We Exposed Democrats’ Billionaire Backers. Now They’re Blocking Our Reporters.",
+          "url": "https://www.levernews.com/we-exposed-democrats-billionaire-backers-now-theyre-blocking-our-reporters/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that a billionaire-backed group gathering top Democrats is blocking its reporters after they exposed the group's funding.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Democrats-Billionaires.png",
+          "video": null
+        },
+        {
+          "title": "El-Sayed: Fire The Parliamentarian If She Blocks Healthcare Reform",
+          "url": "https://www.levernews.com/el-sayed-fire-the-parliamentarian-if-she-blocks-healthcare-reform/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "Michigan's senator-elect Abdul El-Sayed tells The Lever Democrats should replace the Senate parliamentarian if she uses rules to block health care legislation.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Abdul-El-Sayed-Interview.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Pope Leo begins a 12-day tour of Uruguay, Argentina and Peru, his first South American trip since lung cancer surgery.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6816x4544+0+0/resize/6816x4544!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2F70%2F4c7f5387455fac4992cf3fc5c68e%2Fap26310822769131.jpg",
+          "video": null
+        },
+        {
+          "title": "Paraguay's president impeached and under house arrest after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Paraguay's president Santiago Peña was impeached and is under house arrest after a banking crisis left millions unable to access their money.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
+          "video": null
+        },
+        {
+          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "European officials report another wave of bomb threats against flights and broadcasters, following hoaxes that caused flight diversions this week.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2F64%2Fb282b384425e903e486372448a31%2Fap26310409371268.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Dosunmu scores 21 and Kuminga sparks late surge in Timberwolves’ 117-107 win over Rockets",
+          "url": "http://www.espn.com/nba/recap?gameId=401909930",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets lost 117-107 to the Timberwolves, who pulled away in the fourth quarter behind Ayo Dosunmu's 21 points and Jonathan Kuminga.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Brandon Aiyuk meets with 49ers, says he's healthy, 'looking to get reinstated'",
+          "url": "https://www.espn.com/nfl/story/_/id/50402899/brandon-aiyuk-meets-49ers-looking-get-reinstated",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Brandon Aiyuk met with the 49ers and says he is healthy and looking to be reinstated, as the two sides work out a path forward.",
+          "image": "https://a.espncdn.com/photo/2026/1105/r1741725_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Jonny Parsons: 'Definitely look up to Manny Pacquiao'",
+          "url": "https://www.espn.com/video/clip/_/id/50394446/definitely-look-manny-pacquiao",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Jonny Parsons returns to the Octagon for the first time since July 2023.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/Int_261105_MMA_Interview_Jonny_Parsons_Definitely_look_up_to_Manny_Pacquiao_2026116/Int_261105_MMA_Interview_Jonny_Parsons_Definitely_look_up_to_Manny_Pacquiao_2026116.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Fresh visuals emerge for MARTA’s Five Points redevelopment",
+          "url": "https://atlanta.urbanize.city/post/marta-five-points-project-fresh-images-construction-redevelopment",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New visuals show MARTA's Five Points redevelopment, which is reported to be over budget and behind schedule.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/MARTA%20Five%20Points%20station%20render%20overview.jpg?itok=Gx6ydr8U",
+          "video": null
+        },
+        {
+          "title": "Zoning board approves demolition of Hardwick house amid pending historic designation",
+          "url": "https://roughdraftatlanta.com/2026/11/06/atlanta-approves-hardwick-site-demolition/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "The Zoning Review Board approved demolition of the house at 811 Ponce de Leon Place NE, site of Michael Hardwick's 1982 arrest, despite a pending historic designation effort.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Hardwick-house-600x470.png",
+          "video": null
+        },
+        {
+          "title": "Cabbagetown Chomp & Stomp returns with chili, music and neighborhood fun",
+          "url": "https://roughdraftatlanta.com/2026/11/06/chomptstomp-festival-nov-7/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Cabbagetown's 23rd annual Chomp & Stomp takes place today, with a chili cook-off, live music, a 5K and an artist market.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/10/Untitled-design-47-600x338.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Chaos brings AI deeper into V-Ray Collection",
+          "url": "https://aecmag.com/visualisation/chaos-brings-ai-deeper-into-v-ray-collection/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Chaos adds in-product AI guidance, MCP support and 3D asset generation to the V-Ray Collection.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Chaos brings AI design exploration into Enscape",
+          "url": "https://aecmag.com/visualisation/chaos-brings-ai-design-exploration-into-enscape/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Enscape 4.22 integrates Veras 2.0 more closely, bringing AI design exploration into the visualisation workflow.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Cadence Courtyard Tower / Alison Brooks Architects",
+          "url": "https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Alison Brooks Architects' Cadence courtyard tower is complete, giving King's Cross a new mixed-use landmark.",
+          "image": "https://images.adsttc.com/media/images/6aeb/28ad/d2cc/6001/8a4f/6b8c/newsletter/cadence-kings-cross-alison-brooks-architects_1.jpg?1793796324",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This may be the best evidence yet that dinosaur blood can fossilize",
+          "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Imaging and chemical analysis of a 115-million-year-old dinosaur fossil points to blood cells, though some researchers are not convinced.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_mainsocial.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Scientists discovered an unknown baby right whale off Canada. They say it’s a cause for joy",
+          "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Scientists found a previously unknown baby North Atlantic right whale off Canada, welcome news for one of the rarest sea mammals.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06170019/AP26203535889739-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "This armored amphibian once lived and hunted on the seafloor",
+          "url": "https://www.sciencenews.org/article/first-marine-amphibian-ancient-fossil",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Gerrothorax maritimus, about 237 million years old, is the first known amphibian to have lived without access to land or freshwater.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_AS_marineamphibian_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Stephen Miller replaces Susie Wiles as White House chief of staff",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032810/stephen-miller-replaces-susie-wiles-as-white-house-chief-of-staff",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "President Trump said Friday that Stephen Miller will replace Susie Wiles as White House chief of staff, following Republican losses in the midterms.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Will Dems’ Blowout Sideline Progressives?",
+              "url": "https://www.levernews.com/will-dems-blowout-sideline-progressives/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Tuesday's Democratic wave may secure Hakeem Jeffries' speakership and asks what it means for progressives.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--10-.jpg",
+              "video": null
+            },
+            {
+              "title": "Latest U.S. Strikes on Qeshm Island Hit Fishermen Who Clung to Wreckage for Hours",
+              "url": "https://www.dropsitenews.com/p/iran-qeshm-island-hormuz-us-strikes-trump-midterms",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports on recent U.S. strikes on Qeshm Island in the Strait of Hormuz, which hit fishermen clinging to wreckage, days before the midterms.",
+              "image": "https://substackcdn.com/image/fetch/$s_!xh2N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F349fc620-841c-442b-8b10-50c27e75b250_6000x4000.jpeg",
+              "video": null
+            },
+            {
+              "title": "We Exposed Democrats’ Billionaire Backers. Now They’re Blocking Our Reporters.",
+              "url": "https://www.levernews.com/we-exposed-democrats-billionaire-backers-now-theyre-blocking-our-reporters/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that a billionaire-backed group gathering top Democrats has blocked its reporters after they exposed its funding.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Democrats-Billionaires.png",
+              "video": null
+            },
+            {
+              "title": "El-Sayed: Fire The Parliamentarian If She Blocks Healthcare Reform",
+              "url": "https://www.levernews.com/el-sayed-fire-the-parliamentarian-if-she-blocks-healthcare-reform/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Michigan senator-elect El-Sayed tells The Lever Democrats should replace the Senate parliamentarian if she blocks health care legislation.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Abdul-El-Sayed-Interview.png",
+              "video": null
+            },
+            {
+              "title": "The push to replace Schumer as Senate leader; 94% of Gaza’s population needs shelter assistance; Paraguay’s president resigns",
+              "url": "https://www.dropsitenews.com/p/schumer-senate-leader-gaza-shelter-israel-paraguay-resignation-protests",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily covers the push to replace Schumer as Senate leader, Gaza shelter needs, and Paraguay's president resigning.",
+              "image": "https://substackcdn.com/image/fetch/$s_!zWBL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1298951b-5444-462a-bc55-93bf0623a4fe_5463x3635.heic",
+              "video": null
+            },
+            {
+              "title": "American democracy was a big winner in the midterms",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6029750/american-democracy-was-a-big-winner-in-the-midterms",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR political scientists argue American democracy was a major winner in the midterms, with some House and Senate races still outstanding.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "The economy propelled Democrats to victory. What can they actually do about it?",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6026662/the-economy-propelled-democrats-to-victory-what-can-they-actually-do-about-it",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR examines how Democrats won on cost-of-living and gas price frustrations, and how much they can do in divided government.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5139x2891+0+268/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F13%2Ff3%2F216d65034f5a96ee4c0176aa44c8%2Fgettyimages-2277503865.jpg",
+              "video": null
+            },
+            {
+              "title": "What to know about Gina Hinojosa, Texas' first Latina governor-elect",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6030822/what-to-know-about-gina-hinojosa-texas-first-latina-governor-elect",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Gina Hinojosa, a Rio Grande Valley state representative focused on public education, will become Texas's first Latina governor.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Health intel-sharing group warns industry in wake of cyberattack on French blood bank",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032602/cyberattack-blood-bank-healthcare",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A healthcare intelligence-sharing group warns members to lock down systems after cyberattacks on cold storage, including one on a French blood bank.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2Fb8%2Fb629bb2042d1afc6a8774ba0e682%2Fgettyimages-2286697424-1.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Paraguay's president impeached and under house arrest after bank collapse",
+              "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Paraguay's president Santiago Peña was impeached and placed under house arrest after a banking crisis left millions unable to access their money.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
+              "video": null
+            },
+            {
+              "title": "Israel's Arab-led parties in spotlight after inconclusive election",
+              "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Israel's election was inconclusive, and the center-right opposition's chances of unseating Netanyahu depend on the backing of Arab-led parties.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8069x5380+0+0/resize/8069x5380!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F6c%2F50cd0c0a4ea1b5b817c6d594d7b6%2Fap26300479457875.jpg",
+              "video": null
+            },
+            {
+              "title": "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Pope Leo begins a 12-day tour of Uruguay, Argentina and Peru, his first South American trip since lung cancer surgery.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6816x4544+0+0/resize/6816x4544!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2F70%2F4c7f5387455fac4992cf3fc5c68e%2Fap26310822769131.jpg",
+              "video": null
+            },
+            {
+              "title": "Pope in 'pretty good health' as he starts Latin America tour",
+              "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Pope Leo travels to Uruguay three weeks after lung cancer surgery, and is described as in pretty good health.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/15d3/live/886b05a0-da75-11f1-85ad-fd31eff31154.jpg",
+              "video": null
+            },
+            {
+              "title": "European flights and broadcasters are targeted with another wave of bomb threats",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Officials across Europe reported another wave of bomb threats against flights and three broadcasters, following hoaxes that diverted flights this week.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2F64%2Fb282b384425e903e486372448a31%2Fap26310409371268.jpg",
+              "video": null
+            },
+            {
+              "title": "Ex-lawmaker gets 12.5 years in Macao's first national security case",
+              "url": "https://www.npr.org/2026/11/06/g-s1-152217/ex-lawmaker-gets-12-5-years-in-macaos-first-national-security-case",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A former Macao lawmaker received 12.5 years in prison in the territory's first national security case under its 2009 law.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6911x4607+0+0/resize/6911x4607!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2F8e%2F42f5136c40b8aaae31a8117554fb%2Fap26309516866031.jpg",
+              "video": null
+            },
+            {
+              "title": "The leader of a Kenyan doomsday cult is sentenced to 200 years in prison",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A Kenyan court sentenced cult leader Paul Mackenzie to 200 years in prison for murders linked to his followers starving themselves.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdb%2F73%2Fcbf29c684a399b365458c0f6cfb1%2Fap26310304210727.jpg",
+              "video": null
+            },
+            {
+              "title": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+              "url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A judge blocked construction of Trump's arch shortly after it won federal approval to proceed.",
+              "image": "https://www.npr.org/2026/11/06/g-s1-152213/undefined",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to your interest in Claude and Anthropic news.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its partnership with the GSA to bring Claude to all levels of government. Useful context on where Claude is being deployed.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 5, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#admin-api-sign-out",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Platform release notes for November 5 cover a beta Admin API capability to sign a Claude Enterprise member out everywhere. Practical for admins.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "AI for Science expands to foundations and research institutions",
+              "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its AI for Science effort now extends to foundations and research institutions. Details are limited in the item.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+              "video": null
+            },
+            {
+              "title": "Donating Agent Skills to the Agentic AI Foundation",
+              "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is donating Agent Skills to the Agentic AI Foundation. Relevant to anyone building custom Claude skills.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Quoting Nilay Patel",
+              "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison quotes Nilay Patel arguing that current AI products do not justify data center costs to local communities. A critical view on AI's costs.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "mromidev/claude-animated-shorts",
+              "url": "https://github.com/mromidev/claude-animated-shorts",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A free Claude skill for generating animated story shorts using three.js and Remotion. Fits your interest in personal tools built with Claude.",
+              "image": "https://opengraph.githubassets.com/1/mromidev/claude-animated-shorts",
+              "video": null
+            },
+            {
+              "title": "KKKKhazix/agent-autoloop",
+              "url": "https://github.com/KKKKhazix/agent-autoloop",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Agent-autoloop lets command-line agents work in the background and ask for input only on uncertain decisions. Relevant to agent workflows you build.",
+              "image": "https://opengraph.githubassets.com/1/KKKKhazix/agent-autoloop",
+              "video": null
+            },
+            {
+              "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+              "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison reports running Qwen 3.8 27B locally and using it to interpret model weights, following a paper on LLMs reading and writing neural network weights.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Nick Bosa back, Christian McCaffrey good to go for Niners",
+              "url": "https://www.espn.com/nfl/story/_/id/50402463/nick-bosa-back-christian-mccaffrey-good-go-niners",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Nick Bosa is back and Christian McCaffrey is good to go for the 49ers against the Raiders this week.",
+              "image": "https://a.espncdn.com/photo/2026/0701/r1682817_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Brandon Aiyuk meets with 49ers, says he's healthy, 'looking to get reinstated'",
+              "url": "https://www.espn.com/nfl/story/_/id/50402899/brandon-aiyuk-meets-49ers-looking-get-reinstated",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Brandon Aiyuk met with the 49ers on Friday and says he is healthy and looking to get reinstated, as the two work toward a split.",
+              "image": "https://a.espncdn.com/photo/2026/1105/r1741725_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Rule Out Three Wide Receivers vs. Raiders; Bosa Returns to Full Practice Ahead of Week 9 #LVvsSF",
+              "url": "https://www.49ers.com/news/49ers-rule-out-three-wide-receivers-vs-raiders-bosa-returns-to-full-practice-ahead-of-week-9-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers ruled out three wide receivers against the Raiders, while Bosa returned to full practice.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/f9mlcpkccmznz9s95lzk.png",
+              "video": null
+            },
+            {
+              "title": "Dosunmu scores 21 and Kuminga sparks late surge in Timberwolves’ 117-107 win over Rockets",
+              "url": "http://www.espn.com/nba/recap?gameId=401909930",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Ayo Dosunmu scored 21 and Jonathan Kuminga led a fourth-quarter run as the Timberwolves beat the Rockets 117-107.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909930.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
+              "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Updated odds show San Antonio still the NBA title favorite, with fast Houston and Philadelphia starts shortening their odds.",
+              "image": "https://a.espncdn.com/photo/2026/1104/r1741195_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The MLB free agency tracker covers 2026-27 offseason trades and signings for Braves-relevant hot stove moves.",
+              "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "3 reasons Braves should hold on to Ronald Acuña Jr.",
+              "url": "https://www.mlb.com/braves/news/why-braves-should-not-trade-ronald-acuna-jr",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Braves commentary argues the team should hold on to Ronald Acuña Jr. Opinion piece on a key roster decision.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/dnrkdjp5bbqowjhcefh5.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL trade deadline grades: Deals for Jacoby Brissett, Jeffery Simmons, more",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Grades for NFL trade deadline deals including Jacoby Brissett and Jeffery Simmons, relevant to 49ers-watching.",
+              "image": "https://a.espncdn.com/photo/2026/1106/r1742051_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Bottoms announces transition team as ascendent Georgia Democrats prepare to run state government",
+              "url": "https://roughdraftatlanta.com/2026/11/06/keisha-lance-bottoms-transition-team/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Keisha Lance Bottoms, the former Atlanta mayor, won Georgia's governorship and has announced a transition team.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/DSC_6047-2048x1365-1-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Zoning board approves demolition of Hardwick house amid pending historic designation",
+              "url": "https://roughdraftatlanta.com/2026/11/06/atlanta-approves-hardwick-site-demolition/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The Atlanta Zoning Review Board approved demolition of the 811 Ponce de Leon Place house tied to Michael Hardwick's 1982 arrest, despite preservation efforts.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Hardwick-house-600x470.png",
+              "video": null
+            },
+            {
+              "title": "Fresh visuals emerge for MARTA’s Five Points redevelopment",
+              "url": "https://atlanta.urbanize.city/post/marta-five-points-project-fresh-images-construction-redevelopment",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fresh visuals show MARTA's Five Points redevelopment, which may be over budget and behind schedule.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/MARTA%20Five%20Points%20station%20render%20overview.jpg?itok=Gx6ydr8U",
+              "video": null
+            },
+            {
+              "title": "A look inside the $70 million Inner Harbour campus expansion to promote healing and transformation in young lives",
+              "url": "https://saportareport.com/a-look-inside-the-70-million-inner-harbour-campus-upgrade-thats-transforming-young-lives/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport takes a look inside the $70 million Youth Villages Inner Harbour campus expansion.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Youth-Villages-National-Board-and-Executive-Staff-leadership-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Westside Stride; Midtown bike lanes; Glydways vision; Serenbe; more!",
+              "url": "https://atlanta.urbanize.city/post/westside-stride-midtown-bike-lanes-glydways-vision-serenbe-more",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta's roundup covers Westside Stride, Midtown bike lanes, the Glydways vision, and Serenbe.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Westside%20Stride%202023.jpg?itok=eyFKZfVn",
+              "video": null
+            },
+            {
+              "title": "College Park tourism dispute called ‘heartbreaking,’ hurting city’s reputation",
+              "url": "https://saportareport.com/college-park-tourism-dispute-called-heartbreaking-hurting-citys-reputation/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "College Park's decision not to renew its destination marketing contract has led to a dispute that ATL Airport District says is damaging the city's reputation.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2024/09/IMG_7544-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Cabbagetown Chomp & Stomp returns with chili, music and neighborhood fun",
+              "url": "https://roughdraftatlanta.com/2026/11/06/chomptstomp-festival-nov-7/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The 23rd annual Cabbagetown Chomp & Stomp takes place Saturday with a chili cook-off, live music, a 5K and an artist market.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/10/Untitled-design-47-600x338.png",
+              "video": null
+            },
+            {
+              "title": "Microsoft-backed pocket park project sets official opening date",
+              "url": "https://atlanta.urbanize.city/post/microsoft-east-point-pocket-park-project-opening-date-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Microsoft-backed pocket park in East Point has set an official opening date.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/East%20Point%20Ben%20Hill%20Road%20Pocket%20Park%20overview.png?itok=CJDA0ldZ",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Qonic AI launches inside BIM platform",
+              "url": "https://aecmag.com/bim/qonic-ai-launches-inside-bim-platform/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Qonic AI launches agents that work inside the BIM model to find, check, fix and create data using plain language. Directly relevant to AI in BIM.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Chaos brings AI design exploration into Enscape",
+              "url": "https://aecmag.com/visualisation/chaos-brings-ai-design-exploration-into-enscape/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Enscape 4.22 integrates Veras 2.0 more closely into the visualization workflow, bringing AI design exploration into rendering.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Chaos brings AI deeper into V-Ray Collection",
+              "url": "https://aecmag.com/visualisation/chaos-brings-ai-deeper-into-v-ray-collection/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Chaos adds in-product AI guidance, MCP support and 3D asset generation to the V-Ray Collection.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Mach9 adds aerial LiDAR and photogrammetry support",
+              "url": "https://aecmag.com/civil-engineering/mach9-adds-aerial-lidar-and-photogrammetry-support/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Mach9 adds aerial LiDAR and photogrammetry support to its AI CAD software for survey workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "nCircle Tech launches nVibe AI app builder",
+              "url": "https://aecmag.com/automation/ncircletech-launches-nvibe-ai-app-builder/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "nCircle Tech launched nVibe, an AI app builder that AEC professionals use to build applications.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Cadence Courtyard Tower / Alison Brooks Architects",
+              "url": "https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Alison Brooks Architects completed Cadence, a mixed-use courtyard tower in King's Cross.",
+              "image": "https://images.adsttc.com/media/images/6aeb/28ad/d2cc/6001/8a4f/6b8c/newsletter/cadence-kings-cross-alison-brooks-architects_1.jpg?1793796324",
+              "video": null
+            },
+            {
+              "title": "Concrete House / Vierna9 + CIRAL Arquitectos",
+              "url": "https://www.archdaily.com/1188203/concrete-house-vierna9-plus-ciral-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Concrete House by Vierna9 and CIRAL Arquitectos in northwestern Madrid, where concrete defines the architectural identity.",
+              "image": "https://images.adsttc.com/media/images/6a9e/da4a/de72/0d00/014c/cf88/newsletter/Casa_de_Hormig_n__7_.jpg?1788795559",
+              "video": null
+            },
+            {
+              "title": "Sertão Block and Amparo House / Asa Arquitetos",
+              "url": "https://www.archdaily.com/1188218/sertao-block-and-amparo-house-asa-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Asa Arquitetos' Casa Amparo in Paraíba's sertão responds to rocky topography and local natural conditions.",
+              "image": "https://images.adsttc.com/media/images/6ae8/cece/bcbc/3500/01ae/b034/newsletter/IMG_1389-Pano_AD.jpg?1793642257",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "This may be the best evidence yet that dinosaur blood can fossilize",
+              "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Imaging and chemical analysis of a 115-million-year-old dinosaur fossil points to preserved blood cells, though some researchers are not convinced.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_mainsocial.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "This armored amphibian once lived and hunted on the seafloor",
+              "url": "https://www.sciencenews.org/article/first-marine-amphibian-ancient-fossil",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Gerrothorax maritimus, an armored amphibian about 237 million years old, is the first known amphibian to have lived without access to land or fresh water.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_AS_marineamphibian_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Scientists discovered an unknown baby right whale off Canada. They say it’s a cause for joy",
+              "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Researchers found an unidentified baby North Atlantic right whale off Anticosti Island, a rare sighting of one of the world's most endangered whales.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06170019/AP26203535889739-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Peru’s drive for critical minerals threatens a disappearing glacier",
+              "url": "https://news.mongabay.com/2026/11/perus-drive-for-critical-minerals-threatens-a-disappearing-glacier/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Peru's push for critical minerals threatens the Quelccaya glacier, the second-largest tropical ice cap, which local alpaca herders depend on.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06181811/IMG_7140-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Drought driven by climate change is redefining how disease spreads, study finds",
+              "url": "https://news.mongabay.com/2026/11/drought-driven-by-climate-change-is-redefining-how-disease-spreads-study-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A study finds climate-driven drought is changing how water-dependent diseases spread, with implications for future outbreaks.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06153125/3-forest-dwelling-mosquitoes--768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "As loggerhead turtles spread west, Mediterranean beach resorts learn to share the sand",
+              "url": "https://news.mongabay.com/2026/11/as-loggerhead-turtles-spread-west-mediterranean-beach-resorts-learn-to-share-the-sand/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports on loggerhead turtles spreading west and Mediterranean beach resorts adapting to share the sand.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06133823/OceanImageBank_LewisBurnett_10-loggerhead-turtle-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 7 features the De Gerlache-Kocher Massif.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/GerlacheKocherMassif_Sans.jpg?w=1500&h=1022&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "M30’s Sparkling Stars",
+              "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "A NASA/ESA Hubble image of the star cluster M30, showing stars that shaped galactic history.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "quote": {
+    "text": "Form ever follows function, and this is the law.",
+    "who": "Louis Sullivan",
+    "about": "American architect, teacher of Frank Lloyd Wright",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 107–117 vs MIN",
+      "last_date": "Nov 4",
+      "next": "Sat Nov 7 at PHX",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909930/timberwolves-rockets",
+      "recent": [
+        "L 107–117 vs MIN · Nov 4",
+        "W 109–93 vs BOS · Nov 2",
+        "W 119–98 vs OKC · Oct 31"
+      ],
+      "upcoming": [
+        "Sat Nov 7 at PHX",
+        "Mon Nov 9 vs DEN",
+        "Wed Nov 11 vs GS"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 65273,
+    "output_tokens": 10104
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Schumer, Jeffries ON THE ROPES After Mass Defections w/ David Sirota",
+          "url": "https://www.youtube.com/watch?v=Ny6lZrmzz8I",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points crew on Schumer and Jeffries facing pressure after the midterms over mass defections, with David Sirota of The Lever.",
+          "image": "https://i3.ytimg.com/vi/Ny6lZrmzz8I/hqdefault.jpg",
+          "video": "Ny6lZrmzz8I"
+        },
+        {
+          "title": "What the Media is Missing About Democrats’ Midterm Victories",
+          "url": "https://www.youtube.com/watch?v=LYLPCXBKvvo",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "Argues Democrats' midterm wins rest on economic populism and lays out five ideas for sustaining working-class majorities.",
+          "image": "https://i1.ytimg.com/vi/LYLPCXBKvvo/hqdefault.jpg",
+          "video": "LYLPCXBKvvo"
+        },
+        {
+          "title": "Jeffries GOES SOFT On Trump Investigations",
+          "url": "https://www.youtube.com/watch?v=mFwktg04ygk",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discussion of Hakeem Jeffries and his approach to Trump investigations.",
+          "image": "https://i2.ytimg.com/vi/mFwktg04ygk/hqdefault.jpg",
+          "video": "mFwktg04ygk"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Back from the Bye: Buckner Returns, Raiders Preview, & More | The Saloon",
+          "url": "https://www.youtube.com/watch?v=v0KFnpte3Gw",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers return from their Week 8 bye at 6-1, covering Buckner's return, injury updates, and the Week 9 Raiders preview.",
+          "image": "https://i3.ytimg.com/vi/v0KFnpte3Gw/hqdefault.jpg",
+          "video": "v0KFnpte3Gw"
+        },
+        {
+          "title": "Kyle Shanahan Shares Final Updates Ahead of Week 9 Game vs. Raiders | 49ers",
+          "url": "https://www.youtube.com/watch?v=qg6H97r0Bik",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan gives final updates before the 49ers' Week 9 game against the Las Vegas Raiders.",
+          "image": "https://i2.ytimg.com/vi/qg6H97r0Bik/hqdefault.jpg",
+          "video": "qg6H97r0Bik"
+        },
+        {
+          "title": "UFC Vegas 124: Waldo Cortes-Acosta vs. Johnny Walker Preview Show",
+          "url": "https://www.youtube.com/watch?v=Fo3m4qIATys",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting preview of UFC Vegas 124, headlined by Waldo Cortes-Acosta vs. Johnny Walker on short notice.",
+          "image": "https://i3.ytimg.com/vi/Fo3m4qIATys/hqdefault.jpg",
+          "video": "Fo3m4qIATys"
+        },
+        {
+          "title": "Packers vs Patriots: Who Will Establish Themselves As a CONTENDER?",
+          "url": "https://www.youtube.com/watch?v=XBt5PVJyOXc",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Athletic Football Show weighs whether the Packers and Patriots, both strong now, are real contenders for 2026.",
+          "image": "https://i1.ytimg.com/vi/XBt5PVJyOXc/hqdefault.jpg",
+          "video": "XBt5PVJyOXc"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How to Set Up Grok Bot for Your Construction Business",
+          "url": "https://www.youtube.com/watch?v=0hzqCMowrys",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of setting up a team of AI bots with one defined role each for a construction business, from tender finding onward.",
+          "image": "https://i1.ytimg.com/vi/0hzqCMowrys/hqdefault.jpg",
+          "video": "0hzqCMowrys"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "How Salesforce uses Claude Code",
+          "url": "https://www.youtube.com/watch?v=4ZsVR-6YOzs",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Salesforce engineering leaders explain how they scaled Claude Code and measure AI coding output and ROI.",
+          "image": "https://i1.ytimg.com/vi/4ZsVR-6YOzs/hqdefault.jpg",
+          "video": "4ZsVR-6YOzs"
+        },
+        {
+          "title": "Why Was this Victorian Hat Made with 80 Human Teeth?! | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=WbxjeySougg",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Experts use imaging technology to investigate a Victorian hat decorated with more than 80 human teeth in a South London museum.",
+          "image": "https://i4.ytimg.com/vi/WbxjeySougg/hqdefault.jpg",
+          "video": "WbxjeySougg"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "This Might Be My Favorite Thing I've Ever Built",
+          "url": "https://www.youtube.com/watch?v=EHPnf82V5lY",
+          "source": "Michael Alm",
+          "topic": "Make & Cook",
+          "note": "Michael Alm shows off a build he calls a favorite, with a parts and tools list including a Rockler crosscut sled and arcade components.",
+          "image": "https://i2.ytimg.com/vi/EHPnf82V5lY/hqdefault.jpg",
+          "video": "EHPnf82V5lY"
+        },
+        {
+          "title": "I Made a FULL Mexican Dinner for 4 People for Just $25!",
+          "url": "https://www.youtube.com/watch?v=yYWBELSNb2g",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes a full Mexican dinner for four with chicken tinga and chorizo refried beans for $25.",
+          "image": "https://i2.ytimg.com/vi/yYWBELSNb2g/hqdefault.jpg",
+          "video": "yYWBELSNb2g"
+        }
+      ]
+    }
+  ]
+}
