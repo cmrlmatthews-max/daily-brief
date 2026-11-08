@@ -1,0 +1,1114 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Sunday, November 8, 2026",
+  "generated_at": "2026-11-08T05:00:17-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5",
+    "week": "claude-opus-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Sunday, November 8. Here is what matters today. Our lead story. President Donald Trump said on Saturday that he has offered the job of White House press secretary to his friend Dana White. White runs the UFC. He says he plans to meet with the president on Monday. So far, those are the only confirmed facts. The offer has been made, and a meeting is set. Now the front page. Anthropic has filed a registration statement on Form S-1 with the Securities and Exchange Commission. It relates to a proposed initial public offering of its Class A common stock. In Israel, the president has asked opposition candidate Gadi Eisenkot to form a government. Neither Eisenkot nor Prime Minister Benjamin Netanyahu won enough support to command a majority. In Poland, six people were killed in a shooting in Krakow's main square. BBC reports that three more bodies were later found at the home of the attacker. Now the sections. In tech, the Claude Console now has a beta IP allowlist. It limits where a leaked API key can be used. Anthropic's public skills repository is also trending on GitHub. In politics, Democrats will run federal judicial appointments starting January third, after the change in the Senate majority. Meanwhile, the current Republican-led Congress still has to deal with the defense authorization act and a government funding bill. In world news, the Houthis say a Saudi air strike killed at least 33 people. Saudi Arabia has not commented. Separately, U.S. homelessness saw its largest drop in more than a decade, though it is still close to seven hundred thousand. In sports, the Houston Rockets lost to the Phoenix Suns, 102 to 99, after Devin Booker scored seven straight points late. DeForest Buckner returns to the Bay as the 49ers get ready for the Raiders. And Tatiana Suarez won a unanimous decision at UFC Fight Night, which puts her back in the title picture. In Atlanta, eight Black Democratic women expect to be sworn into statewide office in January after Tuesday's election. A Cobb County home development has also sold out, even with high interest rates. In architecture, Mach9 has added aerial LiDAR and photogrammetry support to its AI CAD software. LightYX has launched a connected workflow for layout and verification. In science, NASA announced new Moon Base awards, including a nuclear-powered rover named PROMISE. And divers in Brazil are working to remove invasive sun coral that threatens native marine life. That is the brief. Have a good day. This is the Sunday edition. Here is the week in review. Democrats win Congress; Anthropic files for IPO. The midterms led the week. Democrats won full control of Congress for the first time since 2023 (w49). In Texas, Democrats flipped the U.S. Senate seat and the governor's office (w56). Democrat Annie Andrews won South Carolina's Senate race (w57). In Georgia, a record 2.8 million people voted early (w18). Keisha Lance Bottoms was elected governor (w51), Jon Ossoff won a second term (w65), and Democrats won control of the Georgia House (w73) and the Public Service Commission (w64). After the election, Stephen Miller was named to replace Susie Wiles as chief of staff (w119). Tech stocks lost about $2 trillion on fears of an AI crackdown (w94), then AI stocks climbed again (w121). Abroad, the U.S. struck Iran's Qeshm Island just before the vote (w24) while Qatar led talks with Iran (w2). A Russian strike on a Ukrainian aid site killed 29 people, and 48 were still missing (w59). After Israel's election ended without a clear winner, its president asked opposition candidate Gadi Eisenkot to form a government (w143). Paraguay's president was impeached after a bank collapse (w96), and a shooting in Krakow killed six people in the main square (w144). For your tools, Anthropic filed an S-1 for a proposed IPO (w50) and set up a Public Benefit Fund (w30). Message threads in the Messages API are now in beta (w25). Fast mode for Opus 4.8 will be removed on November 30 (w5). In AEC software, Qonic added AI agents to its BIM platform (w76) and Autom8Labs released agent skills for Revit (w67). The Rockets moved into first place in the West, then lost two straight games (w26, w153).",
+  "lead": {
+    "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+    "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "President Donald Trump said on Saturday that he has offered the job of White House press secretary to his friend Dana White, who runs the UFC. White said he plans to meet with the president on Monday. That meeting is the next step to watch, since the summary gives no sign yet that White has accepted or turned down the offer. The story matters to this reader on two fronts, politics and the UFC, because the head of the sport's biggest promotion could move into one of the most visible jobs in the White House. The press secretary is the administration's public voice, so a pick from outside the usual political ranks would stand out. For now there are only two confirmed facts: Trump made the offer, and the two men are due to meet Monday. Nothing more is established about the terms or timing of any decision.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4492x3208+0+0/resize/4492x3208!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8c%2Ffa%2F3f790b7e481ea32d03d42cae34fe%2Fap26311730542307.jpg",
+    "video": null,
+    "headline": "Trump offers Dana White press secretary job",
+    "decks": [
+      "Trump says he offered the post to his friend and UFC boss",
+      "White says he will meet the president on Monday"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic has filed a registration statement on Form S-1 with the SEC for a proposed initial public offering of its Class A common stock.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "video": null
+    },
+    {
+      "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+      "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Israel's president asked opposition candidate Gadi Eisenkot to form a government, since neither he nor Prime Minister Netanyahu won enough support for a majority.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F77%2F67a1bd07484b844a6a8d15b90a17%2Fap26301008182475.jpg",
+      "video": null
+    },
+    {
+      "title": "What we know so far after Krakow gun attack",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Six people were killed in a shooting in Krakow's main square, and three more bodies were later found at the attacker's home, BBC reports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f6c3/live/95455f00-dac5-11f1-bda8-29fb69dbc026.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — November 5, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#ip-allowlisting",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "The Claude Console now offers a beta IP allowlist, which limits where a leaked API key can be used. Useful if you ship your own tools.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Anthropic's public repository of Agent Skills for Claude, trending on GitHub today and relevant to the tools you build.",
+          "image": "https://opengraph.githubassets.com/1/anthropics/skills",
+          "video": null
+        },
+        {
+          "title": "Goodbye Claude, Hello Pi",
+          "url": "https://caleb.software/posts/claude-to-pi.html",
+          "source": "Hacker News front page",
+          "topic": "Tech & AI",
+          "note": "A popular Hacker News post on moving from Claude to Pi, with 291 points and 170 comments, shows how other builders weigh their tools.",
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "How the new Senate majority shifts control over the federal judiciary",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032757/how-the-new-senate-majority-shifts-control-over-the-federal-judiciary",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Democrats will run federal judicial appointments from Jan. 3 under the new Senate majority, and may keep that role until at least 2030.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "GOP's lame-duck clock is ticking",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032594/gops-lame-duck-clock-is-ticking",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "The Republican-led Congress must still handle the defense authorization act and a government funding bill before Democrats take over.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Border shift: Hispanic voters drive Texas' historic flip to blue",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6030994/border-shift-hispanic-voters-drive-texas-historic-flip-to-blue",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Hispanic voters along the Texas-Mexico border had a large influence on Texas turning blue in the midterms, NPR reports.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Houthis say at least 33 killed in Saudi air strike",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The Houthis say a Saudi air strike killed at least 33 people; Saudi Arabia, which leads the coalition, has not commented.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2670/live/bfaac760-dacc-11f1-bda8-29fb69dbc026.jpg",
+          "video": null
+        },
+        {
+          "title": "Homelessness in the U.S. saw its largest drop in more than a decade last year",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6033491/homelessness-in-the-u-s-saw-its-largest-drop-in-more-than-a-decade-last-year",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "U.S. homelessness had its largest drop in over a decade but remains near 700,000, and the administration and advocates give different reasons.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2F55%2Fd90a15694546848291f987d5ec35%2Fap23139601436536.jpg",
+          "video": null
+        },
+        {
+          "title": "A correspondent finds Cuba's people struggling",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6029398/a-correspondent-finds-cubas-people-struggling",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "An NPR correspondent describes the difficulty of reporting from Cuba amid widespread power outages and fuel shortages.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Booker scores 24, Suns outlast Rockets 102-99 for 1st back-to-back wins of season",
+          "url": "http://www.espn.com/nba/recap?gameId=401909943",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets lost 102-99 to the Suns on Saturday after Devin Booker scored seven straight points to break a late tie.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909943.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "DeForest Buckner Returns to The Bay: 49ers Locker Room Reacts to His Homecoming",
+          "url": "https://www.49ers.com/news/deforest-buckner-returns-to-the-bay-49ers-locker-room-reacts-to-his-homecoming",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "DeForest Buckner returns to the Bay as the 49ers prepare for the Raiders on Sunday.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ho3ntc917fe37l6vxrew.png",
+          "video": null
+        },
+        {
+          "title": "Tatiana Suarez back in title picture with decision win at UFC Fight Night",
+          "url": "https://www.espn.com/mma/story/_/id/50416964/tatiana-suarez-back-title-picture-ufc-fight-night-win",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Tatiana Suarez beat Virna Jandiroba by unanimous decision at UFC Fight Night, putting herself back in the title picture.",
+          "image": "https://a.espncdn.com/photo/2026/1108/r1742826_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Women put their stamp on Georgia election",
+          "url": "https://roughdraftatlanta.com/2026/11/07/women-georgia-election-statewide-offices/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Eight Black Democratic women expect to take statewide office in January after winning Tuesday's election, per the unofficial tally.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/keisha-lance-bottoms-election-night-2026-600x400.webp",
+          "video": null
+        },
+        {
+          "title": "Cobb County home development sells out—interest rates be damned",
+          "url": "https://atlanta.urbanize.city/post/marietta-cobb-county-home-development-sells-out-interest-rates-be-damned",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Cobb County home development sold out even as high interest rates stall prices across much of metro Atlanta.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Freestone%20Station%20Holbrook%20Reserve%20Hillside%20farmhouse-great.png?itok=62uHEEAB",
+          "video": null
+        },
+        {
+          "title": "Atlanta Housing nears 10,000 affordable homes goal as redevelopment projects advance",
+          "url": "https://saportareport.com/atlanta-housing-nears-10000-affordable-homes-goal-as-redevelopment-projects-advance/columnists/gabi-hart/gabriella-hart/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Atlanta Housing has created or preserved 9,776 affordable homes since July 2022, close to its 10,000 goal.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-3.jpeg?fit=1024%2C766&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Mach9 adds aerial LiDAR and photogrammetry support",
+          "url": "https://aecmag.com/civil-engineering/mach9-adds-aerial-lidar-and-photogrammetry-support/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Mach9's AI CAD software adds aerial LiDAR and photogrammetry support, combining feature extraction, point cloud editing and surface modelling.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "LightYX connects layout and verification",
+          "url": "https://aecmag.com/construction/lightyx-connects-layout-and-verification/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "LightYX combines laser-guided layout, verification and visual documentation in one connected workflow, which is relevant to site-to-model checking.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "House with Forest Windows / Yosuke Tomiya Architectural Design",
+          "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A compact timber house in Sapporo where a suburban street meets dense woodland, in line with your interest in small timber buildings.",
+          "image": "https://images.adsttc.com/media/images/6ac0/0585/90e2/9d01/89d2/dbf1/newsletter/house-with-forest-windows-yosuke-tomiya-architectural-design_1.jpg?1790969246",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA announced awards for its Moon Base effort, including robotic deliveries and a nuclear-powered rover named PROMISE.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
+          "video": null
+        },
+        {
+          "title": "These divers are killing a beautiful coral to save Brazil’s marine life",
+          "url": "https://news.mongabay.com/video/2026/11/these-divers-are-killing-a-beautiful-coral-to-save-brazils-marine-life/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Divers in Brazil are removing invasive sun coral that is spreading along the coast and threatening native marine species.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/07111547/Mongabay_Thumbnail_SunCoral_Featured-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "How octopuses squeeze through tiny openings, step by step",
+          "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Lab work shows how octopuses squeeze through tiny openings, which could inspire body plans for soft robots.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_nb_octopus-squeeze_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "The Blue Wave Might Have Washed Away Progressives’ Leverage",
+              "url": "https://www.levernews.com/did-the-blue-wave-wash-away-progressives-leverage/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Democrats' midterm landslide strengthened Hakeem Jeffries's bid for House speaker and weakened progressive bargaining power.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--13-.jpg",
+              "video": null
+            },
+            {
+              "title": "The Fight Over Dems’ Subpoena List",
+              "url": "https://www.levernews.com/the-fight-over-dems-subpoena-list/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on a 181-page Democratic plan to put tech executives, Wall Street landlords and price gougers under oath, and the internal pushback.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--11-.jpg",
+              "video": null
+            },
+            {
+              "title": "In Jericho, Israeli Settlers Violently Seize and Occupy Palestinian Homes",
+              "url": "https://www.dropsitenews.com/p/jericho-israeli-settlers-palestinians-takeover-soldiers",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Israeli settlers violently seized and occupied Palestinian homes in Jericho, in the occupied West Bank.",
+              "image": "https://substackcdn.com/image/fetch/$s_!eKjf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d3929e-95c3-47df-8c7b-6fb8c035b97e_6240x4160.jpeg",
+              "video": null
+            },
+            {
+              "title": "How the new Senate majority shifts control over the federal judiciary",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6032757/how-the-new-senate-majority-shifts-control-over-the-federal-judiciary",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR explains that Democrats will control federal judicial appointments from January 3 and may keep that control until at least 2030.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Week in Politics: Trump taps Miller for chief of staff; doubles down on Trumpism",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6030908/week-in-politics-trump-taps-miller-for-chief-of-staff-doubles-down-on-trumpism",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports Trump named Stephen Miller his chief of staff, a move it describes as a response to the midterm results.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "American voters demand end to Iran war as Democrats sweep midterms",
+              "url": "https://www.dropsitenews.com/p/us-trump-midterms-democrats-senate-house-iran",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that American voters demanded an end to the Iran war as Democrats swept the midterms.",
+              "image": "https://substackcdn.com/image/fetch/$s_!zUaw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ddd8f21-b848-4676-a449-51a73f1642f2_4006x2441.heic",
+              "video": null
+            },
+            {
+              "title": "Border shift: Hispanic voters drive Texas' historic flip to blue",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6030994/border-shift-hispanic-voters-drive-texas-historic-flip-to-blue",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports Hispanic voters, especially along the Texas-Mexico border, drove Texas's shift toward Democrats in the midterms.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Ousted Paraguayan president appears before prosecutors",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Paraguay's President Santiago Peña was removed from office and placed under house arrest after the Senate voted on impeachment following a bank collapse.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6653x4435+0+0/resize/6653x4435!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Feb%2F78%2F40561ab4423abbd70bf3463d02c0%2Fgettyimages-2295537388.jpg",
+              "video": null
+            },
+            {
+              "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+              "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Israeli President Herzog has given opposition leader Gadi Eisenkot the mandate to form a government after neither bloc won a majority.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F77%2F67a1bd07484b844a6a8d15b90a17%2Fap26301008182475.jpg",
+              "video": null
+            },
+            {
+              "title": "What we know so far after Krakow gun attack",
+              "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Six people were killed in a shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f6c3/live/95455f00-dac5-11f1-bda8-29fb69dbc026.jpg",
+              "video": null
+            },
+            {
+              "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
+              "url": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Polish authorities say the Krakow gunman who killed six had ultranationalistic views and was wounded by police during a gunfight.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7000x4667+0+0/resize/7000x4667!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F93%2Ffc%2Fbb0a469b492cbf28c12a5f5439e8%2Fap26311614976633.jpg",
+              "video": null
+            },
+            {
+              "title": "Houthis say at least 33 killed in Saudi air strike",
+              "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The Houthis say at least 33 people were killed in a Saudi air strike in Yemen. Saudi Arabia, which leads a coalition in Yemen, has not commented.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2670/live/bfaac760-dacc-11f1-bda8-29fb69dbc026.jpg",
+              "video": null
+            },
+            {
+              "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+              "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports New Zealand's election was its tightest in years, with voters deserting the major parties amid a gloomy national mood.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d485/live/0685e840-dab9-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "Homelessness in the U.S. saw its largest drop in more than a decade last year",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6033491/homelessness-in-the-u-s-saw-its-largest-drop-in-more-than-a-decade-last-year",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports U.S. homelessness saw its largest drop in more than a decade last year, but still stands near 700,000.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2F55%2Fd90a15694546848291f987d5ec35%2Fap23139601436536.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats plan to widen their probes of fatal ICE shootings",
+              "url": "https://www.npr.org/2026/11/07/nx-s1-6029659/democrats-investigate-fatal-ice-shootings",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Democrats plan to widen probes into the fatal ICE shootings of Renee Good and Alex Pretti during the Minneapolis surge last winter.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2F51%2Ff396903449859ddabe2ea56444b5%2Fgettyimages-2302917816.jpg",
+              "video": null
+            },
+            {
+              "title": "Health intel-sharing group warns industry in wake of cyberattack on French blood bank",
+              "url": "https://www.npr.org/2026/11/06/nx-s1-6032602/cyberattack-blood-bank-healthcare",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A health intelligence-sharing group warns members to lock down systems after cyberattacks on cold storage, including one on a French blood bank.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2Fb8%2Fb629bb2042d1afc6a8774ba0e682%2Fgettyimages-2286697424-1.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 5, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#ip-allowlisting",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Console now offers an IP allowlist in beta, refusing requests from addresses not on your list. Useful for limiting where a leaked API key can be used.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Quoting Nilay Patel",
+              "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Nilay Patel argues AI products aren't yet good enough to justify the costs, including data center impacts on neighborhoods. A skeptical view relevant to your interest in AI and built environments.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Goodbye Claude, Hello Pi",
+              "url": "https://caleb.software/posts/claude-to-pi.html",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A developer describes moving off Claude to Pi, drawing heavy discussion on Hacker News. Shows how users weigh AI tool choices.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Matt Pocock's agent skills for real engineering work, trending on GitHub. Fits your interest in building personal tools with Claude-style agents.",
+              "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+              "video": null
+            },
+            {
+              "title": "anthropics/skills",
+              "url": "https://github.com/anthropics/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's public repository of Agent Skills for Claude, trending on GitHub. Directly relevant to building custom tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/skills",
+              "video": null
+            },
+            {
+              "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+              "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's Datasette change stops sending next-page prefetch headers to Firefox on HTML pages. A small, practical web fix.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Consumer brain wave headsets threaten privacy",
+              "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Wearable brain-wave headset makers reportedly harvest brain data to train AI without clear user consent. A privacy concern for anyone using consumer AI devices.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "vercel-labs/agent-browser",
+              "url": "https://github.com/vercel-labs/agent-browser",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Vercel's agent-browser is a native Rust CLI letting AI agents drive a browser one command at a time. A useful tool for agent workflows.",
+              "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Booker scores 24, Suns outlast Rockets 102-99 for 1st back-to-back wins of season",
+              "url": "http://www.espn.com/nba/recap?gameId=401909943",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Devin Booker scored 24 as the Suns beat the Rockets 102-99, Houston's latest loss in a Western Conference matchup.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909943.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Denver plays Houston, seeks 4th straight road win",
+              "url": "http://www.espn.com/nba/preview?gameId=401909957",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Denver visits Houston seeking a fourth straight road win, a Western Conference game with Rockets relevance.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Tatiana Suarez back in title picture with decision win at UFC Fight Night",
+              "url": "https://www.espn.com/mma/story/_/id/50416964/tatiana-suarez-back-title-picture-ufc-fight-night-win",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tatiana Suarez won a unanimous decision over Virna Jandiroba at UFC Fight Night and moved back into position for a title shot.",
+              "image": "https://a.espncdn.com/photo/2026/1108/r1742826_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Walker stuns Cortes-Acosta for second straight win",
+              "url": "https://www.espn.com/video/clip/_/id/50417061/walker-stuns-cortes-acosta-second-straight-win",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Johnny Walker knocked out Waldo Cortes-Acosta in the third round, extending his run in the heavyweight division.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "5 Things to Know: 49ers Week 9 Matchup vs. Raiders & Salute to Service",
+              "url": "https://www.49ers.com/news/5-things-to-know-49ers-week-9-matchup-vs-raiders-salute-to-service",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers return to Levi's Stadium to face the Las Vegas Raiders in Week 9, with five key things to know about the matchup.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cxww2rvhzml9yshuldth.png",
+              "video": null
+            },
+            {
+              "title": "49ers Make a Series of Moves Ahead of #LVvsSF",
+              "url": "https://www.49ers.com/news/49ers-make-a-series-of-moves-head-of-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers announced a series of roster moves ahead of Sunday's game against the Las Vegas Raiders.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cppsjp3bvewtynvbppf5.png",
+              "video": null
+            },
+            {
+              "title": "49ers Rule Out Three Wide Receivers vs. Raiders; Bosa Returns to Full Practice Ahead of Week 9 #LVvsSF",
+              "url": "https://www.49ers.com/news/49ers-rule-out-three-wide-receivers-vs-raiders-bosa-returns-to-full-practice-ahead-of-week-9-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers ruled out three wide receivers for the Raiders game, and Nick Bosa returned to full practice.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/f9mlcpkccmznz9s95lzk.png",
+              "video": null
+            },
+            {
+              "title": "Sources: Colts among several NFL teams mulling trade offers as deadline looms",
+              "url": "https://www.espn.com/nfl/story/_/id/50403627/trade-talks-pick-nfl-tuesday-deadline-looming",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Multiple NFL teams are in serious trade discussions as Tuesday's deadline approaches, according to sources.",
+              "image": "https://a.espncdn.com/photo/2026/1105/r1741604_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Women put their stamp on Georgia election",
+              "url": "https://roughdraftatlanta.com/2026/11/07/women-georgia-election-statewide-offices/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Women won major statewide Georgia races on Election Day, with eight Black Democratic women expecting to be sworn in to statewide office in January.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/keisha-lance-bottoms-election-night-2026-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Crane Watch: Vertical climb begins for next Buckhead tower",
+              "url": "https://atlanta.urbanize.city/post/elyse-buckhead-condo-tower-vertical-climb-begins-crane-watch",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta reports vertical construction has started on the next Buckhead tower by Kolter Urban Development, after foundation work wrapped.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Elyse%20Buckhead%20construction%20October%202026%203.png?itok=J1YMRff0",
+              "video": null
+            },
+            {
+              "title": "Downtown Atlanta’s Woodruff Park now has an off-leash dog park",
+              "url": "https://roughdraftatlanta.com/2026/11/07/woodruff-park-dog-park-opens/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Downtown Atlanta's Woodruff Park now has a 6,500-square-foot off-leash dog park with small and large dog sections.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/WP-DOG-PARK-DOG-IN-DOG-PARK-400x600.jpg",
+              "video": null
+            },
+            {
+              "title": "MARTA: We're prepared for massive downtown concerts all week",
+              "url": "https://atlanta.urbanize.city/post/marta-usher-chris-brown-five-concerts-prepared-massive-downtown-weekend",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA says it is prepared for large downtown concerts all week, after last year's escalator-collapse chaos following a Beyonce show.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-06/MARTA%20Station%20World%20Cup%20Atlanta%208_IMG_0419.JPG?itok=7UKu868c",
+              "video": null
+            },
+            {
+              "title": "Microsoft-backed pocket park project sets official opening date",
+              "url": "https://atlanta.urbanize.city/post/microsoft-east-point-pocket-park-project-opening-date-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Microsoft-backed pocket park in East Point has set an official opening date.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/East%20Point%20Ben%20Hill%20Road%20Pocket%20Park%20overview.png?itok=CJDA0ldZ",
+              "video": null
+            },
+            {
+              "title": "Cobb County home development sells out—interest rates be damned",
+              "url": "https://atlanta.urbanize.city/post/marietta-cobb-county-home-development-sells-out-interest-rates-be-damned",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Cobb County home development southwest of downtown Marietta has sold out despite high interest rates.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Freestone%20Station%20Holbrook%20Reserve%20Hillside%20farmhouse-great.png?itok=62uHEEAB",
+              "video": null
+            },
+            {
+              "title": "Atlanta Housing nears 10,000 affordable homes goal as redevelopment projects advance",
+              "url": "https://saportareport.com/atlanta-housing-nears-10000-affordable-homes-goal-as-redevelopment-projects-advance/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta Housing is nearing its goal of 10,000 affordable homes created or preserved since July 2022, with 9,776 so far.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-3.jpeg?fit=1024%2C766&ssl=1",
+              "video": null
+            },
+            {
+              "title": "College Park tourism dispute called ‘heartbreaking,’ hurting city’s reputation",
+              "url": "https://saportareport.com/college-park-tourism-dispute-called-heartbreaking-hurting-citys-reputation/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The ATL Airport District says College Park's decision not to renew its tourism marketing contract is damaging the city's reputation.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2024/09/IMG_7544-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Qonic AI launches inside BIM platform",
+              "url": "https://aecmag.com/bim/qonic-ai-launches-inside-bim-platform/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Qonic AI launched AI agents that work inside a BIM model to find, check, fix and create data through plain language. Directly relevant to your BIM work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Mach9 adds aerial LiDAR and photogrammetry support",
+              "url": "https://aecmag.com/civil-engineering/mach9-adds-aerial-lidar-and-photogrammetry-support/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Mach9 added aerial LiDAR and photogrammetry support to its AI CAD software, combining point cloud editing and surface modelling for survey workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "LightYX connects layout and verification",
+              "url": "https://aecmag.com/construction/lightyx-connects-layout-and-verification/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "LightYX connects laser-guided layout with verification and visual documentation in one workflow, relevant to construction-site practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "House with Forest Windows / Yosuke Tomiya Architectural Design",
+              "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A compact timber house in Sapporo opens toward a dense woodland, a useful study in siting a small house on a difficult lot.",
+              "image": "https://images.adsttc.com/media/images/6ac0/0585/90e2/9d01/89d2/dbf1/newsletter/house-with-forest-windows-yosuke-tomiya-architectural-design_1.jpg?1790969246",
+              "video": null
+            },
+            {
+              "title": "U House / NAQI & Partners",
+              "url": "https://www.archdaily.com/1187503/u-house-naqi-and-partners",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A project in northern Vietnam addresses how rural family plots are subdivided into separate homes as settlement patterns change.",
+              "image": "https://images.adsttc.com/media/images/6adf/304a/3271/8400/01d0/e953/newsletter/UHouse-2.jpg?1793011815",
+              "video": null
+            },
+            {
+              "title": "Mila House / Isla Architects",
+              "url": "https://www.archdaily.com/1027157/mila-house-isla-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Mila House renovates a narrow mid-terrace home by buying an adjacent 25 by 2.5 meter plot, creating large openings in a tight site.",
+              "image": "https://images.adsttc.com/media/images/67b6/2e80/cd9a/d701/88b4/b096/newsletter/casa-mila-isla-architects_10.jpg?1739992716",
+              "video": null
+            },
+            {
+              "title": "A Walk on the Roof: Linnahall and Tallinn’s Shifting Shoreline",
+              "url": "https://www.archdaily.com/1187476/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A walk on the roof of Tallinn's Linnahall, a limestone and concrete building kept low to preserve views of the medieval skyline.",
+              "image": "https://images.adsttc.com/media/images/6ae4/b738/a04f/d001/89cd/426e/newsletter/a-walk-on-the-roof-linnahall-and-tallinns-shifting-shoreline_17.jpg?1793374067",
+              "video": null
+            },
+            {
+              "title": "Apartment Renovation in the Ensanche of Bilbao / BABELstudio",
+              "url": "https://www.archdaily.com/1188205/apartment-renovation-in-the-ensanche-of-bilbao-babelstudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "BABELstudio reworks a 1970s, 80 square meter Bilbao apartment with small compartmentalized rooms into a more open layout.",
+              "image": "https://images.adsttc.com/media/images/6ad0/d744/b2c4/c300/0178/f8e4/newsletter/ENSANCHE_002.jpg?1792071512",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+              "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA announced Moon Base awards for commercial robotic deliveries, a nuclear-powered rover named PROMISE, and orbital transfer services.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg?w=1936",
+              "video": null
+            },
+            {
+              "title": "Record-low temperature created on China’s space station",
+              "url": "https://www.sciencenews.org/article/lowest-temperature-china-space-station",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Atoms on China's space station reached about 10 trillionths of a kelvin, a record low temperature created in orbit.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_EC_coldest-temp_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows a major fireball meteor captured on November 8.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/meteor2017_Taylor_1200.jpg?w=0&h=0&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "How octopuses squeeze through tiny openings, step by step",
+              "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Lab octopuses used specific moves to slip arms and bodies through tiny openings, a finding that could inspire soft robot body plans.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_nb_octopus-squeeze_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "These divers are killing a beautiful coral to save Brazil’s marine life",
+              "url": "https://news.mongabay.com/video/2026/11/these-divers-are-killing-a-beautiful-coral-to-save-brazils-marine-life/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Invasive sun coral is spreading along Brazil's coast and threatening native species, and divers are removing it.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/07111547/Mongabay_Thumbnail_SunCoral_Featured-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Peru’s drive for critical minerals threatens a disappearing glacier",
+              "url": "https://news.mongabay.com/2026/11/perus-drive-for-critical-minerals-threatens-a-disappearing-glacier/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Peru's push for critical minerals threatens the disappearing Quelccaya glacier, the second-largest tropical ice cap in the world.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06181811/IMG_7140-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "As loggerhead turtles spread west, Mediterranean beach resorts learn to share the sand",
+              "url": "https://news.mongabay.com/2026/11/as-loggerhead-turtles-spread-west-mediterranean-beach-resorts-learn-to-share-the-sand/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "As loggerhead turtles spread west, Mediterranean beach resorts are learning to share beaches with nesting turtles.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06133823/OceanImageBank_LewisBurnett_10-loggerhead-turtle-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Drought driven by climate change is redefining how disease spreads, study finds",
+              "url": "https://news.mongabay.com/2026/11/drought-driven-by-climate-change-is-redefining-how-disease-spreads-study-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A study finds climate-driven drought is changing how water-dependent pathogens spread, which matters for outbreak preparedness.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06153125/3-forest-dwelling-mosquitoes--768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "quote": {
+    "text": "I believe that the normal human heart is born good.",
+    "who": "Pearl S. Buck",
+    "about": "American novelist who helped children in need",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 99–102 at PHX",
+      "last_date": "Nov 7",
+      "next": "Mon Nov 9 vs DEN",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909943/rockets-suns",
+      "recent": [
+        "L 99–102 at PHX · Nov 7",
+        "L 107–117 vs MIN · Nov 4",
+        "W 109–93 vs BOS · Nov 2"
+      ],
+      "upcoming": [
+        "Mon Nov 9 vs DEN",
+        "Wed Nov 11 vs GS",
+        "Fri Nov 13 vs UTAH"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "L 20–29 at ATL",
+      "last_date": "Oct 25",
+      "next": "Sun Nov 8 vs LV",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873017/49ers-falcons",
+      "recent": [
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19",
+        "W 32–29 at SEA · Oct 11"
+      ],
+      "upcoming": [
+        "Sun Nov 8 vs LV",
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 80172,
+    "output_tokens": 11442
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Making The Blue Wave Mean Something | Ryan Grim | TMR",
+          "url": "https://www.youtube.com/watch?v=dUfqMv9Mgh0",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Ryan Grim of Drop Site News and Breaking Points recaps the midterm elections with the Majority Report hosts.",
+          "image": "https://i1.ytimg.com/vi/dUfqMv9Mgh0/hqdefault.jpg",
+          "video": "dUfqMv9Mgh0"
+        },
+        {
+          "title": "Stocks Plummet, Broligarchs PANIC After Blue Nuke",
+          "url": "https://www.youtube.com/watch?v=5GRI2gMLHjc",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points hosts discuss stock declines following the midterm elections and the political reaction to them.",
+          "image": "https://i2.ytimg.com/vi/5GRI2gMLHjc/hqdefault.jpg",
+          "video": "5GRI2gMLHjc"
+        },
+        {
+          "title": "MAGA Is Freaking Out Over Dem Investigations",
+          "url": "https://www.youtube.com/watch?v=eF_-unvHDOA",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report discusses Republican reaction to Democratic investigations, with a call to contact Congress included in the description.",
+          "image": "https://i2.ytimg.com/vi/eF_-unvHDOA/hqdefault.jpg",
+          "video": "eF_-unvHDOA"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "🔴 UFC Vegas 124: Post-Fight Press Conference",
+          "url": "https://www.youtube.com/watch?v=3Sj_Vh6CMUI",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Post-fight press conference from UFC Vegas 124, where fighters take media questions after the card.",
+          "image": "https://i4.ytimg.com/vi/3Sj_Vh6CMUI/hqdefault.jpg",
+          "video": "3Sj_Vh6CMUI"
+        },
+        {
+          "title": "EVERY FINISH From UFC Vegas 124 | UFC Highlights",
+          "url": "https://www.youtube.com/watch?v=CSxmsZX8iOk",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Highlight reel of all seven finishes from UFC Vegas 124.",
+          "image": "https://i4.ytimg.com/vi/CSxmsZX8iOk/hqdefault.jpg",
+          "video": "CSxmsZX8iOk"
+        },
+        {
+          "title": "Kyle Shanahan Shares Final Injury Updates on Samuel Sr. | 49ers",
+          "url": "https://www.youtube.com/watch?v=9pG01jA2pJ4",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Kyle Shanahan gives final injury updates on Deebo Samuel Sr. and others ahead of the 49ers' upcoming game.",
+          "image": "https://i2.ytimg.com/vi/9pG01jA2pJ4/hqdefault.jpg",
+          "video": "9pG01jA2pJ4"
+        },
+        {
+          "title": "The run game no NFL defense can figure out",
+          "url": "https://www.youtube.com/watch?v=d_KKv_7VjnA",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Derrik Klassen breaks down how the Steelers' rebuilt offensive line and backfield have produced an explosive run game under Mike McCarthy.",
+          "image": "https://i1.ytimg.com/vi/d_KKv_7VjnA/hqdefault.jpg",
+          "video": "d_KKv_7VjnA"
+        },
+        {
+          "title": "The 2018 Battle of the Bay | The Vault",
+          "url": "https://www.youtube.com/watch?v=M5PDjFhTNCI",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers Vault rewatch of Nick Mullens' 2018 NFL debut, a 34-3 Thursday Night win over the Raiders.",
+          "image": "https://i2.ytimg.com/vi/M5PDjFhTNCI/hqdefault.jpg",
+          "video": "M5PDjFhTNCI"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Claude Design for Construction – 5 Practical Use Cases",
+          "url": "https://www.youtube.com/watch?v=Lwq445tZGoo",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of five practical construction uses for Claude Design, including RFI forms, letters, and drawings, starting from a company design system.",
+          "image": "https://i1.ytimg.com/vi/Lwq445tZGoo/hqdefault.jpg",
+          "video": "Lwq445tZGoo"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "You’re Trying Too Hard | Taoist Philosophy",
+          "url": "https://www.youtube.com/watch?v=baqf4r-TiaQ",
+          "source": "Einzelgänger",
+          "topic": "Tech & Science",
+          "note": "Explores Taoist ideas that less forcing can produce better results and a calmer way of living, and why forcing causes trouble.",
+          "image": "https://i3.ytimg.com/vi/baqf4r-TiaQ/hqdefault.jpg",
+          "video": "baqf4r-TiaQ"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "The Smartest Way to Build a Workshop (On a Budget)",
+          "url": "https://www.youtube.com/watch?v=_FSHSgBKJ-A",
+          "source": "Home RenoVision DIY",
+          "topic": "Make & Cook",
+          "note": "Shows how to build a modular, budget-friendly DIY garage workbench system that can be reconfigured to fit the space.",
+          "image": "https://i4.ytimg.com/vi/_FSHSgBKJ-A/hqdefault.jpg",
+          "video": "_FSHSgBKJ-A"
+        }
+      ]
+    }
+  ],
+  "week": {
+    "from": "2026-11-02",
+    "to": "2026-11-08",
+    "headline": "Democrats win Congress; Anthropic files for IPO",
+    "summary": "The midterms led the week. Democrats won full control of Congress for the first time since 2023 (w49). In Texas, Democrats flipped the U.S. Senate seat and the governor's office (w56). Democrat Annie Andrews won South Carolina's Senate race (w57). In Georgia, a record 2.8 million people voted early (w18). Keisha Lance Bottoms was elected governor (w51), Jon Ossoff won a second term (w65), and Democrats won control of the Georgia House (w73) and the Public Service Commission (w64). After the election, Stephen Miller was named to replace Susie Wiles as chief of staff (w119). Tech stocks lost about $2 trillion on fears of an AI crackdown (w94), then AI stocks climbed again (w121).\n\nAbroad, the U.S. struck Iran's Qeshm Island just before the vote (w24) while Qatar led talks with Iran (w2). A Russian strike on a Ukrainian aid site killed 29 people, and 48 were still missing (w59). After Israel's election ended without a clear winner, its president asked opposition candidate Gadi Eisenkot to form a government (w143). Paraguay's president was impeached after a bank collapse (w96), and a shooting in Krakow killed six people in the main square (w144).\n\nFor your tools, Anthropic filed an S-1 for a proposed IPO (w50) and set up a Public Benefit Fund (w30). Message threads in the Messages API are now in beta (w25). Fast mode for Opus 4.8 will be removed on November 30 (w5). In AEC software, Qonic added AI agents to its BIM platform (w76) and Autom8Labs released agent skills for Revit (w67). The Rockets moved into first place in the West, then lost two straight games (w26, w153).",
+    "top": [
+      {
+        "title": "Democrats win full control of Congress, ushering in a new era of divided government",
+        "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+        "source": "NPR News",
+        "topic": "World",
+        "note": "Democrats won full control of Congress, taking both chambers for the first time since 2023.",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5644x3755+0+0/resize/5644x3755!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2F74%2F5fb6a19f49719ca547f373fd6902%2Fap26154491239623.jpg",
+        "video": null
+      },
+      {
+        "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+        "url": "https://www.anthropic.com/news/s1-sec",
+        "source": "Anthropic news",
+        "topic": "Tech & AI",
+        "note": "Anthropic filed a Form S-1 with the SEC for a proposed IPO of its Class A common stock.",
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "video": null
+      },
+      {
+        "title": "Keisha Lance Bottoms will be Georgia’s next governor in historic win",
+        "url": "https://roughdraftatlanta.com/2026/11/04/keisha-lance-bottoms-georgia-governor-historic-win/",
+        "source": "Rough Draft Atlanta",
+        "topic": "Atlanta",
+        "note": "Former Atlanta Mayor Keisha Lance Bottoms will be Georgia's first Democratic governor in more than 20 years.",
+        "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/keisha-lance-bottoms-rally-obama-ossoff-2026-600x400.webp",
+        "video": null
+      },
+      {
+        "title": "Claude Platform release notes — October 30, 2026",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-30-2026",
+        "source": "Claude Platform release notes",
+        "topic": "Tech & AI",
+        "note": "Opus 4.8 fast mode will be removed on November 30. Move to Opus 5.5 to avoid errors in your tools.",
+        "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+        "video": null
+      },
+      {
+        "title": "Qonic AI launches inside BIM platform",
+        "url": "https://aecmag.com/bim/qonic-ai-launches-inside-bim-platform/",
+        "source": "AEC Magazine",
+        "topic": "Architecture",
+        "note": "Qonic added AI agents to its BIM platform that find, check, fix and create model data from plain-language requests.",
+        "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+        "video": null
+      }
+    ],
+    "liked": [],
+    "suggestions": [
+      {
+        "change": "Add this line to the reader profile: \"Skip a follow-up on the same event unless it adds new facts.\"",
+        "reason": "This week several events ran twice with little new information, including the Nolan–Moicano fight (w39, w63), Paraguay's impeachment (w96, w129) and the Pope's trip (w105, w128). With no likes this week, this is based on coverage only."
+      },
+      {
+        "change": "Drop the source \"Atlanta Braves\" and keep \"MLB.com Braves\" for Braves news in the offseason.",
+        "reason": "Both sources covered Olson's Gold Glove (w14, w40). There were no likes this week to show which one you prefer."
+      },
+      {
+        "change": "Drop the source \"BIM Pure blog\" and keep AEC Magazine as the main BIM source.",
+        "reason": "BIM Pure blog gave no stories this week, while AEC Magazine covered BIM and AI tools almost every day (w67, w68, w76, w136). With no likes, this is based on coverage only."
+      },
+      {
+        "change": "Drop the source \"49ers.com\" and keep \"San Francisco 49ers\" for team news.",
+        "reason": "49ers.com gave one story (w154), and it overlapped with the Buckner coverage in w61. There were no likes this week to suggest you want both."
+      }
+    ]
+  }
+}
