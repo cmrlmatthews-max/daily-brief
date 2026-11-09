@@ -1,0 +1,1057 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Monday, November 9, 2026",
+  "generated_at": "2026-11-09T05:00:20-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Monday, November 9. Here is what matters today. Our lead story. Nvidia has launched an investigation into reports that its chief executive, Jensen Huang, was the target of a Chinese intelligence operation. The reports come from The New York Times. The chipmaking giant says it is looking into them. Other coverage describes an alleged relationship between Huang and a suspected Chinese spy. Nvidia is central to the AI boom, so this story reaches beyond one company. No findings have been reported yet. Now the front page. The San Francisco 49ers returned from their bye week with a 38 to 17 win over the Las Vegas Raiders. Their defense forced five turnovers. President Trump says he was only kidding when he offered UFC chief Dana White the White House press secretary job. In world news, European officials will join this week's talks between Russia and Ukraine in Abu Dhabi. The talks are mediated by the United States. They are the first three-way round since February. The Kremlin had objected. In Washington, Congress returns this week after the midterm elections. Republicans plan to finish several outstanding issues before Democrats take control in January. Now the sections. In tech and AI, Anthropic is expanding its partnership with the General Services Administration to bring Claude to all levels of government. Vercel Labs has released a command line tool that lets AI agents drive a browser. And Simon Willison writes about handling pull request descriptions written by coding agents. In politics, NPR reports that Vice President JD Vance is looking to recast his political future after his party's midterm losses. NPR also says Trump's staffing changes show how he may approach divided government. In world news, at least 34 people died when a migrant boat sank off Senegal. Huawei is on trial in New York, accused of stealing American technology and evading sanctions. And NPR looks at how a bank collapse toppled Paraguay's president. In sports, Denver listed its whole starting lineup as questionable for tonight's game in Houston after travel delays. The 49ers lost rookie tackle Gracen Halton to a broken ankle. And in the UFC, Johnny Walker knocked out Waldo Cortes-Acosta. In Atlanta, new visuals show MARTA's Five Points redevelopment. Zoo Atlanta announced the death of Zuri, a young southern white rhino. In architecture, Chaos is bringing more AI tools into V-Ray and Enscape. Studio Gang has finished a 265-room hotel in downtown Denver. In science and nature, new analysis of a 115-million-year-old fossil points to preserved blood cells, though not everyone is convinced. NASA says this year's ozone hole was the seventh largest on record. And divers in Brazil are removing invasive sun coral near Ipanema. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
+    "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Nvidia has launched an investigation into reports that its chief executive, Jensen Huang, was the target of a Chinese intelligence operation. The reports were published by The New York Times, and the chipmaking giant says it is looking into them. Other coverage describes an alleged relationship between Huang and a suspected Chinese spy. Nvidia is one of the best-known companies in the AI boom, and Huang has been called the face of it, so questions about his conduct reach beyond one company. The story combines a personal matter with national security concerns about China. No findings from the company's investigation have been reported so far. For a reader who follows AI closely, it is worth watching how Nvidia handles the inquiry and what further details emerge.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4432x2952+0+0/resize/4432x2952!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2Fdd%2F043cc9a24616accf483cbf99a1e6%2Fap26294365742048.jpg",
+    "video": null,
+    "headline": "Nvidia investigates its CEO over alleged spy ties",
+    "decks": [
+      "Company says it is looking into New York Times reports",
+      "Reports say Jensen Huang was target of Chinese intelligence operation",
+      "Story links AI industry leadership to national security questions"
+    ]
+  },
+  "front": [
+    {
+      "title": "49ers Defense Forces Five Turnovers in 38-17 Win Over Raiders; Takeaways from #LVvsSF",
+      "url": "https://www.49ers.com/news/49ers-defense-forces-five-turnovers-in-38-17-win-over-raiders-takeaways-from-lvvssf",
+      "source": "49ers.com",
+      "topic": "Sports",
+      "note": "The 49ers returned from their bye with a 38-17 Week 9 win over the Raiders, forcing five turnovers.",
+      "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/gnzdoon4xty71vcn0zoh.png",
+      "video": null
+    },
+    {
+      "title": "Trump says White House press secretary offer to UFC's White was a joke",
+      "url": "https://www.espn.com/mma/ufc/story/_/id/50427992/trump-says-press-secretary-offer-ufc-white-was-joke",
+      "source": "UFC (ESPN)",
+      "topic": "Sports",
+      "note": "Trump says he was only kidding about offering UFC chief Dana White the press secretary job, after the offer drew attention over the weekend.",
+      "image": "https://a.espncdn.com/photo/2026/0615/r1673487_600x400_3-2.jpg",
+      "video": null,
+      "follow_up": "Trump now says the press secretary offer to White was a joke."
+    },
+    {
+      "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "European officials will attend this week's U.S.-mediated Russia-Ukraine talks in Abu Dhabi, the first three-way round since February, despite Kremlin objections.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8144x5424+0+0/resize/8144x5424!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2Fa1%2F91147a0b4187a331f76a4c33d532%2Fap26311445819542.jpg",
+      "video": null
+    },
+    {
+      "title": "Congress is coming back to Washington. Here's what to expect",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect",
+      "source": "NPR Politics",
+      "topic": "Politics",
+      "note": "Congress returns this week after the midterms, with Republicans planning to finish outstanding work before Democrats take control in January.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its partnership with the GSA to bring Claude to all levels of government, a notable step for the company.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "video": null
+        },
+        {
+          "title": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A Rust command-line tool from Vercel Labs lets AI agents drive a browser, useful for anyone building agent tooling.",
+          "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+          "video": null
+        },
+        {
+          "title": "Hide your slop PR descriptions behind",
+          "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison describes how Claude Code and Codex now open most of his pull requests, and how he handles their descriptions.",
+          "image": "https://static.simonwillison.net/static/2026/details-summary-pr.gif",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Midterm results could complicate JD Vance's political future",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6030858/midterm-results-could-complicate-jd-vances-political-future",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR reports that Vice President JD Vance is looking to recast his political future after his party's midterm losses.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump staffing changes post-midterms signal he's battle ready",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034003/trump-staffing-changes-post-midterms-signal-hes-battle-ready",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR says Trump's staffing changes show how he may approach divided government once Democrats take over Congress.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Lever Weekly: The Wave Is Over. The Fight Isn’t.",
+          "url": "https://www.levernews.com/lever-weekly-the-wave-is-over-the-fight-isnt/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever's weekly roundup covers Democratic power struggles and billionaire influence after the midterms.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/LW-Nov8-26.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
+          "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "At least 34 people died when a Europe-bound migrant boat sank off Senegal, on the Atlantic route to Spain's Canary Islands.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cd49/live/784207a0-dc00-11f1-bbe0-3f3fc519e7d8.png",
+          "video": null
+        },
+        {
+          "title": "The world's largest telecoms firm is on trial and the outcome has global implications",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6030670/the-worlds-largest-telecoms-firm-is-on-trial-and-the-outcome-has-global-implications",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Huawei is on trial in New York, accused of stealing American technology and evading US sanctions.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "NPR explains how a bank collapse locked millions out of their money and led to the fall of Paraguay's president.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7310x4873+0+0/resize/7310x4873!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4a%2Fc2%2Fa04252c842ad9112c89b305097bf%2Fap26310862051093.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Nuggets' starters all questionable vs. Rockets after delays leaving Mexico",
+          "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Denver listed its entire starting lineup as questionable for Monday's game in Houston after plane delays leaving Mexico City.",
+          "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
+          "url": "https://www.espn.com/nfl/story/_/id/50428583/49ers-gracen-halton-season-broken-ankle",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers rookie defensive tackle Gracen Halton broke his left ankle against the Raiders and is out for the season.",
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743411_600x600_1-1.jpg",
+          "video": null
+        },
+        {
+          "title": "Walker stuns Cortes-Acosta for second straight win",
+          "url": "https://www.espn.com/video/clip/_/id/50417061/walker-stuns-cortes-acosta-second-straight-win",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Johnny Walker knocked out Waldo Cortes-Acosta in the third round for his second straight win in the heavyweight division.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Fresh visuals emerge for MARTA’s Five Points redevelopment",
+          "url": "https://atlanta.urbanize.city/post/marta-five-points-project-fresh-images-construction-redevelopment",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New visuals show MARTA's Five Points redevelopment, which is reported to be over budget and behind schedule.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/MARTA%20Five%20Points%20station%20render%20overview.jpg?itok=Gx6ydr8U",
+          "video": null
+        },
+        {
+          "title": "Zoo Atlanta announces ‘devatating loss’ of southern white rhino",
+          "url": "https://roughdraftatlanta.com/2026/11/08/zoo-atlanta-rhino-zuri-dies/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Zoo Atlanta announced that Zuri, its 2-year-old southern white rhino, has died after a brief illness.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Southern-white-rhino-Zuri_Zoo-Atlanta-600x400.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Chaos brings AI deeper into V-Ray Collection",
+          "url": "https://aecmag.com/visualisation/chaos-brings-ai-deeper-into-v-ray-collection/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Chaos is adding in-product AI guidance, MCP support and 3D asset generation to V-Ray, relevant to AI in design workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Chaos brings AI design exploration into Enscape",
+          "url": "https://aecmag.com/visualisation/chaos-brings-ai-design-exploration-into-enscape/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Enscape 4.22 ties Veras 2.0 AI design exploration more closely into the visualisation workflow.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Populus / Studio Gang",
+          "url": "https://www.archdaily.com/1031563/populus-hotel-and-social-hub-studio-gang",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Studio Gang has completed Populus, a 265-room hotel in downtown Denver and its first completed project in Colorado.",
+          "image": "https://images.adsttc.com/media/images/685d/61b3/1089/1b27/d367/0bcd/newsletter/populus-hotel-and-social-hub-studio-gang_3.jpg?1750950365",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This may be the best evidence yet that dinosaur blood can fossilize",
+          "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Imaging and chemical analysis of a 115-million-year-old fossil point to blood cells, though some researchers are not convinced.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_mainsocial.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Ozone Hole Reaches Its 2026 Maximum",
+          "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA says the 2026 ozone hole ranked seventh largest by area in 48 years of monitoring, but was not as deep as other large holes.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ozone-hole-reaches-its-2026-maximum/ozone_geos5_20260918_hires.jpg?w=1440&h=1480&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Killing a dangerous coral",
+          "url": "https://news.mongabay.com/short-article/2026/11/killing-a-dangerous-coral/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A Brazilian biologist and volunteer divers are removing invasive sun coral from an offshore oil platform to protect a marine protected area off Ipanema.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/08153612/Mongabay_Thumbnail_SunCoral_Vertical_Featured-338x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Midterm results could complicate JD Vance's political future",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6030858/midterm-results-could-complicate-jd-vances-political-future",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that Vice President JD Vance's political future is in question after his party's midterm losses. Covers the post-midterm landscape.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Congress is coming back to Washington. Here's what to expect",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Congress returns to Washington after the midterms, with Republicans aiming to finish outstanding work before Democrats take control in January.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump staffing changes post-midterms signal he's battle ready",
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6034003/trump-staffing-changes-post-midterms-signal-hes-battle-ready",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "President Trump is changing his inner circle after the midterms, which signals how he may approach divided government.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "In Jericho, Israeli Settlers Violently Seize and Occupy Palestinian Homes",
+              "url": "https://www.dropsitenews.com/p/jericho-israeli-settlers-palestinians-takeover-soldiers",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Israeli settlers seized and occupied Palestinian homes in Jericho, in the occupied West Bank.",
+              "image": "https://substackcdn.com/image/fetch/$s_!eKjf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d3929e-95c3-47df-8c7b-6fb8c035b97e_6240x4160.jpeg",
+              "video": null
+            },
+            {
+              "title": "Latest U.S. Strikes on Qeshm Island Hit Fishermen Who Clung to Wreckage for Hours",
+              "url": "https://www.dropsitenews.com/p/iran-qeshm-island-hormuz-us-strikes-trump-midterms",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports recent U.S. strikes near Qeshm Island in the Strait of Hormuz hit fishermen who clung to wreckage for hours.",
+              "image": "https://substackcdn.com/image/fetch/$s_!xh2N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F349fc620-841c-442b-8b10-50c27e75b250_6000x4000.jpeg",
+              "video": null
+            },
+            {
+              "title": "The Blue Wave Might Have Washed Away Progressives’ Leverage",
+              "url": "https://www.levernews.com/did-the-blue-wave-wash-away-progressives-leverage/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Democrats' midterm landslide strengthened Hakeem Jeffries's bid for House speaker, weakening progressive leverage in the House.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--13-.jpg",
+              "video": null
+            },
+            {
+              "title": "El-Sayed: Fire The Parliamentarian If She Blocks Healthcare Reform",
+              "url": "https://www.levernews.com/el-sayed-fire-the-parliamentarian-if-she-blocks-healthcare-reform/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever interviews Michigan senator-elect El-Sayed, who says Democrats should replace the Senate parliamentarian if she blocks health care legislation.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Abdul-El-Sayed-Interview.png",
+              "video": null
+            },
+            {
+              "title": "You Love To See It: The Other Winners Of Election Night",
+              "url": "https://www.levernews.com/you-love-to-see-it-the-other-winners-of-election-night/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's roundup of election-night outcomes, including tax, state-level, corporate money and AI-related results.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-YouLoveToSeeit-Election.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A bank collapse in Paraguay locked millions out of their money and led to the president's resignation, exposing political and financial ties.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7310x4873+0+0/resize/7310x4873!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4a%2Fc2%2Fa04252c842ad9112c89b305097bf%2Fap26310862051093.jpg",
+              "video": null
+            },
+            {
+              "title": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Nvidia is investigating reports that CEO Jensen Huang was the target of a Chinese intelligence operation, according to The New York Times.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4432x2952+0+0/resize/4432x2952!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2Fdd%2F043cc9a24616accf483cbf99a1e6%2Fap26294365742048.jpg",
+              "video": null
+            },
+            {
+              "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "European officials will attend this week's U.S.-mediated Russia-Ukraine talks in Abu Dhabi, the first three-way round since February.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8144x5424+0+0/resize/8144x5424!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2Fa1%2F91147a0b4187a331f76a4c33d532%2Fap26311445819542.jpg",
+              "video": null
+            },
+            {
+              "title": "The world's largest telecoms firm is on trial and the outcome has global implications",
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6030670/the-worlds-largest-telecoms-firm-is-on-trial-and-the-outcome-has-global-implications",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Huawei, the world's largest telecoms firm, is on trial in New York, accused of stealing American technology and evading U.S. sanctions.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
+              "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "At least 34 people died after a migrant boat bound for Spain's Canary Islands sank off Senegal.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cd49/live/784207a0-dc00-11f1-bbe0-3f3fc519e7d8.png",
+              "video": null
+            },
+            {
+              "title": "Krakow shooting suspect has died in hospital, police say",
+              "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Police say the suspect in a Krakow shooting that killed at least six people has died in hospital.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b131/live/b7c6ce50-dc06-11f1-b6f4-7b86d13131ad.jpg",
+              "video": null
+            },
+            {
+              "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+              "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "New Zealand's election produced no clear winner, and Prime Minister Luxon will lead a caretaker government during weeks of coalition talks.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3555+0+0/resize/5333x3555!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2F5f%2F9142e9fb4171b7967dc02de2a559%2Fap26311421156364.jpg",
+              "video": null
+            },
+            {
+              "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6029641/palantir-hires-a-former-democratic-senator-as-it-faces-scrutiny-in-new-congress",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Palantir is hiring a former Democratic senator as it faces likely congressional scrutiny from incoming Democrats in the new Congress.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows with the company. Relevant to your interest in Claude and Anthropic's direction.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic expands its partnership with the GSA to bring Claude to all levels of government. A notable step in public-sector AI adoption.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "Donating Agent Skills to the Agentic AI Foundation",
+              "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is donating Agent Skills to the Agentic AI Foundation, a move toward shared standards for agent tooling you build with.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "vercel-labs/agent-browser",
+              "url": "https://github.com/vercel-labs/agent-browser",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A native Rust CLI that lets an AI agent drive a browser one command at a time. Useful for anyone building agent workflows with Claude.",
+              "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+              "video": null
+            },
+            {
+              "title": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A coding-agent skill for multi-phase security audits with machine-readable findings. Relevant to building and reviewing software tools with agents.",
+              "image": "https://opengraph.githubassets.com/1/cloudflare/security-audit-skill",
+              "video": null
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Agent skills for real engineering workflows from Matt Pocock's .agents directory. Practical for structuring Claude-assisted coding work.",
+              "image": "https://opengraph.githubassets.com/1/mattpocock/skills",
+              "video": null
+            },
+            {
+              "title": "Hide your slop PR descriptions behind",
+              "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison describes using Claude Code and Codex to open PRs as his unit of work, and how he reviews them. Relevant to your own agent-driven workflow.",
+              "image": "https://static.simonwillison.net/static/2026/details-summary-pr.gif",
+              "video": null
+            },
+            {
+              "title": "google/skills",
+              "url": "https://github.com/google/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Google's Agent Skills repository for its products, including Google Cloud, installable with a single command. Relevant if you work with agent tooling.",
+              "image": "https://opengraph.githubassets.com/1/google/skills",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "49ers Defense Forces Five Turnovers in 38-17 Win Over Raiders; Takeaways from #LVvsSF",
+              "url": "https://www.49ers.com/news/49ers-defense-forces-five-turnovers-in-38-17-win-over-raiders-takeaways-from-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers forced five turnovers in a 38-17 Week 9 win over the Raiders, returning from their bye.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/gnzdoon4xty71vcn0zoh.png",
+              "video": null
+            },
+            {
+              "title": "49ers lose DT Gracen Halton to season-ending ankle fracture",
+              "url": "https://www.espn.com/nfl/story/_/id/50428583/49ers-gracen-halton-season-broken-ankle",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "49ers rookie DT Gracen Halton suffered a broken ankle that ends his season after eight games.",
+              "image": "https://a.espncdn.com/photo/2026/1109/r1743411_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Nuggets' starters all questionable vs. Rockets after delays leaving Mexico",
+              "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Denver's starters are all listed as questionable for Monday's game in Houston after travel delays leaving Mexico City.",
+              "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Denver plays Houston, seeks 4th straight road win",
+              "url": "http://www.espn.com/nba/preview?gameId=401909957",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Preview of Denver at Houston, with the Rockets at 7-3 and the Nuggets seeking a fourth straight road win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Walker stuns Cortes-Acosta for second straight win",
+              "url": "https://www.espn.com/video/clip/_/id/50417061/walker-stuns-cortes-acosta-second-straight-win",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Johnny Walker knocked out Waldo Cortes-Acosta in the third round, his second straight win in the heavyweight division.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "A timeline of how Donald Trump, Dana White forged friendship through the fights",
+              "url": "https://www.espn.com/mma/story/_/id/48995260/donald-trump-dana-white-forged-friendship-combat-sports",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "A timeline of the Trump and Dana White friendship, following the press secretary offer that Trump later called a joke.",
+              "image": "https://a.espncdn.com/photo/2026/0605/mma_dana-white-house_16x9.jpg",
+              "video": null
+            },
+            {
+              "title": "Bosa, Sigle Active vs. Raiders; Inactives Week 9 #LVvsSF",
+              "url": "https://www.49ers.com/news/bosa-sigle-active-vs-raiders-inactives-week-9-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Bosa and Sigle are active for the 49ers against the Raiders, with the inactives list confirmed for Week 9.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/oqvo2mtarwghixuh4kcx.png",
+              "video": null
+            },
+            {
+              "title": "Sale's 3 seasons with Braves have been historically great",
+              "url": "https://www.mlb.com/braves/news/chris-sale-historic-success-with-braves",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "A look at Chris Sale's three seasons with the Braves, which Braves coverage describes as historically great.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/hea9cprugpwzkdd7zoi1.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Zoo Atlanta announces ‘devatating loss’ of southern white rhino",
+              "url": "https://roughdraftatlanta.com/2026/11/08/zoo-atlanta-rhino-zuri-dies/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Zoo Atlanta announced the death of Zuri, a 2-year-old southern white rhino, after a brief illness with severe anemia.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Southern-white-rhino-Zuri_Zoo-Atlanta-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Crane Watch: Vertical climb begins for next Buckhead tower",
+              "url": "https://atlanta.urbanize.city/post/elyse-buckhead-condo-tower-vertical-climb-begins-crane-watch",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Kolter Urban Development's next Buckhead tower has begun vertical construction after deep foundation work wrapped up.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Elyse%20Buckhead%20construction%20October%202026%203.png?itok=J1YMRff0",
+              "video": null
+            },
+            {
+              "title": "Fresh visuals emerge for MARTA’s Five Points redevelopment",
+              "url": "https://atlanta.urbanize.city/post/marta-five-points-project-fresh-images-construction-redevelopment",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "New visuals show MARTA's Five Points redevelopment, which may be over budget and behind schedule.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/MARTA%20Five%20Points%20station%20render%20overview.jpg?itok=Gx6ydr8U",
+              "video": null
+            },
+            {
+              "title": "Major infrastructure projects transform Tucker since its 2016 incorporation",
+              "url": "https://roughdraftatlanta.com/2026/11/08/tucker-ongoing-infrastructure-plans/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Tucker has put its budget into infrastructure and recreation since 2016, including Tucker Town Green and the South Fork Peachtree Creek Trail.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/10/tuckertowngreen-drone-600x338.jpg",
+              "video": null
+            },
+            {
+              "title": "MARTA: We're prepared for massive downtown concerts all week",
+              "url": "https://atlanta.urbanize.city/post/marta-usher-chris-brown-five-concerts-prepared-massive-downtown-weekend",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA says it is prepared for large downtown concerts all week, after past escalator issues following a stadium concert.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-06/MARTA%20Station%20World%20Cup%20Atlanta%208_IMG_0419.JPG?itok=7UKu868c",
+              "video": null
+            },
+            {
+              "title": "College Park tourism dispute called ‘heartbreaking,’ hurting city’s reputation",
+              "url": "https://saportareport.com/college-park-tourism-dispute-called-heartbreaking-hurting-citys-reputation/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "College Park's decision not to renew its destination marketing contract has become a dispute the ATL Airport District calls damaging to the city's reputation.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2024/09/IMG_7544-scaled.jpeg?fit=1024%2C768&ssl=1",
+              "video": null
+            },
+            {
+              "title": "More than a roof: Atlanta housing leaders examine how stable homes can transform families",
+              "url": "https://saportareport.com/more-than-a-roof-atlanta-housing-leaders-examine-how-stable-homes-can-transform-families/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta housing leaders discuss how stable housing can change family outcomes, with officials from 14 states meeting in the city.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-4.jpeg?fit=1024%2C637&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Westside Stride; Midtown bike lanes; Glydways vision; Serenbe; more!",
+              "url": "https://atlanta.urbanize.city/post/westside-stride-midtown-bike-lanes-glydways-vision-serenbe-more",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta's roundup covers the Westside Stride, Midtown bike lanes, the Glydways vision and Serenbe.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-09/Westside%20Stride%202023.jpg?itok=eyFKZfVn",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Chaos brings AI design exploration into Enscape",
+              "url": "https://aecmag.com/visualisation/chaos-brings-ai-design-exploration-into-enscape/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Enscape 4.22 brings Veras 2.0 AI design exploration more closely into the visualization workflow, relevant to your architecture practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Chaos brings AI deeper into V-Ray Collection",
+              "url": "https://aecmag.com/visualisation/chaos-brings-ai-deeper-into-v-ray-collection/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Chaos adds in-product AI guidance, MCP support and 3D asset generation to V-Ray Collection, relevant to BIM and rendering workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Populus / Studio Gang",
+              "url": "https://www.archdaily.com/1031563/populus-hotel-and-social-hub-studio-gang",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Studio Gang has completed Populus, a 265-room hotel in downtown Denver, its first completed project in Colorado.",
+              "image": "https://images.adsttc.com/media/images/685d/61b3/1089/1b27/d367/0bcd/newsletter/populus-hotel-and-social-hub-studio-gang_3.jpg?1750950365",
+              "video": null
+            },
+            {
+              "title": "House with Ghost Roof and Garden / OOOarchitecture",
+              "url": "https://www.archdaily.com/1187591/house-with-ghost-roof-and-garden-oooarchitecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A wooden family home in Chiba, Japan, organized around a central garden that forms the heart of the living space.",
+              "image": "https://images.adsttc.com/media/images/6ae0/a488/3271/8400/01d0/eff9/newsletter/GRH_00.jpg?1793107122",
+              "video": null
+            },
+            {
+              "title": "Driftwood Residence / Nestcraft Architecture",
+              "url": "https://www.archdaily.com/1187593/driftwood-residence-nestcraft-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Driftwood Residence is a 2,900-square-foot three-generation house on an irregular urban plot, reinterpreting traditional tropical domestic forms.",
+              "image": "https://images.adsttc.com/media/images/6ae0/acf8/3271/8400/01d0/f02c/newsletter/Abhimanyu_K__4_.jpg?1793109298",
+              "video": null
+            },
+            {
+              "title": "Florian Residence 1 / Benthem Crouwel Architects",
+              "url": "https://www.archdaily.com/1188055/florian-residence-1-benthem-crouwel-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Florian Residence 1 by Benthem Crouwel is the first completed building in a new urban district, with 73 homes above shops.",
+              "image": "https://images.adsttc.com/media/images/6aeb/354c/c723/9a01/895a/271a/newsletter/florian-residence-1-benthem-crouwel-architects_13.jpg?1793799508",
+              "video": null
+            },
+            {
+              "title": "Molina de Segura Pedestrian Bridge / FVAI",
+              "url": "https://www.archdaily.com/1188208/molina-de-segura-pedestrian-bridge-fvai",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A new pedestrian and cycling bridge over the Segura River connects the city and the agricultural landscape of Molina de Segura.",
+              "image": "https://images.adsttc.com/media/images/6ac6/5853/07c3/d100/017f/dd74/newsletter/03_Pasarela_Molina_del_Segura__Milena_Villalba.jpg?1791383660",
+              "video": null
+            },
+            {
+              "title": "Fuentesaúco Pharmacy / David Hernandez Arquitectura",
+              "url": "https://www.archdaily.com/1188185/fuentesauco-pharmacy-david-hernandez-arquitectura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Fuentesaúco Pharmacy renovation shows how architecture can support essential rural services in a town of about 1,500 people.",
+              "image": "https://images.adsttc.com/media/images/6ae2/f733/3271/8400/01d0/fa5c/newsletter/01_Exterior_01_David_Hernandez_Sergio_Murillo.jpg?1793259355",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "This may be the best evidence yet that dinosaur blood can fossilize",
+              "url": "https://www.sciencenews.org/article/evidence-dinosaur-blood-fossilize",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Imaging and chemical analysis of a 115-million-year-old dinosaur fossil points to preserved blood cells, though some researchers are not convinced.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_mainsocial.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "This armored amphibian once lived and hunted on the seafloor",
+              "url": "https://www.sciencenews.org/article/first-marine-amphibian-ancient-fossil",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Gerrothorax maritimus, an armored amphibian from about 237 million years ago, is the first known amphibian to live without access to land or fresh water.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_AS_marineamphibian_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Killing a dangerous coral",
+              "url": "https://news.mongabay.com/short-article/2026/11/killing-a-dangerous-coral/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Volunteer divers are manually removing invasive sun coral from an offshore platform in a marine protected area off Ipanema beach.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/08153612/Mongabay_Thumbnail_SunCoral_Vertical_Featured-338x512.jpg",
+              "video": null
+            },
+            {
+              "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+              "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA opened a $1 million Moon Base Student Challenge for U.S. high school and college teams.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521.png?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+              "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA has opened applications for its next class of astronauts, who will help return people to the Moon and build the Moon Base.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg?w=1920",
+              "video": null
+            },
+            {
+              "title": "Ozone Hole Reaches Its 2026 Maximum",
+              "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "The 2026 ozone hole ranked seventh largest by area in 48 years of monitoring, though it was not as deep as other large holes.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ozone-hole-reaches-its-2026-maximum/ozone_geos5_20260918_hires.jpg?w=1440&h=1480&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Scientists discovered an unknown baby right whale off Canada. They say it’s a cause for joy",
+              "url": "https://news.mongabay.com/short-article/2026/11/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Researchers found an unidentified baby North Atlantic right whale off Quebec, a rare and encouraging sighting for an endangered species.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/06170019/AP26203535889739-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 9 features Rigel and the Witch Head Nebula.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/WitchHead_Czerski_3000.jpg?w=2048&h=1359&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "quote": {
+    "text": "The struggle itself toward the heights is enough to fill a man's heart.",
+    "who": "Albert Camus",
+    "about": "French-Algerian writer and Nobel laureate",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 99–102 at PHX",
+      "last_date": "Nov 7",
+      "next": "Mon Nov 9 vs DEN",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909943/rockets-suns",
+      "recent": [
+        "L 99–102 at PHX · Nov 7",
+        "L 107–117 vs MIN · Nov 4",
+        "W 109–93 vs BOS · Nov 2"
+      ],
+      "upcoming": [
+        "Mon Nov 9 vs DEN",
+        "Wed Nov 11 vs GS",
+        "Fri Nov 13 vs UTAH"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 38–17 vs LV",
+      "last_date": "Nov 8",
+      "next": "Sun Nov 15 at DAL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+      "recent": [
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19"
+      ],
+      "upcoming": [
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "SSLError: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by SSLError(SSLEOFError(8, '[SS"
+    }
+  ],
+  "usage": {
+    "input_tokens": 57578,
+    "output_tokens": 9626
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Bernie Sanders Has To Love This",
+          "url": "https://www.youtube.com/watch?v=lBa4RLaDx7s",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report discussion of Bernie Sanders' position and reactions in current political news; covers ICE rapid response organizing and congressional contact info.",
+          "image": "https://i1.ytimg.com/vi/lBa4RLaDx7s/hqdefault.jpg",
+          "video": "lBa4RLaDx7s"
+        },
+        {
+          "title": "Jeffries Already Rushing To Surrender",
+          "url": "https://www.youtube.com/watch?v=1WhaDHIkFzQ",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report commentary on House Democratic leader Hakeem Jeffries and his recent stance; includes calls to organize with local ICE rapid response teams.",
+          "image": "https://i2.ytimg.com/vi/1WhaDHIkFzQ/hqdefault.jpg",
+          "video": "1WhaDHIkFzQ"
+        },
+        {
+          "title": "Roy Cooper Understands The Assignment",
+          "url": "https://www.youtube.com/watch?v=aANNAHiY-zI",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report segment on Roy Cooper's recent political move, with the same organizing and congressional contact information in the description.",
+          "image": "https://i2.ytimg.com/vi/aANNAHiY-zI/hqdefault.jpg",
+          "video": "aANNAHiY-zI"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Warner, Purdy, McCaffrey, Buckner, Bosa, Kittle Break Down Win Over Raiders | 49ers",
+          "url": "https://www.youtube.com/watch?v=OfDr2H6atCI",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers players Warner, Purdy, McCaffrey, Buckner, Bosa and Kittle break down the Week 9 win over the Raiders.",
+          "image": "https://i4.ytimg.com/vi/OfDr2H6atCI/hqdefault.jpg",
+          "video": "OfDr2H6atCI"
+        },
+        {
+          "title": "Watkins on First Career Touchdown, Taking On Bigger Role | 49ers",
+          "url": "https://www.youtube.com/watch?v=y7lP1TuSuKI",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers receiver Jordan Watkins discusses his first career NFL touchdown and his bigger role after the Week 9 win over the Raiders.",
+          "image": "https://i2.ytimg.com/vi/y7lP1TuSuKI/hqdefault.jpg",
+          "video": "y7lP1TuSuKI"
+        },
+        {
+          "title": "Polymarket UFC 334 Countdown - Harrison vs Nunes",
+          "url": "https://www.youtube.com/watch?v=46uAKr3WqY4",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Preview of UFC 334 at Madison Square Garden, with Ciryl Gane defending his heavyweight title and Kayla Harrison facing Amanda Nunes.",
+          "image": "https://i1.ytimg.com/vi/46uAKr3WqY4/hqdefault.jpg",
+          "video": "46uAKr3WqY4"
+        },
+        {
+          "title": "The Hidden Science Behind MMA | Stephen \"Wonderboy\" Thompson",
+          "url": "https://www.youtube.com/watch?v=NmhljTeLPw4",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC welterweight Stephen Thompson and HSS physicians break down the techniques, physical demands and health considerations of several martial arts in MMA.",
+          "image": "https://i3.ytimg.com/vi/NmhljTeLPw4/hqdefault.jpg",
+          "video": "NmhljTeLPw4"
+        },
+        {
+          "title": "Bears Survive, Jordan Love THUMPS Patriots & WTF NFC South",
+          "url": "https://www.youtube.com/watch?v=ig1PmVk-Xis",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show recaps Week 9 NFL games, including the Packers' win over the Patriots and the NFC North.",
+          "image": "https://i2.ytimg.com/vi/ig1PmVk-Xis/hqdefault.jpg",
+          "video": "ig1PmVk-Xis"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Claude + Revit tutorial: Convert Dynamo to Tools in the Ribbon",
+          "url": "https://www.youtube.com/watch?v=Rva2GIZddV8",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Tutorial on using Claude Code to convert Dynamo scripts into pyRevit ribbon tools, with the BIM Pure MCP and a 3D viewer for validation.",
+          "image": "https://i3.ytimg.com/vi/Rva2GIZddV8/hqdefault.jpg",
+          "video": "Rva2GIZddV8"
+        },
+        {
+          "title": "DeepSeek for Construction — Can It Beat Claude and ChatGPT?",
+          "url": "https://www.youtube.com/watch?v=eQFAlDklgEM",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tests DeepSeek on construction drawings, a plumbing quantity take-off and construction management tasks, compared against Claude and ChatGPT.",
+          "image": "https://i2.ytimg.com/vi/eQFAlDklgEM/hqdefault.jpg",
+          "video": "eQFAlDklgEM"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Parthenon, Machu Picchu and Stonehenge | If We Built It Today | Science Channel",
+          "url": "https://www.youtube.com/watch?v=Uadcj9NHUr8",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Experts and architects explore how modern technology could rebuild the Parthenon, Machu Picchu and Stonehenge today.",
+          "image": "https://i2.ytimg.com/vi/Uadcj9NHUr8/hqdefault.jpg",
+          "video": "Uadcj9NHUr8"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "Your Guilty Pleasure Pasta Just Got a SERIOUS Upgrade",
+          "url": "https://www.youtube.com/watch?v=G05hqkITvCQ",
+          "source": "Brian Lagerstrom",
+          "topic": "Make & Cook",
+          "note": "Brian Lagerstrom shows a blackened chicken Alfredo pasta recipe that upgrades a classic '90s-style dish, with detailed recipes on his blog.",
+          "image": "https://i4.ytimg.com/vi/G05hqkITvCQ/hqdefault.jpg",
+          "video": "G05hqkITvCQ"
+        }
+      ]
+    }
+  ]
+}
