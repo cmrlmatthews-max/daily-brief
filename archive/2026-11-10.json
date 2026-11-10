@@ -1,0 +1,1048 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, November 10, 2026",
+  "generated_at": "2026-11-10T05:00:23-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, November 10. Our lead story is from the world of Claude. Anthropic released Fable 5.2 and Mythos 5.2 yesterday. Simon Willison reports that Fable 5.2 is currently ranked first on Artificial Analysis. Anthropic says the model solved two open problems in the physics of black holes. Willison has updated his llm-anthropic tool for the new models. The Claude platform notes say Fable 5.2 is built for demanding reasoning and long-horizon agentic work. Mythos 5.2 offers the same capabilities, but only to organizations verified through Anthropic's programs. A fast mode for Fable 5.2 on the Claude API offers up to two and a half times higher output speed. Now the rest of the front page. In Abu Dhabi, Kyiv, Washington and Moscow have sent delegations to the first three-way talks since February. US officials cite some flexibility on the warring sides. In Washington, Thomas Massie filed articles of impeachment against Defense Secretary Pete Hegseth. They cite the war against Iran and the War Powers Resolution. In football, the NFL reinstated 49ers receiver Brandon Aiyuk. San Francisco has a two-game roster exemption for him. Now the sections. In tech, Meta AI launched a small, efficient model called Muse Ember, and Anthropic's Agent Skills repository is trending on GitHub. In politics, California voters defeated a one-time five percent billionaire tax. The Lever reports on a coming Democratic debate over taxing the rich. Drop Site covers flooding in Gaza and Saudi strikes in Yemen. In world news, Trump says more US attacks on Iran are highly unlikely. France says Iranian military hackers took over refrigeration controllers at about seven hundred retail sites. In sports, Kevin Durant and Alperen Sengun led the Rockets past the Nuggets, one hundred ten to one hundred. Christian McCaffrey broke an NFL record in the 49ers' win over the Raiders. In Atlanta, a Beltline project has started delivering the first of three hundred twenty-five more residences. The College Football Playoff will grow to twenty-four teams, which ends the SEC title game played in Atlanta. In architecture, Trimble is adding AI agents to its Connect platform. G2 Digital launched a quad-GPU server as an alternative to cloud AI. In science, fossil fuel emissions are down in 2026, probably because of high gas prices from the Iran war. Arctic ice cores also trace heavy metals to old mining in Montana. That is the brief. Have a good day.",
+  "lead": {
+    "title": "llm-anthropic 0.31",
+    "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "source": "Simon Willison",
+    "topic": "Tech & AI",
+    "note": "Anthropic released Fable 5.2 and Mythos 5.2 today, according to Simon Willison's note on the llm-anthropic 0.31 release. He reports that Fable 5.2 is currently ranked first on Artificial Analysis. Anthropic says the model solved two open problems in the physics of black holes, and Willison remarks that its internal benchmarks have clearly become more ambitious. For a reader who builds personal tools with Claude, the practical point is that the plugin release notes say the new models have been added. The item is a short release note, so it offers little beyond the ranking and Anthropic's claim. Both are claims to weigh, not settled facts. Even so, it is the most direct Claude news today and a prompt to read the platform notes on what the new models are built for.",
+    "image": "https://static.simonwillison.net/static/2026/fable-5.2-xhigh.avif",
+    "video": null,
+    "headline": "Anthropic Releases Fable 5.2 and Mythos 5.2",
+    "decks": [
+      "Fable 5.2 is currently ranked first on Artificial Analysis",
+      "Anthropic says it solved two open problems in black hole physics",
+      "Simon Willison has already updated his llm-anthropic tool"
+    ]
+  },
+  "front": [
+    {
+      "title": "Claude Platform release notes — November 9, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-fable-5-2",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "Claude Fable 5.2 targets demanding reasoning and long-horizon agentic work; Mythos 5.2 has the same capabilities but only for organizations verified through Anthropic's programs.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+      "video": null
+    },
+    {
+      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Kyiv, Washington and Moscow have sent delegations to the United Arab Emirates for their first trilateral talks since February, and US officials cite some flexibility.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d4a/live/c60a1ad0-dc88-11f1-851a-19e868620cad.jpg",
+      "video": null
+    },
+    {
+      "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Thomas Massie filed articles of impeachment against Defense Secretary Pete Hegseth, citing the war against Iran and the War Powers Resolution.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F0e%2F14b88caf4047bd38fcf2636e26fb%2Fgettyimages-2295072179.jpg",
+      "video": null
+    },
+    {
+      "title": "Brandon Aiyuk reinstated by NFL; 49ers have 2-game roster exemption for receiver",
+      "url": "https://www.espn.com/nfl/story/_/id/50435848/49ers-receiver-brandon-aiyuk-reinstated-nfl",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The NFL reinstated 49ers receiver Brandon Aiyuk after he reported for a physical, and San Francisco has a two-game roster exemption for him.",
+      "image": "https://a.espncdn.com/photo/2025/1202/r1583555_600x400_3-2.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — November 9, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#fast-mode-claude-fable-5-2",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Fast mode for Fable 5.2 on the Claude API offers up to 2.5x output speed at stated higher per-token prices, useful when budgeting tool costs.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+          "video": null
+        },
+        {
+          "title": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Anthropic's public repository of Agent Skills, folders of instructions and scripts Claude loads dynamically, is trending and relevant to custom tooling.",
+          "image": "https://opengraph.githubassets.com/1/anthropics/skills",
+          "video": null
+        },
+        {
+          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+          "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Meta AI launched Muse Ember, its smallest and most efficient model, aimed at agent work such as repeated tool calls.",
+          "image": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The Coming Democratic Party Battle On Taxing The Rich",
+          "url": "https://www.levernews.com/the-coming-democratic-party-battle-on-taxing-the-rich/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that Democrats gained power to tax millionaires and billionaires, and that its corporate wing may offer donors an alternative.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress-2027.jpg",
+          "video": null
+        },
+        {
+          "title": "Gaza floods destroy 70,000 tents; Trump open to immigration deal after midterms wipeout; Saudi strikes kill 21 children in Yemeni village",
+          "url": "https://www.dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site's daily roundup covers Gaza flood damage, Trump's openness to an immigration deal after the midterms, and Saudi strikes in Yemen.",
+          "image": "https://substackcdn.com/image/fetch/$s_!GoWb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F454060e8-8b54-42e4-8812-aa18acb5345c_3648x2432.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "California voters defeat billionaire tax proposal that divided Democrats",
+          "url": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "California voters rejected a one-time 5% tax on most billionaire wealth, a proposal that had divided Democrats.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb7%2Fd4%2F807c80934608bca62e0839ba2d92%2Fap26279152222212.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump says more US attacks on Iran 'highly unlikely'",
+          "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Trump says more US attacks on Iran are highly unlikely and describes a status quo, while remaining ready should the situation change.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0baa/live/f351b160-dcd8-11f1-93e1-3b657b665bcf.jpg",
+          "video": null
+        },
+        {
+          "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+          "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "France says Iranian military hackers took over refrigeration controllers at about 700 retail sites, spoiling millions of dollars of food.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2F5a%2F249abfba43bea5b714f1d6e355d2%2Fgettyimages-2299339600.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Durant and Sengun power the Rockets past the Nuggets 110-100 to snap a 2-game skid",
+          "url": "http://www.espn.com/nba/recap?gameId=401909957",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Kevin Durant scored 23 and Alperen Sengun 20 as the Rockets beat the Nuggets 110-100, ending a two-game skid.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF",
+          "url": "https://www.49ers.com/news/purdy-reaches-100-passing-tds-mccaffrey-breaks-nfl-record-stats-and-facts-from-lvvssf",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "Brock Purdy reached 100 passing touchdowns and Christian McCaffrey broke an NFL record in the 49ers' Week 9 game against the Raiders.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/lpfzozwjemebqu0px14a.jpg",
+          "video": null
+        },
+        {
+          "title": "UFC's Dana White joins Trump at White House briefing",
+          "url": "https://www.espn.com/mma/story/_/id/50436780/ufc-dana-white-president-donald-trump-press-briefing",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Dana White appeared at a White House briefing to end questions over whether he would become Trump's press secretary.",
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743780_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Project with 325 more residences starts delivering along Beltline loop",
+          "url": "https://atlanta.urbanize.city/post/woodrow-house-beltline-apartments-images-starts-deliver-southwest-trail-loop",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Southwest Atlanta project on the Beltline loop has begun delivering the first of 325 more residences, nearly five years after plans emerged.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/aerial%20Woodrow%20House.png?itok=svB304mY",
+          "video": null
+        },
+        {
+          "title": "College Football Playoff expands to 24 teams starting in 2027-28 season",
+          "url": "https://roughdraftatlanta.com/2026/11/09/cfp-expands-24-teams/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "The College Football Playoff will expand to 24 teams in 2027-28, ending Power 4 conference title games, including the SEC's in Atlanta.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/01/6838a99a1224a2e5562ae55f_Chick-fil-A-peach-bowl-600x600.jpg?crop=1",
+          "video": null
+        },
+        {
+          "title": "From the gas pump to your rent: How rising diesel prices are driving up Atlanta’s housing costs",
+          "url": "https://saportareport.com/from-the-gas-pump-to-your-rent-how-rising-diesel-prices-are-driving-up-atlantas-housing-costs/columnists/gabi-hart/gabriella-hart/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Rising diesel prices are raising construction costs and threatening affordable housing developments in Atlanta, according to SaportaReport.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-6.jpeg?fit=1024%2C499&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Trimble embeds AI across AECO",
+          "url": "https://aecmag.com/collaboration/trimble-embeds-ai-across-aeco/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Trimble Connect adds AI agents and automation for project coordination, risk management and workflows across AECO.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "G2 Digital launches quad-GPU 2U server",
+          "url": "https://aecmag.com/workstations/g2-digital-launches-quad-gpu-2u-server/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "G2 Digital's UK-made quad-GPU 2U server is pitched as an alternative to premium cloud AI services for design firms.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/11/Q-Power-No-Lid-Top-Angled-scaled-1.jpg",
+          "video": null
+        },
+        {
+          "title": "Bringing the Sky Closer: 4 Planetariums and Astronomical Observatories",
+          "url": "https://www.archdaily.com/1186985/bringing-the-sky-closer-4-planetariums-and-astronomical-observatories",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily collects four planetariums and astronomical observatories, spaces built to interpret the sky.",
+          "image": "https://images.adsttc.com/media/images/6ad1/5d6f/8008/f401/8ba5/3ce6/newsletter/planetariums-and-astronomical-observatories-4-projects-that-bring-the-sky-closer_7.jpg?1792105847",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Fossil fuel emissions are down in 2026. Green energy isn’t the reason",
+          "url": "https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Fossil fuel emissions are down in 2026, but the dip is probably driven by high gas prices from the Iran war, not green energy.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110926_NO_emissions_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Toxic secrets are hiding in Arctic ice",
+          "url": "https://www.sciencenews.org/article/toxic-secrets-hiding-arctic-ice-harm",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Arctic ice cores trace arsenic, lead and other heavy metals to historic mining and smelting in Montana.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/090926_KK_pollution_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Astronomy Picture of the Day for November 10 shows Saturn behind the Moon.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Trump's crypto profits raise alarms for transparency advocates",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-5983730/trumps-crypto-profits-raise-alarms-for-transparency-advocates",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports Trump has made nearly $3 billion while in office, mostly from crypto ventures, with much of it from foreign sources, drawing transparency concerns.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "The Coming Democratic Party Battle On Taxing The Rich",
+              "url": "https://www.levernews.com/the-coming-democratic-party-battle-on-taxing-the-rich/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Democrats gained power to tax millionaires and billionaires after the midterms, and that their corporate wing may offer donors an escape route.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress-2027.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats Won An Anti-Corruption Mandate. Now They Must Deliver.",
+              "url": "https://www.levernews.com/democrats-won-an-anti-corruption-mandate-now-they-must-deliver/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever argues Democrats now must act on anti-corruption support from the midterms, with publicly financed elections as one proposed route.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Capitol-Building.png",
+              "video": null
+            },
+            {
+              "title": "After midterm losses, Trump makes changes to his inner circle",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6034027/after-midterm-losses-trump-makes-changes-to-his-inner-circle",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "After midterm losses, Trump changed his inner circle, a shift tied to Democrats' gains in the House and Senate.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Gaza floods destroy 70,000 tents; Trump open to immigration deal after midterms wipeout; Saudi strikes kill 21 children in Yemeni village",
+              "url": "https://www.dropsitenews.com/p/gaza-floods-trump-immigration-saudi-strikes",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily covers Gaza flood damage to tents, a possible Trump immigration deal, and Saudi strikes in Yemen that killed 21 children.",
+              "image": "https://substackcdn.com/image/fetch/$s_!GoWb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F454060e8-8b54-42e4-8812-aa18acb5345c_3648x2432.jpeg",
+              "video": null
+            },
+            {
+              "title": "In Jericho, Israeli Settlers Violently Seize and Occupy Palestinian Homes",
+              "url": "https://www.dropsitenews.com/p/jericho-israeli-settlers-palestinians-takeover-soldiers",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Israeli settlers seized and occupied Palestinian homes inside Jericho in the occupied West Bank.",
+              "image": "https://substackcdn.com/image/fetch/$s_!eKjf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d3929e-95c3-47df-8c7b-6fb8c035b97e_6240x4160.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "California voters defeat billionaire tax proposal that divided Democrats",
+              "url": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "California voters rejected a one-time 5% billionaire wealth tax proposal that had divided Democrats.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb7%2Fd4%2F807c80934608bca62e0839ba2d92%2Fap26279152222212.jpg",
+              "video": null
+            },
+            {
+              "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Rep. Thomas Massie filed articles of impeachment against Defense Secretary Pete Hegseth, citing war against Iran under the War Powers Resolution.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F0e%2F14b88caf4047bd38fcf2636e26fb%2Fgettyimages-2295072179.jpg",
+              "video": null
+            },
+            {
+              "title": "Kushner and Witkoff renew peace talks to end war between Russia and Ukraine",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6034616/kushner-and-witkoff-renew-peace-talks-to-end-war-between-russia-and-ukraine",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Envoy Steve Witkoff and Jared Kushner resumed peace talks in Abu Dhabi with Russian and Ukrainian negotiators to end the war in Ukraine.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+              "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Kyiv, Washington and Moscow sent delegations to the UAE for the first trilateral Ukraine talks since February, with some flexibility reported.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d4a/live/c60a1ad0-dc88-11f1-851a-19e868620cad.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump says more US attacks on Iran 'highly unlikely'",
+              "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Trump said further US attacks on Iran are highly unlikely and that the current status quo is being kept, while remaining ready to act.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0baa/live/f351b160-dcd8-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+              "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "France accuses Iranian military hackers of taking over refrigeration controllers at about 700 retail sites, raising temperatures and spoiling food.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F71%2F5a%2F249abfba43bea5b714f1d6e355d2%2Fgettyimages-2299339600.jpg",
+              "video": null
+            },
+            {
+              "title": "Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
+              "url": "https://www.npr.org/2026/11/09/g-s1-152627/up-first-newsletter-stephen-miller-trump-congress-nvidia-cop31",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Republicans have weeks left controlling Congress after the midterm defeat, and Trump appointed Stephen Miller as chief of staff.",
+              "image": "https://www.npr.org/2026/11/09/g-s1-152627/undefined",
+              "video": null
+            },
+            {
+              "title": "Supreme Court says border wall construction can continue in west Texas",
+              "url": "https://www.npr.org/2026/11/09/nx-s1-6019424/border-wall-big-bend-texas-trump",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The Supreme Court allowed border wall construction to continue in west Texas while a lawsuit over the plan proceeds.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2500x1570+0+0/resize/2500x1570!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2Faa%2F8b772ccb4a99bfc5c6f7db6e8b01%2Fdsc-4950.jpg",
+              "video": null
+            },
+            {
+              "title": "Thick smog shrouds New Delhi after Diwali firecrackers add to seasonal pollution",
+              "url": "https://www.npr.org/2026/11/09/g-s1-152634/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Thick smog covered New Delhi after Diwali firecrackers added to seasonal pollution, a recurring winter air quality problem in the city.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8246x5497+0+0/resize/8246x5497!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0f%2Fa0%2F9498db764f74bf5081bd7fb99824%2Fap26313155738342.jpg",
+              "video": null
+            },
+            {
+              "title": "DR Congo sentences 66 soldiers to death for being 'cowards'",
+              "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A DR Congo military court sentenced 66 soldiers to death for cowardice, amid long-running problems in the army's fight against rebel groups.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1460/live/8ec95eb0-dce1-11f1-a8e1-e3454837ffc6.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 9, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-fable-5-2",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic released Claude Fable 5.2 for long-horizon agentic work, with Mythos 5.2 limited to verified organizations. Directly relevant to your daily Claude use.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 9, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#fast-mode-claude-fable-5-2",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Fast mode for Claude Fable 5.2 in the Messages API offers up to 2.5x higher output speed, with listed per-token pricing. Useful if you build tools on the API.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "anthropics/skills",
+              "url": "https://github.com/anthropics/skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's public repository of Agent Skills for Claude, the folder-based instruction format you can extend for your own tools.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/skills",
+              "video": null
+            },
+            {
+              "title": "anthropics/claude-quickstarts",
+              "url": "https://github.com/anthropics/claude-quickstarts",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's collection of starter projects for building applications on the Claude API, useful as a reference for deployable tools.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/claude-quickstarts",
+              "video": null
+            },
+            {
+              "title": "llm-anthropic 0.31",
+              "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "llm-anthropic 0.31 adds support for the newly released Fable 5.2 and Mythos 5.2 models, for users of the LLM command-line tool.",
+              "image": "https://static.simonwillison.net/static/2026/fable-5.2-xhigh.avif",
+              "video": null
+            },
+            {
+              "title": "Quoting Prompting Claude Fable 5.2",
+              "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Anthropic testing found Fable 5.2 adds to existing code structure and responds to what a prompt says about code ownership. Relevant to how you prompt it on projects.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "meta/astryx",
+              "url": "https://github.com/meta/astryx",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Meta's open source, agent-ready React design system in beta, relevant to interface work and AI-assisted front-end development.",
+              "image": "https://opengraph.githubassets.com/1/meta/astryx",
+              "video": null
+            },
+            {
+              "title": "ruvnet/RuView",
+              "url": "https://github.com/ruvnet/RuView",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "RuView uses commodity WiFi signals for presence detection and vital sign monitoring without video, a popular new open repository on GitHub trending.",
+              "image": "https://opengraph.githubassets.com/1/ruvnet/RuView",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Durant and Sengun power the Rockets past the Nuggets 110-100 to snap a 2-game skid",
+              "url": "http://www.espn.com/nba/recap?gameId=401909957",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 23 and Alperen Sengun added 20 as the Rockets beat the Nuggets 110-100, snapping a two-game skid.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Booker scores 24, Suns outlast Rockets 102-99 for 1st back-to-back wins of season",
+              "url": "http://www.espn.com/nba/recap?gameId=401909943",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Devin Booker scored 24 as the Suns beat the Rockets 102-99, Houston's most recent loss before the Denver win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909943.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Grades for NFL trade deadline deals including Jordan Davis, Jessie Bates III and Andre Cisco, relevant to 49ers roster context.",
+              "image": "https://a.espncdn.com/photo/2026/1109/r1743721_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "The key behind 49ers' 7-1 start? Big contributions from the team's youth",
+              "url": "https://www.espn.com/nfl/story/_/id/50433470/san-francisco-49ers-jaden-dugger-jordan-watkins",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers' 7-1 start has come from young contributors Jordan Watkins, Jaden Dugger and Kaelon Black, the team's best start since 2019.",
+              "image": "https://a.espncdn.com/photo/2026/1109/r1743602_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Brandon Aiyuk reinstated by NFL; 49ers have 2-game roster exemption for receiver",
+              "url": "https://www.espn.com/nfl/story/_/id/50435848/49ers-receiver-brandon-aiyuk-reinstated-nfl",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The NFL reinstated 49ers wide receiver Brandon Aiyuk, who reported for a physical, and the team has a two-game roster exemption for him.",
+              "image": "https://a.espncdn.com/photo/2025/1202/r1583555_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Purdy Reaches 100 Passing TDs, McCaffrey Breaks NFL Record; Stats and Facts from #LVvsSF",
+              "url": "https://www.49ers.com/news/purdy-reaches-100-passing-tds-mccaffrey-breaks-nfl-record-stats-and-facts-from-lvvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Brock Purdy reached 100 passing touchdowns and Christian McCaffrey broke an NFL record in the 49ers' Week 9 win over the Raiders.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/lpfzozwjemebqu0px14a.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC's Dana White joins Trump at White House briefing",
+              "url": "https://www.espn.com/mma/story/_/id/50436780/ufc-dana-white-president-donald-trump-press-briefing",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Dana White joined Trump at a White House briefing, ending questions about whether he would become press secretary.",
+              "image": "https://a.espncdn.com/photo/2026/1109/r1743780_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Tatiana Suarez back in title picture with decision win at UFC Fight Night",
+              "url": "https://www.espn.com/mma/story/_/id/50416964/tatiana-suarez-back-title-picture-ufc-fight-night-win",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tatiana Suarez won a unanimous decision over Virna Jandiroba at UFC Fight Night, putting her back in position for a title shot.",
+              "image": "https://a.espncdn.com/photo/2026/1108/r1742826_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "A hard bump for Georgia Republicans, and the beginning of a new era",
+              "url": "https://saportareport.com/a-hard-bump-for-georgia-republicans-and-the-beginning-of-a-new-era/columnists/tom/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia Republicans suffered their worst electoral loss in party history, the same week a key party figure was sentenced to 15 years in federal prison for a Ponzi scheme.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/images-7.jpeg?fit=739%2C415&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Project with 325 more residences starts delivering along Beltline loop",
+              "url": "https://atlanta.urbanize.city/post/woodrow-house-beltline-apartments-images-starts-deliver-southwest-trail-loop",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The first of 325 new apartments in a former industrial zone of Southwest Atlanta along the Beltline loop has started delivering.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/aerial%20Woodrow%20House.png?itok=svB304mY",
+              "video": null
+            },
+            {
+              "title": "College Football Playoff expands to 24 teams starting in 2027-28 season",
+              "url": "https://roughdraftatlanta.com/2026/11/09/cfp-expands-24-teams/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The College Football Playoff approved expansion to 24 teams starting 2027-28, ending Power 4 conference championship games, including the SEC's played in Atlanta.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/01/6838a99a1224a2e5562ae55f_Chick-fil-A-peach-bowl-600x600.jpg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Developer: Old Fourth Ward project's pause is no sign of trouble",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-bowery-fuqua-project-pause-no-sign-trouble-developer",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A developer says the recent pause at a major Old Fourth Ward construction site at a key intersection does not signal trouble or a long shutdown.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-11/The%20Bowery%20November%202026%203.jpg?itok=G6_7jndp",
+              "video": null
+            },
+            {
+              "title": "From the gas pump to your rent: How rising diesel prices are driving up Atlanta’s housing costs",
+              "url": "https://saportareport.com/from-the-gas-pump-to-your-rent-how-rising-diesel-prices-are-driving-up-atlantas-housing-costs/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Rising diesel prices are raising construction costs and threatening affordable housing developments in Atlanta, according to SaportaReport.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-6.jpeg?fit=1024%2C499&ssl=1",
+              "video": null
+            },
+            {
+              "title": "A new era for Georgia State University as school nears completion of greenway expansion years in the making",
+              "url": "https://saportareport.com/a-new-era-for-georgia-state-university-as-school-nears-completion-of-greenway-expansion-years-in-the-making/columnists/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia State University is nearing completion of its Panther Quad greenway expansion, a campus transformation in downtown Atlanta.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-10-25-at-12.11.16-PM-scaled.png?fit=1024%2C405&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Once a segregated movie house, Grove Park Theater returns as a performing arts and cultural arts center",
+              "url": "https://saportareport.com/once-a-segregated-movie-house-grove-park-theater-returns-as-a-performing-arts-and-cultural-arts-center/columnists/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The 1941 Grove Park Theater, once a segregated movie house, is being renovated to reopen as a performing and cultural arts center.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_2241-scaled.jpg?fit=1024%2C790&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Frank Lloyd Wright-inspired project in works near iconic golf course",
+              "url": "https://atlanta.urbanize.city/post/frank-lloyd-wright-inspired-near-iconic-atl-golf-course",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A new Frank Lloyd Wright Prairie Style-inspired home is planned near one of Georgia's best-known golf courses, part of changes in the area's high-end blocks.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/full%202%202856%20Tupelo%20Street%20SE.png?itok=IvGY26vz",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Trimble embeds AI across AECO",
+              "url": "https://aecmag.com/collaboration/trimble-embeds-ai-across-aeco/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Trimble's Trimble Connect platform adds AI agents and automation for project coordination, risk management and workflows, relevant to your BIM work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "G2 Digital launches quad-GPU 2U server",
+              "url": "https://aecmag.com/workstations/g2-digital-launches-quad-gpu-2u-server/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "G2 Digital launched a UK-built quad-GPU 2U server as an alternative to premium cloud AI services for architecture and engineering firms.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/11/Q-Power-No-Lid-Top-Angled-scaled-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Bringing the Sky Closer: 4 Planetariums and Astronomical Observatories",
+              "url": "https://www.archdaily.com/1186985/bringing-the-sky-closer-4-planetariums-and-astronomical-observatories",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily surveys four planetariums and astronomical observatories, a building type that links architecture with the sky and science.",
+              "image": "https://images.adsttc.com/media/images/6ad1/5d6f/8008/f401/8ba5/3ce6/newsletter/planetariums-and-astronomical-observatories-4-projects-that-bring-the-sky-closer_7.jpg?1792105847",
+              "video": null
+            },
+            {
+              "title": "Scalpers Headquarters / Estudio Hábito",
+              "url": "https://www.archdaily.com/1188141/scalpers-headquarters",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Scalpers Headquarters in Seville is rooted in its context and the Andalusian architectural tradition, reinterpreted with a contemporary approach.",
+              "image": "https://images.adsttc.com/media/images/6aec/abac/d2cc/6001/8a4f/7147/newsletter/scalpers-headquarters_2.jpg?1793895376",
+              "video": null
+            },
+            {
+              "title": "Ambang House / Tamara Wibowo Architects",
+              "url": "https://www.archdaily.com/1188142/ambang-house-tamara-wibowo-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Ambang House in Central Java is a private residence for a couple within a family compound, oriented toward a mountain backdrop.",
+              "image": "https://images.adsttc.com/media/images/6aec/b2b4/c723/9a01/895a/2d0a/newsletter/ambang-house-tamara-wibowo-architects_30.jpg?1793897168",
+              "video": null
+            },
+            {
+              "title": "East County Library / Holst Architecture",
+              "url": "https://www.archdaily.com/1188105/east-county-library-holst-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Holst Architecture released photography of the new East County Library in Gresham, Oregon, a community-focused civic building.",
+              "image": "https://images.adsttc.com/media/images/6aeb/ec58/1f37/4900/010d/138f/newsletter/1___Christian_Columbres.jpg?1793846376",
+              "video": null
+            },
+            {
+              "title": "Horizontal House / Estudio Galera",
+              "url": "https://www.archdaily.com/1188317/horizontal-house-estudio-galera",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Horizontal House closes a series of works in Cariló, Argentina, begun in 2014, showing how a practice develops across projects on one street.",
+              "image": "https://images.adsttc.com/media/images/6af1/e7cd/4ba6/4700/01d0/8374/newsletter/DMA_2664.jpg?1794238443",
+              "video": null
+            },
+            {
+              "title": "Visitor Center at La Hacienda Clase Azul / Elías Rizo Arquitectos",
+              "url": "https://www.archdaily.com/1188331/visitor-center-at-la-hacienda-clase-azul-elias-rizo-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A visitor center in Jalisco's highlands draws on the traditional Mexican house and central courtyard, with volumes wrapped around a covered courtyard.",
+              "image": "https://images.adsttc.com/media/images/6aed/dc29/1f37/4900/010d/1cae/newsletter/CentroVisitantes_El_asRizoArquitectos_FotoC_sarB_jar__16_.jpg?1793973485",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Drugs like Ozempic may help reverse chronic kidney disease",
+              "url": "https://www.sciencenews.org/article/semaglutide-chronic-kidney-disease",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Semaglutide, the key ingredient in Ozempic, repaired blood vessels, reduced inflammation and improved kidney function in patients in the study.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_RF_GLP1-kidneydisease_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+              "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Chandra X-ray Observatory found a hidden companion object driving repeated outbursts from a giant unstable star, published in The Astrophysical Journal.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/chandra/2026/at2016blu.jpg?w=2048&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows Saturn passing behind the Moon, a striking sky event.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Moonsaturn6_Ortu_2124.jpg?w=2048&h=1525&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Autumn Mornings Bring Valley Fog",
+              "url": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA imagery shows low clouds filling the branching valleys of the Appalachian Plateau and Cumberland River, a view of the region's terrain.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usvalleyfog_tmo_20261108.jpg",
+              "video": null
+            },
+            {
+              "title": "California’s Wolf Divide",
+              "url": "https://news.mongabay.com/specials/2026/11/californias-wolf-divide/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Gray wolves are returning to California after nearly a century, altering ecosystems while conservationists and ranchers disagree over livestock losses.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/12/10144826/animals_06697-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "How did these shrines survive a tsunami?",
+              "url": "https://news.mongabay.com/short-article/2026/11/how-did-these-shrines-survive-a-tsunami/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Forest patches around Shinto shrines appear to have protected some Japanese coastal areas during the 2011 tsunami, prompting study of natural defenses.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/10090216/Mongabay_Thumbnail_Tsunami_Featured-338x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Fossil fuel emissions are down in 2026. Green energy isn’t the reason",
+              "url": "https://www.sciencenews.org/article/fossil-fuel-emissions-down-2026-gas",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Fossil fuel emissions dipped in 2026, but the drop is probably driven by high gas prices from the Iran war rather than renewable energy growth.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110926_NO_emissions_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "This armored amphibian once lived and hunted on the seafloor",
+              "url": "https://www.sciencenews.org/article/first-marine-amphibian-ancient-fossil",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Gerrothorax maritimus, about 237 million years old, is the first known amphibian to have lived without access to land or freshwater.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/103026_AS_marineamphibian_main.jpg?w=800",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-recalls-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-due-possible",
+      "published": "2026-11-08T05:00:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "If in our daily life we can smile, if we can be peaceful and happy, not only we, but everyone will profit from it.",
+    "who": "Thich Nhat Hanh",
+    "about": "Vietnamese Zen teacher and peace activist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 110–100 vs DEN",
+      "last_date": "Nov 9",
+      "next": "Wed Nov 11 vs GS",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909957/nuggets-rockets",
+      "recent": [
+        "W 110–100 vs DEN · Nov 9",
+        "L 99–102 at PHX · Nov 7",
+        "L 107–117 vs MIN · Nov 4"
+      ],
+      "upcoming": [
+        "Wed Nov 11 vs GS",
+        "Fri Nov 13 vs UTAH",
+        "Sun Nov 15 at WSH"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 38–17 vs LV",
+      "last_date": "Nov 8",
+      "next": "Sun Nov 15 at DAL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+      "recent": [
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19"
+      ],
+      "upcoming": [
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 61696,
+    "output_tokens": 10099
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Hegseth IMPEACHMENT LOOMS As Trump Doubles Down On Iran",
+          "url": "https://www.youtube.com/watch?v=hgGBn2EQ2RM",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss a potential House impeachment of Hegseth over the Iran war and Trump's continued stance on Iran.",
+          "image": "https://i1.ytimg.com/vi/hgGBn2EQ2RM/hqdefault.jpg",
+          "video": "hgGBn2EQ2RM"
+        },
+        {
+          "title": "Rep Summer Lee PUSHED On Jeffries: Will He DESTROY Dem Mandate?",
+          "url": "https://www.youtube.com/watch?v=TIuMC6ifbxI",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal interviews Rep. Summer Lee on the future of Democratic leadership after the midterm results.",
+          "image": "https://i1.ytimg.com/vi/TIuMC6ifbxI/hqdefault.jpg",
+          "video": "TIuMC6ifbxI"
+        },
+        {
+          "title": "Centrist Dems Already Calling For New Leadership",
+          "url": "https://www.youtube.com/watch?v=AXkGK3pchoo",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Ryan Grim, co-founder of Drop Site News, recaps the midterm elections and discusses calls for new Democratic leadership.",
+          "image": "https://i2.ytimg.com/vi/AXkGK3pchoo/hqdefault.jpg",
+          "video": "AXkGK3pchoo"
+        },
+        {
+          "title": "AIPAC In Freefall AFTER DEVASTATING Midterm Election",
+          "url": "https://www.youtube.com/watch?v=EiAbs1lsy_I",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss AIPAC taking major losses in the midterm elections.",
+          "image": "https://i2.ytimg.com/vi/EiAbs1lsy_I/hqdefault.jpg",
+          "video": "EiAbs1lsy_I"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Josh Allen WEARS DOWN Vikings Defense, Bills Win 23-6",
+          "url": "https://www.youtube.com/watch?v=ZgxOWok13AM",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Recap and analysis of the Bills' 23-6 Week 9 win over the Vikings, focusing on Josh Allen and the Bills' offense.",
+          "image": "https://i3.ytimg.com/vi/ZgxOWok13AM/hqdefault.jpg",
+          "video": "ZgxOWok13AM"
+        },
+        {
+          "title": "Go Inside the 49ers Locker Room Following Week 9 vs. Raiders",
+          "url": "https://www.youtube.com/watch?v=2jfnCPcNYnA",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "An inside look at the 49ers locker room following their Week 9 win over the Raiders.",
+          "image": "https://i3.ytimg.com/vi/2jfnCPcNYnA/hqdefault.jpg",
+          "video": "2jfnCPcNYnA"
+        },
+        {
+          "title": "UFC 334 Embedded: Vlog Series - Episode 1",
+          "url": "https://www.youtube.com/watch?v=1rPsAILo3Bs",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC 334 vlog episode following fighters Kayla Harrison, Caio Borralho, Amanda Nunes, Kevin Holland and Ciryl Gane in camp.",
+          "image": "https://i2.ytimg.com/vi/1rPsAILo3Bs/hqdefault.jpg",
+          "video": "1rPsAILo3Bs"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Gemini Skills and Connectors for Construction",
+          "url": "https://www.youtube.com/watch?v=DjJbAHis1uQ",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of setting up Gemini skills for construction, including bringing over skills built in Claude or ChatGPT, using warehouse drawings.",
+          "image": "https://i1.ytimg.com/vi/DjJbAHis1uQ/hqdefault.jpg",
+          "video": "DjJbAHis1uQ"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Introducing Claude Fable 5.2",
+          "url": "https://www.youtube.com/watch?v=6a1QSJlsYpU",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Introduction to Claude Fable 5.2, aimed at ambitious technical work with improvements in coding, reasoning and vision.",
+          "image": "https://i3.ytimg.com/vi/6a1QSJlsYpU/hqdefault.jpg",
+          "video": "6a1QSJlsYpU"
+        },
+        {
+          "title": "Claude Fable 5.2 designs a working voice-assistant hub",
+          "url": "https://www.youtube.com/watch?v=vdYynH177h0",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Claude Fable 5.2 designed a voice-assistant hub's circuit board, CAD case and firmware, built by Diode Computers from its files.",
+          "image": "https://i3.ytimg.com/vi/vdYynH177h0/hqdefault.jpg",
+          "video": "vdYynH177h0"
+        },
+        {
+          "title": "Claude Mythos 5.2 predicts the structure of a therapy capsid",
+          "url": "https://www.youtube.com/watch?v=FMbXUxn_nBw",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Claude Mythos 5.2 predicts the structure of a whole AAV capsid by running open-source folding models on overlapping groups of chains.",
+          "image": "https://i3.ytimg.com/vi/FMbXUxn_nBw/hqdefault.jpg",
+          "video": "FMbXUxn_nBw"
+        }
+      ]
+    }
+  ]
+}
