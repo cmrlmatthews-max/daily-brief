@@ -1,0 +1,1067 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Wednesday, November 11, 2026",
+  "generated_at": "2026-11-11T05:00:20-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Wednesday, November 11. Our lead story is from Congo. The government said today that its Ebola outbreak has passed 11,000 cases. It is the deadliest outbreak the country has seen. Officials describe a relentless spread of the disease. The figure shows how severe the situation has become. More detail on the response is not yet available. Now the front page. In Washington, House Republicans used a procedural move to short-circuit a floor vote on the impeachment effort against Defense Secretary Pete Hegseth. The effort was brought by Kentucky Republican Thomas Massie. It has effectively ended for now. In tech, Google's Gemini 4 Carbon is now available to everyone. It was first limited to a subset of cyber defenders. It is priced at two dollars per million input tokens and ten dollars per million output tokens. In baseball, Braves general manager Alex Anthopoulos shut down talk of trading Ronald Acuna Junior. He said he has no idea where that came from, and that the team needs him. In Spain, workers are on strike today for the first general strike in fourteen years. They want action on the housing crisis, less than three weeks before a national election. Now the sections. In tech and AI, Anthropic has launched a roadshow for its proposed initial public offering. It is also committing a portion of its shares to a new Public Benefit Fund. And the Claude quickstarts repository offers starter projects for building with the Claude API. In politics, a federal appeals court says forcing companies to disclose major sources of climate pollution is likely unconstitutional. Drop Site News reports the U.S. is sending military assets to the Middle East as talks falter. And House Republicans elected Jim Jordan as their leader. In world news, Russia and Ukraine held nearly four hours of U.S.-mediated talks in Abu Dhabi. Separately, a U.S. general warns about Madagascar's growing military ties with Russia. In sports, the 49ers traded for receiver Keenan Allen and placed lineman Gracen Halton on injured reserve. The Rockets, eight and three, host a Warriors team seeking its ninth straight win. In Atlanta, a vacant strip of Old Fourth Ward near the Beltline is on the market. A 382-unit project is coming into view along Georgia 400 in Sandy Springs. And the Pendergrast Farm pocket neighborhood is now complete. In architecture, SketchUp 2027 improves Revit interoperability. Ageiro launched Ark Watcher to monitor project data across several platforms. And ArchDaily looks at drone imagery in urban analysis. In science, Voyager 1 reaches one light-day from Earth on November 18. Neurotechnology to restore speech is moving fast. And new research says rising seas could reshape habitats for more than forty percent of land vertebrates. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Ebola tops 11,000 cases in Congo's deadliest outbreak",
+    "url": "https://www.npr.org/2026/11/11/nx-s1-6037304/ebola-congo-outbreak",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Congo's government said on Wednesday that its Ebola outbreak has passed 11,000 cases. The outbreak is described as the deadliest the country has faced. The figure is presented as a stark measure of how serious the situation has become, as the country grapples with the relentless spread of the disease. The summary does not give further detail on deaths, regions affected or the response, so those questions remain open for now. For a reader following world news, the main point is the scale. An outbreak that has crossed 11,000 cases is far larger than a local flare-up, and the government's own language points to continued spread rather than containment. It is the kind of story worth checking again in coming days, as officials release updated counts and more detail on how the country and its partners are responding.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7b%2Fa1%2Fcf45518d4850a897eda36ba25615%2Fap26306677630425.jpg",
+    "video": null,
+    "headline": "Ebola Passes 11,000 Cases in Congo",
+    "decks": [
+      "Government reports the figure in the country's deadliest outbreak",
+      "Officials describe a relentless spread of the disease",
+      "The count underscores the severity of the situation"
+    ]
+  },
+  "front": [
+    {
+      "title": "House votes to effectively end the impeachment effort against Pete Hegseth",
+      "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "House Republicans used a procedural move to short-circuit a floor vote on Thomas Massie's impeachment effort against Defense Secretary Pete Hegseth, effectively ending it.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5879x3920+0+0/resize/5879x3920!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2F4e%2F6decb6604829ba314b7dc99ddde8%2Fgettyimages-2304464396.jpg",
+      "video": null
+    },
+    {
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "Google's Gemini 4 Carbon, first limited to a subset of cyber defenders, is now open to everyone, priced at $2 per million input tokens and $10 per million output.",
+      "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
+      "video": null
+    },
+    {
+      "title": "Braves GM emphatically shuts down Ronald Acuna trade speculation: 'We need him'",
+      "url": "https://www.espn.com/mlb/story/_/id/50448746/braves-gm-emphatically-shuts-ronald-acuna-trade-rumors",
+      "source": "Atlanta Braves",
+      "topic": "Sports",
+      "note": "Braves general manager Alex Anthopoulos dismissed talk of trading Ronald Acuna Jr., saying he has no idea where it came from and that the team needs him.",
+      "image": "https://a.espncdn.com/photo/2026/0829/r1708405_600x400_3-2.jpg",
+      "video": null
+    },
+    {
+      "title": "Spain's first general strike in 14 years demands solutions to housing crisis",
+      "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Spain's workers hold their first general strike in 14 years, demanding action on housing, less than three weeks before a national election.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8131x5421+0+0/resize/8131x5421!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F32%2Fad13dccd44069fda1f1d1f9ca88f%2Fap26315267782087.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Anthropic launches roadshow for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic has launched a roadshow for its proposed initial public offering, the next step after its S-1 filing with the SEC.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "video": null
+        },
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake increases as the company grows.",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+          "video": null
+        },
+        {
+          "title": "anthropics/claude-quickstarts",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Anthropic's quickstarts repository collects starter projects for building deployable applications with the Claude API, useful for your personal tools.",
+          "image": "https://opengraph.githubassets.com/1/anthropics/claude-quickstarts",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Corporations Win “Free Speech” Right To Hide Pollution",
+          "url": "https://www.levernews.com/corporations-win-free-speech-right-to-hide-pollution/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "A federal appeals court says forcing corporations to disclose their biggest sources of climate pollution is likely unconstitutional, according to The Lever.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--22-.jpg",
+          "video": null
+        },
+        {
+          "title": "U.S. Rushes Military Assets to Middle East as Negotiations Falter",
+          "url": "https://www.dropsitenews.com/p/us-rushes-military-assets-to-middle",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports the U.S. is moving military assets to the Middle East as negotiations falter.",
+          "image": "https://substackcdn.com/image/fetch/$s_!afYl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F224352422%2Fcac9376b-0f04-4bac-9265-6cb4f764e718%2Ftranscoded-1794339996.png",
+          "video": null
+        },
+        {
+          "title": "House Republicans elect Jim Jordan as their next leader",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6035791/house-republicans-elect-jim-jordan-as-their-next-leader",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "House Republicans chose Ohio's Jim Jordan as minority leader, succeeding Mike Johnson as the chamber's top Republican.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "Russia and Ukraine held nearly four hours of U.S.-mediated talks in Abu Dhabi, with no significant breakthroughs in three earlier rounds this year.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7854x5236+0+0/resize/7854x5236!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F13%2F515f28d34b1593e39648a6756395%2Fap26314378728116.jpg",
+          "video": null
+        },
+        {
+          "title": "US warns Madagascar over growing military ties with Russia",
+          "url": "https://www.bbc.co.uk/news/articles/crkgv58pknyeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A US general warns that a security deal between Madagascar and Russia, similar to the Sahel model, could lead to greater instability in Africa.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3696/live/b0bad660-dd9b-11f1-b1d6-c7ac657a5d26.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "49ers make a move at WR",
+          "url": "https://www.espn.com/video/clip/_/id/50447640/49ers-make-move-wr",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers traded for receiver Keenan Allen, and this piece breaks down the decision.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/dm_261110_9ers_trade_ia_1110/dm_261110_9ers_trade_ia_1110.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers Place DL Gracen Halton on Injured Reserve",
+          "url": "https://www.49ers.com/news/49ers-place-dl-gracen-halton-on-injured-reserve",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "The 49ers placed defensive lineman Gracen Halton on injured reserve.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/vhbgnukgtj8jjnpua4cu.png",
+          "video": null
+        },
+        {
+          "title": "Warriors take on the Rockets, aim for 9th straight win",
+          "url": "http://www.espn.com/nba/preview?gameId=401909974",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets, 8-3, host a Warriors team seeking its ninth straight win.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Tired strip of Old Fourth Ward near Beltline hits market, seeking ideas",
+          "url": "https://atlanta.urbanize.city/post/old-fourth-ward-strip-near-beltline-hits-market-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A long-vacant strip of Old Fourth Ward properties near the Beltline is on the market, with sellers seeking ideas for its future.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/overview%20568%20to%20582%20Decatur%20Street.png?itok=Mx3KH2vc",
+          "video": null
+        },
+        {
+          "title": "Fresh visuals emerge for 382-unit project en route along Ga. 400",
+          "url": "https://atlanta.urbanize.city/post/caldwell-sandy-springs-fresh-visuals-emerge-382-unit-project-georgia-400",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "New visuals show a 382-unit project planned along Ga. 400 in Sandy Springs, where the development pipeline remains active.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Caldwell%20Sandy%20Springs%20Kennedy%20Wilson%20Street-Level_Final_Option_2_For-Web.jpg.png?itok=bI9LY8PS",
+          "video": null
+        },
+        {
+          "title": "Photos: Atlanta’s ‘intown answer to Serenbe’ now complete",
+          "url": "https://atlanta.urbanize.city/post/pendergrast-farm-atl-intown-answer-serenbe-photos-now-complete",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Pendergrast Farm, a 20-home pocket neighborhood described as an intown answer to Serenbe, is now complete after more than three years.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Pendergrast%20Farm%2C%20farm%20and%20edible.png?itok=oYl_pGpq",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "SketchUp 2027 bridges design workflows",
+          "url": "https://aecmag.com/cad/sketchup-2027-bridges-design-workflows/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "SketchUp 2027 adds non-destructive modelling and better Revit interoperability, which bears directly on BIM workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Ageiro launches Ark Watcher",
+          "url": "https://aecmag.com/project-management/ageiro-launches-ark-watcher/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Ageiro's Ark Watcher continuously monitors project information across Autodesk Forma, Aconex, Procore and other platforms.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Reading the City from Above: Drone Imagery and the Material Layers of Urban Environments",
+          "url": "https://www.archdaily.com/1188215/reading-the-city-from-above-drone-imagery-and-the-material-layers-of-urban-environments",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily looks at how drone imagery is becoming part of architectural documentation and urban analysis.",
+          "image": "https://images.adsttc.com/media/images/6af0/8551/934b/0301/8c76/4130/newsletter/reading-the-city-from-above-drone-imagery-and-the-material-layers-of-urban-environments_10.jpg?1794147676",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "On Nov. 18, Voyager 1 will have traveled one light-day from Earth, more than 16 billion miles, and NASA is inviting the public to join.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "Science to restore speech is moving fast. Here’s what’s next",
+          "url": "https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Science News looks at how fast neurotechnology to restore speech is moving and what comes next.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/110226_LS_TDE_S2E6_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Rising seas could reshape habitats for more than 40% of world’s land vertebrates",
+          "url": "https://news.mongabay.com/2026/11/rising-seas-could-reshape-habitats-for-more-than-40-of-worlds-land-vertebrates/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "New research in Science suggests rising seas could change habitats for more than 42% of land vertebrates by century's end.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/10150256/Proboscis-monkey_RhettAB-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Corporations Win “Free Speech” Right To Hide Pollution",
+              "url": "https://www.levernews.com/corporations-win-free-speech-right-to-hide-pollution/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "A federal appeals court says requiring corporations to disclose major climate pollution sources is likely unconstitutional, per The Lever.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--22-.jpg",
+              "video": null
+            },
+            {
+              "title": "Progressives Lay the Groundwork to Force a Vote on Ending Some Arms Sales to Israel",
+              "url": "https://www.dropsitenews.com/p/incoming-freshman-says-allies-of",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "House progressives are laying groundwork to force a vote on ending some U.S. arms sales to Israel, per Drop Site News.",
+              "image": "https://substackcdn.com/image/fetch/$s_!PYqd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcfc9039-abc5-49bf-966e-71e30757f562_7338x4893.jpeg",
+              "video": null
+            },
+            {
+              "title": "The “War Dogs” Story Behind A $1.8 Billion ICE Windfall",
+              "url": "https://www.levernews.com/the-war-dogs-story-behind-a-1-8-billion-ice-windfall/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever traces court records and insider accounts linking companies tied to a developer in bankruptcy disputes to ICE contracts worth up to $1.8 billion.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-ICE-Facebook.png",
+              "video": null
+            },
+            {
+              "title": "House GOP faults the federal government for failing to hold Epstein accountable",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6035872/house-gop-faults-the-federal-government-for-failing-to-hold-epstein-accountable",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "The House Oversight Committee's report faults the federal government for failing to hold Jeffrey Epstein accountable, after its investigation.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "House Republicans elect Jim Jordan as their next leader",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6035791/house-republicans-elect-jim-jordan-as-their-next-leader",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "House Republicans chose Rep. Jim Jordan as their next leader, succeeding Mike Johnson as the chamber's top Republican.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "U.S. Rushes Military Assets to Middle East as Negotiations Falter",
+              "url": "https://www.dropsitenews.com/p/us-rushes-military-assets-to-middle",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports U.S. military assets being moved to the Middle East as negotiations falter.",
+              "image": "https://substackcdn.com/image/fetch/$s_!afYl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F224352422%2Fcac9376b-0f04-4bac-9265-6cb4f764e718%2Ftranscoded-1794339996.png",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "House votes to effectively end the impeachment effort against Pete Hegseth",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "House Republicans short-circuited a floor vote on the impeachment effort against Defense Secretary Pete Hegseth, brought by Rep. Thomas Massie.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5879x3920+0+0/resize/5879x3920!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2F4e%2F6decb6604829ba314b7dc99ddde8%2Fgettyimages-2304464396.jpg",
+              "video": null
+            },
+            {
+              "title": "Supreme Court seems split over federal agencies' ability to fine for law violations",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The Supreme Court heard arguments on whether federal agencies can fine companies for law violations, in a case about temporary worker visas.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Fc9%2F394ad4124ce4bc0ce31a58160fbb%2Fgettyimages-2227803856.jpg",
+              "video": null
+            },
+            {
+              "title": "Ebola tops 11,000 cases in Congo's deadliest outbreak",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037304/ebola-congo-outbreak",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Congo's Ebola outbreak has topped 11,000 cases, the government said, making it the country's deadliest outbreak.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7b%2Fa1%2Fcf45518d4850a897eda36ba25615%2Fap26306677630425.jpg",
+              "video": null
+            },
+            {
+              "title": "Spain's first general strike in 14 years demands solutions to housing crisis",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Spain's workers are striking for the first time in 14 years to demand solutions to the housing crisis, weeks before a national election.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8131x5421+0+0/resize/8131x5421!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F32%2Fad13dccd44069fda1f1d1f9ca88f%2Fap26315267782087.jpg",
+              "video": null
+            },
+            {
+              "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+              "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Russia and Ukraine held nearly four hours of U.S.-mediated talks in Abu Dhabi, with no major breakthroughs reported so far.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7854x5236+0+0/resize/7854x5236!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F13%2F515f28d34b1593e39648a6756395%2Fap26314378728116.jpg",
+              "video": null
+            },
+            {
+              "title": "Indonesia's VP offers resignation as questions mount over his eligibility",
+              "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Indonesia's vice president offered to resign as questions mount over his eligibility, amid a rift between Prabowo and Widodo.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2951x1967+0+0/resize/2951x1967!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb4%2Fec%2F40421aef4e4eadd1e6a1d38e291a%2Fap26314357607686.jpg",
+              "video": null
+            },
+            {
+              "title": "Headquarters of Haitian gang destroyed, El Salvador's president says",
+              "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "El Salvador's president says the headquarters of the Haitian gang 400 Mawozo was destroyed by its military, which has deployed troops in Haiti.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2854/live/3f67c570-dd7a-11f1-ad5a-4712ee7e64fd.png",
+              "video": null
+            },
+            {
+              "title": "U.S. boycotts U.N. human rights review for second year running",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The U.S. skipped a key U.N. human rights review for the second year running, which rights groups say undermines global accountability.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F22%2F6354cb404769a55ba009fd435001%2Fwhatsapp-image-2026-11-10-at-12-35-09-pm.jpeg",
+              "video": null
+            },
+            {
+              "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+              "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The US Justice Department says three Iran-backed suspects plotted attacks, including a major incident near RAF Fairford.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9ba2/live/c17cf610-dd8f-11f1-8c82-87885cae71d3.jpg",
+              "video": null
+            },
+            {
+              "title": "US warns Madagascar over growing military ties with Russia",
+              "url": "https://www.bbc.co.uk/news/articles/crkgv58pknyeo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A US general warns that a security deal between Madagascar and Russia could lead to greater instability in Africa.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3696/live/b0bad660-dd9b-11f1-b1d6-c7ac657a5d26.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Announcements",
+              "url": "https://www.anthropic.com/news/announcements",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's announcements page, a direct source on Claude and company news for a reader who builds with Claude.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of Class A common stock. Relevant to the company behind the Claude tools you use.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic launches roadshow for proposed initial public offering",
+              "url": "https://www.anthropic.com/news/roadshow-launch",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has launched a roadshow for its proposed IPO, according to the company's news feed.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+              "video": null
+            },
+            {
+              "title": "llm-gemini 0.36",
+              "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "llm-gemini 0.36 adds support for Google's Gemini 4 Carbon, now available beyond a limited set of cyber defenders, with launch pricing listed in the post.",
+              "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic expands its partnership with the GSA to bring Claude to all levels of government. Useful context on Claude's public-sector reach.",
+              "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+              "video": null
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending repo of production-grade engineering skills for AI coding agents, a direct fit for building personal tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/addyosmani/agent-skills",
+              "video": null
+            },
+            {
+              "title": "anthropics/claude-quickstarts",
+              "url": "https://github.com/anthropics/claude-quickstarts",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Anthropic's collection of starter projects for building applications with the Claude API, useful for personal tool building.",
+              "image": "https://opengraph.githubassets.com/1/anthropics/claude-quickstarts",
+              "video": null
+            },
+            {
+              "title": "Locating the source of a mysterious beep with Claude",
+              "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A worked example of using Claude to diagnose a real-world problem, showing an practical approach to troubleshooting with an AI assistant.",
+              "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Braves GM emphatically shuts down Ronald Acuna trade speculation: 'We need him'",
+              "url": "https://www.espn.com/mlb/story/_/id/50448746/braves-gm-emphatically-shuts-ronald-acuna-trade-rumors",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Braves GM Alex Anthopoulos dismissed trade speculation about Ronald Acuna Jr., saying the team needs him.",
+              "image": "https://a.espncdn.com/photo/2026/0829/r1708405_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Grades on NFL trade deadline deals, including Kirk Cousins to the Vikings and Josh Downs to the Chiefs, relevant to 49ers and NFL watching.",
+              "image": "https://a.espncdn.com/photo/2026/1110/r1744131_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "'Great move': Rich Eisen reacts to 49ers' trade for Keenan Allen",
+              "url": "https://www.espn.com/video/clip/_/id/50444620/rich-eisen-reacts-49ers-trade-keenan-allen",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Rich Eisen reacts to the 49ers' trade for Keenan Allen, a real roster move for the team.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_140946433_3735435/ss_20261110_140946433_3735435.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Place DL Gracen Halton on Injured Reserve",
+              "url": "https://www.49ers.com/news/49ers-place-dl-gracen-halton-on-injured-reserve",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers placed DL Gracen Halton on injured reserve, a roster move for the team.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/vhbgnukgtj8jjnpua4cu.png",
+              "video": null
+            },
+            {
+              "title": "Trump says White House press secretary offer to UFC's White was a joke",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50427992/trump-says-press-secretary-offer-ufc-white-was-joke",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Trump said his offer of the White House press secretary job to UFC CEO Dana White was a joke.",
+              "image": "https://a.espncdn.com/photo/2026/0615/r1673487_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Walker stuns Cortes-Acosta for second straight win",
+              "url": "https://www.espn.com/video/clip/_/id/50417061/walker-stuns-cortes-acosta-second-straight-win",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Johnny Walker won by KO over Waldo Cortes-Acosta, continuing his rise in the heavyweight division.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY/dm_261107_MMA_Highlight_Walker_stuns_Cortes_Acosta_for_second_straight_win_20261108_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Tatiana Suarez secures top-3 spot, positions herself for strawweight title shot",
+              "url": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Tatiana Suarez secured a top-3 spot in the UFC strawweight rankings, positioning her for a title shot.",
+              "image": "https://a.espncdn.com/photo/2026/1109/r1743692_2_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Nuggets upgrade starters to probable vs. Rockets after delayed arrival",
+              "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Nuggets upgraded their starters to probable for a game against the Rockets after a delayed arrival from Mexico City.",
+              "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "A hard bump for Georgia Republicans, and the beginning of a new era",
+              "url": "https://saportareport.com/a-hard-bump-for-georgia-republicans-and-the-beginning-of-a-new-era/columnists/tom/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia Republicans suffered their worst electoral loss in party history, the same week a key party figure was sentenced in a Ponzi scheme case.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/images-7.jpeg?fit=739%2C415&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Decatur Schools superintendent to depart at end of year",
+              "url": "https://roughdraftatlanta.com/2026/11/10/decatur-superintendent-gyimah-whitaker-departs/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Decatur City Schools Superintendent Gyimah Whitaker will leave at the end of the year, with Karen Newton-Scott as interim.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/decatur-superintendent-gyimah-whitaker-600x337.webp",
+              "video": null
+            },
+            {
+              "title": "Tired strip of Old Fourth Ward near Beltline hits market, seeking ideas",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-strip-near-beltline-hits-market-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A vacant strip of Old Fourth Ward near the Beltline has come to market, a visible infill opportunity near new investment.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/overview%20568%20to%20582%20Decatur%20Street.png?itok=Mx3KH2vc",
+              "video": null
+            },
+            {
+              "title": "Opening Doors, Changing Lives: How Unlikely Partners Are Addressing Homelessness in Atlanta",
+              "url": "https://saportareport.com/opening-doors-changing-lives-how-unlikely-partners-are-addressing-homelessness-in-atlanta/atlanta-way-2-0/atlantaway2-0/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The 2026 Point-in-Time Count shows a 6% rise in homelessness over 2025, with more eviction filings in nearly half of City of Atlanta neighborhoods.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/jakub-zerdzicki-3HfGnyPfWqQ-unsplash-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Photos: Atlanta’s ‘intown answer to Serenbe’ now complete",
+              "url": "https://atlanta.urbanize.city/post/pendergrast-farm-atl-intown-answer-serenbe-photos-now-complete",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Pendergrast Farm pocket neighborhood in Atlanta is complete, with its last of 20 homes finished after three years of construction.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Pendergrast%20Farm%2C%20farm%20and%20edible.png?itok=oYl_pGpq",
+              "video": null
+            },
+            {
+              "title": "Fresh visuals emerge for 382-unit project en route along Ga. 400",
+              "url": "https://atlanta.urbanize.city/post/caldwell-sandy-springs-fresh-visuals-emerge-382-unit-project-georgia-400",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fresh visuals for a 382-unit project along Ga. 400 in Sandy Springs show the area's development pipeline.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Caldwell%20Sandy%20Springs%20Kennedy%20Wilson%20Street-Level_Final_Option_2_For-Web.jpg.png?itok=bI9LY8PS",
+              "video": null
+            },
+            {
+              "title": "Once a segregated movie house, Grove Park Theater returns as a performing arts and cultural arts center",
+              "url": "https://saportareport.com/once-a-segregated-movie-house-grove-park-theater-returns-as-a-performing-arts-and-cultural-arts-center/columnists/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Grove Park Theater, built in 1941, begins renovation to reopen as a performing and cultural arts center.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_2241-scaled.jpg?fit=1024%2C790&ssl=1",
+              "video": null
+            },
+            {
+              "title": "A new era for Georgia State University as school nears completion of greenway expansion years in the making",
+              "url": "https://saportareport.com/a-new-era-for-georgia-state-university-as-school-nears-completion-of-greenway-expansion-years-in-the-making/columnists/mark-lannaman/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia State University is nearing completion of its Panther Quad greenway expansion in downtown Atlanta.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-10-25-at-12.11.16-PM-scaled.png?fit=1024%2C405&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "SketchUp 2027 bridges design workflows",
+              "url": "https://aecmag.com/cad/sketchup-2027-bridges-design-workflows/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "SketchUp 2027 adds non-destructive modelling and better Revit interoperability, directly relevant to your BIM workflow.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Ageiro launches Ark Watcher",
+              "url": "https://aecmag.com/project-management/ageiro-launches-ark-watcher/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Ageiro's Ark Watcher continuously monitors project information across Autodesk Forma, Aconex and Procore, relevant to construction data workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Reading the City from Above: Drone Imagery and the Material Layers of Urban Environments",
+              "url": "https://www.archdaily.com/1188215/reading-the-city-from-above-drone-imagery-and-the-material-layers-of-urban-environments",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A look at using drone imagery to read the material layers of cities, relevant to architectural documentation and urban analysis.",
+              "image": "https://images.adsttc.com/media/images/6af0/8551/934b/0301/8c76/4130/newsletter/reading-the-city-from-above-drone-imagery-and-the-material-layers-of-urban-environments_10.jpg?1794147676",
+              "video": null
+            },
+            {
+              "title": "FR House / N.2B Arquitetura",
+              "url": "https://www.archdaily.com/1188415/fr-house-b-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "FR House by N.2B Arquitetura turns a difficult corner lot into a gradually revealed architecture of light and materiality.",
+              "image": "https://images.adsttc.com/media/images/6af1/af31/4ba6/4700/01d0/8195/newsletter/casa_fr-25.jpg?1794223997",
+              "video": null
+            },
+            {
+              "title": "Ocaso House / JE arquitectos + Leo Alvarez",
+              "url": "https://www.archdaily.com/1188442/ocaso-house-je-arquitectos-plus-leo-alvarez",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Ocaso House in Chelem, Yucatán, responds to a shifting coastline and shared living among three friends, with privacy preserved.",
+              "image": "https://images.adsttc.com/media/images/6af3/4a52/eabd/2a00/0192/c071/newsletter/03_OCASO.jpg?1794329325",
+              "video": null
+            },
+            {
+              "title": "Downtown Cary Park / Machado Silvetti",
+              "url": "https://www.archdaily.com/1188292/downtown-cary-park-machado-silvetti",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Downtown Cary Park by Machado Silvetti is a civic park investment that combines urban design, landscape and public life.",
+              "image": "https://images.adsttc.com/media/images/6af1/c431/4ba6/4700/01d0/8271/newsletter/04_Cary_DTP_ARCH-50.jpg?1794229336",
+              "video": null
+            },
+            {
+              "title": "Benfica AM & MR Villa / João Tiago Aguiar, Arquitectos",
+              "url": "https://www.archdaily.com/1188291/benfica-am-and-mr-villa-joao-tiago-aguiar-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A Benfica house renovation keeps the main façade and part of the side elevation, a strategy of continuity and transformation.",
+              "image": "https://images.adsttc.com/media/images/6af1/c386/4ba6/4700/01d0/8243/newsletter/JTABenficaFN0182.jpg?1794229141",
+              "video": null
+            },
+            {
+              "title": "Casa Nostra Kindergarten / Sarquella Torres",
+              "url": "https://www.archdaily.com/1188230/casa-nostra-kindergarten-sarquella-plus-torres-arquitectes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Nostra Kindergarten by Sarquella Torres sits on a sensitive lakeside site at Banyoles, with a nearly century-long educational history.",
+              "image": "https://images.adsttc.com/media/images/6af0/c350/e43f/5e01/8839/8616/newsletter/casa-nostra-kindergarten-sarquella-plus-torres-arquitectes_3.jpg?1794163561",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day features NGC 4449, a small galaxy with a large impact.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/irregular/NGC%204449.jpg?w=2048&h=1320&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Rising seas could reshape habitats for more than 40% of world’s land vertebrates",
+              "url": "https://news.mongabay.com/2026/11/rising-seas-could-reshape-habitats-for-more-than-40-of-worlds-land-vertebrates/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "New research in Science finds rising seas could cut into habitats for over 42% of land vertebrates by century's end.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/10150256/Proboscis-monkey_RhettAB-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "US stakes competing claims to Pacific seabed mining areas, challenging UN authority",
+              "url": "https://news.mongabay.com/podcast/2026/11/us-stakes-competing-claims-to-pacific-seabed-mining-areas-challenging-un-authority/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A Mongabay investigation finds US claims to Pacific seabed mining areas that challenge the UN International Seabed Authority.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/07/08000613/960px-Psychropotes_longicauda_sur_nodules_polymetalliques-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+              "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA invites the public to Voyager 1's one-light-day milestone on November 18, when it will be 16 billion miles from Earth.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
+              "url": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA will welcome home the Expedition 74 crew at Space Center Houston after their long-duration station mission.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Science to restore speech is moving fast. Here’s what’s next",
+              "url": "https://www.sciencenews.org/article/talk-less-lose-voice-deep-end-podcast",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Neurotechnology aimed at restoring speech is advancing, and Science News looks at what comes next for the science and patients.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/110226_LS_TDE_S2E6_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Drugs like Ozempic may help reverse chronic kidney disease",
+              "url": "https://www.sciencenews.org/article/semaglutide-chronic-kidney-disease",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Research finds semaglutide repaired blood vessels, dampened inflammation and improved kidney function in patients, suggesting a possible route to reversing kidney disease.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_RF_GLP1-kidneydisease_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Cambodia’s mangrove forests offer vital refuge for threatened wildlife, 7-year study finds",
+              "url": "https://news.mongabay.com/short-article/2026/11/cambodias-mangrove-forests-offer-vital-refuge-for-threatened-wildlife-7-year-study-finds/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A seven-year study finds Cambodia's mangrove forests provide refuge for threatened species such as fishing cats and hairy-nosed otters.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/07/30070112/Fishing-cat-cam-PKWS-2017_1-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Laub's Feeding & Cubing, Inc. Voluntary Recalls Grade A Mini Hay Cubes Because of Potential Clostridium Botulinum Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/laubs-feeding-cubing-inc-voluntary-recalls-grade-mini-hay-cubes-because-potential-clostridium",
+      "published": "2026-11-10T05:00:00+00:00"
+    },
+    {
+      "title": "Family Farmstead Dairy Announces Recall of All Cheddar Cheese Products Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-all-cheddar-cheese-products-because-possible-health-risk",
+      "published": "2026-11-10T05:00:00+00:00"
+    },
+    {
+      "title": "Fresh & Ready Foods LLC Recalls Fresh To You Brand Sausage, Egg & Cheese Biscuit Sandwich due to Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-recalls-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-due-possible",
+      "published": "2026-11-08T05:00:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "We have all known the long loneliness and we have learned that the only solution is love and that love comes with community.",
+    "who": "Dorothy Day",
+    "about": "American writer who helped the poor and homeless",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 110–100 vs DEN",
+      "last_date": "Nov 9",
+      "next": "Wed Nov 11 vs GS",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909957/nuggets-rockets",
+      "recent": [
+        "W 110–100 vs DEN · Nov 9",
+        "L 99–102 at PHX · Nov 7",
+        "L 107–117 vs MIN · Nov 4"
+      ],
+      "upcoming": [
+        "Wed Nov 11 vs GS",
+        "Fri Nov 13 vs UTAH",
+        "Sun Nov 15 at WSH"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": "L 1–4 vs LAD",
+      "last_date": "Oct 7",
+      "next": null,
+      "url": "https://www.espn.com/mlb/game/_/gameId/401908016/dodgers-braves",
+      "recent": [
+        "L 1–4 vs LAD · Oct 7",
+        "L 1–3 vs LAD · Oct 6",
+        "W 3–2 at LAD · Oct 4"
+      ],
+      "upcoming": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 38–17 vs LV",
+      "last_date": "Nov 8",
+      "next": "Sun Nov 15 at DAL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+      "recent": [
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19"
+      ],
+      "upcoming": [
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 62286,
+    "output_tokens": 9627
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "We Investigated The Only NFL Team Without A Billionaire Owner",
+          "url": "https://www.youtube.com/watch?v=_ftZJlpOsYY",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "An investigation into the Green Bay Packers, the only NFL team owned by fans, and how that model faces pressure from private equity and league finances.",
+          "image": "https://i4.ytimg.com/vi/_ftZJlpOsYY/hqdefault.jpg",
+          "video": "_ftZJlpOsYY"
+        },
+        {
+          "title": "EVERYTHING The Tech Oligarchs Tell You Is A Lie",
+          "url": "https://www.youtube.com/watch?v=iYQ1_1Hh5Rk",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal Ball and Saagar Enjar discuss tech oligarchs with guest Thomas Frank, arguing their public claims are misleading.",
+          "image": "https://i2.ytimg.com/vi/iYQ1_1Hh5Rk/hqdefault.jpg",
+          "video": "iYQ1_1Hh5Rk"
+        },
+        {
+          "title": "Blue Kansas! Is The Culture War DEAD? w Thomas Frank",
+          "url": "https://www.youtube.com/watch?v=nwPBspdHLqE",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points hosts and Thomas Frank discuss how Kansas flipped blue and what it suggests about the culture war.",
+          "image": "https://i3.ytimg.com/vi/nwPBspdHLqE/hqdefault.jpg",
+          "video": "nwPBspdHLqE"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Kirk Cousins, Josh Downs & More SPLASH Trades at Deadline",
+          "url": "https://www.youtube.com/watch?v=ydHzJE1gbkc",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Analysts break down the trades made at the 2026 NFL trade deadline, including Kirk Cousins to Minnesota and Josh Downs.",
+          "image": "https://i2.ytimg.com/vi/ydHzJE1gbkc/hqdefault.jpg",
+          "video": "ydHzJE1gbkc"
+        },
+        {
+          "title": "Chiefs Offense Learns a Lesson, Dolphins Impress in Loss & Jessie Bates to Jaguars",
+          "url": "https://www.youtube.com/watch?v=Kf1wTSYEoF8",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Athletic Football Show review of Week 9 wins by the 49ers, Chiefs and Lions, plus Jessie Bates heading to Jacksonville.",
+          "image": "https://i4.ytimg.com/vi/Kf1wTSYEoF8/hqdefault.jpg",
+          "video": "Kf1wTSYEoF8"
+        },
+        {
+          "title": "Leveling the Playing Field with Grecia Barboza | Inside the Oval",
+          "url": "https://www.youtube.com/watch?v=ztAj49I4Qv0",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Inside the Oval interview with 49ers Assistant General Counsel Grecia Barboza about her career path and in-house legal work.",
+          "image": "https://i3.ytimg.com/vi/ztAj49I4Qv0/hqdefault.jpg",
+          "video": "ztAj49I4Qv0"
+        },
+        {
+          "title": "Polymarket UFC 334 Embedded: Vlog Series - Episode 2",
+          "url": "https://www.youtube.com/watch?v=7EyJnj-rpcQ",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Vlog episode with UFC 334 fighters training and preparing, including Ciryl Gane, Amanda Nunes and Kayla Harrison.",
+          "image": "https://i4.ytimg.com/vi/7EyJnj-rpcQ/hqdefault.jpg",
+          "video": "7EyJnj-rpcQ"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "The New Way to Plan Construction Projects (with AI)",
+          "url": "https://www.youtube.com/watch?v=s3TCLFhIwM0",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley works through a warehouse construction schedule in Syncify, explaining how AI can assist planning while the planner must understand the build.",
+          "image": "https://i4.ytimg.com/vi/s3TCLFhIwM0/hqdefault.jpg",
+          "video": "s3TCLFhIwM0"
+        },
+        {
+          "title": "Want to Learn Revit? Watch This Before Black Friday!",
+          "url": "https://www.youtube.com/watch?v=E-NropeDnYc",
+          "source": "Balkan Architect",
+          "topic": "Architecture & Building",
+          "note": "Balkan Architect offers a Revit learning overview and a personal Revit template and family pack, promoting courses ahead of Black Friday.",
+          "image": "https://i2.ytimg.com/vi/E-NropeDnYc/hqdefault.jpg",
+          "video": "E-NropeDnYc"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Introducing Claude Whiteboards, Sheets, and Data",
+          "url": "https://www.youtube.com/watch?v=YewAJPawE7I",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic introduces Claude Whiteboards and Sheets in beta and Claude Data, for brainstorming and sharing data in Claude.",
+          "image": "https://i2.ytimg.com/vi/YewAJPawE7I/hqdefault.jpg",
+          "video": "YewAJPawE7I"
+        },
+        {
+          "title": "Your apps have moved into Claude",
+          "url": "https://www.youtube.com/watch?v=Gy1jSeSzAhk",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Demonstrates interactive connectors that open Adobe, Atlassian and Box tools inside Claude alongside the conversation.",
+          "image": "https://i4.ytimg.com/vi/Gy1jSeSzAhk/hqdefault.jpg",
+          "video": "Gy1jSeSzAhk"
+        },
+        {
+          "title": "Why You Can’t Visit Earth’s Most Isolated Islands",
+          "url": "https://www.youtube.com/watch?v=k08hcJoPruk",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geography By Geoff explains why Earth's most isolated islands are hard to visit.",
+          "image": "https://i4.ytimg.com/vi/k08hcJoPruk/hqdefault.jpg",
+          "video": "k08hcJoPruk"
+        }
+      ]
+    }
+  ]
+}
