@@ -1,0 +1,1085 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, November 12, 2026",
+  "generated_at": "2026-11-12T05:00:19-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, November 12. Our lead story is about Anthropic. The company, Anthropic, PBC, has filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission. The filing covers its proposed initial public offering of Class A common stock. The offering is proposed, so it has not been completed. Simon Willison also notes that Anthropic began its IPO roadshow, and that the roadshow video includes new details about its business, including a section on compute with co-founder Tom Brown. Now the front page. In Mississippi, Democrat Scott Colom won the Senate race, according to an Associated Press call. He defeated Republican Senator Cindy Hyde-Smith. In Abu Dhabi, talks between Russia and Ukraine ended with an agreement on a prisoner exchange. U.S. negotiators meet Vladimir Putin on Thursday and Volodymyr Zelenskyy on Friday. In football, the 49ers acquired receiver Keenan Allen from the Indianapolis Colts for a 2027 sixth-round pick. They also signed cornerback Jack Jones to the practice squad. Now the sections. In tech, a trending repo called shadcn improve has an agent audit a codebase and write plans for cheaper models to run. In politics, The Lever reports that Democratic wins put the country within reach of a national popular vote compact. The White House has also warned Democrats over future oversight probes. In world news, an Israeli strike on a Gaza hospital killed six people, according to health authorities. Israel said it was targeting a Hamas commander and other militants. In sports, Kevin Durant and Alperen Sengun led the Rockets past the Nuggets, 110 to 100. In Atlanta, ProPublica found that four Forsyth County voters who were questioned as dead are alive. The Chattahoochee RiverLands project also secured 327 more acres. In architecture, McNeel is rolling out Rhino 9 and bringing in AI. Archiboost raised 6.2 million dollars for its AI platform. In science and nature, the SS United States was sunk in the Gulf of Mexico to become the world's largest artificial reef. And NASA's picture of the day shows the Moon, Venus and Spica meeting in the sky. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "source": "Anthropic news",
+    "topic": "Tech & AI",
+    "note": "Anthropic, PBC has filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission. The filing relates to its proposed initial public offering of Class A common stock. An S-1 is the document a company files to register shares it plans to sell to the public, so this is a formal step toward becoming a publicly traded company. The announcement appeared on Anthropic's news page, and the listing gives no further detail on pricing, size or timing. The offering is described as proposed, which means it has not been completed. For a reader who builds personal tools with Claude, this is the company behind those tools moving toward public markets. It is worth watching what Anthropic discloses about its business as the process moves forward.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+    "video": null,
+    "headline": "Anthropic Files For Initial Public Offering",
+    "decks": [
+      "Anthropic, PBC files registration statement with the SEC",
+      "Proposed offering covers its Class A common stock",
+      "Filing made on Form S-1"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "Simon Willison says Anthropic began its IPO roadshow and that the video holds new details, including a section on compute with co-founder Tom Brown.",
+      "image": null,
+      "video": null
+    },
+    {
+      "title": "Democrat Scott Colom wins Mississippi Senate race",
+      "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom",
+      "source": "NPR Politics",
+      "topic": "Politics",
+      "note": "Democrat Scott Colom won the Mississippi Senate race, per an Associated Press call, defeating Republican Sen. Cindy Hyde-Smith.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3174x2116+0+0/resize/3174x2116!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe4%2F8a%2Ff54fa9dd4de4a9cae7937ebf9994%2Fmdt-colom.jpg",
+      "video": null
+    },
+    {
+      "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "Abu Dhabi talks ended with a Russia-Ukraine prisoner exchange agreement; U.S. negotiators meet Putin on Thursday and Zelenskyy on Friday.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    },
+    {
+      "title": "The 49ers Acquire WR Keenan Allen",
+      "url": "https://www.49ers.com/news/the-49ers-acquire-wr-keenan-allen",
+      "source": "49ers.com",
+      "topic": "Sports",
+      "note": "The 49ers acquired receiver Keenan Allen from the Indianapolis Colts for a 2027 sixth-round pick and signed cornerback Jack Jones to the practice squad.",
+      "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ozlj5rljqvf0ba5htoz2.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "shadcn/improve",
+          "url": "https://github.com/shadcn/improve",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "An agent skill that audits a codebase and writes plans for cheaper models to execute, a useful pattern for personal tool building.",
+          "image": "https://opengraph.githubassets.com/1/shadcn/improve",
+          "video": null
+        },
+        {
+          "title": "homeassistant-ai/ha-mcp",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "Trending repo for configuring and automating Home Assistant with Claude and other AI assistants.",
+          "image": "https://opengraph.githubassets.com/1/homeassistant-ai/ha-mcp",
+          "video": null
+        },
+        {
+          "title": "aws-emulator",
+          "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison highlights an AWS emulator for running tests against a local clone of its services, reportedly written by a swarm of agents.",
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "The Blue Wave Could Make The Popular Vote Count",
+          "url": "https://www.levernews.com/the-blue-wave-could-make-the-popular-vote-count/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that Democratic wins in key states bring the country within reach of a compact on the national popular vote.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--24-.jpg",
+          "video": null
+        },
+        {
+          "title": "Israel Targets U.S. Conservatives in Influence Operation",
+          "url": "https://www.dropsitenews.com/p/israel-influence-united-states-conservatives-parler",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that Starboard signed a $500,000 agreement to help the State of Israel influence Americans.",
+          "image": "https://substackcdn.com/image/fetch/$s_!LdtD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F572c87dc-99f0-45de-9839-bd9a541907aa_7728x5000.jpeg",
+          "video": null
+        },
+        {
+          "title": "White House warns Democrats over future probes, citing possible 'criminality'",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037548/white-house-warns-democrats-over-future-probes-citing-possible-criminality",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "The White House warned Democrats over future probes, citing possible criminality, as new congressional oversight approaches next year.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "An Israeli strike on a Gaza hospital killed six people, health authorities say; Israel said it targeted a Hamas commander and other militants.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F48%2Fbcd0e3834c77ade3e983e6858561%2Fap26316273240387.jpg",
+          "video": null
+        },
+        {
+          "title": "Indonesia's vice-president resigns amid signs ruling alliance is fraying",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Indonesia's vice-president resigned amid signs of strain in the ruling alliance and a growing rift between President Prabowo and Joko Widodo.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e5a/live/8d137e10-dcf1-11f1-9ef0-4b5930e2f80e.jpg",
+          "video": null
+        },
+        {
+          "title": "New York building collapse kills at least two, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A three-storey building collapsed in Brooklyn, killing at least two, with a search for survivors continuing; of interest given your field.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7651/live/2883df70-de5a-11f1-9b47-0919bf7329d1.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Durant and Sengun power the Rockets past the Nuggets 110-100 to snap a 2-game skid",
+          "url": "http://www.espn.com/nba/recap?gameId=401909957",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "Kevin Durant scored 23 and Alperen Sengun added 20 as the Rockets beat the Nuggets 110-100 to end a two-game skid.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "MMA stars Merab Dvalishvili, Usman Nurmagomedov brawl at hotel in Abu Dhabi",
+          "url": "https://www.espn.com/mma/story/_/id/50455764/mma-stars-merab-dvalishvili-usman-nurmagomedov-brawl-hotel",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "UFC's Merab Dvalishvili and Usman Nurmagomedov got into a public brawl at a hotel in Abu Dhabi on Wednesday.",
+          "image": "https://a.espncdn.com/photo/2025/1203/r1584464_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers face questions at corner heading into Week 10",
+          "url": "https://www.espn.com/video/clip/_/id/50458517/49ers-face-questions-corner-heading-week-10",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers have injury questions at corner heading into Week 10 against the Cowboys.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/dm_261111_Niners_corners_IA/dm_261111_Niners_corners_IA.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "A tool built by election deniers said these Forsyth County voters were dead. We found them alive.",
+          "url": "https://roughdraftatlanta.com/2026/11/11/forsyth-county-ballot-challenges-elly-tool/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "ProPublica found four Forsyth County voters, whom an election board member questioned as dead using a data tool, are alive.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/propublica-partner-content-thumbnail-centered-600x338.webp",
+          "video": null
+        },
+        {
+          "title": "Chattahoochee RiverLands project secures 327 additional acres",
+          "url": "https://atlanta.urbanize.city/post/chattahoochee-riverlands-mcintosh-reserve-project-secures-327-additional-acres",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The Chattahoochee RiverLands trail project secured 327 additional acres, a step toward a river trail system through metro Atlanta.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/McIntosh%20Reserve_Chattahoochee%20RiverLands%20Aerial_Simple_20261021.png?itok=MFeLqq6-",
+          "video": null
+        },
+        {
+          "title": "Along popular Beltline stretch, where two-pronged project stands now",
+          "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-development-two-pronged-project-stands-now",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Reynoldstown Beltline project, discussed for nearly two decades, is set to take steps toward groundbreaking by year's end.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-10/5%20205%20Holtzclaw%20St.%20930%20Mauldin%20St.%20Allen%20Morris.jpg?itok=Eew0Cc2O",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Rhino World 2026: McNeel lets AI in",
+          "url": "https://aecmag.com/cad/rhino-world-2026-mcneel-lets-ai-in/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "McNeel is rolling out Rhino 9 and embracing AI while speeding up development.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Archiboost looks beyond construction document checking",
+          "url": "https://aecmag.com/data-management/archiboost-looks-beyond-construction-document-checking/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Archiboost raised $6.2 million to build a connected model of building information and advance its AI platform for AECO.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Trimble embeds AI across AECO",
+          "url": "https://aecmag.com/collaboration/trimble-embeds-ai-across-aeco/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Trimble Connect adds AI agents and automation to improve project coordination, manage risk and streamline workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This ocean liner was the world’s fastest. It’s being sunk to make the largest artificial reef",
+          "url": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "The SS United States was sunk in the Gulf of Mexico to become the world's largest artificial reef.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11220520/AP26299375080227-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's picture of the day shows the Moon, Venus and Spica meeting in the sky.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/conjunction-bubak.jpg?w=1638&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Stone Age children left fingerprints on ancient art projects",
+          "url": "https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Preserved fingerprints suggest Natufian hunter-gatherers may have taught children to sculpt clay.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_FK_pottery_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "The Blue Wave Could Make The Popular Vote Count",
+              "url": "https://www.levernews.com/the-blue-wave-could-make-the-popular-vote-count/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports Democratic wins in key states bring a national popular-vote compact within reach. An independent-media look at a concrete electoral reform.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--24-.jpg",
+              "video": null
+            },
+            {
+              "title": "Israel Targets U.S. Conservatives in Influence Operation",
+              "url": "https://www.dropsitenews.com/p/israel-influence-united-states-conservatives-parler",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports Starboard, a firm advertising data on 25 million verified conservatives, signed a $500,000 agreement to help Israel influence Americans.",
+              "image": "https://substackcdn.com/image/fetch/$s_!LdtD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F572c87dc-99f0-45de-9839-bd9a541907aa_7728x5000.jpeg",
+              "video": null
+            },
+            {
+              "title": "The “War Dogs” Story Behind A $1.8 Billion ICE Windfall",
+              "url": "https://www.levernews.com/the-war-dogs-story-behind-a-1-8-billion-ice-windfall/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever details how companies linked to a developer facing bankruptcy secured ICE contracts worth up to $1.8 billion, based on court records and insider accounts.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-ICE-Facebook.png",
+              "video": null
+            },
+            {
+              "title": "Progressives Lay the Groundwork to Force a Vote on Ending Some Arms Sales to Israel",
+              "url": "https://www.dropsitenews.com/p/incoming-freshman-says-allies-of",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports House progressives are laying groundwork to force a vote on ending some U.S. arms sales to Israel.",
+              "image": "https://substackcdn.com/image/fetch/$s_!PYqd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcfc9039-abc5-49bf-966e-71e30757f562_7338x4893.jpeg",
+              "video": null
+            },
+            {
+              "title": "Eleven Truant Democrats Give Hegseth A Pass",
+              "url": "https://www.levernews.com/eleven-truant-democrats-give-hegseth-a-pass/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports eleven Democrats declined to oppose Hegseth. A question of how the new Democratic majority will use its votes.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--23-.jpg",
+              "video": null
+            },
+            {
+              "title": "White House warns Democrats over future probes, citing possible 'criminality'",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6037548/white-house-warns-democrats-over-future-probes-citing-possible-criminality",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports the White House warned Democrats against future oversight probes, citing possible criminality, as the new Congress prepares to take office.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats Won An Anti-Corruption Mandate. Now They Must Deliver.",
+              "url": "https://www.levernews.com/democrats-won-an-anti-corruption-mandate-now-they-must-deliver/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever argues Democrats won an anti-corruption mandate and examines publicly financed elections as a way to limit big money.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Capitol-Building.png",
+              "video": null
+            },
+            {
+              "title": "The Coming Democratic Party Battle On Taxing The Rich",
+              "url": "https://www.levernews.com/the-coming-democratic-party-battle-on-taxing-the-rich/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever examines an intra-Democratic debate over taxing millionaires and billionaires now that the party holds power to do so.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress-2027.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Russia and Ukraine agreed to a large prisoner exchange after U.S.-mediated Abu Dhabi talks ended without a major breakthrough, per NPR. The largest humanitarian release since 2022.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7854x5236+0+0/resize/7854x5236!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2Fe5%2Fc440fa07484eafad83691a255e57%2Fap26314378728116.jpg",
+              "video": null
+            },
+            {
+              "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "U.S. negotiators are set to meet Putin and Zelenskyy after the Abu Dhabi talks, according to NPR. Next steps in the Russia-Ukraine negotiations.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "An Israeli strike on a Gaza hospital killed six people, including a surgeon, and injured at least a dozen, health authorities said. Israel said it targeted a Hamas commander.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F48%2Fbcd0e3834c77ade3e983e6858561%2Fap26316273240387.jpg",
+              "video": null
+            },
+            {
+              "title": "Drought threatens Iraq's marshes, risking one of the oldest ways of life",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6026458/drought-threatens-iraqs-marshes-risking-one-of-the-oldest-ways-of-life",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Iraq's southern marshes are beginning to revive after five years of drought, though challenges remain for the region's residents.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
+              "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports Ukrainians are living with only a few hours of electricity a day as Russian strikes hit the power grid.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2a2c/live/a70e9220-de61-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "New York building collapse kills at least two, officials say",
+              "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A three-storey building collapsed in Brooklyn on Wednesday, killing at least two, officials said, and searches for survivors continue.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7651/live/2883df70-de5a-11f1-9b47-0919bf7329d1.jpg",
+              "video": null
+            },
+            {
+              "title": "Why is gasoline suddenly under $4 a gallon?",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports the average U.S. gasoline price dipped below $4 a gallon for the first time in months. Relevant to everyday driving costs.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8054x5369+0+0/resize/8054x5369!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Fb1%2F79ee5cd14420a25d6111b7bf6a03%2Fgettyimages-2248589851.jpg",
+              "video": null
+            },
+            {
+              "title": "Can Nigeria's president regain voters' trust after painful first term?",
+              "url": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC examines whether Nigeria's president can regain voter trust after a difficult first term, with analysts saying reforms must go beyond promises.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5293/live/110e8ed0-dd8d-11f1-a56e-d7dc6014806d.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 9, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-fable-5-2",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's November 9 platform release notes cover Claude Fable 5.2 and a restricted Mythos 5.2 available only to verified organizations. Directly relevant to your Claude work.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 9, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#fast-mode-claude-fable-5-2",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Fast mode for Claude Fable 5.2 gives up to 2.5x higher output tokens per second, with stated per-token pricing. Useful if you run Claude in your own tools.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Browse tools.simonwillison.net by tag",
+              "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison used Fable 5.2 to build a tag-based browser for his 244 vibe-coded tools. A practical example of the kind of personal tooling you build.",
+              "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
+              "video": null
+            },
+            {
+              "title": "shadcn/improve",
+              "url": "https://github.com/shadcn/improve",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "shadcn's improve is an agent skill that audits a codebase and writes plans for cheaper models to execute. Relevant to how you split work between models.",
+              "image": "https://opengraph.githubassets.com/1/shadcn/improve",
+              "video": null
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Addy Osmani's agent-skills repo packages engineering workflows and quality gates for AI coding agents. A trending repo that fits your Claude tooling interests.",
+              "image": "https://opengraph.githubassets.com/1/addyosmani/agent-skills",
+              "video": null
+            },
+            {
+              "title": "aws-emulator",
+              "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "An official AWS emulator written in Rust lets you test against local clones of AWS services without a paid API key. Notable for developers building tools.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "meta/astryx",
+              "url": "https://github.com/meta/astryx",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Meta's Astryx is an open source, customizable React design system built to be used by people and AI agents. Relevant to design-tool work.",
+              "image": "https://opengraph.githubassets.com/1/meta/astryx",
+              "video": null
+            },
+            {
+              "title": "vercel-labs/agent-browser",
+              "url": "https://github.com/vercel-labs/agent-browser",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Vercel's agent-browser is a native Rust CLI that lets an AI agent drive a browser one command at a time. Useful for agent-based tooling.",
+              "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser",
+              "video": null
+            },
+            {
+              "title": "Anthropic's IPO roadshow video",
+              "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison summarizes Anthropic's IPO roadshow video, which includes previously unreleased details on its business and compute approach. Directly on your Anthropic interest.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "The 49ers Acquire WR Keenan Allen",
+              "url": "https://www.49ers.com/news/the-49ers-acquire-wr-keenan-allen",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers acquired WR Keenan Allen from the Colts for a 2027 sixth-round pick and signed CB Jack Jones to the practice squad.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ozlj5rljqvf0ba5htoz2.png",
+              "video": null
+            },
+            {
+              "title": "Durant and Sengun power the Rockets past the Nuggets 110-100 to snap a 2-game skid",
+              "url": "http://www.espn.com/nba/recap?gameId=401909957",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant had 23 points and Alperen Sengun added 20 as the Rockets beat the Nuggets 110-100 to snap a two-game skid.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909957.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "MMA stars Merab Dvalishvili, Usman Nurmagomedov brawl at hotel in Abu Dhabi",
+              "url": "https://www.espn.com/mma/story/_/id/50455764/mma-stars-merab-dvalishvili-usman-nurmagomedov-brawl-hotel",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC stars Merab Dvalishvili and Usman Nurmagomedov brawled at an Abu Dhabi hotel on Wednesday, according to ESPN.",
+              "image": "https://a.espncdn.com/photo/2025/1203/r1584464_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Grades for NFL trade deadline deals, including Kirk Cousins to the Vikings and Josh Downs to the Chiefs. Covers the trade market that affects your teams.",
+              "image": "https://a.espncdn.com/photo/2026/1110/r1744131_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers face questions at corner heading into Week 10",
+              "url": "https://www.espn.com/video/clip/_/id/50458517/49ers-face-questions-corner-heading-week-10",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers face injury questions at corner ahead of Week 10 against the Cowboys, according to ESPN's Nick Wagoner.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/dm_261111_Niners_corners_IA/dm_261111_Niners_corners_IA.jpg",
+              "video": null
+            },
+            {
+              "title": "Sale named to All-MLB First Team for 2nd time",
+              "url": "https://www.mlb.com/braves/news/chris-sale-2026-all-mlb",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Braves pitcher Chris Sale was named to the All-MLB First Team for the second time.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/vp8tdadnv0g9mcnsln0y.jpg",
+              "video": null
+            },
+            {
+              "title": "Sale finishes third in NL Cy Young voting, his fourth top-three finish",
+              "url": "https://www.mlb.com/braves/news/chris-sale-third-2026-nl-cy-young-award-voting",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "Sale finished third in NL Cy Young voting, his fourth top-three finish. A notable result for Braves fans.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/v1794440271/mlb/bzrn2uvvvalgg4pqmrps.jpg",
+              "video": null
+            },
+            {
+              "title": "Inside the tension, suspicion and history behind Amanda Nunes vs. Kayla Harrison",
+              "url": "https://www.espn.com/mma/story/_/id/50428840/amanda-nunes-kayla-harrison-ufc-rivals",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "ESPN looks at the tension and history between Amanda Nunes and Kayla Harrison ahead of their UFC matchup.",
+              "image": "https://a.espncdn.com/photo/2026/1109/mma_nunes-harrison-att_fc_16x9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Atlanta makes bid to host 2031 FIFA Women’s World Cup matches",
+              "url": "https://roughdraftatlanta.com/2026/11/11/atlanta-fifa-women-world-cup/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Not sports. Skipped.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260728_MercedesBenz_AnsleyKelly_003-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Images: What $1.8M (and up) buys at project called ‘intimate,’ ‘rare’",
+              "url": "https://atlanta.urbanize.city/post/chastain-overlook-buckhead-sandy-springs-million-buys-project-images-intimate-rare",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta shows eight boutique townhomes between Buckhead and Sandy Springs finishing construction, priced from $1.8 million. A look at the local residential market.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Chastain%20Overlook%20About%201%20%281%29.png?itok=n6oXFQ7B",
+              "video": null
+            },
+            {
+              "title": "Along popular Beltline stretch, where two-pronged project stands now",
+              "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-development-two-pronged-project-stands-now",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A Reynoldstown Beltline-adjacent project is set to take steps toward groundbreaking by year's end, developers told Urbanize Atlanta. A development story after nearly two decades of talks.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-10/5%20205%20Holtzclaw%20St.%20930%20Mauldin%20St.%20Allen%20Morris.jpg?itok=Eew0Cc2O",
+              "video": null
+            },
+            {
+              "title": "Project with 325 more residences starts delivering along Beltline loop",
+              "url": "https://atlanta.urbanize.city/post/woodrow-house-beltline-apartments-images-starts-deliver-southwest-trail-loop",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The first of hundreds of new apartments in a Southwest Atlanta industrial-to-residential project are starting to deliver along the Beltline loop.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/aerial%20Woodrow%20House.png?itok=svB304mY",
+              "video": null
+            },
+            {
+              "title": "Chattahoochee RiverLands project secures 327 additional acres",
+              "url": "https://atlanta.urbanize.city/post/chattahoochee-riverlands-mcintosh-reserve-project-secures-327-additional-acres",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Chattahoochee RiverLands project secured 327 additional acres, moving a metro-wide river trail and recreation plan forward.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/McIntosh%20Reserve_Chattahoochee%20RiverLands%20Aerial_Simple_20261021.png?itok=MFeLqq6-",
+              "video": null
+            },
+            {
+              "title": "Groundswell Helps Make Westside Homes Healthy, Safe and Energy Efficient",
+              "url": "https://saportareport.com/groundswell-helps-make-westside-homes-healthy-safe-and-energy-efficient/civic-messages/manderson/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport covers a Westside retrofit program that insulated homes and improved energy efficiency. Relevant to building performance in Atlanta.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Groundswell-Photo-1-scaled.jpg?fit=1024%2C578&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Once a segregated movie house, Grove Park Theater returns as a performing arts and cultural arts center",
+              "url": "https://saportareport.com/once-a-segregated-movie-house-grove-park-theater-returns-as-a-performing-arts-and-cultural-arts-center/columnists/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Grove Park Theater, built in 1941 as a segregated movie house, begins renovation to reopen as a performing and cultural arts center.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_2241-scaled.jpg?fit=1024%2C790&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Sandy Springs wins praise from expert urban planner Mitchell Silver",
+              "url": "https://roughdraftatlanta.com/2026/11/11/sandy-springs-conservancy-anniversary/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Raleigh planning leader Mitchell Silver praised Sandy Springs' planning, parks and connectivity in a keynote address. A planning perspective on a neighboring city.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/City-Springs-sunset-600x347.jpeg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Rhino World 2026: McNeel lets AI in",
+              "url": "https://aecmag.com/cad/rhino-world-2026-mcneel-lets-ai-in/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "McNeel is embedding AI in Rhino as it rolls out Rhino 9, according to AEC Magazine. Relevant to your design software and AI in architecture.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Trimble embeds AI across AECO",
+              "url": "https://aecmag.com/collaboration/trimble-embeds-ai-across-aeco/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Trimble introduced AI agents and automation in Trimble Connect for project coordination and risk management. Directly relevant to AI in BIM workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Archiboost looks beyond construction document checking",
+              "url": "https://aecmag.com/data-management/archiboost-looks-beyond-construction-document-checking/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Archiboost raised $6.2m to build a connected building-information model and an AI platform beyond document checking. Relevant to BIM and AI.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "House on Alley 37 / kelvan_studio",
+              "url": "https://www.archdaily.com/1188258/house-on-alley-37-kelvan-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A house on Alley 37 explores the edge between a home and its residential neighborhood. A design project on the home-neighborhood relationship.",
+              "image": "https://images.adsttc.com/media/images/6af1/169b/4ba6/4700/01d0/7f9b/newsletter/29.jpg?1794184909",
+              "video": null
+            },
+            {
+              "title": "Comporta House / Aurora Arquitectos",
+              "url": "https://www.archdaily.com/1188426/comporta-house-aurora-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Aurora Arquitectos' Comporta House sits in the Alentejo pine forest near the coast in Portugal. A residential project shaped by its landscape.",
+              "image": "https://images.adsttc.com/media/images/6af3/5083/c23f/1f46/c926/e6b3/newsletter/casa-na-comporta-aurora-arquitectos_35.jpg?1794330801",
+              "video": null
+            },
+            {
+              "title": "Tsuyama Hotel I & II Renovation / NAAD + studio tata",
+              "url": "https://www.archdaily.com/1187432/tsuyama-hotel-i-and-ii-renovation-naad-plus-studio-tata",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "NAAD and studio tata renovated two machiya townhouses into small hotels in Tsuyama, Japan, within a historic townscape. A restoration and adaptive reuse example.",
+              "image": "https://images.adsttc.com/media/images/6adb/7d95/3271/8400/01d0/e54a/newsletter/Hotel-I_room202_01_Yosuke-Ohtake.jpg?1792769470",
+              "video": null
+            },
+            {
+              "title": "CST #185 / tini + delavegacanolasso",
+              "url": "https://www.archdaily.com/1188279/cst-number-185-tini-plus-delavegacanolasso",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CST #185 revives Case Study House ideas through an industrialized, land-sensitive system. A modular, mid-century-inspired design approach.",
+              "image": "https://images.adsttc.com/media/images/6af1/a0c5/e43f/5e01/8839/896a/newsletter/cst-number-185-tini-plus-delavegacanolasso_15.jpg?1794220324",
+              "video": null
+            },
+            {
+              "title": "Before the Urban Grid: The Colonial City of Santo Domingo in Dominican Republic",
+              "url": "https://www.archdaily.com/1188352/before-the-urban-grid-the-colonial-city-of-santo-domingo-in-dominican-republic",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily traces the colonial city of Santo Domingo, the first permanent European settlement in the Americas, and its layout before the urban grid. Urban history.",
+              "image": "https://images.adsttc.com/media/images/6af4/0771/8074/f401/89de/e1d7/newsletter/the-origins-of-santo-domingo-tracing-the-first-permanent-european-settlement-in-america_10.jpg?1794377721",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows the Moon, Venus and Spica meeting in the evening sky. A short, visual note on this week's sky.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/conjunction-bubak.jpg?w=1638&h=2048&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "This ocean liner was the world’s fastest. It’s being sunk to make the largest artificial reef",
+              "url": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The SS United States, once the fastest ocean liner, was scuttled off Destin, Florida, to become the world's largest artificial reef. Ocean and marine habitat news.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11220520/AP26299375080227-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Scotland’s Flow Country",
+              "url": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA features Scotland's Flow Country, where blanket bogs store large amounts of carbon. A nature and climate story.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/scotland’s-flow-country-/scotland_flowcountry_oli2_20240304.jpg?w=720&h=600&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Vietnam’s freshwater obsession leaves decades-long scars for Mekong Delta farmers",
+              "url": "https://news.mongabay.com/2026/11/vietnams-freshwater-obsession-leaves-decades-long-scars-for-mekong-delta-farmers/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports Mekong Delta farmers face decades of damage as sediment loss and infrastructure reshape the river's estuaries. Water and delta ecology.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12084334/Rice-field-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Toxic secrets are hiding in Arctic ice",
+              "url": "https://www.sciencenews.org/article/toxic-secrets-hiding-arctic-ice-harm",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Arctic ice cores trace arsenic, lead and other toxic metals to historic mining and smelting in Montana. An environmental science finding.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/090926_KK_pollution_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
+              "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA-led studies show how the LISA gravitational-wave observatory could detect a new population of exoplanets. A space-science look at future detection methods.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg?w=2048&h=1593&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
+              "url": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA will welcome the Expedition 74 crew home at Space Center Houston after a long-duration space station mission.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Audit says Europe’s marine protected areas failing as 2030 deadline looms",
+              "url": "https://news.mongabay.com/2026/11/audit-says-europes-marine-protected-areas-failing-as-2030-deadline-looms/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "An audit finds the EU is off track on its 2030 pledge to protect 30% of land and sea. Marine conservation policy.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11125104/1-feature-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Laub's Feeding & Cubing, Inc. Voluntary Recalls Grade A Mini Hay Cubes Because of Potential Clostridium Botulinum Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/laubs-feeding-cubing-inc-voluntary-recalls-grade-mini-hay-cubes-because-potential-clostridium",
+      "published": "2026-11-10T05:00:00+00:00"
+    },
+    {
+      "title": "Family Farmstead Dairy Announces Recall of All Cheddar Cheese Products Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-all-cheddar-cheese-products-because-possible-health-risk",
+      "published": "2026-11-10T05:00:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "We do not \"come into\" this world; we come out of it, as leaves from a tree.",
+    "who": "Alan Watts",
+    "about": "British-American writer on Eastern philosophy",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 115–108 vs GS",
+      "last_date": "Nov 11",
+      "next": "Fri Nov 13 vs UTAH",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909974/warriors-rockets",
+      "recent": [
+        "W 115–108 vs GS · Nov 11",
+        "W 110–100 vs DEN · Nov 9",
+        "L 99–102 at PHX · Nov 7"
+      ],
+      "upcoming": [
+        "Fri Nov 13 vs UTAH",
+        "Sun Nov 15 at WSH",
+        "Mon Nov 16 at MIA"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 38–17 vs LV",
+      "last_date": "Nov 8",
+      "next": "Sun Nov 15 at DAL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+      "recent": [
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19"
+      ],
+      "upcoming": [
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 68462,
+    "output_tokens": 10720
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Palestinian Journalist's Brutal Abduction By Israeli Settlers | Mohammad Hesham | TMR",
+          "url": "https://www.youtube.com/watch?v=KUxgOZL8gg8",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Independent West Bank journalist Mohammad Hashem discusses being kidnapped and beaten by Israeli settlers, in his own account on the show.",
+          "image": "https://i4.ytimg.com/vi/KUxgOZL8gg8/hqdefault.jpg",
+          "video": "KUxgOZL8gg8"
+        },
+        {
+          "title": "Democrat Masterfully Dismantles NY Times Gotcha Question",
+          "url": "https://www.youtube.com/watch?v=-f4u_nDfQ1c",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "A Democrat responds to a New York Times question, with the host framing the exchange as a media-interview critique.",
+          "image": "https://i2.ytimg.com/vi/-f4u_nDfQ1c/hqdefault.jpg",
+          "video": "-f4u_nDfQ1c"
+        },
+        {
+          "title": "Anthropic Plots $1.4 TRILLION IPO As Dario Says AI WILL CURE ALL MENTAL ILLNESS",
+          "url": "https://www.youtube.com/watch?v=Jz6DGDvjBl0",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points hosts discuss Anthropic's reported $1.4 trillion IPO valuation plan and CEO Dario Amodei's comments on AI and mental illness.",
+          "image": "https://i3.ytimg.com/vi/Jz6DGDvjBl0/hqdefault.jpg",
+          "video": "Jz6DGDvjBl0"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Deebo, Buckner, Warner, Allen, McCaffrey, Bosa Talk New Additions, Preview Cowboys | 49ers",
+          "url": "https://www.youtube.com/watch?v=RySpf9w8Y2s",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers players including Deebo Samuel, DeForest Buckner and Christian McCaffrey discuss trade-deadline additions, the run game, and the upcoming Cowboys game.",
+          "image": "https://i3.ytimg.com/vi/RySpf9w8Y2s/hqdefault.jpg",
+          "video": "RySpf9w8Y2s"
+        },
+        {
+          "title": "Behind the Braves Podcast | Braves In The Military",
+          "url": "https://www.youtube.com/watch?v=_2qZqcXSGis",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "Braves historian Sam Wallace joins Ricky Mast for a Veterans Day episode on members of the Braves organization who served in the military.",
+          "image": "https://i4.ytimg.com/vi/_2qZqcXSGis/hqdefault.jpg",
+          "video": "_2qZqcXSGis"
+        },
+        {
+          "title": "Stephen Thompson's FINAL UFC Media Day, Previews Retirement Fight At UFC 334 | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=cY-LhvPqA48",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "UFC welterweight Stephen Thompson previews his final fight at UFC 334 against Charles Radtke and reflects on his career at media day.",
+          "image": "https://i4.ytimg.com/vi/cY-LhvPqA48/hqdefault.jpg",
+          "video": "cY-LhvPqA48"
+        },
+        {
+          "title": "BTL | UFC 334, Gane vs. Hokit, Merab Dvalishvili ATTACKED By Usman Nurmagomedov | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=351G2VzyOJQ",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Preview of UFC 334 with Ciryl Gane defending the heavyweight title against Josh Hokit and Kayla Harrison facing Amanda Nunes.",
+          "image": "https://i4.ytimg.com/vi/351G2VzyOJQ/hqdefault.jpg",
+          "video": "351G2VzyOJQ"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "5 New Grok Bot Features for Construction (Tested)",
+          "url": "https://www.youtube.com/watch?v=8K2_fvRFK6c",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of five Grok Bot construction features, including model routing for reading drawings and doing take-offs, with a sponsor-heavy description.",
+          "image": "https://i1.ytimg.com/vi/8K2_fvRFK6c/hqdefault.jpg",
+          "video": "8K2_fvRFK6c"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Fable 5.2 or Opus? When to use each model in Claude Code",
+          "url": "https://www.youtube.com/watch?v=C33hJGt-ySg",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Guide to choosing between Claude models in Claude Code and splitting one job across Opus, Fable, Sonnet and Haiku, with a note on measuring on your own tasks.",
+          "image": "https://i4.ytimg.com/vi/C33hJGt-ySg/hqdefault.jpg",
+          "video": "C33hJGt-ySg"
+        },
+        {
+          "title": "Mariko Mori's world of radiant light",
+          "url": "https://www.youtube.com/watch?v=2_z9c-6AOSc",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic's Claude feature on artist Mariko Mori, who used Claude to write code for a computer-generated animation in her retrospective exhibition.",
+          "image": "https://i3.ytimg.com/vi/2_z9c-6AOSc/hqdefault.jpg",
+          "video": "2_z9c-6AOSc"
+        },
+        {
+          "title": "Steak That's STILL Alive?! | Strange Evidence | Science Channel",
+          "url": "https://www.youtube.com/watch?v=uZhpH5LOK_M",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel segment on a piece of meat that appears to twitch, and scientists debating where the line between life and death lies.",
+          "image": "https://i2.ytimg.com/vi/uZhpH5LOK_M/hqdefault.jpg",
+          "video": "uZhpH5LOK_M"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "This Breakfast Casserole Is So Good It Should Be ILLEGAL!",
+          "url": "https://www.youtube.com/watch?v=hj3kM-oyR9k",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy makes a breakfast casserole with crispy carnitas, poblano, serrano, eggs, Monterey Jack and crusty bread.",
+          "image": "https://i1.ytimg.com/vi/hj3kM-oyR9k/hqdefault.jpg",
+          "video": "hj3kM-oyR9k"
+        }
+      ]
+    }
+  ]
+}
