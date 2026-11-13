@@ -1,0 +1,1063 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, November 13, 2026",
+  "generated_at": "2026-11-13T05:00:18-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, November 13. Our top story is the global Microsoft outage. Microsoft says the outage was not caused by a cyber-security incident. But efforts to fix the issues have so far been largely unsuccessful. Other coverage says services including Teams, Outlook and the Copilot AI software have been affected by connectivity problems. If your workday depends on those tools, plan accordingly. Now the front page. Jensen Huang quit as head of Nvidia on Thursday after revelations of alleged extramarital affairs. He has now been summoned to testify before Congress about an affair with an alleged Chinese spy. For Claude builders, the Claude Platform release notes from November twelfth announce self-hosted Claude Managed Agents. You can run the whole Managed Agents service on your own infrastructure and store agents, sessions and session history there. In baseball, the Braves and free agent reliever Evan Phillips agreed to a three-year, thirty-five million dollar contract. Phillips appeared in thirty-one games for the Dodgers last season. In Georgia, House Democrats nominated Representative Carolyn Hugley of Columbus as speaker. She would be the first Black person to lead the chamber. Now the sections. In tech, Anthropic is committing a portion of its shares to a new Public Benefit Fund. Anthropic is also expanding its partnership with the General Services Administration to bring Claude to all levels of government. And Simon Willison released llm-gemini zero point three seven, adding Google's Gemini 4 Hydrogen. In politics, The Lever reports Senator Josh Hawley has joined the opposition to data centers. It also reports that twenty-one Senate Democrats advanced a lame-duck permitting bill. And President Trump says there is no need for an Iran deal, and is directing Vice President Vance to focus on fraud in Democratic-led states. In world news, U.S. envoys met Russia's president and say more talks are likely, perhaps with European participation. NPR reports the president's options for ending the war in Iran are narrowing. And the FBI says North Korean hackers used fake video calls in a four hundred million dollar crypto hack. In sports, the NBA suspended Rockets guard Marcus Smart three games for a punch thrown at Warriors center Charles Bassey. The 49ers are treating Sunday's game against the Cowboys as a major test. And a boxing match between Alistair Overeem and Jimi Manuwa was added to the December twenty-fourth card. In Atlanta, two Westside developments are set to break ground on the same day this month. Georgia climbed nine spots in the Bicycle Friendly States ranking. And a letter writer questions demand for the Beltline-backed autonomous pod test. In architecture, the Archeform add-on brings BIM to SketchUp. SketchUp 2027 improves Revit interoperability. And G2 Digital launched a four-GPU server for firms. In science, Europe's Hera spacecraft is beginning its study of the asteroid Didymos. NASA reports a global rebound for mangroves. And the U.S. has proposed allowing commercial fishing in part of a Pacific marine reserve. That is the brief. Have a good day.",
+  "lead": {
+    "title": "What we know about the global Microsoft outage",
+    "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Microsoft is dealing with a global outage, and efforts to fix it have so far been largely unsuccessful. The company has said the outage was not caused by a cyber-security incident. That statement rules out one explanation, but the summary does not say what did go wrong. Related coverage describes services including Teams, Outlook and the Copilot AI software as affected by what Microsoft calls connectivity problems. For anyone who relies on email, chat and cloud tools to run a working day, a failure of this size is a reminder of how much depends on a small number of providers. The problem was still unresolved at the time of the latest reports, so the details may change as Microsoft continues its repairs. Check your own tools before you plan a day around them.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f94f/live/05203e60-df46-11f1-93e1-3b657b665bcf.jpg",
+    "video": null,
+    "headline": "Microsoft outage persists as fixes fall short",
+    "decks": [
+      "Microsoft says the outage was not a cyber-security incident",
+      "Efforts to fix the issues have so far been largely unsuccessful",
+      "Teams, Outlook and Copilot affected by connectivity problems"
+    ]
+  },
+  "front": [
+    {
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Jensen Huang, who quit as head of Nvidia after revelations of alleged extramarital affairs, has been summoned to testify before Congress about an alleged Chinese spy.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
+      "video": null
+    },
+    {
+      "title": "Claude Platform release notes — November 12, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#self-hosted-managed-agents",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "Claude Platform now offers self-hosted Managed Agents, letting you run the whole service and store agents, sessions and history on your own infrastructure.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+      "video": null,
+      "follow_up": "Self-hosted Claude Managed Agents launched in the November 12 release notes."
+    },
+    {
+      "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
+      "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal",
+      "source": "Atlanta Braves",
+      "topic": "Sports",
+      "note": "The Braves and free-agent reliever Evan Phillips, who pitched in 31 games for the Dodgers last season, agreed to a three-year, $35 million deal.",
+      "image": "https://a.espncdn.com/photo/2025/0531/r1500581_1296x729_16-9.jpg",
+      "video": null
+    },
+    {
+      "title": "Democrats select new leadership for state House",
+      "url": "https://roughdraftatlanta.com/2026/11/12/georgia-house-democrats-hugley-speaker-leadership/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Georgia House Democrats nominated Rep. Carolyn Hugley of Columbus as speaker; she would be the first Black person to lead the chamber.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/carolyn-hugley-georgia-house-speaker-nominee-2026-600x400.webp",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows as the company grows.",
+          "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+          "video": null
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is expanding its partnership with GSA to bring Claude to all levels of government.",
+          "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+          "video": null
+        },
+        {
+          "title": "llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison's llm-gemini 0.37 adds Google's Gemini 4 Hydrogen, the lowest-cost Gemini 4 model, though he finds the pricing confusing.",
+          "image": "https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Voters Said No To Data Centers — Now So Is Josh Hawley",
+          "url": "https://www.levernews.com/voters-are-rejecting-data-centers-now-so-is-josh-hawley/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports Sen. Josh Hawley has joined the opposition to data centers, adding a high-ranking voice to that push.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--25-.jpg",
+          "video": null
+        },
+        {
+          "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
+          "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "Twenty-one Senate Democrats advanced a lame-duck permitting bill that could speed fossil fuel infrastructure for data-center buildout, according to The Lever.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "President Trump says there is no need for an Iran deal and is directing Vice President Vance to focus on fraud in Democratic-led states.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Trump's envoys hope to get Europe involved in Russia-Ukraine peace talks",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6039172/trumps-envoys-hope-to-get-europe-involved-in-russia-ukraine-peace-talks",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "U.S. envoys met Russia's president and say more talks are likely, possibly with European participation.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump confronts dwindling options to end conflict with Iran",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6038881/trump-confronts-dwindling-options-to-end-conflict-with-iran",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "After midterm losses and political change in Israel, NPR reports the president's options for ending the war in Iran are narrowing.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+          "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The FBI says North Korean hackers used fake video calls in a $400 million crypto hack with more than 900 suspected victims.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c16a/live/65ee22f0-df02-11f1-b6e1-5b169363fed4.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Rockets' Marcus Smart suspended three games for punch",
+          "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The NBA suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers not overlooking Cowboys amid NFC playoff push",
+          "url": "https://www.espn.com/video/clip/_/id/50468990/49ers-not-overlooking-cowboys-amid-nfc-playoff-push",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers are treating Sunday's game with the Cowboys as a major test despite bigger NFC games ahead.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_atchfolder_49ers_IAd/dm_261113_atchfolder_49ers_IAd.jpg",
+          "video": null
+        },
+        {
+          "title": "Overeem-Manuwa boxing match added to Dec. 24 Paul-Doumbé card",
+          "url": "https://www.espn.com/boxing/story/_/id/50461800/paul-doumbe-card-adds-overeem-manuwa-boxing-match-co-main",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Former UFC stars Alistair Overeem and Jimi Manuwa will fight a six-round boxing match on the Dec. 24 Paul-Doumbé card.",
+          "image": "https://a.espncdn.com/photo/2020/0902/r739582_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Images: Two more Westside ATL developments officially a go",
+          "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Two Westside Atlanta developments are set for groundbreakings on the same day this month, continuing years of investment in the area.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
+          "video": null
+        },
+        {
+          "title": "Georgia climbs 'dramatic' 9 spots on 'Bicycle Friendly States' ranking",
+          "url": "https://atlanta.urbanize.city/post/georgia-9-places-american-bicycle-friendly-states-ranking-2026",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Georgia climbed nine spots in the Bicycle Friendly States ranking, a sign Atlanta-area bike infrastructure is paying off.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/2026%20Bicycle%20Friendly%20States%20GA.png?itok=O_ngptWD",
+          "video": null
+        },
+        {
+          "title": "Letter to Editor: Lackluster numbers show low 'autonomous pod' demand",
+          "url": "https://atlanta.urbanize.city/post/beltline-atl-spoke-autonomous-pod-letter-editor-lackluster-numbers-show-low-pod-demand",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A Reynoldstown resident argues early numbers from the Beltline-backed autonomous pod test show low demand.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/ATL%20Spoke%20ridership.png?itok=80PPNbyl",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "SketchUp add-on brings BIM to smaller practices",
+          "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Archeform BIM adds BIM elements, drawings, schedules and IFC to SketchUp, with a 1.1 release aimed at renovation workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "SketchUp 2027 bridges design workflows",
+          "url": "https://aecmag.com/cad/sketchup-2027-bridges-design-workflows/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "SketchUp 2027 adds non-destructive modelling and better Revit interoperability, relevant to anyone moving between the two tools.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "G2 Digital launches quad-GPU 2U server",
+          "url": "https://aecmag.com/workstations/g2-digital-launches-quad-gpu-2u-server/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "G2 Digital's quad-GPU 2U server is pitched as an alternative to premium cloud AI services for firms.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Europe’s Hera mission is ready to double down on asteroid science",
+          "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Europe's Hera spacecraft is beginning its exploration of the binary asteroid Didymos, a mission that interests scientists on two fronts.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "A Global Rebound for Mangroves",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA reports mangroves, an ecologically significant forest type, are rebounding globally after decades of decline.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+          "video": null
+        },
+        {
+          "title": "US renews push to open Pacific marine protected area to fishing",
+          "url": "https://news.mongabay.com/short-article/2026/11/us-renews-push-to-open-pacific-marine-protected-area-to-fishing/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "The U.S. proposed rules to allow commercial fishing in a large area of a Pacific marine reserve, according to Mongabay.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12175037/Coral_at_Jarvis_Island_National_Wildlife_Refuge-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Voters Said No To Data Centers — Now So Is Josh Hawley",
+              "url": "https://www.levernews.com/voters-are-rejecting-data-centers-now-so-is-josh-hawley/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Senator Josh Hawley has joined opposition to data centers, following voter rejection of them. Relevant to the data center debate in your field.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--25-.jpg",
+              "video": null
+            },
+            {
+              "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
+              "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that 21 Senate Democrats advanced a lame-duck permitting bill that could speed fossil fuel infrastructure powering the data-center buildout.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports President Trump redirected Vice President Vance from Iran talks to combating fraud in Democratic-led states, saying no Iran deal is needed.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats Missed Hegseth Impeachment Vote While at a Fundraiser with Defense Lobbyists",
+              "url": "https://www.dropsitenews.com/p/democrats-miss-hegseth-impeachment-vote-elect-democratic-women-party",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Democrats missed a Hegseth impeachment vote while attending a fundraiser hosted by an organization that is a major pass-through for AIPAC.",
+              "image": "https://substackcdn.com/image/fetch/$s_!abGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F709f6e3b-ad09-4911-ab5b-8670773b422f_1839x1138.jpeg",
+              "video": null
+            },
+            {
+              "title": "Palm Beach County’s Israel Bonds Holdings Hit 24% of Portfolio Last Month",
+              "url": "https://www.dropsitenews.com/p/palm-beach-county-israel-bonds",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Palm Beach County's Israel bond holdings fell from $1 billion to $932.5 million this month, now 24% of its portfolio.",
+              "image": "https://substackcdn.com/image/fetch/$s_!fUVK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a623fbe-bd5c-4ceb-b753-6e0d6ae296e2_3000x2000.jpeg",
+              "video": null
+            },
+            {
+              "title": "Don’t F#*k It Up, Democrats, Ep. 4: Stopping Fascism After Trump",
+              "url": "https://www.levernews.com/dont-f-k-it-up-democrats-ep-4-stopping-fascism-after-trump/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's David Sirota discusses with Naomi Klein and Astra Taylor whether Democrats will use new power to defeat fascism or only oppose Trump.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/Don---t-F--k-It-Up--Democrats--Ep.-4---Stopping-Fascism-After-Trump.png",
+              "video": null
+            },
+            {
+              "title": "Don’t F#*k It Up, Democrats, Ep. 3: Breaking The Corruption Machine",
+              "url": "https://www.levernews.com/dont-f-k-it-up-democrats-breaking-the-corruption-machine/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's Sirota asks whether Democrats will curb super PACs, dark money and corporate influence, in the third episode of the series.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/Don---t-F--k-It-Up--Democrats-Breaking-The-Corruption-Machine-Lever-news.png",
+              "video": null
+            },
+            {
+              "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR outlines the tools Democrats have to stop Trump projects such as the arch and a golf course, including funding and oversight.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7886x5257+0+0/resize/7886x5257!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F00%2F45ae5e5c4173a2bbdfc2feb574d7%2Fgettyimages-2303515786.jpg",
+              "video": null
+            },
+            {
+              "title": "These swing voters have low expectations for divided government",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6035826/these-swing-voters-have-low-expectations-for-divided-government",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports North Carolina swing voters are pessimistic that a Democratic-controlled Congress will fix their economic concerns, citing Trump as the main obstacle.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+              "url": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports Democrat Cindy Holscher, a state senator, won the Kansas governor's race against a Republican who had Trump's endorsement.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2F54%2F5f034a3f48afb04565b5438e329b%2Fmdt-holscher.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump confronts dwindling options to end conflict with Iran",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6038881/trump-confronts-dwindling-options-to-end-conflict-with-iran",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports that Trump's options to end the war in Iran are dwindling, with Gulf countries in limbo after the midterm losses and Israel's political shakeup.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "U.S. envoys Kushner and Witkoff met Putin in the Kremlin after Ukraine talks in Abu Dhabi, and are scheduled to travel to Ireland to meet Zelenskyy.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4300x2867+0+0/resize/4300x2867!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F97%2F6f0afe7d4fec85c8bfe4b77d0164%2Fap26316483363429.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump's envoys hope to get Europe involved in Russia-Ukraine peace talks",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6039172/trumps-envoys-hope-to-get-europe-involved-in-russia-ukraine-peace-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Trump's envoys met Russia's president and say further talks are likely, possibly with European participation.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump's reliance on ousted Nvidia CEO in question ahead of China trip",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6038941/trumps-reliance-on-ousted-nvidia-ceo-in-question-ahead-of-china-trip",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Trump has relied on ousted Nvidia CEO Jensen Huang for China guidance, which is now in flux ahead of a planned China trip.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "What we know about the global Microsoft outage",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC explains what is known about the global Microsoft outage, which Microsoft says was not a cyber-security incident but has been hard to fix.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f94f/live/05203e60-df46-11f1-93e1-3b657b665bcf.jpg",
+              "video": null
+            },
+            {
+              "title": "Casualties continue to rise after Brooklyn building collapses",
+              "url": "https://www.npr.org/sections/the-picture-show/2026/11/12/g-s1-153229/brooklyn-building-collapse-photos",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports casualties rising after a Brooklyn building collapse, with at least eight dead and dozens injured as first responders search for survivors.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8115x5410+0+0/resize/8115x5410!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F0b%2Fc07dd0af43e4a0d64518c8759694%2Fap26316491465482.jpg",
+              "video": null
+            },
+            {
+              "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+              "url": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports the FBI says North Korean hackers used fake video calls in a $400m crypto hack affecting more than 900 victims.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c16a/live/65ee22f0-df02-11f1-b6e1-5b169363fed4.jpg",
+              "video": null
+            },
+            {
+              "title": "Why France -- despite its size -- is losing the trust of the market",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6030742/why-france-despite-its-size-is-losing-the-trust-of-the-market",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR explains why France is being punished by bond markets despite its size, pointing to credibility rather than debt levels alone.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 12, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#self-hosted-managed-agents",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic launched self-hosted Claude Managed Agents, letting teams run the whole service on their own infrastructure, with agents, sessions and history stored there. Relevant to your Claude-based tools.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
+              "video": null
+            },
+            {
+              "title": "Browse tools.simonwillison.net by tag",
+              "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's browsable index of his 244 vibe-coded tools, organized by the JavaScript APIs and libraries they use. A practical example of personal tooling built with AI.",
+              "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
+              "video": null
+            },
+            {
+              "title": "llm-gemini 0.37",
+              "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Release of llm-gemini 0.37 alongside Google's Gemini 4 Hydrogen launch, with a pricing breakdown across the Gemini 4 family.",
+              "image": "https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp",
+              "video": null
+            },
+            {
+              "title": "Features",
+              "url": "https://www.anthropic.com/news/features",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic features page, listed without summary details. Included for your Claude news tracking.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "AI for Science expands to foundations and research institutions",
+              "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its AI for Science program is expanding to foundations and research institutions. Relevant to your interest in Claude and science.",
+              "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic announces an expanded partnership with GSA to bring Claude to all levels of government, per its news listing.",
+              "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+              "video": null
+            },
+            {
+              "title": "Global Microsoft Outage",
+              "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A global Microsoft outage is drawing wide attention, with services including Outlook and Teams affected. Useful context on dependence on cloud platforms.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Rockets' Marcus Smart suspended three games for punch",
+              "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The NBA suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
+              "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Braves agreed to a three-year, $35 million deal with free-agent reliever Evan Phillips, who appeared in 31 games for the Dodgers last season.",
+              "image": "https://a.espncdn.com/photo/2025/0531/r1500581_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Braves GM emphatically shuts down Ronald Acuna trade speculation: 'We need him'",
+              "url": "https://www.espn.com/mlb/story/_/id/50448746/braves-gm-emphatically-shuts-ronald-acuna-trade-rumors",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Braves GM Alex Anthopoulos dismissed speculation about trading Ronald Acuna Jr., saying, 'We need him.'",
+              "image": "https://a.espncdn.com/photo/2026/0829/r1708405_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Rockets beat Warriors 115-108 to end Golden State’s 8-game winning streak after Curry's early exit",
+              "url": "http://www.espn.com/nba/recap?gameId=401909974",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets beat the Warriors 115-108, ending Golden State's eight-game winning streak after Curry's early exit, with Durant scoring 20.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909974.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Rising UFC featherweight Tommy McMillen 'OK' after nightclub scare, says coach",
+              "url": "https://www.espn.com/mma/story/_/id/50465162/ufc-featherweight-mcmillen-ok-club-scare-says-coach",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC featherweight Tommy McMillen is reported 'completely OK' by his coach after being hospitalized following a nightclub incident in Arizona.",
+              "image": "https://a.espncdn.com/photo/2026/0920/r1719429_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Overeem-Manuwa boxing match added to Dec. 24 Paul-Doumbé card",
+              "url": "https://www.espn.com/boxing/story/_/id/50461800/paul-doumbe-card-adds-overeem-manuwa-boxing-match-co-main",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "A six-round boxing match between former UFC stars Alistair Overeem and Jimi Manuwa was added to the December 24 Jake Paul vs. Cedric Doumbé card.",
+              "image": "https://a.espncdn.com/photo/2020/0902/r739582_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers not overlooking Cowboys amid NFC playoff push",
+              "url": "https://www.espn.com/video/clip/_/id/50468990/49ers-not-overlooking-cowboys-amid-nfc-playoff-push",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers are treating their Sunday matchup with the Cowboys as a major test in the NFC playoff push, per a preview.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_atchfolder_49ers_IAd/dm_261113_atchfolder_49ers_IAd.jpg",
+              "video": null
+            },
+            {
+              "title": "NBA trade deadline: Big questions for Knicks, Thunder and other top teams",
+              "url": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Preview of contenders' possible moves before the NBA trade deadline, covering teams including the Knicks and Thunder.",
+              "image": "https://a.espncdn.com/photo/2026/1031/r1738848_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Images: Two more Westside ATL developments officially a go",
+              "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta reports two Westside developments are set to break ground the same day this month, continuing stabilization efforts on the Westside.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
+              "video": null
+            },
+            {
+              "title": "Democrats select new leadership for state House",
+              "url": "https://roughdraftatlanta.com/2026/11/12/georgia-house-democrats-hugley-speaker-leadership/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia House Democrats nominated Rep. Carolyn Hugley as speaker, which would make her the first Black person to lead the chamber.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/carolyn-hugley-georgia-house-speaker-nominee-2026-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Consumers are less likely to recycle ‘lightweighted’ plastic bottles, according to a UGA study",
+              "url": "https://roughdraftatlanta.com/2026/11/12/uga-study-lightweight-plastic-bottles-recycling/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "UGA research finds people are less likely to recycle plastic bottles that feel flimsy or cheap, a finding relevant to Atlanta recycling efforts.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/landfill-residential-construction-plastic-recycling-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Tired strip of Old Fourth Ward near Beltline hits market, seeking ideas",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-strip-near-beltline-hits-market-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A vacant strip in Old Fourth Ward near the Beltline has come to market, with the seller seeking ideas for the site.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/overview%20568%20to%20582%20Decatur%20Street.png?itok=Mx3KH2vc",
+              "video": null
+            },
+            {
+              "title": "Georgia climbs 'dramatic' 9 spots on 'Bicycle Friendly States' ranking",
+              "url": "https://atlanta.urbanize.city/post/georgia-9-places-american-bicycle-friendly-states-ranking-2026",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia rose nine spots in the Bicycle Friendly States ranking, which Urbanize Atlanta ties to better biking infrastructure around Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/2026%20Bicycle%20Friendly%20States%20GA.png?itok=O_ngptWD",
+              "video": null
+            },
+            {
+              "title": "Letter to Editor: Lackluster numbers show low 'autonomous pod' demand",
+              "url": "https://atlanta.urbanize.city/post/beltline-atl-spoke-autonomous-pod-letter-editor-lackluster-numbers-show-low-pod-demand",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A letter to the editor questions early numbers for the Beltline-backed autonomous pod project, arguing demand is low.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/ATL%20Spoke%20ridership.png?itok=80PPNbyl",
+              "video": null
+            },
+            {
+              "title": "Cristo Rey names next president as Camille Naughton prepares to retire",
+              "url": "https://saportareport.com/cristo-rey-names-next-president-as-camille-naughton-prepares-to-retire/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Cristo Rey Atlanta Jesuit High School named David O'Shea as its next president, succeeding Camille Naughton, who retires in June.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0575-1.jpg?fit=1024%2C759&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Images: What $1.8M (and up) buys at project called ‘intimate,’ ‘rare’",
+              "url": "https://atlanta.urbanize.city/post/chastain-overlook-buckhead-sandy-springs-million-buys-project-images-intimate-rare",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta shows a boutique Buckhead and Sandy Springs townhome project of eight homes priced from $1.8 million.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Chastain%20Overlook%20About%201%20%281%29.png?itok=n6oXFQ7B",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "SketchUp add-on brings BIM to smaller practices",
+              "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Archeform BIM brings BIM elements, schedules and IFC export to SketchUp in version 1.1, aimed at renovation workflows for smaller practices.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "SketchUp 2027 bridges design workflows",
+              "url": "https://aecmag.com/cad/sketchup-2027-bridges-design-workflows/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Trimble's SketchUp 2027 adds non-destructive modelling and enhanced Revit interoperability, relevant to your BIM workflow.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Ageiro launches Ark Watcher",
+              "url": "https://aecmag.com/project-management/ageiro-launches-ark-watcher/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Ageiro's Ark Watcher continuously monitors project information across Autodesk Forma, Aconex and Procore, relevant to construction data workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Casa Tranquilo / DADO",
+              "url": "https://www.archdaily.com/1188078/casa-tranquilo-dado",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Tranquilo, a 10,000 sq. ft. villa in North Goa, lets the existing forest guide its design, a case study in building within dense landscape.",
+              "image": "https://images.adsttc.com/media/images/6aeb/26dc/1f37/4900/010d/10e5/newsletter/01.jpg?1793795834",
+              "video": null
+            },
+            {
+              "title": "ELL House / SUITE",
+              "url": "https://www.archdaily.com/1188436/ell-house-suite",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ELL House in Paraty adds a new volume to a 1980s home using stone, raffia and local hardwood without erasing the original architecture.",
+              "image": "https://images.adsttc.com/media/images/6af2/f698/eabd/2a00/0192/bea0/newsletter/240517_Suite_Arquitetos_032_Ricardo_Bassetti_2804.jpg?1794307759",
+              "video": null
+            },
+            {
+              "title": "Built99 Brings Together 99 Practices in a Survey of Contemporary Indian Architecture",
+              "url": "https://www.archdaily.com/1188574/built99-brings-together-99-practices-in-a-survey-of-contemporary-indian-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Built99 surveys 99 contemporary Indian practices, examining how homes, schools and workplaces accommodate everyday life.",
+              "image": "https://images.adsttc.com/media/images/6af6/42ef/8074/f401/89de/ea49/newsletter/built99-brings-together-99-practices-in-a-survey-of-contemporary-indian-architecture_6.jpg?1794523896",
+              "video": null
+            },
+            {
+              "title": "Casa de las Lavanderas / Raúl Sanchez Architects",
+              "url": "https://www.archdaily.com/1188496/casa-de-las-lavanderas-raul-sanchez",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa de las Lavanderas in Barcelona's Eixample reworks narrow two-story houses once used by washerwomen and their families.",
+              "image": "https://images.adsttc.com/media/images/6af4/7557/8074/f401/89de/e472/newsletter/casa-de-las-lavanderas-raul-sanchez_7.jpg?1794405735",
+              "video": null
+            },
+            {
+              "title": "BALSA (Self-Sufficient Boat for Laboratories and Services in the Amazon) / CASA [Ciudades Auto Sostenibles Amazónicas]",
+              "url": "https://www.archdaily.com/1188558/balsa-self-sufficient-boat-for-laboratories-and-services-in-the-amazon-casa-ciudades-auto-sostenibles-amazonicas",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "BALSA is a self-sufficient river boat designed to bring laboratories and services to dispersed Amazonian communities.",
+              "image": "https://images.adsttc.com/media/images/6af5/9cca/eabd/2a00/0192/d469/newsletter/BALSA_dron.jpg?1794481440",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day features NGC 206 and the star clouds of Andromeda.",
+              "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Andromeda_closeupCruz4096.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+              "video": null
+            },
+            {
+              "title": "Europe’s Hera mission is ready to double down on asteroid science",
+              "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Europe's Hera spacecraft has begun exploring the binary asteroid Didymos, a mission that scientists are watching on two fronts.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "A Global Rebound for Mangroves",
+              "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA reports mangrove forests are rebounding globally after decades of decline.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+              "video": null
+            },
+            {
+              "title": "The brain’s fear center moonlights as the save button for memories",
+              "url": "https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports the amygdala, usually linked to fear, may play a major role in deciding which moments are remembered.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_AS_amygdala_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "In India, volunteers map riverside trees to make a case for urban conservation",
+              "url": "https://news.mongabay.com/short-article/2026/11/in-india-volunteers-map-riverside-trees-to-make-a-case-for-urban-conservation/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Volunteers in Pune, India map riverside trees to build evidence for protecting urban greenery against development projects.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/10/30144629/WhatsApp-Image-2026-10-26-at-23.36.39-1-768x512.jpeg",
+              "video": null
+            },
+            {
+              "title": "US renews push to open Pacific marine protected area to fishing",
+              "url": "https://news.mongabay.com/short-article/2026/11/us-renews-push-to-open-pacific-marine-protected-area-to-fishing/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The U.S. has proposed rules to allow commercial fishing in a Pacific marine protected area more than twice the size of California.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12175037/Coral_at_Jarvis_Island_National_Wildlife_Refuge-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "In Brazil’s prey-rich Pantanal, jaguars reveal a surprisingly social side",
+              "url": "https://news.mongabay.com/short-article/2026/11/in-brazils-prey-rich-pantanal-jaguars-reveal-a-surprisingly-social-side/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A Pantanal study finds jaguars often pair up and are more social than expected, overturning the view that they are solitary.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12190521/Unrelated-males-grooming-2-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Smallholder farmers struggle on El Niño frontline; will the world help?",
+              "url": "https://news.mongabay.com/2026/11/smallholder-farmers-struggle-on-el-nino-frontline-will-the-world-help/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports smallholder farmers are facing a historically strong El Niño, with warnings of shocks to global food prices.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/12085614/Farmers3_tend_cropland_Mozambique_Leopoldino_Jeronimo_Kepa-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Game Changer Products LLC Issues Voluntary Nationwide Recall of 10 Day Forecast Capsules Due to the Presence of Undeclared Sildenafil and Acetaminophen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
+      "published": "2026-11-12T16:37:00+00:00"
+    },
+    {
+      "title": "Eros Apothecary Issues Recall of Candy Power For Man Organic Honey Due to Undeclared Tadalafil",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/eros-apothecary-issues-recall-candy-power-man-organic-honey-due-undeclared-tadalafil",
+      "published": "2026-11-12T16:25:00+00:00"
+    },
+    {
+      "title": "Laub's Feeding & Cubing, Inc. Voluntary Recalls Grade A Mini Hay Cubes Because of Potential Clostridium Botulinum Contamination",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/laubs-feeding-cubing-inc-voluntary-recalls-grade-mini-hay-cubes-because-potential-clostridium",
+      "published": "2026-11-10T05:00:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "who": "Mahatma Gandhi",
+    "about": "Leader of India's peaceful freedom movement",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 115–108 vs GS",
+      "last_date": "Nov 11",
+      "next": "Fri Nov 13 vs UTAH",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909974/warriors-rockets",
+      "recent": [
+        "W 115–108 vs GS · Nov 11",
+        "W 110–100 vs DEN · Nov 9",
+        "L 99–102 at PHX · Nov 7"
+      ],
+      "upcoming": [
+        "Fri Nov 13 vs UTAH",
+        "Sun Nov 15 at WSH",
+        "Mon Nov 16 at MIA"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 38–17 vs LV",
+      "last_date": "Nov 8",
+      "next": "Sun Nov 15 at DAL",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+      "recent": [
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25",
+        "W 23–17 vs WSH · Oct 19"
+      ],
+      "upcoming": [
+        "Sun Nov 15 at DAL",
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 67647,
+    "output_tokens": 10615
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "SCHUMER COMPROMISED, Big Tech SEEKS Dem Redemption",
+          "url": "https://www.youtube.com/watch?v=LnGhVvASqKM",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Emily discuss Schumer and Big Tech amid an intense Democratic leadership battle.",
+          "image": "https://i1.ytimg.com/vi/LnGhVvASqKM/hqdefault.jpg",
+          "video": "LnGhVvASqKM"
+        },
+        {
+          "title": "Thomas Massie SPILLS THE TEA On Tucker Plot, Presidential Ambitions",
+          "url": "https://www.youtube.com/watch?v=XqXW2Oe_wWc",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Thomas Massie joins to discuss his plans for a potential 2028 presidential run and reported tensions with Tucker Carlson.",
+          "image": "https://i1.ytimg.com/vi/XqXW2Oe_wWc/hqdefault.jpg",
+          "video": "XqXW2Oe_wWc"
+        },
+        {
+          "title": "REPORT: JD Vance DESPISED, MAGA In SHAMBLES",
+          "url": "https://www.youtube.com/watch?v=LrfrQnUrs5c",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Emily discuss reports that Republicans are critical of JD Vance.",
+          "image": "https://i1.ytimg.com/vi/LrfrQnUrs5c/hqdefault.jpg",
+          "video": "LrfrQnUrs5c"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Full UFC 334 Press Conference | Gane vs. Hokit | Harrison vs. Nunes | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=iRBWLuvq0Xs",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Full UFC 334 pre-fight press conference covering Gane vs. Hokit and Harrison vs. Nunes title fights.",
+          "image": "https://i2.ytimg.com/vi/iRBWLuvq0Xs/hqdefault.jpg",
+          "video": "iRBWLuvq0Xs"
+        },
+        {
+          "title": "Keenan Allen Joins the 49ers, Cowboys Rivalry Preview & More | The Saloon",
+          "url": "https://www.youtube.com/watch?v=bad8V7ZGeJs",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers recap of the Raiders win, Keenan Allen's signing, and roster updates, with a Cowboys preview.",
+          "image": "https://i3.ytimg.com/vi/bad8V7ZGeJs/hqdefault.jpg",
+          "video": "bad8V7ZGeJs"
+        },
+        {
+          "title": "Commanders Come Back to STUN Giants, 24-21",
+          "url": "https://www.youtube.com/watch?v=-TMYK1nEfKA",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show on the Commanders' 24-21 comeback win over the Giants in Week 10.",
+          "image": "https://i2.ytimg.com/vi/-TMYK1nEfKA/hqdefault.jpg",
+          "video": "-TMYK1nEfKA"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "I Built 2 Claude Mods for Construction Estimating",
+          "url": "https://www.youtube.com/watch?v=6k-qD0HYhfQ",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of two Claude mods for construction estimating, including a pre-con tracker for pre-construction workflows.",
+          "image": "https://i3.ytimg.com/vi/6k-qD0HYhfQ/hqdefault.jpg",
+          "video": "6k-qD0HYhfQ"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Introducing Claude Meetings",
+          "url": "https://www.youtube.com/watch?v=YUYeHMsqbmY",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic introduces Claude Meetings, where Claude joins team video calls and builds docs and whiteboards live.",
+          "image": "https://i2.ytimg.com/vi/YUYeHMsqbmY/hqdefault.jpg",
+          "video": "YUYeHMsqbmY"
+        },
+        {
+          "title": "Building the Claude API for the Frontier",
+          "url": "https://www.youtube.com/watch?v=p2xvJAbF-i4",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Anthropic engineer Jake Dejno discusses how the Claude API evolves with each model release, including new and retired controls.",
+          "image": "https://i1.ytimg.com/vi/p2xvJAbF-i4/hqdefault.jpg",
+          "video": "p2xvJAbF-i4"
+        },
+        {
+          "title": "Inside Earth’s Most Complicated Ocean Border",
+          "url": "https://www.youtube.com/watch?v=bsa4e2tkH_s",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geography By Geoff explains the complicated maritime border in the ocean, with a sponsor segment at the start.",
+          "image": "https://i3.ytimg.com/vi/bsa4e2tkH_s/hqdefault.jpg",
+          "video": "bsa4e2tkH_s"
+        }
+      ]
+    }
+  ]
+}
