@@ -3,7 +3,7 @@
   "tagline": "The Daily Brief",
   "edition": "Atlanta Edition",
   "date_label": "Sunday, November 15, 2026",
-  "generated_at": "2026-11-15T05:00:17-05:00",
+  "generated_at": "2026-11-15T05:05:15-05:00",
   "model": "claude-sonnet-5-5",
   "models": {
     "front": "claude-sonnet-5-5",
@@ -11,48 +11,47 @@
     "videos": "claude-haiku-5-5",
     "week": "claude-opus-5-5"
   },
-  "listen": "Good morning. This is The Daily Brief for Sunday, November 15. Our lead story is from space. SpaceX has caught its Starship spacecraft, and NPR reports that the company made history. The vehicle returned to its Texas launchpad. It lowered itself carefully until two metal arms on the launch tower could secure it. The report gives few other details, but the catch itself is the news. Now the front page. In the UFC, both champions kept their titles at UFC 334. Ciryl Gane defeated Josh Hokit in a five round fight. Kayla Harrison submitted Amanda Nunes by rear naked choke in round four. Next, the nationwide aviation ground stop. Transportation Secretary Sean Duffy said maintenance gone awry caused Friday's stop, and he pointed toward a contractor. In Atlanta, more than four hundred flights at Hartsfield-Jackson were canceled on Saturday morning. In Washington, a federal judge ordered a two week delay to any work at a historic public golf course near the White House. Now the sections. In tech and A I, Claude Managed Agents can now be self hosted on your own infrastructure. Anthropic is also committing a portion of its shares to a new Public Benefit Fund. In politics, The Lever reports that twenty one Senate Democrats advanced a lame duck permitting bill. Democrats also met in Denver to chart their path after the midterms. In world news, Israel and Hamas officials both confirmed the death of Hamas commander Samir Abu Younis in a strike on a Gaza camp. Fuel price protests are pressing Chile's president. The United States has lost its measles elimination status, according to researchers. In sports, the Rockets are ten and three and host the Wizards next. Keenan Allen is set to play for the 49ers against the Cowboys. In Atlanta, two more Westside developments have groundbreakings planned this month. Zoo Atlanta cancelled its lantern festival. In architecture, a new add on brings BIM tools to SketchUp for smaller practices. An abandoned food court in Cheras has become a pickleball club. In science and nature, NASA reports that mangroves are rebounding after decades of decline. Europe's Hera spacecraft has begun exploring the asteroid Didymos. That is the brief. Have a good day. This is the Sunday edition. Here is the week in review. Anthropic files for IPO as Abu Dhabi talks advance. Anthropic had a busy week. It released Claude Fable 5.2 and Mythos 5.2 (w27, w26). Mythos is limited to organizations verified through Anthropic's programs. Fable gets a fast mode with up to 2.5x output speed at higher per-token prices (w31). Anthropic also filed an S-1 with the SEC for a proposed IPO and launched a roadshow (w76, w56). It put a portion of its shares into a new Public Benefit Fund (w57) and expanded its GSA partnership (w6). Claude Platform added self-hosted Managed Agents (w102). In design software, AI features came to V-Ray, Enscape, Trimble and Rhino 9, and SketchUp 2027 improved its Revit interoperability (w20, w21, w45, w95, w70). In world news, US-mediated Russia-Ukraine talks in Abu Dhabi ended with a prisoner exchange agreement, and US envoys then met Putin (w79, w109). The White House says Trump, Putin and Xi plan a joint meeting in China next week (w123). Trump said more US attacks on Iran are highly unlikely (w37). After the midterms, Congress returned before Democrats take control in January (w5), and House Republicans chose Jim Jordan as leader (w61). On Friday a nationwide ground stop led to more than 400 cancelled flights at Hartsfield-Jackson the next morning (w157, w147). A building collapse in Brooklyn killed at least two people (w89). In sports, the Rockets are 10-3 after Alperen Sengun scored 43 points (w124). The 49ers beat the Raiders 38-17 and traded for Keenan Allen (w2, w80). The Braves agreed to a deal with Evan Phillips (w103), and both champions kept their titles at UFC 334 (w146). SpaceX caught its Starship (w145).",
+  "listen": "Good morning. This is The Daily Brief for Sunday, November 15. Here is what is worth your time today. Our lead story is about public health. The United States has lost its status as a country where measles is eliminated. That is according to researchers with direct knowledge of the deliberations at the Pan American Health Organization. Global health authorities are said to have reached this view. Official details are still to come. Now the front page. In the UFC, Kayla Harrison submitted Amanda Nunes with a rear-naked choke in Round 4 at UFC 334. It was enough to keep her title. From Anthropic, the company announced an expanded partnership with the General Services Administration to bring Claude to all levels of government. And for the 49ers, tackle Trent Williams and linebacker Dre Greenlaw are listed as questionable for today's game against the Cowboys. Receiver Mike Evans has been ruled out. In tech and AI, Anthropic says its AI for Science program is expanding to foundations and research institutions. Two trending repos are worth a look. One lets coding agents control a live Chrome browser. The other is a workspace for reviewing and sending feedback to agents. In politics, Drop Site's daily reports an Iranian strike on a U.S. radar in Bahrain, a challenge by Senator Chris Van Hollen to Chuck Schumer, and talk of a possible Cuba operation. The Lever covers a report alleging corruption behind a New Mexico data center project. And the Trump administration's plan to sell some public lands is drawing bipartisan opposition. In world news, Pope Leo spoke of community suffering during a visit to a remote Andes town. In the United States, the transport secretary says a copper wire upgrade was behind the flight suspension. In sports, Ciryl Gane edged Josh Hokit in a five-round fight to keep his heavyweight title. Stephen Thompson ended his career with a spinning kick knockout. And the NBA suspended Rockets guard Marcus Smart for three games over a punch. In Atlanta, a street overhaul is set to begin in Little Five Points. A condo tower of up to 225 feet is proposed in Old Fourth Ward. And a 21-acre park is about to open in an underserved area. In architecture, McNeel is bringing AI into Rhino 9. Archiboost raised six point two million dollars for its AI platform. And a tool called qentin makes scanned buildings searchable in plain language. In science and nature, a new documentary follows scientists exploring the Southern Ocean. Chandra data explain outbursts from a giant unstable star. And Honduras declared an environmental emergency in its largest protected area. That is the brief. Have a good day. This is the Sunday edition. Here is the week in review. Anthropic files for IPO as Ukraine talks resume. Anthropic made the biggest news in your core topics. It filed an S-1 with the SEC for a proposed initial public offering, launched its roadshow and committed a portion of its shares to a new Public Benefit Fund (w76, w56, w57). It also released Claude Fable 5.2 and Mythos 5.2, with a faster, higher-priced mode for Fable 5.2 (w27, w31). The Claude Platform now offers self-hosted Managed Agents (w102). In design software, Chaos, Trimble, McNeel and SketchUp all added AI or BIM features (w20, w45, w95, w70). In world news, U.S.-mediated Russia-Ukraine talks in Abu Dhabi ended with an agreement on a prisoner exchange. U.S. envoys then met Putin (w79, w109). The White House says Trump, Putin and Xi plan a joint meeting in China next week (w123). After the midterms, House Republicans chose Jim Jordan as their leader. Democrats won the Mississippi Senate race and the Alaska governor's race (w61, w78, w125). A building collapse in Brooklyn killed at least two people (w89), and a nationwide ground stop disrupted U.S. air travel (w122). In sports, Alperen Sengun scored 43 points in a Rockets win (w124), and the 49ers acquired receiver Keenan Allen (w80). The Braves agreed to a three-year, $35 million deal with Evan Phillips (w103), and Kayla Harrison submitted Amanda Nunes at UFC 334 (w146). In Atlanta, Beltline housing projects kept moving (w42, w94), and the Chattahoochee RiverLands project secured 327 more acres (w93).",
   "lead": {
-    "title": "SpaceX successfully catches Starship and makes history",
-    "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+    "title": "US has lost measles elimination status, global health authorities say",
+    "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
     "source": "NPR News",
     "topic": "World",
-    "note": "SpaceX has caught its Starship spacecraft, and NPR reports that the company made history in doing so. The vehicle returned to its Texas launchpad in dramatic fashion. It carefully lowered itself until two metal arms attached to the launch tower could secure it. In plain terms, the launch tower itself held the spacecraft as it came back down. The catch is the central fact in the report, and the summary states it plainly. For a reader who follows space and engineering, this is a notable moment, because it shows a large machine and a fixed structure working together at the end of a flight. The short report gives no further detail on the mission, so the wider meaning will depend on later coverage. It is today's most significant science and technology story.",
-    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg",
+    "note": "The United States has lost its status as a country where measles is eliminated. That is according to researchers with direct knowledge of the deliberations at the Pan American Health Organization, as reported by NPR. The summary does not give further detail, such as dates or case counts, so those remain to be confirmed. In plain terms, elimination status is a formal designation that health authorities grant to a country, and losing it means that designation no longer applies. The report relies on sources with knowledge of the deliberations, and the headline attributes the finding to global health authorities. For readers, the practical point is that this is a notable change in the country's public health standing, and further official statements will show how the decision is made public and what follows from it.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2873x1825+0+0/resize/2873x1825!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F49%2F1f36704d408faf669fa00f372d61%2Fmeasles-02.jpg",
     "video": null,
-    "headline": "SpaceX Catches Starship, Makes History",
+    "headline": "US loses measles elimination status",
     "decks": [
-      "SpaceX catches Starship and makes history, NPR reports",
-      "Spacecraft returns to its Texas launchpad",
-      "Two metal arms on the launch tower secure the vehicle"
+      "Global health authorities say the status has been lost, researchers report",
+      "Finding comes from people with knowledge of Pan American Health Organization talks"
     ]
   },
   "front": [
     {
-      "title": "UFC 334 results: Gane defeats Hokit, Harrison submits Nunes",
-      "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit",
+      "title": "Kayla Harrison spoils Amanda Nunes' return, wins by submission at UFC 334",
+      "url": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
       "source": "UFC (ESPN)",
       "topic": "Sports",
-      "note": "Both champions kept their titles at UFC 334: Ciryl Gane defeated Josh Hokit, and Kayla Harrison submitted Amanda Nunes at Madison Square Garden.",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746007_2_1296x729_16-9.jpg",
+      "note": "Kayla Harrison submitted Amanda Nunes with a rear-naked choke in Round 4 at UFC 334 to retain her title.",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1745993_600x400_3-2.jpg",
       "video": null
     },
     {
-      "title": "Maintenance gone awry caused nation-wide ground stop, says Transportation Secretary",
-      "url": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary",
-      "source": "NPR News",
-      "topic": "World",
-      "note": "Transportation Secretary Sean Duffy blamed maintenance gone awry and a contractor for Friday's nationwide aviation ground stop, which also disrupted flights at Atlanta's airport.",
-      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic announced an expanded partnership with the GSA to bring Claude to all levels of government.",
+      "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
       "video": null
     },
     {
-      "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-      "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
-      "source": "NPR News",
-      "topic": "World",
-      "note": "A federal judge ordered a two-week delay to any work at a historic Washington public golf course near the White House.",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2666+0+0/resize/4000x2666!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Ff7%2F9117b9b745219e9aa5214fb267c0%2Fap26318721671488.jpg",
+      "title": "49ers OT Williams, LB Greenlaw questionable, WR Evans out vs. Cowboys",
+      "url": "https://www.espn.com/nfl/story/_/id/50475033/49ers-williams-greenlaw-questionable-evans-vs-cowboys",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers list Trent Williams and Dre Greenlaw as questionable and Mike Evans as out for Sunday's game against the Cowboys.",
+      "image": "https://a.espncdn.com/photo/2025/1229/r1594560_600x400_3-2.jpg",
       "video": null
     }
   ],
@@ -61,30 +60,30 @@
       "topic": "Tech & AI",
       "items": [
         {
-          "title": "Claude Platform release notes — November 12, 2026",
-          "url": "https://platform.claude.com/docs/en/release-notes/overview#self-hosted-managed-agents",
-          "source": "Claude Platform release notes",
-          "topic": "Tech & AI",
-          "note": "Claude Managed Agents can now run entirely on your own infrastructure, with agents and session history stored there, which matters if you build personal tools on Claude.",
-          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
-          "video": null
-        },
-        {
-          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "title": "AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
           "source": "Anthropic news",
           "topic": "Tech & AI",
-          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows as the company grows.",
-          "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+          "note": "Anthropic's AI for Science program is expanding to foundations and research institutions, a Claude-related development worth tracking.",
+          "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
           "video": null
         },
         {
-          "title": "tradermonty/claude-trading-skills",
-          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
           "source": "GitHub trending (daily)",
           "topic": "Tech & AI",
-          "note": "A popular GitHub repo of Claude Code skills for market analysis and trading strategy, a useful example of personal tooling built on Claude.",
-          "image": "https://opengraph.githubassets.com/1/tradermonty/claude-trading-skills",
+          "note": "A trending repo that lets coding agents such as Claude control and inspect a live Chrome browser, useful for personal tool building.",
+          "image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
+          "video": null
+        },
+        {
+          "title": "backnotprop/plannotator",
+          "url": "https://github.com/backnotprop/plannotator",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending workspace for annotating, reviewing and sending feedback to coding agents, relevant to working with agents day to day.",
+          "image": "https://opengraph.githubassets.com/1/backnotprop/plannotator",
           "video": null
         }
       ]
@@ -93,21 +92,30 @@
       "topic": "Politics",
       "items": [
         {
-          "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
-          "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
-          "source": "The Lever",
+          "title": "Iran hits U.S. radar in Bahrain; Van Hollen challenges Schumer; Trump considers military operation against Cuba",
+          "url": "https://www.dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van",
+          "source": "Drop Site News",
           "topic": "Politics",
-          "note": "The Lever reports that twenty-one Senate Democrats advanced a lame-duck permitting bill that could speed fossil fuel infrastructure for data-center buildout.",
-          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+          "note": "Drop Site's daily covers an Iranian strike on a U.S. radar in Bahrain, a Van Hollen challenge to Schumer, and Cuba military talk.",
+          "image": "https://substackcdn.com/image/fetch/$s_!067P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bfdb6bf-381f-4e8d-a6fa-79243ada7837_4811x3289.jpeg",
           "video": null
         },
         {
-          "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-          "url": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
+          "title": "The Revolving Door In The Desert",
+          "url": "https://www.levernews.com/the-revolving-door-in-the-desert/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports on a new report alleging corruption and backroom dealings behind a data center project in drought-stricken New Mexico.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--26-.jpg",
+          "video": null
+        },
+        {
+          "title": "Trump faces bipartisan backlash over plan to sell public lands to states and tribes",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6039155/trump-faces-bipartisan-backlash-over-plan-to-sell-public-lands-to-states-and-tribes",
           "source": "NPR Politics",
           "topic": "Politics",
-          "note": "Alaska voters again rejected a repeal of ranked choice voting and top-four primaries, as in a narrow 2024 vote.",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5191x3461+0+0/resize/5191x3461!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F04%2F692982c643afb52e86b590ea8647%2Fap26307845117065.jpg",
+          "note": "The Trump administration's plan to sell some federal public lands to states, local governments and tribes is drawing bipartisan opposition.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
           "video": null
         }
       ]
@@ -116,30 +124,21 @@
       "topic": "World",
       "items": [
         {
-          "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
-          "url": "https://www.npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference",
-          "source": "NPR News",
-          "topic": "World",
-          "note": "Democrats met in Denver for a two-day conference to chart their direction after midterm election wins.",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3509x2632+213+0/resize/3509x2632!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F64%2F879cc2d14c54a9ec911488b48d94%2Fap26317088763752.jpg",
-          "video": null
-        },
-        {
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+          "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "topic": "World",
-          "note": "Israel and Hamas officials both confirmed the death of Samir Abu Younis, commander of Hamas's Rafah Brigade, in a strike on a Gaza camp.",
-          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+          "note": "Pope Leo spoke of community suffering on a visit to a remote Andes town in the diocese where he once served as bishop.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
           "video": null
         },
         {
-          "title": "Fuel crisis and protests pressure Chile's far-right president",
-          "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
-          "source": "NPR World",
+          "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+          "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
           "topic": "World",
-          "note": "Rising fuel prices have set off transport strikes and protests across Chile, putting pressure on President José Antonio Kast.",
-          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8193x5462+0+0/resize/8193x5462!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F57%2F7e653aad4c7b8e810540c25313e9%2Fap26309662592247.jpg",
+          "note": "The U.S. transport secretary points to a copper wire upgrade behind the flight suspension, as officials examine whether equipment or incompetence was the cause.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
           "video": null
         }
       ]
@@ -148,30 +147,30 @@
       "topic": "Sports",
       "items": [
         {
-          "title": "Houston takes on Washington after Sengun's 43-point game",
-          "url": "http://www.espn.com/nba/preview?gameId=401909991",
+          "title": "Ciryl Gane survives early onslaught, edges Josh Hokit in UFC 334 main event",
+          "url": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Ciryl Gane edged Josh Hokit in a five-round fight to defend his heavyweight title in the UFC 334 main event.",
+          "image": "https://a.espncdn.com/photo/2026/1115/r1746000_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Stephen Thompson scores spinning-kick knockout in retirement bout at UFC 334",
+          "url": "https://www.espn.com/mma/story/_/id/50486254/stephen-thompson-caps-career-spinning-kick-ko-ufc-334",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Stephen Thompson ended his MMA career with a spinning-kick knockout of Charles Radtke at UFC 334.",
+          "image": "https://a.espncdn.com/photo/2026/1115/r1745964_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "Rockets' Marcus Smart suspended three games for punch",
+          "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
           "source": "Houston Rockets",
           "topic": "Sports",
-          "note": "The 10-3 Rockets host the Wizards next, coming off Alperen Sengun's 43-point game.",
-          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909991.png?templateId=espn.applewatch.awayhome.1",
-          "video": null
-        },
-        {
-          "title": "Keenan Allen set to play in Week 10",
-          "url": "https://www.espn.com/video/clip/_/id/50475938/keenan-allen-set-play-week-10",
-          "source": "San Francisco 49ers",
-          "topic": "Sports",
-          "note": "Keenan Allen is set to play in Week 10 for the 49ers against the Cowboys.",
-          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_16x9_49ers_iA/dm_261113_16x9_49ers_iA.jpg",
-          "video": null
-        },
-        {
-          "title": "Evans OUT, Williams and Greenlaw Questionable; Deebo Returns Ahead of Cowboys | Practice Report #SFvsDAL",
-          "url": "https://www.49ers.com/news/evans-out-williams-and-greenlaw-questionable-deebo-returns-ahead-of-cowboys-practice-report-sfvsdal",
-          "source": "49ers.com",
-          "topic": "Sports",
-          "note": "The 49ers' practice report lists Evans out, Williams and Greenlaw questionable, and Deebo returning ahead of the Cowboys game.",
-          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cxeu06qdlxvs5qx52ium.png",
+          "note": "The NBA suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
           "video": null
         }
       ]
@@ -180,30 +179,30 @@
       "topic": "Atlanta",
       "items": [
         {
-          "title": "Images: Two more Westside ATL developments officially a go",
-          "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
+          "title": "In heart of Little Five Points, street overhaul set to break ground",
+          "url": "https://atlanta.urbanize.city/post/euclid-avenue-little-five-points-safe-street-overhaul-break-ground",
           "source": "Urbanize Atlanta",
           "topic": "Atlanta",
-          "note": "Two more Westside Atlanta developments have groundbreakings planned for the same day this month, continuing years of investment in the area.",
-          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
+          "note": "A street overhaul in the heart of Little Five Points is set to break ground, alongside the planned Findley Plaza remake.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Little%20Five%20Points%20Euclid%20Avenue%20Safe%20Street%20map.png?itok=K0YnYbO7",
           "video": null
         },
         {
-          "title": "✈️ Airport chaos",
-          "url": "https://roughdraftatlanta.com/2026/11/14/airport-chaos/",
-          "source": "Rough Draft Atlanta",
+          "title": "New O4W condo high-rise; Roswell eateries coming; South Downtown",
+          "url": "https://atlanta.urbanize.city/post/old-fourth-ward-condo-tower-south-downtown-roswell-restaurants-coming",
+          "source": "Urbanize Atlanta",
           "topic": "Atlanta",
-          "note": "More than 400 flights at Hartsfield-Jackson were canceled Saturday morning after Friday's nearly five-hour nationwide ground stop.",
-          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/Computer_Website-Daily-Newsletter-Image_800x600_Updated-May-2026-600x450.png?crop=1",
+          "note": "A for-sale condo stack up to 225 feet tall is proposed on Angier Avenue in Old Fourth Ward, near Historic Fourth Ward Park.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/687%20Angier%20Ave.%20and%20707%20Angier%20Ave.%20NE%20.png?itok=nXK161Du",
           "video": null
         },
         {
-          "title": "Zoo Atlanta cancels annual lantern festival due to ‘challenges’ with Chinese artisans’ travel",
-          "url": "https://roughdraftatlanta.com/2026/11/14/zoo-atlanta-cancels-illuminights-festival/",
-          "source": "Rough Draft Atlanta",
+          "title": "Officials: Ribbon-cutting on tap for 21-acre park in underserved area",
+          "url": "https://atlanta.urbanize.city/post/liberty-square-park-roswell-open-underserved-area-21-acres",
+          "source": "Urbanize Atlanta",
           "topic": "Atlanta",
-          "note": "Zoo Atlanta cancelled its 2026 IllumiNights lantern festival because of challenges affecting the travel of its event partner's artisans.",
-          "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/11/Untitled-design-2022-11-21T095752.597-1024x576.png",
+          "note": "A ribbon-cutting is planned for a 21-acre park in an underserved area, funded by state and federal money.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Liberty%20Square%20Park%20Roswell%202.jpg?itok=Aj7GC7qb",
           "video": null
         }
       ]
@@ -212,30 +211,30 @@
       "topic": "Architecture",
       "items": [
         {
-          "title": "SketchUp add-on brings BIM to smaller practices",
-          "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
+          "title": "Rhino World 2026: McNeel lets AI in",
+          "url": "https://aecmag.com/cad/rhino-world-2026-mcneel-lets-ai-in/",
           "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "Archeform BIM adds BIM elements, drawings, schedules and IFC to SketchUp, with a 1.1 release aimed at renovation workflows.",
+          "note": "McNeel rolls out Rhino 9 and is embracing AI while accelerating development, a signal for AI in design software.",
           "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
           "video": null
         },
         {
-          "title": "HUSTLR Pickleball & Social Club / CYS Architect Sdn Bhd",
-          "url": "https://www.archdaily.com/1187878/hustlr-pickleball-and-social-club-cys-architect-sdn-bhd",
-          "source": "ArchDaily",
+          "title": "Archiboost looks beyond construction document checking",
+          "url": "https://aecmag.com/data-management/archiboost-looks-beyond-construction-document-checking/",
+          "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "An abandoned food court in Cheras became a pickleball and social club by adapting its existing steel structure.",
-          "image": "https://images.adsttc.com/media/images/6ae4/be68/bfbd/4c00/01ee/5ab3/newsletter/HUSLTR-1.jpg?1793375985",
+          "note": "Archiboost raised $6.2 million to build a connected model of building information and advance its AI platform beyond construction document checking.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
           "video": null
         },
         {
-          "title": "Wangshan Qingshui Water Treatment Plant / POA Architects",
-          "url": "https://www.archdaily.com/1188533/wangshan-qingshui-water-treatment-plant-poa-architects",
-          "source": "ArchDaily",
+          "title": "AI makes scanned buildings searchable",
+          "url": "https://aecmag.com/cafm/ai-makes-scanned-buildings-searchable/",
+          "source": "AEC Magazine",
           "topic": "Architecture",
-          "note": "POA Architects' water treatment plant in Wenzhou organizes basins, production buildings and connecting spaces into a legible above-ground composition.",
-          "image": "https://images.adsttc.com/media/images/6af5/6fae/8074/f401/89de/e7f3/newsletter/wangshan-qingshui-water-treatment-plant-poa-architects_17.jpg?1794469878",
+          "note": "A tool called qentin lets facility managers search scanned buildings and digital twins in natural language.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
           "video": null
         }
       ]
@@ -244,30 +243,30 @@
       "topic": "Science & Nature",
       "items": [
         {
-          "title": "A Global Rebound for Mangroves",
-          "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+          "title": "In National Geographic’s “Expedition: Saving Our Seas,” it’s all hands on deck",
+          "url": "https://www.sciencenews.org/article/nat-geo-saving-our-seas-documentary",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "A National Geographic documentary follows scientists finding new life forms in the depths of the Southern Ocean.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/ExpeditionSavingOurSeas_MM10514_260216_01298.jpg?w=601",
+          "video": null
+        },
+        {
+          "title": "Outbursts from a Massive Star",
+          "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
           "source": "NASA",
           "topic": "Science & Nature",
-          "note": "NASA reports that mangrove forests are making a comeback after decades of decline.",
-          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+          "note": "Chandra X-ray Observatory data reveal what triggers repeated outbursts from the unstable giant star AT 2016blu in galaxy NGC 4559.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg?w=2048",
           "video": null
         },
         {
-          "title": "Europe’s Hera mission is ready to double down on asteroid science",
-          "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
-          "source": "Science News",
+          "title": "Honduras declares ‘environmental emergency’ in Río Plátano Biosphere Reserve",
+          "url": "https://news.mongabay.com/short-article/2026/11/honduras-declares-environmental-emergency-in-rio-platano-biosphere-reserve/",
+          "source": "Mongabay",
           "topic": "Science & Nature",
-          "note": "Europe's Hera spacecraft is beginning its exploration of the binary asteroid Didymos.",
-          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
-          "video": null
-        },
-        {
-          "title": "The ‘hell chicken’ dinosaur was a real terror — to fruit",
-          "url": "https://www.sciencenews.org/article/hell-chicken-dinosaur-terror-fruit-eat",
-          "source": "Science News",
-          "topic": "Science & Nature",
-          "note": "The 'hell chicken' dinosaur Infernogallus may be the first evidence of fruit-eating adaptations among non-avian dinosaurs.",
-          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110526_jb_fruit-eating-dinosaur_main.jpg?w=800",
+          "note": "Honduras declared a 36-month environmental emergency in the Río Plátano Biosphere Reserve over deforestation, organized crime and cattle ranching.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13183647/AP17144742705747-768x512.jpg",
           "video": null
         }
       ]
@@ -282,48 +281,39 @@
           "topic": "Politics",
           "items": [
             {
-              "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
+              "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
               "source": "NPR Politics",
               "topic": "Politics",
-              "note": "NPR analysis of how Democrats will handle priorities, timing and messaging after the failed Hegseth impeachment vote.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5035x3357+0+0/resize/5035x3357!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F0f%2F1063ea794a708c96e803c59414c7%2Fgettyimages-2301658899.jpg",
               "video": null
             },
             {
-              "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
-              "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
+              "title": "You Love To See It: A Dose Of Good News",
+              "url": "https://www.levernews.com/you-love-to-see-it-a-dose-of-good-news/",
               "source": "The Lever",
               "topic": "Politics",
-              "note": "The Lever reports 21 Senate Democrats advanced a lame-duck permitting bill that could fast-track fossil fuel infrastructure for data centers.",
-              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Aloha-Hawaii.png",
               "video": null
             },
             {
-              "title": "Voters Said No To Data Centers — Now So Is Josh Hawley",
-              "url": "https://www.levernews.com/voters-are-rejecting-data-centers-now-so-is-josh-hawley/",
-              "source": "The Lever",
+              "title": "Week in Politics: Battle for Senate leader; young and independent midterm turnout",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6040156/week-in-politics-battle-for-senate-leader-young-and-independent-midterm-turnout",
+              "source": "NPR Politics",
               "topic": "Politics",
-              "note": "The Lever reports Senator Josh Hawley now backs the local revolt against data centers after voters rejected them.",
-              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--25-.jpg",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
               "video": null
             },
             {
-              "title": "Local Journalist Murdered After BBC Documentary Exposed Police Corruption in Ecuador",
-              "url": "https://www.dropsitenews.com/p/ecuador-journalist-murdered-bbc-documentary-police-corruption",
-              "source": "Drop Site News",
+              "title": "Legal scholar Stephen Vladeck on Texas' new Democratic AG and federal litigation",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6039286/legal-scholar-stephen-vladeck-on-texas-new-democratic-ag-and-federal-litigation",
+              "source": "NPR Politics",
               "topic": "Politics",
-              "note": "Drop Site News reports a local journalist was murdered after a BBC documentary exposed police corruption in Ecuador.",
-              "image": "https://substackcdn.com/image/fetch/$s_!zQvJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28be7a52-9799-4b7e-bce6-65f8dc736bea_931x613.jpeg",
-              "video": null
-            },
-            {
-              "title": "Israel Targets U.S. Conservatives in Influence Operation",
-              "url": "https://www.dropsitenews.com/p/israel-influence-united-states-conservatives-parler",
-              "source": "Drop Site News",
-              "topic": "Politics",
-              "note": "Drop Site News reports Israel signed a $500,000 agreement with Starboard, a firm with access to data on verified conservatives, to influence Americans.",
-              "image": "https://substackcdn.com/image/fetch/$s_!LdtD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F572c87dc-99f0-45de-9839-bd9a541907aa_7728x5000.jpeg",
+              "note": "",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
               "video": null
             },
             {
@@ -331,17 +321,35 @@
               "url": "https://www.npr.org/2026/11/14/nx-s1-6039155/trump-faces-bipartisan-backlash-over-plan-to-sell-public-lands-to-states-and-tribes",
               "source": "NPR Politics",
               "topic": "Politics",
-              "note": "The Trump administration's plan to sell some federal public lands to states, localities and tribes faces bipartisan opposition.",
+              "note": "",
               "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
               "video": null
             },
             {
-              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
+              "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
               "source": "NPR Politics",
               "topic": "Politics",
-              "note": "Alaska voters rejected a second effort to repeal ranked-choice voting and top-four primaries, with a 2024 repeal effort also failing narrowly.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5191x3461+0+0/resize/5191x3461!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F04%2F692982c643afb52e86b590ea8647%2Fap26307845117065.jpg",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg",
+              "video": null
+            },
+            {
+              "title": "Can You Count Votes?",
+              "url": "https://www.levernews.com/levermind-quiz-can-you-count-votes/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-LeverMind-Can-You-Count-Votes-Schumer.png",
+              "video": null
+            },
+            {
+              "title": "Local Journalist Murdered After BBC Documentary Exposed Police Corruption in Ecuador",
+              "url": "https://www.dropsitenews.com/p/ecuador-journalist-murdered-bbc-documentary-police-corruption",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "",
+              "image": "https://substackcdn.com/image/fetch/$s_!zQvJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28be7a52-9799-4b7e-bce6-65f8dc736bea_931x613.jpeg",
               "video": null
             }
           ]
@@ -350,84 +358,21 @@
           "topic": "World",
           "items": [
             {
-              "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "Democrats met in Denver to plan their path after midterm wins, with majorities in both chambers. Sets up the next stage of the party's agenda.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3509x2632+213+0/resize/3509x2632!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F64%2F879cc2d14c54a9ec911488b48d94%2Fap26317088763752.jpg",
-              "video": null
-            },
-            {
-              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "A federal judge ordered a two-week delay to any work on a historic Washington public golf course near the White House, pending further proceedings.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2666+0+0/resize/4000x2666!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Ff7%2F9117b9b745219e9aa5214fb267c0%2Fap26318721671488.jpg",
-              "video": null
-            },
-            {
-              "title": "SpaceX successfully catches Starship and makes history",
-              "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "SpaceX's Starship spacecraft was caught by two metal arms on the Texas launch tower after returning, a first, per NPR.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg",
-              "video": null
-            },
-            {
-              "title": "Fuel crisis and protests pressure Chile's far-right president",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
-              "source": "NPR World",
-              "topic": "World",
-              "note": "Chile's President José Antonio Kast faces growing protests and transport strikes over rising fuel prices.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8193x5462+0+0/resize/8193x5462!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F57%2F7e653aad4c7b8e810540c25313e9%2Fap26309662592247.jpg",
-              "video": null
-            },
-            {
-              "title": "U.S. envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
-              "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-              "source": "NPR World",
-              "topic": "World",
-              "note": "U.S. envoys met Putin in the Kremlin and Zelenskyy in Ireland as Washington seeks new momentum in Ukraine peace efforts.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4300x2867+0+0/resize/4300x2867!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F97%2F6f0afe7d4fec85c8bfe4b77d0164%2Fap26316483363429.jpg",
-              "video": null
-            },
-            {
-              "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-              "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+              "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+              "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
               "source": "BBC World",
               "topic": "World",
-              "note": "Israel killed Samir Abu Younis, commander of Hamas's Rafah Brigade, in a strike on a Gaza camp, according to both Hamas and IDF officials.",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
               "video": null
             },
             {
-              "title": "US has lost measles elimination status, global health authorities say",
-              "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
-              "source": "NPR News",
-              "topic": "World",
-              "note": "The U.S. has lost its measles elimination status, according to researchers with direct knowledge of PAHO deliberations.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2873x1825+0+0/resize/2873x1825!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F49%2F1f36704d408faf669fa00f372d61%2Fmeasles-02.jpg",
-              "video": null
-            },
-            {
-              "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
-              "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
-              "source": "NPR World",
-              "topic": "World",
-              "note": "Indonesia's Vice President Raka resigned after the courts ruled his overseas education documents did not meet election requirements.",
-              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8307x5538+0+0/resize/8307x5538!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F8d%2F5c5ffceb462b8ea3b73a40e7f598%2Fap26316172354988.jpg",
-              "video": null
-            },
-            {
-              "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
-              "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
+              "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+              "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
               "source": "BBC World",
               "topic": "World",
-              "note": "A DR Congo doctor describes surviving Ebola treatment as fear and misinformation surround the outbreak.",
-              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/94d8/live/8fe15d90-df82-11f1-b441-2b33b063138f.jpg",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg",
               "video": null
             },
             {
@@ -435,8 +380,53 @@
               "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
               "source": "BBC World",
               "topic": "World",
-              "note": "The U.S. transport secretary attributes the nationwide flight suspension to a copper wire upgrade, with an investigation ongoing into whether it was incompetence or faulty equipment.",
+              "note": "",
               "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+              "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
+              "video": null
+            },
+            {
+              "title": "FAA ground stop disrupts college football",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg",
+              "video": null
+            },
+            {
+              "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+              "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/94d8/live/8fe15d90-df82-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "Judo champion shakes up French presidential race with surprise candidacy",
+              "url": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1901/live/c7db8b90-df5e-11f1-a8af-15d7a25dc0d1.jpg",
+              "video": null
+            },
+            {
+              "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5035x3357+0+0/resize/5035x3357!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F0f%2F1063ea794a708c96e803c59414c7%2Fgettyimages-2301658899.jpg",
               "video": null
             }
           ]
@@ -451,12 +441,12 @@
           "topic": "Tech & AI",
           "items": [
             {
-              "title": "Claude Platform release notes — November 12, 2026",
-              "url": "https://platform.claude.com/docs/en/release-notes/overview#self-hosted-managed-agents",
-              "source": "Claude Platform release notes",
+              "title": "Announcements",
+              "url": "https://www.anthropic.com/news/announcements",
+              "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic launched self-hosted Claude Managed Agents, letting teams run the service, including agents, sessions and session history, on their own infrastructure. Relevant to anyone building with Claude.",
-              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "note": "Anthropic's official announcements page, the primary source for Claude and company news this reader follows closely.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
               "video": null
             },
             {
@@ -464,7 +454,7 @@
               "url": "https://www.anthropic.com/news/s1-sec",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. A major company milestone for Claude's maker.",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed IPO, a major corporate milestone for the company behind Claude.",
               "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
               "video": null
             },
@@ -473,7 +463,7 @@
               "url": "https://www.anthropic.com/news/roadshow-launch",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic has launched a roadshow for its proposed initial public offering, following its S-1 filing with the SEC.",
+              "note": "Anthropic has launched a roadshow for its proposed initial public offering, following its SEC filing.",
               "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
               "video": null
             },
@@ -482,8 +472,17 @@
               "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
               "source": "Anthropic news",
               "topic": "Tech & AI",
-              "note": "Anthropic announced an expanded partnership with GSA to bring Claude to all levels of U.S. government.",
+              "note": "Anthropic is expanding its partnership with GSA to bring Claude to all levels of government, relevant to your interest in Claude adoption.",
               "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+              "video": null
+            },
+            {
+              "title": "AI for Science expands to foundations and research institutions",
+              "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its AI for Science program is expanding to foundations and research institutions.",
+              "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
               "video": null
             },
             {
@@ -491,7 +490,7 @@
               "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
               "source": "Simon Willison",
               "topic": "Tech & AI",
-              "note": "Simon Willison used tree-sitter analysis to build a browsable index of his 244 vibe-coded tools, organized by tag. A practical example of personal AI-built tooling.",
+              "note": "Simon Willison catalogs his collection of vibe-coded tools, a practical look at building personal software with AI assistance.",
               "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
               "video": null
             },
@@ -500,35 +499,8 @@
               "url": "https://github.com/QwenLM/qwen-code",
               "source": "GitHub trending (daily)",
               "topic": "Tech & AI",
-              "note": "Qwen Code is an open-source AI coding agent that runs in the terminal, editor, desktop, browser and chat. Trending on GitHub.",
+              "note": "Qwen Code is an open-source AI coding agent for the terminal, editor and browser, trending on GitHub.",
               "image": "https://opengraph.githubassets.com/1/QwenLM/qwen-code",
-              "video": null
-            },
-            {
-              "title": "ChromeDevTools/chrome-devtools-mcp",
-              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-              "source": "GitHub trending (daily)",
-              "topic": "Tech & AI",
-              "note": "Chrome DevTools MCP lets coding agents such as Claude control and inspect a live Chrome browser. Trending on GitHub.",
-              "image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
-              "video": null
-            },
-            {
-              "title": "tradermonty/claude-trading-skills",
-              "url": "https://github.com/tradermonty/claude-trading-skills",
-              "source": "GitHub trending (daily)",
-              "topic": "Tech & AI",
-              "note": "Claude Code skills for market analysis, charting and screeners, trending on GitHub. Shows how personal Claude skills are being packaged and shared.",
-              "image": "https://opengraph.githubassets.com/1/tradermonty/claude-trading-skills",
-              "video": null
-            },
-            {
-              "title": "FrigadeHQ/yogurt",
-              "url": "https://github.com/FrigadeHQ/yogurt",
-              "source": "GitHub new popular repos",
-              "topic": "Tech & AI",
-              "note": "Yogurt is a free, open-source private AI meeting-notes app that keeps data on your computer. Popular on GitHub.",
-              "image": "https://opengraph.githubassets.com/1/FrigadeHQ/yogurt",
               "video": null
             }
           ]
@@ -543,21 +515,12 @@
           "topic": "Sports",
           "items": [
             {
-              "title": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
-              "url": "https://www.espn.com/video/clip/_/id/50477468/alperen-sengun-43-point-double-double-lifts-rockets-jazz",
-              "source": "Houston Rockets",
+              "title": "Gane deserves a home fight; Nunes fought right into Harrison's hands",
+              "url": "https://www.espn.com/mma/story/_/id/50485499/ufc-334-gane-homecoming-fight-nunes-mistakes",
+              "source": "UFC (ESPN)",
               "topic": "Sports",
-              "note": "Alperen Sengun scored 43 points with a double-double to lift the Houston Rockets over the Jazz.",
-              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/f1ed5e02-24f4-42d4-8fc4-6672c85917f0/f1ed5e02-24f4-42d4-8fc4-6672c85917f0.jpg",
-              "video": null
-            },
-            {
-              "title": "Rockets' Marcus Smart suspended three games for punch",
-              "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
-              "source": "Houston Rockets",
-              "topic": "Sports",
-              "note": "The NBA suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
-              "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746008_2_1296x729_16-9.jpg",
               "video": null
             },
             {
@@ -565,7 +528,7 @@
               "url": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
               "source": "UFC (ESPN)",
               "topic": "Sports",
-              "note": "Ciryl Gane survived a five-round fight with Josh Hokit to retain the UFC heavyweight title at UFC 334.",
+              "note": "",
               "image": "https://a.espncdn.com/photo/2026/1115/r1746000_600x400_3-2.jpg",
               "video": null
             },
@@ -574,8 +537,17 @@
               "url": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
               "source": "UFC (ESPN)",
               "topic": "Sports",
-              "note": "Kayla Harrison submitted Amanda Nunes by rear-naked choke in Round 4 at UFC 334 to retain her title.",
+              "note": "",
               "image": "https://a.espncdn.com/photo/2026/1115/r1745993_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "'Wonderboy' Thompson KO's Radtke with spinning back heel",
+              "url": "https://www.espn.com/video/clip/_/id/50487031/wonderboy-thompson-ko-radtke-spinning-back-heel",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_UFC_Highlight_Wonderboy_Thompson_KOs_Radtke_with_spinning_back_heel_20261115_AUS_ONLY/dm_261114_UFC_Highlight_Wonderboy_Thompson_KOs_Radtke_with_spinning_back_heel_20261115_AUS_ONLY.jpg",
               "video": null
             },
             {
@@ -583,35 +555,35 @@
               "url": "https://www.espn.com/mma/story/_/id/50486254/stephen-thompson-caps-career-spinning-kick-ko-ufc-334",
               "source": "UFC (ESPN)",
               "topic": "Sports",
-              "note": "Stephen Thompson ended his MMA career with a spinning-kick knockout of Charles Radtke at UFC 334.",
+              "note": "",
               "image": "https://a.espncdn.com/photo/2026/1115/r1745964_600x400_3-2.jpg",
               "video": null
             },
             {
-              "title": "The 49ers Acquire WR Keenan Allen",
-              "url": "https://www.49ers.com/news/the-49ers-acquire-wr-keenan-allen",
-              "source": "49ers.com",
+              "title": "NFL Week 10 uniforms: Titans debut Rivalries look, Ravens go all-black",
+              "url": "https://www.espn.com/nfl/story/_/id/50448015/nfl-week-10-uniforms",
+              "source": "San Francisco 49ers",
               "topic": "Sports",
-              "note": "The 49ers acquired WR Keenan Allen from the Colts for a 2027 sixth-round pick, a move that adds a veteran receiver for the 7-1 team.",
-              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/ozlj5rljqvf0ba5htoz2.png",
+              "note": "",
+              "image": "https://a.espncdn.com/photo/2026/1111/16x9.jpg",
               "video": null
             },
             {
-              "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
-              "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal",
-              "source": "Atlanta Braves",
+              "title": "Once a shortstop, he grinded for years in indy ball. Now he’s a legit relief prospect",
+              "url": "https://www.mlb.com/braves/news/tyler-laporte-journey-to-braves-organization-arizona-fall-league",
+              "source": "MLB.com Braves",
               "topic": "Sports",
-              "note": "The Braves and reliever Evan Phillips agreed to a three-year, $35 million contract, a key early-offseason signing.",
-              "image": "https://a.espncdn.com/photo/2025/0531/r1500581_1296x729_16-9.jpg",
+              "note": "",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/xxxghpfcrox6noeo1evt.jpg",
               "video": null
             },
             {
-              "title": "Evans OUT, Williams and Greenlaw Questionable; Deebo Returns Ahead of Cowboys | Practice Report #SFvsDAL",
-              "url": "https://www.49ers.com/news/evans-out-williams-and-greenlaw-questionable-deebo-returns-ahead-of-cowboys-practice-report-sfvsdal",
+              "title": "49ers Launch Mexico City Foodie Passport Program in Collaboration with Local Businesses",
+              "url": "https://www.49ers.com/news/49ers-launch-mexico-city-foodie-passport-program-in-collaboration-with-local-businesses",
               "source": "49ers.com",
               "topic": "Sports",
-              "note": "49ers injury report ahead of the Cowboys game: Evans is out, with Williams and Greenlaw questionable and Deebo Samuel returning.",
-              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cxeu06qdlxvs5qx52ium.png",
+              "note": "",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/akfup0g9voprgpudyavk.png",
               "video": null
             }
           ]
@@ -626,12 +598,30 @@
           "topic": "Atlanta",
           "items": [
             {
-              "title": "Zoo Atlanta cancels annual lantern festival due to ‘challenges’ with Chinese artisans’ travel",
-              "url": "https://roughdraftatlanta.com/2026/11/14/zoo-atlanta-cancels-illuminights-festival/",
+              "title": "Uptown Atlanta hosts annual Laughs, Llamas and Pajamas event on Nov. 19",
+              "url": "https://roughdraftatlanta.com/2026/11/14/uptown-atlanta-laughs-llamas-pajamas/",
               "source": "Rough Draft Atlanta",
               "topic": "Atlanta",
-              "note": "Zoo Atlanta cancelled its 2026 IllumiNights lantern festival due to travel challenges affecting the Chinese artisans who build the displays.",
-              "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/11/Untitled-design-2022-11-21T095752.597-1024x576.png",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Laughs-Llamas-Pajamas-600x489.png",
+              "video": null
+            },
+            {
+              "title": "Georgia Festival of Trees brings holiday fun and activities Nov. 21-29",
+              "url": "https://roughdraftatlanta.com/2026/11/14/georgia-festival-trees-returns/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-2.43.21-PM-600x502.png",
+              "video": null
+            },
+            {
+              "title": "First Voices Festival returns Nov. 20-27",
+              "url": "https://roughdraftatlanta.com/2026/11/14/fifth-annual-indigenous-celebrations/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/unnamed-5-600x338.png",
               "video": null
             },
             {
@@ -639,62 +629,44 @@
               "url": "https://saportareport.com/spelman-students-demand-action-on-sexual-violence-concerns/columnists/adrianne-murchison/",
               "source": "SaportaReport",
               "topic": "Atlanta",
-              "note": "Students at Spelman College are demanding action on sexual violence concerns and renewed scrutiny of the college's response.",
+              "note": "",
               "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0590.jpg?fit=1024%2C733&ssl=1",
               "video": null
             },
             {
-              "title": "Images: Two more Westside ATL developments officially a go",
-              "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
-              "source": "Urbanize Atlanta",
-              "topic": "Atlanta",
-              "note": "Two more Westside Atlanta developments will break ground on the same day this month, continuing long-running stabilization investment.",
-              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
-              "video": null
-            },
-            {
-              "title": "Along popular Beltline stretch, where two-pronged project stands now",
-              "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-development-two-pronged-project-stands-now",
-              "source": "Urbanize Atlanta",
-              "topic": "Atlanta",
-              "note": "A long-stalled Reynoldstown Beltline-adjacent project is set to take steps toward groundbreaking by year's end, per developers.",
-              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-10/5%20205%20Holtzclaw%20St.%20930%20Mauldin%20St.%20Allen%20Morris.jpg?itok=Eew0Cc2O",
-              "video": null
-            },
-            {
-              "title": "Georgia climbs 'dramatic' 9 spots on 'Bicycle Friendly States' ranking",
-              "url": "https://atlanta.urbanize.city/post/georgia-9-places-american-bicycle-friendly-states-ranking-2026",
-              "source": "Urbanize Atlanta",
-              "topic": "Atlanta",
-              "note": "Georgia rose nine spots in the Bicycle Friendly States ranking, with Atlanta's improved biking infrastructure cited as a factor.",
-              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/2026%20Bicycle%20Friendly%20States%20GA.png?itok=O_ngptWD",
-              "video": null
-            },
-            {
-              "title": "Letter to Editor: Lackluster numbers show low 'autonomous pod' demand",
-              "url": "https://atlanta.urbanize.city/post/beltline-atl-spoke-autonomous-pod-letter-editor-lackluster-numbers-show-low-pod-demand",
+              "title": "Officials: Ribbon-cutting on tap for 21-acre park in underserved area",
+              "url": "https://atlanta.urbanize.city/post/liberty-square-park-roswell-open-underserved-area-21-acres",
               "source": "Urbanize Atlanta",
               "topic": "Atlanta",
               "note": "",
-              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/ATL%20Spoke%20ridership.png?itok=80PPNbyl",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Liberty%20Square%20Park%20Roswell%202.jpg?itok=Aj7GC7qb",
               "video": null
             },
             {
-              "title": "✈️ Airport chaos",
-              "url": "https://roughdraftatlanta.com/2026/11/14/airport-chaos/",
-              "source": "Rough Draft Atlanta",
-              "topic": "Atlanta",
-              "note": "Friday's nationwide ground stop left more than 400 flights to and from Hartsfield-Jackson cancelled Saturday morning.",
-              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/Computer_Website-Daily-Newsletter-Image_800x600_Updated-May-2026-600x450.png?crop=1",
-              "video": null
-            },
-            {
-              "title": "Images: What $1.8M (and up) buys at project called ‘intimate,’ ‘rare’",
-              "url": "https://atlanta.urbanize.city/post/chastain-overlook-buckhead-sandy-springs-million-buys-project-images-intimate-rare",
+              "title": "In heart of Little Five Points, street overhaul set to break ground",
+              "url": "https://atlanta.urbanize.city/post/euclid-avenue-little-five-points-safe-street-overhaul-break-ground",
               "source": "Urbanize Atlanta",
               "topic": "Atlanta",
-              "note": "A boutique eight-townhome project between Buckhead and Sandy Springs is finishing construction, with units priced from $1.8 million.",
-              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Chastain%20Overlook%20About%201%20%281%29.png?itok=n6oXFQ7B",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Little%20Five%20Points%20Euclid%20Avenue%20Safe%20Street%20map.png?itok=K0YnYbO7",
+              "video": null
+            },
+            {
+              "title": "‘Once Upon a Time in Harlem’ and the passing of a torch",
+              "url": "https://saportareport.com/once-upon-a-time-in-harlem-and-the-passing-of-a-torch/columnists/manderson/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Still-1-Aaron-Douglas-Jean-Blackwell-Hutson-Richard-Bruce-Nugent-Eubie-Blake-and-Irvin-C.-Miller-in-OUATIH_Courtesy-of-NEON.webp?fit=862%2C600&ssl=1",
+              "video": null
+            },
+            {
+              "title": "New O4W condo high-rise; Roswell eateries coming; South Downtown",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-condo-tower-south-downtown-roswell-restaurants-coming",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/687%20Angier%20Ave.%20and%20707%20Angier%20Ave.%20NE%20.png?itok=nXK161Du",
               "video": null
             }
           ]
@@ -703,66 +675,12 @@
           "topic": "Architecture",
           "items": [
             {
-              "title": "SketchUp add-on brings BIM to smaller practices",
-              "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
-              "source": "AEC Magazine",
-              "topic": "Architecture",
-              "note": "Archeform BIM brings BIM elements, schedules and IFC export into SketchUp, with a 1.1 release aimed at renovation workflows. Directly relevant to BIM practice at smaller firms.",
-              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
-              "video": null
-            },
-            {
-              "title": "LAND OVER WATER / FIRM architects",
-              "url": "https://www.archdaily.com/1187695/land-over-water-firm-architects",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "FIRM architects transform a 1990s Hoofddorp office building into a contemporary workplace, adapting an existing structure for sustainability and new ways of working.",
-              "image": "https://images.adsttc.com/media/images/6ae2/0a1c/3271/8400/01d0/f74c/newsletter/Giovanni_Nardi_Photography_5Y6A7006.jpg?1793198649",
-              "video": null
-            },
-            {
-              "title": "HUSTLR Pickleball & Social Club / CYS Architect Sdn Bhd",
-              "url": "https://www.archdaily.com/1187878/hustlr-pickleball-and-social-club-cys-architect-sdn-bhd",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "An abandoned food court in Cheras, Malaysia, was adapted into a pickleball and social club, reusing an existing steel structure.",
-              "image": "https://images.adsttc.com/media/images/6ae4/be68/bfbd/4c00/01ee/5ab3/newsletter/HUSLTR-1.jpg?1793375985",
-              "video": null
-            },
-            {
-              "title": "Wangshan Qingshui Water Treatment Plant / POA Architects",
-              "url": "https://www.archdaily.com/1188533/wangshan-qingshui-water-treatment-plant-poa-architects",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "POA Architects designed a water treatment plant in Wenzhou with a legible above-ground layout of basins and production buildings.",
-              "image": "https://images.adsttc.com/media/images/6af5/6fae/8074/f401/89de/e7f3/newsletter/wangshan-qingshui-water-treatment-plant-poa-architects_17.jpg?1794469878",
-              "video": null
-            },
-            {
-              "title": "Maryland House / Remi C.T.",
-              "url": "https://www.archdaily.com/1188511/maryland-house",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "Maryland House by Remi C.T. is an infill housing project that rethinks spatial hierarchy for urban living.",
-              "image": "https://images.adsttc.com/media/images/6af4/9801/eabd/2a00/0192/c6b2/newsletter/MH_RCT_05_EDIT.jpg?1794414625",
-              "video": null
-            },
-            {
               "title": "Vanguard House / Ming Architects",
               "url": "https://www.archdaily.com/1187949/vanguard-house-ming-architects",
               "source": "ArchDaily",
               "topic": "Architecture",
-              "note": "Vanguard House by Ming Architects is a residence built around concealed living spaces and water features.",
+              "note": "",
               "image": "https://images.adsttc.com/media/images/6ae8/814a/bcbc/3500/01ae/ae64/newsletter/Ming_Architects_-_3_Moonbeam_View-4.jpg?1793622406",
-              "video": null
-            },
-            {
-              "title": "Minthis Resort Development / Woods Bagot",
-              "url": "https://www.archdaily.com/1009606/minthis-hills-woods-baggot",
-              "source": "ArchDaily",
-              "topic": "Architecture",
-              "note": "Woods Bagot delivered master planning, architecture and interiors for the Minthis resort development in Paphos, Cyprus.",
-              "image": "https://images.adsttc.com/media/images/654e/6c41/08e4/4436/8242/6c3c/newsletter/minthis-hills-woods-baggot_1.jpg?1699638370",
               "video": null
             },
             {
@@ -770,8 +688,62 @@
               "url": "https://www.archdaily.com/1188633/sona-listening-practices-epico-studio",
               "source": "ArchDaily",
               "topic": "Architecture",
-              "note": "Sona, a listening-focused venue in Mexico City's Condesa neighborhood, was designed by Épico Estudio and Panorama.",
+              "note": "",
               "image": "https://images.adsttc.com/media/images/6af7/0222/eabd/2a00/0192/e3d9/newsletter/06_sona__foto_maria_fernanda_l_pez_y_erik_l_pez_.jpg?1794572879",
+              "video": null
+            },
+            {
+              "title": "Minthis Resort Development / Woods Bagot",
+              "url": "https://www.archdaily.com/1009606/minthis-hills-woods-baggot",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/654e/6c41/08e4/4436/8242/6c3c/newsletter/minthis-hills-woods-baggot_1.jpg?1699638370",
+              "video": null
+            },
+            {
+              "title": "LAND OVER WATER / FIRM architects",
+              "url": "https://www.archdaily.com/1187695/land-over-water-firm-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6ae2/0a1c/3271/8400/01d0/f74c/newsletter/Giovanni_Nardi_Photography_5Y6A7006.jpg?1793198649",
+              "video": null
+            },
+            {
+              "title": "Maryland House / Remi C.T.",
+              "url": "https://www.archdaily.com/1188511/maryland-house",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6af4/9801/eabd/2a00/0192/c6b2/newsletter/MH_RCT_05_EDIT.jpg?1794414625",
+              "video": null
+            },
+            {
+              "title": "Art, Architecture, Archaeology: A Refuge for Artists at Amman’s Darat al Funun",
+              "url": "https://www.archdaily.com/1187920/art-architecture-archaeology-a-refuge-for-artists-at-ammans-darat-al-funun",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://images.adsttc.com/media/images/6aeb/631e/c723/9a01/895a/27e9/newsletter/the-stratified-sanctuary-of-darat-al-funun-embracing-the-artist-as-a-historiographer_1.jpg?1793811244",
+              "video": null
+            },
+            {
+              "title": "AI makes scanned buildings searchable",
+              "url": "https://aecmag.com/cafm/ai-makes-scanned-buildings-searchable/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Rhino World 2026: McNeel lets AI in",
+              "url": "https://aecmag.com/cad/rhino-world-2026-mcneel-lets-ai-in/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
               "video": null
             }
           ]
@@ -786,30 +758,21 @@
           "topic": "Science & Nature",
           "items": [
             {
-              "title": "A Global Rebound for Mangroves",
-              "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
-              "source": "NASA",
-              "topic": "Science & Nature",
-              "note": "NASA reports mangrove forests are rebounding globally after decades of decline.",
-              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
-              "video": null
-            },
-            {
-              "title": "Honduras declares ‘environmental emergency’ in Río Plátano Biosphere Reserve",
-              "url": "https://news.mongabay.com/short-article/2026/11/honduras-declares-environmental-emergency-in-rio-platano-biosphere-reserve/",
-              "source": "Mongabay",
-              "topic": "Science & Nature",
-              "note": "Honduras declared a 36-month environmental emergency in the Río Plátano Biosphere Reserve over deforestation, organized crime and cattle ranching.",
-              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13183647/AP17144742705747-768x512.jpg",
-              "video": null
-            },
-            {
               "title": "Targeted by al-Shabaab for defending Kenya’s ecosystems: Foundation founder gets award",
               "url": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/",
               "source": "Mongabay",
               "topic": "Science & Nature",
-              "note": "A Kenyan conservation foundation founder receives an award after being targeted by al-Shabaab for defending marine and terrestrial habitats.",
+              "note": "",
               "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/15020457/2S3A4056_PuQCwKvR-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Spicy ping-pong balls and flaming dung keep elephants at bay in Zimbabwe",
+              "url": "https://news.mongabay.com/short-article/2026/11/spicy-ping-pong-balls-and-flaming-dung-keep-elephants-at-bay-in-zimbabwe/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/14091758/Mongabay_Thumbnail_Spyci_Featured-338x512.jpg",
               "video": null
             },
             {
@@ -817,8 +780,26 @@
               "url": "https://news.mongabay.com/short-article/2026/11/south-african-court-dismisses-appeal-over-planned-coal-fired-power-plants/",
               "source": "Mongabay",
               "topic": "Science & Nature",
-              "note": "South Africa's Supreme Court of Appeal dismissed the government's appeal against a ruling that blocked 1,500 MW of new coal power.",
+              "note": "",
               "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13212055/Kusilekragsentrale_Mpumalanga_2019_a-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "In National Geographic’s “Expedition: Saving Our Seas,” it’s all hands on deck",
+              "url": "https://www.sciencenews.org/article/nat-geo-saving-our-seas-documentary",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/ExpeditionSavingOurSeas_MM10514_260216_01298.jpg?w=601",
+              "video": null
+            },
+            {
+              "title": "Honduras declares ‘environmental emergency’ in Río Plátano Biosphere Reserve",
+              "url": "https://news.mongabay.com/short-article/2026/11/honduras-declares-environmental-emergency-in-rio-platano-biosphere-reserve/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13183647/AP17144742705747-768x512.jpg",
               "video": null
             },
             {
@@ -826,35 +807,26 @@
               "url": "https://news.mongabay.com/short-article/2026/11/bigger-and-more-frequent-wildfires-threaten-water-supplies-across-the-us/",
               "source": "Mongabay",
               "topic": "Science & Nature",
-              "note": "A record wildfire season in the U.S. has affected streams and rivers that supply drinking water to cities and rural areas.",
+              "note": "",
               "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13173705/AP26316719877607-768x512.jpg",
               "video": null
             },
             {
-              "title": "Europe’s Hera mission is ready to double down on asteroid science",
-              "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
-              "source": "Science News",
+              "title": "There’s no substitute for getting out of the classroom and into nature (analysis)",
+              "url": "https://news.mongabay.com/2026/11/theres-no-substitute-for-getting-out-of-the-classroom-and-into-nature-analysis/",
+              "source": "Mongabay",
               "topic": "Science & Nature",
-              "note": "Europe's Hera spacecraft has begun studying the binary asteroid Didymos, a mission of interest for planetary science.",
-              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
+              "note": "",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13161326/Harvard-University-Costa-Rica-herpetology-course-tripMarch-2008-011-768x512.jpg",
               "video": null
             },
             {
-              "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
-              "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+              "title": "Outbursts from a Massive Star",
+              "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
               "source": "NASA",
               "topic": "Science & Nature",
-              "note": "NASA's Astronomy Picture of the Day features NGC 206 and star clouds in the Andromeda galaxy.",
-              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Andromeda_closeupCruz4096.jpg?w=2048&h=1451&fit=clip&crop=faces%2Cfocalpoint",
-              "video": null
-            },
-            {
-              "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
-              "source": "NASA",
-              "topic": "Science & Nature",
-              "note": "Hubble's gallery of gravitational lenses previews targets for follow-up observations by the Roman Space Telescope.",
-              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_lenscollage_P18085_ok4_noletters.tif?w=2048",
+              "note": "",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg?w=2048",
               "video": null
             }
           ]
@@ -934,37 +906,32 @@
       ]
     }
   ],
-  "source_errors": [
-    {
-      "source": "Hacker News front page",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
-    }
-  ],
+  "source_errors": [],
   "usage": {
-    "input_tokens": 81937,
-    "output_tokens": 12768
+    "input_tokens": 80519,
+    "output_tokens": 9184
   },
   "videos": [
     {
       "group": "News & Politics",
       "items": [
         {
-          "title": "Fetterman DAYS NUMBERED? New Challenger Appears",
-          "url": "https://www.youtube.com/watch?v=C2tFU9LRHu0",
-          "source": "Breaking Points",
+          "title": "I Confronted the Authorities Behind Airport Price Gouging",
+          "url": "https://www.youtube.com/watch?v=35ypZJ3Zc0Y",
+          "source": "More Perfect Union",
           "topic": "News & Politics",
-          "note": "Breaking Points discusses a potential 2028 challenger to Senator Fetterman, with guest Ahmed Moor. Commentary-style political discussion.",
-          "image": "https://i4.ytimg.com/vi/C2tFU9LRHu0/hqdefault.jpg",
-          "video": "C2tFU9LRHu0"
+          "note": "Investigation into airport food and drink prices, which the reporters say run 50% to 90% above street prices, with notes on corporate profits.",
+          "image": "https://i4.ytimg.com/vi/35ypZJ3Zc0Y/hqdefault.jpg",
+          "video": "35ypZJ3Zc0Y"
         },
         {
-          "title": "Rats Are Fleeing The Sinking Ships As NVIDIA Scandal Envelops Trump Admin",
-          "url": "https://www.youtube.com/watch?v=rnOZYa22m9Q",
-          "source": "The Majority Report",
+          "title": "Total Dystopia: Delaware To Let AI Agents Own Companies",
+          "url": "https://www.youtube.com/watch?v=2I7fQqK6pF0",
+          "source": "Breaking Points",
           "topic": "News & Politics",
-          "note": "The Majority Report discusses a reported NVIDIA scandal and its links to the Trump administration. Commentary-style show; claims are the host's view.",
-          "image": "https://i3.ytimg.com/vi/rnOZYa22m9Q/hqdefault.jpg",
-          "video": "rnOZYa22m9Q"
+          "note": "Breaking Points discussion of Delaware's move to let AI agents own companies, framed around the policy's implications.",
+          "image": "https://i3.ytimg.com/vi/2I7fQqK6pF0/hqdefault.jpg",
+          "video": "2I7fQqK6pF0"
         }
       ]
     },
@@ -972,40 +939,31 @@
       "group": "Sports",
       "items": [
         {
-          "title": "Kevin Burkhardt on 49ers-Cowboys, Tom Brady & the John Lynch-Kyle Shanahan Origin Story",
-          "url": "https://www.youtube.com/watch?v=Uy4TwbKHy_c",
-          "source": "San Francisco 49ers",
-          "topic": "Sports",
-          "note": "Fox's Kevin Burkhardt previews the Week 9 49ers-Cowboys game and looks back on his relationship with John Lynch.",
-          "image": "https://i2.ytimg.com/vi/Uy4TwbKHy_c/hqdefault.jpg",
-          "video": "Uy4TwbKHy_c"
-        },
-        {
-          "title": "Why 49ers-Cowboys Has \"NUCLEAR MELTDOWN Potential\"",
-          "url": "https://www.youtube.com/watch?v=wedCVuJH1no",
-          "source": "The Athletic Football Show",
-          "topic": "Sports",
-          "note": "The Athletic breaks down the 49ers-Cowboys matchup, contrasting the 49ers' scoring offense with the Cowboys' defensive struggles.",
-          "image": "https://i4.ytimg.com/vi/wedCVuJH1no/hqdefault.jpg",
-          "video": "wedCVuJH1no"
-        },
-        {
-          "title": "Jaylen Warren On His BREAKOUT Season & The Steelers' Super Bowl Aspirations",
-          "url": "https://www.youtube.com/watch?v=holrg29bq0A",
-          "source": "The Pat McAfee Show",
-          "topic": "Sports",
-          "note": "Pat McAfee interviews Steelers running back Jaylen Warren about his breakout season and the team's Super Bowl hopes.",
-          "image": "https://i1.ytimg.com/vi/holrg29bq0A/hqdefault.jpg",
-          "video": "holrg29bq0A"
-        },
-        {
-          "title": "🔴 Polymarket UFC 334: Post-Fight Press Conference",
-          "url": "https://www.youtube.com/watch?v=KwlOL_4gYlQ",
+          "title": "Dana White Post-Fight Press Conference | UFC 334",
+          "url": "https://www.youtube.com/watch?v=z0G4p2y6JTQ",
           "source": "UFC",
           "topic": "Sports",
-          "note": "Live post-fight press conference from UFC 334 with athletes taking media questions on their results and what comes next.",
-          "image": "https://i4.ytimg.com/vi/KwlOL_4gYlQ/hqdefault.jpg",
-          "video": "KwlOL_4gYlQ"
+          "note": "Dana White's post-fight press conference after UFC 334, covering the results and what comes next.",
+          "image": "https://i3.ytimg.com/vi/z0G4p2y6JTQ/hqdefault.jpg",
+          "video": "z0G4p2y6JTQ"
+        },
+        {
+          "title": "Week 10 Preview: Fernando’s First Look, Jared Verse Gets Real, Shough Regression",
+          "url": "https://www.youtube.com/watch?v=UEOnXzi6lxE",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic's Week 10 NFL preview, covering Steelers at Bengals for the AFC North lead and Vikings at Packers.",
+          "image": "https://i2.ytimg.com/vi/UEOnXzi6lxE/hqdefault.jpg",
+          "video": "UEOnXzi6lxE"
+        },
+        {
+          "title": "Vederian Lowe Opens Up About Confidence, Family & Football | Cut Different Ep. 8",
+          "url": "https://www.youtube.com/watch?v=pQA13p9qO5g",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers offensive lineman Vederian Lowe discusses confidence, family, and football in a Cut Different interview.",
+          "image": "https://i1.ytimg.com/vi/pQA13p9qO5g/hqdefault.jpg",
+          "video": "pQA13p9qO5g"
         }
       ]
     },
@@ -1013,13 +971,13 @@
       "group": "Architecture & Building",
       "items": [
         {
-          "title": "Claude Fable 5.2 for Construction — Should you switch from Opus?",
-          "url": "https://www.youtube.com/watch?v=ChYnZwJS498",
-          "source": "Tim Fairley (ConstructIQ)",
+          "title": "No Clients. No Portfolio. Here’s how he started his design business.",
+          "url": "https://www.youtube.com/watch?v=FuzK1w4ZFuc",
+          "source": "30X40 Design Workshop",
           "topic": "Architecture & Building",
-          "note": "Tim Fairley uses Claude to build a warehouse construction simulation run 5,000 times and discusses what drove the finish date.",
-          "image": "https://i4.ytimg.com/vi/ChYnZwJS498/hqdefault.jpg",
-          "video": "ChYnZwJS498"
+          "note": "Charlie Frise explains how he started a design business without clients or a portfolio by giving himself four months to build one.",
+          "image": "https://i3.ytimg.com/vi/FuzK1w4ZFuc/hqdefault.jpg",
+          "video": "FuzK1w4ZFuc"
         }
       ]
     },
@@ -1027,13 +985,27 @@
       "group": "Tech & Science",
       "items": [
         {
-          "title": "How These Puddles are Changing Scotland",
-          "url": "https://www.youtube.com/watch?v=ZYPm4uN1rXw",
-          "source": "Planet Wild",
+          "title": "Can Experts Decipher this Ancient Tablet?! | Strangest Things | Science Channel",
+          "url": "https://www.youtube.com/watch?v=-PYLXgqwhLI",
+          "source": "Science Channel",
           "topic": "Tech & Science",
-          "note": "Planet Wild looks at efforts to restore Scottish Highland landscapes, from cleared forests to peatland puddles and rewilding.",
-          "image": "https://i3.ytimg.com/vi/ZYPm4uN1rXw/hqdefault.jpg",
-          "video": "ZYPm4uN1rXw"
+          "note": "Science Channel segment on an ancient wooden tablet from Easter Island with an undeciphered glyph system, and experts testing whether it could unlock a lost civilization.",
+          "image": "https://i2.ytimg.com/vi/-PYLXgqwhLI/hqdefault.jpg",
+          "video": "-PYLXgqwhLI"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "STOP Making Fried Rice With Your Leftover Rice (Make THIS Instead)",
+          "url": "https://www.youtube.com/watch?v=g9EtbMXvpas",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy turns leftover white rice into crispy mozzarella-stuffed arancini, skipping risotto.",
+          "image": "https://i4.ytimg.com/vi/g9EtbMXvpas/hqdefault.jpg",
+          "video": "g9EtbMXvpas"
         }
       ]
     }
@@ -1041,15 +1013,15 @@
   "week": {
     "from": "2026-11-09",
     "to": "2026-11-15",
-    "headline": "Anthropic files for IPO as Abu Dhabi talks advance",
-    "summary": "Anthropic had a busy week. It released Claude Fable 5.2 and Mythos 5.2 (w27, w26). Mythos is limited to organizations verified through Anthropic's programs. Fable gets a fast mode with up to 2.5x output speed at higher per-token prices (w31). Anthropic also filed an S-1 with the SEC for a proposed IPO and launched a roadshow (w76, w56). It put a portion of its shares into a new Public Benefit Fund (w57) and expanded its GSA partnership (w6). Claude Platform added self-hosted Managed Agents (w102). In design software, AI features came to V-Ray, Enscape, Trimble and Rhino 9, and SketchUp 2027 improved its Revit interoperability (w20, w21, w45, w95, w70).\n\nIn world news, US-mediated Russia-Ukraine talks in Abu Dhabi ended with a prisoner exchange agreement, and US envoys then met Putin (w79, w109). The White House says Trump, Putin and Xi plan a joint meeting in China next week (w123). Trump said more US attacks on Iran are highly unlikely (w37). After the midterms, Congress returned before Democrats take control in January (w5), and House Republicans chose Jim Jordan as leader (w61). On Friday a nationwide ground stop led to more than 400 cancelled flights at Hartsfield-Jackson the next morning (w157, w147). A building collapse in Brooklyn killed at least two people (w89).\n\nIn sports, the Rockets are 10-3 after Alperen Sengun scored 43 points (w124). The 49ers beat the Raiders 38-17 and traded for Keenan Allen (w2, w80). The Braves agreed to a deal with Evan Phillips (w103), and both champions kept their titles at UFC 334 (w146). SpaceX caught its Starship (w145).",
+    "headline": "Anthropic files for IPO as Ukraine talks resume",
+    "summary": "Anthropic made the biggest news in your core topics. It filed an S-1 with the SEC for a proposed initial public offering, launched its roadshow and committed a portion of its shares to a new Public Benefit Fund (w76, w56, w57). It also released Claude Fable 5.2 and Mythos 5.2, with a faster, higher-priced mode for Fable 5.2 (w27, w31). The Claude Platform now offers self-hosted Managed Agents (w102). In design software, Chaos, Trimble, McNeel and SketchUp all added AI or BIM features (w20, w45, w95, w70).\n\nIn world news, U.S.-mediated Russia-Ukraine talks in Abu Dhabi ended with an agreement on a prisoner exchange. U.S. envoys then met Putin (w79, w109). The White House says Trump, Putin and Xi plan a joint meeting in China next week (w123). After the midterms, House Republicans chose Jim Jordan as their leader. Democrats won the Mississippi Senate race and the Alaska governor's race (w61, w78, w125). A building collapse in Brooklyn killed at least two people (w89), and a nationwide ground stop disrupted U.S. air travel (w122).\n\nIn sports, Alperen Sengun scored 43 points in a Rockets win (w124), and the 49ers acquired receiver Keenan Allen (w80). The Braves agreed to a three-year, $35 million deal with Evan Phillips (w103), and Kayla Harrison submitted Amanda Nunes at UFC 334 (w146). In Atlanta, Beltline housing projects kept moving (w42, w94), and the Chattahoochee RiverLands project secured 327 more acres (w93).",
     "top": [
       {
         "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
         "url": "https://www.anthropic.com/news/s1-sec",
         "source": "Anthropic news",
         "topic": "Tech & AI",
-        "note": "Anthropic filed an S-1 with the SEC for a proposed IPO of Class A common stock and then launched its roadshow.",
+        "note": "Anthropic filed an S-1 with the SEC for a proposed IPO of Class A common stock, then launched its roadshow.",
         "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
         "video": null
       },
@@ -1058,26 +1030,26 @@
         "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-fable-5-2",
         "source": "Claude Platform release notes",
         "topic": "Tech & AI",
-        "note": "Claude Fable 5.2 is built for demanding reasoning and long agentic tasks; Mythos 5.2 is limited to verified organizations.",
+        "note": "Claude Fable 5.2 targets demanding reasoning and long-horizon agentic work; Mythos 5.2 is limited to verified organizations.",
         "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
         "video": null
       },
       {
-        "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
-        "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
-        "source": "NPR World",
-        "topic": "World",
-        "note": "The Abu Dhabi talks ended with a Russia-Ukraine prisoner exchange agreement, and US negotiators then met Putin and Zelenskyy.",
-        "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+        "title": "Claude Platform release notes — November 12, 2026",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#self-hosted-managed-agents",
+        "source": "Claude Platform release notes",
+        "topic": "Tech & AI",
+        "note": "Self-hosted Managed Agents let you run the service and keep agents, sessions and history on your own infrastructure.",
+        "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=4",
         "video": null
       },
       {
-        "title": "✈️ Airport chaos",
-        "url": "https://roughdraftatlanta.com/2026/11/14/airport-chaos/",
-        "source": "Rough Draft Atlanta",
-        "topic": "Atlanta",
-        "note": "More than 400 Hartsfield-Jackson flights were cancelled Saturday morning after Friday's nearly five-hour nationwide ground stop.",
-        "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/05/Computer_Website-Daily-Newsletter-Image_800x600_Updated-May-2026-600x450.png?crop=1",
+        "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+        "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "topic": "World",
+        "note": "The White House says Trump, Putin and Xi plan a joint meeting in China next week, with nuclear weapons reduction on the agenda.",
+        "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
         "video": null
       },
       {
@@ -1085,7 +1057,7 @@
         "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC World",
         "topic": "World",
-        "note": "A three-storey building collapsed in Brooklyn, killing at least two people, while the search for survivors continued.",
+        "note": "A three-storey building collapsed in Brooklyn, killing at least two, as the search for survivors continued.",
         "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7651/live/2883df70-de5a-11f1-9b47-0919bf7329d1.jpg",
         "video": null
       }
@@ -1100,20 +1072,16 @@
     ],
     "suggestions": [
       {
-        "change": "Add a profile line: 'Interested in building failures, collapses and structural safety news.'",
-        "reason": "Your only like this week was the Brooklyn building collapse (w89), so this is a light signal, not a clear pattern."
+        "change": "Add a profile line: \"Interested in building failures, structural safety and construction incidents.\"",
+        "reason": "Your only like this week was the Brooklyn building collapse (w89), so this is a weak signal from a single like and worth confirming."
       },
       {
-        "change": "Drop the 49ers.com source and keep the San Francisco 49ers source.",
-        "reason": "Both sources covered the same news this week, including the Halton injury (w16, w65) and the Cowboys injury report (w135, w156)."
+        "change": "Drop the source MLB.com Braves.",
+        "reason": "It gave no stories this week, and both Braves stories (w54, w103) came from the Atlanta Braves source."
       },
       {
-        "change": "Pause the MLB.com Braves source until spring training.",
-        "reason": "It sent no stories this week, and the Atlanta Braves source already covered the offseason news (w54, w103)."
-      },
-      {
-        "change": "Drop the BIM Pure blog source.",
-        "reason": "It sent no stories this week, while AEC Magazine covered BIM and Revit topics such as w70 and w118. With only one like, this is based on the sources, not on your likes."
+        "change": "Drop the source BIM Pure blog, or replace it with another BIM source.",
+        "reason": "It gave no stories this week, and AEC Magazine supplied nearly all the BIM and AI-in-design coverage (w20, w70, w118, w126)."
       }
     ]
   }
