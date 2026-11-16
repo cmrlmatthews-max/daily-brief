@@ -1,0 +1,1049 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Monday, November 16, 2026",
+  "generated_at": "2026-11-16T05:00:24-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Monday, November 16. Our lead story is from Anthropic. The company has filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission. The filing relates to its proposed initial public offering of Class A common stock. An S-1 is the document a company files when it plans to offer shares to the public. Anthropic has also launched a roadshow for the proposed offering. And it says it is committing a portion of its shares to the Anthropic Public Benefit Fund, a new entity whose stake increases as the company grows. The announcements give no details on pricing, size or timing. Now to the front page. In football, the San Francisco 49ers beat the Dallas Cowboys 46 to 40. They racked up 584 yards, led by Brock Purdy, Christian McCaffrey and Deebo Samuel. In basketball, the Houston Rockets beat the Washington Wizards 147 to 119 for their fourth straight win. Amen Thompson scored 26 points and Kevin Durant added 25. Now the sections. In tech, Simon Willison released a new Datasette plugin that combines MapLibre with OpenFreeMap, built mostly from a single prompt. In politics, The Lever reports that twenty-one Senate Democrats advanced a lame-duck permitting bill that could speed fossil fuel infrastructure for data centers. NPR reports Montana is sending a Democrat to the U.S. House for the first time in three decades. In world news, the UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, and they are calling for rapid humanitarian access to Gaza. Separately, Saudi-backed Yemeni forces say they are moving troops from the Bab al-Mandab Strait to defend Aden, leaving the Houthis in control of the coastal area. In sports, both champions kept their titles at UFC 334, and the Braves agreed to a three-year, 35 million dollar deal with reliever Evan Phillips. In Atlanta, Dunwoody is asking for public input on a draft unified development ordinance, and two more Westside developments are set for groundbreakings. In architecture, a new add-on brings BIM elements, drawings, schedules and IFC to SketchUp for smaller practices. Ricoh has also launched a rugged 360 degree camera for construction. In science, today's Astronomy Picture of the Day shows star formation with jets in NGC 7129, as seen by Webb. And NASA says the ice near the summit of Indonesia's Puncak Jaya has shrunk to scattered patches. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+    "url": "https://www.anthropic.com/news/s1-sec",
+    "source": "Anthropic news",
+    "topic": "Tech & AI",
+    "note": "Anthropic, PBC has filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission. It relates to the company's proposed initial public offering of Class A common stock. An S-1 is the filing a company makes with the SEC when it plans to offer shares to the public. Two related Anthropic announcements accompany it: a roadshow for the proposed offering, and a commitment of a portion of its shares to the Anthropic Public Benefit Fund, a new entity whose stake increases as the company grows. For a reader who builds tools with Claude, it shows how the company behind the model is organizing its finances. The announcements as listed give no details on pricing, size or timing of the offering.",
+    "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "video": null,
+    "headline": "Anthropic Files for Initial Public Offering",
+    "decks": [
+      "Anthropic files S-1 with the SEC for proposed IPO",
+      "Filing covers proposed offering of Class A common stock",
+      "Roadshow launched; shares committed to Public Benefit Fund"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic has launched a roadshow for its proposed initial public offering, the next step after the S-1 filing.",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "video": null
+    },
+    {
+      "title": "49ers put up big numbers vs. Cowboys, tout 'incredibly dangerous' offense",
+      "url": "https://www.espn.com/nfl/story/_/id/50498373/49ers-put-big-numbers-victory-cowboys",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers racked up 584 yards against the Cowboys in a 46-40 win, led by Brock Purdy, Christian McCaffrey and Deebo Samuel.",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746494_600x600_1-1.jpg",
+      "video": null
+    },
+    {
+      "title": "Rockets blow out Wizards 147-119; hold Trae Young scoreless for first time in his career",
+      "url": "http://www.espn.com/nba/recap?gameId=401909991",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Amen Thompson scored 26 and Kevin Durant 25 as the Houston Rockets beat the Wizards 147-119 for a fourth straight win.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909991.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows with the company.",
+          "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+          "video": null
+        },
+        {
+          "title": "datasette-maplibre 0.1a0",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "A new Datasette geospatial plugin combines MapLibre with OpenFreeMap, built mostly from a single prompt, a useful example of Claude-assisted tool building.",
+          "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+          "video": null
+        },
+        {
+          "title": "hitkeeen/blender-ai-mcp-addon",
+          "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "An open-source Blender add-on offers an AI assistant and MCP server that works with Claude and other models, relevant to 3D and design workflows.",
+          "image": "https://opengraph.githubassets.com/1/hitkeeen/blender-ai-mcp-addon",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
+          "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that twenty-one Senate Democrats advanced a lame-duck permitting bill that could speed fossil fuel infrastructure for data-center buildout.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+          "video": null
+        },
+        {
+          "title": "Democratic strategists think Montana House race could hold the secret to future wins",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6032798/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Montana is sending a Democrat to the U.S. House for the first time in three decades, and strategists are studying the campaign.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Democrats Missed Hegseth Impeachment Vote While at a Fundraiser with Defense Lobbyists",
+          "url": "https://www.dropsitenews.com/p/democrats-miss-hegseth-impeachment-vote-elect-democratic-women-party",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports Democrats missed the Hegseth impeachment vote while attending a reception with more than 100 defense lobbyists.",
+          "image": "https://substackcdn.com/image/fetch/$s_!abGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F709f6e3b-ad09-4911-ab5b-8670773b422f_1839x1138.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+          "url": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The UK, Australia, Canada and Italy say Israeli authorities are holding back vital supplies at the borders, including tents, and call for rapid access to Gaza.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0c14/live/abcff740-e181-11f1-9386-1b849272ca8f.jpg",
+          "video": null
+        },
+        {
+          "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Saudi-backed Yemeni forces say they are moving troops from the Bab al-Mandab Strait to defend Aden, leaving the Houthis in control of the coastal area.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
+          "video": null
+        },
+        {
+          "title": "What to expect from Trump and Xi's upcoming meeting in China",
+          "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "NPR previews President Trump's meeting with Xi Jinping and Vladimir Putin at the APEC summit in Shenzhen this week.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "UFC 334 results: Gane defeats Hokit, Harrison submits Nunes",
+          "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Both champions kept their titles at UFC 334 at Madison Square Garden, where Gane beat Hokit and Harrison submitted Nunes.",
+          "image": "https://a.espncdn.com/photo/2026/1115/r1746007_2_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
+          "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "The Braves and reliever Evan Phillips agreed to a three-year, $35 million contract.",
+          "image": "https://a.espncdn.com/photo/2025/0531/r1500581_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Here’s every ranked prospect that needs to be protected ahead of Tuesday’s 40-man deadline",
+          "url": "https://www.mlb.com/braves/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "MLB.com lists the ranked prospects that need protecting before Tuesday's 40-man roster deadline.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/n0q9izvzsdfo224eqhm0.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Dunwoody seeks public input on new draft unified development ordinance",
+          "url": "https://roughdraftatlanta.com/2026/11/15/dunwoody-draft-udo-input/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Dunwoody is seeking public input on a draft unified development ordinance that would modernize local land use and zoning rules.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2024/11/dunwoody-city-signs-jpeg-600x450.jpeg?crop=1",
+          "video": null
+        },
+        {
+          "title": "Images: Two more Westside ATL developments officially a go",
+          "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Two more Westside Atlanta developments are set for groundbreakings on the same day, continuing years of investment in the area.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
+          "video": null
+        },
+        {
+          "title": "Georgia climbs 'dramatic' 9 spots on 'Bicycle Friendly States' ranking",
+          "url": "https://atlanta.urbanize.city/post/georgia-9-places-american-bicycle-friendly-states-ranking-2026",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Georgia climbed nine spots on the Bicycle Friendly States ranking, a sign that biking infrastructure around Atlanta is improving.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/2026%20Bicycle%20Friendly%20States%20GA.png?itok=O_ngptWD",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "SketchUp add-on brings BIM to smaller practices",
+          "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Archeform BIM adds BIM elements, drawings, schedules and IFC to SketchUp, with a 1.1 release aimed at renovation workflows.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Ricoh launches resilient 360° camera for construction",
+          "url": "https://aecmag.com/reality-capture-modelling/ricoh-launches-resilient-360-construction-camera/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Ricoh's Theta A1 is a 360-degree camera with dust and water protection and better image quality, aimed at construction sites.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Baashyaam Experience Centre / Architecture Dialogue",
+          "url": "https://www.archdaily.com/1187877/baashyaam-experience-centre-architecture-dialogue",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A temporary sales pavilion in Chennai rethinks the sales office as an immersive space, with speed and reversibility as key requirements.",
+          "image": "https://images.adsttc.com/media/images/6ae4/bcc4/bfbd/4c00/01ee/5aa2/newsletter/22.jpg?1793375549",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Today's Astronomy Picture of the Day shows star formation with jets in NGC 7129, as seen by the Webb telescope.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/weic2620a.jpg?w=1280&h=1194&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "The Last Ice on Puncak Jaya",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Ice near the summit of Indonesia's Puncak Jaya has shrunk to scattered patches too small to flow like glaciers.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_tm5_1988308.jpg",
+          "video": null
+        },
+        {
+          "title": "A Global Rebound for Mangroves",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA reports mangroves are making a comeback after decades of decline.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Voters Rejected Data Centers. Democrats Could Supercharge Trump’s AI Boom.",
+              "url": "https://www.levernews.com/voters-rejected-data-centers-democrats-could-supercharge-trumps-ai-boom/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Twenty-one Senate Democrats advanced a lame-duck permitting bill that could fast-track fossil fuel infrastructure powering the data-center buildout.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Voters-Rejected-Data-Centers.-Democrats-Could-Supercharge-Trump---s-AI-Boom.-.jpg",
+              "video": null
+            },
+            {
+              "title": "Democratic strategists think Montana House race could hold the secret to future wins",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6032798/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Democrats see Sam Forstag's win in a Montana House race, the first Democrat sent to the U.S. House from Montana in three decades, as a possible model for rural campaigns.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump blasts judge for halting his Washington golf project and says he will appeal",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A federal judge ordered a two-week delay to work at a Washington public golf course near the White House, and Trump says he will appeal.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2666+0+0/resize/4000x2666!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Ff7%2F9117b9b745219e9aa5214fb267c0%2Fap26318721671488.jpg",
+              "video": null
+            },
+            {
+              "title": "Local Journalist Murdered After BBC Documentary Exposed Police Corruption in Ecuador",
+              "url": "https://www.dropsitenews.com/p/ecuador-journalist-murdered-bbc-documentary-police-corruption",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports on the murder of a local journalist after a BBC documentary exposed police corruption in Ecuador.",
+              "image": "https://substackcdn.com/image/fetch/$s_!zQvJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28be7a52-9799-4b7e-bce6-65f8dc736bea_931x613.jpeg",
+              "video": null
+            },
+            {
+              "title": "Palm Beach County’s Israel Bonds Holdings Hit 24% of Portfolio Last Month",
+              "url": "https://www.dropsitenews.com/p/palm-beach-county-israel-bonds",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Palm Beach County's Israel bond holdings fell from $1 billion to $932.5 million this month, a 24% share of its portfolio.",
+              "image": "https://substackcdn.com/image/fetch/$s_!fUVK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a623fbe-bd5c-4ceb-b753-6e0d6ae296e2_3000x2000.jpeg",
+              "video": null
+            },
+            {
+              "title": "Democrats Missed Hegseth Impeachment Vote While at a Fundraiser with Defense Lobbyists",
+              "url": "https://www.dropsitenews.com/p/democrats-miss-hegseth-impeachment-vote-elect-democratic-women-party",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that Democrats missed a Hegseth impeachment vote while attending a fundraiser attended by more than 100 lobbyists.",
+              "image": "https://substackcdn.com/image/fetch/$s_!abGW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F709f6e3b-ad09-4911-ab5b-8670773b422f_1839x1138.jpeg",
+              "video": null
+            },
+            {
+              "title": "Voters Said No To Data Centers — Now So Is Josh Hawley",
+              "url": "https://www.levernews.com/voters-are-rejecting-data-centers-now-so-is-josh-hawley/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Senator Josh Hawley has joined opposition to data centers after voter pushback.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--25-.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+              "url": "https://www.npr.org/2026/11/15/nx-s1-6039175/midterms-legislatures-states-democrats-gop",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Democrats took control of several state legislatures in the midterms, weakening long-running GOP dominance and shifting agendas on health care and school vouchers.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F9a%2Fbd6787154ee2b81abbbf783d0aec%2Fimg-6611.jpg",
+              "video": null
+            },
+            {
+              "title": "What to expect from Trump and Xi's upcoming meeting in China",
+              "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A preview of President Trump's meetings with Xi Jinping and Vladimir Putin at the APEC summit in Shenzhen, China this week.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "U.S. envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
+              "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "U.S. envoys met Putin in the Kremlin and Zelenskyy in Ireland as Washington seeks new momentum in Ukraine peace talks.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4300x2867+0+0/resize/4300x2867!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F97%2F6f0afe7d4fec85c8bfe4b77d0164%2Fap26316483363429.jpg",
+              "video": null
+            },
+            {
+              "title": "What's Trump's strategy now with Iran? To keep things as they are",
+              "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Trump says the status quo is what Gulf Arab allies want as the Iran war reaches a stalemate and the midterms shift focus to economic pressure.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/3377x1900!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2Ff4%2Fdda272054cc49d1d325e1fb89080%2F0eb9a283-2aff-4d96-b972-8f285cd219b7.jpg",
+              "video": null
+            },
+            {
+              "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+              "url": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The UK, Australia, Canada and Italy call on Israel to allow rapid humanitarian access to Gaza, saying supplies including tents are held at the borders.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0c14/live/abcff740-e181-11f1-9386-1b849272ca8f.jpg",
+              "video": null
+            },
+            {
+              "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+              "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Saudi-backed Yemeni forces are retreating from the Bab al-Mandab Strait to defend Aden, leaving Houthis in control of a key Red Sea coastal area.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
+              "video": null
+            },
+            {
+              "title": "Fuel crisis and protests pressure Chile's far-right president",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Chile's President José Antonio Kast faces protests and transport strikes over rising fuel prices.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8193x5462+0+0/resize/8193x5462!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F57%2F7e653aad4c7b8e810540c25313e9%2Fap26309662592247.jpg",
+              "video": null
+            },
+            {
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6038373/morning-news-brief",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Thousands of travelers are still waiting to reschedule flights after Friday's nationwide ground stop.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
+              "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Indonesia's Vice President Raka resigned after the courts ruled his overseas education documents did not meet election requirements.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8307x5538+0+0/resize/8307x5538!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F8d%2F5c5ffceb462b8ea3b73a40e7f598%2Fap26316172354988.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to your Claude and Anthropic interest.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic launches roadshow for proposed initial public offering",
+              "url": "https://www.anthropic.com/news/roadshow-launch",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has launched a roadshow for its proposed initial public offering. Read alongside the S-1 filing.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, with a stake that grows as the company grows.",
+              "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+              "video": null
+            },
+            {
+              "title": "datasette 1.0a43",
+              "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's datasette 1.0a43 release, built with Claude, adds streaming support for output renderers and moves toward the 1.0 milestone.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "datasette-maplibre 0.1a0",
+              "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A new Datasette geospatial plugin combining MapLibre GL with the OpenFreeMap vector map server, built mostly from a single prompt to Claude.",
+              "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+              "video": null
+            },
+            {
+              "title": "hitkeeen/blender-ai-mcp-addon",
+              "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "An AI assistant and MCP server add-on for Blender that works with Claude and other models, relevant to your 3D and BIM-adjacent work.",
+              "image": "https://opengraph.githubassets.com/1/hitkeeen/blender-ai-mcp-addon",
+              "video": null
+            },
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "An open-source hybrid code review tool combining deterministic pipelines with LLM agents, compatible with Anthropic and OpenAI APIs.",
+              "image": "https://opengraph.githubassets.com/1/alibaba/open-code-review",
+              "video": null
+            },
+            {
+              "title": "How to make almost anything",
+              "url": "https://pub.cba.mit.edu/863.26/site/",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A widely discussed article on how to make almost anything, from MIT's Center for Bits and Atoms, with 252 points on Hacker News.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Rockets blow out Wizards 147-119; hold Trae Young scoreless for first time in his career",
+              "url": "http://www.espn.com/nba/recap?gameId=401909991",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Houston Rockets beat the Wizards 147-119, with Amen Thompson scoring 26 and Kevin Durant adding 25, for their fourth straight win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909991.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
+              "url": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Week 10 NFL highlights from ESPN, including the 49ers' 46-40 win over Dallas.",
+              "image": "https://a.espncdn.com/photo/2026/1116/r1746290_576x324_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers put up big numbers vs. Cowboys, tout 'incredibly dangerous' offense",
+              "url": "https://www.espn.com/nfl/story/_/id/50498373/49ers-put-big-numbers-victory-cowboys",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers gained 584 yards against the Cowboys, led by Brock Purdy, Christian McCaffrey and Deebo Samuel.",
+              "image": "https://a.espncdn.com/photo/2026/1116/r1746494_600x600_1-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Evans OUT, Williams and Greenlaw Questionable; Deebo Returns Ahead of Cowboys | Practice Report #SFvsDAL",
+              "url": "https://www.49ers.com/news/evans-out-williams-and-greenlaw-questionable-deebo-returns-ahead-of-cowboys-practice-report-sfvsdal",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Injury report: Evans is out and Williams and Greenlaw are questionable for the 49ers ahead of the Cowboys game.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cxeu06qdlxvs5qx52ium.png",
+              "video": null
+            },
+            {
+              "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Braves and reliever Evan Phillips agreed to a three-year, $35 million contract after a season with the Dodgers.",
+              "image": "https://a.espncdn.com/photo/2025/0531/r1500581_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC 334 results: Gane defeats Hokit, Harrison submits Nunes",
+              "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Gane defeated Hokit and Harrison submitted Nunes at UFC 334, with both champions retaining their titles.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746007_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "'Wonderboy' Thompson KO's Radtke with spinning back heel",
+              "url": "https://www.espn.com/video/clip/_/id/50487031/wonderboy-thompson-ko-radtke-spinning-back-heel",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Stephen Thompson finished his final UFC fight with a spinning back heel knockout of Charles Radtke at UFC 334.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_UFC_Highlight_Wonderboy_Thompson_KOs_Radtke_with_spinning_back_heel_20261115_AUS_ONLY/dm_261114_UFC_Highlight_Wonderboy_Thompson_KOs_Radtke_with_spinning_back_heel_20261115_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Miami faces Houston, aims for 5th straight win",
+              "url": "http://www.espn.com/nba/preview?gameId=401909998",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (11-3) face the Heat (7-6) as Miami aims for a fifth straight win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909998.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Images: Two more Westside ATL developments officially a go",
+              "url": "https://atlanta.urbanize.city/post/two-more-westside-english-avenue-groundbreakings-atl-developments",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Two more Westside Atlanta developments are set to break ground on the same day this month, continuing stabilization efforts on the Westside.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-09/The%20404%20%40%20Oliver%20Street%20English%20Avenue%202%202025_08_25%20Proctor%20Village%20Renderings%20-%20Street%20View_Small.png?itok=imPJJrCd",
+              "video": null
+            },
+            {
+              "title": "Dunwoody seeks public input on new draft unified development ordinance",
+              "url": "https://roughdraftatlanta.com/2026/11/15/dunwoody-draft-udo-input/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Dunwoody is seeking public input on a draft Unified Development Ordinance that would modernize local land use and zoning rules.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2024/11/dunwoody-city-signs-jpeg-600x450.jpeg?crop=1",
+              "video": null
+            },
+            {
+              "title": "Georgia climbs 'dramatic' 9 spots on 'Bicycle Friendly States' ranking",
+              "url": "https://atlanta.urbanize.city/post/georgia-9-places-american-bicycle-friendly-states-ranking-2026",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia climbed nine spots in the Bicycle Friendly States ranking, with better biking infrastructure around Atlanta cited as a reason.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/2026%20Bicycle%20Friendly%20States%20GA.png?itok=O_ngptWD",
+              "video": null
+            },
+            {
+              "title": "Letter to Editor: Lackluster numbers show low 'autonomous pod' demand",
+              "url": "https://atlanta.urbanize.city/post/beltline-atl-spoke-autonomous-pod-letter-editor-lackluster-numbers-show-low-pod-demand",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A letter from an aerospace engineer argues early numbers show low demand for the Beltline-backed autonomous pod project.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/ATL%20Spoke%20ridership.png?itok=80PPNbyl",
+              "video": null
+            },
+            {
+              "title": "Environmental justice chapel to address Georgia’s climate challenges Nov. 17",
+              "url": "https://roughdraftatlanta.com/2026/11/15/environmental-justice-chapel-atlanta/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "An Environmental Justice Chapel on November 17 in Atlanta will feature a panel on Georgia's environmental challenges.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/international-theologic-seminary-600x555.jpg",
+              "video": null
+            },
+            {
+              "title": "Spelman students demand action on sexual violence concerns",
+              "url": "https://saportareport.com/spelman-students-demand-action-on-sexual-violence-concerns/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Spelman students are raising concerns about a culture of sexual violence on campus and say survivors are struggling to be believed.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0590.jpg?fit=1024%2C733&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Cristo Rey names next president as Camille Naughton prepares to retire",
+              "url": "https://saportareport.com/cristo-rey-names-next-president-as-camille-naughton-prepares-to-retire/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "David O'Shea has been named the next president of Cristo Rey Atlanta Jesuit High School, succeeding Camille Naughton, who retires in June.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0575-1.jpg?fit=1024%2C759&ssl=1",
+              "video": null
+            },
+            {
+              "title": "At ARCHI’s midpoint, leaders say true change means sharing power, not just passing policy",
+              "url": "https://saportareport.com/at-archis-midpoint-leaders-say-true-change-means-sharing-power-not-just-passing-policy/sections/reports/teresa/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "ARCHI, Atlanta's health coalition, is at the midpoint of its 28-year plan and asks what it is still missing.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_2293-scaled.jpg?fit=1024%2C819&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "SketchUp add-on brings BIM to smaller practices",
+              "url": "https://aecmag.com/bim/sketchup-add-on-brings-bim-to-smaller-practices/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Archeform BIM brings BIM elements, schedules and IFC export to SketchUp, with version 1.1 targeting renovation workflows for smaller practices.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Ricoh launches resilient 360° camera for construction",
+              "url": "https://aecmag.com/reality-capture-modelling/ricoh-launches-resilient-360-construction-camera/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Ricoh's Theta A1 360-degree camera adds dust and water protection and better image quality for construction site documentation.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Heathside House / Manea Kella",
+              "url": "https://www.archdaily.com/1187742/heathside-house-manea-kella",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Manea Kella returns a neglected Edwardian terrace in London's Dartmouth Park Conservation Area to a single-family home, opening it to light.",
+              "image": "https://images.adsttc.com/media/images/6ae3/27c2/3271/8400/01d0/fb74/newsletter/Manea_Kella-Heathside_House-French_Tye-13-LOW-RES.jpg?1793271840",
+              "video": null
+            },
+            {
+              "title": "Vegetable Building / Cho and Partners",
+              "url": "https://www.archdaily.com/1188498/vegetable-building-cho-and-partners",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Cho and Partners reworks an old, partly unpermitted building in Seoul's Yeonnam-dong, asking whether to keep or replace the structure.",
+              "image": "https://images.adsttc.com/media/images/6af4/7566/eabd/2a00/0192/c5cc/newsletter/VegetableBuilding_DahaePark_02.jpg?1794405815",
+              "video": null
+            },
+            {
+              "title": "Agnews K12 Campus / LPA",
+              "url": "https://www.archdaily.com/1006617/agnews-k12-campus-lpa-design-studios",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "LPA's Agnews K12 campus combines elementary, middle and high schools on one 55-acre site that once housed a historic mental health facility.",
+              "image": "https://images.adsttc.com/media/images/64ff/0d1a/9e3f/b94d/c42f/8415/newsletter/agnews-k12-campus-lpa-design-studios_5.jpg?1694436659",
+              "video": null
+            },
+            {
+              "title": "Baashyaam Experience Centre / Architecture Dialogue",
+              "url": "https://www.archdaily.com/1187877/baashyaam-experience-centre-architecture-dialogue",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Architecture Dialogue's Baashyaam Experience Centre is a temporary sales pavilion in Chennai, designed for speed and reversibility.",
+              "image": "https://images.adsttc.com/media/images/6ae4/bcc4/bfbd/4c00/01ee/5aa2/newsletter/22.jpg?1793375549",
+              "video": null
+            },
+            {
+              "title": "Terrace Link Extension / YUNGCHEI.plus｜Chei Chang Architects",
+              "url": "https://www.archdaily.com/1187873/terrace-link-extension-yungchelus-chei-chang-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Chei Chang Architects turns a school command stand into a shared public landscape at Chingshuei Elementary in Changhua County, Taiwan.",
+              "image": "https://images.adsttc.com/media/images/6ae4/b9a6/bfbd/4c00/01ee/5a49/newsletter/TERRACE-LINK_12_Yuchen-Chao-Photography.jpg?1793374648",
+              "video": null
+            },
+            {
+              "title": "Heritage Park Mito - Wedding Venue and Restaurant / Archipatch",
+              "url": "https://www.archdaily.com/1187395/heritage-park-mito-wedding-venue-and-restaurant-archipatch",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Archipatch's Heritage Park Mito is a wedding venue and restaurant set beside a busy arterial road in Mito, Japan.",
+              "image": "https://images.adsttc.com/media/images/6ae8/a279/62dc/0e01/8725/75b8/newsletter/heritage-park-mito-wedding-venue-and-restaurant-archipatch_18.jpg?1793630860",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Europe’s Hera mission is ready to double down on asteroid science",
+              "url": "https://www.sciencenews.org/article/europe-hera-mission-double-asteroid",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Europe's Hera spacecraft has begun exploring the binary asteroid Didymos, a mission scientists see as valuable on two fronts.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Rare flat-headed cat prefers elevated palms in Malaysian forest, says study",
+              "url": "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A camera-trap survey in a Sarawak mangrove forest finds the rare flat-headed cat prefers elevated palms.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/16053011/Picture1.png",
+              "video": null
+            },
+            {
+              "title": "A Global Rebound for Mangroves",
+              "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA reports that mangroves are rebounding globally after decades of decline.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_tm5_20100214.jpg",
+              "video": null
+            },
+            {
+              "title": "The Last Ice on Puncak Jaya",
+              "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA reports that ice near the summit of Indonesia's Puncak Jaya has shrunk to scattered patches too small to flow like glaciers.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_tm5_1988308.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Astronomy Picture of the Day shows NGC 7129, a star-forming region with jets captured by Webb.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/10/weic2620a.jpg?w=1280&h=1194&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "The brain’s fear center moonlights as the save button for memories",
+              "url": "https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Research suggests the amygdala, usually linked to fear, may play a major role in deciding which moments are remembered.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_AS_amygdala_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "As butterflies sweep Sri Lanka, global study finds expanding ranges linked to climate change",
+              "url": "https://news.mongabay.com/2026/11/as-butterflies-sweep-sri-lanka-global-study-finds-expanding-ranges-linked-to-climate-change/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A global study links expanding butterfly ranges, including the sweeping butterflies of Sri Lanka, to climate change.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/15100349/Dhananjaya-Dassanayake-3-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Indiana Jones at the fish market: David Ebert on a life spent searching for ‘lost sharks’",
+              "url": "https://news.mongabay.com/2026/11/indiana-jones-at-the-fish-market-david-ebert-on-a-life-spent-searching-for-lost-sharks/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Marine biologist David Ebert, the 'Lost Shark Guy,' describes his career searching for little-known shark species.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11090839/1-Ebert-2017_Shark-Week-with-Frilled-Shark-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "bioQuad Life Sciences Issues Allergy Alert on Undeclared Milk in OsteoDenx® Dietary Supplement",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement",
+      "published": "2026-11-13T23:51:00+00:00"
+    },
+    {
+      "title": "Medline Updates Customers and Patients on Repair and Replace Program for Recall of Medline Brand Beds, Rails, Mattresses and Accessories",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medline-updates-customers-and-patients-repair-and-replace-program-recall-medline-brand-beds-rails",
+      "published": "2026-11-13T19:23:00+00:00"
+    },
+    {
+      "title": "Game Changer Products LLC Issues Voluntary Nationwide Recall of 10 Day Forecast Capsules Due to the Presence of Undeclared Sildenafil and Acetaminophen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
+      "published": "2026-11-12T16:37:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Real generosity toward the future consists in giving all to the present.",
+    "who": "Albert Camus",
+    "about": "French-Algerian writer and Nobel laureate",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 147–119 at WSH",
+      "last_date": "Nov 15",
+      "next": "Mon Nov 16 at MIA",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909991/rockets-wizards",
+      "recent": [
+        "W 147–119 at WSH · Nov 15",
+        "W 125–118 vs UTAH · Nov 13",
+        "W 115–108 vs GS · Nov 11"
+      ],
+      "upcoming": [
+        "Mon Nov 16 at MIA",
+        "Wed Nov 18 at IND",
+        "Fri Nov 20 at DEN"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 63218,
+    "output_tokens": 10152
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Follow The Money To Schumer’s Inner Circle & Jeffries’ Secret Donors",
+          "url": "https://www.youtube.com/watch?v=sHUDIPxUoj0",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Donald Shaw of Sludge discusses reporting on money tied to Hakeem Jeffries and former Chuck Schumer staffers now working as lobbyists for private equity.",
+          "image": "https://i4.ytimg.com/vi/sHUDIPxUoj0/hqdefault.jpg",
+          "video": "sHUDIPxUoj0"
+        },
+        {
+          "title": "We Can't Do This Again",
+          "url": "https://www.youtube.com/watch?v=TtYppes--L4",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Ryan Grim of Drop Site News recaps the 2026 midterm elections on the Majority Report.",
+          "image": "https://i1.ytimg.com/vi/TtYppes--L4/hqdefault.jpg",
+          "video": "TtYppes--L4"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Kayla Harrison vs Amanda Nunes 🚨 | Polymarket UFC 334",
+          "url": "https://www.youtube.com/watch?v=XfgPctvIFiM",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Kayla Harrison and Amanda Nunes face off at UFC 334 in the co-main event.",
+          "image": "https://i1.ytimg.com/vi/XfgPctvIFiM/hqdefault.jpg",
+          "video": "XfgPctvIFiM"
+        },
+        {
+          "title": "Ciryl Gane vs Josh Hokit 🚨 | Polymarket UFC 334",
+          "url": "https://www.youtube.com/watch?v=fjXGqyzzvWQ",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Ciryl Gane and Josh Hokit meet in the UFC 334 main event for the heavyweight title.",
+          "image": "https://i3.ytimg.com/vi/fjXGqyzzvWQ/hqdefault.jpg",
+          "video": "fjXGqyzzvWQ"
+        },
+        {
+          "title": "Purdy, Williams, Deebo, Kittle, McCaffrey, Warner: ‘We Got the Right Guys in the Locker Room’",
+          "url": "https://www.youtube.com/watch?v=OVmXe4Trg6k",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers quarterback Brock Purdy and teammates discuss the offensive win over Dallas and the team's chemistry.",
+          "image": "https://i4.ytimg.com/vi/OVmXe4Trg6k/hqdefault.jpg",
+          "video": "OVmXe4Trg6k"
+        },
+        {
+          "title": "Why 49ers-Cowboys Has \"NUCLEAR MELTDOWN Potential\"",
+          "url": "https://www.youtube.com/watch?v=wedCVuJH1no",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic previews the 49ers-Cowboys matchup, comparing the 49ers' scoring offense with Dallas's defensive struggles.",
+          "image": "https://i4.ytimg.com/vi/wedCVuJH1no/hqdefault.jpg",
+          "video": "wedCVuJH1no"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "BIM for Construction — The Complete Guide",
+          "url": "https://www.youtube.com/watch?v=5nRdPSB1E6s",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley shows how to use AI to build a BIM model from construction drawings and link it to Blender and Bonsai, with an IFC walkthrough.",
+          "image": "https://i2.ytimg.com/vi/5nRdPSB1E6s/hqdefault.jpg",
+          "video": "5nRdPSB1E6s"
+        },
+        {
+          "title": "Claude Fable 5.2 for Construction — Should you switch from Opus?",
+          "url": "https://www.youtube.com/watch?v=ChYnZwJS498",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley runs a 5,000-iteration warehouse construction simulation varying weather, crew productivity and late deliveries, and what drove the finish date.",
+          "image": "https://i4.ytimg.com/vi/ChYnZwJS498/hqdefault.jpg",
+          "video": "ChYnZwJS498"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "The 100-Year Plan to Transform Scotland",
+          "url": "https://www.youtube.com/watch?v=ZYPm4uN1rXw",
+          "source": "Planet Wild",
+          "topic": "Tech & Science",
+          "note": "Planet Wild describes a 100-year plan to restore the Scottish Highlands by rewilding forests and landscapes cleared over millennia.",
+          "image": "https://i3.ytimg.com/vi/ZYPm4uN1rXw/hqdefault.jpg",
+          "video": "ZYPm4uN1rXw"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "The British Pub Food We’ve Been Missing Out On",
+          "url": "https://www.youtube.com/watch?v=uSROE-AoMkk",
+          "source": "Brian Lagerstrom",
+          "topic": "Make & Cook",
+          "note": "Brian Lagerstrom makes a steak and ale pie with tender beef and carrots in a home-friendly flaky crust.",
+          "image": "https://i2.ytimg.com/vi/uSROE-AoMkk/hqdefault.jpg",
+          "video": "uSROE-AoMkk"
+        }
+      ]
+    }
+  ]
+}
