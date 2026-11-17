@@ -1,0 +1,1039 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, November 17, 2026",
+  "generated_at": "2026-11-17T05:00:27-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, November 17. Here is what matters today. Our lead story is from the war in Ukraine. Ukraine's forces targeted a key rail and road bridge between Russia and the Crimean Peninsula for a second day. Russia says it downed more than fourteen hundred Ukrainian drones. Moscow's forces, meanwhile, fired ballistic missiles and drones at Kyiv. Details on damage are still developing. On the front page, California is suing OpenAI over hacking risks. The state's attorney general began investigating after the Hugging Face attack. The attorney general now says that attack was entirely foreseeable because of OpenAI's security practices. Also in technology and policy, the United States has tightened controls on remote access to advanced AI chips. The new rule closes a loophole that let Chinese companies reach those chips remotely, even though physical sales to China are restricted. In sports, the 49ers beat the Cowboys forty-six to forty in Week 10. Christian McCaffrey kept setting records along the way. Now a quick look at each section. In tech and AI, the latest Claude Platform release notes are out. A protocol called AG-UI is trending on GitHub for connecting AI agents to apps. And a Hacker News post claims Windows 11 collects data on which coding agents you use. In politics, The Lever asks whether Democrats could use reconciliation to pass their agenda with fifty-one Senate votes. Drop Site News covers burning oil tankers in Hormuz and a Senate leadership battle. NPR looks at what Democratic midterm wins could mean for diversity initiatives. In world news, Ukraine says Russia targeted a rescue operation after a double-tap strike that killed seventy-two people. Japan scrambled jets after an alleged Russian incursion into its airspace. And Mozambique's opposition leader Venâncio Mondlane faces trial over the deadly 2024 election unrest. In sports, the Rockets lost to the Heat, one twenty-eight to one ten. ESPN explains Mike Evans' Achilles injury. And Amanda Nunes wants a rematch with Kayla Harrison. In Atlanta, a nineteen billion dollar regional plan includes money for The Stitch park. A Chamblee mixed-use complex is recovering after a fire. And Georgia House Republicans chose a new minority leader. In architecture, AEC Magazine looks beyond BIM toward engineering intelligence. Two new projects to see are House in Akashi and HaloPlaza in Hangzhou. In science and nature, Perseverance studied ancient Martian rocks called Idubi. Indonesia plans a marine protected area for whale sharks. And Science News looks at the focus on AI and quantum research. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
+    "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "Ukraine's forces targeted a key rail and road bridge between Russia and the Crimean Peninsula for a second day, according to NPR. The headline reports that Russia downed more than 1,400 Ukrainian drones. At the same time, Moscow's forces fired ballistic missiles and drones at Kyiv. The summary does not give details on damage or casualties, so the full picture is still developing. The story matters because it shows both sides hitting major transport links and a capital city within the same day. The bridge is described as a key connection between Russia and Crimea, and it has now been a target on two consecutive days. Readers who want the latest on the damage and the effect on traffic should watch for follow-up reports through the day.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5159x3439+0+0/resize/5159x3439!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F8b%2F74%2F39dd43ac4231836e0610c7161cfb%2Fap26320380275705.jpg",
+    "video": null,
+    "headline": "Kyiv Hits Crimea Bridge Again as Russia Strikes",
+    "decks": [
+      "Ukraine targets a key rail and road bridge for a second day",
+      "Russia says it downed over 1,400 Ukrainian drones",
+      "Moscow fires ballistic missiles and drones at Kyiv"
+    ]
+  },
+  "front": [
+    {
+      "title": "California sues OpenAI over hacking risks",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "California's attorney general is suing OpenAI over hacking risks, calling the Hugging Face attack \"entirely foreseeable\" because of what the state describes as poor security practices.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2612x1478+0+0/resize/2612x1478!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc9%2F42061abe4e77873c2a1a96c92031%2Fbonta-presser.jpg",
+      "video": null
+    },
+    {
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A new U.S. rule closes a loophole that let Chinese companies remotely access advanced AI chips, even though physical sales to China are restricted.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5367x3578+0+0/resize/5367x3578!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7c%2F22%2F5d8e832c4fd78402c75d44e19475%2Fgettyimages-2303986706-1.jpg",
+      "video": null
+    },
+    {
+      "title": "Christian McCaffrey Keeps the Records Falling in 49ers 46-40 Win over Cowboys",
+      "url": "https://www.49ers.com/news/christian-mccaffrey-keeps-the-records-falling-in-49ers-46-40-win-over-cowboys",
+      "source": "49ers.com",
+      "topic": "Sports",
+      "note": "Christian McCaffrey set more records as the 49ers beat the Cowboys 46-40 in Week 10.",
+      "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/zfm0fcum0dmxceuiom5l.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — November 16, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#text-watermark-claude-opus-4-6-and-4-5-models",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Latest Claude Platform release notes, including text watermarking on supported platforms and how certain sampling settings are handled; relevant if you build tools on the API.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+          "video": null
+        },
+        {
+          "title": "ag-ui-protocol/ag-ui",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "AG-UI is an open protocol for connecting AI agents to user-facing apps, trending on GitHub and useful for anyone building agent interfaces.",
+          "image": "https://opengraph.githubassets.com/1/ag-ui-protocol/ag-ui",
+          "video": null
+        },
+        {
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "source": "Hacker News front page",
+          "topic": "Tech & AI",
+          "note": "A Hacker News post claims Windows 11 collects data on which coding agents and developer tools you use, and it drew heavy discussion.",
+          "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Democrats Have A Way Around The Filibuster. Will They Use It?",
+          "url": "https://www.levernews.com/democrats-have-a-way-around-the-filibuster-will-they-use-it/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever looks at whether Democrats could use reconciliation to pass their agenda with 51 Senate votes, and the role of the parliamentarian.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--43-.png",
+          "video": null
+        },
+        {
+          "title": "Oil tankers burning in Hormuz; Senate leadership battle; Mexican journalist found dead, 6th this year",
+          "url": "https://www.dropsitenews.com/p/oil-tankers-hormuz-senate-leadership-mexican-journalist",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site's daily briefing covers burning oil tankers in Hormuz, a Senate leadership battle and the death of a Mexican journalist.",
+          "image": "https://substackcdn.com/image/fetch/$s_!CMM7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd041400-9e9f-4f27-aa13-01c2e89e458a_6000x4000.heic",
+          "video": null
+        },
+        {
+          "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+          "url": "https://www.npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "NPR asks what Democratic midterm wins could mean for diversity initiatives that the Trump administration has attacked.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+          "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Ukraine says Russia targeted a rescue operation after a \"double-tap\" strike that killed 72 in the south, with recovery efforts hampered by continued strikes.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ba46/live/5efa38d0-df84-11f1-a701-fddedf244c16.png",
+          "video": null
+        },
+        {
+          "title": "Japan sends up jets after alleged Russian incursion of its airspace",
+          "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Japan scrambled jets after an alleged Russian incursion into its airspace, and Taiwan and South Korea also responded to Russian aircraft.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
+          "video": null
+        },
+        {
+          "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Mozambique opposition leader Venâncio Mondlane faces trial on several charges over 2024 post-election protests in which hundreds died.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8a7e/live/95f17ee0-e257-11f1-8199-439bbe0918ee.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Giannis Antetokounmpo scores 20, Heat roll past Rockets 128-110 for 5th straight win",
+          "url": "http://www.espn.com/nba/recap?gameId=401909998",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets fell 128-110 to the Heat, who won their fifth straight; Giannis Antetokounmpo had 20 points and 13 rebounds.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909998.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "49ers WR Mike Evans' Achilles tendinitis injury explained",
+          "url": "https://www.espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "ESPN explains Mike Evans' Achilles tendinitis, including when he might return, which matters for the 49ers' receiving group.",
+          "image": "https://a.espncdn.com/photo/2026/1020/r1733349_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Amanda Nunes wants rematch after submission-loss to Kayla Harrison at UFC 334",
+          "url": "https://www.espn.com/mma/story/_/id/50504744/ufc-nunes-calls-rematch-submission-loss-harrison",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Amanda Nunes is calling for a rematch with Kayla Harrison after her submission loss at UFC 334.",
+          "image": "https://a.espncdn.com/photo/2026/1116/r1746784_576x324_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "$19B ARC plan includes millions for highway-capping Stitch park",
+          "url": "https://atlanta.urbanize.city/post/stitch-beltline-19-billion-atl-regional-commission-plan-millions-highway-capping-project",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A $19B Atlanta Regional Commission plan includes millions for The Stitch, the park that would cap the downtown highway, plus dozens of transit projects.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/EAST%20Stitch%20Oct.%202026%20Phase%201%20-%20Nighttime%20Aerial%20.JPG?itok=Z_bU7yws",
+          "video": null
+        },
+        {
+          "title": "Officials: Following fire, Chamblee mixed-use hub on rebound",
+          "url": "https://atlanta.urbanize.city/post/parkview-peachtree-fire-chamblee-openings-mixed-use-hub-rebound",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Six months after a fire displaced residents, officials say a Chamblee mixed-use complex is recovering, with some retailers returning.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Parkview%20on%20Rreal%20Tacos.jpg?itok=LGMFbc81",
+          "video": null
+        },
+        {
+          "title": "Georgia House GOP to shuffle leadership after election losses",
+          "url": "https://roughdraftatlanta.com/2026/11/16/georgia-house-gop-todd-jones-minority-leader/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Georgia House Republicans chose Todd Jones as minority leader as Democrats prepare to take control of the chamber in January.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/todd-jones-georgia-house-minority-leader-2026-600x400.webp",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Beyond BIM: From Engineering Data to Engineering Intelligence",
+          "url": "https://aecmag.com/sponsored-content/beyond-bim-from-engineering-data-to-engineering-intelligence/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine argues BIM supplies the structured data foundation for the next generation of engineering workflows, a useful read on where BIM is heading.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/10/Sunil-Pandita.jpg",
+          "video": null
+        },
+        {
+          "title": "House in Akashi / Tato Architects",
+          "url": "https://www.archdaily.com/1188549/house-in-akashi-tato-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "House in Akashi by Tato Architects is built around creating room, or open space, using a football analogy.",
+          "image": "https://images.adsttc.com/media/images/6af5/a6b1/eabd/2a00/0192/d4b9/newsletter/aksr_010_DA.jpg?1794483916",
+          "video": null
+        },
+        {
+          "title": "HaloPlaza Hangzhou Vanke Mixed-use Complex / Nikken Sekkei",
+          "url": "https://www.archdaily.com/1187950/haloplaza-hangzhou-vanke-mixed-use-complex-nikken-sekkei",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Nikken Sekkei's HaloPlaza in Hangzhou revitalizes a canal and layers offices, retail, culture and serviced apartments above a public waterfront space.",
+          "image": "https://images.adsttc.com/media/images/6ae8/81dc/bcbc/3500/01ae/ae70/newsletter/_Exterior_Facade1_ShenzhenGuyuArtCultureCommunication.jpg?1793622516",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
+          "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "A Perseverance update on \"Idubi,\" an area of ancient Martian crust with bright rocks that are remnants of long-ago watery systems.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2023_0846533367_473EBY_N0930000ZCAM10057_1100LMJ.jpg?w=1588&h=1200&fit=clip",
+          "video": null
+        },
+        {
+          "title": "Plans for a new marine protected area boost whale shark conservation in Indonesia’s Saleh Bay",
+          "url": "https://news.mongabay.com/2026/11/plans-for-a-new-marine-protected-area-boost-whale-shark-conservation-in-indonesias-saleh-bay/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Plans for a marine protected area in Indonesia's Saleh Bay would give whale sharks protection across several stages of their lifecycle.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/17063203/OceanImageBank_IshanHassan_whale-shark-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "What the Trump administration’s focus on AI and quantum means for science",
+          "url": "https://www.sciencenews.org/article/trump-ai-quantum-science",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Science News reports that AI and quantum research have been favored under Trump, while some scientists worry about what has been displaced.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/1226_ai-quantum_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Trump’s Lame-Duck Power Grab Could Last 15 Years",
+              "url": "https://www.levernews.com/trumps-lame-duck-power-grab-could-last-15-years/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that a lame-duck push could let an administration-installed federal overseer serve until 2041. Concerns how federal oversight could outlast the current Congress.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Trump---s-Lame-Duck-Power-Grab-Could-Last-15-Years-1.png",
+              "video": null
+            },
+            {
+              "title": "Democrats Have A Way Around The Filibuster. Will They Use It?",
+              "url": "https://www.levernews.com/democrats-have-a-way-around-the-filibuster-will-they-use-it/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever examines whether Democrats could use budget reconciliation to pass legislation with 51 Senate votes, and the parliamentarian's role in that process.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--43-.png",
+              "video": null
+            },
+            {
+              "title": "Oil tankers burning in Hormuz; Senate leadership battle; Mexican journalist found dead, 6th this year",
+              "url": "https://www.dropsitenews.com/p/oil-tankers-hormuz-senate-leadership-mexican-journalist",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily covers oil tankers burning in the Strait of Hormuz, a Senate leadership fight, and the death of a Mexican journalist, the sixth this year.",
+              "image": "https://substackcdn.com/image/fetch/$s_!CMM7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd041400-9e9f-4f27-aa13-01c2e89e458a_6000x4000.heic",
+              "video": null
+            },
+            {
+              "title": "The Revolving Door In The Desert",
+              "url": "https://www.levernews.com/the-revolving-door-in-the-desert/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports a new allegation that politically connected figures advanced a large data center project in drought-stricken New Mexico. Relevant to development and infrastructure.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--26-.jpg",
+              "video": null
+            },
+            {
+              "title": "Local Journalist Murdered After BBC Documentary Exposed Police Corruption in Ecuador",
+              "url": "https://www.dropsitenews.com/p/ecuador-journalist-murdered-bbc-documentary-police-corruption",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports on the murder of a local journalist in Ecuador after a BBC documentary on police corruption. Press freedom story from independent media.",
+              "image": "https://substackcdn.com/image/fetch/$s_!zQvJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28be7a52-9799-4b7e-bce6-65f8dc736bea_931x613.jpeg",
+              "video": null
+            },
+            {
+              "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that after the midterms some hope attacks on DEI programs may ease, as Democrats gain ground in Congress.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The U.S. is tightening controls on remote access to advanced AI chips, closing a loophole for Chinese companies after the Nvidia fallout.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5367x3578+0+0/resize/5367x3578!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7c%2F22%2F5d8e832c4fd78402c75d44e19475%2Fgettyimages-2303986706-1.jpg",
+              "video": null
+            },
+            {
+              "title": "California sues OpenAI over hacking risks",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "California's attorney general sues OpenAI over security practices after a Hugging Face attack. Directly relevant to AI companies and regulation.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2612x1478+0+0/resize/2612x1478!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F78%2Fc9%2F42061abe4e77873c2a1a96c92031%2Fbonta-presser.jpg",
+              "video": null
+            },
+            {
+              "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
+              "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Russia says it downed over 1,400 Ukrainian drones while Ukraine targeted a key rail and road bridge linking Russia and Crimea for a second day. Moscow also fired missiles at Kyiv.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5159x3439+0+0/resize/5159x3439!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F8b%2F74%2F39dd43ac4231836e0610c7161cfb%2Fap26320380275705.jpg",
+              "video": null
+            },
+            {
+              "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
+              "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The Crimea bridge reportedly sustained major damage in a Ukrainian strike, and two routes through Kyiv were closed after Russian attacks.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f3f8/live/238ed940-e263-11f1-900c-895604014268.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "President Trump travels to Asia for meetings on trade and security, including a rare trilateral meeting with China's Xi Jinping and Russia's Vladimir Putin.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+              "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Ukraine says Russia targeted a rescue operation after a double-tap strike in southern Ukraine that killed 72 people, with recovery efforts hampered by continuing strikes.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ba46/live/5efa38d0-df84-11f1-a701-fddedf244c16.png",
+              "video": null
+            },
+            {
+              "title": "U.S. moves to prevent China from remotely accessing advanced semi-conductor chips",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6040023/u-s-moves-to-prevent-china-from-remotely-accessing-advanced-semi-conductor-chips",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The Trump administration announced new rules to stop China and other countries from remotely accessing advanced U.S. computing chips and servers.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Japan sends up jets after alleged Russian incursion of its airspace",
+              "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Japan scrambled jets after an alleged Russian incursion into its airspace, with Taiwan and South Korea also responding to Russian aircraft near their airspace.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
+              "video": null
+            },
+            {
+              "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
+              "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Mozambican opposition leader Venâncio Mondlane goes on trial on several charges tied to 2024 post-election protests that left hundreds dead.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8a7e/live/95f17ee0-e257-11f1-8199-439bbe0918ee.jpg",
+              "video": null
+            },
+            {
+              "title": "Cubans struggle with ongoing fuel shortages and blackouts",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6039165/cubans-struggle-with-ongoing-fuel-shortages-and-blackouts",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports Cubans face deepening fuel shortages and blackouts as U.S. oil restrictions tighten, while Washington negotiates with the Castros.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 16, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#text-watermark-claude-opus-4-6-and-4-5-models",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Claude Platform release notes for November 16, 2026, covering text watermarking on supported Claude models and API parameter behavior. Directly relevant to your daily Claude work.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic announces an expanded partnership with GSA to bring Claude to all levels of U.S. government. Relevant to Anthropic and AI adoption news.",
+              "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+              "video": null
+            },
+            {
+              "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+              "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Windows 11 reportedly collects data on which coding agents and developer tools users run, per a widely discussed Hacker News post. Matters to anyone building with coding agents.",
+              "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+              "video": null
+            },
+            {
+              "title": "Running coding agents without handing them my credentials",
+              "url": "https://blog.antonio.cx/running-agents-with-lend",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A write-up on running coding agents without giving them your credentials. Useful security practice for anyone building personal tools with Claude.",
+              "image": "https://prose.sh/card.png",
+              "video": null
+            },
+            {
+              "title": "tradermonty/claude-trading-skills",
+              "url": "https://github.com/tradermonty/claude-trading-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A GitHub trending repo of Claude Code skills for market analysis, charting and strategy development. A popular new Claude-focused project.",
+              "image": "https://opengraph.githubassets.com/1/tradermonty/claude-trading-skills",
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A trending GitHub bundle of 82 Claude Code skills for bug hunting and red-team work. Shows how skill libraries are being built for Claude Code.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "AI for Science expands to foundations and research institutions",
+              "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its AI for Science effort is expanding to foundations and research institutions. Connects Claude to research and science work.",
+              "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
+              "video": null
+            },
+            {
+              "title": "google-labs-code/stitch-skills",
+              "url": "https://github.com/google-labs-code/stitch-skills",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A GitHub trending library of agent skills for the Stitch MCP server, compatible with Claude Code and other coding agents. Relevant to design-tool automation.",
+              "image": "https://opengraph.githubassets.com/1/google-labs-code/stitch-skills",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Kayla Harrison spoils Amanda Nunes' return, wins by submission at UFC 334",
+              "url": "https://www.espn.com/mma/story/_/id/50487730/kayla-harrison-submits-amanda-nunes-retain-title-ufc-334",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Kayla Harrison submitted Amanda Nunes by rear-naked choke in Round 4 to retain the UFC bantamweight title at UFC 334.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1745993_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Ciryl Gane survives early onslaught, edges Josh Hokit in UFC 334 main event",
+              "url": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Ciryl Gane edged Josh Hokit in a five-round UFC 334 main event to defend the heavyweight title.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746000_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Giannis Antetokounmpo scores 20, Heat roll past Rockets 128-110 for 5th straight win",
+              "url": "http://www.espn.com/nba/recap?gameId=401909998",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Giannis Antetokounmpo scored 20 and the Miami Heat beat the Houston Rockets 128-110 for their fifth straight win.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909998.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Rockets hold Wizards' Trae Young scoreless for first time in his NBA career",
+              "url": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets scored a season-high 147 points against the Wizards and held Trae Young scoreless for the first time in his NBA career.",
+              "image": "https://a.espncdn.com/photo/2026/1116/r1746515_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Christian McCaffrey Keeps the Records Falling in 49ers 46-40 Win over Cowboys",
+              "url": "https://www.49ers.com/news/christian-mccaffrey-keeps-the-records-falling-in-49ers-46-40-win-over-cowboys",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Christian McCaffrey set records in the 49ers' 46-40 win over the Cowboys, which the team won in a shootout.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/zfm0fcum0dmxceuiom5l.png",
+              "video": null
+            },
+            {
+              "title": "49ers WR Mike Evans' Achilles tendinitis injury explained",
+              "url": "https://www.espn.com/nfl/story/_/id/50502440/san-francisco-49ers-mike-evans-achilles-tendinitis-injury-recovery",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "ESPN explains Mike Evans' Achilles tendinitis injury for the 49ers, including the possible return timeline.",
+              "image": "https://a.espncdn.com/photo/2026/1020/r1733349_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "After Further Review: Kyle Shanahan Shares Injury Updates, Takeaways from Cowboys Win",
+              "url": "https://www.49ers.com/news/after-further-review-kyle-shanahan-shares-injury-updates-takeaways-from-cowboys-win",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Kyle Shanahan gave injury updates after the 49ers' Week 10 win over Dallas, including the status of several players.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/zactjfzjd29v4nhrccyw.png",
+              "video": null
+            },
+            {
+              "title": "Every MLB team's chance of signing Skubal -- and their backup plans",
+              "url": "https://www.espn.com/mlb/story/_/id/50454235/tarik-skubal-all-30-teams-backup-plans",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Every MLB team's chances of signing free agent Yoshinobu Skubal, the offseason's biggest free agent, with backup plans.",
+              "image": "https://a.espncdn.com/photo/2026/1115/mlb_tarik_skubal_tiers_cr_16x9_608x342.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "$19B ARC plan includes millions for highway-capping Stitch park",
+              "url": "https://atlanta.urbanize.city/post/stitch-beltline-19-billion-atl-regional-commission-plan-millions-highway-capping-project",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Atlanta Regional Commission's $19 billion plan includes millions in federal funding for transit, bike and pedestrian projects, including The Stitch park capping the highway.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/EAST%20Stitch%20Oct.%202026%20Phase%201%20-%20Nighttime%20Aerial%20.JPG?itok=Z_bU7yws",
+              "video": null
+            },
+            {
+              "title": "Officials: Following fire, Chamblee mixed-use hub on rebound",
+              "url": "https://atlanta.urbanize.city/post/parkview-peachtree-fire-chamblee-openings-mixed-use-hub-rebound",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Six months after a fire displaced residents, a Chamblee mixed-use complex is reopening, with three retailers returning.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Parkview%20on%20Rreal%20Tacos.jpg?itok=LGMFbc81",
+              "video": null
+            },
+            {
+              "title": "Crane Watch: At doorstep of Atlanta City Hall, precast building rises",
+              "url": "https://atlanta.urbanize.city/post/trinity-central-flats-atl-city-hall-precast-building-rises",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta's Crane Watch shows a precast building rising beside Atlanta City Hall as part of a project adding more than 200 homes.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-11/Trinity%20Central%20Flats%20November%202026%203.jpg?itok=4fmo6iei",
+              "video": null
+            },
+            {
+              "title": "Analysis declares Atlanta's Top 10 most walkable neighborhoods",
+              "url": "https://atlanta.urbanize.city/post/analysis-atl-top-10-most-walkable-neighborhoods-metro-downtown",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A BestNeighborhood analysis ranks Atlanta's most walkable neighborhoods, showing how far the metro still has to go on walkability.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/full%20metro%20Most%20Walkable%20Atlanta%20Walk%20Grade%20.png?itok=zPX21R-n",
+              "video": null
+            },
+            {
+              "title": "New O4W condo high-rise; Roswell eateries coming; South Downtown",
+              "url": "https://atlanta.urbanize.city/post/old-fourth-ward-condo-tower-south-downtown-roswell-restaurants-coming",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A proposed condo high-rise of up to 225 feet on Angier Avenue in Old Fourth Ward is moving forward near Historic Fourth Ward Park.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/687%20Angier%20Ave.%20and%20707%20Angier%20Ave.%20NE%20.png?itok=nXK161Du",
+              "video": null
+            },
+            {
+              "title": "In heart of Little Five Points, street overhaul set to break ground",
+              "url": "https://atlanta.urbanize.city/post/euclid-avenue-little-five-points-safe-street-overhaul-break-ground",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A street overhaul in Little Five Points is set to break ground, a significant infrastructure change for the neighborhood this year.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Little%20Five%20Points%20Euclid%20Avenue%20Safe%20Street%20map.png?itok=K0YnYbO7",
+              "video": null
+            },
+            {
+              "title": "Connecting Communities: Georgia State’s Alpharetta Campus Panther Quad helps propel Brookside redevelopment",
+              "url": "https://saportareport.com/connecting-communities-georgia-states-alpharetta-campus-panther-quad-helps-propel-brookside-redevelopment/thought-leadership/higher-education/georgia-state-university/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Georgia State's Alpharetta Campus Panther Quad anchors a planned conversion of parking lots and office buildings into a mixed-use Brookside district.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Alpharetta_Main.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Dunwoody holds public hearing on $64 million 2027 budget",
+              "url": "https://roughdraftatlanta.com/2026/11/16/dunwoody-budget-hearing-decreases/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Dunwoody held its first public hearing on a proposed $64 million 2027 budget, including $1.4 million for playground equipment at Homecoming Park.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/08/260506_DunwoodyCityHall_AnsleyKelly_02-600x400.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "AI makes scanned buildings searchable",
+              "url": "https://aecmag.com/cafm/ai-makes-scanned-buildings-searchable/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "qentin uses AI to make scanned building data searchable by natural language, helping facility managers explore digital twins. Directly relevant to AI in BIM.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Beyond BIM: From Engineering Data to Engineering Intelligence",
+              "url": "https://aecmag.com/sponsored-content/beyond-bim-from-engineering-data-to-engineering-intelligence/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine argues BIM's structured data can serve as the foundation for next-generation engineering intelligence workflows.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/Sunil-Pandita.jpg",
+              "video": null
+            },
+            {
+              "title": "HaloPlaza Hangzhou Vanke Mixed-use Complex / Nikken Sekkei",
+              "url": "https://www.archdaily.com/1187950/haloplaza-hangzhou-vanke-mixed-use-complex-nikken-sekkei",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Nikken Sekkei's HaloPlaza in Hangzhou revitalizes a neglected canal with a continuous waterfront public space and layered mixed-use programs above it.",
+              "image": "https://images.adsttc.com/media/images/6ae8/81dc/bcbc/3500/01ae/ae70/newsletter/_Exterior_Facade1_ShenzhenGuyuArtCultureCommunication.jpg?1793622516",
+              "video": null
+            },
+            {
+              "title": "House in Akashi / Tato Architects",
+              "url": "https://www.archdaily.com/1188549/house-in-akashi-tato-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Tato Architects' House in Akashi is organized around creating open space within a compact house, a clear spatial design study.",
+              "image": "https://images.adsttc.com/media/images/6af5/a6b1/eabd/2a00/0192/d4b9/newsletter/aksr_010_DA.jpg?1794483916",
+              "video": null
+            },
+            {
+              "title": "The Black Timber / SO Arquitetura & Design",
+              "url": "https://www.archdaily.com/1188494/the-black-timber-so-arquitetura-and-design",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Black Timber by SO Arquitetura builds almost entirely from one material, exploring two opposing conditions through that choice.",
+              "image": "https://images.adsttc.com/media/images/6af4/6d3f/c23f/1f01/895a/f3d8/newsletter/the-black-timber-so-arquitetura-and-design_21.jpg?1794403714",
+              "video": null
+            },
+            {
+              "title": "Baw Beese House / Disbrow Iannuzzi",
+              "url": "https://www.archdaily.com/1035163/baw-beese-house-disbrow-iannuzzi",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Baw Beese House in Hillsdale, Michigan is a multi-generational lakeside retreat designed for shared and separate use over the years.",
+              "image": "https://images.adsttc.com/media/images/68f2/5486/66e5/d600/015e/8693/newsletter/09_Giraffe_RoundThreePhotography_Lodholz_Exterior_DSC9796-Landscape.jpg?1760711838",
+              "video": null
+            },
+            {
+              "title": "The Floating Cultural Center El Embarcadero / Natura Futura",
+              "url": "https://www.archdaily.com/1188694/the-floating-cultural-center-el-embarcadero-natura-futura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Natura Futura's Floating Cultural Center on the El Embarcadero reconnects a river with its city through public programming.",
+              "image": "https://images.adsttc.com/media/images/6afa/fb2d/8074/f464/a9f9/3283/newsletter/centro-cultural-flotante-el-embarcadero-natura-futura_12.jpg?1794833211",
+              "video": null
+            },
+            {
+              "title": "Lambda House / Guillem Carrera",
+              "url": "https://www.archdaily.com/1188716/lambda-house-guillem-carrera",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Lambda House by Guillem Carrera sits at the edge of a Catalan town, linking residential fabric with agricultural fields.",
+              "image": "https://images.adsttc.com/media/images/6af7/0039/eabd/2a00/0192/e355/newsletter/01.jpg?1794572377",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 17 shows the Milky Way against an aurora.",
+              "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/GalaxyVsAurora_Scheib_960.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+              "video": null
+            },
+            {
+              "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
+              "url": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Perseverance's team reports on ancient Martian rocks at Idubi, remnants of past water-related systems on Mars.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2023_0846533367_473EBY_N0930000ZCAM10057_1100LMJ.jpg?w=1588&h=1200&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Plans for a new marine protected area boost whale shark conservation in Indonesia’s Saleh Bay",
+              "url": "https://news.mongabay.com/2026/11/plans-for-a-new-marine-protected-area-boost-whale-shark-conservation-in-indonesias-saleh-bay/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Plans for a marine protected area in Indonesia's Saleh Bay would give whale sharks new protections across key life stages.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/17063203/OceanImageBank_IshanHassan_whale-shark-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Environmental groups challenge Mexico’s rollback of protections for world’s smallest porpoise",
+              "url": "https://news.mongabay.com/short-article/2026/11/environmental-groups-challenge-mexicos-rollback-of-protections-for-worlds-smallest-porpoise/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Environmental groups are challenging Mexico's rollback of fishing protections in the Gulf of California, where the vaquita is near extinction.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/16205656/AP26038090604260-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Sentinel-6B in Orbit Around Earth",
+              "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Sentinel-6B satellite is in orbit as the reference mission for measuring sea surface height.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26803/PIA26803.jpg?w=1350&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Tossing Fireworks from Cloud to Cloud",
+              "url": "https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA describes lightning seen from the International Space Station as astronauts look back at Earth.",
+              "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+              "video": null
+            },
+            {
+              "title": "In National Geographic’s “Expedition: Saving Our Seas,” it’s all hands on deck",
+              "url": "https://www.sciencenews.org/article/nat-geo-saving-our-seas-documentary",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "National Geographic's Expedition: Saving Our Seas documents scientists discovering new deep-sea life in the Southern Ocean.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/ExpeditionSavingOurSeas_MM10514_260216_01298.jpg?w=601",
+              "video": null
+            },
+            {
+              "title": "The power of the paddy: Japan looks to rice fields to help mitigate flooding",
+              "url": "https://news.mongabay.com/2026/11/the-power-of-the-paddy-japan-looks-to-rice-fields-to-help-mitigate-flooding/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Osaki, Japan installed more than 5,000 earthen rice-field dams to reduce flooding, a nature-based approach to flood control.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13102718/Calidris_acuminata_flocks-rice-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "bioQuad Life Sciences Issues Allergy Alert on Undeclared Milk in OsteoDenx® Dietary Supplement",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement",
+      "published": "2026-11-13T23:51:00+00:00"
+    },
+    {
+      "title": "Medline Updates Customers and Patients on Repair and Replace Program for Recall of Medline Brand Beds, Rails, Mattresses and Accessories",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medline-updates-customers-and-patients-repair-and-replace-program-recall-medline-brand-beds-rails",
+      "published": "2026-11-13T19:23:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Learning without thought is labour lost; thought without learning is perilous.",
+    "who": "Confucius",
+    "about": "Chinese teacher and philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 110–128 at MIA",
+      "last_date": "Nov 16",
+      "next": "Wed Nov 18 at IND",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909998/rockets-heat",
+      "recent": [
+        "L 110–128 at MIA · Nov 16",
+        "W 147–119 at WSH · Nov 15",
+        "W 125–118 vs UTAH · Nov 13"
+      ],
+      "upcoming": [
+        "Wed Nov 18 at IND",
+        "Fri Nov 20 at DEN",
+        "Mon Nov 23 vs LAC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66895,
+    "output_tokens": 10199
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "IRAN BOMBS US BASES As Trump PULLS JD Off Negotiations",
+          "url": "https://www.youtube.com/watch?v=GLZBR8E63LY",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Discusses Iran bombing US bases and Trump pulling JD Vance off negotiations, per the description's summary of the episode.",
+          "image": "https://i4.ytimg.com/vi/GLZBR8E63LY/hqdefault.jpg",
+          "video": "GLZBR8E63LY"
+        },
+        {
+          "title": "Chris Van Hollen Says SCHUMER LYING About Vote Count",
+          "url": "https://www.youtube.com/watch?v=Bfs1-lHXaXo",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Discusses Chris Van Hollen's claim that Schumer is misstating the amount of support he has for leadership.",
+          "image": "https://i3.ytimg.com/vi/Bfs1-lHXaXo/hqdefault.jpg",
+          "video": "Bfs1-lHXaXo"
+        },
+        {
+          "title": "Tech Bros PANIC: BEG NVIDIA, Trump To Take Jensen Back",
+          "url": "https://www.youtube.com/watch?v=QrTF5xnfDbE",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss tech executives' reaction to Jensen Huang and Nvidia, with Trump's involvement.",
+          "image": "https://i2.ytimg.com/vi/QrTF5xnfDbE/hqdefault.jpg",
+          "video": "QrTF5xnfDbE"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Kittle on Purdy-McCaffrey Connection, High-Scoring Win vs. Cowboys | 49ers",
+          "url": "https://www.youtube.com/watch?v=CV3mNsrnNJw",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers TE George Kittle discusses Purdy and McCaffrey's plays and the offense-led Week 10 win over the Cowboys.",
+          "image": "https://i4.ytimg.com/vi/CV3mNsrnNJw/hqdefault.jpg",
+          "video": "CV3mNsrnNJw"
+        },
+        {
+          "title": "On To the Next One: What's Next For Ciryl Gane, Josh Hokit After WILD UFC 334 Fight? | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=En61qmOc2e8",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting breaks down future matchups for Ciryl Gane and Josh Hokit after their UFC 334 heavyweight title main event.",
+          "image": "https://i2.ytimg.com/vi/En61qmOc2e8/hqdefault.jpg",
+          "video": "En61qmOc2e8"
+        },
+        {
+          "title": "Mike Perry EXCLUSIVE INTERVIEW After Re-Signing With the UFC | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=82x0am7zk3Y",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Mike Perry's first interview after re-signing with the UFC, with MMA Fighting's Mike Heck.",
+          "image": "https://i1.ytimg.com/vi/82x0am7zk3Y/hqdefault.jpg",
+          "video": "82x0am7zk3Y"
+        },
+        {
+          "title": "Bengals Roll, Vikings & 49ers IMPRESS While Texans CRUMBLE",
+          "url": "https://www.youtube.com/watch?v=ip1T6VGkNNI",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show recaps Week 10 winners and losers, including the Vikings, Bengals, 49ers, and Texans.",
+          "image": "https://i2.ytimg.com/vi/ip1T6VGkNNI/hqdefault.jpg",
+          "video": "ip1T6VGkNNI"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Live Masterclass - How to Deploy AI in AEC Firms with Victoria Ikede",
+          "url": "https://www.youtube.com/watch?v=0VQAYOE32Tc",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Live masterclass on deploying AI in AEC firms, led by Victoria Ikede, an AI lead and senior BIM manager in Toronto.",
+          "image": "https://i1.ytimg.com/vi/0VQAYOE32Tc/hqdefault.jpg",
+          "video": "0VQAYOE32Tc"
+        },
+        {
+          "title": "The New Claude Projects – Explained for Construction",
+          "url": "https://www.youtube.com/watch?v=CjAg8KIHtiA",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of the rebuilt Claude Projects setup for construction, using a warehouse tender as the worked example.",
+          "image": "https://i4.ytimg.com/vi/CjAg8KIHtiA/hqdefault.jpg",
+          "video": "CjAg8KIHtiA"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Crazy Explosions and How they Occurred?! | Strange Evidence | Science Channel",
+          "url": "https://www.youtube.com/watch?v=BiZEPW6x1iY",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel episode examining the science behind several mysterious explosions, including Manhattan, Moscow, and Hawaii cases.",
+          "image": "https://i3.ytimg.com/vi/BiZEPW6x1iY/hqdefault.jpg",
+          "video": "BiZEPW6x1iY"
+        }
+      ]
+    }
+  ]
+}
