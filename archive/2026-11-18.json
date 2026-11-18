@@ -1,0 +1,1072 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Wednesday, November 18, 2026",
+  "generated_at": "2026-11-18T05:00:21-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Wednesday, November 18. Our lead story is Nvidia. The chip company reported strong quarterly earnings on Tuesday. That was after the dramatic exit of chief executive Jensen Huang. The board says it does not intend to reinstate him. Huang has said he would be honored to return if the board allowed it. In China, there is worry that the scandal could raise pressure on the United States to restrict advanced chip sales further. Now to other front page stories. Mary Peltola has narrowly won Alaska's Senate race, according to an Associated Press race call. She defeated the Republican incumbent, and the seat moves to the Democrats. Vladimir Putin will meet President Trump and Chinese President Xi on Wednesday. This comes after a Ukrainian attack partially collapsed a bridge that Russia prizes. In the Gulf, Iran fired drones at a US radar facility in Bahrain. It was the third round of strikes. The United States fired at Iranian targets along a shipping route. In tech, OpenAI introduced GPT six point two Astra, its new frontier model, and GPT six point two Sol, a more efficient model for everyday work. Now the sections. In Tech and AI, Simon Willison is exploring external sandboxes for coding agents. Claude Platform also added Linked billing in beta, so your customers can pay for usage through their own Claude organization. In Politics, The Lever reports the White House is bypassing normal procedure to install Eric Ueland as a government watchdog for fifteen years. In World news, Secretary of State Marco Rubio says there is zero information that United States outages were caused by a malign actor. In Sports, the Houston Rockets, eleven and four, visit the Indiana Pacers. Olson won a Silver Slugger Award after hitting forty one homers. In Atlanta, the owner of Underground Atlanta has bought an iconic John Portman tower on Peachtree Street. The Board of Regents also named Timothy Lieuwen as sole finalist to lead Georgia Tech. In Architecture, Ricoh launched a tougher three hundred sixty degree camera for construction sites. In Science and Nature, NASA's NICER telescope has ended science operations after six and a half years beyond its initial mission. The scimitar-horned oryx is also back in Chad. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Nvidia reported strong quarterly earnings on Tuesday, the first results since the dramatic exit of chief executive Jensen Huang. The company also said it will not reinstate him. NPR reports that Huang said he would be honored to return if the board allowed it, but the board says it has no intention of doing so. Silicon Valley leaders have pushed for his return. The episode reaches beyond one company. BBC reports that China worries the scandal could raise pressure on the United States to restrict sales of advanced chips further. The Lever raises fresh questions about lawmakers' investments in tech companies they regulate, as Nvidia's stock sinks. For a reader who follows AI closely, the story links the chip supply behind the industry with leadership turmoil, politics and US-China relations, all in the same week.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+    "video": null,
+    "headline": "Nvidia Won't Bring Back Huang Despite Soaring Sales",
+    "decks": [
+      "Nvidia reports strong quarterly earnings after Jensen Huang's dramatic exit",
+      "Board says it has no intention of reinstating the former CEO",
+      "China worries the scandal could bring tighter US chip limits"
+    ]
+  },
+  "front": [
+    {
+      "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+      "url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Mary Peltola narrowly won Alaska's US Senate race, defeating the Republican incumbent, according to an Associated Press race call, flipping the seat to Democrats.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg",
+      "video": null
+    },
+    {
+      "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "Putin will meet Trump and Xi on Wednesday, leaving behind the aftermath of a Ukrainian attack that partially collapsed a bridge Russia prizes.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    },
+    {
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "OpenAI introduced GPT-6.2 Astra, a frontier model for hard projects, and GPT-6.2 Sol, a more efficient model for everyday work, both available in the API.",
+      "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+      "video": null
+    },
+    {
+      "title": "Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "Iran fired drones at a US radar facility in Bahrain for the third round of strikes, and the US fired at Iranian targets along a shipping route.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F97%2F79%2Fdaf7ce984f009fe345ef7aff3a56%2Fap26320429061252.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "External sandboxes for coding agents",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison explores sandboxing code run by agents, aimed at making local models safer to try without risking damage from mistakes or prompt injection.",
+          "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+          "video": null
+        },
+        {
+          "title": "Claude Platform release notes — November 17, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#linked-billing",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Claude Platform adds Linked billing in beta, letting your app's customers pay for Claude usage through their own Claude organization, which matters for anyone building tools on the API.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+          "video": null
+        },
+        {
+          "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake grows as the company grows.",
+          "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Meet The Crony Trump Wants In Charge of Government Oversight",
+          "url": "https://www.levernews.com/meet-the-crony-trump-wants-in-charge-of-government-oversight/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports the White House is bypassing normal procedure to install Eric Ueland as a government watchdog for 15 years.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--28-.jpg",
+          "video": null
+        },
+        {
+          "title": "Congress Is Betting On Nvidia While Writing The Company’s Rules",
+          "url": "https://www.levernews.com/congress-is-betting-on-nvidia-while-writing-the-companys-rules/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever asks fresh questions about lawmakers' investments in Nvidia, a company they regulate, as its stock falls.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--29-.jpg",
+          "video": null
+        },
+        {
+          "title": "Companies That Helped Gut EU Climate Law Turn Up for COP31",
+          "url": "https://www.dropsitenews.com/p/climate-cop31-competitiveness-roundtable",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports members of a fossil fuel coalition attended COP31 in force while the Trump administration boycotted the talks.",
+          "image": "https://substackcdn.com/image/fetch/$s_!bXQ1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2251a81-ecaa-434d-b6f9-a8d4d0227cb0_8256x5504.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Rubio says there's 'zero' information that U.S. outages are caused by a malign actor",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6045411/rubio-outages-malign-actor",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Secretary of State Marco Rubio says there is zero information that US outages are caused by a malign actor.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6882x4588+0+0/resize/6882x4588!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F28%2Fb8%2F576b0fb941f4be9a67becc8931f3%2Fap26322110671262.jpg",
+          "video": null
+        },
+        {
+          "title": "Ghana's new $60m presidential jet sparks public outrage",
+          "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Ghana's new $60 million presidential jet has prompted public outrage over its cost as many Ghanaians struggle with rising living costs.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/377e/live/9eb7bde0-e31b-11f1-81d5-99b8785f3e51.jpg",
+          "video": null
+        },
+        {
+          "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "An American soldier arrested by UK police on suspicion of spying has been taken into US military custody, the Metropolitan Police say.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/42be/live/81981920-e2db-11f1-950d-ffe0c8f51f90.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Pacers host the Rockets in out-of-conference matchup",
+          "url": "http://www.espn.com/nba/preview?gameId=401910008",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Houston Rockets, 11-4 and third in the West, visit the Indiana Pacers, who are 5-9, in an out-of-conference game.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910008.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Olson (41 homers) wins Silver Slugger Award",
+          "url": "https://www.mlb.com/braves/news/2026-silver-slugger-award-winners",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "Olson, who hit 41 homers, won a Silver Slugger Award.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/x9szd1inkn185mqitwmg.jpg",
+          "video": null
+        },
+        {
+          "title": "Abu Dhabi court reduces sentences for 8 in Nurmagomedov-Dvalishvili brawl",
+          "url": "https://www.espn.com/mma/story/_/id/50511188/eight-nurmagomedov-dvalishvili-brawl-get-reduced-sentences",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "An Abu Dhabi court reduced sentences for eight defendants, including six from Team Nurmagomedov, over last week's hotel brawl.",
+          "image": "https://a.espncdn.com/photo/2026/0730/r1695561_2_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Underground Atlanta owner buys iconic John Portman tower",
+          "url": "https://atlanta.urbanize.city/post/underground-atl-owner-buys-iconic-john-portman-tower-lalani-ventures-downtown",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Underground Atlanta's owner has bought an iconic John Portman tower on Peachtree Street, another downtown landmark deal.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/230%20Peachtree%20St.%20split.png?itok=mWoZx2MH",
+          "video": null
+        },
+        {
+          "title": "In Alpharetta, 1980s office park transformation set to kick off",
+          "url": "https://atlanta.urbanize.city/post/portman-alpharetta-1980s-office-park-transformation-begins",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Portman Holdings holds a groundbreaking Wednesday for the transformation of a 1980s Alpharetta office park into a mixed-use project.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-08/Portman%20Alpharetta%20__%20Brookside%202.jpg?itok=9Bkfp3n2",
+          "video": null
+        },
+        {
+          "title": "Board of Regents names Lieuwen sole finalist to lead Georgia Tech",
+          "url": "https://roughdraftatlanta.com/2026/11/17/lieuwen-named-georgia-tech-finalist/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "The Board of Regents named interim president Timothy Lieuwen as sole finalist to lead Georgia Tech permanently.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Dr.-Timothy-C.-Lieuwen-600x429.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Ricoh launches resilient 360° camera for construction",
+          "url": "https://aecmag.com/reality-capture-modelling/ricoh-launches-resilient-360-construction-camera/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Ricoh's Theta A1 360-degree camera adds dust and water protection and better image quality for construction site capture.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Large Glass Openings at Work in a Production Facility",
+          "url": "https://www.archdaily.com/1187141/large-glass-openings-at-work-in-a-production-facility",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A look at how truck access is integrated into glazed facades, covering panel sizes, openings and vehicle maneuvering space.",
+          "image": "https://images.adsttc.com/media/images/6adb/6c2d/20d6/d801/8852/0ce3/newsletter/large-glass-openings-at-work-in-a-production-facility_5.jpg?1792765042",
+          "video": null
+        },
+        {
+          "title": "Madre Culebra Cabin / Taller Viga Maestra",
+          "url": "https://www.archdaily.com/1188802/madre-culebra-cabin-taller-viga-maestra",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Madre Culebra Cabin sits in a native forest clearing in Chile's Andes, designed to alter the land as little as possible.",
+          "image": "https://images.adsttc.com/media/images/6afc/673f/eabd/2a00/0192/faf2/newsletter/07_Refugio_Madre_Culebra_Foto_Pablo_Blanco.jpg?1794926448",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NICER Status Updates",
+          "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's NICER telescope on the space station has ended science operations after six and a half years beyond its initial mission.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2025/01/iss072e487911.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "The scimitar-horned oryx is back in Chad",
+          "url": "https://news.mongabay.com/short-article/2026/11/the-scimitar-horned-oryx-is-back-in-chad/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "The scimitar-horned oryx, once extinct in the wild, is back in Chad thanks to a reintroduction program.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/17165757/Mongabay_Thumbnail_Oryx_Featured-338x512.jpg",
+          "video": null
+        },
+        {
+          "title": "The U.S. just lost its measles elimination status. What now?",
+          "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Data show measles has circulated in the US for more than a year, a sign the virus is now endemic.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111326_EG_measles-elimination_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Meet The Crony Trump Wants In Charge of Government Oversight",
+              "url": "https://www.levernews.com/meet-the-crony-trump-wants-in-charge-of-government-oversight/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The White House is reportedly installing Eric Ueland as top government watchdog, bypassing normal procedure, with the post running for 15 years. The Lever reports Republicans are wary of him.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--28-.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump’s Lame-Duck Power Grab Could Last 15 Years",
+              "url": "https://www.levernews.com/trumps-lame-duck-power-grab-could-last-15-years/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that before Democrats take over Congress, the administration could install a federal overseer serving until 2041. A lame-duck appointment story with long-term reach.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Trump---s-Lame-Duck-Power-Grab-Could-Last-15-Years-1.png",
+              "video": null
+            },
+            {
+              "title": "Congress Is Betting On Nvidia While Writing The Company’s Rules",
+              "url": "https://www.levernews.com/congress-is-betting-on-nvidia-while-writing-the-companys-rules/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that lawmakers have invested in Nvidia while writing rules for the company, and that Jensen Huang's exit has raised questions about those holdings.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--29-.jpg",
+              "video": null
+            },
+            {
+              "title": "Companies That Helped Gut EU Climate Law Turn Up for COP31",
+              "url": "https://www.dropsitenews.com/p/climate-cop31-competitiveness-roundtable",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that companies in a fossil fuel coalition that helped weaken the EU climate law attended COP31, even as the US administration boycotted the talks.",
+              "image": "https://substackcdn.com/image/fetch/$s_!bXQ1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2251a81-ecaa-434d-b6f9-a8d4d0227cb0_8256x5504.jpeg",
+              "video": null
+            },
+            {
+              "title": "Who’s Behind the Poll Claiming Cubans Would Support a U.S. Invasion?",
+              "url": "https://www.dropsitenews.com/p/cuba-poll-invasion-trump-us-government-funding",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News examines US government funding to groups connected to a poll suggesting most Cubans would not oppose a US military intervention.",
+              "image": "https://substackcdn.com/image/fetch/$s_!7Kdb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F62085150-b0d1-4be5-88ec-3d01943bb025_5408x3600.jpeg",
+              "video": null
+            },
+            {
+              "title": "The Dark Money Machine Shaping Democrats’ Mandate",
+              "url": "https://www.levernews.com/the-dark-money-machine-shaping-democrats-mandate/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that banks, crypto firms and the Israel lobby funded super PACs tied to Democratic caucuses, which now seek to shape the party's agenda.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Jeffries-Money-Printing.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+              "url": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Mary Peltola, a former Democratic representative, narrowly won Alaska's U.S. Senate race, flipping the seat from the Republican incumbent, per an AP race call.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4285x2868+0+0/resize/4285x2868!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fde%2F7b%2Fc9c8a3fc4d01bd1e6bf99f1f6d88%2Fmdt-peltola.jpg",
+              "video": null
+            },
+            {
+              "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Sen. Jack Reed raised concerns about FAA oversight of contractors after a nationwide ground stop and criticized a $50 billion funding request from the administration.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F00%2Fce%2F74ffbeab4d4e942456035444dff4%2Fgettyimages-2273266970.jpg",
+              "video": null
+            },
+            {
+              "title": "Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Iran fired drones at a US radar facility in Bahrain, host of the US Navy's 5th Fleet, and the US retaliated against Iranian targets along a key shipping route. Third round of strikes reported.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F97%2F79%2Fdaf7ce984f009fe345ef7aff3a56%2Fap26320429061252.jpg",
+              "video": null
+            },
+            {
+              "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Putin will meet Trump and Xi on Wednesday, after a Ukrainian attack partially collapsed a Russian bridge. A major summit with direct consequences for regional security.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump to meet Chinese leader Xi Jinping and Russia's Vladimir Putin for joint summit",
+              "url": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "President Trump is in Asia for meetings with Xi Jinping and Vladimir Putin covering trade, security and a rare trilateral meeting. Context for the summit coverage.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+              "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Secretary of State Rubio said there was zero evidence that recent disruptions affecting Microsoft, banks and flights are connected, after a series of tech outages.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a56b/live/b9e12140-e2f5-11f1-910a-c953499d69d5.jpg",
+              "video": null
+            },
+            {
+              "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
+              "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Nvidia reported strong quarterly earnings after Jensen Huang's exit and said it will not reinstate him as CEO. Relevant to the AI chip industry you follow.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
+              "video": null
+            },
+            {
+              "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+              "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "China worries that a Nvidia spy scandal could increase US pressure to restrict advanced chip sales, as Trump and Xi prepare to meet.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ec0d/live/1061d030-dea2-11f1-b441-2b33b063138f.jpg",
+              "video": null
+            },
+            {
+              "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+              "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A US soldier arrested by UK police on suspicion of spying has been taken into US military custody, according to the Metropolitan Police.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/42be/live/81981920-e2db-11f1-950d-ffe0c8f51f90.png",
+              "video": null
+            },
+            {
+              "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+              "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Democrat Mary Peltola's Alaska Senate win was confirmed two weeks after midterm counting began, capping the party's midterm Senate results.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8202/live/39cdb760-dc7a-11f1-b23d-9526db010e6c.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 17, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#linked-billing",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Platform release notes for November 17 cover Linked billing in beta, letting customers pay for Claude usage in your app through their own organization. Directly relevant to tools you build with Claude.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+              "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "OpenAI announced GPT-6.2 Astra for hard projects and GPT-6.2 Sol for everyday work, both available in the API. Useful for comparing frontier model options.",
+              "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement with the SEC for a proposed initial public offering of Class A common stock. A major company milestone for Claude's maker.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic launches roadshow for proposed initial public offering",
+              "url": "https://www.anthropic.com/news/roadshow-launch",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has launched a roadshow for its proposed initial public offering. Follows the S-1 filing and signals the IPO is moving forward.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+              "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is expanding its partnership with the GSA to bring Claude to all levels of government. Relevant to where Claude is being deployed.",
+              "image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+              "video": null
+            },
+            {
+              "title": "External sandboxes for coding agents",
+              "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison describes exploring external sandboxes for coding agents, aimed at safely running local models and agent-executed code. Practical for anyone building agent tools.",
+              "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle for bug hunting and red-team work, with 82 skills and 15 slash commands. A trending repo that fits your interest in building with Claude Code.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+              "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Datasette Lite has been rewritten to run the full server-side Datasette app in the browser using service workers and Pyodide. A notable technical build with no server required.",
+              "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+              "video": null
+            },
+            {
+              "title": "Noniv/abyssal-garden",
+              "url": "https://github.com/Noniv/abyssal-garden",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Abyssal Garden is a browser-based underwater scene with kelp forests and manta rays, generated entirely by code using WebGPU in one 97 KB file.",
+              "image": "https://opengraph.githubassets.com/1/Noniv/abyssal-garden",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "What the 49ers and Cowboys Had to Say After Week 10",
+              "url": "https://www.49ers.com/news/what-the-49ers-and-cowboys-had-to-say-after-week-10",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "49ers players and coach react after the Week 10 win over Dallas, a 46-40 result that included 584 yards of offense and McCaffrey record-breaking receiving.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/vdrcssdcfx2jyfscyl46.png",
+              "video": null
+            },
+            {
+              "title": "After Further Review: Kyle Shanahan Shares Injury Updates, Takeaways from Cowboys Win",
+              "url": "https://www.49ers.com/news/after-further-review-kyle-shanahan-shares-injury-updates-takeaways-from-cowboys-win",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Kyle Shanahan gave injury updates and takeaways after the 49ers' Week 10 win over the Cowboys. Useful for tracking the roster ahead of Week 11.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/zactjfzjd29v4nhrccyw.png",
+              "video": null
+            },
+            {
+              "title": "Ciryl Gane survives early onslaught, edges Josh Hokit in UFC 334 main event",
+              "url": "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Ciryl Gane survived a five-round fight with Josh Hokit to defend his UFC heavyweight title at UFC 334.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746000_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Abu Dhabi court reduces sentences for 8 in Nurmagomedov-Dvalishvili brawl",
+              "url": "https://www.espn.com/mma/story/_/id/50511188/eight-nurmagomedov-dvalishvili-brawl-get-reduced-sentences",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "An Abu Dhabi court reduced sentences for eight people, including six members of Team Nurmagomedov, over a hotel brawl in the UAE capital.",
+              "image": "https://a.espncdn.com/photo/2026/0730/r1695561_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Kayla Harrison could take on a familiar foe in next fight",
+              "url": "https://www.espn.com/mma/story/_/id/50494167/ufc-334-next-ciryl-gane-kayla-harrison-more",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Kayla Harrison and Ciryl Gane both defended titles at UFC 334, and Harrison could face a familiar opponent next. Covers the next steps after the card.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746333_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Miami faces Houston, aims for 5th straight win",
+              "url": "http://www.espn.com/nba/preview?gameId=401909998",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (11-3) face the Miami Heat, seeking a fifth straight win. A current Houston result to track.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909998.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Pacers host the Rockets in out-of-conference matchup",
+              "url": "http://www.espn.com/nba/preview?gameId=401910008",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets (11-4) travel to face the Indiana Pacers, who are 5-9. Next game on the schedule for Houston.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910008.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Rockets hold Wizards' Trae Young scoreless for first time in his NBA career",
+              "url": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Rockets scored a season-high 147 points against the Wizards and held Trae Young scoreless for the first time in his NBA career.",
+              "image": "https://a.espncdn.com/photo/2026/1116/r1746515_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgia begins construction on new psychiatric hospital for prisoners",
+              "url": "https://roughdraftatlanta.com/2026/11/17/georgia-forensic-psychiatric-hospital-groundbreaking/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia broke ground on a $409 million forensic psychiatric hospital for people in the criminal justice system awaiting mental health care. Advocates say community services need more funding.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/forensic-psychiatric-hospital-groundbreaking-site-2026-600x450.webp?crop=1",
+              "video": null
+            },
+            {
+              "title": "Board of Regents names Lieuwen sole finalist to lead Georgia Tech",
+              "url": "https://roughdraftatlanta.com/2026/11/17/lieuwen-named-georgia-tech-finalist/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The Board of Regents named Timothy Lieuwen, now interim president, as sole finalist to lead Georgia Tech as permanent president.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Dr.-Timothy-C.-Lieuwen-600x429.png",
+              "video": null
+            },
+            {
+              "title": "Underground Atlanta owner buys iconic John Portman tower",
+              "url": "https://atlanta.urbanize.city/post/underground-atl-owner-buys-iconic-john-portman-tower-lalani-ventures-downtown",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Underground Atlanta's owner, Lalani Ventures, bought an iconic John Portman tower on Peachtree Street, extending its downtown revival.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/230%20Peachtree%20St.%20split.png?itok=mWoZx2MH",
+              "video": null
+            },
+            {
+              "title": "Images: MARTA expansion en route for space-limited train, bus station",
+              "url": "https://atlanta.urbanize.city/post/bankhead-marta-station-expansion-images-development-train-bus-station",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA is advancing a station expansion designed to increase transit capacity near intown amenities where future development is planned.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/MARTA%20Bankhead%20station%20expansion%203.png?itok=maw0js7q",
+              "video": null
+            },
+            {
+              "title": "Crane Watch: At doorstep of Atlanta City Hall, precast building rises",
+              "url": "https://atlanta.urbanize.city/post/trinity-central-flats-atl-city-hall-precast-building-rises",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A downtown precast building is rising near Atlanta City Hall, a project adding more than 200 living options near South Downtown and Underground Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-11/Trinity%20Central%20Flats%20November%202026%203.jpg?itok=4fmo6iei",
+              "video": null
+            },
+            {
+              "title": "In Alpharetta, 1980s office park transformation set to kick off",
+              "url": "https://atlanta.urbanize.city/post/portman-alpharetta-1980s-office-park-transformation-begins",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Portman Holdings is breaking ground on a mixed-use transformation of a 1980s Alpharetta office park, a redevelopment pattern common across metro Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-08/Portman%20Alpharetta%20__%20Brookside%202.jpg?itok=9Bkfp3n2",
+              "video": null
+            },
+            {
+              "title": "Popular Atlanta music school to claim, remake eastside church",
+              "url": "https://atlanta.urbanize.city/post/guitar-shed-popular-atl-music-school-claim-remake-eastside-church",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Guitar Shed, a growing music school, will convert a long-vacant eastside church into a learning space, reusing an existing building in the city.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Hosea%20Guitar%20Shed%20church%20.png?itok=SeeKVGAI",
+              "video": null
+            },
+            {
+              "title": "Analysis declares Atlanta's Top 10 most walkable neighborhoods",
+              "url": "https://atlanta.urbanize.city/post/analysis-atl-top-10-most-walkable-neighborhoods-metro-downtown",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "An analysis ranks Atlanta's most walkable neighborhoods and finds the metro still has far to go, relevant to your work on development in the city.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/full%20metro%20Most%20Walkable%20Atlanta%20Walk%20Grade%20.png?itok=zPX21R-n",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "A two-way facade / CYS.ASDO",
+              "url": "https://www.archdaily.com/1188752/a-two-way-facade-cysdo",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CYS.ASDO's two-way facade addresses how the city sees the building and how occupants see the city, with offset openings that redirect sightlines.",
+              "image": "https://images.adsttc.com/media/images/6afc/51e9/eabd/2a00/0192/fa2b/newsletter/b.jpg?1794920956",
+              "video": null
+            },
+            {
+              "title": "Large Glass Openings at Work in a Production Facility",
+              "url": "https://www.archdaily.com/1187141/large-glass-openings-at-work-in-a-production-facility",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily looks at coordinating glazed facades with truck access, covering panel dimensions, opening mechanisms and vehicle maneuvering in a production facility.",
+              "image": "https://images.adsttc.com/media/images/6adb/6c2d/20d6/d801/8852/0ce3/newsletter/large-glass-openings-at-work-in-a-production-facility_5.jpg?1792765042",
+              "video": null
+            },
+            {
+              "title": "Ricoh launches resilient 360° camera for construction",
+              "url": "https://aecmag.com/reality-capture-modelling/ricoh-launches-resilient-360-construction-camera/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Ricoh launched the Theta A1, a dust and water resistant 360-degree camera for construction site documentation.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Anchorage Road Artist Studio / Ballman Khapalova",
+              "url": "https://www.archdaily.com/1034577/anchorage-road-artist-studio-ballman-khapalova",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Anchorage Road Artist Studio is a 680-square-foot studio designed for north and south light, an economical building that connects to its landscape.",
+              "image": "https://images.adsttc.com/media/images/68da/c5fe/dfc9/5e13/0554/444e/newsletter/anchorage-road-artist-studio-ballman-khapalova_2.jpg?1759168053",
+              "video": null
+            },
+            {
+              "title": "Madre Culebra Cabin / Taller Viga Maestra",
+              "url": "https://www.archdaily.com/1188802/madre-culebra-cabin-taller-viga-maestra",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Madre Culebra Cabin sits in a native forest clearing in Chile's Las Trancas Valley, designed to alter the territory as little as possible.",
+              "image": "https://images.adsttc.com/media/images/6afc/673f/eabd/2a00/0192/faf2/newsletter/07_Refugio_Madre_Culebra_Foto_Pablo_Blanco.jpg?1794926448",
+              "video": null
+            },
+            {
+              "title": "Restoration of the Picote Engineers' Houses and Gardens / Cannatà & Fernandes",
+              "url": "https://www.archdaily.com/1188792/restoration-of-the-picote-engineers-houses-and-gardens-cannata-and-fernandes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The restoration of the Picote engineers' houses, built 1954 to 1957 by Manuel Nunes de Almeida, shows how mid-century housing is being revived.",
+              "image": "https://images.adsttc.com/media/images/6af7/0e2d/eabd/2a00/0192/e47a/newsletter/01_Casa_dos_Engenheiros_by_Jo_o_Ferrand_2.jpg?1794575937",
+              "video": null
+            },
+            {
+              "title": "Dream House / Seiro Arquitectos",
+              "url": "https://www.archdaily.com/1188808/dream-house-seiro-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Casa Ensueño by Seiro Arquitectos is a residence designed as a sequence of open and protected spaces that follow light and air near the Pacific.",
+              "image": "https://images.adsttc.com/media/images/6af7/00c9/eabd/2a00/0192/e3ab/newsletter/SEIRO_ENCANTO-1-2048x1535.jpg?1794572506",
+              "video": null
+            },
+            {
+              "title": "Cabeceiras do Aricanduva Municipal Natural Park / Natureza Urbana",
+              "url": "https://www.archdaily.com/1188795/cabeceiras-do-aricanduva-municipal-natural-park-natureza-urbana",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Natureza Urbana's Nascentes Hub in São Paulo's Cabeceiras do Aricanduva park combines urban infrastructure with Atlantic Forest remnants and river headwaters.",
+              "image": "https://images.adsttc.com/media/images/6afa/93ca/eabd/2a00/0192/f395/newsletter/DSCF5858-Editar-copiar.jpg?1794806786",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 18 – An M-class Solar Flare",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 18 shows an M-class solar flare, a current view of solar activity.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/solar_M_flare.jpg?w=2048&h=2048&fit=clip",
+              "video": null
+            },
+            {
+              "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+              "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA will cover the undocking of a SpaceX Dragon from the International Space Station, carrying research samples and hardware back to Earth no earlier than November 18.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ng35.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NICER Status Updates",
+              "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's NICER X-ray telescope on the space station has ended science operations after six and a half years beyond its initial mission.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2025/01/iss072e487911.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "The U.S. just lost its measles elimination status. What now?",
+              "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Data since January 2025 show measles has circulated for more than a year, so the US has lost its elimination status and the virus is now endemic.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111326_EG_measles-elimination_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "The scimitar-horned oryx is back in Chad",
+              "url": "https://news.mongabay.com/short-article/2026/11/the-scimitar-horned-oryx-is-back-in-chad/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The scimitar-horned oryx, declared extinct in the wild in 2000, has been reintroduced in Chad through a conservation program and its status has improved.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/17165757/Mongabay_Thumbnail_Oryx_Featured-338x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Jason Clay, who persuaded big business to help save nature, has died at 75",
+              "url": "https://news.mongabay.com/2026/11/jason-clay-who-persuaded-big-business-to-help-save-nature-has-died-at-75/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Jason Clay, an anthropologist who persuaded big business to help save nature, has died at 75, according to Mongabay.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/17215347/jason-clay-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Larbi Inc. Recalls Yellow Dock Root Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+      "published": "2026-11-17T23:30:00+00:00"
+    },
+    {
+      "title": "ALDI Recalls Priano Protein Carbonara Tortelloni and Priano Protein Herb & Cheese Tortelloni Because Of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-protein-herb-cheese-tortelloni-because",
+      "published": "2026-11-16T16:20:00+00:00"
+    },
+    {
+      "title": "Naia, Inc. Recalls Chocolate Banana Bar Sorbetto Because of Undeclared Milk, Eggs, and Nuts",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts",
+      "published": "2026-11-16T14:18:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Extreme pride or dejection indicates extreme ignorance of self.",
+    "who": "Baruch Spinoza",
+    "about": "Dutch philosopher who wrote on ethics and freedom",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 110–128 at MIA",
+      "last_date": "Nov 16",
+      "next": "Wed Nov 18 at IND",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909998/rockets-heat",
+      "recent": [
+        "L 110–128 at MIA · Nov 16",
+        "W 147–119 at WSH · Nov 15",
+        "W 125–118 vs UTAH · Nov 13"
+      ],
+      "upcoming": [
+        "Wed Nov 18 at IND",
+        "Fri Nov 20 at DEN",
+        "Mon Nov 23 vs LAC"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 65580,
+    "output_tokens": 10701
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Krystal Vs Emma Vigeland On AOC, Ro Khanna Leadership CAVE",
+          "url": "https://www.youtube.com/watch?v=Rj5YO_M7HNE",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Democratic leadership and Ro Khanna, with commentary from Emma Vigeland on AOC.",
+          "image": "https://i3.ytimg.com/vi/Rj5YO_M7HNE/hqdefault.jpg",
+          "video": "Rj5YO_M7HNE"
+        },
+        {
+          "title": "AOC Ex Aide: How New Dems Can Avoid Her Mistakes",
+          "url": "https://www.youtube.com/watch?v=yWWSDB-0huc",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Former AOC aide Saikat Chakrabarti joins to discuss what incoming Democrats can do differently, drawing on mistakes he says were made.",
+          "image": "https://i2.ytimg.com/vi/yWWSDB-0huc/hqdefault.jpg",
+          "video": "yWWSDB-0huc"
+        },
+        {
+          "title": "NVIDIA Says Jensen NOT COMING BACK",
+          "url": "https://www.youtube.com/watch?v=m-rS__hqWm0",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Nvidia's statement that Jensen Huang is not returning.",
+          "image": "https://i2.ytimg.com/vi/m-rS__hqWm0/hqdefault.jpg",
+          "video": "m-rS__hqWm0"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Jiri Prochazka vs Khalil Rountree Jr | FULL FIGHT | UFC Qatar",
+          "url": "https://www.youtube.com/watch?v=cDP604urgHg",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full fight of Jiri Prochazka against Khalil Rountree Jr at UFC Qatar, ahead of Prochazka's main event against Navajo Stirling.",
+          "image": "https://i4.ytimg.com/vi/cDP604urgHg/hqdefault.jpg",
+          "video": "cDP604urgHg"
+        },
+        {
+          "title": "UFC Journey: Prochazka vs Stirling Part 1",
+          "url": "https://www.youtube.com/watch?v=H7V_YLP-TgM",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC Journey profile of Navajo Stirling and Yuri Prochazka ahead of their light heavyweight clash, covering their backgrounds and preparation.",
+          "image": "https://i1.ytimg.com/vi/H7V_YLP-TgM/hqdefault.jpg",
+          "video": "H7V_YLP-TgM"
+        },
+        {
+          "title": "Rams Pony (Personnel) Up, Mendoza Flashes & What Is the Bills Defense?",
+          "url": "https://www.youtube.com/watch?v=M39veJqrxkw",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Athletic Football Show breaks down Week 10 wins by the Seahawks, Bills and Rams, including Rams personnel and the Bills defense.",
+          "image": "https://i2.ytimg.com/vi/M39veJqrxkw/hqdefault.jpg",
+          "video": "M39veJqrxkw"
+        },
+        {
+          "title": "How Josh Downs Is SAVING the Chiefs Offense",
+          "url": "https://www.youtube.com/watch?v=PTv6onVaoq0",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Analysis of how Chiefs trade acquisition Josh Downs fits the Kansas City offense after one game.",
+          "image": "https://i1.ytimg.com/vi/PTv6onVaoq0/hqdefault.jpg",
+          "video": "PTv6onVaoq0"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "AI Estimating & Take-offs - Step-by-Step",
+          "url": "https://www.youtube.com/watch?v=9zQdPaZwzqQ",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Walkthrough of using AI across construction estimating, from tender documents to a checked price, with a warehouse example.",
+          "image": "https://i2.ytimg.com/vi/9zQdPaZwzqQ/hqdefault.jpg",
+          "video": "9zQdPaZwzqQ"
+        },
+        {
+          "title": "Top 5 Mistakes in Revit Beginners Make | Correct way to work in Revit Tutorial",
+          "url": "https://www.youtube.com/watch?v=9WVmt-vg8d0",
+          "source": "Balkan Architect",
+          "topic": "Architecture & Building",
+          "note": "Five common Revit beginner mistakes, such as exploding CAD files, with guidance on a better workflow.",
+          "image": "https://i2.ytimg.com/vi/9WVmt-vg8d0/hqdefault.jpg",
+          "video": "9WVmt-vg8d0"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "A season on the farm with AI",
+          "url": "https://www.youtube.com/watch?v=RRj07Hc3ikU",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Biologist Martina Wanis describes a sweet potato growing season in Slovenia, using Claude throughout the year.",
+          "image": "https://i3.ytimg.com/vi/RRj07Hc3ikU/hqdefault.jpg",
+          "video": "RRj07Hc3ikU"
+        },
+        {
+          "title": "Why It’s Impossible To Live On America’s Best Islands",
+          "url": "https://www.youtube.com/watch?v=6nRvHeb8eb4",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geoff explains why many of America's best-known islands are hard to live on, looking at their remoteness and costs.",
+          "image": "https://i3.ytimg.com/vi/6nRvHeb8eb4/hqdefault.jpg",
+          "video": "6nRvHeb8eb4"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "The Most Addictive Vodka Pasta You'll Ever Make",
+          "url": "https://www.youtube.com/watch?v=sOFUWhuHa2s",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "Recipe walkthrough for a penne alla vodka pasta with tomato paste, with ingredient amounts listed in the description.",
+          "image": "https://i4.ytimg.com/vi/sOFUWhuHa2s/hqdefault.jpg",
+          "video": "sOFUWhuHa2s"
+        }
+      ]
+    }
+  ]
+}
