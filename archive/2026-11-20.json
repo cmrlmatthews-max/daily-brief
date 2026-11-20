@@ -1,0 +1,1036 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, November 20, 2026",
+  "generated_at": "2026-11-20T05:00:24-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, November 20. Our lead story comes from Ukraine. A major Russian missile attack hit three bridges in Kyiv. Five people were killed in the wave of strikes. The attack follows Ukraine's successful targeting of the Crimean Bridge. European allies of Ukraine say they have a united position and are ready for talks with Russia. Now the other front page stories. The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya. The court found that Myanmar security forces acted with genocidal intent during military operations in northern Rakhine state in 2017. In Europe, the United Kingdom and the European Union hold a rare summit today. A decade after the Brexit vote, top EU officials are meeting Prime Minister Andy Burnham. A youth mobility scheme is expected to be approved. For your own work, Claude Platform has launched Linked billing in beta. Customers can now pay for Claude usage in your app through their own Claude organization. In politics, The Lever looks at Senator Chris Van Hollen's leadership challenge against Chuck Schumer. Federal judges have delayed work on Trump's arch for a matter of days. And NPR reports Democrats won 56 percent of House votes in the midterms, to 42 percent for Republicans. In tech, a Claude Code skill bundle for bug hunting is trending on GitHub. There is also an add-on that connects Blender to Claude and other models through M C P. Simon Willison writes about sandboxes for coding agents. In world news, Iran has escalated attacks on ships in the Strait of Hormuz. A youth mobility deal is also expected at the UK and EU summit. In sports, the Rockets are twelve and four and visit the Nuggets tonight in the NBA Cup. The 49ers meet the Vikings in Mexico City. And Amanda Nunes wants a rematch with Kayla Harrison. In Atlanta, a three million dollar streets overhaul is set to begin in Little Five Points. MARTA has installed its final upgraded faregate. And a tax incentive was approved for the Piedmont Center revamp in Buckhead. In architecture, a London project uses the Tekla A P I to reuse structural steel. AEC Magazine looks beyond BIM to engineering intelligence. And a solar parking roof in the shape of a morning glory is on A R C H Daily. In science, NASA fired an RS-25 engine for future Artemis missions. Fermi data is helping find pulsars much faster. And meerkats with GPS trackers found their way home on their own. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Three Kyiv bridges hit during major Russian missile attack",
+    "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "Russia carried out a major missile attack that hit three bridges in Kyiv, BBC World reports. Five people were killed in the wave of strikes. The attack follows Ukraine's successful targeting of the Crimean Bridge, which has been in the news over recent days. Taken together, the two events show both sides going after key crossings. Bridges matter because they carry people, goods and vehicles across a city and a region, which is why they draw attention in a war. The short summary does not say how badly the three Kyiv bridges were damaged, who the victims were, or how the strikes will affect movement around the capital. Those details will need further reporting. For now, it is the most significant new development in the war today, and it comes as European leaders say they are ready for talks with Russia.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78b1/live/a02c1e30-e4b7-11f1-808e-7d48dd17194a.jpg",
+    "video": null,
+    "headline": "Russian Missiles Hit Three Kyiv Bridges",
+    "decks": [
+      "Five people were killed in a wave of Russian strikes",
+      "Attack follows Ukraine's successful targeting of the Crimean Bridge",
+      "BBC World reports the strikes on Friday"
+    ]
+  },
+  "front": [
+    {
+      "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "The International Court of Justice found that Myanmar security forces acted with genocidal intent against the Rohingya during 2017 operations in northern Rakhine state.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7626x5084+0+0/resize/7626x5084!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F36%2F3b%2F65170ca542b4b8f2a8692418a464%2Fgettyimages-2305284448.jpg",
+      "video": null
+    },
+    {
+      "title": "The U.K. and EU hold a rare summit to strengthen ties",
+      "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A decade after the Brexit vote, top EU officials meet Prime Minister Andy Burnham on Friday to mend more fences.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5303x3535+0+0/resize/5303x3535!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Faf%2Fca%2F5e1352384fd6bdc90c42b50069e8%2Fap26316633592372.jpg",
+      "video": null
+    },
+    {
+      "title": "Claude Platform release notes — November 17, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#linked-billing",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "Claude Platform launched Linked billing in beta, letting your app's customers pay for Claude usage through their own Claude organization. Useful if you build tools for others.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+      "video": null
+    },
+    {
+      "title": "Chris Van Hollen Is Threatening The Democratic Machine",
+      "url": "https://www.levernews.com/chris-van-hollen-is-threatening-the-democratic-machine/",
+      "source": "The Lever",
+      "topic": "Politics",
+      "note": "The Lever reports on Maryland Sen. Chris Van Hollen's leadership challenge against Chuck Schumer and the kind of Senate leadership job he describes.",
+      "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Chris-Van-Hollen.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A Claude Code skill bundle for bug hunting, with 82 skills and 15 slash commands, is trending on GitHub and relevant to your Claude tooling.",
+          "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+          "video": null
+        },
+        {
+          "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+          "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "An MCP server and AI assistant add-on for Blender that works with Claude and other models, showing how MCP reaches 3D tools.",
+          "image": "https://opengraph.githubassets.com/1/bookwjitchieni1986/blender-ai-mcp-addon",
+          "video": null
+        },
+        {
+          "title": "External sandboxes for coding agents",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison explores external sandboxes for coding agents, aiming to make local models safer to try without damaging your machine.",
+          "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Israeli Diplomat Offered Iowa Attorney General Free Trip, Then Asked for Favors",
+          "url": "https://www.dropsitenews.com/p/israel-iowa-attorney-general-brenna-bird",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports FOIA disclosures and hacked emails show an Israeli diplomat offered an Iowa attorney general a free trip, then asked for favors.",
+          "image": "https://substackcdn.com/image/fetch/$s_!Rzv0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c73502e-ed0b-4c51-b16d-c86059abefbb_5268x3512.jpeg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Federal judges have delayed construction of Trump's arch and kept East Potomac Park open, but only for a matter of days.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5400x3038+0+0/resize/5400x3038!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcb%2F51%2F45f19489479aa954d177e2981de0%2Ftrump-construction-duo.png",
+          "video": null
+        },
+        {
+          "title": "The midterms were the largest win for either party in 50 years",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "NPR reports Democrats won 56% of House votes to Republicans' 42%, the widest spread for either party in 50 years.",
+          "image": "https://www.npr.org/2026/11/19/nx-s1-6045916/undefined",
+          "video": null
+        },
+        {
+          "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+          "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "NPR reports Iran has escalated attacks on ships in the Strait of Hormuz and airstrikes on several Gulf countries.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Rockets visit Nuggets Friday in NBA Cup group stage",
+          "url": "http://www.espn.com/nba/preview?gameId=401909312",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets, 12-4 and third in the West, visit the Nuggets on Friday in NBA Cup group play.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909312.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Vikings-49ers matchup in Mexico features the best defense vs. the best offense",
+          "url": "http://www.espn.com/nfl/preview?gameId=401873077",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers face the Vikings in Mexico City in a matchup of the best defense against the best offense.",
+          "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873077.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Amanda Nunes wants rematch after submission loss to Kayla Harrison at UFC 334",
+          "url": "https://www.espn.com/mma/story/_/id/50504744/ufc-nunes-calls-rematch-submission-loss-harrison",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Amanda Nunes wants a rematch with Kayla Harrison after tapping out in their bantamweight title fight at UFC 334.",
+          "image": "https://a.espncdn.com/photo/2026/1116/r1746784_576x324_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Before/After: Little Five Points overhaul comes into sharper focus",
+          "url": "https://atlanta.urbanize.city/post/before-after-little-five-points-streets-overhaul-comes-sharper-focus",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Mayor Andre Dickens and local leaders will start a $3 million streets overhaul meant to make Little Five Points safer.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Euclid%20Avenue%20Safe%20Street%20project%201.jpg?itok=xAGBHllj",
+          "video": null
+        },
+        {
+          "title": "MARTA: Tap-and-go Breeze upgrades have reached milestone",
+          "url": "https://atlanta.urbanize.city/post/marta-breeze-card-tap-faregates-upgrades-are-now-complete",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "MARTA has installed its final upgraded faregate, a milestone for tap-and-go Breeze upgrades thirteen months after the rollout began.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-11/MARTA%20Better%20Breeze%20faregates%20and%20ticket%20vending%20machines.jpeg?itok=BSoTwims",
+          "video": null
+        },
+        {
+          "title": "Develop Fulton gives tax cuts to Piedmont Center revamp",
+          "url": "https://roughdraftatlanta.com/2026/11/19/piedmont-center-redevelopment-incentive/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Develop Fulton approved a $16.5 million tax incentive for a $269 million revitalization of the Piedmont Center office campus in Buckhead.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/01/11-19-CW-PiedmontCenter-6287-Pano-scaled-e1795035497966-600x372.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Tekla API helps transform structural steel reuse",
+          "url": "https://aecmag.com/structural-engineering/tekla-api-helps-transform-structural-steel-reuse/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "A London project uses the Tekla API and custom automation to maximize reclaimed structural steel, a practical case of automation in AEC.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Beyond BIM: From Engineering Data to Engineering Intelligence",
+          "url": "https://aecmag.com/sponsored-content/beyond-bim-from-engineering-data-to-engineering-intelligence/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AEC Magazine argues BIM's structured data is the foundation for next-generation engineering workflows, relevant to your interest in AI and BIM.",
+          "image": "https://aecmag.com/wp-content/uploads/2026/10/Sunil-Pandita.jpg",
+          "video": null
+        },
+        {
+          "title": "Thepwatana Solar Parking Roof / Openbox Architects",
+          "url": "https://www.archdaily.com/1188939/thepwatana-solar-parking-roof-openbox-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A morning-glory-shaped solar parking roof shelters cars, harvests rain and generates energy for an agricultural technology company.",
+          "image": "https://images.adsttc.com/media/images/6aff/01bf/eabd/2a00/0193/24a2/newsletter/TWPR-OPNBX_by_Panoramic_Studio__17_.jpg?1795097044",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+          "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA fired RS-25 engine No. 10001 for the planned 200 seconds at Stennis, supporting future Artemis missions.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ssc-20261118-s01364.jpg?w=1024",
+          "video": null
+        },
+        {
+          "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+          "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Open data from NASA's Fermi mission helped scientists develop a way to find hard-to-find pulsars about a million times faster.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&h=928&fit=clip",
+          "video": null
+        },
+        {
+          "title": "Solo meerkats can find their way back home",
+          "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Meerkats wearing GPS trackers found their way home alone from more than a kilometer away.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111926_MR_meerkat_main.jpg?w=800",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Chris Van Hollen Is Threatening The Democratic Machine",
+              "url": "https://www.levernews.com/chris-van-hollen-is-threatening-the-democratic-machine/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports on Maryland Senator Chris Van Hollen's leadership challenge against Chuck Schumer and his vision for the job.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Chris-Van-Hollen.jpg",
+              "video": null
+            },
+            {
+              "title": "Van Hollen Wants Schumer’s Job. Here’s Where They Split.",
+              "url": "https://www.levernews.com/van-hollen-wants-schumers-job-heres-where-they-split/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever outlines where Van Hollen and Schumer differ on Medicare for All, weapons for Israel, and AI regulation.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Majority-Democrats-Billionaires-Van-Hollen-Schumer.png",
+              "video": null
+            },
+            {
+              "title": "Israeli Diplomat Offered Iowa Attorney General Free Trip, Then Asked for Favors",
+              "url": "https://www.dropsitenews.com/p/israel-iowa-attorney-general-brenna-bird",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports, based on FOIA disclosures and hacked emails, on an Israeli diplomat's offer of a trip to Iowa's attorney general and requests for favors tied to anti-boycott laws.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Rzv0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c73502e-ed0b-4c51-b16d-c86059abefbb_5268x3512.jpeg",
+              "video": null
+            },
+            {
+              "title": "Weapons Makers Want To Keep Their Pentagon Repair Racket",
+              "url": "https://www.levernews.com/weapons-makers-want-to-keep-their-pentagon-repair-racket/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that defense contractors control the data needed to repair military equipment and are opposing legislation that would end those repair monopolies.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--33-.jpg",
+              "video": null
+            },
+            {
+              "title": "Sanders’ New Plan For Medicare For All Runs Through Hakeem Jeffries",
+              "url": "https://www.levernews.com/sanders-new-plan-for-medicare-for-all-runs-through-hakeem-jeffries/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Bernie Sanders plans to push Medicare for All through Hakeem Jeffries, aiming to make the proposal universal within four years.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--31-.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "The midterms were the largest win for either party in 50 years",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Democrats won House races by 14 points, 56% to 42%, the widest margin for either party in 50 years, according to NPR analysis of the midterm results.",
+              "image": "https://www.npr.org/2026/11/19/nx-s1-6045916/undefined",
+              "video": null
+            },
+            {
+              "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A federal judge has twice delayed construction of Trump's arch, and another ruling keeps East Potomac Park open while a golf course redesign is reviewed.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5400x3038+0+0/resize/5400x3038!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcb%2F51%2F45f19489479aa954d177e2981de0%2Ftrump-construction-duo.png",
+              "video": null
+            },
+            {
+              "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya, finding its forces acted with genocidal intent in Rakhine state in 2017.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7626x5084+0+0/resize/7626x5084!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F36%2F3b%2F65170ca542b4b8f2a8692418a464%2Fgettyimages-2305284448.jpg",
+              "video": null
+            },
+            {
+              "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Trump, Xi Jinping, and Vladimir Putin met in Shenzhen, China, for a trilateral meeting with Ukraine, Iran, and nuclear disarmament on the agenda.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4147x2765+0+0/resize/4147x2765!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F42%2F55%2Fab53a66d41cea788e3772c0daf20%2Fap26323327946792.jpg",
+              "video": null
+            },
+            {
+              "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Iran has attacked ships in the Strait of Hormuz and carried out airstrikes on several countries around the Persian Gulf, NPR reports.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Three Kyiv bridges hit during major Russian missile attack",
+              "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Five people were killed in Russian missile strikes that hit three bridges in Kyiv, following Ukraine's targeting of the Crimean Bridge.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78b1/live/a02c1e30-e4b7-11f1-808e-7d48dd17194a.jpg",
+              "video": null
+            },
+            {
+              "title": "The U.K. and EU hold a rare summit to strengthen ties",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "UK and EU officials are meeting with Prime Minister Andy Burnham for a rare summit aimed at repairing ties a decade after the Brexit vote.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5303x3535+0+0/resize/5303x3535!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Faf%2Fca%2F5e1352384fd6bdc90c42b50069e8%2Fap26316633592372.jpg",
+              "video": null
+            },
+            {
+              "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "European allies of Ukraine say they have a united negotiating position ahead of possible talks with Russia on ending the war, according to leaders at a Berlin summit.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1fd8/live/5c168a90-e44a-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "China issues Mount Fuji warning as family of missing climber offers reward",
+              "url": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "China issued a warning about Mount Fuji after the family of a missing climber offered a $75,000 reward for information.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7477/live/03075bf0-e495-11f1-aa9a-13606df278ac.jpg",
+              "video": null
+            },
+            {
+              "title": "US army warns detonation of unstable explosives will create toxic plume",
+              "url": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The U.S. Army delayed a controlled explosion of unstable lead azide in eastern Iowa to Monday after residents and lawmakers raised concerns about a toxic plume.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fcee/live/c0069740-e475-11f1-9a84-5bed4823e5ff.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 17, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#linked-billing",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Claude Platform release notes for November 17 announce Linked billing in beta, letting app customers pay for Claude usage through their own Claude organization. Relevant to anyone building Claude-based tools.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "Anthropic prices initial public offering",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has announced pricing for its initial public offering. Companion coverage reports the offering raised more than $100 billion.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement on Form S-1 with the SEC for its proposed initial public offering of Class A common stock.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+              "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "OpenAI introduced GPT-6.2 Astra and GPT-6.2 Sol, available in the API, with a new LLM 0.38 release adding support for them.",
+              "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle with 82 skills and 15 slash commands for bug hunting and red-team work, trending on GitHub.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+              "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "An open-source AI assistant and MCP server add-on for Blender that works with Claude and other models, relevant to 3D and design modeling workflows.",
+              "image": "https://opengraph.githubassets.com/1/bookwjitchieni1986/blender-ai-mcp-addon",
+              "video": null
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Superpowers is an agentic skills framework and software development methodology for coding agents, trending on GitHub.",
+              "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+              "video": null
+            },
+            {
+              "title": "PostgreSQL 19 Released",
+              "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "PostgreSQL 19 was released two months later than usual, largely to address a flood of AI-reported vulnerabilities.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Rockets visit Nuggets Friday in NBA Cup group stage",
+              "url": "http://www.espn.com/nba/preview?gameId=401909312",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Houston Rockets (12-4) visit the Denver Nuggets (8-5) in an NBA Cup group stage game on Friday.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909312.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "2026-27 MLB free agency, trade grades: Offseason analysis",
+              "url": "https://www.espn.com/mlb/story/_/id/50473334/2026-27-offseason-free-agency-trade-grades",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Atlanta Braves coverage grades the winter signings and big offseason trades in the 2026-27 MLB free agency period.",
+              "image": "https://a.espncdn.com/photo/2026/1118/r1747698_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "A tracker of the 2026-27 MLB offseason trades and signings, covering moves across the league as the hot stove heats up.",
+              "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Every MLB team's chance of signing Skubal -- and their backup plans",
+              "url": "https://www.espn.com/mlb/story/_/id/50454235/tarik-skubal-all-30-teams-backup-plans",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "An overview of every MLB team's chances of landing free agent Tarik Skubal, with backup plans, relevant to the Braves' offseason.",
+              "image": "https://a.espncdn.com/photo/2026/1115/mlb_tarik_skubal_tiers_cr_16x9_608x342.jpg",
+              "video": null
+            },
+            {
+              "title": "Amanda Nunes wants rematch after submission loss to Kayla Harrison at UFC 334",
+              "url": "https://www.espn.com/mma/story/_/id/50504744/ufc-nunes-calls-rematch-submission-loss-harrison",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Amanda Nunes is calling for a rematch against Kayla Harrison after losing by submission in their UFC 334 bantamweight title fight.",
+              "image": "https://a.espncdn.com/photo/2026/1116/r1746784_576x324_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Abu Dhabi court reduces sentences for 8 in Nurmagomedov-Dvalishvili brawl",
+              "url": "https://www.espn.com/mma/story/_/id/50511188/eight-nurmagomedov-dvalishvili-brawl-get-reduced-sentences",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "An Abu Dhabi court reduced sentences for eight people, including six members of Team Nurmagomedov, over a hotel brawl involving Nurmagomedov and Dvalishvili.",
+              "image": "https://a.espncdn.com/photo/2026/0730/r1695561_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Kayla Harrison could take on a familiar foe in next fight",
+              "url": "https://www.espn.com/mma/story/_/id/50494167/ufc-334-next-ciryl-gane-kayla-harrison-more",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "After the first title defenses at UFC 334, the options for Ciryl Gane and Kayla Harrison are being weighed, including a possible familiar opponent.",
+              "image": "https://a.espncdn.com/photo/2026/1115/r1746333_2_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
+              "url": "https://www.espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Week 11 uniforms preview, including Houston's debut of its Rivalries look ahead of the Colts-Texans game.",
+              "image": "https://a.espncdn.com/photo/2026/1117/commanders-texans-week-11-unis16x9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Georgia’s next secretary of state announces transition team",
+              "url": "https://roughdraftatlanta.com/2026/11/19/penny-brown-reynolds-secretary-of-state-transition-team/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Penny Brown Reynolds, Georgia's incoming secretary of state, named a transition team including Senators Raphael Warnock and Jon Ossoff, and said expanding voter access is a main goal.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/penny-brown-reynolds-secretary-of-state-transition-team-2026-600x450.webp?crop=1",
+              "video": null
+            },
+            {
+              "title": "Bill to create Georgia’s first National Park to move to the full US House",
+              "url": "https://roughdraftatlanta.com/2026/11/19/ocmulgee-mounds-national-park-bill-house/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "A bill to turn Macon's Ocmulgee Mounds into Georgia's first national park cleared a House committee and now goes to the full House.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/ocmulgee-mounds-temple-mound-macon-2024-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Develop Fulton gives tax cuts to Piedmont Center revamp",
+              "url": "https://roughdraftatlanta.com/2026/11/19/piedmont-center-redevelopment-incentive/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Develop Fulton approved a $16.5 million tax incentive for a $269 million revitalization of the Piedmont Center office campus in Buckhead.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2022/01/11-19-CW-PiedmontCenter-6287-Pano-scaled-e1795035497966-600x372.jpg",
+              "video": null
+            },
+            {
+              "title": "Fresh renderings: Buckhead district’s planned revival scores tax break",
+              "url": "https://atlanta.urbanize.city/post/renderings-buckhead-empire-zephyr-districts-planned-revival-scores-tax-break",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton County's development authority approved tax incentives for two projects on opposite sides of downtown, including a Buckhead district revival with new renderings.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Piedmont%20Center%20Renderings_Green%20Space.jpg?itok=DHrPVugt",
+              "video": null
+            },
+            {
+              "title": "Before/After: Little Five Points overhaul comes into sharper focus",
+              "url": "https://atlanta.urbanize.city/post/before-after-little-five-points-streets-overhaul-comes-sharper-focus",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A $3 million streets overhaul for Little Five Points, designed to make the eastside commercial district safer, is set to kick off.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Euclid%20Avenue%20Safe%20Street%20project%201.jpg?itok=xAGBHllj",
+              "video": null
+            },
+            {
+              "title": "Westside Future Fund breaks ground on not one, but two affordable housing projects",
+              "url": "https://saportareport.com/westside-future-fund-breaks-ground-on-not-one-but-two-affordable-housing-projects/sections/reports/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The Westside Future Fund broke ground on two affordable housing projects in English Avenue, adding 79 rental units toward the city's 20,000-unit goal.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/DSCF2192-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "MARTA: Tap-and-go Breeze upgrades have reached milestone",
+              "url": "https://atlanta.urbanize.city/post/marta-breeze-card-tap-faregates-upgrades-are-now-complete",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA has installed its final upgraded faregate, reaching a milestone in the tap-and-go Breeze fare system upgrade.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-11/MARTA%20Better%20Breeze%20faregates%20and%20ticket%20vending%20machines.jpeg?itok=BSoTwims",
+              "video": null
+            },
+            {
+              "title": "GSU opens 'one of most transformational projects in university history'",
+              "url": "https://atlanta.urbanize.city/post/georgia-state-university-images-one-most-transformational-projects-history",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia State University opened a placemaking initiative it calls one of the most transformational projects in its history, in downtown Atlanta.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Georgia%20State%20students%20fill%20the%20new%20Panther%20Quad.%20Photo%20by%20Meg%20Buscema.jpg?itok=Z00ryBL0",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Beyond BIM: From Engineering Data to Engineering Intelligence",
+              "url": "https://aecmag.com/sponsored-content/beyond-bim-from-engineering-data-to-engineering-intelligence/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AEC Magazine argues that BIM provided the structured data foundation for next-generation engineering workflows, relevant to your BIM practice.",
+              "image": "https://aecmag.com/wp-content/uploads/2026/10/Sunil-Pandita.jpg",
+              "video": null
+            },
+            {
+              "title": "Tekla API helps transform structural steel reuse",
+              "url": "https://aecmag.com/structural-engineering/tekla-api-helps-transform-structural-steel-reuse/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "A William Hare project uses a bespoke Tekla API automation to maximize reclaimed structural steel on a London landmark project.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Renda and Nexalus launch liquid-cooled AI server",
+              "url": "https://aecmag.com/workstations/renda-and-nexalus-launch-liquid-cooled-ai-server/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Renda and Nexalus launched a liquid-cooled AI server with eight GPUs in 4U, designed for facilities not originally built for liquid cooling.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Student Dining Block at S. R. University / SJK Architects",
+              "url": "https://www.archdaily.com/1188784/student-dining-block-at-s-r-university-sjk-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "SJK Architects' Student Dining Block at S. R. University serves over 16,000 meals a day in a visually light, scaled-down structure with landscaped streets.",
+              "image": "https://images.adsttc.com/media/images/6afc/7f78/c23f/1f52/896d/7831/newsletter/student-dining-block-at-s-r-university-sjk-architects_10.jpg?1794932629",
+              "video": null
+            },
+            {
+              "title": "Thepwatana Solar Parking Roof / Openbox Architects",
+              "url": "https://www.archdaily.com/1188939/thepwatana-solar-parking-roof-openbox-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Openbox Architects designed a solar parking roof shaped like a morning glory for an agtech company, collecting rain and generating energy over cars.",
+              "image": "https://images.adsttc.com/media/images/6aff/01bf/eabd/2a00/0193/24a2/newsletter/TWPR-OPNBX_by_Panoramic_Studio__17_.jpg?1795097044",
+              "video": null
+            },
+            {
+              "title": "Clarke House / Austin Maynard Architects",
+              "url": "https://www.archdaily.com/1030061/clarke-house-austin-maynard-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Austin Maynard Architects renovated and extended a single-storey weatherboard cottage in Northcote, bringing light and personal space to the house.",
+              "image": "https://images.adsttc.com/media/images/6821/f38e/2465/c929/5dbc/bd8b/newsletter/clarke-house-austin-maynard-architects_1.jpg?1747055526",
+              "video": null
+            },
+            {
+              "title": "Casa Sierra Morena I / Gallese Arquitectos",
+              "url": "https://www.archdaily.com/1188976/casa-sierra-morena-i-gallese-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Gallese Arquitectos' Casa Sierra Morena I uses structural honesty, letting structure and materials define the architecture with minimal finishes.",
+              "image": "https://images.adsttc.com/media/images/6aff/835d/eabd/2a00/0193/2753/newsletter/18.jpg?1795130271",
+              "video": null
+            },
+            {
+              "title": "L’Accueil Primary School / CCM2 Architectes + Roy Jacques Darisse architectes",
+              "url": "https://www.archdaily.com/1188345/laccueil-primary-school-ccm2-architectes-plus-roy-jacques-darisse-architectes",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CCM2 Architectes and Roy Jacques Darisse designed L'Accueil Primary School on a steep site, linking three levels with outdoor classrooms and green roofs.",
+              "image": "https://images.adsttc.com/media/images/6af7/1ac9/c23f/1f01/895a/fb63/newsletter/laccueil-primary-school-ccm2-architectes-plus-roy-jacques-darisse-architectes_17.jpg?1794579163",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Solo meerkats can find their way back home",
+              "url": "https://www.sciencenews.org/article/solo-meerkats-can-find-their-way-home",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Meerkats fitted with GPS trackers found their way home from more than a kilometer away on their own, according to Science News.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111926_MR_meerkat_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "The U.S. just lost its measles elimination status. What now?",
+              "url": "https://www.sciencenews.org/article/measles-us-elimination-status-vaccine",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Measles data since January 2025 show the virus circulating for over a year, a sign it is now endemic and the U.S. has lost its elimination status.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111326_EG_measles-elimination_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+              "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA reports that open data from the Fermi mission helped a team develop a method for finding hard-to-find pulsars about a million times faster.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&h=928&fit=clip",
+              "video": null
+            },
+            {
+              "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+              "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Voyager 1 has reached one light-day from Earth after more than 49 years of travel, the farthest-flying spacecraft humanity has built.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
+              "video": null
+            },
+            {
+              "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+              "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA tested RS-25 engine No. 10001 for 200 seconds at Stennis Space Center in support of future Artemis missions.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ssc-20261118-s01364.jpg?w=1024",
+              "video": null
+            },
+            {
+              "title": "The Stormy Southwest Pacific",
+              "url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Tropical Cyclone Xavier launched the southwest Pacific storm season, according to NASA.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116.jpg?w=1440&h=960&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Geopolitical tensions hamper efforts to curb overfishing in waters near Europe",
+              "url": "https://news.mongabay.com/2026/11/geopolitical-tensions-hamper-efforts-to-curb-overfishing-in-waters-near-europe/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay reports that geopolitical disputes are hampering efforts to curb overfishing in waters near Europe, at a northeast Atlantic fisheries commission meeting.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19143106/c.-GP1SVZGD-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Catching more plastic than fish in Sierra Leone’s coastal Mahera",
+              "url": "https://news.mongabay.com/2026/11/catching-more-plastic-than-fish-in-sierra-leones-coastal-mahera/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "In Sierra Leone's Mahera Beach, fishers are catching more plastic than fish, according to Mongabay.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19133446/Fishermen_pulling_in_their_net_at_lumley_beach_Sierra_Leone-768x451.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Grand Strand Sandwich Company Recalls Lunch Box Bacon Egg and Cheese Biscuit, Lunch Box Jumbo Sausage Biscuit, Lunch Box Sausage Egg and Cheese Biscuit, Lunch…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage",
+      "published": "2026-11-19T05:00:00+00:00"
+    },
+    {
+      "title": "Larbi Inc. Recalls Yellow Dock Root Because of Possible Health Risk",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+      "published": "2026-11-17T23:30:00+00:00"
+    },
+    {
+      "title": "Fresh & Ready Foods LLC Expands Recall to Include Fresh to You Brand Sausage, Egg & Cheese Biscuit Sandwich and Meals Made in Minutes Brand Biscuit & Sausage G…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and",
+      "published": "2026-11-17T16:18:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "I'm not afraid of storms, for I'm learning how to sail my ship.",
+    "who": "Louisa May Alcott",
+    "about": "American author of Little Women",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 119–104 at IND",
+      "last_date": "Nov 18",
+      "next": "Fri Nov 20 at DEN",
+      "url": "https://www.espn.com/nba/game/_/gameId/401910008/rockets-pacers",
+      "recent": [
+        "W 119–104 at IND · Nov 18",
+        "L 110–128 at MIA · Nov 16",
+        "W 147–119 at WSH · Nov 15"
+      ],
+      "upcoming": [
+        "Fri Nov 20 at DEN",
+        "Mon Nov 23 vs LAC",
+        "Wed Nov 25 vs PHX"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    }
+  ],
+  "usage": {
+    "input_tokens": 69431,
+    "output_tokens": 10522
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Inside The Democrats' Leadership Vote | Claire Valdez | TMR",
+          "url": "https://www.youtube.com/watch?v=0Ay-Sl1jbWg",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Rep-elect Claire Valdez (NY-07) discusses the incoming class of Congressional Democrats and the party's leadership debate.",
+          "image": "https://i1.ytimg.com/vi/0Ay-Sl1jbWg/hqdefault.jpg",
+          "video": "0Ay-Sl1jbWg"
+        },
+        {
+          "title": "IPO: Anthropic BANKRUPTCY Likelier Than Success",
+          "url": "https://www.youtube.com/watch?v=a5pHmGq1mEs",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Anthropic's IPO with Gary Marcus, offering a skeptical take on the company's prospects.",
+          "image": "https://i2.ytimg.com/vi/a5pHmGq1mEs/hqdefault.jpg",
+          "video": "a5pHmGq1mEs"
+        },
+        {
+          "title": "\"I'M NOT MAGA\" Elon FREAKS, Abandons Trump",
+          "url": "https://www.youtube.com/watch?v=gNqPZGZsQng",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and David Hogg discuss the future of the Democratic Party after the midterms.",
+          "image": "https://i4.ytimg.com/vi/gNqPZGZsQng/hqdefault.jpg",
+          "video": "gNqPZGZsQng"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Mexico City Week: Cowboys Shootout, Altitude Prep in Colorado, & Vikings Preview | The Saloon",
+          "url": "https://www.youtube.com/watch?v=b0zHiXoiVs0",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers, now 8-1 after a 46-40 win over Dallas, preview their Mexico City trip and the Vikings game, with injury updates.",
+          "image": "https://i3.ytimg.com/vi/b0zHiXoiVs0/hqdefault.jpg",
+          "video": "b0zHiXoiVs0"
+        },
+        {
+          "title": "Raheem Morris, Klay Kubiak, and Brock Purdy Discuss Week 11 vs. Vikings | 49ers",
+          "url": "https://www.youtube.com/watch?v=hIGacFfSzy8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers coordinators Raheem Morris and Klay Kubiak and QB Brock Purdy preview the Week 11 matchup against Minnesota.",
+          "image": "https://i1.ytimg.com/vi/hIGacFfSzy8/hqdefault.jpg",
+          "video": "hIGacFfSzy8"
+        },
+        {
+          "title": "Texans TRAMPLE Flailing Colts 26-3",
+          "url": "https://www.youtube.com/watch?v=6peTHq0vno0",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Analysts break down the Texans' 26-3 win over the Colts in Week 11 Thursday Night Football.",
+          "image": "https://i3.ytimg.com/vi/6peTHq0vno0/hqdefault.jpg",
+          "video": "6peTHq0vno0"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "I Built a Complete Electrical Design using Claude",
+          "url": "https://www.youtube.com/watch?v=k6Qzw2rpxts",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley walks through using Claude to produce a full electrical design package from structural drawings and a warehouse model.",
+          "image": "https://i4.ytimg.com/vi/k6Qzw2rpxts/hqdefault.jpg",
+          "video": "k6Qzw2rpxts"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "LIVE: Triggering Megalophobia 😳🪐 How the Universe Works | Science Channel",
+          "url": "https://www.youtube.com/watch?v=_ZLqHzPVR9Y",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "A Science Channel livestream on the scale of cosmic phenomena such as neutron stars and Jupiter's storms.",
+          "image": "https://i4.ytimg.com/vi/_ZLqHzPVR9Y/hqdefault.jpg",
+          "video": "_ZLqHzPVR9Y"
+        },
+        {
+          "title": "Why Cascadia Is a Geographic Anomaly",
+          "url": "https://www.youtube.com/watch?v=J6-tg6rvYkw",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geoff explains why the Cascadia region is a geographic anomaly, covering its shape and geology.",
+          "image": "https://i3.ytimg.com/vi/J6-tg6rvYkw/hqdefault.jpg",
+          "video": "J6-tg6rvYkw"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Promise This Will Be the Best Turkey of Your Life",
+          "url": "https://www.youtube.com/watch?v=tN-US2Vm6mM",
+          "source": "ThatDudeCanCook",
+          "topic": "Make & Cook",
+          "note": "ThatDudeCanCook shares a turkey method for holiday cooking; the description is mostly product promotion.",
+          "image": "https://i1.ytimg.com/vi/tN-US2Vm6mM/hqdefault.jpg",
+          "video": "tN-US2Vm6mM"
+        }
+      ]
+    }
+  ]
+}
