@@ -95,7 +95,7 @@ Your "Print Daily Brief" token already starts a workflow, so it can also start t
 4. Tap **Send 1 like** at the bottom of the screen.
 5. If Safari asks to open Shortcuts, tap **Open**.
 
-**You should now see:** the Shortcut runs, the paper comes back, and the page shows "Likes sent." The like shows in `likes.jsonl` on the `data` branch about 10 seconds later.
+**You should now see:** the Shortcut runs, the paper comes back, and the page shows "Likes sent." If you use the Home Screen icon, Safari opens after the Shortcut. Go back to the Home Screen copy. The count resets there. The like shows in `likes.jsonl` on the `data` branch about 10 seconds later.
 
 ---
 

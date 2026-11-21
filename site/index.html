@@ -2913,18 +2913,27 @@
   if (!IS_BACK) resumePrint();
 
   // ---------- Liked stories: mark a star, then send the marks to a Shortcut ----------
-  // brief.likes.v1 = { pending: { url: { t, s, c, at } }, sent: { url: ms } }. The copy in memory is the truth;
-  // localStorage only keeps it between visits, so a blocked or full store never breaks the stars.
+  // brief.likes.v1 = { pending: { url: { t, s, c, at } }, sent: { url: ms }, batch: [url], away: bool }.
+  // The copy in memory is the truth; localStorage only keeps it between visits, so a blocked or full store
+  // never breaks the stars. "batch" is the list handed to the Shortcut. "away" means the page went out of
+  // view after that hand-off, so the Shortcut ran.
+  // A Home Screen copy of the paper does not share its store with Safari, and the Shortcut's "sent" link
+  // always opens Safari. So the reset must not depend on that link. Three things reset the count:
+  //   1. the "#likes-sent" link (Safari), 2. the page comes back into view after a send (Home Screen),
+  //   3. the public likes log already holds the story (any copy, any time).
   var LIKES_KEY = "brief.likes.v1", LIKES_SHORTCUT = "Send Daily Brief Likes";
   var SENT_KEEP = 45 * 86400000, LIKES_MAX = 40;
-  var likes = { pending: {}, sent: {}, batch: [] };
+  var likes = { pending: {}, sent: {}, batch: [], away: false };
   var likeBtns = [];   // { btn, url }
+  var SEND_WAIT = 60000, sendAt = 0;   // the page must leave view within a minute of the Send tap
+  var LOG_GAP = 60000, logAt = 0, logBusy = false;   // read the likes log once a minute at most
   var pillEl = null, toastEl = null, toastTimer = null;
 
   function has(o, k) { return Object.prototype.hasOwnProperty.call(o, k); }
   function loadLikes() {
-    var next = { pending: {}, sent: {}, batch: [] }, raw = null, j = null;
+    var next = { pending: {}, sent: {}, batch: [], away: false }, raw = null, j = null;
     try { raw = store.get(LIKES_KEY); j = raw ? JSON.parse(raw) : null; } catch (e) { j = null; }
+    if (raw === null && started) return;   // store blocked or empty: keep the copy in memory
     if (j && typeof j === "object") {
       var pend = j.pending && typeof j.pending === "object" ? j.pending : {};
       Object.keys(pend).forEach(function (u) {
@@ -2937,9 +2946,11 @@
         if (safeUrl(u) && typeof sent[u] === "number" && isFinite(sent[u])) next.sent[u] = sent[u];
       });
       next.batch = arr(j.batch).filter(function (u) { return typeof u === "string" && has(next.pending, u); }).slice(0, LIKES_MAX);
+      next.away = j.away === true && next.batch.length > 0;
     }
     likes = next;
   }
+  var started = false;
   function saveLikes() {
     try { store.set(LIKES_KEY, JSON.stringify(likes)); } catch (e) { /* memory copy still works */ }
   }
@@ -2988,6 +2999,7 @@
     if (has(likes.pending, url)) delete likes.pending[url];
     else likes.pending[url] = { t: meta.t, s: meta.s, c: meta.c, at: Date.now() };
     likes.batch = [];
+    likes.away = false;
     saveLikes();
     paintLikes();
   }
@@ -3008,6 +3020,8 @@
       return { u: u, t: str(v.t, 200), s: str(v.s, 80), c: str(v.c, 40) };
     });
     likes.batch = urls;   // on return, only these move to "sent" (the Shortcut takes 40 at most)
+    likes.away = false;
+    sendAt = Date.now();
     saveLikes();
     var back = pageBase() + (BACK_DATE ? "?date=" + BACK_DATE : "") + "#likes-sent";
     location.href = "shortcuts://x-callback-url/run-shortcut?name=" + encodeURIComponent(LIKES_SHORTCUT) +
@@ -3029,18 +3043,83 @@
       try { history.replaceState(null, "", clean); } catch (e) { /* ignore */ }
       return;
     }
-    var now = Date.now();
-    var urls = likes.batch.slice();
+    try { history.replaceState(null, "", clean); } catch (e) { /* ignore */ }
+    finishBatch();
+  }
+  // Move the batch from "pending" to "sent" and show the result.
+  function finishBatch() {
+    if (!likes.batch.length) return;
+    var n = markSent(likes.batch.slice());
+    likes.batch = [];
+    likes.away = false;
+    saveLikes();
+    paintLikes();
+    if (n) toast("Likes sent.");
+  }
+  function markSent(urls) {
+    var now = Date.now(), n = 0;
     urls.forEach(function (u) {
       if (!has(likes.pending, u)) return;
       delete likes.pending[u];
       likes.sent[u] = now;
+      n++;
     });
-    likes.batch = [];
+    return n;
+  }
+  // The page went out of view while a batch waits: the Shortcut took over. Keep that fact between visits,
+  // because iOS can close the page while the Shortcut runs.
+  // Only a page that leaves view soon after the Send tap counts. A later exit (the reader refused the
+  // "Open in Shortcuts" question, then left) must not mark the likes as sent.
+  function likesHidden() {
+    if (!likes.batch.length || likes.away || Date.now() - sendAt > SEND_WAIT) return;
+    likes.away = true;
     saveLikes();
-    try { history.replaceState(null, "", clean); } catch (e) { /* ignore */ }
+  }
+  // The page is in view again. Read the saved stars (a different tab can change them), finish a batch
+  // that the Shortcut took, then compare with the log.
+  function likesVisible() {
+    loadLikes();
+    if (likes.batch.length && likes.away) finishBatch();
     paintLikes();
-    toast("Likes sent.");
+    checkLikesLog();
+  }
+  // The public likes log. On GitHub Pages the address gives the owner and the repo; on other hosts, no check.
+  function likesLogUrl() {
+    var m = /^([a-z0-9-]+)\.github\.io$/i.exec(location.hostname || "");
+    var repo = (location.pathname || "").split("/")[1];
+    if (!m || !repo || !/^[\w.-]+$/.test(repo)) return null;
+    return "https://raw.githubusercontent.com/" + m[1] + "/" + repo + "/data/likes.jsonl";
+  }
+  function normUrl(u) { return u.replace(/\/+$/, ""); }   // same rule as likes.py
+  function logUrls(text) {
+    var seen = {};
+    String(text).split("\n").forEach(function (line) {
+      var rec = null;
+      try { rec = JSON.parse(line); } catch (e) { return; }
+      if (rec && typeof rec === "object" && typeof rec.u === "string") seen[normUrl(rec.u)] = true;
+    });
+    return seen;
+  }
+  // A pending star that is in the log is a sent star. This repairs a count that a missed reset left behind.
+  function checkLikesLog() {
+    var url = likesLogUrl(), now = Date.now();
+    if (!url || logBusy || now - logAt < LOG_GAP || !Object.keys(likes.pending).length || typeof fetch !== "function") return;
+    logBusy = true;
+    logAt = now;
+    fetch(url, { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+      .then(function (text) {
+        var seen = logUrls(text);
+        var done = Object.keys(likes.pending).filter(function (u) { return has(seen, normUrl(u)); });
+        if (!done.length) return;
+        markSent(done);
+        likes.batch = likes.batch.filter(function (u) { return has(likes.pending, u); });
+        if (!likes.batch.length) likes.away = false;
+        saveLikes();
+        paintLikes();
+      })
+      .catch(function () { /* offline or no log yet: the stars stay as they are */ })
+      .then(function () { logBusy = false; });
   }
   function startLikes() {
     loadLikes();
@@ -3053,9 +3132,17 @@
     toastEl.setAttribute("role", "status");
     document.body.appendChild(pillEl);
     document.body.appendChild(toastEl);
+    started = true;
     checkLikesSent();
+    if (likes.batch.length && likes.away) finishBatch();   // iOS closed the page while the Shortcut ran
     paintLikes();
+    checkLikesLog();
     window.addEventListener("hashchange", checkLikesSent);
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "hidden") likesHidden(); else likesVisible();
+    });
+    window.addEventListener("pagehide", likesHidden);
+    window.addEventListener("pageshow", function (ev) { if (ev.persisted) likesVisible(); });
     // Another tab or window changed the stars: follow it.
     window.addEventListener("storage", function (ev) { if (ev.key === LIKES_KEY) { loadLikes(); paintLikes(); } });
   }

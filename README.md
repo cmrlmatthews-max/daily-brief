@@ -61,7 +61,7 @@ Call 1 (front page and spoken script) uses `front_model` (Sonnet). If it fails, 
 
 The `data` branch holds `archive/DATE.json` (one paper per day) and `likes.jsonl` (the public likes log). The build reads it from `./data`. The `save` job commits each new paper to `archive/`. The page shows back issues at `?date=YYYY-MM-DD` and lists them in the footer.
 
-Tap ☆ on a story to star it. Stars stay on the phone until you tap "Send N likes". That button runs the Apple Shortcut `Send Daily Brief Likes`, which starts the "Save likes" workflow (`likes.yml`, `likes.py`). Each run gives both Claude calls up to 30 recent likes as a guide to taste.
+Tap ☆ on a story to star it. Stars stay on the phone until you tap "Send N likes". That button runs the Apple Shortcut `Send Daily Brief Likes`, which starts the "Save likes" workflow (`likes.yml`, `likes.py`). The count resets when you return to the paper. The page also reads the likes log, and a star that is in the log shows as sent. Each run gives both Claude calls up to 30 recent likes as a guide to taste.
 
 On Sundays, Opus reads the week's papers and likes. It writes "The Week" tab: a summary, the top stories, your most-liked stories, and suggestions for sources and the reader profile. Nothing changes on its own. You approve each suggestion by hand.
 

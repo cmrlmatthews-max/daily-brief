@@ -2336,3 +2336,13 @@ def test_main_marks_repeats_sends_recent_headlines_and_drops_a_repeat_lead(monke
     assert spy["recent"][0] == "Story 2026-10-13 0" and spy["recent"][-1] == lead_title + " today"
     assert b["lead"]["title"] != lead_title and "follow_up" not in b["lead"]   # the repeat lead had no whats_new
     assert b["lead"]["title"] == "Mixed-use tower proposed beside the Beltline's Eastside Trail"
+
+
+def test_page_resets_likes_without_the_safari_link():
+    """A Home Screen copy never gets the "#likes-sent" link, so the page has two more resets."""
+    page = (ROOT / "site/index.html").read_text()
+    assert 'document.addEventListener("visibilitychange"' in page           # reset on return from the Shortcut
+    assert "if (likes.batch.length && likes.away) finishBatch();" in page
+    assert '"/data/likes.jsonl"' in page and "raw.githubusercontent.com" in page   # reset from the public log
+    assert "Date.now() - sendAt > SEND_WAIT" in page                        # a late exit does not count as a send
+
