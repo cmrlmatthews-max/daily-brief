@@ -1,0 +1,1024 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, November 21, 2026",
+  "generated_at": "2026-11-21T05:00:22-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, November 21. Here is what matters today. The lead story is on Wall Street. The S&P 500 fell 3.7 percent on Friday. The Nasdaq composite is now negative for the year. AI stocks have very large market values, so they have a much bigger effect on the market's direction. They drove this year's big gains. Now they are behind the slide. Now the front page. In tech, Levent Alpöge says he and Claude discovered a proof of the Riemann Hypothesis. He says the method extends to the Generalized Riemann Hypothesis, and that they formalized the argument. A separate note from Ravi Vakil describes another proposed proof that is reportedly all human, with no AI. At the United Nations, talks in Geneva on AI-powered killer robots and drones ended with no firm commitment. Nations agreed to extend the discussions for two more years. In sports, Nikola Jokic had 26 points, 11 assists and seven rebounds. Denver beat the Houston Rockets 133 to 124 in an NBA Cup game. In Washington, President Trump held a press conference after his trip to Asia. NPR reports he offered few concrete results from the meetings with Xi and Putin, beyond a joint statement on unity over some issues. Now the sections. In tech, Anthropic announced the closing of its initial public offering. A trending GitHub project offers a skills framework for coding agents. In politics, a second federal judge said she will block Trump's arch with a preliminary injunction. Congress also needs a funding measure to avoid a shutdown next month, and Democrats aim to block funding for the Iran war. In world news, countries at the COP31 climate talks are deadlocked over fossil fuels. The FBI is reportedly investigating an apparent hack of a national criminal database. Zelensky called Putin a killer after Trump called the Russian leader a friend. In sports, the 49ers rule no one out for Sunday's game against the Vikings in Mexico. The Braves tendered contracts to four players. And UFC fighter Manon Fiorot got a three-month ban for violating the anti-doping policy. In Atlanta, a housing development broke ground near Topgolf and The Works. Street repaving began in Buckhead. And the Westside Future Fund broke ground on two affordable housing projects. In architecture, a new BIM platform called Pliera aims to challenge Revit. Rayon version four adds an AI agent to browser-based CAD. In science and nature, Pacific Ocean waters reached historic highs in 2026. The United States auctioned American Samoan seabed for mining, despite a court ruling that found the sale illegal. And conservation is bringing seabirds back to Lundy Island. That is the brief. Have a good day.",
+  "lead": {
+    "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+    "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+    "source": "NPR News",
+    "topic": "World",
+    "note": "The S&P 500 fell 3.7% on Friday, and the Nasdaq composite is now negative for the year. According to the report, AI stocks carry very large market values, so they have a much bigger effect on which way the market moves. The same stocks were responsible for Wall Street's big gains this year, and they are now behind the sharp slide. That makes this more than a one-day drop. It shows how much of the market's performance has rested on a single theme. For a reader who works with AI tools and follows the companies behind them, it is a useful reminder that market swings in this sector can be large in both directions. The summary does not say what triggered the decline, so the cause is not yet clear from this item.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7561x5041+0+0/resize/7561x5041!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ffd%2F44%2Fb43d4bb943bb9b380c4b94631ed4%2Fap26321557592396.jpg",
+    "video": null,
+    "headline": "S&P 500 Sinks 3.7% as AI Stocks Slide",
+    "decks": [
+      "The Nasdaq composite is now negative for the year",
+      "AI stocks drove this year's gains and the current slide",
+      "Large AI market values give them outsized market influence"
+    ]
+  },
+  "front": [
+    {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "Simon Willison",
+      "topic": "Tech & AI",
+      "note": "Levent Alpöge says he and Claude found a proof of the Riemann Hypothesis and formalized the argument; a related note says another proposed proof involved no AI.",
+      "image": null,
+      "video": null
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "UN-backed Geneva talks on AI-powered killer robots and drones ended with no firm commitment, only an agreement to extend discussions for two more years.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F47%2Fdc%2Fbe428cfe43728dcf909ce499cadf%2Fgettyimages-2273123489.jpg",
+      "video": null
+    },
+    {
+      "title": "Nikola Jokic's big 2nd half sends the Nuggets to a 133-124 win over the Rockets",
+      "url": "http://www.espn.com/nba/recap?gameId=401909312",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Nikola Jokic had 26 points, 11 assists and seven rebounds as Denver beat the Rockets 133-124 in an NBA Cup game.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909312.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Trump touts meeting with Xi and Putin but offers little results",
+      "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+      "source": "NPR Politics",
+      "topic": "Politics",
+      "note": "At a White House press conference, Trump offered few concrete results from meetings with Xi and Putin, beyond a joint statement on unity over some issues.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5742x3827+0+0/resize/5742x3827!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F67%2Fd9%2F6666a29741a3a9cd3bf00907418d%2Fgettyimages-2306087994.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic announced the closing of its initial public offering, including full exercise of the underwriters' option to buy additional shares.",
+          "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+          "video": null
+        },
+        {
+          "title": "Quoting Ravi Vakil",
+          "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Ravi Vakil describes a proposed proof of the Generalized Riemann Hypothesis that is reportedly all human, with no AI, and being checked closely.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending GitHub framework offering composable skills and a software development method for coding agents, relevant to your own Claude-built tools.",
+          "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Congress needs a funding measure to avoid a shutdown next month, and Democrats aim to block funding for the Iran war.",
+          "image": "https://www.npr.org/2026/11/20/g-s1-154582/undefined",
+          "video": null
+        },
+        {
+          "title": "Watchdogs To Democrats: Give The Gavels To Monopoly Fighters",
+          "url": "https://www.levernews.com/watchdogs-to-democrats-give-the-gavels-to-monopoly-fighters/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports more than 50 groups want Democratic leaders to give key committee gavels to lawmakers ready to investigate corporate giants and block megamergers.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-US-Capitol-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "A second federal judge, in Virginia, said she will issue a preliminary injunction against Trump's arch, after a D.C. judge temporarily blocked construction.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6968x4645+0+0/resize/6968x4645!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb6%2Ff0%2F3f087dc140c29e91979734a212a3%2Fap26264499190048.jpg",
+          "video": null
+        },
+        {
+          "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Countries at the COP31 climate talks are deadlocked over fossil fuels as they try to reach a new global agreement.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+          "video": null
+        },
+        {
+          "title": "FBI reportedly investigating apparent hack of its criminal database",
+          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The FBI is reportedly investigating an apparent hack of the National Crime Information Center database, which federal and local law enforcement use to share information.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Evans, Greenlaw Questionable; No Players Ruled Out vs. Vikings | Practice Report #MINvsSF",
+          "url": "https://www.49ers.com/news/evans-greenlaw-questionable-no-players-ruled-out-vs-vikings-practice-report-minvssf",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "The 49ers list Evans and Greenlaw as questionable and rule no one out for Sunday's game against the Vikings in Mexico.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/boqbs5wning0wga5c3xp.png",
+          "video": null
+        },
+        {
+          "title": "Braves retain Elder, Lee among 4 tendered contracts",
+          "url": "https://www.mlb.com/braves/news/braves-2026-non-tender-deadline-roster-moves",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "The Braves tendered contracts to four players, including Elder and Lee, ahead of the offseason.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/piudisghp5pk4zejmrai.jpg",
+          "video": null
+        },
+        {
+          "title": "UFC fighter Manon Fiorot banned for 3 months for violating anti-doping policy",
+          "url": "https://www.espn.com/mma/story/_/id/50540039/ufc-fighter-manon-fiorot-banned-3-months-doping",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "UFC fighter Manon Fiorot received a three-month ban for violating the anti-doping policy.",
+          "image": "https://a.espncdn.com/photo/2026/0825/r1706727_600x400_3-2.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "First look: Major development breaks ground near Topgolf, The Works",
+          "url": "https://atlanta.urbanize.city/post/topgolf-the-works-blandtown-major-development-breaks-ground-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A development with hundreds of housing units broke ground near Topgolf and The Works, west of Midtown.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/1280%20Chattahoochee%20Ave.%20November%202026%201.jpg?itok=CYo3SQCz",
+          "video": null
+        },
+        {
+          "title": "Move Atlanta Forward street infrastructure projects start now",
+          "url": "https://atlanta.urbanize.city/post/buckhead-repaving-move-atlanta-forward-streets-infrastructure-project-starts-now",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Accelerated street repaving began in Buckhead as part of the city's tax-funded Move Atlanta Forward program.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Buckhead%20Peachtree%20Road%20repaving.png?itok=g0IWBIMR",
+          "video": null
+        },
+        {
+          "title": "WATCH: Westside Future Fund breaks ground on two affordable housing projects",
+          "url": "https://saportareport.com/watch-westside-future-fund-breaks-ground-on-two-affordable-housing-projects/media/video-stories/delaneytarr/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "The Westside Future Fund broke ground on two affordable housing projects on Atlanta's Westside.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-2.12.47-PM.png?fit=652%2C1024&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Pliera: a new BIM 2.0",
+          "url": "https://aecmag.com/bim/pliera-a-new-bim-2-0/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Pliera is a new BIM platform with rule-based building configurators and plans to challenge Revit.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Rayon V4: a different bet on the future of CAD",
+          "url": "https://aecmag.com/cad/rayon-v4-a-different-bet-on-the-future-of-cad/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Rayon V4 brings 3D modelling, an AI agent, generative rendering and mobile access to browser-based CAD.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Darwin Bridges / Provencher_Roy",
+          "url": "https://www.archdaily.com/1188489/darwin-bridges-provencher-roy",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "The Darwin bridges on Nuns' Island in Montréal use local sustainable materials.",
+          "image": "https://images.adsttc.com/media/images/6af4/68ff/c23f/1f01/895a/f372/newsletter/darwin-bridges-provencher-roy_1.jpg?1794402580",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "This year’s El Niño is unlike any other on record",
+          "url": "https://www.sciencenews.org/article/super-el-nino-historic-effect-hurricane",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Pacific Ocean waters reached historic high temperatures in 2026, shaping hurricane seasons and global precipitation trends.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/1226_scivis-elnino_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "US leases American Samoan seabed for mining in auction deemed illegal by court",
+          "url": "https://news.mongabay.com/2026/11/us-leases-american-samoan-seabed-for-mining-in-auction-deemed-illegal-by-court/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "The U.S. auctioned 12.7 million hectares of American Samoan seabed for mining, despite a federal court ruling that found the sale illegal.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20215927/FK210922-Dive464-20211020-153149523-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "The British island that made a deal with nature",
+          "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Decades of conservation on Lundy Island have brought back thousands of seabirds and supported marine life.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Pentagon’s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members",
+              "url": "https://www.dropsitenews.com/p/pentagon-iran-war-saudi-yemen-port-haiti-gangs",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site's daily brief reports the Pentagon's Iran war costs have topped $48 billion, along with strikes on Hodeidah port and a Haitian police operation.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Nj1g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5b5cef-ea7c-43a8-9ceb-1d3ad011a35a_5703x3695.heic",
+              "video": null
+            },
+            {
+              "title": "Senate passes bipartisan energy bill amid environmental concerns",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "The Senate passed a bipartisan energy bill to speed approvals for data centers and power plants, amid rising energy costs and AI-driven demand.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6686x4457+0+0/resize/6686x4457!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5c%2Fd7%2F0df997c742bc9403dee2958f61d0%2Fgettyimages-2302559870.jpg",
+              "video": null
+            },
+            {
+              "title": "Watchdogs To Democrats: Give The Gavels To Monopoly Fighters",
+              "url": "https://www.levernews.com/watchdogs-to-democrats-give-the-gavels-to-monopoly-fighters/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "More than 50 groups urge Democratic leaders to give committee gavels to lawmakers ready to investigate corporate giants and block megamergers.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-US-Capitol-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Weapons Makers Want To Keep Their Pentagon Repair Racket",
+              "url": "https://www.levernews.com/weapons-makers-want-to-keep-their-pentagon-repair-racket/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Lever reports that defense contractors control data needed to repair military equipment, and are fighting legislation that would end those repair monopolies.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--33-.jpg",
+              "video": null
+            },
+            {
+              "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Congress must pass a funding measure to avoid a shutdown next month, and Democrats are weighing using that leverage to block Iran war funding.",
+              "image": "https://www.npr.org/2026/11/20/g-s1-154582/undefined",
+              "video": null
+            },
+            {
+              "title": "Van Hollen Wants Schumer’s Job. Here’s Where They Split.",
+              "url": "https://www.levernews.com/van-hollen-wants-schumers-job-heres-where-they-split/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever compares Senators Van Hollen and Schumer on Medicare for All, Israel weapons, and AI regulation, ahead of a possible leadership contest.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Majority-Democrats-Billionaires-Van-Hollen-Schumer.png",
+              "video": null
+            },
+            {
+              "title": "Trump touts meeting with Xi and Putin but offers little results",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Trump met Xi and Putin on his Asia trip but offered little in concrete results beyond a joint statement on unity over some issues.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5742x3827+0+0/resize/5742x3827!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F67%2Fd9%2F6666a29741a3a9cd3bf00907418d%2Fgettyimages-2306087994.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "New polling finds fewer than half of Republicans nationwide consider the midterm elections free and fair, even though Trump initially accepted the results.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4657x3136+0+0/resize/4657x3136!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe7%2F8b%2F8f6f9ccc4492a5a6d3619a61182e%2Fgettyimages-2303366947.jpg",
+              "video": null
+            },
+            {
+              "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A second federal judge, in Virginia, said she will issue a preliminary injunction against Trump's arch, after a D.C. judge temporarily blocked construction.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6968x4645+0+0/resize/6968x4645!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb6%2Ff0%2F3f087dc140c29e91979734a212a3%2Fap26264499190048.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Anthropic had a record-breaking IPO, and Hakeem Jeffries was nominated by Democrats to become House speaker, which would make him the first Black Speaker.",
+              "image": "https://www.npr.org/2026/11/19/g-s1-154344/undefined",
+              "video": null
+            },
+            {
+              "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+              "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "U.N.-backed talks in Geneva on AI-powered killer robots and drones ended with an agreement to extend discussions for two years, without a firm commitment to rules.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F47%2Fdc%2Fbe428cfe43728dcf909ce499cadf%2Fgettyimages-2273123489.jpg",
+              "video": null
+            },
+            {
+              "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+              "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "COP31 climate talks are deadlocked over fossil fuels, with nearly 200 countries trying to reach a new global climate agreement.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+              "video": null
+            },
+            {
+              "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+              "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Zelensky called Putin a killer after Trump described the Russian leader as a friend earlier this week, before their meeting in China.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
+              "video": null
+            },
+            {
+              "title": "FBI reportedly investigating apparent hack of its criminal database",
+              "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The FBI is reportedly investigating an apparent hack of the National Crime Information Center database used by federal and local law enforcement.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
+              "video": null
+            },
+            {
+              "title": "Man convicted of starting Palisades fire in Los Angeles",
+              "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A 30-year-old Los Angeles man was convicted of arson for starting the Palisades fire, which killed 12 people and destroyed over 6,800 buildings.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8053/live/b01bb4f0-e556-11f1-ad51-c3505e495cd9.jpg",
+              "video": null
+            },
+            {
+              "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The S&P 500 fell 3.7% and the Nasdaq composite turned negative for the year, as AI stocks drove the slide after leading gains earlier this year.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7561x5041+0+0/resize/7561x5041!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ffd%2F44%2Fb43d4bb943bb9b380c4b94631ed4%2Fap26321557592396.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Quoting Levent Alpöge",
+              "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A Claude-assisted claimed proof of the Riemann Hypothesis, with extensions to the Generalized version, is circulating. It is unverified, so treat it as a claim pending expert review.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed an S-1 with the SEC for a proposed IPO of Class A common stock. This is directly about the company behind Claude.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+              "url": "https://www.anthropic.com/news/ipo-close",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic announced the closing of its initial public offering and a concurrent private placement, including full exercise of the underwriters' option.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Public Benefit Fund whose stake increases as the company grows.",
+              "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+              "video": null
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Superpowers is a trending agentic skills framework and development methodology for coding agents, relevant to your work building tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+              "video": null
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "CLI-Anything is a trending project aimed at making software agent-native through command-line interfaces for AI agents.",
+              "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+              "video": null
+            },
+            {
+              "title": "sybil-solutions/inference-optimisation-skill",
+              "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A popular new agent skill for speeding up local LLM serving across decoding, speculative decoding, and KV handling.",
+              "image": "https://opengraph.githubassets.com/1/sybil-solutions/inference-optimisation-skill",
+              "video": null
+            },
+            {
+              "title": "iamajmeena/neonclipping",
+              "url": "https://github.com/iamajmeena/neonclipping",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "Neonclipping is a popular open-source local tool that turns links into captioned 9:16 clips, using a local LLM.",
+              "image": "https://opengraph.githubassets.com/1/iamajmeena/neonclipping",
+              "video": null
+            },
+            {
+              "title": "Sir Brian May adds new dimension to Hera asteroid",
+              "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Brian May's contribution adds a new dimension to ESA's Hera mission asteroid, a space-safety story.",
+              "image": "https://media.esa.int/global/public/common/misc/2026/11/402679/image-thumb__402679__social_share/3d-crop.2b14b833.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Nikola Jokic's big 2nd half sends the Nuggets to a 133-124 win over the Rockets",
+              "url": "http://www.espn.com/nba/recap?gameId=401909312",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Nikola Jokic had 26 points, 11 assists and seven rebounds as the Nuggets beat the Rockets 133-124 in an NBA Cup game.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909312.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
+              "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Fred VanVleet, back healthy after an ACL injury cut his 2025-26 season short, is credited with steadying the early-season Rockets.",
+              "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The MLB free agency tracker covers the Braves' offseason signings and trades as the hot stove season begins.",
+              "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Braves retain Elder, Lee among 4 tendered contracts",
+              "url": "https://www.mlb.com/braves/news/braves-2026-non-tender-deadline-roster-moves",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "The Braves retained pitchers Elder and Lee among four players tendered contracts this offseason.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/piudisghp5pk4zejmrai.jpg",
+              "video": null
+            },
+            {
+              "title": "Police investigate man's death after alleged altercation at 49ers-Cowboys game",
+              "url": "https://www.espn.com/nfl/story/_/id/50543613/police-investigate-man-death-incident-cowboys-game",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Police are investigating a man's death after an alleged altercation before the 49ers-Cowboys game in Arlington.",
+              "image": "https://a.espncdn.com/photo/2016/0210/r53349_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Evans, Greenlaw Questionable; No Players Ruled Out vs. Vikings | Practice Report #MINvsSF",
+              "url": "https://www.49ers.com/news/evans-greenlaw-questionable-no-players-ruled-out-vs-vikings-practice-report-minvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers' injury report shows Evans and Greenlaw questionable and no players ruled out ahead of their Sunday night game against the Vikings in Mexico City.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/boqbs5wning0wga5c3xp.png",
+              "video": null
+            },
+            {
+              "title": "UFC releases Virna Jandiroba, former title challenger, current No. 3 strawweight",
+              "url": "https://www.espn.com/mma/story/_/id/50523092/ufc-releases-former-strawweight-title-challenger-jandiroba",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "The UFC released strawweight Virna Jandiroba, a former title challenger ranked No. 3 in the division.",
+              "image": "https://a.espncdn.com/photo/2026/1019/r1733054_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC fighter Manon Fiorot banned for 3 months for violating anti-doping policy",
+              "url": "https://www.espn.com/mma/story/_/id/50540039/ufc-fighter-manon-fiorot-banned-3-months-doping",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC fighter Manon Fiorot received a three-month ban for violating the promotion's anti-doping policy.",
+              "image": "https://a.espncdn.com/photo/2026/0825/r1706727_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Mo Ivory: Fulton board is disrupting transition for incoming officials",
+              "url": "https://saportareport.com/mo-ivory-fulton-board-is-disrupting-transition-for-incoming-officials/columnists/adrianne-murchison/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Fulton commissioners held a heated debate over security protection and office access for incoming Chair Mo Ivory before she takes office in January.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0375.jpg?fit=1024%2C758&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Fulton chair-elect’s building access revoked as she prepares to take office",
+              "url": "https://roughdraftatlanta.com/2026/11/20/mo-ivory-fulton-commissioner-transition/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton Chair-elect Mo Ivory says her building access was revoked and that current commissioners are making her transition harder.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Mo-Ivory-WSBTV-600x389.png",
+              "video": null
+            },
+            {
+              "title": "Atlanta City Council committee holds work session on surveillance usage and oversight",
+              "url": "https://roughdraftatlanta.com/2026/11/20/atlanta-surveillance-oversight-debate/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Atlanta City Council held a work session on surveillance cameras, with residents voicing concern about oversight and safeguards.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Council-member-Liliana-Bakhtiari-600x423.png",
+              "video": null
+            },
+            {
+              "title": "First look: Major development breaks ground near Topgolf, The Works",
+              "url": "https://atlanta.urbanize.city/post/topgolf-the-works-blandtown-major-development-breaks-ground-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Major mixed-use development broke ground near Topgolf and The Works, adding hundreds of housing options in an intown district west of Midtown.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/1280%20Chattahoochee%20Ave.%20November%202026%201.jpg?itok=CYo3SQCz",
+              "video": null
+            },
+            {
+              "title": "WATCH: Westside Future Fund breaks ground on two affordable housing projects",
+              "url": "https://saportareport.com/watch-westside-future-fund-breaks-ground-on-two-affordable-housing-projects/media/video-stories/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Westside Future Fund broke ground on two affordable housing projects on Atlanta's historic Westside, The 404 @ Oliver and Proctor and Paines.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-2.12.47-PM.png?fit=652%2C1024&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Move Atlanta Forward street infrastructure projects start now",
+              "url": "https://atlanta.urbanize.city/post/buckhead-repaving-move-atlanta-forward-streets-infrastructure-project-starts-now",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Accelerated repaving under the Move Atlanta Forward program has begun across Buckhead streets.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Buckhead%20Peachtree%20Road%20repaving.png?itok=g0IWBIMR",
+              "video": null
+            },
+            {
+              "title": "Fresh renderings: Buckhead district’s planned revival scores tax break",
+              "url": "https://atlanta.urbanize.city/post/renderings-buckhead-empire-zephyr-districts-planned-revival-scores-tax-break",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton's development authority approved tax incentives for two projects, including a planned Buckhead district revival with fresh renderings.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Piedmont%20Center%20Renderings_Green%20Space.jpg?itok=DHrPVugt",
+              "video": null
+            },
+            {
+              "title": "Atlanta Housing reports $7.7 billion economic impact, advances affordable housing efforts",
+              "url": "https://saportareport.com/atlanta-housing-reports-7-7-billion-economic-impact-advances-affordable-housing-efforts/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta Housing reports a $7.7 billion economic impact from its affordable housing efforts, presented at its Nov. 18 board meeting.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-14.jpeg?fit=1024%2C750&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Rayon V4: a different bet on the future of CAD",
+              "url": "https://aecmag.com/cad/rayon-v4-a-different-bet-on-the-future-of-cad/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Rayon V4 adds 3D modelling, an AI agent, and generative rendering to a browser-based CAD tool, a direct comparison point for your Revit and BIM work.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Pliera: a new BIM 2.0",
+              "url": "https://aecmag.com/bim/pliera-a-new-bim-2-0/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Pliera is a new BIM 2.0 platform with rule-based building configurators and explicit plans to challenge Revit.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Snake Building / C+S Architects",
+              "url": "https://www.archdaily.com/1188693/snake-building-c-plus-s-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Snake Building in Aarschot, Belgium, is an urban regeneration project on a former industrial site with housing, commercial and public space.",
+              "image": "https://images.adsttc.com/media/images/6afa/fce2/c23f/1f52/896d/7230/newsletter/snake-building-c-plus-s-architects_1.jpg?1794833686",
+              "video": null
+            },
+            {
+              "title": "Darwin Bridges / Provencher_Roy",
+              "url": "https://www.archdaily.com/1188489/darwin-bridges-provencher-roy",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Darwin Bridges in Montreal use local sustainable materials to open new architectural perspectives on Nuns' Island.",
+              "image": "https://images.adsttc.com/media/images/6af4/68ff/c23f/1f01/895a/f372/newsletter/darwin-bridges-provencher-roy_1.jpg?1794402580",
+              "video": null
+            },
+            {
+              "title": "House Duas Marias I / Canoa Arquitetura",
+              "url": "https://www.archdaily.com/1036263/house-duas-marias-i-canoa-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House Duas Marias I in rural São Paulo state works with large mature trees on a 6,000 square meter plot.",
+              "image": "https://images.adsttc.com/media/images/691f/98b1/6138/2e01/88ea/c75a/newsletter/casa-duas-marias-i-canoa-arquitetura_1.jpg?1763678415",
+              "video": null
+            },
+            {
+              "title": "Canal Beach Nature Resort / Atelier Bugio",
+              "url": "https://www.archdaily.com/1036166/canal-beach-nature-resort-atelier-bugio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Canal Beach Nature Resort sits in the Vicentina Coast Natural Park and responds to the landscape from ridge to sea.",
+              "image": "https://images.adsttc.com/media/images/691b/d321/20ca/aa00/01ef/8011/newsletter/HAL_F_03.jpg?1763431400",
+              "video": null
+            },
+            {
+              "title": "Alejandro Muñoz Miranda. Architecture",
+              "url": "https://www.archdaily.com/1189013/alejandro-munoz-miranda-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The first monograph on the built work of Granada architect Alejandro Muñoz Miranda covers twelve works completed between 2004 and 2026.",
+              "image": "https://images.adsttc.com/media/images/6b00/451e/eabd/2a00/0193/29f9/newsletter/P14_Munoz_Miranda_Portada_web.jpg?1795179812",
+              "video": null
+            },
+            {
+              "title": "Renda and Nexalus launch liquid-cooled AI server",
+              "url": "https://aecmag.com/workstations/renda-and-nexalus-launch-liquid-cooled-ai-server/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Renda and Nexalus launched a liquid-cooled AI server with eight GPUs in 4U, aimed at facilities not built for liquid cooling.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "An El Niño amped by climate change has California bracing for the worst",
+              "url": "https://www.sciencenews.org/article/el-nino-climate-change-california",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "California is bracing for a potentially Super El Niño amplified by climate change, after record Pacific temperatures this year.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111826_CG_ElNino_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "This year’s El Niño is unlike any other on record",
+              "url": "https://www.sciencenews.org/article/super-el-nino-historic-effect-hurricane",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "This year's El Niño has pushed Pacific Ocean waters to historic highs, reshaping hurricane seasons and global precipitation patterns.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/1226_scivis-elnino_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "US leases American Samoan seabed for mining in auction deemed illegal by court",
+              "url": "https://news.mongabay.com/2026/11/us-leases-american-samoan-seabed-for-mining-in-auction-deemed-illegal-by-court/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The U.S. auctioned 12.7 million hectares of American Samoan seabed for mining, despite a federal court ruling that the sale was illegal.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20215927/FK210922-Dive464-20211020-153149523-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "The British island that made a deal with nature",
+              "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay profiles Lundy Island in the Bristol Channel, where decades of conservation have brought back seabirds and marine life.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 21 – Voyager’s Neptune",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Today's APOD features Voyager's view of Neptune, a classic image of the outer solar system.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Curiosity Spots Drifting Twilight Clouds",
+              "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Curiosity rover captured drifting twilight clouds over Gale Crater, which appear only briefly each fall on Mars.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Extreme rainfalls flood Sri Lanka’s coastal city as wetlands, drains vanish",
+              "url": "https://news.mongabay.com/2026/11/extreme-rainfalls-flood-sri-lankas-coastal-city-as-wetlands-drains-vanish/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A 129 mm downpour flooded parts of Sri Lanka's commercial capital within minutes as wetlands and drains have disappeared.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21030127/1-People-and-floods-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [],
+  "quote": {
+    "text": "The vitality of thought is in adventure.",
+    "who": "Alfred North Whitehead",
+    "about": "English mathematician and philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 124–133 at DEN",
+      "last_date": "Nov 20",
+      "next": "Mon Nov 23 vs LAC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909312/rockets-nuggets",
+      "recent": [
+        "L 124–133 at DEN · Nov 20",
+        "W 119–104 at IND · Nov 18",
+        "L 110–128 at MIA · Nov 16"
+      ],
+      "upcoming": [
+        "Mon Nov 23 vs LAC",
+        "Wed Nov 25 vs PHX",
+        "Sat Nov 28 vs PHI"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Recalls",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.fda.gov/apology_objects/abuse-detection-apology.html"
+    }
+  ],
+  "usage": {
+    "input_tokens": 70785,
+    "output_tokens": 9530
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Trump Promised Mass Deportations In Springfield, Ohio. Now They’re Happening.",
+          "url": "https://www.youtube.com/watch?v=Fa2HWrfesrM",
+          "source": "More Perfect Union",
+          "topic": "News & Politics",
+          "note": "More Perfect Union revisits Springfield, Ohio, reporting on Haitian residents' fears of arrest and deportation and the town's job losses.",
+          "image": "https://i3.ytimg.com/vi/Fa2HWrfesrM/hqdefault.jpg",
+          "video": "Fa2HWrfesrM"
+        },
+        {
+          "title": "Trump's Nominee Can't Answer Basic Question About The Constitution",
+          "url": "https://www.youtube.com/watch?v=B3zsvlu191s",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report discusses a Trump nominee's inability to answer a basic constitutional question.",
+          "image": "https://i3.ytimg.com/vi/B3zsvlu191s/hqdefault.jpg",
+          "video": "B3zsvlu191s"
+        },
+        {
+          "title": "Zohran SHOCKS: RIKERS TO CLOSE",
+          "url": "https://www.youtube.com/watch?v=2Svqf4AtLOU",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Breaking Points discusses the plan to close New York City's Rikers Island prison, announced by Mayor Zohran Mamdani.",
+          "image": "https://i3.ytimg.com/vi/2Svqf4AtLOU/hqdefault.jpg",
+          "video": "2Svqf4AtLOU"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Purdy, Williams, Kittle Talk Altitude Prep, Mexico City Experience | 49ers",
+          "url": "https://www.youtube.com/watch?v=yX8mdKVLjIk",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Purdy, Williams and Kittle discuss altitude preparation and the challenge of facing Minnesota's blitz-heavy defense in Mexico City.",
+          "image": "https://i2.ytimg.com/vi/yX8mdKVLjIk/hqdefault.jpg",
+          "video": "yX8mdKVLjIk"
+        },
+        {
+          "title": "Week 11 Preview: Battle For NFC's 1 Seed, Jaguars New Defense & Stopping Jahmyr Gibbs",
+          "url": "https://www.youtube.com/watch?v=iKOd8_dIKDo",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic previews Week 11, including the Vikings and 49ers Game of the Week in Mexico City.",
+          "image": "https://i2.ytimg.com/vi/iKOd8_dIKDo/hqdefault.jpg",
+          "video": "iKOd8_dIKDo"
+        },
+        {
+          "title": "UFC Qatar: Jiri Prochazka vs. Navajo Stirling Preview Show | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=BvpQnBcKr_s",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting previews UFC Qatar's headliner, Jiri Prochazka vs. Navajo Stirling, and the rest of the card.",
+          "image": "https://i3.ytimg.com/vi/BvpQnBcKr_s/hqdefault.jpg",
+          "video": "BvpQnBcKr_s"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Build Your Own Construction Estimating Software in Claude (Artifacts 2.0)",
+          "url": "https://www.youtube.com/watch?v=Iuz4Aikub0s",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley shows how to build a construction estimating tool inside Claude using artifacts, with export to Excel and Google Sheets.",
+          "image": "https://i2.ytimg.com/vi/Iuz4Aikub0s/hqdefault.jpg",
+          "video": "Iuz4Aikub0s"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "A Secret WWII Base Hidden in the Rock of Gibraltar! | Underground Marvels | Science Channel",
+          "url": "https://www.youtube.com/watch?v=sEtWXTH5SCo",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel looks at a hidden WWII subterranean fortress inside the Rock of Gibraltar and newly found evidence of espionage.",
+          "image": "https://i4.ytimg.com/vi/sEtWXTH5SCo/hqdefault.jpg",
+          "video": "sEtWXTH5SCo"
+        },
+        {
+          "title": "You’re Making Happiness Too Difficult — Arthur Schopenhauer",
+          "url": "https://www.youtube.com/watch?v=eSKw4qLrjZ0",
+          "source": "Einzelgänger",
+          "topic": "Tech & Science",
+          "note": "Einzelgänger explains Schopenhauer's view that the more we demand happiness, the more fragile it becomes, and how to reduce that.",
+          "image": "https://i2.ytimg.com/vi/eSKw4qLrjZ0/hqdefault.jpg",
+          "video": "eSKw4qLrjZ0"
+        }
+      ]
+    }
+  ]
+}
