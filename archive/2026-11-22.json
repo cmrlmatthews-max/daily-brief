@@ -1,0 +1,1145 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Sunday, November 22, 2026",
+  "generated_at": "2026-11-22T05:00:19-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5",
+    "week": "claude-opus-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Sunday, November 22. Our lead story is about Anthropic. NPR reports that a mathematician who works for the company claims he has solved a Holy Grail of math problems with help from Claude. This is his claim, and the report does not say whether others have checked it. NPR notes it is the second time in recent months that an AI company, or someone linked to one, has made such a claim about a famed unsolved problem. Now the front page. In the UFC, Navajo Stirling knocked out former champion Jirí Procházka in the second round of the main event in Doha, Qatar. He is now seven and zero in the UFC. In the NBA, Rockets coach Ime Udoka was upset after the loss to the Nuggets. Houston gave up a season high in points, and he called the defense as bad as he has seen it. In politics, President Trump is directing federal contractors to consult the White House about inquiries from Congress. They are also told to withhold any communications that his administration considers privileged. In Atlanta, Secretary of State Brad Raffensperger certified Georgia's November third election results on Friday. That makes the Democratic sweep of statewide offices official. Now the sections. In tech, a Claude Code skill bundle for bug hunting is trending on GitHub, and Graham Dumpleton has released Muru, an AI-assisted Rust server for Python web apps. In politics, The Lever compares Chris Van Hollen and Chuck Schumer on key issues, and Drop Site News reports that Sudan's power grid is near collapse after strikes on electricity stations. In world news, South Korea's education minister resigned over chaos linked to measures against AI-assisted cheating on the college entrance exam. Mexican authorities captured a cartel leader on the FBI's most wanted list, in a firefight that left eleven dead. Bayer reached a Roundup settlement that could cost the company billions. In sports, the Forty-Niners play in Mexico City tonight, and Fred Warner is building a strong Defensive Player of the Year case. The Rockets are also getting a boost from a healthy Fred VanVleet. In Atlanta, Fulton County commissioners clashed over security for incoming chair Mo Ivory, and MARTA installed its final upgraded faregate. In architecture, a London steel reuse project used Tekla automation, and the Paris Aquatics Centre shows a curved wooden form. In science, Science News reports that the world is bracing for a strong El Niño, and NASA shared drifting twilight clouds seen by the Curiosity rover on Mars. That is the brief. Have a good day. This is the Sunday edition. Here is the week in review. Anthropic goes public as markets slide; Trump meets Xi, Putin. Anthropic was the main story this week. On Monday it filed an S-1 with the SEC, launched its roadshow and put a portion of its shares into a new Public Benefit Fund. NPR reported that the IPO priced at $83 a share and raised a record $81.3 billion. Anthropic announced the closing on Saturday. It also expanded its partnership with the GSA, and the Claude Platform added Linked billing in beta. Mathematician Levent Alpöge says he and Claude found a proof of the Riemann Hypothesis. NPR reports this as his claim. Markets fell late in the week: the S&P 500 dropped 3.7% on Friday, and the Nasdaq is now down for the year. In world news, President Trump met Xi Jinping and Vladimir Putin. NPR Politics reported few concrete results beyond a joint statement on some issues. Ukraine struck the Crimean Bridge, and a Russian missile attack hit three Kyiv bridges and killed five people. Iran stepped up attacks on ships in the Strait of Hormuz and on several Gulf countries. The UN's top court ruled that Myanmar committed genocide against the Rohingya. COP31 talks stalled over fossil fuels. In the US, NPR reported that Democrats won 56% of the House vote to Republicans' 42%. Mary Peltola won Alaska's Senate seat, and Brad Raffensperger certified Georgia's results. In Atlanta, a $19B regional plan includes millions for The Stitch, and Underground Atlanta's owner bought a John Portman tower. In BIM, Pliera launched as a challenger to Revit. The 49ers beat Dallas 46-40. The Rockets reached 12-4 before losing to Denver.",
+  "lead": {
+    "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+    "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
+    "source": "NPR World",
+    "topic": "World",
+    "note": "NPR reports that a mathematician who works for Anthropic claims he has solved what it calls a Holy Grail of math problems, using the company's AI tool Claude. The summary presents this as his claim, and it does not say whether other mathematicians have checked the work. NPR also notes that this is the second time in recent months that an AI company, or someone linked to one, has claimed to have cracked a famed unsolved math problem. For a reader who builds personal tools with Claude, the story shows the kind of hard technical work people are now trying with these systems. It is worth reading as a claim for now. The real test will be whether outside experts review the result and agree that it holds up, which the short summary does not yet describe.",
+    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8565x5710+0+0/resize/8565x5710!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F44%2F26%2F578525af4450b59d88792c06e0da%2Fap26323821321779.jpg",
+    "video": null,
+    "headline": "Anthropic Mathematician Claims Math Breakthrough With Claude",
+    "decks": [
+      "Anthropic employee says Claude helped solve a famed math problem",
+      "Second such claim from an AI-linked source in recent months",
+      "The claim is reported by NPR as his own"
+    ]
+  },
+  "front": [
+    {
+      "title": "Navajo Stirling knocks out another ex-champ in Jirí Procházka to cap Fight Night",
+      "url": "https://www.espn.com/mma/ufc/story/_/id/50553944/navajo-stirling-kos-another-ex-champ-jiri-prochazka",
+      "source": "UFC (ESPN)",
+      "topic": "Sports",
+      "note": "Navajo Stirling knocked out former champion Jirí Procházka in the second round of the main event in Doha, Qatar, improving to 7-0 in the UFC.",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1749161_600x400_3-2.jpg",
+      "video": null
+    },
+    {
+      "title": "Ime Udoka frustrated by Rockets' defense: 'No effort or any attention to detail'",
+      "url": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Coach Ime Udoka called the Rockets' defense \"as bad as I've seen it\" after they gave up a season high in points in the loss to the Nuggets.",
+      "image": "https://a.espncdn.com/photo/2025/0430/r1486037_1296x729_16-9.jpg",
+      "video": null
+    },
+    {
+      "title": "Trump orders federal contractors to check with White House before responding to Congress",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "President Trump is directing federal contractors to consult the White House about congressional inquiries and to withhold communications his administration considers privileged.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg",
+      "video": null
+    },
+    {
+      "title": "It’s official: Raffensperger certifies Nov. 3 election results",
+      "url": "https://roughdraftatlanta.com/2026/11/21/raffensperger-certifies-georgia-election-results/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Georgia Secretary of State Brad Raffensperger certified the Nov. 3 results, making the Democratic sweep of statewide offices official.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/jefferson-park-recreation-center-polling-place-fulton-2026-600x374.webp",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A Claude Code skill bundle for bug hunting and red-team work, with 82 skills and 15 slash commands, which is useful to see how people package Claude workflows.",
+          "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+          "video": null
+        },
+        {
+          "title": "Muru",
+          "url": "https://simonwillison.net/2026/Nov/21/muru/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Graham Dumpleton's new AI-assisted Rust server aims to run ASGI and WSGI Python apps well, from a developer who started mod_wsgi 20 years ago.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+          "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+          "source": "GitHub new popular repos",
+          "topic": "Tech & AI",
+          "note": "An AI assistant and MCP server for Blender that works with Claude and other models, relevant to anyone linking AI tools to 3D scenes.",
+          "image": "https://opengraph.githubassets.com/1/bookwjitchieni1986/blender-ai-mcp-addon",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Van Hollen Wants Schumer’s Job. Here’s Where They Split.",
+          "url": "https://www.levernews.com/van-hollen-wants-schumers-job-heres-where-they-split/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever compares Senator Chris Van Hollen and Chuck Schumer on Medicare for All, weapons for Israel and AI regulation in the leadership challenge.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Majority-Democrats-Billionaires-Van-Hollen-Schumer.png",
+          "video": null
+        },
+        {
+          "title": "Sudan’s Power Grid on Brink of Collapse Following Wave of Strikes Targeting Electricity Stations",
+          "url": "https://www.dropsitenews.com/p/sudan-power-grid-electricity-blackouts",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports Sudan's power grid is near collapse after strikes on electricity stations, with blackouts disrupting hospitals and farming.",
+          "image": "https://substackcdn.com/image/fetch/$s_!dCFu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba09034c-554c-4929-9da0-0fd6b102e2de_2482x1773.jpeg",
+          "video": null
+        },
+        {
+          "title": "Pentagon’s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members",
+          "url": "https://www.dropsitenews.com/p/pentagon-iran-war-saudi-yemen-port-haiti-gangs",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site's daily roundup reports Pentagon costs for the Iran war have topped $48 billion, along with strikes at Hodeidah port.",
+          "image": "https://substackcdn.com/image/fetch/$s_!Nj1g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5b5cef-ea7c-43a8-9ceb-1d3ad011a35a_5703x3695.heic",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "South Korea education minister resigns over exam cheating scandal",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "South Korea's education minister resigned after last-minute measures to stop AI-assisted cheating on the college entrance exam caused chaos.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1f58/live/2ab01bc0-e651-11f1-a094-5fdc692f3e33.jpg",
+          "video": null
+        },
+        {
+          "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Fausto Isidro Meza Flores, an FBI most-wanted fugitive, was captured in northern Mexico in a firefight that left 11 dead, and violence followed in the region.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4153x2769+0+0/resize/4153x2769!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4f%2F34%2F888e5ba6425cae1b50ebbe90e6a1%2Fap26325506754293.jpg",
+          "video": null
+        },
+        {
+          "title": "Bayer reaches Roundup settlement that could cost the company billions",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Bayer reached a Roundup settlement that could cost billions, with money going to people diagnosed with non-Hodgkin lymphoma.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5265x3524+0+0/resize/5265x3524!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F67%2Fa1%2F2a7c9b0b4b1783ffed73a002a6ad%2Fgettyimages-2283306424.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "In Mexico City, 49ers' Fred Warner can represent his heritage and boost DPOY case",
+          "url": "https://www.espn.com/nfl/story/_/id/50535108/san-francisco-49ers-fred-warner-mexican-heritage-dpoy",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Fred Warner plays in Mexico City on Sunday while building what the item calls the best Defensive Player of the Year case of his career.",
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748531_608x342_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
+          "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "A healthy Fred VanVleet is driving the Rockets' early success after an ACL injury ended his 2025-26 season.",
+          "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "These ranked prospects got 40-man roster spots",
+          "url": "https://www.mlb.com/braves/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "MLB.com lists the ranked prospects who earned 40-man roster spots, a quick read for offseason roster watchers.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/n0q9izvzsdfo224eqhm0.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Mo Ivory: Fulton board is disrupting transition for incoming officials",
+          "url": "https://saportareport.com/mo-ivory-fulton-board-is-disrupting-transition-for-incoming-officials/columnists/adrianne-murchison/adrianne-murchison/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Fulton County commissioners clashed over security protection and office access for Chair-elect Mo Ivory before she takes office in January.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0375.jpg?fit=1024%2C758&ssl=1",
+          "video": null
+        },
+        {
+          "title": "MARTA: Tap-and-go Breeze upgrades have reached milestone",
+          "url": "https://atlanta.urbanize.city/post/marta-breeze-card-tap-faregates-upgrades-are-now-complete",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "MARTA has installed its final upgraded faregate, a milestone in its tap-and-go Breeze upgrade that began 13 months ago.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-11/MARTA%20Better%20Breeze%20faregates%20and%20ticket%20vending%20machines.jpeg?itok=BSoTwims",
+          "video": null
+        },
+        {
+          "title": "Before/After: Little Five Points overhaul comes into sharper focus",
+          "url": "https://atlanta.urbanize.city/post/before-after-little-five-points-streets-overhaul-comes-sharper-focus",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A $3 million streets overhaul in Little Five Points is set to begin, aimed at making the commercial district safer.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Euclid%20Avenue%20Safe%20Street%20project%201.jpg?itok=xAGBHllj",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Tekla API helps transform structural steel reuse",
+          "url": "https://aecmag.com/structural-engineering/tekla-api-helps-transform-structural-steel-reuse/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "William Hare used Tekla API automation to maximise reclaimed structural steel on a London project, a practical case of BIM-driven reuse.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Aquatics Centre Paris / VenhoevenCS + Ateliers 2/3/4/",
+          "url": "https://www.archdaily.com/1019578/aquatics-centre-paris-venhoevencs-plus-ateliers-2-3-4",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "The Paris Aquatics Centre, a curved wooden structure, is the only permanent facility built for the 2024 Games.",
+          "image": "https://images.adsttc.com/media/images/66ab/638b/2933/476f/9500/f8f4/newsletter/aquatics-centre-paris-venhoevencs-plus-ateliers-2-3-4_16.jpg?1722508197",
+          "video": null
+        },
+        {
+          "title": "Lamberth Palace Arches / Tigg + Coll Architects",
+          "url": "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "TiggColl turned three Victorian railway arches in London into study and social spaces using a demountable mass-timber system.",
+          "image": "https://images.adsttc.com/media/images/6afb/7c67/8074/f464/a9f9/3436/newsletter/lamberth-palace-arches-tigg-plus-coll-architects_12.jpg?1794866572",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "An El Niño amped by climate change has California bracing for the worst",
+          "url": "https://www.sciencenews.org/article/el-nino-climate-change-california",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Science News says the world is bracing for a Super El Niño made stronger by climate change, with California preparing for the worst.",
+          "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111826_CG_ElNino_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Curiosity Spots Drifting Twilight Clouds",
+          "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's Curiosity rover photographed drifting twilight clouds over Gale Crater on Mars, which appear only briefly each fall.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
+          "video": null
+        },
+        {
+          "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's picture of the day for November 22 shows swirls and colors on Jupiter as seen by Juno.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that less than half of Republicans nationwide consider the midterm elections free and fair, according to new polling. Trump initially accepted the results.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4657x3136+0+0/resize/4657x3136!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe7%2F8b%2F8f6f9ccc4492a5a6d3619a61182e%2Fgettyimages-2303366947.jpg",
+              "video": null
+            },
+            {
+              "title": "An effort to circumvent the Electoral College may be within reach. But hurdles remain",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6044237/electoral-college-national-popular-vote-interstate-compact",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A national effort to ensure only popular-vote winners become president could reach a critical milestone soon, though hurdles remain. Relevant to how elections are decided.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8055x5370+0+0/resize/8055x5370!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F9c%2Fe0%2F5117a4fb400e8b75168010b72ece%2Fgettyimages-1244621687.jpg",
+              "video": null
+            },
+            {
+              "title": "Week in Politics: Trump returns from Asia; hails trip as one of best in history",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6047376/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Trump returned from his Asia trip, calling it one of the most successful presidential visits in American history. Summarizes the week's foreign policy travel.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Pentagon’s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members",
+              "url": "https://www.dropsitenews.com/p/pentagon-iran-war-saudi-yemen-port-haiti-gangs",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site reports that Pentagon costs for the Iran war have topped $48 billion, alongside Saudi strikes on Hodeidah port and other developments.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Nj1g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5b5cef-ea7c-43a8-9ceb-1d3ad011a35a_5703x3695.heic",
+              "video": null
+            },
+            {
+              "title": "Israeli Diplomat Offered Iowa Attorney General Free Trip, Then Asked for Favors",
+              "url": "https://www.dropsitenews.com/p/israel-iowa-attorney-general-brenna-bird",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "FOIA disclosures and hacked emails show an Israeli diplomat offered an Iowa attorney general a trip, then sought favors on anti-boycott laws. Independent reporting on state-level influence.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Rzv0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c73502e-ed0b-4c51-b16d-c86059abefbb_5268x3512.jpeg",
+              "video": null
+            },
+            {
+              "title": "Weapons Makers Want To Keep Their Pentagon Repair Racket",
+              "url": "https://www.levernews.com/weapons-makers-want-to-keep-their-pentagon-repair-racket/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that weapons makers control the data needed to repair military equipment and are fighting legislation that would break those repair monopolies.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--33-.jpg",
+              "video": null
+            },
+            {
+              "title": "Chris Van Hollen Is Threatening The Democratic Machine",
+              "url": "https://www.levernews.com/chris-van-hollen-is-threatening-the-democratic-machine/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Senator Chris Van Hollen is challenging Chuck Schumer for Democratic leadership, pitching a more public-facing role. Shows the party's internal leadership contest.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Chris-Van-Hollen.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Trump orders federal contractors to check with White House before responding to Congress",
+              "url": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "President Trump has directed federal contractors to consult the White House before answering congressional inquiries and to withhold communications deemed privileged. A significant change in oversight practice.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg",
+              "video": null
+            },
+            {
+              "title": "South Korea education minister resigns over exam cheating scandal",
+              "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "South Korea's education minister resigned after last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos. Connects AI misuse with public institutions.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1f58/live/2ab01bc0-e651-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "Three killed and dozens missing after fire at Indonesian factory",
+              "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "At least three people were killed and 36 are missing after a fire at a confectionery factory in Indonesia. Breaking news on a workplace disaster.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
+              "video": null
+            },
+            {
+              "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Mexican authorities arrested Fausto Isidro Meza Flores, an FBI most-wanted fugitive, in a firefight in northwest Mexico that left 11 dead. Reports note violence has followed in the region.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4153x2769+0+0/resize/4153x2769!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4f%2F34%2F888e5ba6425cae1b50ebbe90e6a1%2Fap26325506754293.jpg",
+              "video": null
+            },
+            {
+              "title": "What did Xi Jinping get from the bear hug with Trump at the Shenzhen summit?",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Analysis of what China's Xi Jinping gained from the Shenzhen summit with Trump, from a University of Maryland China specialist. Context on US-China relations after the trip.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "UN talks in Geneva ended without legally binding rules on autonomous weapons, while humanitarian groups warn military AI is advancing faster than diplomacy.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4146x2764+0+0/resize/4146x2764!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F77%2F65%2Fec3be56f4a8caadcaf913863094e%2Fap26320313350560.jpg",
+              "video": null
+            },
+            {
+              "title": "Bayer reaches Roundup settlement that could cost the company billions",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Bayer has reached a Roundup settlement that could cost the company billions, with payments going to people diagnosed with non-Hodgkin lymphoma.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5265x3524+0+0/resize/5265x3524!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F67%2Fa1%2F2a7c9b0b4b1783ffed73a002a6ad%2Fgettyimages-2283306424.jpg",
+              "video": null
+            },
+            {
+              "title": "Storms expected on both coasts threatens Thanksgiving travel",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6047508/weather-thanksgiving-storm-elnino",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Storms on both coasts threaten Thanksgiving travel, and San Francisco's mayor has urged residents not to travel unless absolutely essential.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F45%2F0b%2F4ca5429c4444a8280c4ead69cf19%2Fgettyimages-2305764692.jpg",
+              "video": null
+            },
+            {
+              "title": "Lock of former US President George Washington's hair sells for $4,000",
+              "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A lock of George Washington's hair sold for $4,000 at auction. A light item, included for its historical interest.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5138/live/c4d4d0c0-e5ec-11f1-ad4d-5dd9d517a6dd.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Muru",
+              "url": "https://simonwillison.net/2026/Nov/21/muru/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Graham Dumpleton, creator of mod_wsgi, is building Muru, an AI-assisted Rust server for running Python ASGI and WSGI apps. Relevant to anyone who deploys Python web tools.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle for security testing, with 82 skills and 15 slash commands. Directly relevant to building personal Claude-based tools.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "hatsunemiku-ai/google-one-tools",
+              "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A popular Python repository for Google account tools, with about 1,180 stars on GitHub. Listed among the new popular repos today.",
+              "image": "https://opengraph.githubassets.com/1/hatsunemiku-ai/google-one-tools",
+              "video": null
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "CLI-Anything aims to make existing software usable by AI agents through command-line interfaces. Fits your interest in agent tooling.",
+              "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering. Company news about Claude's maker.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic prices initial public offering",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has priced its initial public offering, according to the company's news feed. Follows the filing and roadshow announcements.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+              "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A Blender add-on that connects Claude and other AI models to 3D scene tools via MCP. Bridges AI and 3D modeling work.",
+              "image": "https://opengraph.githubassets.com/1/bookwjitchieni1986/blender-ai-mcp-addon",
+              "video": null
+            },
+            {
+              "title": "PostgreSQL 19 Released",
+              "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "PostgreSQL 19 has been released, delayed by AI-reported vulnerability fixes. A major database update for anyone building data-backed tools.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Stirling's superstar ascension continues with Prochazka KO",
+              "url": "https://www.espn.com/video/clip/_/id/50555180/stirling-superstar-ascension-continues-prochazka-ko",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Navajo Stirling knocked out Jiri Prochazka in Round 2 at UFC Qatar, improving to 12-0. A strong result in a division you follow.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "Ime Udoka frustrated by Rockets' defense: 'No effort or any attention to detail'",
+              "url": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Coach Ime Udoka criticized the Rockets' defense after a loss to Denver, which gave up a season-high in points. Direct news on your Houston team.",
+              "image": "https://a.espncdn.com/photo/2025/0430/r1486037_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
+              "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Fred VanVleet, healthy after an ACL injury cut short his 2025-26 season, is central to Houston's early-season success. Useful context on the Rockets.",
+              "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "In Mexico City, 49ers' Fred Warner can represent his heritage and boost DPOY case",
+              "url": "https://www.espn.com/nfl/story/_/id/50535108/san-francisco-49ers-fred-warner-mexican-heritage-dpoy",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "49ers linebacker Fred Warner, in the best Defensive Player of the Year campaign of his career, plays in Mexico City this Sunday. Ahead of a key game.",
+              "image": "https://a.espncdn.com/photo/2026/1120/r1748531_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Police investigate man's death after alleged altercation at 49ers-Cowboys game",
+              "url": "https://www.espn.com/nfl/story/_/id/50543613/police-investigate-man-death-incident-cowboys-game",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Police are investigating the death of a man allegedly involved in an altercation before the 49ers-Cowboys game in Arlington. Real news from the 49ers' recent game.",
+              "image": "https://a.espncdn.com/photo/2016/0210/r53349_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "These ranked prospects got 40-man roster spots",
+              "url": "https://www.mlb.com/braves/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "The Braves added ranked prospects to the 40-man roster. Concrete roster news for the offseason.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/n0q9izvzsdfo224eqhm0.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Make a Series of Moves Ahead of #MINvsSF",
+              "url": "https://www.49ers.com/news/49ers-make-a-series-of-moves-ahead-of-minvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers announced a series of roster moves ahead of their game against the Vikings. Concrete team news.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/rlhwynf2g04iqphpgapy.png",
+              "video": null
+            },
+            {
+              "title": "UFC releases Virna Jandiroba, former title challenger, current No. 3 strawweight",
+              "url": "https://www.espn.com/mma/story/_/id/50523092/ufc-releases-former-strawweight-title-challenger-jandiroba",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "The UFC released former title challenger Virna Jandiroba, currently ranked No. 3 in the women's strawweight division. A notable roster move.",
+              "image": "https://a.espncdn.com/photo/2026/1019/r1733054_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "It’s official: Raffensperger certifies Nov. 3 election results",
+              "url": "https://roughdraftatlanta.com/2026/11/21/raffensperger-certifies-georgia-election-results/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Secretary of State Brad Raffensperger certified Georgia's November 3 election results, making the Democratic sweep of statewide offices official.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/jefferson-park-recreation-center-polling-place-fulton-2026-600x374.webp",
+              "video": null
+            },
+            {
+              "title": "Mo Ivory: Fulton board is disrupting transition for incoming officials",
+              "url": "https://saportareport.com/mo-ivory-fulton-board-is-disrupting-transition-for-incoming-officials/columnists/adrianne-murchison/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Fulton commissioners clashed over security protection and office access for incoming Chair-elect Mo Ivory before she takes office in January. Local government news.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/IMG_0375.jpg?fit=1024%2C758&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Before/After: Little Five Points overhaul comes into sharper focus",
+              "url": "https://atlanta.urbanize.city/post/before-after-little-five-points-streets-overhaul-comes-sharper-focus",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A $3 million streets overhaul in Little Five Points aims to make the commercial district safer. A direct Atlanta street project.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Euclid%20Avenue%20Safe%20Street%20project%201.jpg?itok=xAGBHllj",
+              "video": null
+            },
+            {
+              "title": "MARTA: Tap-and-go Breeze upgrades have reached milestone",
+              "url": "https://atlanta.urbanize.city/post/marta-breeze-card-tap-faregates-upgrades-are-now-complete",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA has installed its final upgraded faregates for the Breeze tap-and-go system, a milestone in the transit network. Relevant to daily commuting.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2025-11/MARTA%20Better%20Breeze%20faregates%20and%20ticket%20vending%20machines.jpeg?itok=BSoTwims",
+              "video": null
+            },
+            {
+              "title": "Fresh renderings: Buckhead district’s planned revival scores tax break",
+              "url": "https://atlanta.urbanize.city/post/renderings-buckhead-empire-zephyr-districts-planned-revival-scores-tax-break",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton County's development authority approved tax incentives for two downtown-area projects, including a Buckhead district revival. Local development news for an architect.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Piedmont%20Center%20Renderings_Green%20Space.jpg?itok=DHrPVugt",
+              "video": null
+            },
+            {
+              "title": "Images: Plans unveiled for Atlanta pro women’s soccer upscale digs",
+              "url": "https://atlanta.urbanize.city/post/alt-city-fc-atlanta-pro-womens-soccer-upscale-facility-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Plans have been unveiled for a training facility for Atlanta's professional women's soccer club. A local architecture and development project.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Atlanta%20City%20FC%20Wellstar%20Performance%20Center%209.png?itok=TqlZDm-N",
+              "video": null
+            },
+            {
+              "title": "GSU officially opens new Downtown campus Panther Quad",
+              "url": "https://roughdraftatlanta.com/2026/11/21/gsu-panther-quad-opens/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia State University opened its Panther Quad on its Downtown campus, an expanded outdoor space linking the Campus Greenway to Hurt Park.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/The-new-Panther-Quad-connects-the-existing-Campus-Greenway.-Photo-by-Meg-Buscema-600x400.jpg",
+              "video": null
+            },
+            {
+              "title": "Atlanta Housing reports $7.7 billion economic impact, advances affordable housing efforts",
+              "url": "https://saportareport.com/atlanta-housing-reports-7-7-billion-economic-impact-advances-affordable-housing-efforts/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta Housing reports a $7.7 billion economic impact and advances in affordable housing efforts. Relevant to local housing development.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-14.jpeg?fit=1024%2C750&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Strata House / VPA Architects",
+              "url": "https://www.archdaily.com/1188548/strata-house-vpa-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Strata House is a residence designed around climate, with deep overhead projections controlling sun on a south-facing plot. A strong passive-design example.",
+              "image": "https://images.adsttc.com/media/images/6af5/a136/eabd/2a00/0192/d4a7/newsletter/DJI_20260312174636_0452_D.jpg?1794482945",
+              "video": null
+            },
+            {
+              "title": "Tekla API helps transform structural steel reuse",
+              "url": "https://aecmag.com/structural-engineering/tekla-api-helps-transform-structural-steel-reuse/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "William Hare used bespoke Tekla API automation to maximise reclaimed structural steel on a London project. Relevant to BIM and computational workflows.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Renda and Nexalus launch liquid-cooled AI server",
+              "url": "https://aecmag.com/workstations/renda-and-nexalus-launch-liquid-cooled-ai-server/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Renda and Nexalus launched a liquid-cooled AI server for facilities not built for liquid cooling. Relevant to data-center and AI infrastructure.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Aquatics Centre Paris / VenhoevenCS + Ateliers 2/3/4/",
+              "url": "https://www.archdaily.com/1019578/aquatics-centre-paris-venhoevencs-plus-ateliers-2-3-4",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Aquatics Centre in Saint-Denis, Paris, is a curved timber structure and the only permanent facility built for the 2024 Games. A notable mass-timber project.",
+              "image": "https://images.adsttc.com/media/images/66ab/638b/2933/476f/9500/f8f4/newsletter/aquatics-centre-paris-venhoevencs-plus-ateliers-2-3-4_16.jpg?1722508197",
+              "video": null
+            },
+            {
+              "title": "Lamberth Palace Arches / Tigg + Coll Architects",
+              "url": "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Tigg + Coll Architects turned Victorian railway arches in London into study and social spaces using a demountable mass-timber system. A reusable construction approach.",
+              "image": "https://images.adsttc.com/media/images/6afb/7c67/8074/f464/a9f9/3436/newsletter/lamberth-palace-arches-tigg-plus-coll-architects_12.jpg?1794866572",
+              "video": null
+            },
+            {
+              "title": "Police Station for the People / STUDIO MOTLEY",
+              "url": "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "STUDIO MOTLEY designed a police station in Devanahalli, India, around a brief to make it less intimidating. A civic design case study.",
+              "image": "https://images.adsttc.com/media/images/6af4/571a/eabd/2a00/0192/c552/newsletter/E_MKGs_HR-72.jpg?1794398152",
+              "video": null
+            },
+            {
+              "title": "Biarritz Building / Ariel Jacubovich | Oficina de Arquitectura",
+              "url": "https://www.archdaily.com/1189023/biarritz-building-ariel-jacubovich-oficina-de-arquitectura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Biarritz is a 35-unit residential building in Buenos Aires Province, developed with a teachers' cooperative through a participatory process from 2017. A housing model worth studying.",
+              "image": "https://images.adsttc.com/media/images/6b00/af59/94d7/ea00/019c/fee4/newsletter/javier_agustin_rojas_biarritz_DJI_0165_high.jpg?1795207065",
+              "video": null
+            },
+            {
+              "title": "Mapping Memory: Reconstructing Architecture Beyond Physical Evidence",
+              "url": "https://www.archdaily.com/1188661/mapping-memory-reconstructing-architecture-beyond-physical-evidence",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "An ArchDaily piece on reconstructing architecture from memory and non-visual cues such as sound and footsteps. A thoughtful take on how spaces are experienced.",
+              "image": "https://images.adsttc.com/media/images/6af9/1511/c23f/1f01/895a/feb8/newsletter/mapping-memory-reconstructing-architecture-beyond-physical-evidence_3.jpg?1794708762",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows swirls and colors on Jupiter from the Juno mission. A striking view of the planet's atmosphere.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 21 – Voyager’s Neptune",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Voyager's view of Neptune is featured in today's NASA Astronomy Picture of the Day archive. A look back at one of the outer planets.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&h=1669&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Curiosity Spots Drifting Twilight Clouds",
+              "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Curiosity rover captured twilight clouds drifting over Gale Crater on Mars. A seasonal Martian phenomenon seen in recent images.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&h=603&fit=clip",
+              "video": null
+            },
+            {
+              "title": "An El Niño amped by climate change has California bracing for the worst",
+              "url": "https://www.sciencenews.org/article/el-nino-climate-change-california",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Climate change may be amplifying an El Niño that could bring a Super El Niño, with California bracing for the impact. Relevant to the state's weather and wildfire risk.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111826_CG_ElNino_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Extreme rainfalls flood Sri Lanka’s coastal city as wetlands, drains vanish",
+              "url": "https://news.mongabay.com/2026/11/extreme-rainfalls-flood-sri-lankas-coastal-city-as-wetlands-drains-vanish/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Extreme rainfall in Sri Lanka's commercial capital flooded parts of the city within minutes as wetlands and drains disappeared. A clear case of urban flood risk.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21030127/1-People-and-floods-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Astronomer Isabel Angelo hunts for odd signals in telescope data",
+              "url": "https://www.sciencenews.org/article/telescope-data-isabel-angelo-sn-10",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Astronomer Isabel Angelo uses machine learning at the SETI Institute to search telescope data for unfamiliar signals. Relevant to your interest in space and AI.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_sn10-Isabel-Angelo_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "This scientist proves which problems computers can’t solve quickly",
+              "url": "https://www.sciencenews.org/article/game-computer-sn-10-dor-minzer-problem",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Dor Minzer studies how quickly computers can determine whether nearly all of a game's rules can be satisfied. Computational theory with clear explanation.",
+              "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_sn10-Dor-Minzer_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Where family foundations can help marine conservation",
+              "url": "https://news.mongabay.com/2026/11/where-family-foundations-can-help-marine-conservation/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A piece on how family foundations can support marine conservation after COP17 ended without concrete biodiversity measures. Relevant to ocean interests.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20172553/mexico_20250607_194557784x-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Sterile Products Due to Lack of Sterility Assurance",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+      "published": "2026-11-20T23:21:00+00:00"
+    },
+    {
+      "title": "Shanghai San Niu Food Co., LTD. Is Recalling Sanniu Evergeen Biscuits Due to Undeclared Milk and Sanniu Salt and Pepper Soda Biscuits Due to Undeclared Milk an…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+      "published": "2026-11-20T17:58:00+00:00"
+    },
+    {
+      "title": "Ridley Block Operations Recalls a Batch of Crystalyx®HE-20% for Beef Cattle and Bison Due to Excess Levels of Non-Protein Nitrogen (NPN)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ridley-block-operations-recalls-batch-crystalyxrhe-20-beef-cattle-and-bison-due-excess-levels-non",
+      "published": "2026-11-19T17:36:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "There is nothing wrong with meditating just to meditate, in the same way that you listen to music just for the music.",
+    "who": "Alan Watts",
+    "about": "British-American writer on Eastern philosophy",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 124–133 at DEN",
+      "last_date": "Nov 20",
+      "next": "Mon Nov 23 vs LAC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909312/rockets-nuggets",
+      "recent": [
+        "L 124–133 at DEN · Nov 20",
+        "W 119–104 at IND · Nov 18",
+        "L 110–128 at MIA · Nov 16"
+      ],
+      "upcoming": [
+        "Mon Nov 23 vs LAC",
+        "Wed Nov 25 vs PHX",
+        "Sat Nov 28 vs PHI"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 46–40 at DAL",
+      "last_date": "Nov 15",
+      "next": "Sun Nov 22 vs MIN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873063/49ers-cowboys",
+      "recent": [
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8",
+        "L 20–29 at ATL · Oct 25"
+      ],
+      "upcoming": [
+        "Sun Nov 22 vs MIN",
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 82806,
+    "output_tokens": 13170
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "MARKET FALLS, ANTHROPIC DOWN, AI BUBBLE POP?",
+          "url": "https://www.youtube.com/watch?v=P0R2K4-6Wgo",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Gary Marcus joins the Breaking Points crew to break down the AI market sell-off and whether it signals an AI bubble popping.",
+          "image": "https://i1.ytimg.com/vi/P0R2K4-6Wgo/hqdefault.jpg",
+          "video": "P0R2K4-6Wgo"
+        },
+        {
+          "title": "Elon Musk Has Some Regrets",
+          "url": "https://www.youtube.com/watch?v=8rnU4LdLxA4",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report discusses Elon Musk's comments on regrets. Commentary-format show; the description covers the live stream and call-in details only.",
+          "image": "https://i1.ytimg.com/vi/8rnU4LdLxA4/hqdefault.jpg",
+          "video": "8rnU4LdLxA4"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Buckner, Juszczyk Discuss Team Bonding, Recovery Process, and Prep for Vikings Defense | 49ers",
+          "url": "https://www.youtube.com/watch?v=roWrZPbJ6v8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers DL DeForest Buckner and FB Kyle Juszczyk discuss team bonding, altitude practice, and preparing for the Vikings defense in Mexico City.",
+          "image": "https://i3.ytimg.com/vi/roWrZPbJ6v8/hqdefault.jpg",
+          "video": "roWrZPbJ6v8"
+        },
+        {
+          "title": "49ers in Mexico City: ESPN’s Miguel Pascal on 40 Years of 49ers Fandom South of the Border",
+          "url": "https://www.youtube.com/watch?v=KeRxZdMYYSw",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers broadcaster Guy Haberman talks with ESPN's Miguel Pasquel about 40 years of 49ers fandom in Mexico and the Vikings game at Estadio Banorte.",
+          "image": "https://i4.ytimg.com/vi/KeRxZdMYYSw/hqdefault.jpg",
+          "video": "KeRxZdMYYSw"
+        },
+        {
+          "title": "UFC Qatar: Post-Fight Press Conference",
+          "url": "https://www.youtube.com/watch?v=taq4Wkaa-lw",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Post-fight press conference from UFC Qatar, with fighters taking media questions after the event.",
+          "image": "https://i1.ytimg.com/vi/taq4Wkaa-lw/hqdefault.jpg",
+          "video": "taq4Wkaa-lw"
+        },
+        {
+          "title": "UFC Qatar RESULTS & LIVE REACTION | Stirling KO's Prochazka, Vallejos Edges Sterling | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=C1qFDA8gQdo",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "MMA Fighting's Mike Heck and Jed Meshew react to UFC Qatar results, including Stirling's knockout of Prochazka in the main event.",
+          "image": "https://i4.ytimg.com/vi/C1qFDA8gQdo/hqdefault.jpg",
+          "video": "C1qFDA8gQdo"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Procore AI for Construction – RFIs, Submittals and Daily Logs",
+          "url": "https://www.youtube.com/watch?v=8ICEwx9rKQ0",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley walks through Procore AI for existing users, covering project information lookup, specialist agents, and use on RFIs and submittals.",
+          "image": "https://i1.ytimg.com/vi/8ICEwx9rKQ0/hqdefault.jpg",
+          "video": "8ICEwx9rKQ0"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "I Tested The World's Most Dangerous Animals",
+          "url": "https://www.youtube.com/watch?v=gicEOsFtMxw",
+          "source": "Mark Rober",
+          "topic": "Tech & Science",
+          "note": "Mark Rober tests the world's most dangerous animals in a science-driven video; the description is mostly sponsor text and gives few details.",
+          "image": "https://i4.ytimg.com/vi/gicEOsFtMxw/hqdefault.jpg",
+          "video": "gicEOsFtMxw"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "I Tested All the Best (and Worst) Ways to Build a Shower",
+          "url": "https://www.youtube.com/watch?v=6-DuiX7hAgA",
+          "source": "Home RenoVision DIY",
+          "topic": "Make & Cook",
+          "note": "Home RenoVision DIY compares popular shower pans, wall boards, and waterproofing systems, including Schluter KERDI, Wedi, and cement board, for leak prevention.",
+          "image": "https://i3.ytimg.com/vi/6-DuiX7hAgA/hqdefault.jpg",
+          "video": "6-DuiX7hAgA"
+        },
+        {
+          "title": "I Built the Ultimate Mobile Workshop in a Trailer",
+          "url": "https://www.youtube.com/watch?v=c2BGuyPBL8M",
+          "source": "John Malecki",
+          "topic": "Make & Cook",
+          "note": "John Malecki shows how he built a mobile workshop inside a trailer, with tool and build details in the video.",
+          "image": "https://i4.ytimg.com/vi/c2BGuyPBL8M/hqdefault.jpg",
+          "video": "c2BGuyPBL8M"
+        },
+        {
+          "title": "You're Making Baked Potatoes WRONG (3 Ways to Fix That!)",
+          "url": "https://www.youtube.com/watch?v=3CKyW8Zo0S4",
+          "source": "Sam the Cooking Guy",
+          "topic": "Make & Cook",
+          "note": "Sam the Cooking Guy shows three ways to turn baked potatoes into full meals, including a loaded baked potato dish.",
+          "image": "https://i4.ytimg.com/vi/3CKyW8Zo0S4/hqdefault.jpg",
+          "video": "3CKyW8Zo0S4"
+        }
+      ]
+    }
+  ],
+  "week": {
+    "from": "2026-11-16",
+    "to": "2026-11-22",
+    "headline": "Anthropic goes public as markets slide; Trump meets Xi, Putin",
+    "summary": "Anthropic was the main story this week. On Monday it filed an S-1 with the SEC, launched its roadshow and put a portion of its shares into a new Public Benefit Fund. NPR reported that the IPO priced at $83 a share and raised a record $81.3 billion. Anthropic announced the closing on Saturday. It also expanded its partnership with the GSA, and the Claude Platform added Linked billing in beta. Mathematician Levent Alpöge says he and Claude found a proof of the Riemann Hypothesis. NPR reports this as his claim. Markets fell late in the week: the S&P 500 dropped 3.7% on Friday, and the Nasdaq is now down for the year.\n\nIn world news, President Trump met Xi Jinping and Vladimir Putin. NPR Politics reported few concrete results beyond a joint statement on some issues. Ukraine struck the Crimean Bridge, and a Russian missile attack hit three Kyiv bridges and killed five people. Iran stepped up attacks on ships in the Strait of Hormuz and on several Gulf countries. The UN's top court ruled that Myanmar committed genocide against the Rohingya. COP31 talks stalled over fossil fuels. In the US, NPR reported that Democrats won 56% of the House vote to Republicans' 42%. Mary Peltola won Alaska's Senate seat, and Brad Raffensperger certified Georgia's results.\n\nIn Atlanta, a $19B regional plan includes millions for The Stitch, and Underground Atlanta's owner bought a John Portman tower. In BIM, Pliera launched as a challenger to Revit. The 49ers beat Dallas 46-40. The Rockets reached 12-4 before losing to Denver.",
+    "top": [
+      {
+        "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+        "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+        "source": "NPR News",
+        "topic": "World",
+        "note": "Anthropic priced its IPO at $83 a share, raising a record $81.3 billion, according to NPR.",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6271x4181+0+0/resize/6271x4181!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6b%2F90%2F5158932c4699aaae09ed54ef7814%2Fgettyimages-2304113199.jpg",
+        "video": null
+      },
+      {
+        "title": "Quoting Levent Alpöge",
+        "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+        "source": "Simon Willison",
+        "topic": "Tech & AI",
+        "note": "Levent Alpöge says he and Claude found and formalized a proof of the Riemann Hypothesis; it remains his claim.",
+        "image": null,
+        "video": null
+      },
+      {
+        "title": "Trump touts meeting with Xi and Putin but offers little results",
+        "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+        "source": "NPR Politics",
+        "topic": "Politics",
+        "note": "Trump offered few concrete results from his meetings with Xi and Putin beyond a joint statement on some issues.",
+        "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5742x3827+0+0/resize/5742x3827!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F67%2Fd9%2F6666a29741a3a9cd3bf00907418d%2Fgettyimages-2306087994.jpg",
+        "video": null
+      },
+      {
+        "title": "$19B ARC plan includes millions for highway-capping Stitch park",
+        "url": "https://atlanta.urbanize.city/post/stitch-beltline-19-billion-atl-regional-commission-plan-millions-highway-capping-project",
+        "source": "Urbanize Atlanta",
+        "topic": "Atlanta",
+        "note": "A $19B Atlanta Regional Commission plan includes millions for The Stitch highway-capping park plus dozens of transit projects.",
+        "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-10/EAST%20Stitch%20Oct.%202026%20Phase%201%20-%20Nighttime%20Aerial%20.JPG?itok=Z_bU7yws",
+        "video": null
+      },
+      {
+        "title": "Pliera: a new BIM 2.0",
+        "url": "https://aecmag.com/bim/pliera-a-new-bim-2-0/",
+        "source": "AEC Magazine",
+        "topic": "Architecture",
+        "note": "Pliera, a new BIM platform with rule-based building configurators, aims to challenge Revit.",
+        "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+        "video": null
+      }
+    ],
+    "liked": [],
+    "suggestions": [
+      {
+        "change": "Drop the source 49ers.com and keep San Francisco 49ers for team news.",
+        "reason": "There were no likes this week to guide this, but three stories (w3, w29, w90) from the two sources covered the same 46-40 win over Dallas."
+      },
+      {
+        "change": "Drop the source GitHub new popular repos and keep GitHub trending (daily).",
+        "reason": "With no likes to go on, coverage shows GitHub new popular repos sent two near-identical Blender MCP add-ons (w7, w106), while trending sent four distinct agent-tooling repos."
+      },
+      {
+        "change": "Drop the BIM Pure blog source if it again gives no stories next week.",
+        "reason": "BIM Pure blog gave no stories this week, and AEC Magazine supplied all the BIM coverage; there were no likes to confirm a preference."
+      },
+      {
+        "change": "Add a line to the reader profile: 'Include short coverage of Anthropic as a public company and AI-driven market moves.'",
+        "reason": "This week's coverage was full of Anthropic IPO stories (w1, w2, w75, w126) and AI-linked market drops (w121), but with zero likes this is a proposal, not a measured preference."
+      }
+    ]
+  }
+}
