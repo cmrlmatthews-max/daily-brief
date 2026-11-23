@@ -1,0 +1,1017 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Monday, November 23, 2026",
+  "generated_at": "2026-11-23T05:00:23-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Monday, November 23. Our lead story is the climate summit. The COP31 talks have ended with no deal. They were the longest-running climate talks in United Nations history. Negotiations broke down two days after they were due to end. The prime minister of Australia, which co-hosted, blamed difficult geopolitical times. Reports say about two hundred countries met in Antalya, Turkey, and could not agree on fossil fuels. Fossil fuels are the primary driver of global warming. Now to the front page. In tech, Anthropic announced the closing of its initial public offering. That includes full exercise of the underwriters' option to buy additional shares, and a concurrent private placement. In sports, the San Francisco 49ers beat the Vikings thirty-five to ten in Mexico City. The win moves them to nine and one and keeps them in the top seed in the NFC. In world news, NATO meets today over last week's missile strikes in Poland. The Russia-Ukraine war has again reached European territory, with ship attacks and allegations about a Russian plot in Denmark. In politics, Democrats have won at least two hundred fifty-eight House seats in the midterms. Republicans hold at least one hundred seventy-three. It is the largest Democratic majority since nineteen ninety-two. Now the sections. In tech, Simon Willison had Claude build a page showing every way to style an HTML select box. A popular agent skills framework is also trending on GitHub. In politics, The Lever reports that Senator-elect Abdul El-Sayed has pushed Trump into talks on Medicare for All. NPR says Republicans are debating their future after the midterm losses. In world news, Kenya and Congo agreed to restore ties. Zelensky says Ukrainian drones hit Russian ships off Libya. In sports, Navajo Stirling knocked out Jiri Prochazka at UFC Qatar to stay unbeaten at twelve and zero. The Braves tendered contracts to four players. In Atlanta, street repaving has started across Buckhead. A major housing development has broken ground near Topgolf and The Works. Delta says its automated flight systems are working again after Sunday's delays. In architecture, we have the Bahá'í Temple of South America in Santiago. We also have the Yokohama Timber Wharf in Japan. In science, new research explains how Challenger Deep became the deepest spot in the ocean. NASA has put a new laser instrument in Svalbard. And bumblebees turn out to be problem solvers. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "The COP31 climate summit has ended without a deal. It was the longest-running climate talks in United Nations history, and negotiations broke down two days after they were due to finish. The summit was held in Antalya, and the prime minister of Australia, which co-hosted, attributed the failure to what he called difficult geopolitical times. Other coverage says roughly 200 countries took part and that they could not agree on fossil fuels, which are the primary driver of global warming. The result leaves open the question of what comes next for the annual process, and BBC coverage is already asking that. For a reader who follows science, oceans and the built environment, the outcome matters because climate commitments shape energy, building and development policy for years ahead. The talks were meant to produce an agreement. They did not, and the divisions between countries are now plain to see.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a5fe/live/bf5d6f10-e71f-11f1-99a1-253766e7ad8b.jpg",
+    "video": null,
+    "headline": "Longest-ever UN climate talks end without deal",
+    "decks": [
+      "COP31 in Antalya ran two days past its scheduled end",
+      "Australia's prime minister cites 'difficult geopolitical times'",
+      "Deep divisions exposed as negotiators leave without agreement"
+    ]
+  },
+  "front": [
+    {
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic announced the closing of its initial public offering, including full exercise of the underwriters' option to buy additional shares and a concurrent private placement.",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "video": null
+    },
+    {
+      "title": "49ers make bold statement with blowout win over Vikings, keep NFC's No. 1 seed",
+      "url": "https://www.espn.com/nfl/story/_/id/50525677/49ers-beat-vikings-sunday-night-football-mexico-city-kittle",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers beat the Vikings 35-10 in Mexico City, moving to 9-1 and keeping the NFC's top seed behind a late second-quarter burst.",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750011_608x342_16-9.jpg",
+      "video": null
+    },
+    {
+      "title": "NATO to meet after Russia-Ukraine war once again inches onto European territory",
+      "url": "https://www.npr.org/2026/11/23/nx-s1-6050245/nato-to-meet-after-russia-ukraine-war-once-again-inches-onto-european-territory",
+      "source": "NPR World",
+      "topic": "World",
+      "note": "NATO meets Monday over last week's missile strikes in Poland, as the Russia-Ukraine war again reaches European territory, including ship attacks and allegations about Denmark.",
+      "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+      "video": null
+    },
+    {
+      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Democrats have won at least 258 House seats in the midterms to at least 173 for Republicans, their largest majority since 1992.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4632/live/52e19140-e715-11f1-99b6-a35a62fa4264.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Select Styling Specimens",
+          "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison had Claude build a page showing every way to style an HTML select box, a small example of a personal tool built with Claude.",
+          "image": "https://static.simonwillison.net/static/2026/select-firefox-safari-chrome.webp",
+          "video": null
+        },
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A popular agentic skills framework and software development methodology for coding agents, relevant to anyone building personal tools with Claude.",
+          "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+          "video": null
+        },
+        {
+          "title": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending project that aims to make existing software usable by AI agents through command-line interfaces.",
+          "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Would Corporate Dems Block An El-Sayed-Trump Medicare Deal?",
+          "url": "https://www.levernews.com/would-corporate-dems-block-an-el-sayed-trump-medicare-deal/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports Senator-elect Abdul El-Sayed has drawn Trump into a Medicare for All negotiation and says it would be awkward if his own party blocked it.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Trump-El-Sayed-Medicare.png",
+          "video": null
+        },
+        {
+          "title": "After midterm losses, Republicans debate what's next for the party",
+          "url": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "After their midterm losses, Republicans are debating what happened and what direction the party should take next.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Kenya and DR Congo agreed to restore ties after tensions over the conflict, committing to sovereignty and non-interference in each other's internal affairs.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ef67/live/41b58d30-e716-11f1-9c93-b5d142ad154c.jpg",
+          "video": null
+        },
+        {
+          "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Zelensky says Ukrainian drones hit Russian ships off Libya's coast; Libya's eastern government says a sunken warship had stopped for fuel and supplies.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7507/live/ee06aa60-e720-11f1-a094-5fdc692f3e33.jpg",
+          "video": null
+        },
+        {
+          "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The UK prime minister will tell MPs the EU deal agreed Friday is a choice between a broken status quo or change.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3431/live/0e8b4920-e6be-11f1-a023-d502158f79f8.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Stirling's superstar ascension continues with Prochazka KO",
+          "url": "https://www.espn.com/video/clip/_/id/50555180/stirling-superstar-ascension-continues-prochazka-ko",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Navajo Stirling knocked out Jiri Prochazka with a right hand in Round 2 at UFC Qatar, extending his unbeaten record to 12-0.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY.jpg",
+          "video": null
+        },
+        {
+          "title": "Braves retain Elder, Lee among 4 tendered contracts",
+          "url": "https://www.mlb.com/braves/news/braves-2026-non-tender-deadline-roster-moves",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "The Braves tendered contracts to four players, including Elder and Lee.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/piudisghp5pk4zejmrai.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Move Atlanta Forward street infrastructure projects start now",
+          "url": "https://atlanta.urbanize.city/post/buckhead-repaving-move-atlanta-forward-streets-infrastructure-project-starts-now",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Accelerated street repaving has begun across Buckhead as part of the city's tax-funded Move Atlanta Forward program.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Buckhead%20Peachtree%20Road%20repaving.png?itok=g0IWBIMR",
+          "video": null
+        },
+        {
+          "title": "First look: Major development breaks ground near Topgolf, The Works",
+          "url": "https://atlanta.urbanize.city/post/topgolf-the-works-blandtown-major-development-breaks-ground-images",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "A major development has broken ground near Topgolf and The Works, bringing hundreds of housing options to the intown district west of Midtown.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/1280%20Chattahoochee%20Ave.%20November%202026%201.jpg?itok=CYo3SQCz",
+          "video": null
+        },
+        {
+          "title": "UPDATE: Delta says automated services for flights back online as it rebooks, refunds travelers",
+          "url": "https://roughdraftatlanta.com/2026/11/22/delta-atlanta-ground-stop-downgraded/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Delta says the automated weight and balance systems that disrupted Sunday flights are working again, and it is rebooking and refunding travelers.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2024/07/20180129_a350a2a-cinejet-108_r0_cmyk-600x300.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Holding Light: The Bahá’í Temple of South America in Santiago, Chile",
+          "url": "https://www.archdaily.com/1187923/holding-light-the-bahai-temple-of-south-america-in-santiago-chile",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A profile of the Bahá'í Temple of South America in Santiago, a form of nine curved wings rising from a carved terrace below the Andes.",
+          "image": "https://images.adsttc.com/media/images/6ae6/2667/a04f/d02e/4906/55e5/newsletter/the-story-of-how-a-landmark-gets-built-the-bahai-temple-of-south-america_1.jpg?1793468049",
+          "video": null
+        },
+        {
+          "title": "Yokohama Timber Wharf / Taiju Yamashita Design and Architecture",
+          "url": "https://www.archdaily.com/1188949/yokohama-timber-wharf-taiju-yamashita-design-and-architecture",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Yokohama Timber Wharf is a multipurpose waterfront facility in Rinko Park, in the timber-focused vein of work you have liked before.",
+          "image": "https://images.adsttc.com/media/images/6aff/09dd/eabd/2a00/0193/2555/newsletter/d_93243.jpg?1795099276",
+          "video": null
+        },
+        {
+          "title": "Powerhouse Parramatta / Moreau Kusunoki + Genton",
+          "url": "https://www.archdaily.com/1188953/powerhouse-parramatta-moreau-kusunoki-plus-genton",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Powerhouse Parramatta, by Moreau Kusunoki and Genton, is described as Australia's biggest cultural infrastructure project since the Sydney Opera House.",
+          "image": "https://images.adsttc.com/media/images/6aff/1562/c23f/1f6a/4351/69b4/newsletter/powerhouse-parramatta-moreau-kusunoki-plus-genton_1.jpg?1795102079",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Motion under the ocean explains the depth of the world’s deepest spot",
+          "url": "https://www.sciencenews.org/article/ocean-deepest-spot-explained-challenger",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "New findings link motion under the ocean to how Challenger Deep became the deepest point, using the deepest known remnants of explosive volcanism.",
+          "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_CG_volcanism_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Laser Focus at the Top of the World",
+          "url": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's next-generation geodetic instrument, which helps measure satellite orbits and the planet's shape, has debuted in Svalbard, Norway.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&h=960&fit=clip",
+          "video": null
+        },
+        {
+          "title": "Bumblebees are problem-solvers too",
+          "url": "https://news.mongabay.com/short-article/2026/11/bumblebees-are-problem-solvers-too/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Experiments found untrained bumblebees could come up with new solutions to get a reward.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/23073938/Mongabay_Thumbnail_Bees_Featured-338x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Would Corporate Dems Block An El-Sayed-Trump Medicare Deal?",
+              "url": "https://www.levernews.com/would-corporate-dems-block-an-el-sayed-trump-medicare-deal/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Senator-elect Abdul El-Sayed says a Medicare deal with Trump would be awkward if a faction of his own party blocks it, per The Lever.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Trump-El-Sayed-Medicare.png",
+              "video": null
+            },
+            {
+              "title": "Watchdogs To Democrats: Give The Gavels To Monopoly Fighters",
+              "url": "https://www.levernews.com/watchdogs-to-democrats-give-the-gavels-to-monopoly-fighters/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "More than 50 groups urge Democratic leaders to give committee gavels to lawmakers ready to investigate corporate giants and block megamergers.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-US-Capitol-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Chris Van Hollen Is Threatening The Democratic Machine",
+              "url": "https://www.levernews.com/chris-van-hollen-is-threatening-the-democratic-machine/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "Senator Chris Van Hollen is challenging Chuck Schumer for leadership, with a vision of a job that engages the public, according to The Lever.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Chris-Van-Hollen.jpg",
+              "video": null
+            },
+            {
+              "title": "Israeli Diplomat Offered Iowa Attorney General Free Trip, Then Asked for Favors",
+              "url": "https://www.dropsitenews.com/p/israel-iowa-attorney-general-brenna-bird",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports FOIA disclosures and hacked emails showing how an Israeli diplomat sought favors from an Iowa attorney general, tied to anti-boycott laws.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Rzv0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c73502e-ed0b-4c51-b16d-c86059abefbb_5268x3512.jpeg",
+              "video": null
+            },
+            {
+              "title": "Weapons Makers Want To Keep Their Pentagon Repair Racket",
+              "url": "https://www.levernews.com/weapons-makers-want-to-keep-their-pentagon-repair-racket/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports contractors control data needed to repair military equipment and are fighting legislation that would end their repair monopolies.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images--33-.jpg",
+              "video": null
+            },
+            {
+              "title": "After midterm losses, Republicans debate what's next for the party",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Republicans are debating what happened in the midterm losses and what comes next for their party, per NPR.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6044778/how-a-gop-redistricting-dummymander-in-north-carolina-backfired-by-2-seats",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A North Carolina Republican redistricting plan backfired, costing the party two seats instead of gaining one, per NPR.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Iran war caused largest oil and gas disruption on record; Ansarallah strikes Riyadh’s tallest building; ICJ rules Myanmar committed genocide against Rohingya",
+              "url": "https://www.dropsitenews.com/p/iran-war-oil-ansarallah-saudi-riyadh-icj-myanmar-rohingya",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site Daily reports the Iran war caused the largest oil and gas disruption on record, and that the ICJ ruled Myanmar committed genocide against Rohingya.",
+              "image": "https://substackcdn.com/image/fetch/$s_!-Pgx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41412cb6-f18a-4a3b-95ab-7293202a0653_4760x3173.heic",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "UK Prime Minister Burnham will tell MPs that the EU deal agreed Friday is a choice between a broken status quo or change.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3431/live/0e8b4920-e6be-11f1-a023-d502158f79f8.jpg",
+              "video": null
+            },
+            {
+              "title": "Five takeaways from the failed climate talks COP31",
+              "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Five takeaways from the COP31 climate summit in Antalya, which ended with no deal after the longest-running UN climate talks.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/55f7/live/e38ff1a0-e71f-11f1-99b6-a35a62fa4264.jpg",
+              "video": null
+            },
+            {
+              "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+              "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "COP31 climate talks ended with no deal; Australia, a co-host, blamed difficult geopolitical times.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a5fe/live/bf5d6f10-e71f-11f1-99a1-253766e7ad8b.jpg",
+              "video": null
+            },
+            {
+              "title": "NATO to meet after Russia-Ukraine war once again inches onto European territory",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6050245/nato-to-meet-after-russia-ukraine-war-once-again-inches-onto-european-territory",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NATO meets Monday after Russian missile strikes in Poland, with the Russia-Ukraine war reaching European territory again.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Ukrainian drones reportedly hit Russian ships off the Libyan coast, according to Zelensky; Libya's eastern government says a sunken warship had stopped for fuel.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7507/live/ee06aa60-e720-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+              "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Kenya and DR Congo agreed to restore ties, committing to sovereignty and non-interference in each other's internal affairs.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ef67/live/41b58d30-e716-11f1-9c93-b5d142ad154c.jpg",
+              "video": null
+            },
+            {
+              "title": "El Chapo Isidro, one of Mexico's most notorious drug lords, captured in raid",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6050221/el-chapo-isidro-one-of-mexicos-most-notorious-drug-lords-captured-in-raid",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Mexican forces captured drug lord El Chapo Isidro in a military raid that followed weeks of U.S. intelligence cooperation and a deadly gun battle.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+              "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Eleven people died in a Russian strike on Dymer, Ukraine, and rescuers pulled a seven-year-old boy alive from rubble.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cce0/live/b754c730-e6bd-11f1-a023-d502158f79f8.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to a reader who follows Claude and Anthropic closely.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+              "url": "https://www.anthropic.com/news/ipo-close",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its initial public offering has closed, including full exercise of the underwriters' option, along with a concurrent private placement.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, with a structure that increases the stake as the company grows.",
+              "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+              "video": null
+            },
+            {
+              "title": "Features",
+              "url": "https://www.anthropic.com/news/features",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic's Features page update; the summary is empty, so details are limited.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Select Styling Specimens",
+              "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison built a page with Claude showing how to style HTML select boxes across browsers, useful for anyone building personal web tools.",
+              "image": "https://static.simonwillison.net/static/2026/select-firefox-safari-chrome.webp",
+              "video": null
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Trending GitHub repo, an agentic skills framework and software development methodology for coding agents, fitting the reader's interest in building tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+              "video": null
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "CLI-Anything, a trending GitHub project aiming to make software agent-native through command-line interfaces for AI agents.",
+              "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+              "video": null
+            },
+            {
+              "title": "llm-gemini 0.38.1",
+              "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "llm-gemini 0.38.1 fixes support for an xhigh reasoning level on Gemini 4 Hydrogen and Neon models, which the plugin had missed.",
+              "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "49ers blow out Vikings 35-10 in Mexico City",
+              "url": "https://www.espn.com/video/clip/_/id/50569860/49ers-blow-vikings-35-10-mexico-city",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers beat the Vikings 35-10 in Mexico City to move to 9-1 and keep the NFC's No. 1 seed.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/766abe7e79a1408cad5940275e06616d1426/766abe7e79a1408cad5940275e06616d1426.jpg",
+              "video": null
+            },
+            {
+              "title": "Brock Purdy carves up the Vikings' D with 3 TD passes in the 49ers' 35-10 win in Mexico City",
+              "url": "http://www.espn.com/nfl/recap?gameId=401873077",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Brock Purdy threw three touchdown passes in the 49ers' 35-10 win over the Vikings in Mexico City.",
+              "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873077.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Mike Evans Active, Dre Greenlaw OUT vs. Vikings; Inactives Week 11 #MINvsSF",
+              "url": "https://www.49ers.com/news/mike-evans-active-dre-greenlaw-out-vs-vikings-inactives-week-11-minvssf",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Mike Evans was active and Dre Greenlaw was ruled out for the 49ers' Week 11 game against the Vikings.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/bywldpl8vcyv1d8itfgp.png",
+              "video": null
+            },
+            {
+              "title": "Stirling's superstar ascension continues with Prochazka KO",
+              "url": "https://www.espn.com/video/clip/_/id/50555180/stirling-superstar-ascension-continues-prochazka-ko",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Navajo Stirling knocked out Jiri Prochazka in Round 2 at UFC Qatar, extending his unbeaten record to 12-0.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY/dm_261121_UFC_Highlight_Stirlings_superstar_ascension_continues_with_Prochazka_KO_20261122_AUS_ONLY.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC fighter Manon Fiorot banned for 3 months for violating anti-doping policy",
+              "url": "https://www.espn.com/mma/story/_/id/50540039/ufc-fighter-manon-fiorot-banned-3-months-doping",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC fighter Manon Fiorot was banned for three months for violating the mixed martial arts competition's anti-doping policy.",
+              "image": "https://a.espncdn.com/photo/2026/0825/r1706727_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Nikola Jokic's big 2nd half sends the Nuggets to a 133-124 win over the Rockets",
+              "url": "http://www.espn.com/nba/recap?gameId=401909312",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Nikola Jokic had 26 points, 11 assists and seven rebounds as the Nuggets beat the Rockets 133-124 in NBA Cup play.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909312.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+              "url": "https://www.espn.com/video/clip/_/id/50543371/fred-vanvleet-brings-sense-calm-rockets",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Michael C. Wright profiles Fred VanVleet and the calm he brings to the Rockets.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154907835_3751400/ss_20261120_154907835_3751400.jpg",
+              "video": null
+            },
+            {
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "A tracker of 2026-27 MLB free agency signings and trades, covering Braves-relevant offseason moves.",
+              "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "UPDATE: Delta says automated services for flights back online as it rebooks, refunds travelers",
+              "url": "https://roughdraftatlanta.com/2026/11/22/delta-atlanta-ground-stop-downgraded/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Delta says its automated weight and balance systems are working again after a day of issues that delayed flights; it is rebooking and refunding travelers.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2024/07/20180129_a350a2a-cinejet-108_r0_cmyk-600x300.jpg",
+              "video": null
+            },
+            {
+              "title": "15-year-old arrested after shooting at Atlantic Station parking deck",
+              "url": "https://roughdraftatlanta.com/2026/11/22/atlantic-station-shooting-arrest/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "A 15-year-old is in custody after a shooting in the Target parking deck at Atlantic Station that injured another teenager.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/07/Atlanta-Police-Department-APD-600x383.png",
+              "video": null
+            },
+            {
+              "title": "First look: Major development breaks ground near Topgolf, The Works",
+              "url": "https://atlanta.urbanize.city/post/topgolf-the-works-blandtown-major-development-breaks-ground-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Hundreds of housing units are planned for a growing intown district west of Midtown, where a roofing warehouse is being demolished.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/1280%20Chattahoochee%20Ave.%20November%202026%201.jpg?itok=CYo3SQCz",
+              "video": null
+            },
+            {
+              "title": "Fresh renderings: Buckhead district’s planned revival scores tax break",
+              "url": "https://atlanta.urbanize.city/post/renderings-buckhead-empire-zephyr-districts-planned-revival-scores-tax-break",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Fulton County's development authority approved tax incentives for two downtown Atlanta projects, including a planned Buckhead district revival.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Piedmont%20Center%20Renderings_Green%20Space.jpg?itok=DHrPVugt",
+              "video": null
+            },
+            {
+              "title": "WATCH: Westside Future Fund breaks ground on two affordable housing projects",
+              "url": "https://saportareport.com/watch-westside-future-fund-breaks-ground-on-two-affordable-housing-projects/media/video-stories/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Westside Future Fund broke ground on two affordable housing projects, The 404 @ Oliver and Proctor and Paines, on Atlanta's Westside.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-2.12.47-PM.png?fit=652%2C1024&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Atlanta Housing reports $7.7 billion economic impact, advances affordable housing efforts",
+              "url": "https://saportareport.com/atlanta-housing-reports-7-7-billion-economic-impact-advances-affordable-housing-efforts/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Atlanta Housing reports a $7.7 billion economic impact and advances in its affordable housing efforts.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-14.jpeg?fit=1024%2C750&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Move Atlanta Forward street infrastructure projects start now",
+              "url": "https://atlanta.urbanize.city/post/buckhead-repaving-move-atlanta-forward-streets-infrastructure-project-starts-now",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Accelerated street repaving under the Move Atlanta Forward program has begun across Buckhead.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Buckhead%20Peachtree%20Road%20repaving.png?itok=g0IWBIMR",
+              "video": null
+            },
+            {
+              "title": "Images: Townhome mix near Athens' loop nears completion",
+              "url": "https://atlanta.urbanize.city/post/athens-uga-townhome-mix-near-loop-near-completion-images",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "A first-of-its-kind townhome project near Athens' loop is nearing completion, with proximity to UGA and downtown Athens.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/REV3%20at%20Mill%20Creek%20Athens%204.png?itok=8k-7cjTR",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Why Material Lifespan Matters More Than Ever",
+              "url": "https://www.archdaily.com/1188156/why-material-lifespan-matters-more-than-ever",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily argues a material's environmental footprint depends on its lifespan, since low embodied carbon can still mean frequent replacement.",
+              "image": "https://images.adsttc.com/media/images/6aec/cbe2/c723/9a01/895a/2dbc/newsletter/why-material-lifespan-matters-more-than-ever_7.jpg?1793903592",
+              "video": null
+            },
+            {
+              "title": "Holding Light: The Bahá’í Temple of South America in Santiago, Chile",
+              "url": "https://www.archdaily.com/1187923/holding-light-the-bahai-temple-of-south-america-in-santiago-chile",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily's feature on the Bahá'í Temple of South America in Santiago, Chile, with nine curved wings rising from a carved terrace.",
+              "image": "https://images.adsttc.com/media/images/6ae6/2667/a04f/d02e/4906/55e5/newsletter/the-story-of-how-a-landmark-gets-built-the-bahai-temple-of-south-america_1.jpg?1793468049",
+              "video": null
+            },
+            {
+              "title": "Yokohama Timber Wharf / Taiju Yamashita Design and Architecture",
+              "url": "https://www.archdaily.com/1188949/yokohama-timber-wharf-taiju-yamashita-design-and-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Yokohama Timber Wharf by Taiju Yamashita connects a timber building with the waterfront life of Rinko Park.",
+              "image": "https://images.adsttc.com/media/images/6aff/09dd/eabd/2a00/0193/2555/newsletter/d_93243.jpg?1795099276",
+              "video": null
+            },
+            {
+              "title": "Powerhouse Parramatta / Moreau Kusunoki + Genton",
+              "url": "https://www.archdaily.com/1188953/powerhouse-parramatta-moreau-kusunoki-plus-genton",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Powerhouse Parramatta by Moreau Kusunoki and Genton opens as a major cultural landmark in Western Sydney.",
+              "image": "https://images.adsttc.com/media/images/6aff/1562/c23f/1f6a/4351/69b4/newsletter/powerhouse-parramatta-moreau-kusunoki-plus-genton_1.jpg?1795102079",
+              "video": null
+            },
+            {
+              "title": "Shoe Factory Gatehouses / Xie Jie Architects",
+              "url": "https://www.archdaily.com/1188984/shoe-factory-gatehouses-xie-jie-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Xie Jie Architects' gatehouses at a Wenzhou shoe factory keep existing frames to frame views of the West Yandang Mountains.",
+              "image": "https://images.adsttc.com/media/images/6aff/bdbb/eabd/2a00/0193/2819/newsletter/000_East_Gatehouse_-_Side_Elevation_of_East_Gatehouse_by_Day.jpg?1795145171",
+              "video": null
+            },
+            {
+              "title": "M-House / Country House. Architecture",
+              "url": "https://www.archdaily.com/1188497/m-house-country-house-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "M-House in Phan Thiet is an open-plan house designed around natural light and sea breezes.",
+              "image": "https://images.adsttc.com/media/images/6af4/7458/eabd/2a00/0192/c5b8/newsletter/a-62.jpg?1794405628",
+              "video": null
+            },
+            {
+              "title": "Casa Amigó / Estudio Travertino",
+              "url": "https://www.archdaily.com/1188597/casa-amigo-estudio-travertino",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Estudio Travertino reworks a 1970s Barcelona family home by changing how the flat is perceived and lived in.",
+              "image": "https://images.adsttc.com/media/images/6af7/0351/eabd/2a00/0192/e3ed/newsletter/01-AMIGO-TRAVERTINO.jpg?1794573153",
+              "video": null
+            },
+            {
+              "title": "Fukasawa Commercial Building / KEY OPERATION INC. / ARCHITECTS",
+              "url": "https://www.archdaily.com/1188943/fukasawa-commercial-building-key-operation-inc-architects",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "KEY OPERATION's commercial building in Tokyo responds to a busy road and the neighborhood's schools and clinics.",
+              "image": "https://images.adsttc.com/media/images/6aff/05d8/eabd/2a00/0193/24e0/newsletter/Fukasawa_Commercial_Building_02.jpg?1795098098",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Motion under the ocean explains the depth of the world’s deepest spot",
+              "url": "https://www.sciencenews.org/article/ocean-deepest-spot-explained-challenger",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports deep volcanic remnants that help explain how the Challenger Deep became the ocean's deepest point.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112026_CG_volcanism_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "US leases American Samoan seabed for mining in auction deemed illegal by court",
+              "url": "https://news.mongabay.com/2026/11/us-leases-american-samoan-seabed-for-mining-in-auction-deemed-illegal-by-court/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The U.S. auctioned 12.7 million hectares of American Samoan seabed for mining, despite a federal court ruling that the sale was illegal.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20215927/FK210922-Dive464-20211020-153149523-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "This year’s El Niño is unlike any other on record",
+              "url": "https://www.sciencenews.org/article/super-el-nino-historic-effect-hurricane",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports this year's El Niño reached historic Pacific temperatures, shaping hurricane seasons and global precipitation.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/1226_scivis-elnino_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Laser Focus at the Top of the World",
+              "url": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's next-generation geodetic instrument, part of a network that measures satellite orbits and Earth's shape, debuted in Svalbard, Norway.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&h=960&fit=clip",
+              "video": null
+            },
+            {
+              "title": "65 Years of Human Spaceflight at NASA Johnson",
+              "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Johnson Space Center in Houston marks 65 years of human spaceflight, from Gemini to the ISS.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/20261106-artemiscelebrationgala-sl1-4202.jpg?w=1536",
+              "video": null
+            },
+            {
+              "title": "The British island that made a deal with nature",
+              "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay profiles Lundy Island, where decades of conservation brought back seabirds and marine life.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Bumblebees are problem-solvers too",
+              "url": "https://news.mongabay.com/short-article/2026/11/bumblebees-are-problem-solvers-too/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Untrained bumblebees found novel solutions to get a reward, adding to evidence of their cognitive abilities.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/23073938/Mongabay_Thumbnail_Bees_Featured-338x512.jpg",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day features the dark nebula Lynds 1251.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&h=2048&fit=clip",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Sterile Products Due to Lack of Sterility Assurance",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+      "published": "2026-11-20T23:21:00+00:00"
+    },
+    {
+      "title": "Shanghai San Niu Food Co., LTD. Is Recalling Sanniu Evergeen Biscuits Due to Undeclared Milk and Sanniu Salt and Pepper Soda Biscuits Due to Undeclared Milk an…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+      "published": "2026-11-20T17:58:00+00:00"
+    },
+    {
+      "title": "Ridley Block Operations Recalls a Batch of Crystalyx®HE-20% for Beef Cattle and Bison Due to Excess Levels of Non-Protein Nitrogen (NPN)",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ridley-block-operations-recalls-batch-crystalyxrhe-20-beef-cattle-and-bison-due-excess-levels-non",
+      "published": "2026-11-19T17:36:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts.",
+    "who": "Aristotle",
+    "about": "Greek philosopher and scientist",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "L 124–133 at DEN",
+      "last_date": "Nov 20",
+      "next": "Mon Nov 23 vs LAC",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909312/rockets-nuggets",
+      "recent": [
+        "L 124–133 at DEN · Nov 20",
+        "W 119–104 at IND · Nov 18",
+        "L 110–128 at MIA · Nov 16"
+      ],
+      "upcoming": [
+        "Mon Nov 23 vs LAC",
+        "Wed Nov 25 vs PHX",
+        "Sat Nov 28 vs PHI"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Sat Mar 27 at LAD",
+        "Sun Mar 28 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 35–10 vs MIN",
+      "last_date": "Nov 22",
+      "next": "Sun Nov 29 vs SEA",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+      "recent": [
+        "W 35–10 vs MIN · Nov 22",
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8"
+      ],
+      "upcoming": [
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG",
+        "Sun Dec 13 vs LAR"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 62487,
+    "output_tokens": 9159
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Fox Host Unloads On Vance",
+          "url": "https://www.youtube.com/watch?v=DKlTaYmbg2c",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report discusses a Fox host's criticism of Vice President Vance; commentary-style segment from an independent progressive show.",
+          "image": "https://i1.ytimg.com/vi/DKlTaYmbg2c/hqdefault.jpg",
+          "video": "DKlTaYmbg2c"
+        },
+        {
+          "title": "Jake Tapper Thinks You're Racist",
+          "url": "https://www.youtube.com/watch?v=NcvA7qOsWMM",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "The Majority Report segment responding to Jake Tapper's remarks; commentary-style, offered as an independent media perspective.",
+          "image": "https://i3.ytimg.com/vi/NcvA7qOsWMM/hqdefault.jpg",
+          "video": "NcvA7qOsWMM"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Shanahan Reflects on Win Over Vikings, Reaches 100 Combined Victories | 49ers",
+          "url": "https://www.youtube.com/watch?v=QYhSfNeQ5QE",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers head coach Kyle Shanahan reflects on the Week 11 win over the Vikings, Brock Purdy's poise, and reaching 100 combined victories.",
+          "image": "https://i2.ytimg.com/vi/QYhSfNeQ5QE/hqdefault.jpg",
+          "video": "QYhSfNeQ5QE"
+        },
+        {
+          "title": "49ers Players Reflect on Complete Home-Field Advantage in Mexico City",
+          "url": "https://www.youtube.com/watch?v=uCSPdndY4so",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers players including McCaffrey, Kittle, and Purdy discuss the home-crowd atmosphere and altitude preparation for the Mexico City game.",
+          "image": "https://i2.ytimg.com/vi/uCSPdndY4so/hqdefault.jpg",
+          "video": "uCSPdndY4so"
+        },
+        {
+          "title": "49ers ROLL Vikings, Lions & Giants Impress, Where Did Steelers Offense Go?",
+          "url": "https://www.youtube.com/watch?v=hd9t9H1SwWs",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic panel reviews the 49ers' win over the Vikings in Mexico City and other Week 11 results.",
+          "image": "https://i1.ytimg.com/vi/hd9t9H1SwWs/hqdefault.jpg",
+          "video": "hd9t9H1SwWs"
+        },
+        {
+          "title": "Alex Pereira vs Sergei Pavlovich | Full Fight Marathon",
+          "url": "https://www.youtube.com/watch?v=ngkbFZZMmp8",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "UFC full-fight marathon previewing Alex Pereira vs. Sergei Pavlovich by replaying both fighters' recent wins.",
+          "image": "https://i3.ytimg.com/vi/ngkbFZZMmp8/hqdefault.jpg",
+          "video": "ngkbFZZMmp8"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Gemini 4 Carbon for Construction — 4D Modelling and Digital Twins",
+          "url": "https://www.youtube.com/watch?v=iDe8bi_CFpI",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley demonstrates using Gemini 4 Carbon to turn warehouse structural drawings into a 3D model with linked digital twin data.",
+          "image": "https://i2.ytimg.com/vi/iDe8bi_CFpI/hqdefault.jpg",
+          "video": "iDe8bi_CFpI"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "Gifts Under $50 Home Cooks ACTUALLY Want",
+          "url": "https://www.youtube.com/watch?v=cB95pA5heQc",
+          "source": "Brian Lagerstrom",
+          "topic": "Make & Cook",
+          "note": "A home cook's roundup of kitchen gifts under $50, with product picks; includes a sponsor mention for eyewear.",
+          "image": "https://i4.ytimg.com/vi/cB95pA5heQc/hqdefault.jpg",
+          "video": "cB95pA5heQc"
+        }
+      ]
+    }
+  ]
+}
