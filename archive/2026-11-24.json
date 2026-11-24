@@ -1,0 +1,1062 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Tuesday, November 24, 2026",
+  "generated_at": "2026-11-24T05:00:24-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Tuesday, November 24. Our lead story is about Nvidia. President Trump says he convinced the company to reinstate Jensen Huang as chief executive. BBC World reports that the claim has drawn backlash. Nvidia had come under pressure from Trump to reappoint Huang. The BBC says Huang's comeback helped add one trillion dollars to the company's stock value. Now for the front page. Anthropic has announced that Claude Opus 4.5 will be retired on the Claude API on January 22, 2027. The company recommends moving to Claude Opus 5.5. In basketball, Kevin Durant scored 32 points as the Houston Rockets beat the Los Angeles Clippers 116 to 104. Alperen Sengun and Amen Thompson each added 20. In architecture, Buro Happold and Motif are working to connect AI-driven design with deterministic computation, to change how architects and engineers collaborate in BIM. And in Atlanta, the city zoning committee unanimously denied a request for a 225-foot luxury condo tower in Old Fourth Ward. Neighbors had contested the project. Now the sections. In tech, Anthropic launched Enterprise Frontier Safeguards in beta, which offers zero data retention for eligible organizations. In politics, The Lever reports that Democrats' plan to investigate Nvidia could collide with a billionaire donor on the company's board. Also, Oregon and Virginia are suing Elon Musk's AI company over sexualized deepfakes made with Grok. In world news, NPR reports that fighting between Russia and Ukraine has expanded geographically. A Russian warship was sunk in a Libyan port, and Russian missiles landed in Poland. In sports, the Seahawks plan to start Sam Darnold against the 49ers but will check on him in Wednesday's practice. The 49ers also released receiver Brandon Aiyuk, and agreed to an extension with general manager John Lynch. In Atlanta, the Gemini project near the Beltline in Reynoldstown has started topping out. In architecture, a BIM Pure interview explains the vision behind Motif, an agentic BIM modeling app. In science, Science News reports that a human mathematician working with AI has apparently settled the Riemann hypothesis, a puzzle that is 167 years old. NASA is also seeking partners to design a nuclear reactor for the Moon. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+    "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "note": "President Trump says he 'convinced' Nvidia to reinstate Jensen Huang as chief executive, and the claim has drawn backlash, according to BBC World. The company had come under pressure from Trump to reappoint Huang. The BBC reports that Huang's comeback helped add $1tn to Nvidia's stock value. That figure is the clearest sign of how much the market cared about the decision. The story sits where politics, a major company and the AI industry meet, which is why it is worth a reader's attention today. The summary does not say how the decision was reached, so the account rests on what Trump has said and on the reaction to it. Other outlets in today's feed are also covering the return, and the Politics section has a related story on Democratic plans to investigate Trump's dealings with Nvidia.",
+    "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg",
+    "video": null,
+    "headline": "Trump claims credit for Huang's Nvidia return",
+    "decks": [
+      "Trump says he 'convinced' Nvidia to reinstate its CEO",
+      "Nvidia had been under pressure to reappoint Jensen Huang",
+      "Huang's comeback helped add $1tn to Nvidia's stock value"
+    ]
+  },
+  "front": [
+    {
+      "title": "Claude Platform release notes — November 23, 2026",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-opus-4-5-deprecation",
+      "source": "Claude Platform release notes",
+      "topic": "Tech & AI",
+      "note": "Anthropic will retire Claude Opus 4.5 on the API on January 22, 2027, and recommends migrating to Claude Opus 5.5.",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+      "video": null
+    },
+    {
+      "title": "Kevin Durant scores 32 to power Rockets past Clippers 116-104",
+      "url": "http://www.espn.com/nba/recap?gameId=401910043",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Kevin Durant scored 32 and the Rockets beat the Clippers 116-104, with Alperen Sengun and Amen Thompson adding 20 points each.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910043.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "Buro Happold and Motif bridge the BIM collaboration divide",
+      "url": "https://aecmag.com/bim/buro-happold-and-motif-bridge-the-bim-collaboration-divide/",
+      "source": "AEC Magazine",
+      "topic": "Architecture",
+      "note": "Buro Happold and Motif are linking AI-driven design with deterministic computation to change how architects and engineers collaborate in BIM.",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "video": null
+    },
+    {
+      "title": "City zoning committee denies request for Old Fourth Ward condo tower",
+      "url": "https://roughdraftatlanta.com/2026/11/23/atlanta-zoning-committee-denies-condo/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Atlanta's Zoning Committee unanimously denied a request for a 225-foot luxury condo tower in Old Fourth Ward that neighbors had contested.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/O4W-Building-REndering-600x338.png",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "Claude Platform release notes — November 23, 2026",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#enterprise-frontier-safeguards",
+          "source": "Claude Platform release notes",
+          "topic": "Tech & AI",
+          "note": "Enterprise Frontier Safeguards launches in beta, offering zero data retention for eligible organizations using Claude's most capable models.",
+          "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+          "video": null
+        },
+        {
+          "title": "datasette-charts 0.2a0",
+          "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison's datasette-charts plugin now works with Datasette Agent, so a chat request can produce a chart.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending Claude Code skill bundle for bug hunting and red-team work, with 82 skills and 15 slash commands.",
+          "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Democrats Want To Investigate Nvidia. Their Megadonor Is On The Board.",
+          "url": "https://www.levernews.com/nvidia-trump-coxe/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that a Democratic push to investigate Trump and Nvidia could conflict with a billionaire on Nvidia's board who funds the party's new political machine.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images-2-1.png",
+          "video": null
+        },
+        {
+          "title": "2 states sue Elon Musk's AI company for allowing chatbot to make sexualized deepfakes",
+          "url": "https://www.npr.org/2026/11/24/nx-s1-6051356/2-states-sue-elon-musks-ai-company-for-allowing-chatbot-to-make-sexualized-deepfakes",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Oregon and Virginia are suing Elon Musk's AI company, arguing users can make nonconsensual sexualized deepfakes of real people with Grok.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Democrats probe whether Trump Jr.-aligned businesses benefit from government access",
+          "url": "https://www.npr.org/2026/11/24/nx-s1-6051392/democrats-probe-whether-trump-jr-aligned-businesses-benefit-from-government-access",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Congressional Democrats are widening their investigation into 1789 Capital, which made Donald Trump Jr. a partner days after the 2024 reelection.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Fighting between Russia and Ukraine has expanded geographically, drawing concerns",
+          "url": "https://www.npr.org/2026/11/24/nx-s1-6051564/fighting-between-russia-and-ukraine-has-expanded-geographically-drawing-concerns",
+          "source": "NPR World",
+          "topic": "World",
+          "note": "NPR reports the Russia-Ukraine fighting has spread geographically, with a Russian warship sunk in a Libyan port and Russian missiles landing in Poland.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+          "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Bodycam footage shows troops raiding a home to detain Mexican drug lord 'El Chapo Isidro', who had evaded capture for years.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
+          "video": null
+        },
+        {
+          "title": "DR Congo says aircraft missing as rebels claim to shoot down plane",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "DR Congo says an aircraft is missing while rebels claim to have shot down a plane.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/467b/live/5cf1a7a0-e7d4-11f1-939f-471cde339c0e.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Seahawks to monitor Sam Darnold status this week before final call vs. 49ers",
+          "url": "https://www.espn.com/nfl/story/_/id/50578357/seahawks-holding-final-sam-darnold-call-vs-49ers",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The Seahawks still plan to start Sam Darnold against the 49ers but will watch him in Wednesday's practice first.",
+          "image": "https://a.espncdn.com/photo/2026/1103/r1740370_600x600_1-1.jpg",
+          "video": null
+        },
+        {
+          "title": "49ers release WR Brandon Aiyuk with roster exemption ending",
+          "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers released wide receiver Brandon Aiyuk on Monday as his roster exemption ended.",
+          "image": "https://a.espncdn.com/photo/2026/1105/r1741725_1296x729_16-9.jpg",
+          "video": null
+        },
+        {
+          "title": "Source: 49ers, GM John Lynch agree to contract extension",
+          "url": "https://www.espn.com/nfl/story/_/id/50575248/source-49ers-gm-john-lynch-agree-contract-extension",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers and general manager John Lynch have agreed to a multiyear contract extension, per a team source.",
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750254_1296x729_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Images: Church-replacing 'Gemini' project starts topping out",
+          "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-gemini-church-replacing-project-starts-topping-out",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The Gemini development on a former church site near the Beltline in Reynoldstown has started topping out.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-07/January%202025%20Gemini%20Reynoldstown%20July%202026.png?itok=0o_943I5",
+          "video": null
+        },
+        {
+          "title": "With restaurant signing, Midtown office tower's retail now fully claimed",
+          "url": "https://atlanta.urbanize.city/post/midtown-union-wabi-sabi-office-tower-retail-now-fully-leased",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Retail space at the Midtown Union office tower is now fully claimed after a new restaurant signing.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/6%20Midtown%20Union%20offices%20Granite%20Properties.jpg?itok=2Padw4Vw",
+          "video": null
+        },
+        {
+          "title": "Gwinnett County names new chief of police",
+          "url": "https://roughdraftatlanta.com/2026/11/23/shaw-named-gwinnett-police-chief/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Gwinnett County named Deputy Chief Steven K. Shaw its next police chief after James D. McClure's retirement.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Screenshot-2026-11-23-at-5.37.50-PM-600x411.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Inside Motif - Agentic BIM Modeling",
+          "url": "https://www.bimpure.com/blog/inside-motif-with-jens",
+          "source": "BIM Pure blog",
+          "topic": "Architecture",
+          "note": "A BIM Pure interview explains the vision behind Motif, an agentic BIM modeling app, with a former BIG Architects BIM manager.",
+          "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147617530/images/d886e7-ac5a-a24c-72b7-67c621a3287_inside-motif-v3.jpg",
+          "video": null
+        },
+        {
+          "title": "The Power of the Streets: Why Cities Remain Irreplaceable in the Digital Age",
+          "url": "https://www.archdaily.com/1188636/the-power-of-the-streets-why-cities-remain-irreplaceable-in-the-digital-age",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily considers why streets and cities remain irreplaceable in the digital age, drawing on Lisbon, Paris, Chicago and São Paulo.",
+          "image": "https://images.adsttc.com/media/images/6af7/8b3a/c23f/1f01/895a/fd03/newsletter/the-power-of-the-streets-why-cities-remain-irreplaceable-in-the-digital-age_2.jpg?1794607962",
+          "video": null
+        },
+        {
+          "title": "Paper Stilt House / Esteban Uribe Architect",
+          "url": "https://www.archdaily.com/1189106/paper-stilt-house-esteban-uribe-architect",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "Paper Stilt House in Castro, Chiloé is built entirely of wood and reuses part of what already existed on the site.",
+          "image": "https://images.adsttc.com/media/images/6b04/7163/94d7/ea00/019d/02bb/newsletter/_DSC4995_Antonella_Torti.jpg?1795453454",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Math’s holy grail, the Riemann hypothesis, appears solved with AI’s help",
+          "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Science News reports that a human mathematician working with AI has apparently settled the 167-year-old Riemann hypothesis.",
+          "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_KHEC_Riemann_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+          "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA is seeking industry partners to design and test Lunar Reactor-1, a fission system meant to produce 20 kilowatts on the Moon.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/srd-fsp-isru02b.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "Eruption Extends Iwo Jima’s Beach",
+          "url": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "A volcanic eruption off Iwo Jima's southeast shore has extended the island's coast, though it is unclear how long the new land will last.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/eruption-enlarges-iwo-jima’s-beach/iwojima_oli2_20261026.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Democrats Want To Investigate Nvidia. Their Megadonor Is On The Board.",
+              "url": "https://www.levernews.com/nvidia-trump-coxe/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Democrats' promise to investigate Trump's interaction with Nvidia could conflict with a Nvidia billionaire who is financing the party's new political machine.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images-2-1.png",
+              "video": null
+            },
+            {
+              "title": "Democrats probe whether Trump Jr.-aligned businesses benefit from government access",
+              "url": "https://www.npr.org/2026/11/24/nx-s1-6051392/democrats-probe-whether-trump-jr-aligned-businesses-benefit-from-government-access",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Congressional Democrats are expanding their probe into 1789 Capital, which brought on Donald Trump Jr. as a partner days after his father's reelection, to see whether it benefits from government access.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "2 states sue Elon Musk's AI company for allowing chatbot to make sexualized deepfakes",
+              "url": "https://www.npr.org/2026/11/24/nx-s1-6051356/2-states-sue-elon-musks-ai-company-for-allowing-chatbot-to-make-sexualized-deepfakes",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Oregon and Virginia are suing xAI over Grok allowing users to create nonconsensual sexualized deepfakes of real people. A legal test of AI image-generation liability.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats’ Old Guard Has Gone Stale: Poll",
+              "url": "https://www.levernews.com/democrats-old-guard-has-gone-stale-poll/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "A Lever poll asks how much voters want fresh faces leading the Democratic Party. Relevant to the party's direction as Congress changes hands.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/AP23339661662435.jpg",
+              "video": null
+            },
+            {
+              "title": "Medicare looks a bit different in 2027, so don't miss open enrollment",
+              "url": "https://www.npr.org/2026/11/22/nx-s1-6036735/medicare-open-enrollment-2027",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Medicare open enrollment runs through Dec. 7, and plans may change substantially for 2027. Practical information with real deadlines.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F13%2Ffb%2F9b0e40024a808c235b8149eeb6bb%2Fgettyimages-1734347077.jpg",
+              "video": null
+            },
+            {
+              "title": "Lever Weekly: Grand Theft Agenda",
+              "url": "https://www.levernews.com/lever-weekly-grand-theft-agenda/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's weekly roundup covers a Democratic billionaire gathering and the path to Medicare for All. A quick overview of independent reporting this week.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/LW-Nov22-26.png",
+              "video": null
+            },
+            {
+              "title": "Pentagon’s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members",
+              "url": "https://www.dropsitenews.com/p/pentagon-iran-war-saudi-yemen-port-haiti-gangs",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports Pentagon costs for the Iran war have topped $48 billion, alongside other regional developments. Covers war spending in an independent outlet.",
+              "image": "https://substackcdn.com/image/fetch/$s_!Nj1g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5b5cef-ea7c-43a8-9ceb-1d3ad011a35a_5703x3695.heic",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Some women in tech have concerns about Huang's return",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6045799/how-some-women-in-tech-are-responding-to-jensen-huangs-return-to-nvidia",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Women who have advocated for DEI in tech say Jensen Huang's return as Nvidia CEO signals that money matters most in Silicon Valley. Ties into the Nvidia news you are following.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+              "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Democrats flipped 47 House seats so far, with a possible 49, the largest House margin gain in 50 years. COP31 ended with no deal after running two days over.",
+              "image": "https://www.npr.org/2026/11/23/g-s1-155021/undefined",
+              "video": null
+            },
+            {
+              "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+              "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Trump said he convinced Nvidia to reinstate CEO Jensen Huang, and the move drew backlash. Huang's comeback helped add $1 trillion to the company's stock value.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg",
+              "video": null
+            },
+            {
+              "title": "Russian incursions into NATO territory are increasing",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NATO's Mark Rutte is reassuring eastern members after three Russian cruise missiles landed in Poland on Friday. The Kremlin has not commented on the missiles.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+              "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Zelenskyy said Ukrainian sea drones sank a Russian warship moored at a port in Libya. The attack is part of Russia-Ukraine fighting spreading geographically.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F52%2F30%2Fd4914bc74ad997c95d4e79039c90%2Fap26327310507060.jpg",
+              "video": null
+            },
+            {
+              "title": "DR Congo says aircraft missing as rebels claim to shoot down plane",
+              "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "DR Congo says an aircraft is missing after rebels claimed to shoot down a plane. A South African pilot and a Ugandan officer are reportedly aboard.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/467b/live/5cf1a7a0-e7d4-11f1-939f-471cde339c0e.jpg",
+              "video": null
+            },
+            {
+              "title": "Venezuela's power cuts threaten economic recovery and leave residents sleepless",
+              "url": "https://www.npr.org/2026/11/24/nx-s1-6046499/venezuelas-power-cuts-threaten-economic-recovery-and-leave-residents-sleepless",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Venezuela's daily blackouts threaten economic recovery despite its large oil reserves, according to NPR. Shows how power infrastructure shapes daily life.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+              "url": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Bodycam footage shows troops raiding a home and capturing a Mexican drug lord known as El Chapo Isidro, who had evaded capture for years.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+              "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "NATO's chief pledged defense against space threats after German media reported Russia plans to launch a satellite carrying a nuclear warhead within weeks.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f9e8/live/05da8d30-e7d7-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
+              "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Indian party leader Saurav Das says immigration officials at Delhi airport told him his passport was flagged, preventing his flight to the UK.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/82d4/live/df8de260-e7c4-11f1-998f-6307777df073.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Claude Platform release notes — November 23, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-opus-4-5-deprecation",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic announced deprecation of Claude Opus 4.5 on the API, with retirement set for January 22, 2027, and recommends migrating to Claude Opus 5.5. Directly relevant to your Claude-based tools.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 23, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#enterprise-frontier-safeguards",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic launched Enterprise Frontier Safeguards in beta, offering zero data retention for eligible organizations using its most capable models across Claude Platform and cloud partners.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "Anthropic prices initial public offering",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has priced its initial public offering, following its S-1 filing with the SEC. A milestone for the company you follow closely.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle for bug hunting and red-team work, with 82 skills and 15 slash commands. A trending repo that fits your interest in building Claude-based tools.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "datasette-charts 0.2a0",
+              "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's datasette-charts 0.2a0 adds integration with Datasette Agent, so chart creation can be requested through chat. Useful if you build data tools.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+              "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Z.ai released GLM-5.4, its first model using a looped transformer architecture, aimed at generalized coding. A notable architectural change in AI models.",
+              "image": "https://static.simonwillison.net/static/2026/glm-5.4-max.webp",
+              "video": null
+            },
+            {
+              "title": "Ladybird's first alpha release",
+              "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "The Ladybird browser project released its first alpha, with its own HTML, CSS, layout and JavaScript engines. A significant independent engineering effort.",
+              "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Kevin Durant scores 32 to power Rockets past Clippers 116-104",
+              "url": "http://www.espn.com/nba/recap?gameId=401910043",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 32 as the Houston Rockets beat the Clippers 116-104, with Sengun and Amen Thompson adding 20 each.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910043.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "What the 49ers and Vikings Had to Say After Week 11",
+              "url": "https://www.49ers.com/news/what-the-49ers-and-vikings-had-to-say-after-week-11",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "49ers QB Brock Purdy and coaches reacted to the 35-10 win over Minnesota in Week 11. Context on the team's current form.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/pi5yd7u6htftlgyj33o0.png",
+              "video": null
+            },
+            {
+              "title": "Beating the Blitz: Brock Purdy Commands against the Rush",
+              "url": "https://www.49ers.com/news/beating-the-blitz-brock-purdy-commands-against-the-rush",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Brock Purdy threw for 255 yards and three touchdowns against the NFL's most blitz-heavy defense in the 49ers' 35-10 win over the Vikings.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/rdpnnwfzogegs85t8vg7.png",
+              "video": null
+            },
+            {
+              "title": "Source: 49ers, GM John Lynch agree to contract extension",
+              "url": "https://www.espn.com/nfl/story/_/id/50575248/source-49ers-gm-john-lynch-agree-contract-extension",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers and general manager John Lynch agreed to a multiyear contract extension, a team source confirmed to NFL Network.",
+              "image": "https://a.espncdn.com/photo/2026/1123/r1750254_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers release WR Brandon Aiyuk with roster exemption ending",
+              "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers released wide receiver Brandon Aiyuk on Monday as his roster exemption ended.",
+              "image": "https://a.espncdn.com/photo/2026/1105/r1741725_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Navajo Stirling knocks out another ex-champ in Jirí Procházka to cap Fight Night",
+              "url": "https://www.espn.com/mma/ufc/story/_/id/50553944/navajo-stirling-kos-another-ex-champ-jiri-prochazka",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Navajo Stirling improved to 7-0 in the UFC by knocking out Jiri Prochazka in the second round in Doha, Qatar.",
+              "image": "https://a.espncdn.com/photo/2026/1121/r1749161_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "UFC fighter Manon Fiorot banned for 3 months for violating anti-doping policy",
+              "url": "https://www.espn.com/mma/story/_/id/50540039/ufc-fighter-manon-fiorot-banned-3-months-doping",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC fighter Manon Fiorot was banned for three months for violating the promotion's anti-doping policy.",
+              "image": "https://a.espncdn.com/photo/2026/0825/r1706727_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Ime Udoka frustrated by Rockets' defense: 'No effort or any attention to detail'",
+              "url": "https://www.espn.com/nba/story/_/id/50549254/ime-udoka-frustrated-rockets-defense-loss-nuggets",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Rockets coach Ime Udoka criticized the team's defense after a loss to Denver, saying it was as bad as he has seen. Notable after a 133-124 defeat to the Nuggets.",
+              "image": "https://a.espncdn.com/photo/2025/0430/r1486037_1296x729_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "City zoning committee denies request for Old Fourth Ward condo tower",
+              "url": "https://roughdraftatlanta.com/2026/11/23/atlanta-zoning-committee-denies-condo/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The Atlanta Zoning Committee unanimously opposed a rezoning for a 225-foot luxury condo tower in Old Fourth Ward after neighbor opposition. Directly relevant to city development.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/O4W-Building-REndering-600x338.png",
+              "video": null
+            },
+            {
+              "title": "Images: Church-replacing 'Gemini' project starts topping out",
+              "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-gemini-church-replacing-project-starts-topping-out",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Gemini project in Reynoldstown, replacing a former church near the Beltline, has started topping out. A visible local development milestone.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-07/January%202025%20Gemini%20Reynoldstown%20July%202026.png?itok=0o_943I5",
+              "video": null
+            },
+            {
+              "title": "Brookhaven firehouse pushback; Atlanta condo scene; Westside win",
+              "url": "https://atlanta.urbanize.city/post/brookhaven-firehouse-pushback-atlanta-condo-scene-westside-win",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta covers Brookhaven firehouse pushback, the Atlanta condo scene, and a Westside win. Covers several local development stories in one read.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Brookhaven%20Fire%20Station.png?itok=nYeDhyvR",
+              "video": null
+            },
+            {
+              "title": "Gwinnett County names new chief of police",
+              "url": "https://roughdraftatlanta.com/2026/11/23/shaw-named-gwinnett-police-chief/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Gwinnett County named Deputy Chief Steven K. Shaw as its next police chief after James McClure's retirement. A county leadership change.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Screenshot-2026-11-23-at-5.37.50-PM-600x411.png",
+              "video": null
+            },
+            {
+              "title": "Celebration held at Dunwoody MARTA station as all stations get upgraded faregates, other amenities",
+              "url": "https://roughdraftatlanta.com/2026/11/23/marta-completes-rail-fare-upgrades/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "MARTA completed its systemwide heavy rail faregate upgrade, with a celebration at Dunwoody Station. Relevant to transit in the city.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/MARTA-ribbon-cutting-scaled-e1795462000718-600x476.jpeg",
+              "video": null
+            },
+            {
+              "title": "Fulton County takes major step toward closing South Fulton health care gap with $82 million facility",
+              "url": "https://saportareport.com/fulton-county-takes-major-step-toward-closing-south-fulton-health-care-gap-with-82-million-facility/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-4.png?fit=1024%2C574&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Gov.-elect Keisha Lance Bottoms can unify our state, build bridges",
+              "url": "https://saportareport.com/gov-elect-keisha-lance-bottoms-can-unify-our-state-build-bridges/columnists/maria_saporta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "An opinion piece urging Gov.-elect Keisha Lance Bottoms to unify the state after the election. Commentary rather than news.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Keisha-with-Tyler-and-her-mom-at-Gospel-premier-Nov.-10-1-scaled.jpeg?fit=1024%2C641&ssl=1",
+              "video": null
+            },
+            {
+              "title": "With restaurant signing, Midtown office tower's retail now fully claimed",
+              "url": "https://atlanta.urbanize.city/post/midtown-union-wabi-sabi-office-tower-retail-now-fully-leased",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Midtown Union, a 26-story office tower, now has its retail fully leased after a restaurant signing. Shows continued retail momentum in Midtown.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/6%20Midtown%20Union%20offices%20Granite%20Properties.jpg?itok=2Padw4Vw",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Buro Happold and Motif bridge the BIM collaboration divide",
+              "url": "https://aecmag.com/bim/buro-happold-and-motif-bridge-the-bim-collaboration-divide/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Buro Happold and Motif are working to bridge the BIM collaboration divide between AI-driven design and engineering computation. Directly on your BIM and AI interests.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Inside Motif - Agentic BIM Modeling",
+              "url": "https://www.bimpure.com/blog/inside-motif-with-jens",
+              "source": "BIM Pure blog",
+              "topic": "Architecture",
+              "note": "An interview with Jens Majdal Kaarlsholm, former BIM manager at BIG, on Motif's agentic BIM modeling app and its vision. Relevant to AI in BIM workflows.",
+              "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147617530/images/d886e7-ac5a-a24c-72b7-67c621a3287_inside-motif-v3.jpg",
+              "video": null
+            },
+            {
+              "title": "The Power of the Streets: Why Cities Remain Irreplaceable in the Digital Age",
+              "url": "https://www.archdaily.com/1188636/the-power-of-the-streets-why-cities-remain-irreplaceable-in-the-digital-age",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily argues that cities remain irreplaceable in the digital age, using examples from Lisbon, Paris, Chicago and São Paulo. A thoughtful urbanism piece.",
+              "image": "https://images.adsttc.com/media/images/6af7/8b3a/c23f/1f01/895a/fd03/newsletter/the-power-of-the-streets-why-cities-remain-irreplaceable-in-the-digital-age_2.jpg?1794607962",
+              "video": null
+            },
+            {
+              "title": "Abishkar Residence / SYSTEM architects - EKNC",
+              "url": "https://www.archdaily.com/1187086/abishkar-residence-system-architects-eknc",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Abishkar Residence, designed through a participatory process for a multi-generational home. A residential project that started from understanding its occupants.",
+              "image": "https://images.adsttc.com/media/images/6b04/5146/2bc2/8501/8901/2892/newsletter/abishkar-residence-system-architects-eknc_22.jpg?1795445095",
+              "video": null
+            },
+            {
+              "title": "Paper Stilt House / Esteban Uribe Architect",
+              "url": "https://www.archdaily.com/1189106/paper-stilt-house-esteban-uribe-architect",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Paper Stilt House in Chiloé, Chile, built from wood and designed to belong to its existing stilt-house neighborhood. A small wood-building project.",
+              "image": "https://images.adsttc.com/media/images/6b04/7163/94d7/ea00/019d/02bb/newsletter/_DSC4995_Antonella_Torti.jpg?1795453454",
+              "video": null
+            },
+            {
+              "title": "House in Besteiros / Rasura Arquitetos",
+              "url": "https://www.archdaily.com/1068580/house-in-besteiros-rasura-arquitetos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A house in Besteiros adapts a small ruin on a steep, terraced olive and chestnut plot. A small rural residence with careful site response.",
+              "image": "https://images.adsttc.com/media/images/6916/8508/20ca/aa00/01ef/7cc0/newsletter/Casa_Besteiros_Alexander_Bogorodskiy-34.jpg?1763083665",
+              "video": null
+            },
+            {
+              "title": "TS Building / De Rungs Arquitectos",
+              "url": "https://www.archdaily.com/1189081/ts-building-de-rungs-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "TS Building in Madrid converts a disused 1980s office building into housing, reusing its open plan and sound structure. An adaptive reuse example.",
+              "image": "https://images.adsttc.com/media/images/6b04/6e2d/dd54/ea01/8880/eedd/newsletter/ts-building-de-rungs-arquitectos_3.jpg?1795452485",
+              "video": null
+            },
+            {
+              "title": "FORESTSCOPE / Sakakura Associates Architects and Engineers",
+              "url": "https://www.archdaily.com/1189070/forestscope-sakakura-associates-architects-and-engineers",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "FORESTSCOPE is a small viewing device that brings the forest into view and becomes a hut after sunset. A compact, experimental pavilion design.",
+              "image": "https://images.adsttc.com/media/images/6b04/49dd/94d7/ea00/019d/01e2/newsletter/_DSC4094_.jpg?1795443204",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Math’s holy grail, the Riemann hypothesis, appears solved with AI’s help",
+              "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "A proof of the Riemann hypothesis appears to have been found with AI assistance, settling a 167-year-old problem about prime numbers. Significant for mathematics and AI.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_KHEC_Riemann_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 24 – Galaxies Battle in the NGC 7771 Group",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-24-galaxies-battle-in-the-ngc-7771-group/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day shows galaxies interacting in the NGC 7771 group. A striking look at galaxy collisions.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/NGC7771group_Marinoni_1179.jpg?w=1179&h=1422&fit=clip",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "APOD features dark nebula Lynds 1251, a dense cloud of dust where stars form. A striking astronomy image.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&h=2048&fit=clip",
+              "video": null
+            },
+            {
+              "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+              "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Webb telescope imaged the supernova remnant Cassiopeia A in detail, showing how dust from dying stars seeds new stars and planets.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2026/11/STScI-01M6PRXJ9A7S81CH1C9SJP1MB0.jpg?w=1536&h=1536&fit=clip",
+              "video": null
+            },
+            {
+              "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+              "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA seeks industry partners to design and test Lunar Reactor-1, a 20-kilowatt fission power system for the Moon. A step toward a sustained lunar presence.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/srd-fsp-isru02b.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Eruption Extends Iwo Jima’s Beach",
+              "url": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "A volcanic eruption off Iwo Jima has extended the island's beach, though how long the new land will last is unclear. A natural-change story with a coastal angle.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/eruption-enlarges-iwo-jima’s-beach/iwojima_oli2_20261026.jpg",
+              "video": null
+            },
+            {
+              "title": "Timor-Leste issues guidelines for whale-watching, but malpractice is rife as industry booms",
+              "url": "https://news.mongabay.com/2026/11/timor-leste-issues-guidelines-for-whale-watching-but-malpractice-is-rife-as-industry-booms/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Timor-Leste has issued whale-watching guidelines, but conservationists say malpractice is widespread as the industry booms. Relevant to ocean and marine wildlife.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/20120136/Pygmy-Blue-Whale-Balaenoptera-musculus-ssp.-brevicauda-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "China’s mangroves have bounced back. Birds have returned too",
+              "url": "https://news.mongabay.com/short-article/2026/11/chinas-mangroves-have-bounced-back-birds-have-returned-too/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "China's mangroves more than doubled between 1998 and 2020, and bird species recorded there rose from 148 to 397. A good-news story about nature recovery.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/23180333/Mangroves_at_sunset-768x512.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Prime Food Processing LLC Issues Safety Warning Regarding Uneviscerated “Dried Herring Fish”",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish-0",
+      "published": "2026-11-23T23:57:00+00:00"
+    },
+    {
+      "title": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Sterile Products Due to Lack of Sterility Assurance",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/greenwich-rx-issues-voluntary-nationwide-recall-compounded-sterile-products-due-lack-sterility",
+      "published": "2026-11-20T23:21:00+00:00"
+    },
+    {
+      "title": "Shanghai San Niu Food Co., LTD. Is Recalling Sanniu Evergeen Biscuits Due to Undeclared Milk and Sanniu Salt and Pepper Soda Biscuits Due to Undeclared Milk an…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+      "published": "2026-11-20T17:58:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "Take away thy opinion, and then there is taken away the complaint, \"I have been harmed.\"",
+    "who": "Marcus Aurelius",
+    "about": "Roman emperor and Stoic philosopher",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 116–104 vs LAC",
+      "last_date": "Nov 23",
+      "next": "Wed Nov 25 vs PHX",
+      "url": "https://www.espn.com/nba/game/_/gameId/401910043/clippers-rockets",
+      "recent": [
+        "W 116–104 vs LAC · Nov 23",
+        "L 124–133 at DEN · Nov 20",
+        "W 119–104 at IND · Nov 18"
+      ],
+      "upcoming": [
+        "Wed Nov 25 vs PHX",
+        "Sat Nov 28 vs PHI",
+        "Mon Nov 30 vs LAL"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Fri Mar 26 at LAD",
+        "Sat Mar 27 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 35–10 vs MIN",
+      "last_date": "Nov 22",
+      "next": "Sun Nov 29 vs SEA",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+      "recent": [
+        "W 35–10 vs MIN · Nov 22",
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8"
+      ],
+      "upcoming": [
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG",
+        "Sun Dec 13 vs LAR"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 66189,
+    "output_tokens": 10458
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "Army DEFIES COURT: WILL EXPLODE TOXIC LEAD In Iowa",
+          "url": "https://www.youtube.com/watch?v=UEWww6E6Xz8",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss the military's planned detonation of toxic lead in Iowa and reported court challenges to it.",
+          "image": "https://i2.ytimg.com/vi/UEWww6E6Xz8/hqdefault.jpg",
+          "video": "UEWww6E6Xz8"
+        },
+        {
+          "title": "'YOU'LL FIND OUT SOON': Tech Billionaire OMINOUS WARNING On AI Cyberthreats",
+          "url": "https://www.youtube.com/watch?v=ntk6gDdExxg",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Trump officials saying AI-related cyber shutdowns will continue, with a tech billionaire's warning on AI cyberthreats.",
+          "image": "https://i3.ytimg.com/vi/ntk6gDdExxg/hqdefault.jpg",
+          "video": "ntk6gDdExxg"
+        },
+        {
+          "title": "TRUMPCARE FOR ALL: Trump FLOATS Abdul M4A Scheme",
+          "url": "https://www.youtube.com/watch?v=c56sbKRdt8A",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Trump floating a Medicare for All-style health plan proposal.",
+          "image": "https://i4.ytimg.com/vi/c56sbKRdt8A/hqdefault.jpg",
+          "video": "c56sbKRdt8A"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Brown on Pick-Six, Defensive Takeaways, Energy in Mexico City",
+          "url": "https://www.youtube.com/watch?v=rYhqTrzpPk8",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers safety Ji'Ayir Brown discusses his pick-six, the defense's takeaways, and the crowd in Mexico City after the Week 11 win over the Vikings.",
+          "image": "https://i3.ytimg.com/vi/rYhqTrzpPk8/hqdefault.jpg",
+          "video": "rYhqTrzpPk8"
+        },
+        {
+          "title": "Commanders RALLY for 22-20 Upset of Bengals",
+          "url": "https://www.youtube.com/watch?v=r4TwRGGRMZQ",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Commanders rally in the fourth quarter to beat the Bengals 22-20 in Week 11, scoring on their final six possessions.",
+          "image": "https://i3.ytimg.com/vi/r4TwRGGRMZQ/hqdefault.jpg",
+          "video": "r4TwRGGRMZQ"
+        },
+        {
+          "title": "Stephen 'Wonderboy' Thompson Reflects on Perfect Ending to His Career | MMA Fighting",
+          "url": "https://www.youtube.com/watch?v=RpCqIGhhH7M",
+          "source": "MMA Fighting",
+          "topic": "Sports",
+          "note": "Stephen Thompson reflects on how his career ended with a spinning heel kick knockout and whether he is done fighting.",
+          "image": "https://i3.ytimg.com/vi/RpCqIGhhH7M/hqdefault.jpg",
+          "video": "RpCqIGhhH7M"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How 3D Models Can Help 2D Take-offs",
+          "url": "https://www.youtube.com/watch?v=iSA0iRf20o4",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Shows how turning 2D construction drawings into a 3D model aids take-offs for complex structures, using a retaining wall example and Claude-built tooling.",
+          "image": "https://i2.ytimg.com/vi/iSA0iRf20o4/hqdefault.jpg",
+          "video": "iSA0iRf20o4"
+        },
+        {
+          "title": "Inside Motif - Agentic BIM Modeling",
+          "url": "https://www.youtube.com/watch?v=rMj5BuEIaSY",
+          "source": "BIM Pure",
+          "topic": "Architecture & Building",
+          "note": "Former BIG BIM manager Jens Kaarlsholm explains the vision behind Motif, an agentic BIM modeling app.",
+          "image": "https://i3.ytimg.com/vi/rMj5BuEIaSY/hqdefault.jpg",
+          "video": "rMj5BuEIaSY"
+        },
+        {
+          "title": "AC 066 – Safety Glazing – In windows",
+          "url": "https://www.youtube.com/watch?v=KNGEoJhhzxY",
+          "source": "archicorner",
+          "topic": "Architecture & Building",
+          "note": "Covers IBC requirements and exceptions for safety glazing in windows under section 2406.4.3.",
+          "image": "https://i4.ytimg.com/vi/KNGEoJhhzxY/hqdefault.jpg",
+          "video": "KNGEoJhhzxY"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Everything new in Claude this month",
+          "url": "https://www.youtube.com/watch?v=EuOg5f_Egns",
+          "source": "Claude",
+          "topic": "Tech & Science",
+          "note": "Roundup of Claude releases from last month, including Claude Fable 5.2, Claude Duet, and Personal Finance in Claude, several still in beta.",
+          "image": "https://i2.ytimg.com/vi/EuOg5f_Egns/hqdefault.jpg",
+          "video": "EuOg5f_Egns"
+        },
+        {
+          "title": "New Weather Balloons Are MINDBLOWING - Smarter Every Day 318",
+          "url": "https://www.youtube.com/watch?v=J5xUnREwFhw",
+          "source": "SmarterEveryDay",
+          "topic": "Tech & Science",
+          "note": "Smarter Every Day explores new weather balloon designs; the description is sponsor-heavy and gives few technical details.",
+          "image": "https://i3.ytimg.com/vi/J5xUnREwFhw/hqdefault.jpg",
+          "video": "J5xUnREwFhw"
+        }
+      ]
+    }
+  ]
+}
