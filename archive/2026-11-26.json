@@ -1,0 +1,1035 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Thursday, November 26, 2026",
+  "generated_at": "2026-11-26T05:00:22-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Thursday, November 26. Our lead story is about mathematics and AI. Science News reports that the Riemann hypothesis appears to be solved. It is a 167-year-old puzzle related to prime numbers. The proof comes from a human mathematician working with AI. The word apparently matters here, so treat it as an early report. Now the front page. A federal judge has blocked the Trump administration from moving to review all local broadcast licenses held by ABC. Those stations air in six of the largest U.S. markets. The FCC has also given SpaceX approval to deploy one million satellites for data centers in space. Scientists have expressed skepticism. In sports, Kevin Durant scored 20 points and became the fifth player in NBA history to reach 33,000 points. The Houston Rockets beat the Phoenix Suns 116 to 104. And 49ers quarterback Brock Purdy sat out Wednesday's practice with an ankle injury suffered against the Vikings. Now the sections. In tech and AI, a Claude Code skill bundle for bug hunting is trending on GitHub. A history professor describes GPT 6.2 Astra identifying the creator of an anonymous 1808 sketchbook. And Anthropic says its AI for Science program now reaches foundations and research institutions. In politics, The Lever reports on a bill that could fast-track pipelines, data centers and fossil fuel projects. Drop Site News reports that clients of a Pentagon official's family firm won up to three and a half billion dollars in contracts. In world news, the text of the new UK and EU treaties is due this afternoon, and the deal has a ten-year termination clause. A rights group says women are being sentenced to death in Iran in numbers not seen for decades. In Indonesia, thirteen people are dead and thirteen missing after an illegal gold mine flooded. In sports, the 49ers activated cornerback Nate Hobbs from injured reserve. The Braves face a shortstop question for 2027. And two UFC light heavyweights from New Zealand will not fight each other for the title. In Atlanta, Governor-elect Keisha Lance Bottoms will be inaugurated on January 12 at State Farm Arena. Two Georgia House Republicans are challenging their November defeats. And the Gemini project in Reynoldstown has started topping out. In architecture, Nomic is bringing AI agents into Revit and AutoCAD. Motif's vision for agentic BIM modeling is explained. And ArchDaily looks at who designed the world's heaviest building in Bucharest. In science and nature, astronomers are studying a nearby supernova caught in early November. Nations welcomed new Atlantic shark finning rules. And Hubble has surveyed an ocean of stars to prepare for the Roman Space Telescope. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Math’s holy grail, the Riemann hypothesis, appears solved with AI’s help",
+    "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+    "source": "Science News",
+    "topic": "Science & Nature",
+    "note": "Science News reports that a 167-year-old puzzle about prime numbers, the Riemann hypothesis, appears to have been solved. The proof is credited to a human mathematician working with AI. The summary says the work apparently settles the problem, so the wording is cautious and the result is not described as confirmed. Even so, the item calls the Riemann hypothesis math's holy grail, and a settled answer would be a notable moment for the field. For a reader who builds software tools with AI, the story shows a person and a model working together on a long-standing problem. The item gives no further detail about the method or who did the work, so follow-up reporting will matter. Treat it as an early report, and wait for other mathematicians to weigh in.",
+    "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_KHEC_Riemann_main.jpg?w=800",
+    "video": null,
+    "headline": "Riemann Hypothesis Appears Solved With AI's Help",
+    "decks": [
+      "Proof apparently settles a 167-year-old puzzle about prime numbers.",
+      "A human mathematician worked with AI on the result."
+    ]
+  },
+  "front": [
+    {
+      "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "A federal judge blocked the Trump administration from moving to review all local broadcast licenses held by ABC, whose stations air in six of the largest U.S. markets.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2Fa4%2F8f4bad7a4672b2a60fa7293ee33b%2Fcarr-damaro-diptych.jpg",
+      "video": null
+    },
+    {
+      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "The FCC gave SpaceX approval to deploy 1 million satellites for data centers in space, a move scientists have met with skepticism.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F70%2F4b%2F4cb0ffd9483ab271a8801a581496%2Fap26308785365415.jpg",
+      "video": null
+    },
+    {
+      "title": "Kevin Durant reaches 33,000 points as Rockets beat Suns",
+      "url": "http://www.espn.com/nba/recap?gameId=401909323",
+      "source": "Houston Rockets",
+      "topic": "Sports",
+      "note": "Kevin Durant scored 20 points and became the fifth player in NBA history to reach 33,000 as the Houston Rockets beat the Phoenix Suns 116-104.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909323.png?templateId=espn.applewatch.awayhome.1",
+      "video": null
+    },
+    {
+      "title": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+      "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "49ers quarterback Brock Purdy did not practice Wednesday with an ankle injury suffered against the Vikings, which bears on the coming Seahawks game.",
+      "image": "https://a.espncdn.com/photo/2026/1125/r1751271_1296x729_16-9.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A Claude Code skill bundle for bug hunting and red-team work, with 85 skills and 16 slash commands, is trending on GitHub today.",
+          "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+          "video": null
+        },
+        {
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "A history professor describes GPT-6.2 Astra autonomously identifying the creator of an anonymous 1808 sketchbook held at Yale, a useful case study in AI research.",
+          "image": null,
+          "video": null
+        },
+        {
+          "title": "AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "source": "Anthropic news",
+          "topic": "Tech & AI",
+          "note": "Anthropic's AI for Science program now extends to foundations and research institutions, per the company's latest announcement.",
+          "image": "https://assets.claude.com/470508b8c3c653e1e53e59e9818e8e63761dc4b6.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Democrats’ Lame-Duck Gift To Big Tech And Big Oil",
+          "url": "https://www.levernews.com/democrats-lame-duck-gift-to-big-tech-and-big-oil/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that the proposed Bipartisan American Affordability and Jobs Act could fast-track pipelines, data centers and fossil fuel projects, with support from Democrats.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress.png",
+          "video": null
+        },
+        {
+          "title": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts",
+          "url": "https://www.dropsitenews.com/p/michael-dodd-pentagon-dioltas-contracts",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that clients of Michael Dodd's family firm won up to $3.5 billion in contracts after he joined the War Department.",
+          "image": "https://substackcdn.com/image/fetch/$s_!hdP3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F328b87a7-e92d-4996-8e6d-65142c3218e1_2400x1800.jpeg",
+          "video": null
+        },
+        {
+          "title": "Jensen Huang’s Scandal Just Hit Your Pension",
+          "url": "https://www.levernews.com/nvidias-jensen-huang-scandal-just-hit-your-pension/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports Jensen Huang's brief exit from Nvidia temporarily wiped billions from public pension funds, showing how retirements depend on the AI boom.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Jensen-Huang-NVIDIA-stocks.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "New UK-EU treaty has 10-year termination clause",
+          "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "The text of the new UK-EU treaties is due this afternoon with enacting legislation, and the deal includes a 10-year termination clause.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/65b5/live/0c44e020-e972-11f1-99b6-a35a62fa4264.jpg",
+          "video": null
+        },
+        {
+          "title": "Desperate appeals from women on death row in Iran after protests",
+          "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "A rights group says female protesters and dissidents in Iran are being sentenced to death in numbers not seen for decades.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9ca2/live/a7b62ec0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
+          "video": null
+        },
+        {
+          "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Indonesian authorities say 13 people are dead and 13 more missing after an illegal gold mine flooded on Monday.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f7f/live/77162390-e96e-11f1-848a-0519bc65af50.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "49ers Activate CB Nate Hobbs, Place OL Colton McKivitz on the Injured Reserve List",
+          "url": "https://www.49ers.com/news/49ers-activate-cb-nate-hobbs-place-ol-colton-mckivitz-on-the-injured-reserve-list",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "The 49ers activated cornerback Nate Hobbs from injured reserve, signed Brandin Cooks to the practice squad and placed lineman Colton McKivitz on injured reserve.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cziqdoyjolwo2bbmazub.png",
+          "video": null
+        },
+        {
+          "title": "Where can Braves turn to fill shortstop in 2027?",
+          "url": "https://www.mlb.com/braves/news/braves-options-for-2027-shortstop",
+          "source": "MLB.com Braves",
+          "topic": "Sports",
+          "note": "MLB.com looks at where the Braves could turn to fill shortstop in 2027, an early offseason question.",
+          "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/wgjjbmbcbsnqq2wpzp5e.jpg",
+          "video": null
+        },
+        {
+          "title": "Kiwis Carlos Ulberg, Navajo Stirling won't fight each other for UFC title",
+          "url": "https://www.espn.com/mma/story/_/id/50600403/carlos-ulberg-navajo-stirling-ufc-title",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Coach Eugene Bareman confirmed that UFC light heavyweights Carlos Ulberg and Navajo Stirling will not fight each other for the title.",
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Gov.-elect Keisha Lance Bottoms announces inauguration plans",
+          "url": "https://roughdraftatlanta.com/2026/11/25/bottoms-georgia-inauguration-date/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Governor-elect Keisha Lance Bottoms will take the oath on Jan. 12, 2027, at State Farm Arena in Downtown Atlanta.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/IMG_4014-600x400.webp",
+          "video": null
+        },
+        {
+          "title": "Two Georgia GOP House lawmakers are challenging losses that helped House Democrats flip chamber",
+          "url": "https://roughdraftatlanta.com/2026/11/25/georgia-house-republicans-contest-election-losses/",
+          "source": "Rough Draft Atlanta",
+          "topic": "Atlanta",
+          "note": "Two Georgia House Republicans are challenging their Nov. 3 defeats, seats that gave Democrats a one-seat majority in the state House.",
+          "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/georgia-house-election-contests-hong-hitchens-luchey-dillie-2026-600x480.webp",
+          "video": null
+        },
+        {
+          "title": "Images: Church-replacing 'Gemini' project starts topping out",
+          "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-gemini-church-replacing-project-starts-topping-out",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "The church-replacing Gemini project near the Beltline in Reynoldstown has started topping out, changing the look of that corner.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-07/January%202025%20Gemini%20Reynoldstown%20July%202026.png?itok=0o_943I5",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Nomic extends AI agents into CAD drafting and BIM",
+          "url": "https://aecmag.com/cad/nomic-extends-ai-agents-into-cad-drafting-and-bim/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Nomic is extending AI agents into CAD drafting and BIM, generating native files and automating drawing revisions inside Revit and AutoCAD.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Inside Motif - Agentic BIM Modeling",
+          "url": "https://www.bimpure.com/blog/inside-motif-with-jens",
+          "source": "BIM Pure blog",
+          "topic": "Architecture",
+          "note": "A former BIG BIM manager explains the vision behind Motif, an agentic BIM modeling app.",
+          "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147617530/images/d886e7-ac5a-a24c-72b7-67c621a3287_inside-motif-v3.jpg",
+          "video": null
+        },
+        {
+          "title": "Palace of the Parliament in Bucharest: The Contested Authorship of the World's Heaviest Building",
+          "url": "https://www.archdaily.com/1188668/palace-of-the-parliament-in-bucharest-the-contested-authorship-of-the-worlds-heaviest-building",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily examines the contested authorship of the Palace of the Parliament in Bucharest, the world's heaviest building.",
+          "image": "https://images.adsttc.com/media/images/6afb/4fb2/8074/f464/a9f9/33e9/newsletter/arsenal-hill-the-many-authors-of-bucharests-palace-of-the-parliament_2.jpg?1794854858",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
+          "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Astronomers caught a nearby supernova in early November and are scrambling to study it, which may reveal secrets of stellar explosions.",
+          "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_MB_supernova_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Nations hail new shark finning rules in the Atlantic. Conservationists say Japan blocked better ones",
+          "url": "https://news.mongabay.com/2026/11/nations-hail-new-shark-finning-rules-in-the-atlantic-conservationists-say-japan-blocked-better-ones/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Nations hailed new Atlantic shark finning rules, while conservationists say Japan blocked stronger ones.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/25134732/7-1-768x512-1.jpg",
+          "video": null
+        },
+        {
+          "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "Hubble observed an ocean of stars as groundwork for interpreting future Nancy Grace Roman Space Telescope data and exoplanet searches.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg?w=1536&h=1536&fit=clip",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Democrats’ Lame-Duck Gift To Big Tech And Big Oil",
+              "url": "https://www.levernews.com/democrats-lame-duck-gift-to-big-tech-and-big-oil/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that the Bipartisan American Affordability and Jobs Act could fast-track pipelines, data centers and fossil fuel projects, with Democratic support.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress.png",
+              "video": null
+            },
+            {
+              "title": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts",
+              "url": "https://www.dropsitenews.com/p/michael-dodd-pentagon-dioltas-contracts",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that clients of a defense consulting firm owned by a Pentagon official have won up to $3.5 billion in military contracts since he took office.",
+              "image": "https://substackcdn.com/image/fetch/$s_!hdP3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F328b87a7-e92d-4996-8e6d-65142c3218e1_2400x1800.jpeg",
+              "video": null
+            },
+            {
+              "title": "Democrats Want To Investigate Nvidia. Their Megadonor Is On The Board.",
+              "url": "https://www.levernews.com/nvidia-trump-coxe/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Democrats' promise to investigate Trump's interaction with Nvidia could conflict with a megadonor who sits on the party's new political machine's board.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images-2-1.png",
+              "video": null
+            },
+            {
+              "title": "Jensen Huang’s Scandal Just Hit Your Pension",
+              "url": "https://www.levernews.com/nvidias-jensen-huang-scandal-just-hit-your-pension/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Jensen Huang's brief exit temporarily wiped billions from public pension funds, showing dependence on Nvidia stock.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Jensen-Huang-NVIDIA-stocks.jpg",
+              "video": null
+            },
+            {
+              "title": "Moving to Florida may become a choice of some Republicans after midterms",
+              "url": "https://www.npr.org/2026/11/24/nx-s1-6050930/moving-to-florida-may-become-a-choice-of-some-republicans-after-midterms",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that Republicans kept control of Florida's state government after the midterms, making it the largest state where the GOP still holds power.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A federal judge ruled that the FCC violated ABC's free speech rights and blocked the administration from reviewing all local broadcast licenses held by ABC.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2Fa4%2F8f4bad7a4672b2a60fa7293ee33b%2Fcarr-damaro-diptych.jpg",
+              "video": null
+            },
+            {
+              "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+              "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A Republican lawmaker wants FBI and CIA answers on what they knew about national security threats before questioning Nvidia's chief, Jensen Huang.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3001+0+0/resize/4500x3001!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F80%2Fe4%2F4f6d59a04c01950dd8cc6ac618a1%2Fgettyimages-1243410569.jpg",
+              "video": null
+            },
+            {
+              "title": "Group of Senate Democrats push to add freshman to leadership",
+              "url": "https://www.npr.org/2026/11/25/g-s1-155518/senate-democrats-freshman-leadership-schumer-van-hollen",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "Several Senate Democrats want to add a freshman senator to party leadership, citing the diverse incoming class that helped the party win in November.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5890x3927+0+0/resize/5890x3927!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F43%2F3b%2F29bab78c4dbabe5ff0b0354fe457%2Fgettyimages-2184408117.jpg",
+              "video": null
+            },
+            {
+              "title": "New UK-EU treaty has 10-year termination clause",
+              "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The UK and EU have agreed a new treaty with a 10-year termination clause. Treaty text and enabling legislation are to be published the same day.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/65b5/live/0c44e020-e972-11f1-99b6-a35a62fa4264.jpg",
+              "video": null
+            },
+            {
+              "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+              "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Regulators approved SpaceX's plan to deploy a million satellites for AI computing, which scientists have questioned. Relevant to your interest in space and data centers.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5383/live/4c315c90-e968-11f1-a094-5fdc692f3e33.jpg",
+              "video": null
+            },
+            {
+              "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+              "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The Army plans to detonate thousands of pounds of lead azide after delays, evacuating a five-mile radius. Also reported: Kilmar Abrego Garcia has voluntarily left the U.S.",
+              "image": "https://www.npr.org/2026/11/25/g-s1-155493/undefined",
+              "video": null
+            },
+            {
+              "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Indonesian authorities say 13 people are dead and another 13 missing after an illegal gold mine flooded.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f7f/live/77162390-e96e-11f1-848a-0519bc65af50.jpg",
+              "video": null
+            },
+            {
+              "title": "DR Congo demands answers over Ugandan general's threats",
+              "url": "https://www.bbc.co.uk/news/articles/cwz0k90rgpm8o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "The DR Congo is demanding answers after a Ugandan general threatened a rebel takeover of a mineral-rich area in posts on X.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9933/live/ff601720-e97c-11f1-99b6-a35a62fa4264.jpg",
+              "video": null
+            },
+            {
+              "title": "Desperate appeals from women on death row in Iran after protests",
+              "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A rights group says female protesters and dissidents in Iran are being sentenced to death in numbers not seen for decades.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9ca2/live/a7b62ec0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
+              "video": null
+            },
+            {
+              "title": "FedEx plane overshoots Miami runway, causing brief suspension of flights at airport",
+              "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A FedEx plane overshot a runway at Miami airport, briefly suspending flights on the eve of the US Thanksgiving holiday.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a780/live/1db9c0f0-e959-11f1-99b6-a35a62fa4264.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle for bug hunting and red-team work, with 85 skills and 16 slash commands. Relevant to your Claude-based tool building.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "Claude Platform release notes — November 23, 2026",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview#claude-opus-4-5-deprecation",
+              "source": "Claude Platform release notes",
+              "topic": "Tech & AI",
+              "note": "Anthropic is deprecating Claude Opus 4.5 on the API, with retirement set for January 22, 2027, and recommends migrating to Claude Opus 5.5.",
+              "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=5",
+              "video": null
+            },
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+              "url": "https://www.anthropic.com/news/ipo-close",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic says its initial public offering has closed, including the full exercise of the underwriters' option, along with a concurrent private placement.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "jingyaogong/minimind",
+              "url": "https://github.com/jingyaogong/minimind",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A GitHub trending project that trains a small 64M-parameter language model from scratch in about two hours, with documented training code.",
+              "image": "https://opengraph.githubassets.com/1/jingyaogong/minimind",
+              "video": null
+            },
+            {
+              "title": "firecrawl/firecrawl",
+              "url": "https://github.com/firecrawl/firecrawl",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Firecrawl, a GitHub trending project offering search, scrape and data access for AI agents through one API, with a self-hosted local option.",
+              "image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
+              "video": null
+            },
+            {
+              "title": "GPT 6.2 Astra Solves a Historical Mystery",
+              "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "A historian reports that GPT-6.2 Astra, with minimal prompting, identified the creator of an anonymous 1808 sketchbook held at Yale. Shows AI in historical research.",
+              "image": null,
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Kevin Durant reaches 33,000 points as Rockets beat Suns",
+              "url": "http://www.espn.com/nba/recap?gameId=401909323",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 20 points to reach 33,000 career points, the fifth player in NBA history, as the Rockets beat the Suns 116-104.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909323.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Kevin Durant scores 32 to power Rockets past Clippers 116-104",
+              "url": "http://www.espn.com/nba/recap?gameId=401910043",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 32 as the Rockets beat the Clippers 116-104, with Alperen Sengun and Amen Thompson adding 20 each.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910043.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "49ers QB Brock Purdy has ankle injury, sits out practice Wednesday",
+              "url": "https://www.espn.com/nfl/story/_/id/50596930/49ers-brock-purdy-ankle-injury-practice-wednesday",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "49ers quarterback Brock Purdy sat out practice with an ankle injury suffered in the Vikings game, raising questions about his availability.",
+              "image": "https://a.espncdn.com/photo/2026/1125/r1751271_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Will Brock Purdy suit up for the Niners?",
+              "url": "https://www.espn.com/video/clip/_/id/50599955/will-brock-purdy-suit-niners",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "A look at Brock Purdy's injury status and what it means for the 49ers ahead of their Seahawks matchup.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1125/dm_261125_niners_purdy_ia/dm_261125_niners_purdy_ia.jpg",
+              "video": null
+            },
+            {
+              "title": "Brock Purdy Named NFC Offensive Player of the Week Following Mexico City Win",
+              "url": "https://www.49ers.com/news/brock-purdy-named-nfc-offensive-player-of-the-week-following-mexico-city-win",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "Brock Purdy was named NFC Offensive Player of the Week after the 49ers' Week 11 win over the Vikings in Mexico City.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/wctuhotjcukvsq2zktpv.png",
+              "video": null
+            },
+            {
+              "title": "49ers Activate CB Nate Hobbs, Place OL Colton McKivitz on the Injured Reserve List",
+              "url": "https://www.49ers.com/news/49ers-activate-cb-nate-hobbs-place-ol-colton-mckivitz-on-the-injured-reserve-list",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers activated CB Nate Hobbs from injured reserve and placed OL Colton McKivitz on injured reserve.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cziqdoyjolwo2bbmazub.png",
+              "video": null
+            },
+            {
+              "title": "Kiwis Carlos Ulberg, Navajo Stirling won't fight each other for UFC title",
+              "url": "https://www.espn.com/mma/story/_/id/50600403/carlos-ulberg-navajo-stirling-ufc-title",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC coach Eugene Bareman confirmed Carlos Ulberg and Navajo Stirling will not fight each other for the UFC light heavyweight title.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Felony charges dropped against ex-UFC fighter Anthony Smith",
+              "url": "https://www.espn.com/mma/story/_/id/50599581/former-ufc-fighter-anthony-smith-felony-charges-dropped",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Felony charges were dropped against former UFC light heavyweight Anthony Smith over an alleged domestic violence incident in Nebraska.",
+              "image": "https://a.espncdn.com/photo/2026/0729/r1694919_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Gov.-elect Keisha Lance Bottoms announces inauguration plans",
+              "url": "https://roughdraftatlanta.com/2026/11/25/bottoms-georgia-inauguration-date/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Governor-elect Keisha Lance Bottoms will be sworn in on January 12, 2027, at 11 a.m. at State Farm Arena, her office announced.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/IMG_4014-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Two Georgia GOP House lawmakers are challenging losses that helped House Democrats flip chamber",
+              "url": "https://roughdraftatlanta.com/2026/11/25/georgia-house-republicans-contest-election-losses/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Two Georgia House Republicans are challenging their November 3 defeats, which helped Democrats take a one-seat majority in the state House.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/georgia-house-election-contests-hong-hitchens-luchey-dillie-2026-600x480.webp",
+              "video": null
+            },
+            {
+              "title": "Images: Church-replacing 'Gemini' project starts topping out",
+              "url": "https://atlanta.urbanize.city/post/reynoldstown-beltline-gemini-church-replacing-project-starts-topping-out",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "The Gemini project on a former church site in Reynoldstown, near the Beltline, has started topping out after breaking ground last summer.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-07/January%202025%20Gemini%20Reynoldstown%20July%202026.png?itok=0o_943I5",
+              "video": null
+            },
+            {
+              "title": "With restaurant signing, Midtown office tower's retail now fully claimed",
+              "url": "https://atlanta.urbanize.city/post/midtown-union-wabi-sabi-office-tower-retail-now-fully-leased",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Midtown Union, a 26-story Class AA office tower, has fully leased its retail after a restaurant signing.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/6%20Midtown%20Union%20offices%20Granite%20Properties.jpg?itok=2Padw4Vw",
+              "video": null
+            },
+            {
+              "title": "Atlanta History Center’s new exhibit immerses audiences in the Cherokee and Muscogee Trail of Tears",
+              "url": "https://saportareport.com/atlanta-history-centers-new-exhibit-immerses-audiences-in-the-cherokee-and-muscogee-trail-of-tears/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The Atlanta History Center's new exhibit, Exile from Georgia, covers the Cherokee and Muscogee Trails of Tears with immersive rather than artifact-based displays.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Exile-FF-5.png?fit=1024%2C682&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Georgia food banks, families struggle to stretch aid this holiday season",
+              "url": "https://roughdraftatlanta.com/2026/11/26/georgia-food-banks-holiday-season/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia food banks and pantries report more need this holiday season as grocery costs rise and food aid is cut.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/enough-to-share-food-pantry-volunteers-dekalb-2026-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Federal regulators loosen up on cellphone jamming, a top goal in Georgia prisons",
+              "url": "https://roughdraftatlanta.com/2026/11/25/fcc-cellphone-jamming-georgia-prisons/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "The FCC now lets prisons take extra steps to jam cellphone signals, a change Georgia prison officials had sought for years.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/washington-state-prison-georgia-cellphone-jamming-600x400.webp",
+              "video": null
+            },
+            {
+              "title": "Historic final draft of King’s ‘I Have a Dream’ speech returns to Atlanta for rare display",
+              "url": "https://saportareport.com/historic-final-draft-of-kings-i-have-a-dream-speech-returns-to-atlanta-for-rare-display/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The final draft of Martin Luther King Jr.'s I Have a Dream speech returned to Atlanta for a rare display from November 16 to 22.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-7.png?fit=1024%2C676&ssl=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Nomic extends AI agents into CAD drafting and BIM",
+              "url": "https://aecmag.com/cad/nomic-extends-ai-agents-into-cad-drafting-and-bim/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Nomic's AI agents generate native CAD files, automate drawing revisions and work directly inside Revit and AutoCAD.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Buro Happold and Motif bridge the BIM collaboration divide",
+              "url": "https://aecmag.com/bim/buro-happold-and-motif-bridge-the-bim-collaboration-divide/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Buro Happold and Motif are working together to connect AI-driven design with deterministic computation for architects and engineers in BIM.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Inside Motif - Agentic BIM Modeling",
+              "url": "https://www.bimpure.com/blog/inside-motif-with-jens",
+              "source": "BIM Pure blog",
+              "topic": "Architecture",
+              "note": "An interview with Motif's director of industry development on agentic BIM modeling and the app's vision, from a former BIG BIM manager.",
+              "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2147617530/images/d886e7-ac5a-a24c-72b7-67c621a3287_inside-motif-v3.jpg",
+              "video": null
+            },
+            {
+              "title": "How Shipping Container Buildings Respond to Local Climate",
+              "url": "https://www.archdaily.com/1185941/from-desert-heat-to-northern-winters-how-container-architecture-adapts-across-the-united-states",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily looks at how shipping container buildings respond to different US climates, from tiny homes to workshops.",
+              "image": "https://images.adsttc.com/media/images/6abf/d32e/90e2/9d01/89d2/dac9/newsletter/from-desert-heat-to-northern-winters-how-container-architecture-adapts-across-the-united-states_8.jpg?1790956349",
+              "video": null
+            },
+            {
+              "title": "Hill House / Taylor Knights",
+              "url": "https://www.archdaily.com/1189208/hill-house-taylor-knights",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Hill House in Melbourne is a multigenerational family home built on a suburban ridgeline, designed to adapt over time.",
+              "image": "https://images.adsttc.com/media/images/6b06/ac57/94d7/ea00/019d/0b8e/newsletter/TKA_Wheelers_0466.jpg?1795599513",
+              "video": null
+            },
+            {
+              "title": "Palace of the Parliament in Bucharest: The Contested Authorship of the World's Heaviest Building",
+              "url": "https://www.archdaily.com/1188668/palace-of-the-parliament-in-bucharest-the-contested-authorship-of-the-worlds-heaviest-building",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "The Palace of the Parliament in Bucharest, the world's heaviest building, and the contested authorship of its design.",
+              "image": "https://images.adsttc.com/media/images/6afb/4fb2/8074/f464/a9f9/33e9/newsletter/arsenal-hill-the-many-authors-of-bucharests-palace-of-the-parliament_2.jpg?1794854858",
+              "video": null
+            },
+            {
+              "title": "S House / L2C Arquitetura",
+              "url": "https://www.archdaily.com/1189138/s-house-l2c-arquitetura",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "S House excavates a wooded slope in Portugal, using the land itself as the main material of the project.",
+              "image": "https://images.adsttc.com/media/images/6b05/83b9/dd54/ea01/8880/f252/newsletter/casa-s-l2c-arquitetura_13.jpg?1795523558",
+              "video": null
+            },
+            {
+              "title": "House Y / monotrum",
+              "url": "https://www.archdaily.com/1189216/house-y-monotrum",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "House Y renovates a childhood home into a residence for a couple and their two cats, maximizing rooms within a limited floor area.",
+              "image": "https://images.adsttc.com/media/images/6b06/b042/94d7/ea00/019d/0bfc/newsletter/2026_0113_0166.jpg?1795600474",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Math’s holy grail, the Riemann hypothesis, appears solved with AI’s help",
+              "url": "https://www.sciencenews.org/article/riemann-hypothesis-solved-math-ai",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "The Riemann hypothesis appears to have been solved with AI help, with a human mathematician working alongside AI on a 167-year-old prime number puzzle.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_KHEC_Riemann_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Extinct, long-legged grasshoppers walked on water alongside dinosaurs",
+              "url": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Long-legged grasshoppers from 99-million-year-old amber suggest these extinct insects could sit atop water and paddle across it.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112426_JB_grasshoppers_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
+              "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Astronomers caught a nearby supernova in early November and are scrambling to study it, which may reveal the explosion's secrets.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_MB_supernova_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "International marine biodiversity conference emphasizes the unsung and the unknown",
+              "url": "https://news.mongabay.com/2026/11/international-marine-biodiversity-conference-emphasizes-the-unsung-and-the-unknown/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A Mongabay report from the 7th World Conference on Marine Biodiversity in Bruges covers deep-sea mining impacts and other ocean topics.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/25175341/7-banner-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Nations hail new shark finning rules in the Atlantic. Conservationists say Japan blocked better ones",
+              "url": "https://news.mongabay.com/2026/11/nations-hail-new-shark-finning-rules-in-the-atlantic-conservationists-say-japan-blocked-better-ones/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Nations adopted new Atlantic shark finning rules, while conservationists say Japan blocked stronger ones.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/25134732/7-1-768x512-1.jpg",
+              "video": null
+            },
+            {
+              "title": "Australia’s legless geckos evolved like snakes did",
+              "url": "https://www.sciencenews.org/article/legless-geckos-evolved-like-snakes",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Australia's limbless pygopod geckos evolved a path more like snakes than other legless lizards.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/111726_JB_pygopods_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Eye of the Sahara",
+              "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's image of the Richat Structure, the Eye of the Sahara, seen from the International Space Station, an eroded geological dome in Mauritania.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "Hubble views a dense star field in groundwork for the Roman Space Telescope's future observations of stars and exoplanets.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/galaxies/milky-way/Hubble_GalacticBulge_HD70_1_FINAL.jpg?w=1536&h=1536&fit=clip",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Prime Food Processing LLC Issues Safety Warning Regarding Uneviscerated “Dried Herring Fish”",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish-0",
+      "published": "2026-11-23T23:57:00+00:00"
+    },
+    {
+      "title": "Golden State Medical Supply, Inc. Issues a Voluntary Nationwide Recall of Ibuprofen 800mg Tablets. Due to Potential Aluminum Particulate Contamination Localize…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/golden-state-medical-supply-inc-issues-voluntary-nationwide-recall-ibuprofen-800mg-tablets-due",
+      "published": "2026-11-23T18:29:00+00:00"
+    },
+    {
+      "title": "Par Health Issues Voluntary Nationwide Recall of Certain Lots of Six Injectable Drug Products Due to the Presence of Particulate Matter",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-certain-lots-six-injectable-drug-products-due-presence",
+      "published": "2026-11-23T15:05:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "All of us have to learn how to invent our lives, make them up, imagine them.",
+    "who": "Ursula K. Le Guin",
+    "about": "American author of fantasy and science fiction",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 116–104 vs PHX",
+      "last_date": "Nov 25",
+      "next": "Sat Nov 28 vs PHI",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909323/suns-rockets",
+      "recent": [
+        "W 116–104 vs PHX · Nov 25",
+        "W 116–104 vs LAC · Nov 23",
+        "L 124–133 at DEN · Nov 20"
+      ],
+      "upcoming": [
+        "Sat Nov 28 vs PHI",
+        "Mon Nov 30 vs LAL",
+        "Tue Dec 1 vs TOR"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Fri Mar 26 at LAD",
+        "Sat Mar 27 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 35–10 vs MIN",
+      "last_date": "Nov 22",
+      "next": "Sun Nov 29 vs SEA",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+      "recent": [
+        "W 35–10 vs MIN · Nov 22",
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8"
+      ],
+      "upcoming": [
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG",
+        "Sun Dec 13 vs LAR"
+      ]
+    }
+  ],
+  "source_errors": [
+    {
+      "source": "Hacker News front page",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /frontpage (Caused by ConnectTimeoutError(<H"
+    }
+  ],
+  "usage": {
+    "input_tokens": 63646,
+    "output_tokens": 10327
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "How Congress Sabotages Government With Neoliberal Red Tape",
+          "url": "https://www.youtube.com/watch?v=-RQjx93GwV4",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Amira Boland and Tara McGuinness discuss their Just Security contribution on public interest technology and making government work better for people.",
+          "image": "https://i2.ytimg.com/vi/-RQjx93GwV4/hqdefault.jpg",
+          "video": "-RQjx93GwV4"
+        },
+        {
+          "title": "Every Major Social Media App Blocked This Film",
+          "url": "https://www.youtube.com/watch?v=sCFsHqLJ71Y",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Alex Gibney, Academy Award-winning documentarian, discusses his new film Musk, which the show says was blocked by social media apps.",
+          "image": "https://i4.ytimg.com/vi/sCFsHqLJ71Y/hqdefault.jpg",
+          "video": "sCFsHqLJ71Y"
+        },
+        {
+          "title": "Trump Tries To BLAME DEMS For Iowa Lead BOMB",
+          "url": "https://www.youtube.com/watch?v=ObLMeDb9cPA",
+          "source": "Breaking Points",
+          "topic": "News & Politics",
+          "note": "Krystal and Saagar discuss Trump blaming Democrats for a toxic lead explosion in Iowa.",
+          "image": "https://i4.ytimg.com/vi/ObLMeDb9cPA/hqdefault.jpg",
+          "video": "ObLMeDb9cPA"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Mic’d Up: Warner and Kittle Take Over Mexico City | 49ers",
+          "url": "https://www.youtube.com/watch?v=Id7LlG3tijo",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Fred Warner and George Kittle are miked up during the 49ers' Week 11 matchup against the Minnesota Vikings in Mexico City.",
+          "image": "https://i2.ytimg.com/vi/Id7LlG3tijo/hqdefault.jpg",
+          "video": "Id7LlG3tijo"
+        },
+        {
+          "title": "49ers Players Preview Seahawks Rematch, Address McKivitz’s Injury",
+          "url": "https://www.youtube.com/watch?v=H-xS4OGzAoY",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers players preview the Seahawks rematch and address the season-ending injury to OL Colton McKivitz.",
+          "image": "https://i1.ytimg.com/vi/H-xS4OGzAoY/hqdefault.jpg",
+          "video": "H-xS4OGzAoY"
+        },
+        {
+          "title": "Micah Parsons' Return, Ground Battle in Detroit & Powerhouse QBs Face Off",
+          "url": "https://www.youtube.com/watch?v=BP8N9CBkhrQ",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show previews Thanksgiving football, including the Chiefs-Lions-style rivalry and a Mahomes-Allen matchup.",
+          "image": "https://i3.ytimg.com/vi/BP8N9CBkhrQ/hqdefault.jpg",
+          "video": "BP8N9CBkhrQ"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "How to Do a Complete AI Take-Off (Step-by-Step)",
+          "url": "https://www.youtube.com/watch?v=OKvVE7WxXZY",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "Tim Fairley walks through an electrical take-off run with Claude connected to zzTakeoff via MCP, and how he checks the results.",
+          "image": "https://i4.ytimg.com/vi/OKvVE7WxXZY/hqdefault.jpg",
+          "video": "OKvVE7WxXZY"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "The Moon, Jupiter, and The Milky Way | How the Universe Works | Science Channel",
+          "url": "https://www.youtube.com/watch?v=toGQCeLOSnc",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "An hour-long Science Channel compilation covering the Moon, Jupiter, the Milky Way, Mercury, and the history of the Solar System.",
+          "image": "https://i1.ytimg.com/vi/toGQCeLOSnc/hqdefault.jpg",
+          "video": "toGQCeLOSnc"
+        }
+      ]
+    },
+    {
+      "group": "Make & Cook",
+      "items": [
+        {
+          "title": "$28,000 experiment",
+          "url": "https://www.youtube.com/watch?v=KqZsJaPFn_k",
+          "source": "Blacktail Studio",
+          "topic": "Make & Cook",
+          "note": "Blacktail Studio's woodworking video about a $28,000 commissioned build and a disagreement with the client.",
+          "image": "https://i4.ytimg.com/vi/KqZsJaPFn_k/hqdefault.jpg",
+          "video": "KqZsJaPFn_k"
+        }
+      ]
+    }
+  ]
+}
