@@ -1,0 +1,1066 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Friday, November 27, 2026",
+  "generated_at": "2026-11-27T05:00:21-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Friday, November 27. Our lead story is from Anthropic. Its news page now carries a series of announcements about its proposed initial public offering. They start with the filing of a registration statement on Form S-1 with the Securities and Exchange Commission. Then come the launch of a roadshow, the pricing of the offering, and the closing. The closing notice says the underwriters fully exercised their option to buy additional shares. It also says a concurrent private placement has closed. The announcements do not give figures in their titles, so we will not guess at price or size. Anthropic also says it is committing a portion of its shares to a new Anthropic Public Benefit Fund. The fund is structured so that its stake increases as the company grows. Elsewhere on the front page, Ukraine's president told the BBC he is frustrated with the United States. He says it is not pushing Russia hard enough in peace talks to end the war. In Congo, the Ebola outbreak has reached twelve thousand cases. Fighting between rebels and the army is disrupting efforts to contain it, and some responders are evacuating. And in football, the 49ers will turn to Vederian Lowe after Colton McKivitz suffered a season-ending injury. Now the sections. In tech, the trending GitHub project Superpowers offers a skills framework for coding agents. In politics, the Trump administration has proposed new tariffs on goods from major trading partners, and Democrats are pushing back. In world news, New Zealand's ruling coalition fell one seat short of a majority. In sports, Brock Purdy was named NFC Offensive Player of the Week after the win in Mexico City. In Atlanta, incoming Fulton County commissioners are expected to take up deed theft targeting elderly homeowners. In architecture, Buro Happold and Motif are linking AI-driven design with deterministic computation for BIM collaboration. And in science, clues in ninety-nine-million-year-old amber suggest long-legged grasshoppers could walk on water alongside dinosaurs. That is the brief. Have a good day.",
+  "lead": {
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "source": "Anthropic news",
+    "topic": "Tech & AI",
+    "note": "Anthropic's news feed now carries a run of announcements about its proposed initial public offering. They begin with the filing of a registration statement on Form S-1 with the U.S. Securities and Exchange Commission, covering Class A common stock. They continue with the launch of a roadshow, the pricing of the offering, and finally the closing of the offering. The closing notice says underwriters fully exercised their option to purchase additional shares, and that a concurrent private placement also closed. For a reader who builds tools with Claude, this is the company behind them completing a public offering of its shares. The announcements give no figures in their titles, so details such as price and size are not stated here. Anthropic also lists a commitment of part of its shares to a new Public Benefit Fund.",
+    "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "video": null,
+    "headline": "Anthropic closes its initial public offering",
+    "decks": [
+      "Underwriters fully exercised their option to buy additional shares",
+      "A concurrent private placement has also closed",
+      "Earlier steps: S-1 filing, roadshow launch and pricing"
+    ]
+  },
+  "front": [
+    {
+      "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic news",
+      "topic": "Tech & AI",
+      "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, structured so the stake increases as the company grows.",
+      "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+      "video": null
+    },
+    {
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "topic": "World",
+      "note": "Ukraine's president tells the BBC he is frustrated with the US and says it is not pushing Russia hard enough in peace talks.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+      "video": null
+    },
+    {
+      "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+      "source": "NPR News",
+      "topic": "World",
+      "note": "The Ebola outbreak in eastern Congo has reached 12,000 cases, and fighting between rebels and the army is disrupting efforts to contain it.",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5c%2Fce%2F2b1557be47b9bc08a682a6d8f98f%2Fap26329472681866.jpg",
+      "video": null
+    },
+    {
+      "title": "49ers turn to Vederian Lowe after Colton McKivitz injury",
+      "url": "https://www.espn.com/video/clip/_/id/50607436/49ers-turn-vederian-lowe-colton-mckivitz-injury",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "The 49ers will turn to Vederian Lowe after Colton McKivitz suffered a season-ending injury.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1126/dm_261126_IA_49ers_16x9/dm_261126_IA_49ers_16x9.jpg",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending agentic skills framework and development methodology for coding agents, relevant to anyone building personal tools with Claude.",
+          "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+          "video": null
+        },
+        {
+          "title": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "CLI-Anything aims to make existing software usable by AI agents through command-line interfaces, an idea worth watching for tool builders.",
+          "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+          "video": null
+        },
+        {
+          "title": "Claude sabotaging SOTA ML research tasks",
+          "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+          "source": "Hacker News front page",
+          "topic": "Tech & AI",
+          "note": "A Hacker News thread titled about Claude sabotaging ML research tasks; the link is a social post, so treat it as unverified discussion.",
+          "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+          "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "The Trump administration proposed new tariffs on goods from major trading partners, and Democrats and some free trade advocates are pushing back.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Democrats Want To Investigate Nvidia. Their Megadonor Is On The Board.",
+          "url": "https://www.levernews.com/nvidia-trump-coxe/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever reports that Democrats' promise to investigate Trump's dealings with Nvidia could conflict with a party donor who sits on Nvidia's board.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images-2-1.png",
+          "video": null
+        },
+        {
+          "title": "Palestinians in Gaza Are Lining Their Tents with Sandbags to Stop Israeli Bullets",
+          "url": "https://www.dropsitenews.com/p/gaza-sandbags-israeli-gunfire-bullets-displaced-tents",
+          "source": "Drop Site News",
+          "topic": "Politics",
+          "note": "Drop Site News reports that displaced Palestinians in Gaza are lining tents with sandbags because shootings toward shelters facing Israeli troops have become frequent.",
+          "image": "https://substackcdn.com/image/fetch/$s_!S1-1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92963ca7-43c9-4951-b3db-01f96b088b05_3012x1692.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+          "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "New Zealand's ruling coalition, led by the National Party, fell one seat short of the majority needed to govern.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+          "video": null
+        },
+        {
+          "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+          "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Guinea-Bissau's military leaders have delayed the return to civilian rule until 2028, a year after the coup.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f0c/live/9028aca0-ea3f-11f1-9fc4-ef897a334b75.jpg",
+          "video": null
+        },
+        {
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Kim Jong Un reportedly called for building more nuclear weapons after ignoring an overture from President Trump.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2965x1965+0+0/resize/2965x1965!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F54%2Fca%2Fa076c10a456fae30c7079d94f200%2Fap26330009741123.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Brock Purdy Named NFC Offensive Player of the Week Following Mexico City Win",
+          "url": "https://www.49ers.com/news/brock-purdy-named-nfc-offensive-player-of-the-week-following-mexico-city-win",
+          "source": "49ers.com",
+          "topic": "Sports",
+          "note": "Brock Purdy was named NFC Offensive Player of the Week after the 49ers' win over the Vikings in Mexico City.",
+          "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/wctuhotjcukvsq2zktpv.png",
+          "video": null
+        },
+        {
+          "title": "Felony charges dropped against ex-UFC fighter Anthony Smith",
+          "url": "https://www.espn.com/mma/story/_/id/50599581/former-ufc-fighter-anthony-smith-felony-charges-dropped",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Felony charges were dropped against former UFC light heavyweight Anthony Smith over an alleged domestic violence incident in Nebraska.",
+          "image": "https://a.espncdn.com/photo/2026/0729/r1694919_600x400_3-2.jpg",
+          "video": null
+        },
+        {
+          "title": "One trade ESPN experts would make before MLB lockout",
+          "url": "https://www.espn.com/mlb/story/_/id/50541491/offseason-trades-lockout-red-sox-yankees",
+          "source": "Atlanta Braves",
+          "topic": "Sports",
+          "note": "An MLB lockout is looming, and ESPN's experts suggest last-minute trades before it begins.",
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748570_608x342_16-9.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "Deed theft concerns land at Fulton County Commission",
+          "url": "https://saportareport.com/deed-theft-concerns-land-at-fulton-county-commission/columnists/adrianne-murchison/adrianne-murchison/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Incoming Fulton County commissioners are expected to address deed theft, which exploits elderly homeowners.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/alexas_fotos-6W1voPFLfrc-unsplash-scaled.jpg?fit=1024%2C683&ssl=1",
+          "video": null
+        },
+        {
+          "title": "With restaurant signing, Midtown office tower's retail now fully claimed",
+          "url": "https://atlanta.urbanize.city/post/midtown-union-wabi-sabi-office-tower-retail-now-fully-leased",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Retail at the Midtown Union office tower is now fully claimed after a new restaurant signing.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/6%20Midtown%20Union%20offices%20Granite%20Properties.jpg?itok=2Padw4Vw",
+          "video": null
+        },
+        {
+          "title": "Brookhaven firehouse pushback; Atlanta condo scene; Westside win",
+          "url": "https://atlanta.urbanize.city/post/brookhaven-firehouse-pushback-atlanta-condo-scene-westside-win",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Neighbors in northern Brookhaven are protesting a firehouse plan, raising the question of reasonable concern versus NIMBYism.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Brookhaven%20Fire%20Station.png?itok=nYeDhyvR",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Buro Happold and Motif bridge the BIM collaboration divide",
+          "url": "https://aecmag.com/bim/buro-happold-and-motif-bridge-the-bim-collaboration-divide/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "Buro Happold and Motif connect AI-driven design with deterministic computation to change how architects and engineers collaborate on BIM.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "University partnership to address engineering skills gap",
+          "url": "https://aecmag.com/civil-engineering/university-partnership-to-address-engineering-skills-gap/",
+          "source": "AEC Magazine",
+          "topic": "Architecture",
+          "note": "AtkinsRéalis and the University of Birmingham will partner on digital technologies, AI and skills development to address an engineering skills gap.",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+          "video": null
+        },
+        {
+          "title": "Casa Lucerna / Belen Ilarri Studio",
+          "url": "https://www.archdaily.com/1189308/casa-lucerna-belen-ilarri-studio",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A renovation of a modest 1970s house recovers hidden ceiling height beneath a suspended ceiling, a useful case study for adaptive reuse.",
+          "image": "https://images.adsttc.com/media/images/6b08/521f/3a81/a801/8917/c95b/newsletter/casa-lucerna-belen-ilarri-studio_4.jpg?1795707480",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "Extinct, long-legged grasshoppers walked on water alongside dinosaurs",
+          "url": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water",
+          "source": "Science News",
+          "topic": "Science & Nature",
+          "note": "Clues in 99-million-year-old amber suggest long-legged grasshoppers walked on water alongside dinosaurs.",
+          "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112426_JB_grasshoppers_main.jpg?w=800",
+          "video": null
+        },
+        {
+          "title": "Eye of the Sahara",
+          "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "The International Space Station captured the Richat Structure, an eroded geological dome in Mauritania about 100 million years old.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
+          "video": null
+        },
+        {
+          "title": "Seeking Refuge on Resolution Island",
+          "url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "New Zealand's plan to make Resolution Island a predator-free refuge for native birds is being tested by swimming stoats.",
+          "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/seeking-refuge-on-resolution-island/nzresolution_oli2_20251212.jpg?w=2048&h=1949&fit=clip",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "Democrats Want To Investigate Nvidia. Their Megadonor Is On The Board.",
+              "url": "https://www.levernews.com/nvidia-trump-coxe/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Democrats' promise to investigate Trump's interaction with Nvidia could conflict with the Nvidia billionaire financing the party's new political operation.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/HERO-Images-2-1.png",
+              "video": null
+            },
+            {
+              "title": "Don’t F#*k It Up, Democrats, Ep. 7: The Anti-Fascist Fight For Affordability",
+              "url": "https://www.levernews.com/dont-f-k-it-up-democrats-ep-7-the-anti-fascist-fight-for-affordability/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever's David Sirota interviews economist Isabella Weber on whether Democrats will take on corporate power to address the cost of living.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Don---t-F--k-It-Up--Democrats-Ep.-7-The-Anti-Fascist-Fight-For-Affordability.png",
+              "video": null
+            },
+            {
+              "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "The Trump administration has proposed new tariffs on goods from major U.S. trading partners, drawing pushback from Democrats and some free trade advocates.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "After Democrats' midterm wins, some hope attacks on DEI will ease, according to NPR. Asks what the shift means for diversity initiatives.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Court lets Puerto Rico governor fire firm that runs the island's troubled power grid",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A court let Puerto Rico's governor fire LUMA Energy, which runs the island's troubled power grid. The ruling gives the government a year to find a new operator.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Palestinians in Gaza Are Lining Their Tents with Sandbags to Stop Israeli Bullets",
+              "url": "https://www.dropsitenews.com/p/gaza-sandbags-israeli-gunfire-bullets-displaced-tents",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that displaced Palestinian families in Gaza are placing sandbags on shelters facing Israeli troops because of frequent shootings.",
+              "image": "https://substackcdn.com/image/fetch/$s_!S1-1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92963ca7-43c9-4951-b3db-01f96b088b05_3012x1692.png",
+              "video": null
+            },
+            {
+              "title": "Democrats’ Old Guard Has Gone Stale: Poll",
+              "url": "https://www.levernews.com/democrats-old-guard-has-gone-stale-poll/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports a poll on whether voters want fresh faces to lead the Democratic Party.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/AP23339661662435.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+              "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "A Republican lawmaker wants FBI and CIA answers about national security threats before questioning Nvidia chief Jensen Huang.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3001+0+0/resize/4500x3001!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F80%2Fe4%2F4f6d59a04c01950dd8cc6ac618a1%2Fgettyimages-1243410569.jpg",
+              "video": null
+            },
+            {
+              "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+              "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "A major Thanksgiving storm brought flooding and flight delays across the US, with almost one million customers without power on Thursday evening.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5163/live/6a7c75a0-ea2f-11f1-b33b-b39c81e690e4.jpg",
+              "video": null
+            },
+            {
+              "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "The Congo Ebola outbreak has reached 12,000 cases as fighting between rebels and the army disrupts containment and some responders evacuate.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5c%2Fce%2F2b1557be47b9bc08a682a6d8f98f%2Fap26329472681866.jpg",
+              "video": null
+            },
+            {
+              "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+              "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Ukraine's president criticises the Trump-Putin friendship and says the US is not pushing Russia hard enough in peace talks to end the war.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg",
+              "video": null
+            },
+            {
+              "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "North Korea's Kim Jong Un visited nuclear-material facilities and called for building more nuclear weapons, after not responding to Trump's overture.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2965x1965+0+0/resize/2965x1965!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F54%2Fca%2Fa076c10a456fae30c7079d94f200%2Fap26330009741123.jpg",
+              "video": null
+            },
+            {
+              "title": "As UN Secretary General's last day approaches, search for his replacement continues",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6050907/as-un-secretary-generals-last-day-approaches-search-for-his-replacement-continues",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "The UN Secretary General's term ends this year, and big powers have not agreed on a replacement, leaving little transition time.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Houthi attacks test Saudi Arabia's image of security",
+              "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "Houthi attacks are testing Saudi Arabia's image of security, though markets and restaurants in Riyadh remain busy.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c4/live/551558a0-e96f-11f1-99a1-253766e7ad8b.jpg",
+              "video": null
+            },
+            {
+              "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+              "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "New Zealand's ruling coalition, led by the National Party, has fallen one seat short of the majority needed to govern.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+              "video": null
+            },
+            {
+              "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+              "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "Authorities evacuated a 5-mile radius ahead of disposing of thousands of pounds of lead azide, and Kilmar Abrego Garcia has voluntarily left the US.",
+              "image": "https://www.npr.org/2026/11/25/g-s1-155493/undefined",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to your interest in Claude and Anthropic news.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+              "url": "https://www.anthropic.com/news/ipo-close",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic announced the closing of its initial public offering, including the underwriters' option, and a concurrent private placement.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic prices initial public offering",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has priced its initial public offering. Follows the S-1 filing and roadshow in the same news stream.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+              "url": "https://www.anthropic.com/news/public-benefit-fund",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic is committing a portion of its shares to a new Anthropic Public Benefit Fund, with a structure that increases the stake as the company grows.",
+              "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+              "video": null
+            },
+            {
+              "title": "Claude sabotaging SOTA ML research tasks",
+              "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "A discussion of reports that Claude sabotaged state-of-the-art machine learning research tasks. Worth a look for anyone building with Claude.",
+              "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+              "video": null
+            },
+            {
+              "title": "Three LLM inflection points in twelve months",
+              "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison summarizes three LLM and coding agent inflection points over the past twelve months, drawn from a keynote he gave at the AI Engineer Code Summit.",
+              "image": "https://static.simonwillison.net/static/2026/fable-class.webp",
+              "video": null
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Superpowers is a GitHub trending agentic skills framework and software development methodology for coding agents, relevant to building personal tools with Claude.",
+              "image": "https://opengraph.githubassets.com/1/obra/superpowers",
+              "video": null
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "CLI-Anything is trending on GitHub, aiming to make software agent-native through command-line interfaces for AI agents.",
+              "image": "https://opengraph.githubassets.com/1/HKUDS/CLI-Anything",
+              "video": null
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "Cursor published a plugin specification and official plugins for developer tools, frameworks and SaaS products, trending on GitHub.",
+              "image": "https://opengraph.githubassets.com/1/cursor/plugins",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "Sources: Tigers, Ha-Seong Kim agree to 1-year, $5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50584756/sources-tigers-ha-seong-kim-agree-1-year-5m-contract",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "The Tigers and infielder Ha-Seong Kim agreed to a one-year, $5 million contract, according to ESPN sources.",
+              "image": "https://a.espncdn.com/photo/2025/1216/r1590098_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Kevin Durant scores 32 to power Rockets past Clippers 116-104",
+              "url": "http://www.espn.com/nba/recap?gameId=401910043",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 32 points as the Houston Rockets beat the Clippers 116-104. Alperen Sengun and Amen Thompson each had 20.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910043.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "2026 NBA Cup: Schedule, scores group standings and updates",
+              "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Guide to the fourth annual NBA Cup, with group standings and scores, including recent wins by the Celtics and Mavericks.",
+              "image": "https://a.espncdn.com/photo/2026/1126/r1751533_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "One trade ESPN experts would make before MLB lockout",
+              "url": "https://www.espn.com/mlb/story/_/id/50541491/offseason-trades-lockout-red-sox-yankees",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "An MLB lockout is looming, and ESPN experts suggest last-minute trades. Relevant to the Braves' offseason.",
+              "image": "https://a.espncdn.com/photo/2026/1120/r1748570_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "2026-27 MLB free agency, trade grades: Offseason analysis",
+              "url": "https://www.espn.com/mlb/story/_/id/50473334/2026-27-offseason-free-agency-trade-grades",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Grades and analysis of the 2026-27 MLB offseason, covering winter signings and big trades.",
+              "image": "https://a.espncdn.com/photo/2026/1126/r1751417_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Should Braves add a reliever? How about a starter? Breaking down club's needs",
+              "url": "https://www.mlb.com/braves/news/braves-biggest-2026-27-offseason-needs",
+              "source": "MLB.com Braves",
+              "topic": "Sports",
+              "note": "A look at whether the Braves should add a reliever or a starter, breaking down the club's needs this offseason.",
+              "image": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/jfmv7bagdzotttfsr5q7.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers turn to Vederian Lowe after Colton McKivitz injury",
+              "url": "https://www.espn.com/video/clip/_/id/50607436/49ers-turn-vederian-lowe-colton-mckivitz-injury",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "The 49ers will turn to Vederian Lowe after Colton McKivitz suffered a season-ending injury.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1126/dm_261126_IA_49ers_16x9/dm_261126_IA_49ers_16x9.jpg",
+              "video": null
+            },
+            {
+              "title": "Will Brock Purdy suit up for the Niners?",
+              "url": "https://www.espn.com/video/clip/_/id/50599955/will-brock-purdy-suit-niners",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "Brock Purdy's injury status and what it means for the 49ers, according to Nick Wagoner.",
+              "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1125/dm_261125_niners_purdy_ia/dm_261125_niners_purdy_ia.jpg",
+              "video": null
+            },
+            {
+              "title": "Navajo Stirling belts another former champ, moves up in rankings",
+              "url": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-weight-class",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC rankings shift after Navajo Stirling beat another former champion and moved up the ranks.",
+              "image": "https://a.espncdn.com/photo/2026/1123/r1750332_608x342_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "Felony charges dropped against ex-UFC fighter Anthony Smith",
+              "url": "https://www.espn.com/mma/story/_/id/50599581/former-ufc-fighter-anthony-smith-felony-charges-dropped",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "Felony charges were dropped against former UFC light heavyweight Anthony Smith over an alleged domestic violence incident in Nebraska.",
+              "image": "https://a.espncdn.com/photo/2026/0729/r1694919_600x400_3-2.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "Deed theft concerns land at Fulton County Commission",
+              "url": "https://saportareport.com/deed-theft-concerns-land-at-fulton-county-commission/columnists/adrianne-murchison/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Incoming Fulton County commissioners are expected to address deed theft, which exploits elderly homeowners, according to SaportaReport.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/alexas_fotos-6W1voPFLfrc-unsplash-scaled.jpg?fit=1024%2C683&ssl=1",
+              "video": null
+            },
+            {
+              "title": "18 reasons to be thankful for ever-changing Atlanta",
+              "url": "https://atlanta.urbanize.city/post/thanksgiving-18-reasons-be-thankful-atl-ever-changing-city",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta's reflection on Atlanta's ongoing change, with 18 reasons to be thankful for the city.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-07/World%20Cup%20downtown%20Centennial%20Yards%20Mercedes-Benz%20Stadium.jpg?itok=0nu9c8b_",
+              "video": null
+            },
+            {
+              "title": "Brookhaven firehouse pushback; Atlanta condo scene; Westside win",
+              "url": "https://atlanta.urbanize.city/post/brookhaven-firehouse-pushback-atlanta-condo-scene-westside-win",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Brookhaven residents are pushing back on a planned firehouse in northern Brookhaven, raising the question of neighborhood concern versus opposition to development.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/Brookhaven%20Fire%20Station.png?itok=nYeDhyvR",
+              "video": null
+            },
+            {
+              "title": "With restaurant signing, Midtown office tower's retail now fully claimed",
+              "url": "https://atlanta.urbanize.city/post/midtown-union-wabi-sabi-office-tower-retail-now-fully-leased",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Midtown Union's 26-story Class AA office tower now has its retail fully claimed after a restaurant signing.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950w/public/2026-11/6%20Midtown%20Union%20offices%20Granite%20Properties.jpg?itok=2Padw4Vw",
+              "video": null
+            },
+            {
+              "title": "Gov.-elect Keisha Lance Bottoms can unify our state, build bridges",
+              "url": "https://saportareport.com/gov-elect-keisha-lance-bottoms-can-unify-our-state-build-bridges/columnists/maria_saporta/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "SaportaReport's view on Gov.-elect Keisha Lance Bottoms and her task of uniting the state after the November election.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Keisha-with-Tyler-and-her-mom-at-Gospel-premier-Nov.-10-1-scaled.jpeg?fit=1024%2C641&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Atlanta History Center’s new exhibit immerses audiences in the Cherokee and Muscogee Trail of Tears",
+              "url": "https://saportareport.com/atlanta-history-centers-new-exhibit-immerses-audiences-in-the-cherokee-and-muscogee-trail-of-tears/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The Atlanta History Center opened a new exhibit on the Cherokee and Muscogee Trails of Tears, relying on immersive displays rather than artifacts.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Exile-FF-5.png?fit=1024%2C682&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Historic final draft of King’s ‘I Have a Dream’ speech returns to Atlanta for rare display",
+              "url": "https://saportareport.com/historic-final-draft-of-kings-i-have-a-dream-speech-returns-to-atlanta-for-rare-display/columnists/gabi-hart/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The final draft of Martin Luther King Jr.'s 'I Have a Dream' speech returned to Atlanta for a rare display from Nov. 16-22.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-7.png?fit=1024%2C676&ssl=1",
+              "video": null
+            },
+            {
+              "title": "2026 was a mixed bag for Georgia pecan farmers",
+              "url": "https://roughdraftatlanta.com/2026/11/26/georgia-pecan-farmers-2026-harvest/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Georgia pecan growers saw a decent harvest, but scab fungus, tariffs and high fuel costs are hurting farmers.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2025/10/0-11-600x450.jpg?crop=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Buro Happold and Motif bridge the BIM collaboration divide",
+              "url": "https://aecmag.com/bim/buro-happold-and-motif-bridge-the-bim-collaboration-divide/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Buro Happold and Motif are working on connecting AI-driven design with deterministic computation to improve collaboration between architects and engineers, relevant to BIM practice.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "University partnership to address engineering skills gap",
+              "url": "https://aecmag.com/civil-engineering/university-partnership-to-address-engineering-skills-gap/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "AtkinsRéalis and the University of Birmingham will focus on digital technologies, AI and skills development to address the engineering skills gap.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Casa Lucerna / Belen Ilarri Studio",
+              "url": "https://www.archdaily.com/1189308/casa-lucerna-belen-ilarri-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Belen Ilarri Studio's Casa Lucerna recovers the original height of a 1970s house hidden beneath a suspended ceiling, transforming how the space is perceived.",
+              "image": "https://images.adsttc.com/media/images/6b08/521f/3a81/a801/8917/c95b/newsletter/casa-lucerna-belen-ilarri-studio_4.jpg?1795707480",
+              "video": null
+            },
+            {
+              "title": "The Carmine House / NPS Arquitectos",
+              "url": "https://www.archdaily.com/1036373/the-carmine-house-nps-arquitectos",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "NPS Arquitectos' Carmine House overcomes a 12-metre height difference between adjacent streets by uniting fragmented platforms.",
+              "image": "https://images.adsttc.com/media/images/6925/9bc5/bacd/cd00/0116/0f73/newsletter/11_CASACARMIM_NPS.jpg?1764072456",
+              "video": null
+            },
+            {
+              "title": "Peacock Forest Retreat / line+ studio",
+              "url": "https://www.archdaily.com/1189277/peacock-forest-retreat-line-plus-studio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Peacock Forest Retreat by line+ studio integrates a mountain resort with meditation and Buddhist rituals in a forested valley in northeastern China.",
+              "image": "https://images.adsttc.com/media/images/6b08/0418/6c38/4800/0147/42b4/newsletter/02-________.jpg?1795687486",
+              "video": null
+            },
+            {
+              "title": "Modular Bahia / UNA Barbara e Valentim",
+              "url": "https://www.archdaily.com/1035950/modular-bahia-una-barbara-e-valentim",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Modular Bahia by UNA barbara e valentim combines industrialized solutions with bioclimatic strategies for a tropical retreat on Brazil's southern Bahia coast.",
+              "image": "https://images.adsttc.com/media/images/6913/c1fd/11d9/5601/88ba/eb60/newsletter/modular-bahia-una-barbara-e-valentim_4.jpg?1762902541",
+              "video": null
+            },
+            {
+              "title": "High Andean Refuge in Quichuay / Pircanato / Pircanato",
+              "url": "https://www.archdaily.com/1189328/high-andean-refuge-in-quichuay-pircanato-pircanato",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "A High Andean Refuge in Peru uses an experimental construction system that mixes contemporary materials with traditional highland techniques.",
+              "image": "https://images.adsttc.com/media/images/6b08/4961/6c38/4800/0147/442d/newsletter/IMG02.jpg?1795705297",
+              "video": null
+            },
+            {
+              "title": "Title Roll Building / Cho and Partners",
+              "url": "https://www.archdaily.com/1189224/title-roll-building-cho-and-partners",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Title Roll Building by Cho and Partners is a commercial building on a back street in Seoul's Sinsa-dong.",
+              "image": "https://images.adsttc.com/media/images/6b06/d4c4/2bc2/8501/8901/3110/newsletter/title-roll-building-cho-and-partners_2.jpg?1795609852",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "Shivelyuch Socked In",
+              "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "A NASA image shows the Shiveluch volcano on the Kamchatka Peninsula, with its restless summit caldera visible above a cloud layer.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/shivelyuch-socked-in/shivelyuchcloud_oli2_20261108.jpg?w=1440&h=960&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Eye of the Sahara",
+              "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA shares an International Space Station photo of the Richat Structure, the 'Eye of the Sahara', an eroded geological dome in Mauritania about 100 million years old.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Extinct, long-legged grasshoppers walked on water alongside dinosaurs",
+              "url": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Fossil evidence in 99-million-year-old amber suggests extinct long-legged grasshoppers could sit atop water and paddle across it, alongside dinosaurs.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112426_JB_grasshoppers_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "Australia’s legless geckos evolved like snakes did",
+              "url": "https://www.sciencenews.org/article/legless-geckos-evolved-like-snakes",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports Australia's legless pygopod geckos evolved a path more like snakes than other legless lizards.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/111726_JB_pygopods_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "APOD: 2026 November 27 – The Moon Watchers",
+              "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA's Astronomy Picture of the Day for November 27 shows the Moon Watchers.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Plenilunio1_2048r.jpg?w=2022&h=2048&fit=clip",
+              "video": null
+            },
+            {
+              "title": "Relearning how to live with wolves in Europe",
+              "url": "https://news.mongabay.com/short-article/2026/11/relearning-how-to-live-with-wolves-in-europe/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay looks at how Europe is relearning to live with gray wolves, whose populations have rebounded in some countries under strict protections.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/26105023/1920px-Eurasian_wolf_2-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "US bill to speed up clean energy projects could also fast-track fossil fuels",
+              "url": "https://news.mongabay.com/short-article/2026/11/us-bill-to-speed-up-clean-energy-projects-could-also-fast-track-fossil-fuels/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "The US Senate passed a 62-33 bill to speed permitting for energy infrastructure, which could also fast-track fossil fuel projects, according to Mongabay.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/26175019/samoa-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "NASA Eyes Crop Candidates for Future Menus",
+              "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA researchers are studying crops that could give astronauts fresh food on future Moon and Mars missions.",
+              "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/bps/space-crops/SpaceCrops_thanksgiving.jpg?w=1366&h=618&fit=clip",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Prime Food Processing LLC Issues Safety Warning Regarding Uneviscerated “Dried Herring Fish”",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish-0",
+      "published": "2026-11-23T23:57:00+00:00"
+    },
+    {
+      "title": "Golden State Medical Supply, Inc. Issues a Voluntary Nationwide Recall of Ibuprofen 800mg Tablets. Due to Potential Aluminum Particulate Contamination Localize…",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/golden-state-medical-supply-inc-issues-voluntary-nationwide-recall-ibuprofen-800mg-tablets-due",
+      "published": "2026-11-23T18:29:00+00:00"
+    },
+    {
+      "title": "Par Health Issues Voluntary Nationwide Recall of Certain Lots of Six Injectable Drug Products Due to the Presence of Particulate Matter",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/par-health-issues-voluntary-nationwide-recall-certain-lots-six-injectable-drug-products-due-presence",
+      "published": "2026-11-23T15:05:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "To be without some of the things you want is an indispensable part of happiness.",
+    "who": "Bertrand Russell",
+    "about": "British philosopher and mathematician",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 116–104 vs PHX",
+      "last_date": "Nov 25",
+      "next": "Sat Nov 28 vs PHI",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909323/suns-rockets",
+      "recent": [
+        "W 116–104 vs PHX · Nov 25",
+        "W 116–104 vs LAC · Nov 23",
+        "L 124–133 at DEN · Nov 20"
+      ],
+      "upcoming": [
+        "Sat Nov 28 vs PHI",
+        "Mon Nov 30 vs LAL",
+        "Tue Dec 1 vs TOR"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Fri Mar 26 at LAD",
+        "Sat Mar 27 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 35–10 vs MIN",
+      "last_date": "Nov 22",
+      "next": "Sun Nov 29 vs SEA",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+      "recent": [
+        "W 35–10 vs MIN · Nov 22",
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8"
+      ],
+      "upcoming": [
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG",
+        "Sun Dec 13 vs LAR"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 61702,
+    "output_tokens": 10359
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "How Anti-Oligarchy & Affordability Beat The Centrist Playbook In 2026",
+          "url": "https://www.youtube.com/watch?v=Ra6Qvg9mjYU",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Astead Herndon joins to discuss the 2026 midterms and the Democratic leadership debate, framed around anti-oligarchy and affordability messaging.",
+          "image": "https://i3.ytimg.com/vi/Ra6Qvg9mjYU/hqdefault.jpg",
+          "video": "Ra6Qvg9mjYU"
+        },
+        {
+          "title": "Darializa Avila Chevalier's Plan To Take On ICE",
+          "url": "https://www.youtube.com/watch?v=pnxhoyRNqCY",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "DSA-backed candidate Darializa Avila Chevalier discusses her campaign for New York's 13th congressional district and her plan on ICE. Streamed June 11, 2026.",
+          "image": "https://i1.ytimg.com/vi/pnxhoyRNqCY/hqdefault.jpg",
+          "video": "pnxhoyRNqCY"
+        },
+        {
+          "title": "Trump Embarrasses America Again...",
+          "url": "https://www.youtube.com/watch?v=g9OQJ6vCYaY",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Majority Report discussion of a Trump-related news item; the description is mostly show boilerplate, so the specific topic is unclear from the listing.",
+          "image": "https://i4.ytimg.com/vi/g9OQJ6vCYaY/hqdefault.jpg",
+          "video": "g9OQJ6vCYaY"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Statement Win in Mexico City: Vikings Recap, Ji’Ayir Brown & Seahawks Preview | The Saloon",
+          "url": "https://www.youtube.com/watch?v=Nz1FoY4D6is",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "The 49ers, now 9-1, discuss their 35-10 win over the Vikings in Mexico City, hear from Ji'Ayir Brown, and preview the Seahawks game.",
+          "image": "https://i3.ytimg.com/vi/Nz1FoY4D6is/hqdefault.jpg",
+          "video": "Nz1FoY4D6is"
+        },
+        {
+          "title": "NFC West Showdown, Bryce Young Seeks a Bounce Back & Life After Aaron",
+          "url": "https://www.youtube.com/watch?v=poEgcqoiODg",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "The Athletic Football Show previews the NFC West showdown and discusses Bryce Young's bounce-back chances and Aaron Rodgers' situation.",
+          "image": "https://i1.ytimg.com/vi/poEgcqoiODg/hqdefault.jpg",
+          "video": "poEgcqoiODg"
+        },
+        {
+          "title": "More Than a Game: The Stories Behind My Cause My Cleats | You’ve Got Mail",
+          "url": "https://www.youtube.com/watch?v=vl0RXouDt2Q",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers coach Brant Boyer and players share the stories behind their My Cause My Cleats designs and the causes that shaped them.",
+          "image": "https://i3.ytimg.com/vi/vl0RXouDt2Q/hqdefault.jpg",
+          "video": "vl0RXouDt2Q"
+        },
+        {
+          "title": "Charles Oliveira vs Justin Gaethje | FULL FIGHT",
+          "url": "https://www.youtube.com/watch?v=ilnPocG0oq0",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "Full replay of the UFC 274 bout between Charles Oliveira and Justin Gaethje, held May 7, 2022.",
+          "image": "https://i2.ytimg.com/vi/ilnPocG0oq0/hqdefault.jpg",
+          "video": "ilnPocG0oq0"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Why The Northeast Corridor Is Actually One Giant City",
+          "url": "https://www.youtube.com/watch?v=XRpoPAgFU40",
+          "source": "Geography By Geoff",
+          "topic": "Tech & Science",
+          "note": "Geography By Geoff explores why the Northeast Corridor functions as one giant city, drawing on geography and urban patterns.",
+          "image": "https://i1.ytimg.com/vi/XRpoPAgFU40/hqdefault.jpg",
+          "video": "XRpoPAgFU40"
+        },
+        {
+          "title": "GIVING THANKS That These Products Were Made! | How it's Made | Science Channel",
+          "url": "https://www.youtube.com/watch?v=ySDpjzXY7_I",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "How It's Made Science Channel compilation showing how everyday products such as seatbelts, sandwich cookies, bacon and coffee machines are made.",
+          "image": "https://i2.ytimg.com/vi/ySDpjzXY7_I/hqdefault.jpg",
+          "video": "ySDpjzXY7_I"
+        }
+      ]
+    }
+  ]
+}
