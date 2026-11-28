@@ -1,0 +1,1027 @@
+{
+  "masthead": "CMRLM",
+  "tagline": "The Daily Brief",
+  "edition": "Atlanta Edition",
+  "date_label": "Saturday, November 28, 2026",
+  "generated_at": "2026-11-28T05:00:22-05:00",
+  "model": "claude-sonnet-5-5",
+  "models": {
+    "front": "claude-sonnet-5-5",
+    "desk": "claude-haiku-5-5",
+    "videos": "claude-haiku-5-5"
+  },
+  "listen": "Good morning. This is The Daily Brief for Saturday, November 28. Here is what matters today. Our lead story comes from Drop Site News. Michael Dodd and his family own a defense consulting company. Since Dodd joined the War Department as assistant secretary for critical technologies, clients of that company have won up to three and a half billion dollars in military contracts. The report raises questions about how officials' family business interests overlap with the agencies they serve. Now the front page. The San Francisco 49ers have ruled quarterback Brock Purdy out with an ankle injury. Coach Kyle Shanahan says Mac Jones will start against the Seahawks on Sunday. It will be Jones's first start since last season. In architecture technology, a company called Nomic is extending AI agents into CAD drafting and BIM. Its tools generate native CAD files and automate drawing revisions. They work directly inside Revit and AutoCAD. In Atlanta, a new robotaxi is on the road. Zoox, which is owned by Amazon, is operating in the northwest part of the city, near Atlantic Station, Woodward and Home Park. Rides are limited for now. In science, astronomers caught a nearby supernova in early November. They soon realized it was something special, and they are now scrambling to study it. Now the sections. In tech, Simon Willison had Claude Opus 5.5 build experimental plugins to test a new hook in datasette-charts. A trending Claude Code skill bundle aims at bug hunting. And Google says a new method reaches comparable model quality up to three times faster. In politics, The Lever says a bipartisan bill could fast-track pipelines, data centers and fossil fuel projects. NPR reports that advocates are looking to the Supreme Court over changes to asylum rules. In world news, three years of war in Sudan have left millions of children displaced and hungry. Eight people died in a Peruvian military helicopter crash. And French actor Gérard Depardieu has been ordered to stand trial for rape and sexual assault. In sports, the Rockets, now fourteen and five, host the 76ers, who are sixteen and four. In UFC news, coach Eugene Bareman says Carlos Ulberg and Navajo Stirling will not fight each other for the title. In Atlanta, Urbanize lists eighteen reasons to be thankful for the changing city. Oprah Winfrey and T.D. Jakes will appear at the HOPE Global Forums in December. In architecture, a bamboo yoga shala in Costa Rica draws on the wings of a glasswing butterfly. A semicircular house in Brazil faces both the sunset and the sea. In science and nature, NASA's NG-25 mission will carry a space crop production system to the space station. Aerial photos show Florida Bay recovering as Everglades restoration sends more water. And a deep-sea fish eaten in 1984 has now been named a new species. That is the brief. Have a good day.",
+  "lead": {
+    "title": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts",
+    "url": "https://www.dropsitenews.com/p/michael-dodd-pentagon-dioltas-contracts",
+    "source": "Drop Site News",
+    "topic": "Politics",
+    "note": "Drop Site News reports that Michael Dodd and his family own a defense consulting company. Since Dodd joined the War Department as assistant secretary for critical technologies, clients of that company have won up to $3.5 billion in military contracts. The summary does not say how the contracts were awarded or what role, if any, Dodd had in them, so the reporting is best read as a question about the connection rather than a finding. The story matters because it concerns who benefits from large defense spending and how officials' family business interests overlap with the agencies they serve. For a reader who follows domestic politics through independent outlets, it is the most substantive political item today, with a specific figure and a named official.",
+    "image": "https://substackcdn.com/image/fetch/$s_!hdP3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F328b87a7-e92d-4996-8e6d-65142c3218e1_2400x1800.jpeg",
+    "video": null,
+    "headline": "Clients of Pentagon Official's Firm Won Contracts",
+    "decks": [
+      "Michael Dodd and his family own a defense consulting company",
+      "Clients have won up to $3.5 billion in military contracts",
+      "Dodd is assistant secretary for critical technologies at the War Department"
+    ]
+  },
+  "front": [
+    {
+      "title": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+      "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+      "source": "San Francisco 49ers",
+      "topic": "Sports",
+      "note": "Brock Purdy is out with an ankle injury, so Mac Jones starts for the 49ers against the Seahawks on Sunday.",
+      "image": "https://a.espncdn.com/photo/2025/0913/r1545067_600x400_3-2.jpg",
+      "video": null,
+      "follow_up": "Coach Kyle Shanahan ruled Purdy out; Mac Jones will start against the Seahawks."
+    },
+    {
+      "title": "Nomic extends AI agents into CAD drafting and BIM",
+      "url": "https://aecmag.com/cad/nomic-extends-ai-agents-into-cad-drafting-and-bim/",
+      "source": "AEC Magazine",
+      "topic": "Architecture",
+      "note": "Nomic's AI agents now generate native CAD files and automate drawing revisions, working directly inside Revit and AutoCAD.",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "video": null
+    },
+    {
+      "title": "New robotaxi rolls out in Atlanta but not all riders are welcome just yet",
+      "url": "https://roughdraftatlanta.com/2026/11/27/zoox-amazon-robotaxi-atlanta-testing/",
+      "source": "Rough Draft Atlanta",
+      "topic": "Atlanta",
+      "note": "Amazon-owned Zoox is running a new robotaxi in northwest Atlanta near Atlantic Station, Woodward and Home Park, though rides are limited for now.",
+      "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Xoox-roobotaxi-WSB-600x432.png",
+      "video": null
+    },
+    {
+      "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
+      "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+      "source": "Science News",
+      "topic": "Science & Nature",
+      "note": "Astronomers caught a nearby supernova in early November, realized it was special, and are now racing to study it.",
+      "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_MB_supernova_main.jpg?w=800",
+      "video": null
+    }
+  ],
+  "sections": [
+    {
+      "topic": "Tech & AI",
+      "items": [
+        {
+          "title": "datasette-charts 0.4a0",
+          "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+          "source": "Simon Willison",
+          "topic": "Tech & AI",
+          "note": "Simon Willison had Claude Opus 5.5 build experimental plugins to test a new datasette-charts hook, a practical look at AI-assisted tool building.",
+          "image": "https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp",
+          "video": null
+        },
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub trending (daily)",
+          "topic": "Tech & AI",
+          "note": "A trending Claude Code skill bundle for bug hunting, with 85 skills and 16 slash commands, relevant to anyone building on Claude.",
+          "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+          "video": null
+        },
+        {
+          "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+          "source": "Hacker News front page",
+          "topic": "Tech & AI",
+          "note": "Google reports DeepCrossAttention reaches comparable model quality up to three times faster, a research result that drew heavy discussion on Hacker News.",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Politics",
+      "items": [
+        {
+          "title": "Democrats’ Lame-Duck Gift To Big Tech And Big Oil",
+          "url": "https://www.levernews.com/democrats-lame-duck-gift-to-big-tech-and-big-oil/",
+          "source": "The Lever",
+          "topic": "Politics",
+          "note": "The Lever says a bipartisan bill could fast-track pipelines, data centers and fossil fuel projects with Democratic support.",
+          "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress.png",
+          "video": null
+        },
+        {
+          "title": "With Abbott out, what does the future look like for data centers in Texas?",
+          "url": "https://www.npr.org/2026/11/27/nx-s1-6048749/with-abbott-out-what-does-the-future-look-like-for-data-centers-in-texas",
+          "source": "NPR Politics",
+          "topic": "Politics",
+          "note": "Texas has welcomed data centers, and NPR asks whether that changes under a new governor.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "World",
+      "items": [
+        {
+          "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+          "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "Advocates are turning to the Supreme Court, which will soon consider whether changes to asylum rules deny people due process.",
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5079x3386+0+0/resize/5079x3386!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F22%2F2e%2Fbd2ef7014b16a3b474a9ef7aad59%2Fgettyimages-2301934612.jpg",
+          "video": null
+        },
+        {
+          "title": "Sudan's lost generation: War is stealing the childhood of millions",
+          "url": "https://www.npr.org/2026/11/27/nx-s1-6053049/sudans-lost-generation-war-is-stealing-a-generation-of-childhood",
+          "source": "NPR News",
+          "topic": "World",
+          "note": "After three years of war in Sudan, millions of children are displaced, hungry and out of school.",
+          "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+          "video": null
+        },
+        {
+          "title": "Eight killed in Peruvian military helicopter crash",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "topic": "World",
+          "note": "Eight people died in a Peruvian military helicopter crash during a rescue mission; the pilot was the sole survivor.",
+          "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/faea/live/b54be270-eadc-11f1-81da-2ff518b71d00.jpg",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Sports",
+      "items": [
+        {
+          "title": "Philadelphia takes road win streak into matchup with Houston",
+          "url": "http://www.espn.com/nba/preview?gameId=401910050",
+          "source": "Houston Rockets",
+          "topic": "Sports",
+          "note": "The Rockets, 14-5, host the 76ers, who are 16-4 and first in the Eastern Conference.",
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910050.png?templateId=espn.applewatch.awayhome.1",
+          "video": null
+        },
+        {
+          "title": "Mac Jones to make first 49ers start since last season",
+          "url": "https://www.espn.com/video/clip/_/id/50617052/mac-jones-make-first-49ers-start-last-season",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "Mac Jones makes his first 49ers start since last season with Purdy sidelined.",
+          "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_IA_49ers_16x9_new/dm_261127_IA_49ers_16x9_new.jpg",
+          "video": null
+        },
+        {
+          "title": "Kiwis Carlos Ulberg, Navajo Stirling won't fight each other for UFC title",
+          "url": "https://www.espn.com/mma/story/_/id/50600403/carlos-ulberg-navajo-stirling-ufc-title",
+          "source": "UFC (ESPN)",
+          "topic": "Sports",
+          "note": "Coach Eugene Bareman says light heavyweights Carlos Ulberg and Navajo Stirling will not fight each other for the UFC title.",
+          "image": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Atlanta",
+      "items": [
+        {
+          "title": "18 reasons to be thankful for ever-changing Atlanta",
+          "url": "https://atlanta.urbanize.city/post/thanksgiving-18-reasons-be-thankful-atl-ever-changing-city",
+          "source": "Urbanize Atlanta",
+          "topic": "Atlanta",
+          "note": "Urbanize Atlanta lists 18 reasons to be thankful for the city's constant change, a useful read on local development.",
+          "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-07/World%20Cup%20downtown%20Centennial%20Yards%20Mercedes-Benz%20Stadium.jpg?itok=0nu9c8b_",
+          "video": null
+        },
+        {
+          "title": "Oprah, T.D. Jakes to appear at HOPE Global Forums",
+          "url": "https://saportareport.com/oprah-t-d-jakes-to-appear-at-hope-global-forums/columnists/adrianne-murchison/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "Oprah Winfrey and T.D. Jakes will appear at the two-day HOPE Global Forums in December.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2016/01/Op-HOPE-Chelsea-3-e1453146371511.jpg?fit=900%2C675&ssl=1",
+          "video": null
+        },
+        {
+          "title": "Atlanta History Center’s new exhibit immerses audiences in the Cherokee and Muscogee Trail of Tears",
+          "url": "https://saportareport.com/atlanta-history-centers-new-exhibit-immerses-audiences-in-the-cherokee-and-muscogee-trail-of-tears/columnists/delaney-tarr/delaneytarr/",
+          "source": "SaportaReport",
+          "topic": "Atlanta",
+          "note": "The Atlanta History Center's new exhibit on the Cherokee and Muscogee Trails of Tears has no artifacts, a change for the center.",
+          "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Exile-FF-5.png?fit=1024%2C682&ssl=1",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Architecture",
+      "items": [
+        {
+          "title": "Espira Yoga Shala / Arquitectura Mixta",
+          "url": "https://www.archdaily.com/1189371/espira-yoga-shala-arquitectura-mixta",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A sculptural bamboo yoga shala in Costa Rica, inspired by glasswing butterfly wings, explores lightness and suspended movement.",
+          "image": "https://images.adsttc.com/media/images/6b09/c55f/3a16/4b00/0109/3348/newsletter/ArquitecturaMixtaEspira1PPY.jpg?1795802529",
+          "video": null
+        },
+        {
+          "title": "Fig Tree House / Estúdio Lava",
+          "url": "https://www.archdaily.com/1035916/fig-tree-house-estudio-lava",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "A semicircular house in Brazil on a sloped site in dense Atlantic Forest faces both sunset and open sea.",
+          "image": "https://images.adsttc.com/media/images/690d/d867/436b/c600/01fd/bf59/newsletter/0411.EstudioLava.CasaFigueira-PKOK0055.jpg?1762515066",
+          "video": null
+        },
+        {
+          "title": "Engineered Waterways: What Architecture Can Learn from Urban Canals",
+          "url": "https://www.archdaily.com/1189031/engineered-waterways-what-architecture-can-learn-from-urban-canals",
+          "source": "ArchDaily",
+          "topic": "Architecture",
+          "note": "ArchDaily looks at what architecture can learn from urban canals, which are engineered, linear landscapes.",
+          "image": "https://images.adsttc.com/media/images/6b04/18b1/2bc2/8501/8901/2721/newsletter/engineered-waterways-six-architectural-lessons-from-urban-canals_36.jpg?1795430596",
+          "video": null
+        }
+      ]
+    },
+    {
+      "topic": "Science & Nature",
+      "items": [
+        {
+          "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+          "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+          "source": "NASA",
+          "topic": "Science & Nature",
+          "note": "NASA's NG-25 mission will carry a first-of-its-kind space crop production system and other research to the space station.",
+          "image": "https://images-assets.nasa.gov/image/jsc2026e415098/jsc2026e415098~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+          "video": null
+        },
+        {
+          "title": "Aerial photos show recovery of Florida Bay, US, as restoration sends Everglades water",
+          "url": "https://news.mongabay.com/custom-story/2026/11/aerial-photos-show-recovery-of-florida-bay-us-as-restoration-sends-everglades-water/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "Aerial photos show Florida Bay recovering as Everglades restoration slowly sends more fresh water, with wading birds and flamingos returning.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/27120854/20240510untitled250-Enhanced-NR-768x512.jpg",
+          "video": null
+        },
+        {
+          "title": "A tiny deep-sea fish eaten 42 years ago has now been named a new species",
+          "url": "https://news.mongabay.com/short-article/2026/11/a-tiny-deep-sea-fish-eaten-42-years-ago-has-now-been-named-a-new-species/",
+          "source": "Mongabay",
+          "topic": "Science & Nature",
+          "note": "A new deep-sea fish species was described from a specimen eaten by another fish in 1984 and held in a Tokyo museum for 42 years.",
+          "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/27123836/Web%E7%94%A8_%E3%83%9E%E3%82%B5%E3%83%A0%E3%83%8D%E3%83%A4%E3%82%BB%E3%83%A0%E3%83%84_Fig.1_cut2-768x512.jpg",
+          "video": null
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "id": "news",
+      "name": "News",
+      "sections": [
+        {
+          "topic": "Politics",
+          "items": [
+            {
+              "title": "After Pentagon Official Took Office, His Family Firm’s Clients Won Up to $3.5 Billion in Military Contracts",
+              "url": "https://www.dropsitenews.com/p/michael-dodd-pentagon-dioltas-contracts",
+              "source": "Drop Site News",
+              "topic": "Politics",
+              "note": "Drop Site News reports that a family defense consulting firm's clients won up to $3.5 billion in military contracts after a co-owner joined the Pentagon as an assistant secretary.",
+              "image": "https://substackcdn.com/image/fetch/$s_!hdP3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F328b87a7-e92d-4996-8e6d-65142c3218e1_2400x1800.jpeg",
+              "video": null
+            },
+            {
+              "title": "Democrats’ Lame-Duck Gift To Big Tech And Big Oil",
+              "url": "https://www.levernews.com/democrats-lame-duck-gift-to-big-tech-and-big-oil/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that the Bipartisan American Affordability and Jobs Act could fast-track pipelines, data centers and fossil fuel projects, with Democratic support.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Congress.png",
+              "video": null
+            },
+            {
+              "title": "Jensen Huang’s Scandal Just Hit Your Pension",
+              "url": "https://www.levernews.com/nvidias-jensen-huang-scandal-just-hit-your-pension/",
+              "source": "The Lever",
+              "topic": "Politics",
+              "note": "The Lever reports that Jensen Huang's brief exit temporarily wiped billions from public pension funds, showing dependence on Nvidia and the AI boom.",
+              "image": "https://storage.ghost.io/c/6f/ad/6fad5a21-601b-4ea2-b70d-6b3c28cd62be/content/images/2026/11/TheLeverNews-Jensen-Huang-NVIDIA-stocks.jpg",
+              "video": null
+            },
+            {
+              "title": "With Abbott out, what does the future look like for data centers in Texas?",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6048749/with-abbott-out-what-does-the-future-look-like-for-data-centers-in-texas",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR asks what the coming change in Texas governor could mean for the state's data center industry. Relevant to the reader's interest in data centers.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Court lets Puerto Rico governor fire firm that runs the island's troubled power grid",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "A Puerto Rico court let the governor fire LUMA Energy, which runs the island's power grid, and gave the government a year to find a new operator.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "NPR reports that after Democrats' midterm wins, some hope attacks on DEI programs will ease. A recap of the post-midterm political landscape.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Sen. Tim Kaine, D-Va., shares why he opposes Trump's proposed tariffs",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6053944/sen-tim-kaine-d-va-shares-why-he-opposes-trumps-proposed-tariffs",
+              "source": "NPR Politics",
+              "topic": "Politics",
+              "note": "Sen. Tim Kaine explains his opposition to President Trump's proposed tariffs in an NPR interview.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "World",
+          "items": [
+            {
+              "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports that Trump administration immigration changes have largely ended asylum, and that the Supreme Court will soon consider whether some shifts deny due process.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5079x3386+0+0/resize/5079x3386!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F22%2F2e%2Fbd2ef7014b16a3b474a9ef7aad59%2Fgettyimages-2301934612.jpg",
+              "video": null
+            },
+            {
+              "title": "Sudan's lost generation: War is stealing the childhood of millions",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6053049/sudans-lost-generation-war-is-stealing-a-generation-of-childhood",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports that three years of war in Sudan have left millions of children displaced, hungry and out of school.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that Turkish officials raided the headquarters of pro-opposition Halk TV last month, and its owner says the channel was destroyed.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3aaf/live/e29d41d0-ead0-11f1-b97f-cdd549897b30.jpg",
+              "video": null
+            },
+            {
+              "title": "Eight killed in Peruvian military helicopter crash",
+              "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that eight people were killed in a Peruvian military helicopter crash during a rescue mission in a remote area; the pilot was the sole survivor.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/faea/live/b54be270-eadc-11f1-81da-2ff518b71d00.jpg",
+              "video": null
+            },
+            {
+              "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "NPR reports that French actor Gérard Depardieu has been ordered to stand trial for rape and sexual assault.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2888x1926+0+0/resize/2888x1926!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa9%2Fea%2Ff523d8f84dfa9012828ba7f8a0e5%2Fap26330526061869.jpg",
+              "video": null
+            },
+            {
+              "title": "As UN Secretary General's last day approaches, search for his replacement continues",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6050907/as-un-secretary-generals-last-day-approaches-search-for-his-replacement-continues",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports that the UN Secretary General's term ends this year and the big powers have not agreed on a replacement.",
+              "image": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+              "video": null
+            },
+            {
+              "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+              "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+              "source": "NPR News",
+              "topic": "World",
+              "note": "A powerful storm knocked out power to nearly 1 million customers and flooded streets over Thanksgiving, while Black Friday sales were expected to set records.",
+              "image": "https://www.npr.org/2026/11/27/g-s1-156004/undefined",
+              "video": null
+            },
+            {
+              "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+              "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+              "source": "NPR World",
+              "topic": "World",
+              "note": "NPR reports that Strobe Talbott, former Time reporter and deputy secretary of state under Clinton, has died at 80.",
+              "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3888x2592+0+0/resize/3888x2592!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7e%2Fcb%2F367e983047b195799abc793a8a87%2Fap26330767680840.jpg",
+              "video": null
+            },
+            {
+              "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+              "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+              "source": "BBC World",
+              "topic": "World",
+              "note": "BBC reports that Australian wrestler Bronson Reed died at 38, and WWE has paid tribute. He is survived by his pregnant wife and their daughter.",
+              "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/297c/live/0c5c0a20-eafd-11f1-83de-2b6b9d423090.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & AI",
+      "sections": [
+        {
+          "topic": "Tech & AI",
+          "items": [
+            {
+              "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
+              "url": "https://www.anthropic.com/news/s1-sec",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic filed a registration statement with the SEC for a proposed initial public offering of its Class A common stock. Relevant to a reader who follows Claude and Anthropic closely.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "Anthropic prices initial public offering",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+              "source": "Anthropic news",
+              "topic": "Tech & AI",
+              "note": "Anthropic has priced its initial public offering, according to its news feed. The details are not in the item itself, so check the company's filing for terms.",
+              "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+              "video": null
+            },
+            {
+              "title": "datasette-charts 0.4a0",
+              "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Simon Willison's datasette-charts 0.4a0 adds a plugin hook for new chart types, built with Claude as an experiment. Useful for anyone building personal data tools with Claude.",
+              "image": "https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp",
+              "video": null
+            },
+            {
+              "title": "trustno1-coder/VIctory-NVIDIA",
+              "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+              "source": "GitHub new popular repos",
+              "topic": "Tech & AI",
+              "note": "A GitHub repo for running Xbox Series titles on NVIDIA RTX cards, with reported frame rates and DLSS settings. A popular new project in the reader's tooling interest area.",
+              "image": "https://opengraph.githubassets.com/1/trustno1-coder/VIctory-NVIDIA",
+              "video": null
+            },
+            {
+              "title": "elementalsouls/Claude-BugHunter",
+              "url": "https://github.com/elementalsouls/Claude-BugHunter",
+              "source": "GitHub trending (daily)",
+              "topic": "Tech & AI",
+              "note": "A Claude Code skill bundle for bug hunting and red-team work, with 85 skills and 16 slash commands. A trending repo that shows how Claude Code is extended.",
+              "image": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter",
+              "video": null
+            },
+            {
+              "title": "Quoting Scott Aaronson",
+              "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+              "source": "Simon Willison",
+              "topic": "Tech & AI",
+              "note": "Scott Aaronson argues that AI will open a new continent of mathematical truth, comparing it to early microscopes and telescopes. A view on where AI-driven research may lead.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+              "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+              "source": "Hacker News front page",
+              "topic": "Tech & AI",
+              "note": "Google reports DeepCrossAttention reaches comparable model quality up to 3x faster. A concrete efficiency result for transformer architectures.",
+              "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sections": [
+        {
+          "topic": "Sports",
+          "items": [
+            {
+              "title": "49ers rule QB Brock Purdy (ankle) out; Mac Jones to start vs. Seahawks",
+              "url": "https://www.espn.com/nfl/story/_/id/50615653/49ers-rule-qb-purdy-ankle-start-jones-vs-seahawks",
+              "source": "San Francisco 49ers",
+              "topic": "Sports",
+              "note": "San Francisco 49ers QB Brock Purdy is out with an ankle injury, and Mac Jones will start against the Seahawks, according to coach Kyle Shanahan.",
+              "image": "https://a.espncdn.com/photo/2025/0913/r1545067_600x400_3-2.jpg",
+              "video": null
+            },
+            {
+              "title": "Kevin Durant reaches 33,000 points as Rockets beat Suns",
+              "url": "http://www.espn.com/nba/recap?gameId=401909323",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "Kevin Durant scored 20 points and became the fifth player in NBA history to reach 33,000 points, as the Houston Rockets beat the Suns 116-104.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909323.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "Sources: Tigers, Ha-Seong Kim agree to 1-year, $5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50584756/sources-tigers-ha-seong-kim-agree-1-year-5m-contract",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Infielder Ha-Seong Kim and the Tigers agreed to a one-year, $5 million contract, per ESPN sources. Relevant to Braves offseason followers.",
+              "image": "https://a.espncdn.com/photo/2025/1216/r1590098_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "49ers Activate CB Nate Hobbs, Place OL Colton McKivitz on the Injured Reserve List",
+              "url": "https://www.49ers.com/news/49ers-activate-cb-nate-hobbs-place-ol-colton-mckivitz-on-the-injured-reserve-list",
+              "source": "49ers.com",
+              "topic": "Sports",
+              "note": "The 49ers activated CB Nate Hobbs from injured reserve, signed WR Brandin Cooks to the practice squad, and placed OL Colton McKivitz on injured reserve.",
+              "image": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/49ers/cziqdoyjolwo2bbmazub.png",
+              "video": null
+            },
+            {
+              "title": "Kiwis Carlos Ulberg, Navajo Stirling won't fight each other for UFC title",
+              "url": "https://www.espn.com/mma/story/_/id/50600403/carlos-ulberg-navajo-stirling-ufc-title",
+              "source": "UFC (ESPN)",
+              "topic": "Sports",
+              "note": "UFC coach Eugene Bareman confirmed that light heavyweights Carlos Ulberg and Navajo Stirling will not fight each other for the UFC title.",
+              "image": null,
+              "video": null
+            },
+            {
+              "title": "Philadelphia takes road win streak into matchup with Houston",
+              "url": "http://www.espn.com/nba/preview?gameId=401910050",
+              "source": "Houston Rockets",
+              "topic": "Sports",
+              "note": "The Philadelphia 76ers, 16-4, visit the Houston Rockets, 14-5, in a matchup of two strong teams on a road win streak.",
+              "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910050.png?templateId=espn.applewatch.awayhome.1",
+              "video": null
+            },
+            {
+              "title": "2026-27 MLB free agency, trade grades: Offseason analysis",
+              "url": "https://www.espn.com/mlb/story/_/id/50473334/2026-27-offseason-free-agency-trade-grades",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "Braves-focused MLB coverage grades 2026-27 winter signings and big offseason trades. Useful for tracking the Braves' offseason.",
+              "image": "https://a.espncdn.com/photo/2026/1102/r1739952_1296x729_16-9.jpg",
+              "video": null
+            },
+            {
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
+              "source": "Atlanta Braves",
+              "topic": "Sports",
+              "note": "A running tracker of 2026-27 MLB offseason signings and trades, including Braves-related moves, for an ongoing hot stove overview.",
+              "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "sections": [
+        {
+          "topic": "Atlanta",
+          "items": [
+            {
+              "title": "New robotaxi rolls out in Atlanta but not all riders are welcome just yet",
+              "url": "https://roughdraftatlanta.com/2026/11/27/zoox-amazon-robotaxi-atlanta-testing/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Zoox, an Amazon-owned company, has launched a robotaxi in northwest Atlanta near Atlantic Station, Woodward and Home Park, initially for a limited group of riders.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Xoox-roobotaxi-WSB-600x432.png",
+              "video": null
+            },
+            {
+              "title": "Historic final draft of King’s ‘I Have a Dream’ speech returns to Atlanta for rare display",
+              "url": "https://saportareport.com/historic-final-draft-of-kings-i-have-a-dream-speech-returns-to-atlanta-for-rare-display/columnists/gabriella-hart/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Seven handwritten pages of Martin Luther King Jr.'s final 'I Have a Dream' draft returned to Atlanta for a rare display, Nov. 16-22.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/image-7.png?fit=1024%2C676&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Oprah, T.D. Jakes to appear at HOPE Global Forums",
+              "url": "https://saportareport.com/oprah-t-d-jakes-to-appear-at-hope-global-forums/columnists/adrianne-murchison/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "Oprah Winfrey and T.D. Jakes will appear at the 2026 HOPE Global Forums in December, presented by Operation HOPE, focused on business and economic empowerment.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2016/01/Op-HOPE-Chelsea-3-e1453146371511.jpg?fit=900%2C675&ssl=1",
+              "video": null
+            },
+            {
+              "title": "Atlanta History Center’s new exhibit immerses audiences in the Cherokee and Muscogee Trail of Tears",
+              "url": "https://saportareport.com/atlanta-history-centers-new-exhibit-immerses-audiences-in-the-cherokee-and-muscogee-trail-of-tears/columnists/delaney-tarr/delaneytarr/",
+              "source": "SaportaReport",
+              "topic": "Atlanta",
+              "note": "The Atlanta History Center opened 'Exile from Georgia,' an exhibit on the Cherokee and Muscogee Trail of Tears, built without artifacts.",
+              "image": "https://i0.wp.com/saportareport.com/wp-content/uploads/2026/11/Exile-FF-5.png?fit=1024%2C682&ssl=1",
+              "video": null
+            },
+            {
+              "title": "18 reasons to be thankful for ever-changing Atlanta",
+              "url": "https://atlanta.urbanize.city/post/thanksgiving-18-reasons-be-thankful-atl-ever-changing-city",
+              "source": "Urbanize Atlanta",
+              "topic": "Atlanta",
+              "note": "Urbanize Atlanta lists 18 reasons to be thankful for the city's ongoing change, from a development-focused perspective.",
+              "image": "https://atlanta.urbanize.city/sites/default/files/styles/950wb/public/2026-07/World%20Cup%20downtown%20Centennial%20Yards%20Mercedes-Benz%20Stadium.jpg?itok=0nu9c8b_",
+              "video": null
+            },
+            {
+              "title": "Looking for a Christmas tree? Here’s what’s grown in Georgia, including some sustainable options.",
+              "url": "https://roughdraftatlanta.com/2026/11/27/georgia-christmas-tree-farms-sustainable-options/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Rough Draft Atlanta explains what Christmas trees grow in Georgia and how to choose one with the environment in mind.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/christmas-tree-farm-covington-georgia-2026-600x488.webp",
+              "video": null
+            },
+            {
+              "title": "Blue Heron Nature Preserve will offer eco-centered pre-K for ages 3-5",
+              "url": "https://roughdraftatlanta.com/2026/11/27/buckhead-nature-preserve-new-program/",
+              "source": "Rough Draft Atlanta",
+              "topic": "Atlanta",
+              "note": "Blue Heron Nature Preserve in Buckhead launches a Forest School-inspired pre-K program for ages 3 to 5 beginning Jan. 5.",
+              "image": "https://roughdraftatlanta.com/wp-content/uploads/2026/11/Blue-Heron-Forest-School-600x450.jpg?crop=1",
+              "video": null
+            }
+          ]
+        },
+        {
+          "topic": "Architecture",
+          "items": [
+            {
+              "title": "Nomic extends AI agents into CAD drafting and BIM",
+              "url": "https://aecmag.com/cad/nomic-extends-ai-agents-into-cad-drafting-and-bim/",
+              "source": "AEC Magazine",
+              "topic": "Architecture",
+              "note": "Nomic's AI agents now generate native CAD files and work inside Revit and AutoCAD. Also listed under Architecture for its BIM relevance.",
+              "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+              "video": null
+            },
+            {
+              "title": "Engineered Waterways: What Architecture Can Learn from Urban Canals",
+              "url": "https://www.archdaily.com/1189031/engineered-waterways-what-architecture-can-learn-from-urban-canals",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "ArchDaily essay on what architecture can learn from urban canals as narrow, engineered landscapes that cut through the city fabric.",
+              "image": "https://images.adsttc.com/media/images/6b04/18b1/2bc2/8501/8901/2721/newsletter/engineered-waterways-six-architectural-lessons-from-urban-canals_36.jpg?1795430596",
+              "video": null
+            },
+            {
+              "title": "Fig Tree House / Estúdio Lava",
+              "url": "https://www.archdaily.com/1035916/fig-tree-house-estudio-lava",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Fig Tree House by Estúdio Lava is a residence on a sloped site in Atlantic Forest, shaped to face both sunset and the open sea.",
+              "image": "https://images.adsttc.com/media/images/690d/d867/436b/c600/01fd/bf59/newsletter/0411.EstudioLava.CasaFigueira-PKOK0055.jpg?1762515066",
+              "video": null
+            },
+            {
+              "title": "Verrière House / Projectoire",
+              "url": "https://www.archdaily.com/1189089/verriere-house-projectoire",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Verrière House by Projectoire extends an old barn converted into a family home in Quebec's Eastern Townships near the Vermont border.",
+              "image": "https://images.adsttc.com/media/images/6b04/89bc/94d7/ea00/019d/0351/newsletter/Projectoire_Shcoolcraft_160620226_0256.jpg?1795459540",
+              "video": null
+            },
+            {
+              "title": "Intermodal Hub of Lousada / spaceworkers",
+              "url": "https://www.archdaily.com/1035818/intermodal-hub-of-lousada-spaceworkers",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Spaceworkers' planned intermodal hub in Lousada, Portugal, will integrate with new residential clusters, cultural spaces and an expanded road network.",
+              "image": "https://images.adsttc.com/media/images/690d/2aa6/b04b/1c13/755a/3b77/newsletter/intermodal-hub-of-lousada-spaceworkers_1.jpg?1762470589",
+              "video": null
+            },
+            {
+              "title": "Argentine Media Library / CONTINUO ARCHITECTURE",
+              "url": "https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "CONTINUO Architecture's Argentine Media Library in Beauvais, France, is a new cultural landmark within an urban regeneration program.",
+              "image": "https://images.adsttc.com/media/images/6b04/3611/94d7/ea00/019d/0140/newsletter/DSCF11000_11.jpg?1795438112",
+              "video": null
+            },
+            {
+              "title": "Espira Yoga Shala / Arquitectura Mixta",
+              "url": "https://www.archdaily.com/1189371/espira-yoga-shala-arquitectura-mixta",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "Espira Yoga Shala by Arquitectura Mixta uses a bamboo structure inspired by the glasswing butterfly in Costa Rica.",
+              "image": "https://images.adsttc.com/media/images/6b09/c55f/3a16/4b00/0109/3348/newsletter/ArquitecturaMixtaEspira1PPY.jpg?1795802529",
+              "video": null
+            },
+            {
+              "title": "S House / BOV ESTUDIO / BOV ESTUDIO",
+              "url": "https://www.archdaily.com/1189382/s-house-bov-estudio-bov-estudio",
+              "source": "ArchDaily",
+              "topic": "Architecture",
+              "note": "BOV Estudio's S House in Ayllón reunites a divided 1910 family home and rethinks its facade around a new courtyard.",
+              "image": "https://images.adsttc.com/media/images/6b09/c3d9/3a16/4b00/0109/3322/newsletter/BOV_Estudio_-_Casa_S___Javier_Bravo_245.jpg?1795802091",
+              "video": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sections": [
+        {
+          "topic": "Science & Nature",
+          "items": [
+            {
+              "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
+              "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Astronomers caught a nearby supernova in early November and are rushing to study it, which may reveal secrets of the stellar explosion.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/112326_MB_supernova_main.jpg?w=800",
+              "video": null
+            },
+            {
+              "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+              "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA experiments, including a space crop production system, will fly to the International Space Station on Northrop Grumman's NG-25 resupply mission.",
+              "image": "https://images-assets.nasa.gov/image/jsc2026e415098/jsc2026e415098~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+              "video": null
+            },
+            {
+              "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+              "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+              "source": "NASA",
+              "topic": "Science & Nature",
+              "note": "NASA astronaut Andre Douglas, Artemis III mission specialist, visited the Vehicle Assembly Building and the RS-25 engines that will power SLS.",
+              "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20261117-ph-kls02-0020orig.jpg?w=2048",
+              "video": null
+            },
+            {
+              "title": "Aerial photos show recovery of Florida Bay, US, as restoration sends Everglades water",
+              "url": "https://news.mongabay.com/custom-story/2026/11/aerial-photos-show-recovery-of-florida-bay-us-as-restoration-sends-everglades-water/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Helicopter surveys show Florida Bay recovering as Everglades restoration sends more freshwater, with returning wading birds and flamingos.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/27120854/20240510untitled250-Enhanced-NR-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "A tiny deep-sea fish eaten 42 years ago has now been named a new species",
+              "url": "https://news.mongabay.com/short-article/2026/11/a-tiny-deep-sea-fish-eaten-42-years-ago-has-now-been-named-a-new-species/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "A tiny deep-sea fish eaten in 1984 has been named a new species after 42 years in a Tokyo museum collection.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/27123836/Web%E7%94%A8_%E3%83%9E%E3%82%B5%E3%83%A0%E3%83%8D%E3%83%A4%E3%82%BB%E3%83%A0%E3%83%84_Fig.1_cut2-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Will my glacier go extinct? Interview with Lander Van Tricht",
+              "url": "https://news.mongabay.com/2026/11/will-my-glacier-go-extinct-interview-with-lander-van-tricht/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay interview with glacier researcher Lander Van Tricht about a tool projecting that some glaciers could disappear within decades.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/25220523/Trail_to_Morteratsch_Glacier_in_2012_July-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "International Jaguar Day: Big cats hold on at the edges of their range",
+              "url": "https://news.mongabay.com/short-article/2026/11/international-jaguar-day-big-cats-hold-on-at-the-edges-of-their-range/",
+              "source": "Mongabay",
+              "topic": "Science & Nature",
+              "note": "Mongabay marks International Jaguar Day on Nov. 29, covering jaguars holding on at the edges of their former range in the Americas.",
+              "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/05/14112946/female-jaguar-was-seized-from-a-businessman-768x512.jpg",
+              "video": null
+            },
+            {
+              "title": "Australia’s legless geckos evolved like snakes did",
+              "url": "https://www.sciencenews.org/article/legless-geckos-evolved-like-snakes",
+              "source": "Science News",
+              "topic": "Science & Nature",
+              "note": "Science News reports Australia's pygopod legless geckos evolved limbless bodies along a path more like snakes than other legless lizards.",
+              "image": "https://media.sciencenews.org/wp-content/uploads/sites/2/2026/11/111726_JB_pygopods_main.jpg?w=800",
+              "video": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recalls": [
+    {
+      "title": "Abdallah Candies Issues a Voluntary Recall of Plain Chocolate Fudge Due to undeclared allergen",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/abdallah-candies-issues-voluntary-recall-plain-chocolate-fudge-due-undeclared-allergen",
+      "published": "2026-11-27T18:45:00+00:00"
+    },
+    {
+      "title": "OCPP, LLC. voluntarily removes OC Raw Freeze Dried Chicken Hearts from the market because of potential health risk.",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ocpp-llc-voluntarily-removes-oc-raw-freeze-dried-chicken-hearts-market-because-potential-health-risk",
+      "published": "2026-11-26T01:49:00+00:00"
+    },
+    {
+      "title": "Advanced Nutritional Supplements LLC Issues Nationwide Recall of PRE-FORMANCE BLACK Due to Undeclared DMAA",
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/advanced-nutritional-supplements-llc-issues-nationwide-recall-pre-formance-black-due-undeclared-dmaa",
+      "published": "2026-11-25T05:00:00+00:00"
+    }
+  ],
+  "quote": {
+    "text": "I stand here before you not as a prophet but as a humble servant of you, the people.",
+    "who": "Nelson Mandela",
+    "about": "South African leader, prisoner for 27 years",
+    "title": "Words to Live By"
+  },
+  "scores": [
+    {
+      "team": "Houston Rockets",
+      "last": "W 116–104 vs PHX",
+      "last_date": "Nov 25",
+      "next": "Sat Nov 28 vs PHI",
+      "url": "https://www.espn.com/nba/game/_/gameId/401909323/suns-rockets",
+      "recent": [
+        "W 116–104 vs PHX · Nov 25",
+        "W 116–104 vs LAC · Nov 23",
+        "L 124–133 at DEN · Nov 20"
+      ],
+      "upcoming": [
+        "Sat Nov 28 vs PHI",
+        "Mon Nov 30 vs LAL",
+        "Tue Dec 1 vs TOR"
+      ]
+    },
+    {
+      "team": "Atlanta Braves",
+      "last": null,
+      "last_date": null,
+      "next": "Thu Mar 25 at LAD",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401893768/braves-dodgers",
+      "recent": [],
+      "upcoming": [
+        "Thu Mar 25 at LAD",
+        "Fri Mar 26 at LAD",
+        "Sat Mar 27 at LAD"
+      ]
+    },
+    {
+      "team": "San Francisco 49ers",
+      "last": "W 35–10 vs MIN",
+      "last_date": "Nov 22",
+      "next": "Sun Nov 29 vs SEA",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873077/vikings-49ers",
+      "recent": [
+        "W 35–10 vs MIN · Nov 22",
+        "W 46–40 at DAL · Nov 15",
+        "W 38–17 vs LV · Nov 8"
+      ],
+      "upcoming": [
+        "Sun Nov 29 vs SEA",
+        "Sun Dec 6 at NYG",
+        "Sun Dec 13 vs LAR"
+      ]
+    }
+  ],
+  "source_errors": [],
+  "usage": {
+    "input_tokens": 60824,
+    "output_tokens": 10309
+  },
+  "videos": [
+    {
+      "group": "News & Politics",
+      "items": [
+        {
+          "title": "How Corporations Gouge Consumers; Amazon's Fake Black Friday Discounts w/ Lindsay Owens | MR Live",
+          "url": "https://www.youtube.com/watch?v=JzDBB0LD26w",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Economist Lindsay Owens discusses her book Gouged on corporate pricing and new analysis finding Amazon Black Friday sales offered no real savings.",
+          "image": "https://i3.ytimg.com/vi/JzDBB0LD26w/hqdefault.jpg",
+          "video": "JzDBB0LD26w"
+        },
+        {
+          "title": "DeSantis’ Anti-Woke Laws & Tax Cuts Backfired On Florida",
+          "url": "https://www.youtube.com/watch?v=4UZwayHuEC8",
+          "source": "The Majority Report",
+          "topic": "News & Politics",
+          "note": "Commentary arguing that Florida's anti-woke laws and tax cuts have had negative effects, drawing on the state's policy record.",
+          "image": "https://i1.ytimg.com/vi/4UZwayHuEC8/hqdefault.jpg",
+          "video": "4UZwayHuEC8"
+        }
+      ]
+    },
+    {
+      "group": "Sports",
+      "items": [
+        {
+          "title": "Shanahan Addresses Purdy’s Ankle, Mac Jones Set for First Start | 49ers",
+          "url": "https://www.youtube.com/watch?v=dePh1sl2BGo",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers coach Kyle Shanahan addresses QB Brock Purdy's ankle sprain and the team's plan with Mac Jones starting against Seattle.",
+          "image": "https://i1.ytimg.com/vi/dePh1sl2BGo/hqdefault.jpg",
+          "video": "dePh1sl2BGo"
+        },
+        {
+          "title": "49ers Vault: Niners Thanksgiving Day vs. the Seahawks (2023)",
+          "url": "https://www.youtube.com/watch?v=u__mlUbmO8s",
+          "source": "San Francisco 49ers",
+          "topic": "Sports",
+          "note": "49ers Vault look back at the team's 2023 Thanksgiving celebration in Seattle after beating the Seahawks.",
+          "image": "https://i2.ytimg.com/vi/u__mlUbmO8s/hqdefault.jpg",
+          "video": "u__mlUbmO8s"
+        },
+        {
+          "title": "GREATEST FINAL ROUND COMEBACKS IN UFC HISTORY",
+          "url": "https://www.youtube.com/watch?v=fKezOHmRC1E",
+          "source": "UFC",
+          "topic": "Sports",
+          "note": "A compilation of UFC fights where fighters came back from behind in the final round to win.",
+          "image": "https://i3.ytimg.com/vi/fKezOHmRC1E/hqdefault.jpg",
+          "video": "fKezOHmRC1E"
+        },
+        {
+          "title": "How the Steelers Run Game Can Cause Major Issues for Broncos",
+          "url": "https://www.youtube.com/watch?v=qjOJvLexUSY",
+          "source": "The Athletic Football Show",
+          "topic": "Sports",
+          "note": "Breakdown of how the Pittsburgh Steelers' run game could exploit the Denver Broncos' struggles against the run this season.",
+          "image": "https://i2.ytimg.com/vi/qjOJvLexUSY/hqdefault.jpg",
+          "video": "qjOJvLexUSY"
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Building",
+      "items": [
+        {
+          "title": "Construction Project Scheduling: The Complete Guide",
+          "url": "https://www.youtube.com/watch?v=a2KgcuKIJdI",
+          "source": "Tim Fairley (ConstructIQ)",
+          "topic": "Architecture & Building",
+          "note": "A walkthrough of building a construction schedule for a warehouse project, covering how schedules are built and run, with downloadable slides and examples.",
+          "image": "https://i2.ytimg.com/vi/a2KgcuKIJdI/hqdefault.jpg",
+          "video": "a2KgcuKIJdI"
+        }
+      ]
+    },
+    {
+      "group": "Tech & Science",
+      "items": [
+        {
+          "title": "Mysterious Caves Plagued by Cannibalism and Ancient Remains! | Underground Marvels | Science Channel",
+          "url": "https://www.youtube.com/watch?v=Au8BFtsioVM",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel episode on a cave system with some of the oldest human remains found, with evidence of cannibalism among Ice Age people.",
+          "image": "https://i2.ytimg.com/vi/Au8BFtsioVM/hqdefault.jpg",
+          "video": "Au8BFtsioVM"
+        },
+        {
+          "title": "The Oldest Discoveries from Season 2 🧊🦣 Secrets in the Sand | Science Channel",
+          "url": "https://www.youtube.com/watch?v=3mzy41ufN-M",
+          "source": "Science Channel",
+          "topic": "Tech & Science",
+          "note": "Science Channel highlights of archaeology discoveries from season 2, including a 4,700-year-old tavern in Iraq and Ice Age footprints in White Sands.",
+          "image": "https://i4.ytimg.com/vi/3mzy41ufN-M/hqdefault.jpg",
+          "video": "3mzy41ufN-M"
+        },
+        {
+          "title": "I Caught Lightning in a Bottle",
+          "url": "https://www.youtube.com/watch?v=cmGMlzXlbUQ",
+          "source": "Mark Rober",
+          "topic": "Tech & Science",
+          "note": "Mark Rober video about engineering experiments and lightning, with a Black Friday promo for his kits mentioned in the description.",
+          "image": "https://i4.ytimg.com/vi/cmGMlzXlbUQ/hqdefault.jpg",
+          "video": "cmGMlzXlbUQ"
+        }
+      ]
+    }
+  ]
+}
